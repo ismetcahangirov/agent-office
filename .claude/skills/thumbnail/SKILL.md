@@ -40,7 +40,7 @@ thumb/cover.png       9:16 variant (Shorts/TikTok/IG cover, lazım olsa)
 - limit bitəndə dayanırsan və sahibə bildirirsən;
 - hesablar arasında özün keçid etmirsən.
 
-1. Epizodun ChatGPT söhbəti açıqdırsa, orada davam et. Yoxdursa, yeni söhbət aç və birinci mesajda referans şəkli (`content/character/reference.jpg`) və stil prompt-unu göndər.
+1. Epizodun ChatGPT söhbəti açıqdırsa, orada davam et. Yoxdursa, yeni söhbət aç və birinci mesajda referans şəkli (`content/character/reference.png`) və stil prompt-unu göndər.
 2. THUMBNAILS.md-dəki poza şablonunu doldurub göndər. Parıltı rəngi seçilmiş rəngdir, fon **tünd qara**dır.
 3. Endir: `/video` 5-ci addımdakı JS ilə, fayl adı `thumbpose.png`. Sonra `tools/video/.venv/Scripts/python tools/video/take_download.py <qovluq> thumbpose` və nəticəni `thumb/pose-raw.png`-ə köçür.
 4. `Read` ilə yoxla:

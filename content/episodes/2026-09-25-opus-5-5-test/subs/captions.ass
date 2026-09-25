@@ -1,0 +1,267 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Arial,56,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,1,0,0,0,100,100,1,0,1,4,2,2,80,80,70,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.21,Cap,,0,0,0,,{\c&H0048D98A&}Anthropic says Opus 5.5 is forty percent
+Dialogue: 0,0:00:03.21,0:00:03.83,Cap,,0,0,0,,{\c&H0048D98A&}cheaper.
+Dialogue: 0,0:00:03.89,0:00:04.84,Cap,,0,0,0,,{\c&H0048D98A&}I checked the bill.
+Dialogue: 0,0:00:05.03,0:00:07.25,Cap,,0,0,0,,{\c&H00FFFFFF&}KAXO's company is staffed entirely by
+Dialogue: 0,0:00:07.25,0:00:08.08,Cap,,0,0,0,,{\c&H00FFFFFF&}Claude agents.
+Dialogue: 0,0:00:08.16,0:00:11.18,Cap,,0,0,0,,{\c&H00FFFFFF&}Anthropic released Opus 5.5, and KAXO had
+Dialogue: 0,0:00:11.18,0:00:12.14,Cap,,0,0,0,,{\c&H00FFFFFF&}one question.
+Dialogue: 0,0:00:12.33,0:00:13.65,Cap,,0,0,0,,{\c&H0048D98A&}Is it worth the upgrade?
+Dialogue: 0,0:00:13.75,0:00:15.37,Cap,,0,0,0,,{\c&H0048D98A&}Or is it just a bigger number?
+Dialogue: 0,0:00:15.55,0:00:17.24,Cap,,0,0,0,,{\c&H00FFFFFF&}So his employees ran the test for
+Dialogue: 0,0:00:17.24,0:00:17.45,Cap,,0,0,0,,{\c&H00FFFFFF&}him.
+Dialogue: 0,0:00:17.58,0:00:19.76,Cap,,0,0,0,,{\c&H00FFFFFF&}Opus 5 and Opus 5.5 got the
+Dialogue: 0,0:00:19.76,0:00:20.91,Cap,,0,0,0,,{\c&H00FFFFFF&}exact same job.
+Dialogue: 0,0:00:20.99,0:00:23.34,Cap,,0,0,0,,{\c&H00FFFFFF&}Same instructions, same data, same hidden
+Dialogue: 0,0:00:23.34,0:00:24.42,Cap,,0,0,0,,{\c&H00FFFFFF&}tests at the end.
+Dialogue: 0,0:00:24.61,0:00:25.62,Cap,,0,0,0,,{\c&H0048D98A&}I'll make the call.
+Dialogue: 0,0:00:25.68,0:00:27.38,Cap,,0,0,0,,{\c&H0048D98A&}Right after someone makes it for me.
+Dialogue: 0,0:00:27.52,0:00:29.37,Cap,,0,0,0,,{\c&H00FFFFFF&}We timed both runs to the second.
+Dialogue: 0,0:00:29.50,0:00:31.41,Cap,,0,0,0,,{\c&H00FFFFFF&}One finished five times faster than the
+Dialogue: 0,0:00:31.41,0:00:31.69,Cap,,0,0,0,,{\c&H00FFFFFF&}other.
+Dialogue: 0,0:00:31.83,0:00:32.86,Cap,,0,0,0,,{\c&H0048D98A&}Five times.
+Dialogue: 0,0:00:32.92,0:00:33.94,Cap,,0,0,0,,{\c&H0048D98A&}Somebody checked.
+Dialogue: 0,0:00:34.00,0:00:34.77,Cap,,0,0,0,,{\c&H0048D98A&}Not me.
+Dialogue: 0,0:00:34.96,0:00:36.91,Cap,,0,0,0,,{\c&H00FFFFFF&}We also pulled each run's cost from
+Dialogue: 0,0:00:36.91,0:00:37.42,Cap,,0,0,0,,{\c&H00FFFFFF&}the logs.
+Dialogue: 0,0:00:37.50,0:00:39.19,Cap,,0,0,0,,{\c&H00FFFFFF&}Anthropic's number is forty.
+Dialogue: 0,0:00:39.25,0:00:40.09,Cap,,0,0,0,,{\c&H00FFFFFF&}We got our own.
+Dialogue: 0,0:00:40.22,0:00:41.87,Cap,,0,0,0,,{\c&H00FFFFFF&}And the slower model did something the
+Dialogue: 0,0:00:41.87,0:00:42.59,Cap,,0,0,0,,{\c&H00FFFFFF&}fast one skipped.
+Dialogue: 0,0:00:42.73,0:00:44.00,Cap,,0,0,0,,{\c&H0048D98A&}My verdict's at the end.
+Dialogue: 0,0:00:44.06,0:00:45.23,Cap,,0,0,0,,{\c&H0048D98A&}It's my only job.
+Dialogue: 0,0:00:45.42,0:00:47.52,Cap,,0,0,0,,{\c&H00FFFFFF&}Both built this: a dashboard of KAXO's
+Dialogue: 0,0:00:47.52,0:00:48.19,Cap,,0,0,0,,{\c&H00FFFFFF&}own company.
+Dialogue: 0,0:00:48.33,0:00:50.19,Cap,,0,0,0,,{\c&H0048D98A&}It's mostly charts of other people
+Dialogue: 0,0:00:50.19,0:00:50.61,Cap,,0,0,0,,{\c&H0048D98A&}working.
+Dialogue: 0,0:00:50.80,0:00:52.77,Cap,,0,0,0,,{\c&H00FFFFFF&}Before any testing, here's Anthropic's
+Dialogue: 0,0:00:52.77,0:00:53.69,Cap,,0,0,0,,{\c&H00FFFFFF&}official promise.
+Dialogue: 0,0:00:53.77,0:00:55.82,Cap,,0,0,0,,{\c&H00FFFFFF&}The token price drops twenty percent.
+Dialogue: 0,0:00:55.96,0:00:57.13,Cap,,0,0,0,,{\c&H0048D98A&}Cheaper employees.
+Dialogue: 0,0:00:57.19,0:00:58.46,Cap,,0,0,0,,{\c&H0048D98A&}My favorite kind.
+Dialogue: 0,0:00:58.65,0:01:00.93,Cap,,0,0,0,,{\c&H00FFFFFF&}Input goes from five dollars per million
+Dialogue: 0,0:01:00.93,0:01:01.79,Cap,,0,0,0,,{\c&H00FFFFFF&}tokens to four.
+Dialogue: 0,0:01:01.87,0:01:04.18,Cap,,0,0,0,,{\c&H00FFFFFF&}Output drops from twenty-five dollars to
+Dialogue: 0,0:01:04.18,0:01:04.58,Cap,,0,0,0,,{\c&H00FFFFFF&}twenty.
+Dialogue: 0,0:01:04.71,0:01:06.81,Cap,,0,0,0,,{\c&H00FFFFFF&}Cached reads get sixty percent cheaper.
+Dialogue: 0,0:01:06.89,0:01:09.00,Cap,,0,0,0,,{\c&H00FFFFFF&}And on typical workloads, they say forty
+Dialogue: 0,0:01:09.00,0:01:10.22,Cap,,0,0,0,,{\c&H00FFFFFF&}percent cheaper overall.
+Dialogue: 0,0:01:10.41,0:01:12.40,Cap,,0,0,0,,{\c&H0048D98A&}Twenty percent off, then forty percent
+Dialogue: 0,0:01:12.40,0:01:12.63,Cap,,0,0,0,,{\c&H0048D98A&}off.
+Dialogue: 0,0:01:12.71,0:01:13.74,Cap,,0,0,0,,{\c&H0048D98A&}I did the math.
+Dialogue: 0,0:01:13.80,0:01:15.61,Cap,,0,0,0,,{\c&H0048D98A&}Everything's basically free now.
+Dialogue: 0,0:01:15.80,0:01:16.45,Cap,,0,0,0,,{\c&H00FFFFFF&}They don't stack.
+Dialogue: 0,0:01:16.53,0:01:18.55,Cap,,0,0,0,,{\c&H00FFFFFF&}The forty is their estimate for typical
+Dialogue: 0,0:01:18.55,0:01:18.81,Cap,,0,0,0,,{\c&H00FFFFFF&}work.
+Dialogue: 0,0:01:18.89,0:01:21.17,Cap,,0,0,0,,{\c&H00FFFFFF&}Nobody's giving KAXO anything for free.
+Dialogue: 0,0:01:21.36,0:01:21.97,Cap,,0,0,0,,{\c&H0048D98A&}Rude.
+Dialogue: 0,0:01:22.11,0:01:24.40,Cap,,0,0,0,,{\c&H00FFFFFF&}Output should also be over thirty percent
+Dialogue: 0,0:01:24.40,0:01:24.77,Cap,,0,0,0,,{\c&H00FFFFFF&}faster.
+Dialogue: 0,0:01:24.85,0:01:27.41,Cap,,0,0,0,,{\c&H00FFFFFF&}On Terminal-Bench 4.0, the score jumps
+Dialogue: 0,0:01:27.41,0:01:29.24,Cap,,0,0,0,,{\c&H00FFFFFF&}from fifty-two to sixty-six.
+Dialogue: 0,0:01:29.37,0:01:31.82,Cap,,0,0,0,,{\c&H00FFFFFF&}OSWorld goes from seventy-four to almost
+Dialogue: 0,0:01:31.82,0:01:32.41,Cap,,0,0,0,,{\c&H00FFFFFF&}eighty-two.
+Dialogue: 0,0:01:32.49,0:01:34.64,Cap,,0,0,0,,{\c&H00FFFFFF&}Those numbers come from Anthropic's own
+Dialogue: 0,0:01:34.64,0:01:34.93,Cap,,0,0,0,,{\c&H00FFFFFF&}page.
+Dialogue: 0,0:01:35.07,0:01:36.81,Cap,,0,0,0,,{\c&H0048D98A&}Benchmarks are job interviews.
+Dialogue: 0,0:01:36.87,0:01:38.71,Cap,,0,0,0,,{\c&H0048D98A&}Everyone's great at interviews.
+Dialogue: 0,0:01:38.90,0:01:40.87,Cap,,0,0,0,,{\c&H00FFFFFF&}Here's the catch with price per token.
+Dialogue: 0,0:01:40.95,0:01:43.03,Cap,,0,0,0,,{\c&H00FFFFFF&}A job can take ten thousand tokens,
+Dialogue: 0,0:01:43.03,0:01:43.82,Cap,,0,0,0,,{\c&H00FFFFFF&}or a million.
+Dialogue: 0,0:01:43.95,0:01:45.76,Cap,,0,0,0,,{\c&H00FFFFFF&}Price per finished job is what you
+Dialogue: 0,0:01:45.76,0:01:46.41,Cap,,0,0,0,,{\c&H00FFFFFF&}actually pay.
+Dialogue: 0,0:01:46.55,0:01:48.27,Cap,,0,0,0,,{\c&H0048D98A&}So I wanted a real job.
+Dialogue: 0,0:01:48.33,0:01:49.54,Cap,,0,0,0,,{\c&H0048D98A&}And a real receipt.
+Dialogue: 0,0:01:49.73,0:01:51.88,Cap,,0,0,0,,{\c&H00FFFFFF&}The job came from KAXO's real office.
+Dialogue: 0,0:01:51.96,0:01:53.77,Cap,,0,0,0,,{\c&H00FFFFFF&}Every time an agent there uses a
+Dialogue: 0,0:01:53.77,0:01:54.86,Cap,,0,0,0,,{\c&H00FFFFFF&}tool, it gets logged.
+Dialogue: 0,0:01:54.99,0:01:57.01,Cap,,0,0,0,,{\c&H00FFFFFF&}That log had ninety-six events in it.
+Dialogue: 0,0:01:57.15,0:01:57.95,Cap,,0,0,0,,{\c&H0048D98A&}Ninety-six.
+Dialogue: 0,0:01:58.01,0:01:59.16,Cap,,0,0,0,,{\c&H0048D98A&}Way too long to read.
+Dialogue: 0,0:01:59.35,0:02:01.34,Cap,,0,0,0,,{\c&H00FFFFFF&}The task: turn that log into a
+Dialogue: 0,0:02:01.34,0:02:03.07,Cap,,0,0,0,,{\c&H00FFFFFF&}dashboard, in one HTML file.
+Dialogue: 0,0:02:03.15,0:02:05.39,Cap,,0,0,0,,{\c&H00FFFFFF&}No libraries, no internet, dark theme.
+Dialogue: 0,0:02:05.52,0:02:07.19,Cap,,0,0,0,,{\c&H00FFFFFF&}It gets screenshotted, so it has to
+Dialogue: 0,0:02:07.19,0:02:07.67,Cap,,0,0,0,,{\c&H00FFFFFF&}look good.
+Dialogue: 0,0:02:07.81,0:02:09.77,Cap,,0,0,0,,{\c&H0048D98A&}Looking good is also my whole job.
+Dialogue: 0,0:02:09.96,0:02:11.94,Cap,,0,0,0,,{\c&H00FFFFFF&}The page needs events, tool calls,
+Dialogue: 0,0:02:11.94,0:02:14.28,Cap,,0,0,0,,{\c&H00FFFFFF&}sessions, subagents, and the busiest hour.
+Dialogue: 0,0:02:14.36,0:02:16.09,Cap,,0,0,0,,{\c&H00FFFFFF&}Plus a sorted tool table and a
+Dialogue: 0,0:02:16.09,0:02:16.64,Cap,,0,0,0,,{\c&H00FFFFFF&}bar chart.
+Dialogue: 0,0:02:16.77,0:02:18.73,Cap,,0,0,0,,{\c&H00FFFFFF&}One more number: KAXO's productivity,
+Dialogue: 0,0:02:18.73,0:02:20.73,Cap,,0,0,0,,{\c&H00FFFFFF&}fixed by the spec at zero percent.
+Dialogue: 0,0:02:20.87,0:02:22.93,Cap,,0,0,0,,{\c&H0048D98A&}Finally, a metric that's accurate.
+Dialogue: 0,0:02:23.12,0:02:25.24,Cap,,0,0,0,,{\c&H00FFFFFF&}Then the important part: hidden tests.
+Dialogue: 0,0:02:25.32,0:02:27.09,Cap,,0,0,0,,{\c&H00FFFFFF&}They knew they'd be tested, but never
+Dialogue: 0,0:02:27.09,0:02:27.50,Cap,,0,0,0,,{\c&H00FFFFFF&}saw how.
+Dialogue: 0,0:02:27.64,0:02:28.86,Cap,,0,0,0,,{\c&H0048D98A&}I love secrets.
+Dialogue: 0,0:02:28.92,0:02:29.88,Cap,,0,0,0,,{\c&H0048D98A&}Less talking.
+Dialogue: 0,0:02:30.07,0:02:32.10,Cap,,0,0,0,,{\c&H00FFFFFF&}Eighteen checks ran after both models
+Dialogue: 0,0:02:32.10,0:02:32.56,Cap,,0,0,0,,{\c&H00FFFFFF&}finished.
+Dialogue: 0,0:02:32.64,0:02:34.37,Cap,,0,0,0,,{\c&H00FFFFFF&}Some use the real log, others use
+Dialogue: 0,0:02:34.37,0:02:35.66,Cap,,0,0,0,,{\c&H00FFFFFF&}fake data built to break.
+Dialogue: 0,0:02:35.85,0:02:37.12,Cap,,0,0,0,,{\c&H0048D98A&}Built to break things.
+Dialogue: 0,0:02:37.18,0:02:38.19,Cap,,0,0,0,,{\c&H0048D98A&}My kind of data.
+Dialogue: 0,0:02:38.33,0:02:39.81,Cap,,0,0,0,,{\c&H00FFFFFF&}One warning before the race.
+Dialogue: 0,0:02:39.94,0:02:41.91,Cap,,0,0,0,,{\c&H00FFFFFF&}It's one task, run once per model,
+Dialogue: 0,0:02:41.91,0:02:42.87,Cap,,0,0,0,,{\c&H00FFFFFF&}not a benchmark.
+Dialogue: 0,0:02:42.95,0:02:45.00,Cap,,0,0,0,,{\c&H00FFFFFF&}Both ran in Claude Code, on default
+Dialogue: 0,0:02:45.00,0:02:45.49,Cap,,0,0,0,,{\c&H00FFFFFF&}settings.
+Dialogue: 0,0:02:45.68,0:02:47.06,Cap,,0,0,0,,{\c&H0048D98A&}One roll of the dice.
+Dialogue: 0,0:02:47.12,0:02:49.02,Cap,,0,0,0,,{\c&H0048D98A&}Like most of my business decisions.
+Dialogue: 0,0:02:49.21,0:02:51.05,Cap,,0,0,0,,{\c&H00FFFFFF&}They started at the same moment, in
+Dialogue: 0,0:02:51.05,0:02:51.88,Cap,,0,0,0,,{\c&H00FFFFFF&}separate folders.
+Dialogue: 0,0:02:51.96,0:02:54.08,Cap,,0,0,0,,{\c&H00FFFFFF&}Opus 5.5 read the spec, wrote the
+Dialogue: 0,0:02:54.08,0:02:55.93,Cap,,0,0,0,,{\c&H00FFFFFF&}page, and checked the numbers.
+Dialogue: 0,0:02:56.06,0:02:57.59,Cap,,0,0,0,,{\c&H00FFFFFF&}Fifty-three seconds, done.
+Dialogue: 0,0:02:57.73,0:03:00.06,Cap,,0,0,0,,{\c&H0048D98A&}I can't pick lunch in fifty-three seconds.
+Dialogue: 0,0:03:00.25,0:03:02.53,Cap,,0,0,0,,{\c&H00FFFFFF&}This is the actual code Opus 5.5
+Dialogue: 0,0:03:02.53,0:03:02.94,Cap,,0,0,0,,{\c&H00FFFFFF&}wrote.
+Dialogue: 0,0:03:03.02,0:03:04.27,Cap,,0,0,0,,{\c&H00FFFFFF&}Five steps in total.
+Dialogue: 0,0:03:04.40,0:03:06.54,Cap,,0,0,0,,{\c&H00FFFFFF&}Meanwhile, Opus 5 was still going.
+Dialogue: 0,0:03:06.68,0:03:08.00,Cap,,0,0,0,,{\c&H0048D98A&}I started a stopwatch.
+Dialogue: 0,0:03:08.06,0:03:09.55,Cap,,0,0,0,,{\c&H0048D98A&}That was my contribution.
+Dialogue: 0,0:03:09.74,0:03:11.67,Cap,,0,0,0,,{\c&H00FFFFFF&}This run would take thirty-one steps.
+Dialogue: 0,0:03:11.75,0:03:13.50,Cap,,0,0,0,,{\c&H00FFFFFF&}It wrote the page, then opened it
+Dialogue: 0,0:03:13.50,0:03:14.20,Cap,,0,0,0,,{\c&H00FFFFFF&}in a browser.
+Dialogue: 0,0:03:14.33,0:03:16.18,Cap,,0,0,0,,{\c&H00FFFFFF&}Then it tested four edge cases of
+Dialogue: 0,0:03:16.18,0:03:16.63,Cap,,0,0,0,,{\c&H00FFFFFF&}its own.
+Dialogue: 0,0:03:16.77,0:03:17.85,Cap,,0,0,0,,{\c&H0048D98A&}Checking your own work.
+Dialogue: 0,0:03:17.91,0:03:18.58,Cap,,0,0,0,,{\c&H0048D98A&}Bold move.
+Dialogue: 0,0:03:18.77,0:03:20.78,Cap,,0,0,0,,{\c&H00FFFFFF&}Four minutes and twenty-five seconds after
+Dialogue: 0,0:03:20.78,0:03:21.87,Cap,,0,0,0,,{\c&H00FFFFFF&}the start, it finished.
+Dialogue: 0,0:03:22.06,0:03:23.56,Cap,,0,0,0,,{\c&H0048D98A&}I napped through most of it.
+Dialogue: 0,0:03:23.70,0:03:25.06,Cap,,0,0,0,,{\c&H00FFFFFF&}Here's where the gap came from.
+Dialogue: 0,0:03:25.19,0:03:27.37,Cap,,0,0,0,,{\c&H00FFFFFF&}Every step, the model rereads its whole
+Dialogue: 0,0:03:27.37,0:03:27.80,Cap,,0,0,0,,{\c&H00FFFFFF&}context.
+Dialogue: 0,0:03:27.88,0:03:29.77,Cap,,0,0,0,,{\c&H00FFFFFF&}More steps means more rereading, and
+Dialogue: 0,0:03:29.77,0:03:30.89,Cap,,0,0,0,,{\c&H00FFFFFF&}rereading costs money.
+Dialogue: 0,0:03:31.02,0:03:33.37,Cap,,0,0,0,,{\c&H00FFFFFF&}Opus 5 reread about one point three
+Dialogue: 0,0:03:33.37,0:03:34.74,Cap,,0,0,0,,{\c&H00FFFFFF&}million cached tokens.
+Dialogue: 0,0:03:34.88,0:03:36.21,Cap,,0,0,0,,{\c&H0048D98A&}One point three million.
+Dialogue: 0,0:03:36.27,0:03:37.52,Cap,,0,0,0,,{\c&H0048D98A&}I've read maybe four.
+Dialogue: 0,0:03:37.71,0:03:39.88,Cap,,0,0,0,,{\c&H00FFFFFF&}Opus 5.5 reread about a hundred and
+Dialogue: 0,0:03:39.88,0:03:41.06,Cap,,0,0,0,,{\c&H00FFFFFF&}twenty-eight thousand.
+Dialogue: 0,0:03:41.14,0:03:42.60,Cap,,0,0,0,,{\c&H00FFFFFF&}Roughly ten times less.
+Dialogue: 0,0:03:42.68,0:03:45.06,Cap,,0,0,0,,{\c&H00FFFFFF&}Fewer steps, fewer rereads, smaller bill.
+Dialogue: 0,0:03:45.25,0:03:47.52,Cap,,0,0,0,,{\c&H0048D98A&}One reads the manual every single step.
+Dialogue: 0,0:03:47.60,0:03:48.55,Cap,,0,0,0,,{\c&H0048D98A&}The other skims.
+Dialogue: 0,0:03:48.61,0:03:49.57,Cap,,0,0,0,,{\c&H0048D98A&}I respect that.
+Dialogue: 0,0:03:49.76,0:03:51.10,Cap,,0,0,0,,{\c&H00FFFFFF&}Now, the hidden tests.
+Dialogue: 0,0:03:51.18,0:03:53.37,Cap,,0,0,0,,{\c&H00FFFFFF&}Opus 5 passed eighteen out of eighteen.
+Dialogue: 0,0:03:53.45,0:03:54.91,Cap,,0,0,0,,{\c&H00FFFFFF&}And Opus 5.5?
+Dialogue: 0,0:03:55.01,0:03:56.69,Cap,,0,0,0,,{\c&H00FFFFFF&}Also eighteen out of eighteen.
+Dialogue: 0,0:03:56.88,0:03:58.60,Cap,,0,0,0,,{\c&H0048D98A&}Perfect scores, both of them.
+Dialogue: 0,0:03:58.66,0:03:59.97,Cap,,0,0,0,,{\c&H0048D98A&}So nobody's fired.
+Dialogue: 0,0:04:00.05,0:04:01.59,Cap,,0,0,0,,{\c&H0048D98A&}I was ready to fire someone.
+Dialogue: 0,0:04:01.65,0:04:02.33,Cap,,0,0,0,,{\c&H0048D98A&}Mentally.
+Dialogue: 0,0:04:02.52,0:04:04.72,Cap,,0,0,0,,{\c&H00FFFFFF&}The real numbers matched on both pages.
+Dialogue: 0,0:04:04.80,0:04:06.99,Cap,,0,0,0,,{\c&H00FFFFFF&}Ninety-six events, seventy tool calls,
+Dialogue: 0,0:04:06.99,0:04:07.84,Cap,,0,0,0,,{\c&H00FFFFFF&}five sessions.
+Dialogue: 0,0:04:07.92,0:04:10.09,Cap,,0,0,0,,{\c&H00FFFFFF&}And KAXO's productivity, correctly, at
+Dialogue: 0,0:04:10.09,0:04:10.89,Cap,,0,0,0,,{\c&H00FFFFFF&}zero percent.
+Dialogue: 0,0:04:11.08,0:04:11.73,Cap,,0,0,0,,{\c&H0048D98A&}Correctly.
+Dialogue: 0,0:04:11.79,0:04:12.34,Cap,,0,0,0,,{\c&H0048D98A&}Twice.
+Dialogue: 0,0:04:12.48,0:04:13.22,Cap,,0,0,0,,{\c&H00FFFFFF&}Then, the bill.
+Dialogue: 0,0:04:13.30,0:04:15.40,Cap,,0,0,0,,{\c&H00FFFFFF&}Claude Code logs what each run would
+Dialogue: 0,0:04:15.40,0:04:16.36,Cap,,0,0,0,,{\c&H00FFFFFF&}cost on the API.
+Dialogue: 0,0:04:16.49,0:04:18.76,Cap,,0,0,0,,{\c&H00FFFFFF&}For Opus 5, about a dollar forty-five.
+Dialogue: 0,0:04:18.84,0:04:21.49,Cap,,0,0,0,,{\c&H00FFFFFF&}Opus 5.5 came to twenty-seven cents.
+Dialogue: 0,0:04:21.68,0:04:22.92,Cap,,0,0,0,,{\c&H0048D98A&}Twenty-seven cents.
+Dialogue: 0,0:04:22.98,0:04:24.56,Cap,,0,0,0,,{\c&H0048D98A&}I've lost more in the couch.
+Dialogue: 0,0:04:24.70,0:04:26.32,Cap,,0,0,0,,{\c&H00FFFFFF&}That's eighty-one percent cheaper.
+Dialogue: 0,0:04:26.38,0:04:27.84,Cap,,0,0,0,,{\c&H00FFFFFF&}Anthropic said forty.
+Dialogue: 0,0:04:27.97,0:04:29.72,Cap,,0,0,0,,{\c&H00FFFFFF&}We ran it on a subscription, so
+Dialogue: 0,0:04:29.72,0:04:31.29,Cap,,0,0,0,,{\c&H00FFFFFF&}no extra money changed hands.
+Dialogue: 0,0:04:31.43,0:04:32.54,Cap,,0,0,0,,{\c&H0048D98A&}Zero extra.
+Dialogue: 0,0:04:32.60,0:04:34.04,Cap,,0,0,0,,{\c&H0048D98A&}My favorite price.
+Dialogue: 0,0:04:34.23,0:04:35.72,Cap,,0,0,0,,{\c&H00FFFFFF&}Our gap is bigger than the claim,
+Dialogue: 0,0:04:35.72,0:04:36.47,Cap,,0,0,0,,{\c&H00FFFFFF&}and it's one run.
+Dialogue: 0,0:04:36.55,0:04:39.30,Cap,,0,0,0,,{\c&H00FFFFFF&}Opus 5.5 took six times fewer steps.
+Dialogue: 0,0:04:39.43,0:04:40.39,Cap,,0,0,0,,{\c&H00FFFFFF&}That's the difference.
+Dialogue: 0,0:04:40.47,0:04:41.99,Cap,,0,0,0,,{\c&H00FFFFFF&}A different task could look very
+Dialogue: 0,0:04:41.99,0:04:42.42,Cap,,0,0,0,,{\c&H00FFFFFF&}different.
+Dialogue: 0,0:04:42.56,0:04:43.10,Cap,,0,0,0,,{\c&H0048D98A&}Fine.
+Dialogue: 0,0:04:43.16,0:04:44.47,Cap,,0,0,0,,{\c&H0048D98A&}Now the pretty part.
+Dialogue: 0,0:04:44.61,0:04:46.53,Cap,,0,0,0,,{\c&H00FFFFFF&}Tests can't measure how a page looks.
+Dialogue: 0,0:04:46.66,0:04:48.57,Cap,,0,0,0,,{\c&H00FFFFFF&}Opus 5 filled the whole screen.
+Dialogue: 0,0:04:48.65,0:04:51.13,Cap,,0,0,0,,{\c&H00FFFFFF&}Vertical bars, value labels, tiny bars
+Dialogue: 0,0:04:51.13,0:04:52.29,Cap,,0,0,0,,{\c&H00FFFFFF&}inside the table.
+Dialogue: 0,0:04:52.43,0:04:53.07,Cap,,0,0,0,,{\c&H0048D98A&}Fancy.
+Dialogue: 0,0:04:53.26,0:04:55.83,Cap,,0,0,0,,{\c&H00FFFFFF&}Opus 5.5 went clean and readable, with
+Dialogue: 0,0:04:55.83,0:04:56.88,Cap,,0,0,0,,{\c&H00FFFFFF&}a share column.
+Dialogue: 0,0:04:56.96,0:04:58.86,Cap,,0,0,0,,{\c&H00FFFFFF&}But half its chart panel sits empty.
+Dialogue: 0,0:04:58.99,0:05:00.79,Cap,,0,0,0,,{\c&H00FFFFFF&}About a hundred and ten pixels sit
+Dialogue: 0,0:05:00.79,0:05:01.81,Cap,,0,0,0,,{\c&H00FFFFFF&}blank at the bottom.
+Dialogue: 0,0:05:01.95,0:05:03.42,Cap,,0,0,0,,{\c&H0048D98A&}I'd have given both a ten.
+Dialogue: 0,0:05:03.48,0:05:04.03,Cap,,0,0,0,,{\c&H0048D98A&}Didn't look.
+Dialogue: 0,0:05:04.22,0:05:05.63,Cap,,0,0,0,,{\c&H00FFFFFF&}Our QA agent did look.
+Dialogue: 0,0:05:05.71,0:05:07.97,Cap,,0,0,0,,{\c&H00FFFFFF&}Nine out of ten for Opus 5,
+Dialogue: 0,0:05:07.97,0:05:09.43,Cap,,0,0,0,,{\c&H00FFFFFF&}seven for Opus 5.5.
+Dialogue: 0,0:05:09.57,0:05:10.07,Cap,,0,0,0,,{\c&H0048D98A&}Harsh.
+Dialogue: 0,0:05:10.13,0:05:11.38,Cap,,0,0,0,,{\c&H0048D98A&}Accurate, but harsh.
+Dialogue: 0,0:05:11.57,0:05:12.64,Cap,,0,0,0,,{\c&H00FFFFFF&}One more difference.
+Dialogue: 0,0:05:12.72,0:05:15.02,Cap,,0,0,0,,{\c&H00FFFFFF&}Opus 5.5 never opened its page in
+Dialogue: 0,0:05:15.02,0:05:15.71,Cap,,0,0,0,,{\c&H00FFFFFF&}a browser.
+Dialogue: 0,0:05:15.84,0:05:17.48,Cap,,0,0,0,,{\c&H00FFFFFF&}It checked the numbers with a script
+Dialogue: 0,0:05:17.48,0:05:18.34,Cap,,0,0,0,,{\c&H00FFFFFF&}and called it done.
+Dialogue: 0,0:05:18.42,0:05:19.76,Cap,,0,0,0,,{\c&H00FFFFFF&}And it said so openly.
+Dialogue: 0,0:05:19.95,0:05:21.77,Cap,,0,0,0,,{\c&H0048D98A&}It skipped checking its own work.
+Dialogue: 0,0:05:21.97,0:05:23.54,Cap,,0,0,0,,{\c&H0048D98A&}I've never felt so seen.
+Dialogue: 0,0:05:23.73,0:05:25.80,Cap,,0,0,0,,{\c&H00FFFFFF&}QA also hunted for edge cases the
+Dialogue: 0,0:05:25.80,0:05:26.55,Cap,,0,0,0,,{\c&H00FFFFFF&}tests missed.
+Dialogue: 0,0:05:26.63,0:05:28.60,Cap,,0,0,0,,{\c&H00FFFFFF&}It found one in Opus 5.5.
+Dialogue: 0,0:05:28.79,0:05:30.08,Cap,,0,0,0,,{\c&H0048D98A&}The cheap one has a bug.
+Dialogue: 0,0:05:30.14,0:05:30.82,Cap,,0,0,0,,{\c&H0048D98A&}Shocking.
+Dialogue: 0,0:05:30.96,0:05:32.88,Cap,,0,0,0,,{\c&H00FFFFFF&}An empty tool name gets counted but
+Dialogue: 0,0:05:32.88,0:05:34.30,Cap,,0,0,0,,{\c&H00FFFFFF&}never appears in the table.
+Dialogue: 0,0:05:34.43,0:05:35.90,Cap,,0,0,0,,{\c&H00FFFFFF&}So the totals don't add up.
+Dialogue: 0,0:05:35.98,0:05:37.53,Cap,,0,0,0,,{\c&H00FFFFFF&}Opus 5 had one too.
+Dialogue: 0,0:05:37.61,0:05:39.79,Cap,,0,0,0,,{\c&H00FFFFFF&}With forty different tools, its side panel
+Dialogue: 0,0:05:39.79,0:05:40.64,Cap,,0,0,0,,{\c&H00FFFFFF&}runs off screen.
+Dialogue: 0,0:05:40.83,0:05:41.85,Cap,,0,0,0,,{\c&H0048D98A&}So, a tie.
+Dialogue: 0,0:05:41.91,0:05:42.85,Cap,,0,0,0,,{\c&H0048D98A&}In bugs too.
+Dialogue: 0,0:05:42.99,0:05:44.73,Cap,,0,0,0,,{\c&H00FFFFFF&}Neither case was in the real data.
+Dialogue: 0,0:05:44.86,0:05:46.84,Cap,,0,0,0,,{\c&H00FFFFFF&}Opus 5 checked its work, but left
+Dialogue: 0,0:05:46.84,0:05:47.68,Cap,,0,0,0,,{\c&H00FFFFFF&}a mess behind.
+Dialogue: 0,0:05:47.76,0:05:49.66,Cap,,0,0,0,,{\c&H00FFFFFF&}Draft scripts and screenshots stayed in
+Dialogue: 0,0:05:49.66,0:05:50.20,Cap,,0,0,0,,{\c&H00FFFFFF&}its folder.
+Dialogue: 0,0:05:50.33,0:05:51.98,Cap,,0,0,0,,{\c&H00FFFFFF&}To be fair, it wasn't allowed to
+Dialogue: 0,0:05:51.98,0:05:52.63,Cap,,0,0,0,,{\c&H00FFFFFF&}delete files.
+Dialogue: 0,0:05:52.77,0:05:54.19,Cap,,0,0,0,,{\c&H0048D98A&}Not allowed to clean up.
+Dialogue: 0,0:05:54.25,0:05:55.74,Cap,,0,0,0,,{\c&H0048D98A&}I use that excuse too.
+Dialogue: 0,0:05:55.93,0:05:57.53,Cap,,0,0,0,,{\c&H00FFFFFF&}KAXO, upgrade or not?
+Dialogue: 0,0:05:57.71,0:05:58.45,Cap,,0,0,0,,{\c&H0048D98A&}Upgrade.
+Dialogue: 0,0:05:58.51,0:06:00.62,Cap,,0,0,0,,{\c&H0048D98A&}Five times faster, for a fraction of
+Dialogue: 0,0:06:00.62,0:06:01.21,Cap,,0,0,0,,{\c&H0048D98A&}the price.
+Dialogue: 0,0:06:01.34,0:06:02.69,Cap,,0,0,0,,{\c&H0048D98A&}And the checking it skips?
+Dialogue: 0,0:06:02.79,0:06:04.22,Cap,,0,0,0,,{\c&H0048D98A&}QA does that anyway.
+Dialogue: 0,0:06:04.30,0:06:06.10,Cap,,0,0,0,,{\c&H0048D98A&}Fast worker, careful checker.
+Dialogue: 0,0:06:06.16,0:06:08.15,Cap,,0,0,0,,{\c&H0048D98A&}And me, supervising from the couch.
+Dialogue: 0,0:06:08.34,0:06:10.18,Cap,,0,0,0,,{\c&H00FFFFFF&}If looks are the whole job, Opus
+Dialogue: 0,0:06:10.18,0:06:11.64,Cap,,0,0,0,,{\c&H00FFFFFF&}5 earned its extra dollar.
+Dialogue: 0,0:06:11.77,0:06:13.48,Cap,,0,0,0,,{\c&H00FFFFFF&}Oh, and both were told to reply
+Dialogue: 0,0:06:13.48,0:06:14.15,Cap,,0,0,0,,{\c&H00FFFFFF&}in one line.
+Dialogue: 0,0:06:14.23,0:06:15.01,Cap,,0,0,0,,{\c&H00FFFFFF&}Neither did.
+Dialogue: 0,0:06:15.15,0:06:16.40,Cap,,0,0,0,,{\c&H0048D98A&}At least they reply.
+Dialogue: 0,0:06:16.46,0:06:17.05,Cap,,0,0,0,,{\c&H0048D98A&}I don't.
+Dialogue: 0,0:06:17.24,0:06:19.06,Cap,,0,0,0,,{\c&H00FFFFFF&}One job, one run: a data point,
+Dialogue: 0,0:06:19.06,0:06:19.72,Cap,,0,0,0,,{\c&H00FFFFFF&}not a law.
+Dialogue: 0,0:06:19.80,0:06:21.48,Cap,,0,0,0,,{\c&H00FFFFFF&}Every number's source, including
+Dialogue: 0,0:06:21.48,0:06:23.58,Cap,,0,0,0,,{\c&H00FFFFFF&}Anthropic's page, is in the description.
+Dialogue: 0,0:06:23.66,0:06:25.32,Cap,,0,0,0,,{\c&H00FFFFFF&}Want a rematch on a harder task?
+Dialogue: 0,0:06:25.42,0:06:26.67,Cap,,0,0,0,,{\c&H00FFFFFF&}Tell us in the comments.
+Dialogue: 0,0:06:26.81,0:06:29.01,Cap,,0,0,0,,{\c&H0048D98A&}Anthropic said forty percent cheaper.
+Dialogue: 0,0:06:29.09,0:06:31.09,Cap,,0,0,0,,{\c&H0048D98A&}My bill said eighty-one percent.
+Dialogue: 0,0:06:31.15,0:06:32.26,Cap,,0,0,0,,{\c&H0048D98A&}For one job.

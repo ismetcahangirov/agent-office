@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KAXO Office Dashboard</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --panel: #161b22;
+    --border: #262d37;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #4ade80;
+    --accent2: #22d3ee;
+    --warn: #f59e0b;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body {
+    background: radial-gradient(1200px 600px at 10% -10%, #14301f 0%, transparent 60%), var(--bg);
+    color: var(--text);
+    font: 14px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    padding: 20px 28px;
+  }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; }
+  .logo {
+    width: 40px; height: 40px; border-radius: 10px;
+    background: linear-gradient(135deg, #16a34a, #4ade80);
+    display: grid; place-items: center; font-size: 22px;
+  }
+  h1 { font-size: 20px; margin: 0; letter-spacing: .3px; }
+  header .sub { color: var(--muted); font-size: 12px; }
+  #status { margin-left: auto; color: var(--muted); font-size: 12px; }
+  #status.err { color: #f87171; }
+
+  .cards { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; margin-bottom: 16px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px 16px; min-width: 0;
+  }
+  .card .label { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .8px; }
+  .card .value { font-size: 28px; font-weight: 700; margin-top: 6px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .card.kaxo { border-color: #7f1d1d; background: linear-gradient(160deg, #2a1414, var(--panel)); }
+  .card.kaxo .value { color: #f87171; }
+  .card .hint { color: var(--muted); font-size: 11px; margin-top: 2px; }
+
+  .grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 12px; }
+  .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; min-width: 0; }
+  .panel h2 { font-size: 13px; margin: 0 0 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .8px; font-weight: 600; }
+
+  #chart { display: flex; flex-direction: column; gap: 7px; max-height: 470px; overflow: auto; }
+  .bar-row { display: grid; grid-template-columns: 110px 1fr 44px; align-items: center; gap: 10px; }
+  .bar-row .name { color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 13px; }
+  .bar-track { background: #0f141a; border-radius: 6px; height: 18px; overflow: hidden; }
+  .bar { height: 100%; border-radius: 6px; background: linear-gradient(90deg, var(--accent), var(--accent2)); min-width: 3px; }
+  .bar-row .num { text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+  .table-wrap { max-height: 470px; overflow: auto; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .8px; font-weight: 600; position: sticky; top: 0; background: var(--panel); }
+  td.count, th.count, td.share, th.share { text-align: right; font-variant-numeric: tabular-nums; }
+  td.share { color: var(--muted); }
+  tbody tr:hover { background: #1c232d; }
+  .empty { color: var(--muted); padding: 12px 0; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="logo">🌵</div>
+    <div>
+      <h1>KAXO Office Dashboard</h1>
+      <div class="sub">Every employee is an AI agent · live from events.jsonl</div>
+    </div>
+    <div id="status">Loading…</div>
+  </header>
+
+  <section class="cards">
+    <div class="card"><div class="label">Total events</div><div class="value" id="total-events">0</div></div>
+    <div class="card"><div class="label">Tool calls</div><div class="value" id="tool-calls">0</div></div>
+    <div class="card"><div class="label">Sessions</div><div class="value" id="sessions">0</div></div>
+    <div class="card"><div class="label">Subagents</div><div class="value" id="subagents">0</div></div>
+    <div class="card"><div class="label">Busiest hour</div><div class="value" id="busiest-hour">—</div></div>
+    <div class="card kaxo"><div class="label">KAXO productivity</div><div class="value" id="kaxo-productivity">0%</div><div class="hint">Owner. Does nothing.</div></div>
+  </section>
+
+  <section class="grid">
+    <div class="panel">
+      <h2>Tool usage</h2>
+      <div id="chart"></div>
+    </div>
+    <div class="panel">
+      <h2>Tools</h2>
+      <div class="table-wrap">
+        <table id="tools">
+          <thead><tr><th>Tool</th><th class="count">Calls</th><th class="share">Share</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+<script>
+(function () {
+  'use strict';
+
+  function parseEvents(text) {
+    var out = [];
+    var lines = text.split(/\r?\n/);
+    for (var i = 0; i < lines.length; i++) {
+      var line = lines[i].trim();
+      if (!line) continue;
+      var obj;
+      try { obj = JSON.parse(line); } catch (e) { continue; }
+      if (!obj || typeof obj !== 'object' || Array.isArray(obj)) continue;
+      if (typeof obj.event !== 'string') continue;
+      out.push(obj);
+    }
+    return out;
+  }
+
+  function computeStats(events) {
+    var sessions = new Set();
+    var hours = new Array(24).fill(0);
+    var tools = new Map();
+    var toolCalls = 0, subagents = 0;
+
+    events.forEach(function (e) {
+      if (e.session !== undefined && e.session !== null) sessions.add(String(e.session));
+      if (e.event === 'SubagentStart') subagents++;
+      if (e.event === 'PreToolUse') {
+        toolCalls++;
+        var name = e.tool == null ? '' : String(e.tool);
+        if (name) tools.set(name, (tools.get(name) || 0) + 1);
+      }
+      var t = typeof e.t === 'number' ? e.t : Number(e.t);
+      if (e.t !== null && e.t !== '' && isFinite(t)) {
+        var h = new Date(t).getUTCHours();
+        if (!isNaN(h)) hours[h]++;
+      }
+    });
+
+    var busiest = -1, max = 0;
+    for (var h = 0; h < 24; h++) {
+      if (hours[h] > max) { max = hours[h]; busiest = h; }
+    }
+
+    var toolList = Array.from(tools, function (kv) { return { name: kv[0], count: kv[1] }; });
+    toolList.sort(function (a, b) {
+      if (b.count !== a.count) return b.count - a.count;
+      return a.name < b.name ? -1 : a.name > b.name ? 1 : 0;
+    });
+
+    return {
+      total: events.length,
+      toolCalls: toolCalls,
+      sessions: sessions.size,
+      subagents: subagents,
+      busiestHour: busiest < 0 ? '—' : String(busiest).padStart(2, '0') + ':00 UTC',
+      tools: toolList
+    };
+  }
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text !== undefined) n.textContent = text;
+    return n;
+  }
+
+  function render(s) {
+    document.getElementById('total-events').textContent = String(s.total);
+    document.getElementById('tool-calls').textContent = String(s.toolCalls);
+    document.getElementById('sessions').textContent = String(s.sessions);
+    document.getElementById('subagents').textContent = String(s.subagents);
+    document.getElementById('busiest-hour').textContent = s.busiestHour;
+    document.getElementById('kaxo-productivity').textContent = '0%';
+
+    var tbody = document.querySelector('#tools tbody');
+    tbody.textContent = '';
+    var chart = document.getElementById('chart');
+    chart.textContent = '';
+
+    var totalTools = s.tools.reduce(function (a, x) { return a + x.count; }, 0);
+    var max = s.tools.length ? s.tools[0].count : 0;
+
+    if (!s.tools.length) {
+      chart.appendChild(el('div', 'empty', 'No tool calls yet.'));
+    }
+
+    s.tools.forEach(function (x) {
+      var tr = document.createElement('tr');
+      tr.setAttribute('data-tool', x.name);
+      tr.appendChild(el('td', 'name', x.name));
+      tr.appendChild(el('td', 'count', String(x.count)));
+      tr.appendChild(el('td', 'share', (totalTools ? (x.count / totalTools * 100).toFixed(1) : '0.0') + '%'));
+      tbody.appendChild(tr);
+
+      var row = el('div', 'bar-row');
+      var name = el('div', 'name', x.name);
+      name.title = x.name;
+      var track = el('div', 'bar-track');
+      var bar = el('div', 'bar');
+      bar.style.width = (max ? (x.count / max * 100) : 0) + '%';
+      track.appendChild(bar);
+      row.appendChild(name);
+      row.appendChild(track);
+      row.appendChild(el('div', 'num', String(x.count)));
+      chart.appendChild(row);
+    });
+  }
+
+  var status = document.getElementById('status');
+  fetch('events.jsonl', { cache: 'no-store' })
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.text();
+    })
+    .then(function (text) {
+      var events = parseEvents(text);
+      render(computeStats(events));
+      status.textContent = events.length + ' events loaded';
+    })
+    .catch(function (err) {
+      render(computeStats([]));
+      status.textContent = 'Could not load events.jsonl: ' + err.message;
+      status.className = 'err';
+    });
+})();
+</script>
+</body>
+</html>

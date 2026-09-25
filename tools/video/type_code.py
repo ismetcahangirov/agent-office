@@ -133,6 +133,11 @@ def main():
         time.sleep(1.5)
         focus_editor()  # the recorder raised the window again
 
+    # a reused VS Code window can keep an unsaved buffer from an earlier, interrupted run
+    ctrl(0x41)  # Ctrl+A
+    key(0x2E)   # Delete
+    time.sleep(0.3)
+
     delay = 1 / a.cps
     try:
         for n, line in enumerate(src.split("\n")):
@@ -140,7 +145,7 @@ def main():
                 raise_window(hwnd)
                 focus_editor()
                 if title_key.lower() not in foreground_title().lower():
-                    sys.exit(f"focus lost at line {n + 1}: stopped typing")
+                    sys.exit(f"focus lost at line {n + 1} (foreground: {foreground_title()!r}): stopped typing")
             if n:
                 key(0x0D)  # Enter (auto-indent is off, indentation is typed below)
                 time.sleep(delay * 3)

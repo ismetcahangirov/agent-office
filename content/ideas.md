@@ -5,7 +5,7 @@
 ## Gündəm (`/gundem` doldurur, vaxtı keçən silinir)
 - [ ] [short] "AI agents tried to hack websites. KAXO's agents can't even open Google." (news 2026-09-25 #3, son tarix 2026-09-25)
 - [ ] [short] "New AI that isn't allowed to talk. KAXO wants one." Jev (news 2026-09-25 #4, son tarix 2026-09-27)
-- [ ] [long] "KAXO upgraded his employees to Opus 5.5. Was it worth it?" real test Opus 5.5 vs Opus 5 (news 2026-09-25 #1, son tarix 2026-10-02)
+- [x] [long] "KAXO upgraded his employees to Opus 5.5. Was it worth it?" real test Opus 5.5 vs Opus 5 (news 2026-09-25 #1, son tarix 2026-10-02) ✓ 2026-09-25-opus-5-5-test
 - [ ] [long] "Opus 5.5 vs GPT-6 Sol: same day, same price war" (news 2026-09-25 #1 #2, son tarix 2026-10-02; GPT testi ödənişlidir → sahibin icazəsi)
 
 ## Evergreen

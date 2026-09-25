@@ -1,0 +1,52 @@
+{
+  "title": "Claude Opus 5.5 vs Opus 5: Same Job, Real Bill",
+  "title_alternatives": [
+    "Opus 5.5 Is \"40% Cheaper\". I Checked the Bill.",
+    "I Gave Opus 5 and Opus 5.5 the Same Job (Hidden Tests)"
+  ],
+  "description": "Anthropic says Claude Opus 5.5 is 40% cheaper than Opus 5. We gave both models the exact same real job and checked the bill.\n\nKAXO's company is run entirely by AI agents. This week his employees ran a head-to-head test: Opus 5 and Opus 5.5 each built the same dashboard from the company's real activity log, in Claude Code, on default settings, at the same moment. Then our QA agent ran 18 hidden tests neither model had seen.\n\nWhat really happened (one task, one run per model, not a benchmark):\n• Hidden tests: 18/18 for both\n• Time: Opus 5.5 53 s, Opus 5 265 s\n• Steps: 5 vs 31\n• Cost (API-equivalent, from Claude Code's own log): $0.27 vs $1.45\n• Design (QA's rating): Opus 5 9/10, Opus 5.5 7/10\n\n0:00 40% cheaper?\n0:50 What Anthropic claims\n1:49 The job and the hidden tests\n2:49 The race\n3:49 Tests, bill and design\n5:11 The catch and the verdict\n\nSources:\n• Anthropic, Claude Opus 5.5 (prices, benchmarks, \"40% less at default settings\"): https://www.anthropic.com/claude-opus-5-5\n• Test files (task, hidden tests, both models' code, QA report): https://github.com/ismetcahangirov/agent-office/tree/main/work/tests/opus-5-5\n\nStock footage: Pexels (MrColo, Harvey Tan Villarino, Antoni Shkraba).\nMade with AI tools; stories based on a real AI-agent company.\n\n#ai #aiagents #claude",
+  "tags": [
+    "claude opus 5.5",
+    "opus 5.5",
+    "opus 5.5 vs opus 5",
+    "claude opus",
+    "claude code",
+    "anthropic",
+    "ai model test",
+    "ai coding test",
+    "ai agents",
+    "ai employees",
+    "ai company",
+    "llm cost",
+    "KAXO"
+  ],
+  "hashtags": [
+    "#ai",
+    "#aiagents",
+    "#claude"
+  ],
+  "category": "Science & Technology",
+  "language": "en",
+  "made_for_kids": false,
+  "altered_content": false,
+  "playlists": [
+    "KAXO Tests AI Tools",
+    "AI Models Explained"
+  ],
+  "captions": "subs/captions.srt",
+  "thumbnail": "thumb/thumbnail.png",
+  "sources": [
+    "https://www.anthropic.com/claude-opus-5-5",
+    "https://github.com/ismetcahangirov/agent-office/tree/main/work/tests/opus-5-5"
+  ],
+  "chapters": "video/chapters.txt",
+  "ai_note": "Made with AI tools; stories based on a real AI-agent company.",
+  "keywords_used": [
+    "claude opus 5.5",
+    "opus 5.5",
+    "claude code",
+    "ai model test",
+    "ai agents",
+    "cheaper"
+  ]
+}

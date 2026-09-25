@@ -2,7 +2,7 @@
 
 > KAXO həm personajın, həm də YouTube kanalının adıdır.
 
-![reference](reference.jpg)
+![reference](reference.png)
 
 **Referans şəkil:** `content/character/reference.png`. Hər şəkil generasiyasına **mütləq** əlavə olunur.
 

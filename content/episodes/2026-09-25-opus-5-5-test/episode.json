@@ -1,0 +1,1163 @@
+{
+  "slug": "opus-5-5-test",
+  "format": "long",
+  "status": "approved",
+  "idea": "Anthropic says Opus 5.5 is 40% cheaper. KAXO has to decide whether to upgrade his AI employees, so Opus 5 and Opus 5.5 got the same real job (a one-file dashboard of the company's own event log) and the same 18 hidden tests. Both scored 18/18. Opus 5.5 was 5x faster and 81% cheaper on this job (fewer steps, ~10x fewer cached re-reads). Opus 5 made the nicer design (QA 9/10 vs 7/10) and checked its own work in a browser; Opus 5.5 skipped that, and QA found a small edge-case bug in it (Opus 5 had a different one). KAXO upgrades, because QA checks anyway and he checks nothing. Honest framing: one task, one run per model, default settings, API-equivalent cost on a subscription. Last line loops to the hook.",
+  "real_fact": "Test: work/tests/opus-5-5/ (task/SPEC.md, hidden tests, run.sh, qa-report.md), summary content/reports/2026-09-25-opus-5-5-test.md. One run per model, same task, same time, headless claude -p, Claude Code default settings. Task: single-file index.html dashboard from data/events.jsonl (96 events). Opus 5: 265 s, 31 turns, $1.45 API-equivalent (total_cost_usd), 1,266,365 cache-read tokens, 18/18 hidden tests, QA design 9/10, opened page in browser + 4 own edge cases, left draft files (_verify.js, _shot.png, _t/; rm not allowed by harness), side panel overflows with 40 tools. Opus 5.5: 53 s, 5 turns, $0.27, 127,978 cache-read tokens, 18/18, QA design 7/10 (~110 px blank at bottom), did not open a browser (Node script only), empty tool name counted but not shown in table (index.html:135). Both replied with more than the one line the spec asked for. Ratios: 5.0x faster, 81% cheaper. Subscription run, no real payment. Official claims (https://www.anthropic.com/claude-opus-5-5, checked 2026-09-25): $4/$20 per 1M (from $5/$25, -20%), cache read -60%, ~40% cheaper on typical workloads, output 30%+ faster, Terminal-Bench 4.0 66.4% vs 52.3%, OSWorld 2.0 81.8% vs 74.0%.",
+  "playlists": [
+    "KAXO Tests AI Tools",
+    "AI Models Explained"
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "chapter": "40% cheaper?",
+      "motion": "zoom_in",
+      "prompt": "KAXO slumped on a saggy old couch in a small office lounge, holding up an absurdly long paper receipt that unrolls over his belly, off the couch and across the floor. He squints at it with one heavy eyebrow raised, deadpan and suspicious. The receipt shows only faint grey squiggle lines, no readable text or numbers. Wide horizontal framing, couch-height camera, empty space around him.",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Anthropic says Opus 5.5 is forty percent cheaper. I checked the bill."
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "clip": "clips/anthropic.webm",
+      "clip_start": 9.5,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "KAXO's company is staffed entirely by Claude agents."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Anthropic released Opus 5.5, and KAXO had one question."
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "motion": "pan_right",
+      "prompt": "KAXO standing slouched between two identical office desks. At each desk sits a small boxy grey robot worker (simple box body, round screen face with two dot eyes) in front of a monitor that shows only abstract coloured shapes. KAXO lazily points one finger back and forth between the two robots, the other hand in his shorts pocket, undecided bored expression. Wide shot, plain office background.",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Is it worth the upgrade? Or is it just a bigger number?"
+        },
+        {
+          "speaker": "narrator",
+          "text": "So his employees ran the test for him."
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "clip": "clips/race.webm",
+      "clip_start": 3,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Opus 5 and Opus 5.5 got the exact same job."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Same instructions, same data, same hidden tests at the end."
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "clip": "clips/bill.webm",
+      "clip_start": 3,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "I'll make the call. Right after someone makes it for me."
+        },
+        {
+          "speaker": "narrator",
+          "text": "We timed both runs to the second."
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "clip": "clips/race.webm",
+      "clip_start": 5,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "One finished five times faster than the other."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Five times. Somebody checked. Not me.",
+          "speed": 0.88
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "clip": "clips/stock-typing.mp4",
+      "clip_start": 0,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "We also pulled each run's cost from the logs."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Anthropic's number is forty. We got our own."
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "asset": "pose:couch-sprawled__messy-office__2x3.png",
+      "motion": "zoom_out",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "And the slower model did something the fast one skipped."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "My verdict's at the end. It's my only job."
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "clip": "clips/dash-opus-5-5.webm",
+      "clip_start": 3,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Both built this: a dashboard of KAXO's own company."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It's mostly charts of other people working."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "chapter": "What Anthropic claims",
+      "clip": "clips/anthropic.webm",
+      "clip_start": 11,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Before any testing, here's Anthropic's official promise."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The token price drops twenty percent."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Cheaper employees. My favorite kind."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Input goes from five dollars per million tokens to four."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Output drops from twenty-five dollars to twenty."
+        }
+      ],
+      "asset": "shot:anthropic-cost.png",
+      "motion": "zoom_in"
+    },
+    {
+      "id": "s12",
+      "clip": "clips/stock-servers.mp4",
+      "clip_start": 0,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Cached reads get sixty percent cheaper."
+        },
+        {
+          "speaker": "narrator",
+          "text": "And on typical workloads, they say forty percent cheaper overall."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "motion": "zoom_in",
+      "prompt": "KAXO sitting cross-legged on the office floor, poking a tiny pocket calculator with one finger, tongue slightly sticking out in concentration, crumpled paper scraps scattered around him. Smug look, as if he just discovered something that is obviously wrong. The calculator display is blank, no digits. Medium shot, simple office floor and wall.",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Twenty percent off, then forty percent off."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I did the math. Everything's basically free now."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "clip": "clips/anthropic.webm",
+      "clip_start": 13,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "They don't stack."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The forty is their estimate for typical work."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nobody's giving KAXO anything for free."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "clip": "clips/stock-city.mp4",
+      "clip_start": 0,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Rude.",
+          "speed": 0.85
+        },
+        {
+          "speaker": "narrator",
+          "text": "Output should also be over thirty percent faster."
+        },
+        {
+          "speaker": "narrator",
+          "text": "On Terminal-Bench 4.0, the score jumps from fifty-two to sixty-six."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "clip": "clips/anthropic.webm",
+      "clip_start": 15,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "OSWorld goes from seventy-four to almost eighty-two."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Those numbers come from Anthropic's own page."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Benchmarks are job interviews. Everyone's great at interviews."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "clip": "clips/stock-typing.mp4",
+      "clip_start": 6,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Here's the catch with price per token."
+        },
+        {
+          "speaker": "narrator",
+          "text": "A job can take ten thousand tokens, or a million."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "clip": "clips/bill.webm",
+      "clip_start": 5,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Price per finished job is what you actually pay."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "So I wanted a real job. And a real receipt."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "chapter": "The job and the hidden tests",
+      "motion": "pan_left",
+      "prompt": "KAXO slumped deep in an office chair, lazily holding out a single sheet of paper at arm's length without looking at it. Two small boxy grey robots (simple box bodies, round screen faces with two dot eyes) stand side by side in front of him, eagerly reaching for the sheet. The paper shows only grey lines, no readable text. Medium-wide shot, plain office.",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The job came from KAXO's real office."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Every time an agent there uses a tool, it gets logged."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "clip": "clips/office-qa-live.webm",
+      "clip_start": 0,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "That log had ninety-six events in it."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Ninety-six. Way too long to read."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "clip": "clips/dash-opus-5.webm",
+      "clip_start": 5,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The task: turn that log into a dashboard, in one HTML file."
+        },
+        {
+          "speaker": "narrator",
+          "text": "No libraries, no internet, dark theme."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "clip": "clips/dash-opus-5-5.webm",
+      "clip_start": 6,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "It gets screenshotted, so it has to look good."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Looking good is also my whole job."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "clip": "clips/office-qa-live.webm",
+      "clip_start": 8,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The page needs events, tool calls, sessions, subagents, and the busiest hour."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Plus a sorted tool table and a bar chart."
+        }
+      ]
+    },
+    {
+      "id": "s24",
+      "clip": "clips/dash-opus-5.webm",
+      "clip_start": 9,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "One more number: KAXO's productivity, fixed by the spec at zero percent."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Finally, a metric that's accurate."
+        }
+      ]
+    },
+    {
+      "id": "s25",
+      "motion": "zoom_in",
+      "prompt": "KAXO standing in an office hallway hiding a sealed plain envelope behind his back, one single drop of sweat on his forehead, fake innocent half-smile. Two small boxy grey robots (simple box bodies, round screen faces with two dot eyes) peek at him curiously from around a corner. No writing on the envelope. Medium shot, plain walls.",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Then the important part: hidden tests."
+        },
+        {
+          "speaker": "narrator",
+          "text": "They knew they'd be tested, but never saw how."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I love secrets. Less talking."
+        }
+      ]
+    },
+    {
+      "id": "s26",
+      "clip": "clips/office-qa-live.webm",
+      "clip_start": 16,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Eighteen checks ran after both models finished."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Some use the real log, others use fake data built to break."
+        }
+      ],
+      "crop": [
+        0.5,
+        0.2,
+        0.42,
+        0.42
+      ],
+      "sharp": true,
+      "fit": "cover"
+    },
+    {
+      "id": "s27",
+      "asset": "pose:lying-on-floor-thumbs-up__office-floor__2x3.png",
+      "motion": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Built to break things. My kind of data."
+        },
+        {
+          "speaker": "narrator",
+          "text": "One warning before the race."
+        }
+      ]
+    },
+    {
+      "id": "s28",
+      "clip": "clips/stock-servers.mp4",
+      "clip_start": 6,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "It's one task, run once per model, not a benchmark."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Both ran in Claude Code, on default settings."
+        }
+      ]
+    },
+    {
+      "id": "s29",
+      "clip": "clips/stock-city.mp4",
+      "clip_start": 6,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "One roll of the dice. Like most of my business decisions."
+        }
+      ]
+    },
+    {
+      "id": "s30",
+      "chapter": "The race",
+      "clip": "clips/race.webm",
+      "clip_start": 3,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "They started at the same moment, in separate folders."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Opus 5.5 read the spec, wrote the page, and checked the numbers."
+        }
+      ]
+    },
+    {
+      "id": "s31",
+      "clip": "clips/race.webm",
+      "clip_start": 5,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Fifty-three seconds, done."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I can't pick lunch in fifty-three seconds."
+        }
+      ]
+    },
+    {
+      "id": "s32",
+      "clip": "clips/code-opus-5-5.mp4",
+      "clip_start": 2,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "This is the actual code Opus 5.5 wrote."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Five steps in total."
+        }
+      ],
+      "crop": [
+        0.22,
+        0.07,
+        0.58,
+        0.62
+      ],
+      "fit": "cover"
+    },
+    {
+      "id": "s33",
+      "motion": "zoom_out",
+      "prompt": "KAXO sinking into a beanbag chair, holding a big old-fashioned silver stopwatch up near his face, eyelids drooping as he falls asleep waiting. In the background a small boxy grey robot (simple box body, round screen face with two dot eyes) types furiously at a desk, with cartoon motion lines around its arms. The stopwatch face has hands only, no digits. Wide shot.",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Meanwhile, Opus 5 was still going."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I started a stopwatch. That was my contribution."
+        }
+      ]
+    },
+    {
+      "id": "s34",
+      "clip": "clips/code-opus-5.mp4",
+      "clip_start": 2,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "This run would take thirty-one steps."
+        },
+        {
+          "speaker": "narrator",
+          "text": "It wrote the page, then opened it in a browser."
+        }
+      ],
+      "crop": [
+        0.22,
+        0.07,
+        0.58,
+        0.62
+      ],
+      "fit": "cover"
+    },
+    {
+      "id": "s35",
+      "clip": "clips/code-opus-5.mp4",
+      "clip_start": 9,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Then it tested four edge cases of its own."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Checking your own work. Bold move."
+        }
+      ],
+      "crop": [
+        0.22,
+        0.07,
+        0.58,
+        0.62
+      ],
+      "fit": "cover"
+    },
+    {
+      "id": "s36",
+      "clip": "clips/race.webm",
+      "clip_start": 10.5,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Four minutes and twenty-five seconds after the start, it finished."
+        }
+      ]
+    },
+    {
+      "id": "s37",
+      "asset": "pose:asleep-on-desk-ceo-mug__office__2x3.png",
+      "motion": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "I napped through most of it.",
+          "speed": 0.88
+        },
+        {
+          "speaker": "narrator",
+          "text": "Here's where the gap came from."
+        }
+      ]
+    },
+    {
+      "id": "s38",
+      "clip": "clips/bill.webm",
+      "clip_start": 4,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Every step, the model rereads its whole context."
+        },
+        {
+          "speaker": "narrator",
+          "text": "More steps means more rereading, and rereading costs money."
+        }
+      ]
+    },
+    {
+      "id": "s39",
+      "clip": "clips/bill.webm",
+      "clip_start": 8,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Opus 5 reread about one point three million cached tokens."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "One point three million. I've read maybe four."
+        }
+      ]
+    },
+    {
+      "id": "s40",
+      "motion": "pan_left",
+      "prompt": "KAXO leaning one elbow casually on a towering, wobbly stack of paper. A small boxy grey robot (simple box body, round screen face with two dot eyes) is half buried behind the stack, while a second identical robot next to it holds just one single sheet and looks relaxed. KAXO looks at the camera, deadpan. Papers show only grey lines, no text. Wide shot, plain office.",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Opus 5.5 reread about a hundred and twenty-eight thousand."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Roughly ten times less."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Fewer steps, fewer rereads, smaller bill."
+        }
+      ]
+    },
+    {
+      "id": "s41",
+      "clip": "clips/code-opus-5-5.mp4",
+      "clip_start": 8,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "One reads the manual every single step."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The other skims. I respect that."
+        }
+      ],
+      "crop": [
+        0.22,
+        0.07,
+        0.58,
+        0.62
+      ],
+      "fit": "cover"
+    },
+    {
+      "id": "s42",
+      "chapter": "Tests, bill and design",
+      "clip": "clips/tests.webm",
+      "clip_start": 3,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Now, the hidden tests."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Opus 5 passed eighteen out of eighteen."
+        },
+        {
+          "speaker": "narrator",
+          "text": "And Opus 5.5? Also eighteen out of eighteen."
+        }
+      ]
+    },
+    {
+      "id": "s43",
+      "clip": "clips/tests.webm",
+      "clip_start": 6,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Perfect scores, both of them. So nobody's fired."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I was ready to fire someone. Mentally."
+        }
+      ]
+    },
+    {
+      "id": "s44",
+      "clip": "clips/office-qa-live.webm",
+      "clip_start": 20,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The real numbers matched on both pages."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Ninety-six events, seventy tool calls, five sessions."
+        },
+        {
+          "speaker": "narrator",
+          "text": "And KAXO's productivity, correctly, at zero percent."
+        }
+      ]
+    },
+    {
+      "id": "s45",
+      "clip": "clips/bill.webm",
+      "clip_start": 3,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Correctly. Twice."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Then, the bill."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Claude Code logs what each run would cost on the API."
+        }
+      ]
+    },
+    {
+      "id": "s46",
+      "clip": "clips/bill.webm",
+      "clip_start": 6,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "For Opus 5, about a dollar forty-five."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Opus 5.5 came to twenty-seven cents."
+        }
+      ]
+    },
+    {
+      "id": "s47",
+      "clip": "clips/bill.webm",
+      "clip_start": 8.5,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Twenty-seven cents. I've lost more in the couch."
+        },
+        {
+          "speaker": "narrator",
+          "text": "That's eighty-one percent cheaper. Anthropic said forty."
+        }
+      ]
+    },
+    {
+      "id": "s48",
+      "asset": "pose:holding-zero-dollar-sign__plain-wall__2x3.png",
+      "motion": "static",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "We ran it on a subscription, so no extra money changed hands."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Zero extra. My favorite price.",
+          "speed": 0.88
+        }
+      ]
+    },
+    {
+      "id": "s49",
+      "clip": "clips/anthropic.webm",
+      "clip_start": 17,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Our gap is bigger than the claim, and it's one run."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Opus 5.5 took six times fewer steps."
+        }
+      ]
+    },
+    {
+      "id": "s50",
+      "clip": "clips/stock-typing.mp4",
+      "clip_start": 10,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "That's the difference."
+        },
+        {
+          "speaker": "narrator",
+          "text": "A different task could look very different."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Fine. Now the pretty part."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Tests can't measure how a page looks."
+        }
+      ]
+    },
+    {
+      "id": "s51",
+      "clip": "clips/dash-opus-5.webm",
+      "clip_start": 5,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Opus 5 filled the whole screen."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Vertical bars, value labels, tiny bars inside the table."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Fancy.",
+          "speed": 0.85
+        }
+      ]
+    },
+    {
+      "id": "s52",
+      "clip": "clips/dash-opus-5-5.webm",
+      "clip_start": 3,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Opus 5.5 went clean and readable, with a share column."
+        },
+        {
+          "speaker": "narrator",
+          "text": "But half its chart panel sits empty."
+        }
+      ]
+    },
+    {
+      "id": "s53",
+      "asset": "shot:shot-opus-5-5.png",
+      "motion": "pan_right",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "About a hundred and ten pixels sit blank at the bottom."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I'd have given both a ten. Didn't look."
+        }
+      ]
+    },
+    {
+      "id": "s54",
+      "motion": "zoom_in",
+      "prompt": "KAXO reclining on a poolside-style lounge chair placed in the middle of an office, eyes closed, lazily holding up two blank white score cards like a sports judge, one in each hand, clearly not looking at anything. The cards are completely blank, no numbers. Medium-wide shot, plain office background.",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Our QA agent did look."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nine out of ten for Opus 5, seven for Opus 5.5."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Harsh. Accurate, but harsh."
+        }
+      ]
+    },
+    {
+      "id": "s55",
+      "chapter": "The catch and the verdict",
+      "clip": "clips/race.webm",
+      "clip_start": 11,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "One more difference."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Opus 5.5 never opened its page in a browser."
+        }
+      ]
+    },
+    {
+      "id": "s56",
+      "clip": "clips/code-opus-5-5.mp4",
+      "clip_start": 13,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "It checked the numbers with a script and called it done."
+        },
+        {
+          "speaker": "narrator",
+          "text": "And it said so openly."
+        }
+      ],
+      "crop": [
+        0.22,
+        0.07,
+        0.58,
+        0.62
+      ],
+      "fit": "cover"
+    },
+    {
+      "id": "s57",
+      "motion": "zoom_in",
+      "prompt": "KAXO slouched on a saggy couch with his arm around a small boxy grey robot (simple box body, round screen face with two dot eyes). The robot slouches in exactly the same lazy way, feet up on a coffee table next to KAXO's bare feet. KAXO looks down at the robot with proud, teary, deeply moved eyes and a trembling little smile. Warm lamp light, medium shot.",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "It skipped checking its own work. [pause] I've never felt so seen.",
+          "speed": 0.88
+        }
+      ]
+    },
+    {
+      "id": "s58",
+      "clip": "clips/office-qa-live.webm",
+      "clip_start": 30,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "QA also hunted for edge cases the tests missed."
+        },
+        {
+          "speaker": "narrator",
+          "text": "It found one in Opus 5.5."
+        }
+      ],
+      "crop": [
+        0.5,
+        0.2,
+        0.42,
+        0.42
+      ],
+      "sharp": true,
+      "fit": "cover"
+    },
+    {
+      "id": "s59",
+      "clip": "clips/code-opus-5-5.mp4",
+      "clip_start": 15,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The cheap one has a bug. Shocking."
+        },
+        {
+          "speaker": "narrator",
+          "text": "An empty tool name gets counted but never appears in the table."
+        }
+      ],
+      "crop": [
+        0.22,
+        0.07,
+        0.58,
+        0.62
+      ],
+      "fit": "cover"
+    },
+    {
+      "id": "s60",
+      "asset": "shot:shot-opus-5.png",
+      "motion": "pan_left",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "So the totals don't add up."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Opus 5 had one too."
+        },
+        {
+          "speaker": "narrator",
+          "text": "With forty different tools, its side panel runs off screen."
+        }
+      ]
+    },
+    {
+      "id": "s61",
+      "clip": "clips/tests.webm",
+      "clip_start": 6,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So, a tie. In bugs too."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Neither case was in the real data."
+        }
+      ]
+    },
+    {
+      "id": "s62",
+      "clip": "clips/code-opus-5.mp4",
+      "clip_start": 15,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Opus 5 checked its work, but left a mess behind."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Draft scripts and screenshots stayed in its folder."
+        }
+      ],
+      "crop": [
+        0.22,
+        0.07,
+        0.58,
+        0.62
+      ],
+      "fit": "cover"
+    },
+    {
+      "id": "s63",
+      "asset": "pose:feet-up-access-denied__office-night__2x3.png",
+      "motion": "zoom_in",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "To be fair, it wasn't allowed to delete files."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Not allowed to clean up. I use that excuse too."
+        }
+      ]
+    },
+    {
+      "id": "s64",
+      "motion": "zoom_in",
+      "prompt": "KAXO lying half across an office desk, cheek resting on the desk surface, eyes half closed, slamming a big wooden rubber stamp down onto a single blank form with minimal effort. A small boxy grey robot (simple box body, round screen face with two dot eyes) waits patiently beside the desk. The form is blank, no text. Side view, medium shot.",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "KAXO, upgrade or not?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Upgrade. Five times faster, for a fraction of the price."
+        }
+      ]
+    },
+    {
+      "id": "s65",
+      "clip": "clips/office-qa-live.webm",
+      "clip_start": 34,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And the checking it skips? QA does that anyway."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Fast worker, careful checker. And me, supervising from the couch."
+        }
+      ]
+    },
+    {
+      "id": "s66",
+      "clip": "clips/dash-opus-5.webm",
+      "clip_start": 11,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "If looks are the whole job, Opus 5 earned its extra dollar."
+        }
+      ]
+    },
+    {
+      "id": "s67",
+      "clip": "clips/stock-city.mp4",
+      "clip_start": 10,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Oh, and both were told to reply in one line."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Neither did."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "At least they reply. I don't."
+        }
+      ]
+    },
+    {
+      "id": "s68",
+      "asset": "pose:at-window-looking-back__office-night__2x3.png",
+      "motion": "static",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "One job, one run: a data point, not a law."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Every number's source, including Anthropic's page, is in the description."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Want a rematch on a harder task? Tell us in the comments."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Anthropic said forty percent cheaper."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "My bill said eighty-one percent. For one job.",
+          "speed": 0.88
+        }
+      ]
+    }
+  ]
+}

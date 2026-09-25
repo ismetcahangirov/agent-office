@@ -1,0 +1,7443 @@
+{
+  "shots": [
+    {
+      "id": "s01",
+      "start": 0.0,
+      "end": 5.03,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Anthropic says Opus 5.5 is forty percent cheaper. I checked the bill.",
+          "start": 0.0,
+          "end": 4.84,
+          "words": [
+            {
+              "w": "Anthropic",
+              "start": 0.0,
+              "end": 0.752
+            },
+            {
+              "w": "says",
+              "start": 0.752,
+              "end": 1.163
+            },
+            {
+              "w": "Opus",
+              "start": 1.163,
+              "end": 1.573
+            },
+            {
+              "w": "5.5",
+              "start": 1.573,
+              "end": 1.847
+            },
+            {
+              "w": "is",
+              "start": 1.847,
+              "end": 2.12
+            },
+            {
+              "w": "forty",
+              "start": 2.12,
+              "end": 2.599
+            },
+            {
+              "w": "percent",
+              "start": 2.599,
+              "end": 3.214
+            },
+            {
+              "w": "cheaper.",
+              "start": 3.214,
+              "end": 3.83
+            },
+            {
+              "w": "I",
+              "start": 3.89,
+              "end": 4.014
+            },
+            {
+              "w": "checked",
+              "start": 4.014,
+              "end": 4.386
+            },
+            {
+              "w": "the",
+              "start": 4.386,
+              "end": 4.592
+            },
+            {
+              "w": "bill.",
+              "start": 4.592,
+              "end": 4.84
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "start": 5.03,
+      "end": 12.33,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "KAXO's company is staffed entirely by Claude agents.",
+          "start": 5.03,
+          "end": 8.08,
+          "words": [
+            {
+              "w": "KAXO's",
+              "start": 5.03,
+              "end": 5.392
+            },
+            {
+              "w": "company",
+              "start": 5.392,
+              "end": 5.857
+            },
+            {
+              "w": "is",
+              "start": 5.857,
+              "end": 6.064
+            },
+            {
+              "w": "staffed",
+              "start": 6.064,
+              "end": 6.529
+            },
+            {
+              "w": "entirely",
+              "start": 6.529,
+              "end": 7.046
+            },
+            {
+              "w": "by",
+              "start": 7.046,
+              "end": 7.253
+            },
+            {
+              "w": "Claude",
+              "start": 7.253,
+              "end": 7.666
+            },
+            {
+              "w": "agents.",
+              "start": 7.666,
+              "end": 8.08
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Anthropic released Opus 5.5, and KAXO had one question.",
+          "start": 8.16,
+          "end": 12.14,
+          "words": [
+            {
+              "w": "Anthropic",
+              "start": 8.16,
+              "end": 8.866
+            },
+            {
+              "w": "released",
+              "start": 8.866,
+              "end": 9.508
+            },
+            {
+              "w": "Opus",
+              "start": 9.508,
+              "end": 9.893
+            },
+            {
+              "w": "5.5,",
+              "start": 9.893,
+              "end": 10.15
+            },
+            {
+              "w": "and",
+              "start": 10.15,
+              "end": 10.471
+            },
+            {
+              "w": "KAXO",
+              "start": 10.471,
+              "end": 10.856
+            },
+            {
+              "w": "had",
+              "start": 10.856,
+              "end": 11.177
+            },
+            {
+              "w": "one",
+              "start": 11.177,
+              "end": 11.498
+            },
+            {
+              "w": "question.",
+              "start": 11.498,
+              "end": 12.14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "start": 12.33,
+      "end": 17.58,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Is it worth the upgrade? Or is it just a bigger number?",
+          "start": 12.33,
+          "end": 15.37,
+          "words": [
+            {
+              "w": "Is",
+              "start": 12.33,
+              "end": 12.512
+            },
+            {
+              "w": "it",
+              "start": 12.512,
+              "end": 12.694
+            },
+            {
+              "w": "worth",
+              "start": 12.694,
+              "end": 13.013
+            },
+            {
+              "w": "the",
+              "start": 13.013,
+              "end": 13.24
+            },
+            {
+              "w": "upgrade?",
+              "start": 13.24,
+              "end": 13.65
+            },
+            {
+              "w": "Or",
+              "start": 13.75,
+              "end": 13.925
+            },
+            {
+              "w": "is",
+              "start": 13.925,
+              "end": 14.1
+            },
+            {
+              "w": "it",
+              "start": 14.1,
+              "end": 14.275
+            },
+            {
+              "w": "just",
+              "start": 14.275,
+              "end": 14.538
+            },
+            {
+              "w": "a",
+              "start": 14.538,
+              "end": 14.669
+            },
+            {
+              "w": "bigger",
+              "start": 14.669,
+              "end": 15.02
+            },
+            {
+              "w": "number?",
+              "start": 15.02,
+              "end": 15.37
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "So his employees ran the test for him.",
+          "start": 15.55,
+          "end": 17.45,
+          "words": [
+            {
+              "w": "So",
+              "start": 15.55,
+              "end": 15.715
+            },
+            {
+              "w": "his",
+              "start": 15.715,
+              "end": 15.922
+            },
+            {
+              "w": "employees",
+              "start": 15.922,
+              "end": 16.376
+            },
+            {
+              "w": "ran",
+              "start": 16.376,
+              "end": 16.583
+            },
+            {
+              "w": "the",
+              "start": 16.583,
+              "end": 16.789
+            },
+            {
+              "w": "test",
+              "start": 16.789,
+              "end": 17.037
+            },
+            {
+              "w": "for",
+              "start": 17.037,
+              "end": 17.243
+            },
+            {
+              "w": "him.",
+              "start": 17.243,
+              "end": 17.45
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "start": 17.58,
+      "end": 24.61,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Opus 5 and Opus 5.5 got the exact same job.",
+          "start": 17.58,
+          "end": 20.91,
+          "words": [
+            {
+              "w": "Opus",
+              "start": 17.58,
+              "end": 17.964
+            },
+            {
+              "w": "5",
+              "start": 17.964,
+              "end": 18.156
+            },
+            {
+              "w": "and",
+              "start": 18.156,
+              "end": 18.477
+            },
+            {
+              "w": "Opus",
+              "start": 18.477,
+              "end": 18.861
+            },
+            {
+              "w": "5.5",
+              "start": 18.861,
+              "end": 19.117
+            },
+            {
+              "w": "got",
+              "start": 19.117,
+              "end": 19.437
+            },
+            {
+              "w": "the",
+              "start": 19.437,
+              "end": 19.757
+            },
+            {
+              "w": "exact",
+              "start": 19.757,
+              "end": 20.206
+            },
+            {
+              "w": "same",
+              "start": 20.206,
+              "end": 20.59
+            },
+            {
+              "w": "job.",
+              "start": 20.59,
+              "end": 20.91
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Same instructions, same data, same hidden tests at the end.",
+          "start": 20.99,
+          "end": 24.42,
+          "words": [
+            {
+              "w": "Same",
+              "start": 20.99,
+              "end": 21.297
+            },
+            {
+              "w": "instructions,",
+              "start": 21.297,
+              "end": 22.014
+            },
+            {
+              "w": "same",
+              "start": 22.014,
+              "end": 22.321
+            },
+            {
+              "w": "data,",
+              "start": 22.321,
+              "end": 22.628
+            },
+            {
+              "w": "same",
+              "start": 22.628,
+              "end": 22.935
+            },
+            {
+              "w": "hidden",
+              "start": 22.935,
+              "end": 23.345
+            },
+            {
+              "w": "tests",
+              "start": 23.345,
+              "end": 23.703
+            },
+            {
+              "w": "at",
+              "start": 23.703,
+              "end": 23.908
+            },
+            {
+              "w": "the",
+              "start": 23.908,
+              "end": 24.164
+            },
+            {
+              "w": "end.",
+              "start": 24.164,
+              "end": 24.42
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "start": 24.61,
+      "end": 29.5,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "I'll make the call. Right after someone makes it for me.",
+          "start": 24.61,
+          "end": 27.38,
+          "words": [
+            {
+              "w": "I'll",
+              "start": 24.61,
+              "end": 24.84
+            },
+            {
+              "w": "make",
+              "start": 24.84,
+              "end": 25.115
+            },
+            {
+              "w": "the",
+              "start": 25.115,
+              "end": 25.345
+            },
+            {
+              "w": "call.",
+              "start": 25.345,
+              "end": 25.62
+            },
+            {
+              "w": "Right",
+              "start": 25.68,
+              "end": 25.957
+            },
+            {
+              "w": "after",
+              "start": 25.957,
+              "end": 26.233
+            },
+            {
+              "w": "someone",
+              "start": 26.233,
+              "end": 26.589
+            },
+            {
+              "w": "makes",
+              "start": 26.589,
+              "end": 26.866
+            },
+            {
+              "w": "it",
+              "start": 26.866,
+              "end": 27.024
+            },
+            {
+              "w": "for",
+              "start": 27.024,
+              "end": 27.222
+            },
+            {
+              "w": "me.",
+              "start": 27.222,
+              "end": 27.38
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "We timed both runs to the second.",
+          "start": 27.52,
+          "end": 29.37,
+          "words": [
+            {
+              "w": "We",
+              "start": 27.52,
+              "end": 27.705
+            },
+            {
+              "w": "timed",
+              "start": 27.705,
+              "end": 28.029
+            },
+            {
+              "w": "both",
+              "start": 28.029,
+              "end": 28.306
+            },
+            {
+              "w": "runs",
+              "start": 28.306,
+              "end": 28.584
+            },
+            {
+              "w": "to",
+              "start": 28.584,
+              "end": 28.769
+            },
+            {
+              "w": "the",
+              "start": 28.769,
+              "end": 29.0
+            },
+            {
+              "w": "second.",
+              "start": 29.0,
+              "end": 29.37
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "start": 29.5,
+      "end": 34.96,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "One finished five times faster than the other.",
+          "start": 29.5,
+          "end": 31.69,
+          "words": [
+            {
+              "w": "One",
+              "start": 29.5,
+              "end": 29.703
+            },
+            {
+              "w": "finished",
+              "start": 29.703,
+              "end": 30.108
+            },
+            {
+              "w": "five",
+              "start": 30.108,
+              "end": 30.352
+            },
+            {
+              "w": "times",
+              "start": 30.352,
+              "end": 30.636
+            },
+            {
+              "w": "faster",
+              "start": 30.636,
+              "end": 30.96
+            },
+            {
+              "w": "than",
+              "start": 30.96,
+              "end": 31.203
+            },
+            {
+              "w": "the",
+              "start": 31.203,
+              "end": 31.406
+            },
+            {
+              "w": "other.",
+              "start": 31.406,
+              "end": 31.69
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Five times. Somebody checked. Not me.",
+          "start": 31.83,
+          "end": 34.77,
+          "words": [
+            {
+              "w": "Five",
+              "start": 31.83,
+              "end": 32.305
+            },
+            {
+              "w": "times.",
+              "start": 32.305,
+              "end": 32.86
+            },
+            {
+              "w": "Somebody",
+              "start": 32.92,
+              "end": 33.457
+            },
+            {
+              "w": "checked.",
+              "start": 33.457,
+              "end": 33.94
+            },
+            {
+              "w": "Not",
+              "start": 34.0,
+              "end": 34.428
+            },
+            {
+              "w": "me.",
+              "start": 34.428,
+              "end": 34.77
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "start": 34.96,
+      "end": 40.22,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "We also pulled each run's cost from the logs.",
+          "start": 34.96,
+          "end": 37.42,
+          "words": [
+            {
+              "w": "We",
+              "start": 34.96,
+              "end": 35.146
+            },
+            {
+              "w": "also",
+              "start": 35.146,
+              "end": 35.424
+            },
+            {
+              "w": "pulled",
+              "start": 35.424,
+              "end": 35.795
+            },
+            {
+              "w": "each",
+              "start": 35.795,
+              "end": 36.074
+            },
+            {
+              "w": "run's",
+              "start": 36.074,
+              "end": 36.352
+            },
+            {
+              "w": "cost",
+              "start": 36.352,
+              "end": 36.631
+            },
+            {
+              "w": "from",
+              "start": 36.631,
+              "end": 36.909
+            },
+            {
+              "w": "the",
+              "start": 36.909,
+              "end": 37.142
+            },
+            {
+              "w": "logs.",
+              "start": 37.142,
+              "end": 37.42
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Anthropic's number is forty. We got our own.",
+          "start": 37.5,
+          "end": 40.09,
+          "words": [
+            {
+              "w": "Anthropic's",
+              "start": 37.5,
+              "end": 38.154
+            },
+            {
+              "w": "number",
+              "start": 38.154,
+              "end": 38.59
+            },
+            {
+              "w": "is",
+              "start": 38.59,
+              "end": 38.808
+            },
+            {
+              "w": "forty.",
+              "start": 38.808,
+              "end": 39.19
+            },
+            {
+              "w": "We",
+              "start": 39.25,
+              "end": 39.427
+            },
+            {
+              "w": "got",
+              "start": 39.427,
+              "end": 39.648
+            },
+            {
+              "w": "our",
+              "start": 39.648,
+              "end": 39.869
+            },
+            {
+              "w": "own.",
+              "start": 39.869,
+              "end": 40.09
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "start": 40.22,
+      "end": 45.42,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "And the slower model did something the fast one skipped.",
+          "start": 40.22,
+          "end": 42.59,
+          "words": [
+            {
+              "w": "And",
+              "start": 40.22,
+              "end": 40.4
+            },
+            {
+              "w": "the",
+              "start": 40.4,
+              "end": 40.579
+            },
+            {
+              "w": "slower",
+              "start": 40.579,
+              "end": 40.866
+            },
+            {
+              "w": "model",
+              "start": 40.866,
+              "end": 41.118
+            },
+            {
+              "w": "did",
+              "start": 41.118,
+              "end": 41.297
+            },
+            {
+              "w": "something",
+              "start": 41.297,
+              "end": 41.692
+            },
+            {
+              "w": "the",
+              "start": 41.692,
+              "end": 41.872
+            },
+            {
+              "w": "fast",
+              "start": 41.872,
+              "end": 42.087
+            },
+            {
+              "w": "one",
+              "start": 42.087,
+              "end": 42.267
+            },
+            {
+              "w": "skipped.",
+              "start": 42.267,
+              "end": 42.59
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "My verdict's at the end. It's my only job.",
+          "start": 42.73,
+          "end": 45.23,
+          "words": [
+            {
+              "w": "My",
+              "start": 42.73,
+              "end": 42.911
+            },
+            {
+              "w": "verdict's",
+              "start": 42.911,
+              "end": 43.365
+            },
+            {
+              "w": "at",
+              "start": 43.365,
+              "end": 43.546
+            },
+            {
+              "w": "the",
+              "start": 43.546,
+              "end": 43.773
+            },
+            {
+              "w": "end.",
+              "start": 43.773,
+              "end": 44.0
+            },
+            {
+              "w": "It's",
+              "start": 44.06,
+              "end": 44.353
+            },
+            {
+              "w": "my",
+              "start": 44.353,
+              "end": 44.587
+            },
+            {
+              "w": "only",
+              "start": 44.587,
+              "end": 44.938
+            },
+            {
+              "w": "job.",
+              "start": 44.938,
+              "end": 45.23
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "start": 45.42,
+      "end": 50.8,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Both built this: a dashboard of KAXO's own company.",
+          "start": 45.42,
+          "end": 48.19,
+          "words": [
+            {
+              "w": "Both",
+              "start": 45.42,
+              "end": 45.707
+            },
+            {
+              "w": "built",
+              "start": 45.707,
+              "end": 46.041
+            },
+            {
+              "w": "this:",
+              "start": 46.041,
+              "end": 46.327
+            },
+            {
+              "w": "a",
+              "start": 46.327,
+              "end": 46.471
+            },
+            {
+              "w": "dashboard",
+              "start": 46.471,
+              "end": 46.996
+            },
+            {
+              "w": "of",
+              "start": 46.996,
+              "end": 47.187
+            },
+            {
+              "w": "KAXO's",
+              "start": 47.187,
+              "end": 47.521
+            },
+            {
+              "w": "own",
+              "start": 47.521,
+              "end": 47.76
+            },
+            {
+              "w": "company.",
+              "start": 47.76,
+              "end": 48.19
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It's mostly charts of other people working.",
+          "start": 48.33,
+          "end": 50.61,
+          "words": [
+            {
+              "w": "It's",
+              "start": 48.33,
+              "end": 48.563
+            },
+            {
+              "w": "mostly",
+              "start": 48.563,
+              "end": 48.935
+            },
+            {
+              "w": "charts",
+              "start": 48.935,
+              "end": 49.307
+            },
+            {
+              "w": "of",
+              "start": 49.307,
+              "end": 49.493
+            },
+            {
+              "w": "other",
+              "start": 49.493,
+              "end": 49.819
+            },
+            {
+              "w": "people",
+              "start": 49.819,
+              "end": 50.191
+            },
+            {
+              "w": "working.",
+              "start": 50.191,
+              "end": 50.61
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "start": 50.8,
+      "end": 58.65,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Before any testing, here's Anthropic's official promise.",
+          "start": 50.8,
+          "end": 53.69,
+          "words": [
+            {
+              "w": "Before",
+              "start": 50.8,
+              "end": 51.185
+            },
+            {
+              "w": "any",
+              "start": 51.185,
+              "end": 51.426
+            },
+            {
+              "w": "testing,",
+              "start": 51.426,
+              "end": 51.86
+            },
+            {
+              "w": "here's",
+              "start": 51.86,
+              "end": 52.197
+            },
+            {
+              "w": "Anthropic's",
+              "start": 52.197,
+              "end": 52.775
+            },
+            {
+              "w": "official",
+              "start": 52.775,
+              "end": 53.257
+            },
+            {
+              "w": "promise.",
+              "start": 53.257,
+              "end": 53.69
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "The token price drops twenty percent.",
+          "start": 53.77,
+          "end": 55.82,
+          "words": [
+            {
+              "w": "The",
+              "start": 53.77,
+              "end": 54.008
+            },
+            {
+              "w": "token",
+              "start": 54.008,
+              "end": 54.342
+            },
+            {
+              "w": "price",
+              "start": 54.342,
+              "end": 54.676
+            },
+            {
+              "w": "drops",
+              "start": 54.676,
+              "end": 55.01
+            },
+            {
+              "w": "twenty",
+              "start": 55.01,
+              "end": 55.391
+            },
+            {
+              "w": "percent.",
+              "start": 55.391,
+              "end": 55.82
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Cheaper employees. My favorite kind.",
+          "start": 55.96,
+          "end": 58.46,
+          "words": [
+            {
+              "w": "Cheaper",
+              "start": 55.96,
+              "end": 56.487
+            },
+            {
+              "w": "employees.",
+              "start": 56.487,
+              "end": 57.13
+            },
+            {
+              "w": "My",
+              "start": 57.19,
+              "end": 57.444
+            },
+            {
+              "w": "favorite",
+              "start": 57.444,
+              "end": 58.079
+            },
+            {
+              "w": "kind.",
+              "start": 58.079,
+              "end": 58.46
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "start": 58.65,
+      "end": 64.71,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Input goes from five dollars per million tokens to four.",
+          "start": 58.65,
+          "end": 61.79,
+          "words": [
+            {
+              "w": "Input",
+              "start": 58.65,
+              "end": 58.983
+            },
+            {
+              "w": "goes",
+              "start": 58.983,
+              "end": 59.268
+            },
+            {
+              "w": "from",
+              "start": 59.268,
+              "end": 59.554
+            },
+            {
+              "w": "five",
+              "start": 59.554,
+              "end": 59.839
+            },
+            {
+              "w": "dollars",
+              "start": 59.839,
+              "end": 60.268
+            },
+            {
+              "w": "per",
+              "start": 60.268,
+              "end": 60.505
+            },
+            {
+              "w": "million",
+              "start": 60.505,
+              "end": 60.934
+            },
+            {
+              "w": "tokens",
+              "start": 60.934,
+              "end": 61.314
+            },
+            {
+              "w": "to",
+              "start": 61.314,
+              "end": 61.505
+            },
+            {
+              "w": "four.",
+              "start": 61.505,
+              "end": 61.79
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Output drops from twenty-five dollars to twenty.",
+          "start": 61.87,
+          "end": 64.58,
+          "words": [
+            {
+              "w": "Output",
+              "start": 61.87,
+              "end": 62.271
+            },
+            {
+              "w": "drops",
+              "start": 62.271,
+              "end": 62.623
+            },
+            {
+              "w": "from",
+              "start": 62.623,
+              "end": 62.924
+            },
+            {
+              "w": "twenty-five",
+              "start": 62.924,
+              "end": 63.526
+            },
+            {
+              "w": "dollars",
+              "start": 63.526,
+              "end": 63.978
+            },
+            {
+              "w": "to",
+              "start": 63.978,
+              "end": 64.179
+            },
+            {
+              "w": "twenty.",
+              "start": 64.179,
+              "end": 64.58
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "start": 64.71,
+      "end": 70.41,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Cached reads get sixty percent cheaper.",
+          "start": 64.71,
+          "end": 66.81,
+          "words": [
+            {
+              "w": "Cached",
+              "start": 64.71,
+              "end": 65.083
+            },
+            {
+              "w": "reads",
+              "start": 65.083,
+              "end": 65.41
+            },
+            {
+              "w": "get",
+              "start": 65.41,
+              "end": 65.643
+            },
+            {
+              "w": "sixty",
+              "start": 65.643,
+              "end": 65.97
+            },
+            {
+              "w": "percent",
+              "start": 65.97,
+              "end": 66.39
+            },
+            {
+              "w": "cheaper.",
+              "start": 66.39,
+              "end": 66.81
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "And on typical workloads, they say forty percent cheaper overall.",
+          "start": 66.89,
+          "end": 70.22,
+          "words": [
+            {
+              "w": "And",
+              "start": 66.89,
+              "end": 67.115
+            },
+            {
+              "w": "on",
+              "start": 67.115,
+              "end": 67.295
+            },
+            {
+              "w": "typical",
+              "start": 67.295,
+              "end": 67.7
+            },
+            {
+              "w": "workloads,",
+              "start": 67.7,
+              "end": 68.195
+            },
+            {
+              "w": "they",
+              "start": 68.195,
+              "end": 68.465
+            },
+            {
+              "w": "say",
+              "start": 68.465,
+              "end": 68.69
+            },
+            {
+              "w": "forty",
+              "start": 68.69,
+              "end": 69.005
+            },
+            {
+              "w": "percent",
+              "start": 69.005,
+              "end": 69.41
+            },
+            {
+              "w": "cheaper",
+              "start": 69.41,
+              "end": 69.815
+            },
+            {
+              "w": "overall.",
+              "start": 69.815,
+              "end": 70.22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "start": 70.41,
+      "end": 75.8,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Twenty percent off, then forty percent off.",
+          "start": 70.41,
+          "end": 72.63,
+          "words": [
+            {
+              "w": "Twenty",
+              "start": 70.41,
+              "end": 70.772
+            },
+            {
+              "w": "percent",
+              "start": 70.772,
+              "end": 71.18
+            },
+            {
+              "w": "off,",
+              "start": 71.18,
+              "end": 71.407
+            },
+            {
+              "w": "then",
+              "start": 71.407,
+              "end": 71.679
+            },
+            {
+              "w": "forty",
+              "start": 71.679,
+              "end": 71.996
+            },
+            {
+              "w": "percent",
+              "start": 71.996,
+              "end": 72.403
+            },
+            {
+              "w": "off.",
+              "start": 72.403,
+              "end": 72.63
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I did the math. Everything's basically free now.",
+          "start": 72.71,
+          "end": 75.61,
+          "words": [
+            {
+              "w": "I",
+              "start": 72.71,
+              "end": 72.873
+            },
+            {
+              "w": "did",
+              "start": 72.873,
+              "end": 73.144
+            },
+            {
+              "w": "the",
+              "start": 73.144,
+              "end": 73.415
+            },
+            {
+              "w": "math.",
+              "start": 73.415,
+              "end": 73.74
+            },
+            {
+              "w": "Everything's",
+              "start": 73.8,
+              "end": 74.472
+            },
+            {
+              "w": "basically",
+              "start": 74.472,
+              "end": 75.041
+            },
+            {
+              "w": "free",
+              "start": 75.041,
+              "end": 75.351
+            },
+            {
+              "w": "now.",
+              "start": 75.351,
+              "end": 75.61
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "start": 75.8,
+      "end": 81.36,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "They don't stack.",
+          "start": 75.8,
+          "end": 76.45,
+          "words": [
+            {
+              "w": "They",
+              "start": 75.8,
+              "end": 76.005
+            },
+            {
+              "w": "don't",
+              "start": 76.005,
+              "end": 76.211
+            },
+            {
+              "w": "stack.",
+              "start": 76.211,
+              "end": 76.45
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "The forty is their estimate for typical work.",
+          "start": 76.53,
+          "end": 78.81,
+          "words": [
+            {
+              "w": "The",
+              "start": 76.53,
+              "end": 76.745
+            },
+            {
+              "w": "forty",
+              "start": 76.745,
+              "end": 77.046
+            },
+            {
+              "w": "is",
+              "start": 77.046,
+              "end": 77.218
+            },
+            {
+              "w": "their",
+              "start": 77.218,
+              "end": 77.519
+            },
+            {
+              "w": "estimate",
+              "start": 77.519,
+              "end": 77.95
+            },
+            {
+              "w": "for",
+              "start": 77.95,
+              "end": 78.165
+            },
+            {
+              "w": "typical",
+              "start": 78.165,
+              "end": 78.552
+            },
+            {
+              "w": "work.",
+              "start": 78.552,
+              "end": 78.81
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nobody's giving KAXO anything for free.",
+          "start": 78.89,
+          "end": 81.17,
+          "words": [
+            {
+              "w": "Nobody's",
+              "start": 78.89,
+              "end": 79.356
+            },
+            {
+              "w": "giving",
+              "start": 79.356,
+              "end": 79.771
+            },
+            {
+              "w": "KAXO",
+              "start": 79.771,
+              "end": 80.082
+            },
+            {
+              "w": "anything",
+              "start": 80.082,
+              "end": 80.6
+            },
+            {
+              "w": "for",
+              "start": 80.6,
+              "end": 80.859
+            },
+            {
+              "w": "free.",
+              "start": 80.859,
+              "end": 81.17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "start": 81.36,
+      "end": 89.37,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Rude.",
+          "start": 81.36,
+          "end": 81.97,
+          "words": [
+            {
+              "w": "Rude.",
+              "start": 81.36,
+              "end": 81.97
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Output should also be over thirty percent faster.",
+          "start": 82.11,
+          "end": 84.77,
+          "words": [
+            {
+              "w": "Output",
+              "start": 82.11,
+              "end": 82.483
+            },
+            {
+              "w": "should",
+              "start": 82.483,
+              "end": 82.857
+            },
+            {
+              "w": "also",
+              "start": 82.857,
+              "end": 83.137
+            },
+            {
+              "w": "be",
+              "start": 83.137,
+              "end": 83.323
+            },
+            {
+              "w": "over",
+              "start": 83.323,
+              "end": 83.603
+            },
+            {
+              "w": "thirty",
+              "start": 83.603,
+              "end": 83.977
+            },
+            {
+              "w": "percent",
+              "start": 83.977,
+              "end": 84.397
+            },
+            {
+              "w": "faster.",
+              "start": 84.397,
+              "end": 84.77
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "On Terminal-Bench 4.0, the score jumps from fifty-two to sixty-six.",
+          "start": 84.85,
+          "end": 89.24,
+          "words": [
+            {
+              "w": "On",
+              "start": 84.85,
+              "end": 85.094
+            },
+            {
+              "w": "Terminal-Bench",
+              "start": 85.094,
+              "end": 86.008
+            },
+            {
+              "w": "4.0,",
+              "start": 86.008,
+              "end": 86.252
+            },
+            {
+              "w": "the",
+              "start": 86.252,
+              "end": 86.557
+            },
+            {
+              "w": "score",
+              "start": 86.557,
+              "end": 86.984
+            },
+            {
+              "w": "jumps",
+              "start": 86.984,
+              "end": 87.411
+            },
+            {
+              "w": "from",
+              "start": 87.411,
+              "end": 87.777
+            },
+            {
+              "w": "fifty-two",
+              "start": 87.777,
+              "end": 88.386
+            },
+            {
+              "w": "to",
+              "start": 88.386,
+              "end": 88.63
+            },
+            {
+              "w": "sixty-six.",
+              "start": 88.63,
+              "end": 89.24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "start": 89.37,
+      "end": 98.9,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "OSWorld goes from seventy-four to almost eighty-two.",
+          "start": 89.37,
+          "end": 92.41,
+          "words": [
+            {
+              "w": "OSWorld",
+              "start": 89.37,
+              "end": 89.85
+            },
+            {
+              "w": "goes",
+              "start": 89.85,
+              "end": 90.17
+            },
+            {
+              "w": "from",
+              "start": 90.17,
+              "end": 90.49
+            },
+            {
+              "w": "seventy-four",
+              "start": 90.49,
+              "end": 91.183
+            },
+            {
+              "w": "to",
+              "start": 91.183,
+              "end": 91.397
+            },
+            {
+              "w": "almost",
+              "start": 91.397,
+              "end": 91.823
+            },
+            {
+              "w": "eighty-two.",
+              "start": 91.823,
+              "end": 92.41
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Those numbers come from Anthropic's own page.",
+          "start": 92.49,
+          "end": 94.93,
+          "words": [
+            {
+              "w": "Those",
+              "start": 92.49,
+              "end": 92.825
+            },
+            {
+              "w": "numbers",
+              "start": 92.825,
+              "end": 93.255
+            },
+            {
+              "w": "come",
+              "start": 93.255,
+              "end": 93.543
+            },
+            {
+              "w": "from",
+              "start": 93.543,
+              "end": 93.83
+            },
+            {
+              "w": "Anthropic's",
+              "start": 93.83,
+              "end": 94.404
+            },
+            {
+              "w": "own",
+              "start": 94.404,
+              "end": 94.643
+            },
+            {
+              "w": "page.",
+              "start": 94.643,
+              "end": 94.93
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Benchmarks are job interviews. Everyone's great at interviews.",
+          "start": 95.07,
+          "end": 98.71,
+          "words": [
+            {
+              "w": "Benchmarks",
+              "start": 95.07,
+              "end": 95.684
+            },
+            {
+              "w": "are",
+              "start": 95.684,
+              "end": 95.94
+            },
+            {
+              "w": "job",
+              "start": 95.94,
+              "end": 96.196
+            },
+            {
+              "w": "interviews.",
+              "start": 96.196,
+              "end": 96.81
+            },
+            {
+              "w": "Everyone's",
+              "start": 96.87,
+              "end": 97.465
+            },
+            {
+              "w": "great",
+              "start": 97.465,
+              "end": 97.844
+            },
+            {
+              "w": "at",
+              "start": 97.844,
+              "end": 98.061
+            },
+            {
+              "w": "interviews.",
+              "start": 98.061,
+              "end": 98.71
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "start": 98.9,
+      "end": 103.95,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Here's the catch with price per token.",
+          "start": 98.9,
+          "end": 100.87,
+          "words": [
+            {
+              "w": "Here's",
+              "start": 98.9,
+              "end": 99.213
+            },
+            {
+              "w": "the",
+              "start": 99.213,
+              "end": 99.437
+            },
+            {
+              "w": "catch",
+              "start": 99.437,
+              "end": 99.751
+            },
+            {
+              "w": "with",
+              "start": 99.751,
+              "end": 100.019
+            },
+            {
+              "w": "price",
+              "start": 100.019,
+              "end": 100.333
+            },
+            {
+              "w": "per",
+              "start": 100.333,
+              "end": 100.557
+            },
+            {
+              "w": "token.",
+              "start": 100.557,
+              "end": 100.87
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "A job can take ten thousand tokens, or a million.",
+          "start": 100.95,
+          "end": 103.82,
+          "words": [
+            {
+              "w": "A",
+              "start": 100.95,
+              "end": 101.098
+            },
+            {
+              "w": "job",
+              "start": 101.098,
+              "end": 101.346
+            },
+            {
+              "w": "can",
+              "start": 101.346,
+              "end": 101.593
+            },
+            {
+              "w": "take",
+              "start": 101.593,
+              "end": 101.89
+            },
+            {
+              "w": "ten",
+              "start": 101.89,
+              "end": 102.138
+            },
+            {
+              "w": "thousand",
+              "start": 102.138,
+              "end": 102.632
+            },
+            {
+              "w": "tokens,",
+              "start": 102.632,
+              "end": 103.028
+            },
+            {
+              "w": "or",
+              "start": 103.028,
+              "end": 103.226
+            },
+            {
+              "w": "a",
+              "start": 103.226,
+              "end": 103.375
+            },
+            {
+              "w": "million.",
+              "start": 103.375,
+              "end": 103.82
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "start": 103.95,
+      "end": 109.73,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Price per finished job is what you actually pay.",
+          "start": 103.95,
+          "end": 106.41,
+          "words": [
+            {
+              "w": "Price",
+              "start": 103.95,
+              "end": 104.252
+            },
+            {
+              "w": "per",
+              "start": 104.252,
+              "end": 104.468
+            },
+            {
+              "w": "finished",
+              "start": 104.468,
+              "end": 104.899
+            },
+            {
+              "w": "job",
+              "start": 104.899,
+              "end": 105.115
+            },
+            {
+              "w": "is",
+              "start": 105.115,
+              "end": 105.288
+            },
+            {
+              "w": "what",
+              "start": 105.288,
+              "end": 105.547
+            },
+            {
+              "w": "you",
+              "start": 105.547,
+              "end": 105.763
+            },
+            {
+              "w": "actually",
+              "start": 105.763,
+              "end": 106.194
+            },
+            {
+              "w": "pay.",
+              "start": 106.194,
+              "end": 106.41
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "So I wanted a real job. And a real receipt.",
+          "start": 106.55,
+          "end": 109.54,
+          "words": [
+            {
+              "w": "So",
+              "start": 106.55,
+              "end": 106.787
+            },
+            {
+              "w": "I",
+              "start": 106.787,
+              "end": 106.965
+            },
+            {
+              "w": "wanted",
+              "start": 106.965,
+              "end": 107.44
+            },
+            {
+              "w": "a",
+              "start": 107.44,
+              "end": 107.618
+            },
+            {
+              "w": "real",
+              "start": 107.618,
+              "end": 107.973
+            },
+            {
+              "w": "job.",
+              "start": 107.973,
+              "end": 108.27
+            },
+            {
+              "w": "And",
+              "start": 108.33,
+              "end": 108.593
+            },
+            {
+              "w": "a",
+              "start": 108.593,
+              "end": 108.751
+            },
+            {
+              "w": "real",
+              "start": 108.751,
+              "end": 109.067
+            },
+            {
+              "w": "receipt.",
+              "start": 109.067,
+              "end": 109.54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "start": 109.73,
+      "end": 114.99,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The job came from KAXO's real office.",
+          "start": 109.73,
+          "end": 111.88,
+          "words": [
+            {
+              "w": "The",
+              "start": 109.73,
+              "end": 109.98
+            },
+            {
+              "w": "job",
+              "start": 109.98,
+              "end": 110.23
+            },
+            {
+              "w": "came",
+              "start": 110.23,
+              "end": 110.53
+            },
+            {
+              "w": "from",
+              "start": 110.53,
+              "end": 110.83
+            },
+            {
+              "w": "KAXO's",
+              "start": 110.83,
+              "end": 111.18
+            },
+            {
+              "w": "real",
+              "start": 111.18,
+              "end": 111.48
+            },
+            {
+              "w": "office.",
+              "start": 111.48,
+              "end": 111.88
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Every time an agent there uses a tool, it gets logged.",
+          "start": 111.96,
+          "end": 114.86,
+          "words": [
+            {
+              "w": "Every",
+              "start": 111.96,
+              "end": 112.277
+            },
+            {
+              "w": "time",
+              "start": 112.277,
+              "end": 112.549
+            },
+            {
+              "w": "an",
+              "start": 112.549,
+              "end": 112.73
+            },
+            {
+              "w": "agent",
+              "start": 112.73,
+              "end": 113.047
+            },
+            {
+              "w": "there",
+              "start": 113.047,
+              "end": 113.365
+            },
+            {
+              "w": "uses",
+              "start": 113.365,
+              "end": 113.637
+            },
+            {
+              "w": "a",
+              "start": 113.637,
+              "end": 113.772
+            },
+            {
+              "w": "tool,",
+              "start": 113.772,
+              "end": 114.044
+            },
+            {
+              "w": "it",
+              "start": 114.044,
+              "end": 114.226
+            },
+            {
+              "w": "gets",
+              "start": 114.226,
+              "end": 114.497
+            },
+            {
+              "w": "logged.",
+              "start": 114.497,
+              "end": 114.86
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "start": 114.99,
+      "end": 119.35,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "That log had ninety-six events in it.",
+          "start": 114.99,
+          "end": 117.01,
+          "words": [
+            {
+              "w": "That",
+              "start": 114.99,
+              "end": 115.272
+            },
+            {
+              "w": "log",
+              "start": 115.272,
+              "end": 115.507
+            },
+            {
+              "w": "had",
+              "start": 115.507,
+              "end": 115.742
+            },
+            {
+              "w": "ninety-six",
+              "start": 115.742,
+              "end": 116.258
+            },
+            {
+              "w": "events",
+              "start": 116.258,
+              "end": 116.634
+            },
+            {
+              "w": "in",
+              "start": 116.634,
+              "end": 116.822
+            },
+            {
+              "w": "it.",
+              "start": 116.822,
+              "end": 117.01
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Ninety-six. Way too long to read.",
+          "start": 117.15,
+          "end": 119.16,
+          "words": [
+            {
+              "w": "Ninety-six.",
+              "start": 117.15,
+              "end": 117.95
+            },
+            {
+              "w": "Way",
+              "start": 118.01,
+              "end": 118.231
+            },
+            {
+              "w": "too",
+              "start": 118.231,
+              "end": 118.452
+            },
+            {
+              "w": "long",
+              "start": 118.452,
+              "end": 118.718
+            },
+            {
+              "w": "to",
+              "start": 118.718,
+              "end": 118.895
+            },
+            {
+              "w": "read.",
+              "start": 118.895,
+              "end": 119.16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "start": 119.35,
+      "end": 125.52,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The task: turn that log into a dashboard, in one HTML file.",
+          "start": 119.35,
+          "end": 123.07,
+          "words": [
+            {
+              "w": "The",
+              "start": 119.35,
+              "end": 119.62
+            },
+            {
+              "w": "task:",
+              "start": 119.62,
+              "end": 119.943
+            },
+            {
+              "w": "turn",
+              "start": 119.943,
+              "end": 120.267
+            },
+            {
+              "w": "that",
+              "start": 120.267,
+              "end": 120.59
+            },
+            {
+              "w": "log",
+              "start": 120.59,
+              "end": 120.86
+            },
+            {
+              "w": "into",
+              "start": 120.86,
+              "end": 121.183
+            },
+            {
+              "w": "a",
+              "start": 121.183,
+              "end": 121.345
+            },
+            {
+              "w": "dashboard,",
+              "start": 121.345,
+              "end": 121.938
+            },
+            {
+              "w": "in",
+              "start": 121.938,
+              "end": 122.153
+            },
+            {
+              "w": "one",
+              "start": 122.153,
+              "end": 122.423
+            },
+            {
+              "w": "HTML",
+              "start": 122.423,
+              "end": 122.747
+            },
+            {
+              "w": "file.",
+              "start": 122.747,
+              "end": 123.07
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "No libraries, no internet, dark theme.",
+          "start": 123.15,
+          "end": 125.39,
+          "words": [
+            {
+              "w": "No",
+              "start": 123.15,
+              "end": 123.363
+            },
+            {
+              "w": "libraries,",
+              "start": 123.363,
+              "end": 123.95
+            },
+            {
+              "w": "no",
+              "start": 123.95,
+              "end": 124.163
+            },
+            {
+              "w": "internet,",
+              "start": 124.163,
+              "end": 124.697
+            },
+            {
+              "w": "dark",
+              "start": 124.697,
+              "end": 125.017
+            },
+            {
+              "w": "theme.",
+              "start": 125.017,
+              "end": 125.39
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "start": 125.52,
+      "end": 129.96,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "It gets screenshotted, so it has to look good.",
+          "start": 125.52,
+          "end": 127.67,
+          "words": [
+            {
+              "w": "It",
+              "start": 125.52,
+              "end": 125.679
+            },
+            {
+              "w": "gets",
+              "start": 125.679,
+              "end": 125.918
+            },
+            {
+              "w": "screenshotted,",
+              "start": 125.918,
+              "end": 126.515
+            },
+            {
+              "w": "so",
+              "start": 126.515,
+              "end": 126.675
+            },
+            {
+              "w": "it",
+              "start": 126.675,
+              "end": 126.834
+            },
+            {
+              "w": "has",
+              "start": 126.834,
+              "end": 127.033
+            },
+            {
+              "w": "to",
+              "start": 127.033,
+              "end": 127.192
+            },
+            {
+              "w": "look",
+              "start": 127.192,
+              "end": 127.431
+            },
+            {
+              "w": "good.",
+              "start": 127.431,
+              "end": 127.67
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Looking good is also my whole job.",
+          "start": 127.81,
+          "end": 129.77,
+          "words": [
+            {
+              "w": "Looking",
+              "start": 127.81,
+              "end": 128.24
+            },
+            {
+              "w": "good",
+              "start": 128.24,
+              "end": 128.527
+            },
+            {
+              "w": "is",
+              "start": 128.527,
+              "end": 128.718
+            },
+            {
+              "w": "also",
+              "start": 128.718,
+              "end": 129.005
+            },
+            {
+              "w": "my",
+              "start": 129.005,
+              "end": 129.196
+            },
+            {
+              "w": "whole",
+              "start": 129.196,
+              "end": 129.531
+            },
+            {
+              "w": "job.",
+              "start": 129.531,
+              "end": 129.77
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "start": 129.96,
+      "end": 136.77,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The page needs events, tool calls, sessions, subagents, and the busiest hour.",
+          "start": 129.96,
+          "end": 134.28,
+          "words": [
+            {
+              "w": "The",
+              "start": 129.96,
+              "end": 130.214
+            },
+            {
+              "w": "page",
+              "start": 130.214,
+              "end": 130.519
+            },
+            {
+              "w": "needs",
+              "start": 130.519,
+              "end": 130.875
+            },
+            {
+              "w": "events,",
+              "start": 130.875,
+              "end": 131.281
+            },
+            {
+              "w": "tool",
+              "start": 131.281,
+              "end": 131.586
+            },
+            {
+              "w": "calls,",
+              "start": 131.586,
+              "end": 131.942
+            },
+            {
+              "w": "sessions,",
+              "start": 131.942,
+              "end": 132.45
+            },
+            {
+              "w": "subagents,",
+              "start": 132.45,
+              "end": 133.009
+            },
+            {
+              "w": "and",
+              "start": 133.009,
+              "end": 133.264
+            },
+            {
+              "w": "the",
+              "start": 133.264,
+              "end": 133.518
+            },
+            {
+              "w": "busiest",
+              "start": 133.518,
+              "end": 133.975
+            },
+            {
+              "w": "hour.",
+              "start": 133.975,
+              "end": 134.28
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Plus a sorted tool table and a bar chart.",
+          "start": 134.36,
+          "end": 136.64,
+          "words": [
+            {
+              "w": "Plus",
+              "start": 134.36,
+              "end": 134.634
+            },
+            {
+              "w": "a",
+              "start": 134.634,
+              "end": 134.77
+            },
+            {
+              "w": "sorted",
+              "start": 134.77,
+              "end": 135.135
+            },
+            {
+              "w": "tool",
+              "start": 135.135,
+              "end": 135.409
+            },
+            {
+              "w": "table",
+              "start": 135.409,
+              "end": 135.728
+            },
+            {
+              "w": "and",
+              "start": 135.728,
+              "end": 135.956
+            },
+            {
+              "w": "a",
+              "start": 135.956,
+              "end": 136.093
+            },
+            {
+              "w": "bar",
+              "start": 136.093,
+              "end": 136.321
+            },
+            {
+              "w": "chart.",
+              "start": 136.321,
+              "end": 136.64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s24",
+      "start": 136.77,
+      "end": 143.12,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "One more number: KAXO's productivity, fixed by the spec at zero percent.",
+          "start": 136.77,
+          "end": 140.73,
+          "words": [
+            {
+              "w": "One",
+              "start": 136.77,
+              "end": 137.014
+            },
+            {
+              "w": "more",
+              "start": 137.014,
+              "end": 137.308
+            },
+            {
+              "w": "number:",
+              "start": 137.308,
+              "end": 137.699
+            },
+            {
+              "w": "KAXO's",
+              "start": 137.699,
+              "end": 138.041
+            },
+            {
+              "w": "productivity,",
+              "start": 138.041,
+              "end": 138.726
+            },
+            {
+              "w": "fixed",
+              "start": 138.726,
+              "end": 139.068
+            },
+            {
+              "w": "by",
+              "start": 139.068,
+              "end": 139.263
+            },
+            {
+              "w": "the",
+              "start": 139.263,
+              "end": 139.508
+            },
+            {
+              "w": "spec",
+              "start": 139.508,
+              "end": 139.801
+            },
+            {
+              "w": "at",
+              "start": 139.801,
+              "end": 139.997
+            },
+            {
+              "w": "zero",
+              "start": 139.997,
+              "end": 140.29
+            },
+            {
+              "w": "percent.",
+              "start": 140.29,
+              "end": 140.73
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Finally, a metric that's accurate.",
+          "start": 140.87,
+          "end": 142.93,
+          "words": [
+            {
+              "w": "Finally,",
+              "start": 140.87,
+              "end": 141.371
+            },
+            {
+              "w": "a",
+              "start": 141.371,
+              "end": 141.538
+            },
+            {
+              "w": "metric",
+              "start": 141.538,
+              "end": 141.984
+            },
+            {
+              "w": "that's",
+              "start": 141.984,
+              "end": 142.373
+            },
+            {
+              "w": "accurate.",
+              "start": 142.373,
+              "end": 142.93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s25",
+      "start": 143.12,
+      "end": 150.07,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Then the important part: hidden tests.",
+          "start": 143.12,
+          "end": 145.24,
+          "words": [
+            {
+              "w": "Then",
+              "start": 143.12,
+              "end": 143.416
+            },
+            {
+              "w": "the",
+              "start": 143.416,
+              "end": 143.662
+            },
+            {
+              "w": "important",
+              "start": 143.662,
+              "end": 144.205
+            },
+            {
+              "w": "part:",
+              "start": 144.205,
+              "end": 144.5
+            },
+            {
+              "w": "hidden",
+              "start": 144.5,
+              "end": 144.895
+            },
+            {
+              "w": "tests.",
+              "start": 144.895,
+              "end": 145.24
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "They knew they'd be tested, but never saw how.",
+          "start": 145.32,
+          "end": 147.5,
+          "words": [
+            {
+              "w": "They",
+              "start": 145.32,
+              "end": 145.567
+            },
+            {
+              "w": "knew",
+              "start": 145.567,
+              "end": 145.814
+            },
+            {
+              "w": "they'd",
+              "start": 145.814,
+              "end": 146.102
+            },
+            {
+              "w": "be",
+              "start": 146.102,
+              "end": 146.266
+            },
+            {
+              "w": "tested,",
+              "start": 146.266,
+              "end": 146.595
+            },
+            {
+              "w": "but",
+              "start": 146.595,
+              "end": 146.801
+            },
+            {
+              "w": "never",
+              "start": 146.801,
+              "end": 147.089
+            },
+            {
+              "w": "saw",
+              "start": 147.089,
+              "end": 147.294
+            },
+            {
+              "w": "how.",
+              "start": 147.294,
+              "end": 147.5
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I love secrets. Less talking.",
+          "start": 147.64,
+          "end": 149.88,
+          "words": [
+            {
+              "w": "I",
+              "start": 147.64,
+              "end": 147.843
+            },
+            {
+              "w": "love",
+              "start": 147.843,
+              "end": 148.25
+            },
+            {
+              "w": "secrets.",
+              "start": 148.25,
+              "end": 148.86
+            },
+            {
+              "w": "Less",
+              "start": 148.92,
+              "end": 149.304
+            },
+            {
+              "w": "talking.",
+              "start": 149.304,
+              "end": 149.88
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s26",
+      "start": 150.07,
+      "end": 155.85,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Eighteen checks ran after both models finished.",
+          "start": 150.07,
+          "end": 152.56,
+          "words": [
+            {
+              "w": "Eighteen",
+              "start": 150.07,
+              "end": 150.531
+            },
+            {
+              "w": "checks",
+              "start": 150.531,
+              "end": 150.9
+            },
+            {
+              "w": "ran",
+              "start": 150.9,
+              "end": 151.131
+            },
+            {
+              "w": "after",
+              "start": 151.131,
+              "end": 151.453
+            },
+            {
+              "w": "both",
+              "start": 151.453,
+              "end": 151.73
+            },
+            {
+              "w": "models",
+              "start": 151.73,
+              "end": 152.099
+            },
+            {
+              "w": "finished.",
+              "start": 152.099,
+              "end": 152.56
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Some use the real log, others use fake data built to break.",
+          "start": 152.64,
+          "end": 155.66,
+          "words": [
+            {
+              "w": "Some",
+              "start": 152.64,
+              "end": 152.899
+            },
+            {
+              "w": "use",
+              "start": 152.899,
+              "end": 153.115
+            },
+            {
+              "w": "the",
+              "start": 153.115,
+              "end": 153.33
+            },
+            {
+              "w": "real",
+              "start": 153.33,
+              "end": 153.589
+            },
+            {
+              "w": "log,",
+              "start": 153.589,
+              "end": 153.805
+            },
+            {
+              "w": "others",
+              "start": 153.805,
+              "end": 154.15
+            },
+            {
+              "w": "use",
+              "start": 154.15,
+              "end": 154.366
+            },
+            {
+              "w": "fake",
+              "start": 154.366,
+              "end": 154.625
+            },
+            {
+              "w": "data",
+              "start": 154.625,
+              "end": 154.883
+            },
+            {
+              "w": "built",
+              "start": 154.883,
+              "end": 155.185
+            },
+            {
+              "w": "to",
+              "start": 155.185,
+              "end": 155.358
+            },
+            {
+              "w": "break.",
+              "start": 155.358,
+              "end": 155.66
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s27",
+      "start": 155.85,
+      "end": 159.94,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Built to break things. My kind of data.",
+          "start": 155.85,
+          "end": 158.19,
+          "words": [
+            {
+              "w": "Built",
+              "start": 155.85,
+              "end": 156.192
+            },
+            {
+              "w": "to",
+              "start": 156.192,
+              "end": 156.387
+            },
+            {
+              "w": "break",
+              "start": 156.387,
+              "end": 156.729
+            },
+            {
+              "w": "things.",
+              "start": 156.729,
+              "end": 157.12
+            },
+            {
+              "w": "My",
+              "start": 157.18,
+              "end": 157.382
+            },
+            {
+              "w": "kind",
+              "start": 157.382,
+              "end": 157.685
+            },
+            {
+              "w": "of",
+              "start": 157.685,
+              "end": 157.887
+            },
+            {
+              "w": "data.",
+              "start": 157.887,
+              "end": 158.19
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "One warning before the race.",
+          "start": 158.33,
+          "end": 159.81,
+          "words": [
+            {
+              "w": "One",
+              "start": 158.33,
+              "end": 158.554
+            },
+            {
+              "w": "warning",
+              "start": 158.554,
+              "end": 158.958
+            },
+            {
+              "w": "before",
+              "start": 158.958,
+              "end": 159.317
+            },
+            {
+              "w": "the",
+              "start": 159.317,
+              "end": 159.541
+            },
+            {
+              "w": "race.",
+              "start": 159.541,
+              "end": 159.81
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s28",
+      "start": 159.94,
+      "end": 165.68,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "It's one task, run once per model, not a benchmark.",
+          "start": 159.94,
+          "end": 162.87,
+          "words": [
+            {
+              "w": "It's",
+              "start": 159.94,
+              "end": 160.193
+            },
+            {
+              "w": "one",
+              "start": 160.193,
+              "end": 160.445
+            },
+            {
+              "w": "task,",
+              "start": 160.445,
+              "end": 160.748
+            },
+            {
+              "w": "run",
+              "start": 160.748,
+              "end": 161.001
+            },
+            {
+              "w": "once",
+              "start": 161.001,
+              "end": 161.304
+            },
+            {
+              "w": "per",
+              "start": 161.304,
+              "end": 161.557
+            },
+            {
+              "w": "model,",
+              "start": 161.557,
+              "end": 161.91
+            },
+            {
+              "w": "not",
+              "start": 161.91,
+              "end": 162.163
+            },
+            {
+              "w": "a",
+              "start": 162.163,
+              "end": 162.314
+            },
+            {
+              "w": "benchmark.",
+              "start": 162.314,
+              "end": 162.87
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Both ran in Claude Code, on default settings.",
+          "start": 162.95,
+          "end": 165.49,
+          "words": [
+            {
+              "w": "Both",
+              "start": 162.95,
+              "end": 163.243
+            },
+            {
+              "w": "ran",
+              "start": 163.243,
+              "end": 163.487
+            },
+            {
+              "w": "in",
+              "start": 163.487,
+              "end": 163.683
+            },
+            {
+              "w": "Claude",
+              "start": 163.683,
+              "end": 164.073
+            },
+            {
+              "w": "Code,",
+              "start": 164.073,
+              "end": 164.367
+            },
+            {
+              "w": "on",
+              "start": 164.367,
+              "end": 164.562
+            },
+            {
+              "w": "default",
+              "start": 164.562,
+              "end": 165.002
+            },
+            {
+              "w": "settings.",
+              "start": 165.002,
+              "end": 165.49
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s29",
+      "start": 165.68,
+      "end": 169.21,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "One roll of the dice. Like most of my business decisions.",
+          "start": 165.68,
+          "end": 169.02,
+          "words": [
+            {
+              "w": "One",
+              "start": 165.68,
+              "end": 165.945
+            },
+            {
+              "w": "roll",
+              "start": 165.945,
+              "end": 166.264
+            },
+            {
+              "w": "of",
+              "start": 166.264,
+              "end": 166.476
+            },
+            {
+              "w": "the",
+              "start": 166.476,
+              "end": 166.742
+            },
+            {
+              "w": "dice.",
+              "start": 166.742,
+              "end": 167.06
+            },
+            {
+              "w": "Like",
+              "start": 167.12,
+              "end": 167.398
+            },
+            {
+              "w": "most",
+              "start": 167.398,
+              "end": 167.676
+            },
+            {
+              "w": "of",
+              "start": 167.676,
+              "end": 167.861
+            },
+            {
+              "w": "my",
+              "start": 167.861,
+              "end": 168.047
+            },
+            {
+              "w": "business",
+              "start": 168.047,
+              "end": 168.51
+            },
+            {
+              "w": "decisions.",
+              "start": 168.51,
+              "end": 169.02
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s30",
+      "start": 169.21,
+      "end": 176.06,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "They started at the same moment, in separate folders.",
+          "start": 169.21,
+          "end": 171.88,
+          "words": [
+            {
+              "w": "They",
+              "start": 169.21,
+              "end": 169.473
+            },
+            {
+              "w": "started",
+              "start": 169.473,
+              "end": 169.867
+            },
+            {
+              "w": "at",
+              "start": 169.867,
+              "end": 170.042
+            },
+            {
+              "w": "the",
+              "start": 170.042,
+              "end": 170.26
+            },
+            {
+              "w": "same",
+              "start": 170.26,
+              "end": 170.523
+            },
+            {
+              "w": "moment,",
+              "start": 170.523,
+              "end": 170.873
+            },
+            {
+              "w": "in",
+              "start": 170.873,
+              "end": 171.048
+            },
+            {
+              "w": "separate",
+              "start": 171.048,
+              "end": 171.486
+            },
+            {
+              "w": "folders.",
+              "start": 171.486,
+              "end": 171.88
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Opus 5.5 read the spec, wrote the page, and checked the numbers.",
+          "start": 171.96,
+          "end": 175.93,
+          "words": [
+            {
+              "w": "Opus",
+              "start": 171.96,
+              "end": 172.286
+            },
+            {
+              "w": "5.5",
+              "start": 172.286,
+              "end": 172.504
+            },
+            {
+              "w": "read",
+              "start": 172.504,
+              "end": 172.83
+            },
+            {
+              "w": "the",
+              "start": 172.83,
+              "end": 173.102
+            },
+            {
+              "w": "spec,",
+              "start": 173.102,
+              "end": 173.428
+            },
+            {
+              "w": "wrote",
+              "start": 173.428,
+              "end": 173.809
+            },
+            {
+              "w": "the",
+              "start": 173.809,
+              "end": 174.081
+            },
+            {
+              "w": "page,",
+              "start": 174.081,
+              "end": 174.407
+            },
+            {
+              "w": "and",
+              "start": 174.407,
+              "end": 174.679
+            },
+            {
+              "w": "checked",
+              "start": 174.679,
+              "end": 175.169
+            },
+            {
+              "w": "the",
+              "start": 175.169,
+              "end": 175.441
+            },
+            {
+              "w": "numbers.",
+              "start": 175.441,
+              "end": 175.93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s31",
+      "start": 176.06,
+      "end": 180.25,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Fifty-three seconds, done.",
+          "start": 176.06,
+          "end": 177.59,
+          "words": [
+            {
+              "w": "Fifty-three",
+              "start": 176.06,
+              "end": 176.74
+            },
+            {
+              "w": "seconds,",
+              "start": 176.74,
+              "end": 177.25
+            },
+            {
+              "w": "done.",
+              "start": 177.25,
+              "end": 177.59
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I can't pick lunch in fifty-three seconds.",
+          "start": 177.73,
+          "end": 180.06,
+          "words": [
+            {
+              "w": "I",
+              "start": 177.73,
+              "end": 177.879
+            },
+            {
+              "w": "can't",
+              "start": 177.879,
+              "end": 178.176
+            },
+            {
+              "w": "pick",
+              "start": 178.176,
+              "end": 178.474
+            },
+            {
+              "w": "lunch",
+              "start": 178.474,
+              "end": 178.821
+            },
+            {
+              "w": "in",
+              "start": 178.821,
+              "end": 179.019
+            },
+            {
+              "w": "fifty-three",
+              "start": 179.019,
+              "end": 179.614
+            },
+            {
+              "w": "seconds.",
+              "start": 179.614,
+              "end": 180.06
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s32",
+      "start": 180.25,
+      "end": 184.4,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "This is the actual code Opus 5.5 wrote.",
+          "start": 180.25,
+          "end": 182.94,
+          "words": [
+            {
+              "w": "This",
+              "start": 180.25,
+              "end": 180.601
+            },
+            {
+              "w": "is",
+              "start": 180.601,
+              "end": 180.835
+            },
+            {
+              "w": "the",
+              "start": 180.835,
+              "end": 181.127
+            },
+            {
+              "w": "actual",
+              "start": 181.127,
+              "end": 181.595
+            },
+            {
+              "w": "code",
+              "start": 181.595,
+              "end": 181.946
+            },
+            {
+              "w": "Opus",
+              "start": 181.946,
+              "end": 182.297
+            },
+            {
+              "w": "5.5",
+              "start": 182.297,
+              "end": 182.531
+            },
+            {
+              "w": "wrote.",
+              "start": 182.531,
+              "end": 182.94
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Five steps in total.",
+          "start": 183.02,
+          "end": 184.27,
+          "words": [
+            {
+              "w": "Five",
+              "start": 183.02,
+              "end": 183.333
+            },
+            {
+              "w": "steps",
+              "start": 183.333,
+              "end": 183.697
+            },
+            {
+              "w": "in",
+              "start": 183.697,
+              "end": 183.905
+            },
+            {
+              "w": "total.",
+              "start": 183.905,
+              "end": 184.27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s33",
+      "start": 184.4,
+      "end": 189.74,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Meanwhile, Opus 5 was still going.",
+          "start": 184.4,
+          "end": 186.54,
+          "words": [
+            {
+              "w": "Meanwhile,",
+              "start": 184.4,
+              "end": 185.004
+            },
+            {
+              "w": "Opus",
+              "start": 185.004,
+              "end": 185.333
+            },
+            {
+              "w": "5",
+              "start": 185.333,
+              "end": 185.497
+            },
+            {
+              "w": "was",
+              "start": 185.497,
+              "end": 185.772
+            },
+            {
+              "w": "still",
+              "start": 185.772,
+              "end": 186.156
+            },
+            {
+              "w": "going.",
+              "start": 186.156,
+              "end": 186.54
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I started a stopwatch. That was my contribution.",
+          "start": 186.68,
+          "end": 189.55,
+          "words": [
+            {
+              "w": "I",
+              "start": 186.68,
+              "end": 186.832
+            },
+            {
+              "w": "started",
+              "start": 186.832,
+              "end": 187.289
+            },
+            {
+              "w": "a",
+              "start": 187.289,
+              "end": 187.442
+            },
+            {
+              "w": "stopwatch.",
+              "start": 187.442,
+              "end": 188.0
+            },
+            {
+              "w": "That",
+              "start": 188.06,
+              "end": 188.368
+            },
+            {
+              "w": "was",
+              "start": 188.368,
+              "end": 188.625
+            },
+            {
+              "w": "my",
+              "start": 188.625,
+              "end": 188.831
+            },
+            {
+              "w": "contribution.",
+              "start": 188.831,
+              "end": 189.55
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s34",
+      "start": 189.74,
+      "end": 194.33,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "This run would take thirty-one steps.",
+          "start": 189.74,
+          "end": 191.67,
+          "words": [
+            {
+              "w": "This",
+              "start": 189.74,
+              "end": 190.016
+            },
+            {
+              "w": "run",
+              "start": 190.016,
+              "end": 190.245
+            },
+            {
+              "w": "would",
+              "start": 190.245,
+              "end": 190.567
+            },
+            {
+              "w": "take",
+              "start": 190.567,
+              "end": 190.843
+            },
+            {
+              "w": "thirty-one",
+              "start": 190.843,
+              "end": 191.348
+            },
+            {
+              "w": "steps.",
+              "start": 191.348,
+              "end": 191.67
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "It wrote the page, then opened it in a browser.",
+          "start": 191.75,
+          "end": 194.2,
+          "words": [
+            {
+              "w": "It",
+              "start": 191.75,
+              "end": 191.925
+            },
+            {
+              "w": "wrote",
+              "start": 191.925,
+              "end": 192.231
+            },
+            {
+              "w": "the",
+              "start": 192.231,
+              "end": 192.45
+            },
+            {
+              "w": "page,",
+              "start": 192.45,
+              "end": 192.713
+            },
+            {
+              "w": "then",
+              "start": 192.713,
+              "end": 192.975
+            },
+            {
+              "w": "opened",
+              "start": 192.975,
+              "end": 193.325
+            },
+            {
+              "w": "it",
+              "start": 193.325,
+              "end": 193.5
+            },
+            {
+              "w": "in",
+              "start": 193.5,
+              "end": 193.675
+            },
+            {
+              "w": "a",
+              "start": 193.675,
+              "end": 193.806
+            },
+            {
+              "w": "browser.",
+              "start": 193.806,
+              "end": 194.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s35",
+      "start": 194.33,
+      "end": 198.77,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Then it tested four edge cases of its own.",
+          "start": 194.33,
+          "end": 196.63,
+          "words": [
+            {
+              "w": "Then",
+              "start": 194.33,
+              "end": 194.601
+            },
+            {
+              "w": "it",
+              "start": 194.601,
+              "end": 194.781
+            },
+            {
+              "w": "tested",
+              "start": 194.781,
+              "end": 195.142
+            },
+            {
+              "w": "four",
+              "start": 195.142,
+              "end": 195.412
+            },
+            {
+              "w": "edge",
+              "start": 195.412,
+              "end": 195.683
+            },
+            {
+              "w": "cases",
+              "start": 195.683,
+              "end": 195.999
+            },
+            {
+              "w": "of",
+              "start": 195.999,
+              "end": 196.179
+            },
+            {
+              "w": "its",
+              "start": 196.179,
+              "end": 196.405
+            },
+            {
+              "w": "own.",
+              "start": 196.405,
+              "end": 196.63
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Checking your own work. Bold move.",
+          "start": 196.77,
+          "end": 198.58,
+          "words": [
+            {
+              "w": "Checking",
+              "start": 196.77,
+              "end": 197.17
+            },
+            {
+              "w": "your",
+              "start": 197.17,
+              "end": 197.41
+            },
+            {
+              "w": "own",
+              "start": 197.41,
+              "end": 197.61
+            },
+            {
+              "w": "work.",
+              "start": 197.61,
+              "end": 197.85
+            },
+            {
+              "w": "Bold",
+              "start": 197.91,
+              "end": 198.245
+            },
+            {
+              "w": "move.",
+              "start": 198.245,
+              "end": 198.58
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s36",
+      "start": 198.77,
+      "end": 202.06,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Four minutes and twenty-five seconds after the start, it finished.",
+          "start": 198.77,
+          "end": 201.87,
+          "words": [
+            {
+              "w": "Four",
+              "start": 198.77,
+              "end": 199.021
+            },
+            {
+              "w": "minutes",
+              "start": 199.021,
+              "end": 199.398
+            },
+            {
+              "w": "and",
+              "start": 199.398,
+              "end": 199.608
+            },
+            {
+              "w": "twenty-five",
+              "start": 199.608,
+              "end": 200.111
+            },
+            {
+              "w": "seconds",
+              "start": 200.111,
+              "end": 200.488
+            },
+            {
+              "w": "after",
+              "start": 200.488,
+              "end": 200.781
+            },
+            {
+              "w": "the",
+              "start": 200.781,
+              "end": 200.99
+            },
+            {
+              "w": "start,",
+              "start": 200.99,
+              "end": 201.284
+            },
+            {
+              "w": "it",
+              "start": 201.284,
+              "end": 201.451
+            },
+            {
+              "w": "finished.",
+              "start": 201.451,
+              "end": 201.87
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s37",
+      "start": 202.06,
+      "end": 205.19,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "I napped through most of it.",
+          "start": 202.06,
+          "end": 203.56,
+          "words": [
+            {
+              "w": "I",
+              "start": 202.06,
+              "end": 202.192
+            },
+            {
+              "w": "napped",
+              "start": 202.192,
+              "end": 202.545
+            },
+            {
+              "w": "through",
+              "start": 202.545,
+              "end": 202.942
+            },
+            {
+              "w": "most",
+              "start": 202.942,
+              "end": 203.207
+            },
+            {
+              "w": "of",
+              "start": 203.207,
+              "end": 203.384
+            },
+            {
+              "w": "it.",
+              "start": 203.384,
+              "end": 203.56
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Here's where the gap came from.",
+          "start": 203.7,
+          "end": 205.06,
+          "words": [
+            {
+              "w": "Here's",
+              "start": 203.7,
+              "end": 203.964
+            },
+            {
+              "w": "where",
+              "start": 203.964,
+              "end": 204.229
+            },
+            {
+              "w": "the",
+              "start": 204.229,
+              "end": 204.418
+            },
+            {
+              "w": "gap",
+              "start": 204.418,
+              "end": 204.607
+            },
+            {
+              "w": "came",
+              "start": 204.607,
+              "end": 204.833
+            },
+            {
+              "w": "from.",
+              "start": 204.833,
+              "end": 205.06
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s38",
+      "start": 205.19,
+      "end": 211.02,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Every step, the model rereads its whole context.",
+          "start": 205.19,
+          "end": 207.8,
+          "words": [
+            {
+              "w": "Every",
+              "start": 205.19,
+              "end": 205.522
+            },
+            {
+              "w": "step,",
+              "start": 205.522,
+              "end": 205.807
+            },
+            {
+              "w": "the",
+              "start": 205.807,
+              "end": 206.044
+            },
+            {
+              "w": "model",
+              "start": 206.044,
+              "end": 206.376
+            },
+            {
+              "w": "rereads",
+              "start": 206.376,
+              "end": 206.803
+            },
+            {
+              "w": "its",
+              "start": 206.803,
+              "end": 207.041
+            },
+            {
+              "w": "whole",
+              "start": 207.041,
+              "end": 207.373
+            },
+            {
+              "w": "context.",
+              "start": 207.373,
+              "end": 207.8
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "More steps means more rereading, and rereading costs money.",
+          "start": 207.88,
+          "end": 210.89,
+          "words": [
+            {
+              "w": "More",
+              "start": 207.88,
+              "end": 208.15
+            },
+            {
+              "w": "steps",
+              "start": 208.15,
+              "end": 208.464
+            },
+            {
+              "w": "means",
+              "start": 208.464,
+              "end": 208.779
+            },
+            {
+              "w": "more",
+              "start": 208.779,
+              "end": 209.048
+            },
+            {
+              "w": "rereading,",
+              "start": 209.048,
+              "end": 209.542
+            },
+            {
+              "w": "and",
+              "start": 209.542,
+              "end": 209.767
+            },
+            {
+              "w": "rereading",
+              "start": 209.767,
+              "end": 210.261
+            },
+            {
+              "w": "costs",
+              "start": 210.261,
+              "end": 210.576
+            },
+            {
+              "w": "money.",
+              "start": 210.576,
+              "end": 210.89
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s39",
+      "start": 211.02,
+      "end": 217.71,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Opus 5 reread about one point three million cached tokens.",
+          "start": 211.02,
+          "end": 214.74,
+          "words": [
+            {
+              "w": "Opus",
+              "start": 211.02,
+              "end": 211.348
+            },
+            {
+              "w": "5",
+              "start": 211.348,
+              "end": 211.512
+            },
+            {
+              "w": "reread",
+              "start": 211.512,
+              "end": 211.95
+            },
+            {
+              "w": "about",
+              "start": 211.95,
+              "end": 212.333
+            },
+            {
+              "w": "one",
+              "start": 212.333,
+              "end": 212.606
+            },
+            {
+              "w": "point",
+              "start": 212.606,
+              "end": 212.989
+            },
+            {
+              "w": "three",
+              "start": 212.989,
+              "end": 213.372
+            },
+            {
+              "w": "million",
+              "start": 213.372,
+              "end": 213.865
+            },
+            {
+              "w": "cached",
+              "start": 213.865,
+              "end": 214.302
+            },
+            {
+              "w": "tokens.",
+              "start": 214.302,
+              "end": 214.74
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "One point three million. I've read maybe four.",
+          "start": 214.88,
+          "end": 217.52,
+          "words": [
+            {
+              "w": "One",
+              "start": 214.88,
+              "end": 215.118
+            },
+            {
+              "w": "point",
+              "start": 215.118,
+              "end": 215.45
+            },
+            {
+              "w": "three",
+              "start": 215.45,
+              "end": 215.783
+            },
+            {
+              "w": "million.",
+              "start": 215.783,
+              "end": 216.21
+            },
+            {
+              "w": "I've",
+              "start": 216.27,
+              "end": 216.53
+            },
+            {
+              "w": "read",
+              "start": 216.53,
+              "end": 216.843
+            },
+            {
+              "w": "maybe",
+              "start": 216.843,
+              "end": 217.208
+            },
+            {
+              "w": "four.",
+              "start": 217.208,
+              "end": 217.52
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s40",
+      "start": 217.71,
+      "end": 225.25,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Opus 5.5 reread about a hundred and twenty-eight thousand.",
+          "start": 217.71,
+          "end": 221.06,
+          "words": [
+            {
+              "w": "Opus",
+              "start": 217.71,
+              "end": 218.019
+            },
+            {
+              "w": "5.5",
+              "start": 218.019,
+              "end": 218.225
+            },
+            {
+              "w": "reread",
+              "start": 218.225,
+              "end": 218.638
+            },
+            {
+              "w": "about",
+              "start": 218.638,
+              "end": 218.998
+            },
+            {
+              "w": "a",
+              "start": 218.998,
+              "end": 219.153
+            },
+            {
+              "w": "hundred",
+              "start": 219.153,
+              "end": 219.617
+            },
+            {
+              "w": "and",
+              "start": 219.617,
+              "end": 219.875
+            },
+            {
+              "w": "twenty-eight",
+              "start": 219.875,
+              "end": 220.545
+            },
+            {
+              "w": "thousand.",
+              "start": 220.545,
+              "end": 221.06
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Roughly ten times less.",
+          "start": 221.14,
+          "end": 222.6,
+          "words": [
+            {
+              "w": "Roughly",
+              "start": 221.14,
+              "end": 221.627
+            },
+            {
+              "w": "ten",
+              "start": 221.627,
+              "end": 221.897
+            },
+            {
+              "w": "times",
+              "start": 221.897,
+              "end": 222.276
+            },
+            {
+              "w": "less.",
+              "start": 222.276,
+              "end": 222.6
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Fewer steps, fewer rereads, smaller bill.",
+          "start": 222.68,
+          "end": 225.06,
+          "words": [
+            {
+              "w": "Fewer",
+              "start": 222.68,
+              "end": 223.05
+            },
+            {
+              "w": "steps,",
+              "start": 223.05,
+              "end": 223.42
+            },
+            {
+              "w": "fewer",
+              "start": 223.42,
+              "end": 223.791
+            },
+            {
+              "w": "rereads,",
+              "start": 223.791,
+              "end": 224.267
+            },
+            {
+              "w": "smaller",
+              "start": 224.267,
+              "end": 224.743
+            },
+            {
+              "w": "bill.",
+              "start": 224.743,
+              "end": 225.06
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s41",
+      "start": 225.25,
+      "end": 229.76,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "One reads the manual every single step.",
+          "start": 225.25,
+          "end": 227.52,
+          "words": [
+            {
+              "w": "One",
+              "start": 225.25,
+              "end": 225.497
+            },
+            {
+              "w": "reads",
+              "start": 225.497,
+              "end": 225.842
+            },
+            {
+              "w": "the",
+              "start": 225.842,
+              "end": 226.089
+            },
+            {
+              "w": "manual",
+              "start": 226.089,
+              "end": 226.484
+            },
+            {
+              "w": "every",
+              "start": 226.484,
+              "end": 226.829
+            },
+            {
+              "w": "single",
+              "start": 226.829,
+              "end": 227.224
+            },
+            {
+              "w": "step.",
+              "start": 227.224,
+              "end": 227.52
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The other skims. I respect that.",
+          "start": 227.6,
+          "end": 229.57,
+          "words": [
+            {
+              "w": "The",
+              "start": 227.6,
+              "end": 227.85
+            },
+            {
+              "w": "other",
+              "start": 227.85,
+              "end": 228.2
+            },
+            {
+              "w": "skims.",
+              "start": 228.2,
+              "end": 228.55
+            },
+            {
+              "w": "I",
+              "start": 228.61,
+              "end": 228.77
+            },
+            {
+              "w": "respect",
+              "start": 228.77,
+              "end": 229.25
+            },
+            {
+              "w": "that.",
+              "start": 229.25,
+              "end": 229.57
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s42",
+      "start": 229.76,
+      "end": 236.88,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Now, the hidden tests.",
+          "start": 229.76,
+          "end": 231.1,
+          "words": [
+            {
+              "w": "Now,",
+              "start": 229.76,
+              "end": 230.028
+            },
+            {
+              "w": "the",
+              "start": 230.028,
+              "end": 230.296
+            },
+            {
+              "w": "hidden",
+              "start": 230.296,
+              "end": 230.725
+            },
+            {
+              "w": "tests.",
+              "start": 230.725,
+              "end": 231.1
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Opus 5 passed eighteen out of eighteen.",
+          "start": 231.18,
+          "end": 233.37,
+          "words": [
+            {
+              "w": "Opus",
+              "start": 231.18,
+              "end": 231.466
+            },
+            {
+              "w": "5",
+              "start": 231.466,
+              "end": 231.608
+            },
+            {
+              "w": "passed",
+              "start": 231.608,
+              "end": 231.989
+            },
+            {
+              "w": "eighteen",
+              "start": 231.989,
+              "end": 232.465
+            },
+            {
+              "w": "out",
+              "start": 232.465,
+              "end": 232.703
+            },
+            {
+              "w": "of",
+              "start": 232.703,
+              "end": 232.894
+            },
+            {
+              "w": "eighteen.",
+              "start": 232.894,
+              "end": 233.37
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "And Opus 5.5? Also eighteen out of eighteen.",
+          "start": 233.45,
+          "end": 236.69,
+          "words": [
+            {
+              "w": "And",
+              "start": 233.45,
+              "end": 233.937
+            },
+            {
+              "w": "Opus",
+              "start": 233.937,
+              "end": 234.521
+            },
+            {
+              "w": "5.5?",
+              "start": 234.521,
+              "end": 234.91
+            },
+            {
+              "w": "Also",
+              "start": 235.01,
+              "end": 235.298
+            },
+            {
+              "w": "eighteen",
+              "start": 235.298,
+              "end": 235.778
+            },
+            {
+              "w": "out",
+              "start": 235.778,
+              "end": 236.018
+            },
+            {
+              "w": "of",
+              "start": 236.018,
+              "end": 236.21
+            },
+            {
+              "w": "eighteen.",
+              "start": 236.21,
+              "end": 236.69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s43",
+      "start": 236.88,
+      "end": 242.52,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Perfect scores, both of them. So nobody's fired.",
+          "start": 236.88,
+          "end": 239.97,
+          "words": [
+            {
+              "w": "Perfect",
+              "start": 236.88,
+              "end": 237.349
+            },
+            {
+              "w": "scores,",
+              "start": 237.349,
+              "end": 237.766
+            },
+            {
+              "w": "both",
+              "start": 237.766,
+              "end": 238.079
+            },
+            {
+              "w": "of",
+              "start": 238.079,
+              "end": 238.287
+            },
+            {
+              "w": "them.",
+              "start": 238.287,
+              "end": 238.6
+            },
+            {
+              "w": "So",
+              "start": 238.66,
+              "end": 238.922
+            },
+            {
+              "w": "nobody's",
+              "start": 238.922,
+              "end": 239.512
+            },
+            {
+              "w": "fired.",
+              "start": 239.512,
+              "end": 239.97
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I was ready to fire someone. Mentally.",
+          "start": 240.05,
+          "end": 242.33,
+          "words": [
+            {
+              "w": "I",
+              "start": 240.05,
+              "end": 240.186
+            },
+            {
+              "w": "was",
+              "start": 240.186,
+              "end": 240.412
+            },
+            {
+              "w": "ready",
+              "start": 240.412,
+              "end": 240.729
+            },
+            {
+              "w": "to",
+              "start": 240.729,
+              "end": 240.911
+            },
+            {
+              "w": "fire",
+              "start": 240.911,
+              "end": 241.182
+            },
+            {
+              "w": "someone.",
+              "start": 241.182,
+              "end": 241.59
+            },
+            {
+              "w": "Mentally.",
+              "start": 241.65,
+              "end": 242.33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s44",
+      "start": 242.52,
+      "end": 251.08,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The real numbers matched on both pages.",
+          "start": 242.52,
+          "end": 244.72,
+          "words": [
+            {
+              "w": "The",
+              "start": 242.52,
+              "end": 242.759
+            },
+            {
+              "w": "real",
+              "start": 242.759,
+              "end": 243.046
+            },
+            {
+              "w": "numbers",
+              "start": 243.046,
+              "end": 243.477
+            },
+            {
+              "w": "matched",
+              "start": 243.477,
+              "end": 243.907
+            },
+            {
+              "w": "on",
+              "start": 243.907,
+              "end": 244.098
+            },
+            {
+              "w": "both",
+              "start": 244.098,
+              "end": 244.385
+            },
+            {
+              "w": "pages.",
+              "start": 244.385,
+              "end": 244.72
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Ninety-six events, seventy tool calls, five sessions.",
+          "start": 244.8,
+          "end": 247.84,
+          "words": [
+            {
+              "w": "Ninety-six",
+              "start": 244.8,
+              "end": 245.387
+            },
+            {
+              "w": "events,",
+              "start": 245.387,
+              "end": 245.813
+            },
+            {
+              "w": "seventy",
+              "start": 245.813,
+              "end": 246.293
+            },
+            {
+              "w": "tool",
+              "start": 246.293,
+              "end": 246.613
+            },
+            {
+              "w": "calls,",
+              "start": 246.613,
+              "end": 246.987
+            },
+            {
+              "w": "five",
+              "start": 246.987,
+              "end": 247.307
+            },
+            {
+              "w": "sessions.",
+              "start": 247.307,
+              "end": 247.84
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "And KAXO's productivity, correctly, at zero percent.",
+          "start": 247.92,
+          "end": 250.89,
+          "words": [
+            {
+              "w": "And",
+              "start": 247.92,
+              "end": 248.185
+            },
+            {
+              "w": "KAXO's",
+              "start": 248.185,
+              "end": 248.556
+            },
+            {
+              "w": "productivity,",
+              "start": 248.556,
+              "end": 249.299
+            },
+            {
+              "w": "correctly,",
+              "start": 249.299,
+              "end": 249.882
+            },
+            {
+              "w": "at",
+              "start": 249.882,
+              "end": 250.094
+            },
+            {
+              "w": "zero",
+              "start": 250.094,
+              "end": 250.413
+            },
+            {
+              "w": "percent.",
+              "start": 250.413,
+              "end": 250.89
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s45",
+      "start": 251.08,
+      "end": 256.49,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Correctly. Twice.",
+          "start": 251.08,
+          "end": 252.34,
+          "words": [
+            {
+              "w": "Correctly.",
+              "start": 251.08,
+              "end": 251.73
+            },
+            {
+              "w": "Twice.",
+              "start": 251.79,
+              "end": 252.34
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Then, the bill.",
+          "start": 252.48,
+          "end": 253.22,
+          "words": [
+            {
+              "w": "Then,",
+              "start": 252.48,
+              "end": 252.741
+            },
+            {
+              "w": "the",
+              "start": 252.741,
+              "end": 252.959
+            },
+            {
+              "w": "bill.",
+              "start": 252.959,
+              "end": 253.22
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Claude Code logs what each run would cost on the API.",
+          "start": 253.3,
+          "end": 256.36,
+          "words": [
+            {
+              "w": "Claude",
+              "start": 253.3,
+              "end": 253.683
+            },
+            {
+              "w": "Code",
+              "start": 253.683,
+              "end": 253.969
+            },
+            {
+              "w": "logs",
+              "start": 253.969,
+              "end": 254.256
+            },
+            {
+              "w": "what",
+              "start": 254.256,
+              "end": 254.543
+            },
+            {
+              "w": "each",
+              "start": 254.543,
+              "end": 254.83
+            },
+            {
+              "w": "run",
+              "start": 254.83,
+              "end": 255.069
+            },
+            {
+              "w": "would",
+              "start": 255.069,
+              "end": 255.404
+            },
+            {
+              "w": "cost",
+              "start": 255.404,
+              "end": 255.691
+            },
+            {
+              "w": "on",
+              "start": 255.691,
+              "end": 255.882
+            },
+            {
+              "w": "the",
+              "start": 255.882,
+              "end": 256.121
+            },
+            {
+              "w": "API.",
+              "start": 256.121,
+              "end": 256.36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s46",
+      "start": 256.49,
+      "end": 261.68,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "For Opus 5, about a dollar forty-five.",
+          "start": 256.49,
+          "end": 258.76,
+          "words": [
+            {
+              "w": "For",
+              "start": 256.49,
+              "end": 256.754
+            },
+            {
+              "w": "Opus",
+              "start": 256.754,
+              "end": 257.071
+            },
+            {
+              "w": "5,",
+              "start": 257.071,
+              "end": 257.229
+            },
+            {
+              "w": "about",
+              "start": 257.229,
+              "end": 257.599
+            },
+            {
+              "w": "a",
+              "start": 257.599,
+              "end": 257.757
+            },
+            {
+              "w": "dollar",
+              "start": 257.757,
+              "end": 258.179
+            },
+            {
+              "w": "forty-five.",
+              "start": 258.179,
+              "end": 258.76
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Opus 5.5 came to twenty-seven cents.",
+          "start": 258.84,
+          "end": 261.49,
+          "words": [
+            {
+              "w": "Opus",
+              "start": 258.84,
+              "end": 259.238
+            },
+            {
+              "w": "5.5",
+              "start": 259.238,
+              "end": 259.503
+            },
+            {
+              "w": "came",
+              "start": 259.503,
+              "end": 259.9
+            },
+            {
+              "w": "to",
+              "start": 259.9,
+              "end": 260.165
+            },
+            {
+              "w": "twenty-seven",
+              "start": 260.165,
+              "end": 261.026
+            },
+            {
+              "w": "cents.",
+              "start": 261.026,
+              "end": 261.49
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s47",
+      "start": 261.68,
+      "end": 267.97,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Twenty-seven cents. I've lost more in the couch.",
+          "start": 261.68,
+          "end": 264.56,
+          "words": [
+            {
+              "w": "Twenty-seven",
+              "start": 261.68,
+              "end": 262.486
+            },
+            {
+              "w": "cents.",
+              "start": 262.486,
+              "end": 262.92
+            },
+            {
+              "w": "I've",
+              "start": 262.98,
+              "end": 263.219
+            },
+            {
+              "w": "lost",
+              "start": 263.219,
+              "end": 263.507
+            },
+            {
+              "w": "more",
+              "start": 263.507,
+              "end": 263.794
+            },
+            {
+              "w": "in",
+              "start": 263.794,
+              "end": 263.985
+            },
+            {
+              "w": "the",
+              "start": 263.985,
+              "end": 264.225
+            },
+            {
+              "w": "couch.",
+              "start": 264.225,
+              "end": 264.56
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "That's eighty-one percent cheaper. Anthropic said forty.",
+          "start": 264.7,
+          "end": 267.84,
+          "words": [
+            {
+              "w": "That's",
+              "start": 264.7,
+              "end": 265.015
+            },
+            {
+              "w": "eighty-one",
+              "start": 265.015,
+              "end": 265.51
+            },
+            {
+              "w": "percent",
+              "start": 265.51,
+              "end": 265.915
+            },
+            {
+              "w": "cheaper.",
+              "start": 265.915,
+              "end": 266.32
+            },
+            {
+              "w": "Anthropic",
+              "start": 266.38,
+              "end": 267.049
+            },
+            {
+              "w": "said",
+              "start": 267.049,
+              "end": 267.414
+            },
+            {
+              "w": "forty.",
+              "start": 267.414,
+              "end": 267.84
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s48",
+      "start": 267.97,
+      "end": 274.23,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "We ran it on a subscription, so no extra money changed hands.",
+          "start": 267.97,
+          "end": 271.29,
+          "words": [
+            {
+              "w": "We",
+              "start": 267.97,
+              "end": 268.154
+            },
+            {
+              "w": "ran",
+              "start": 268.154,
+              "end": 268.385
+            },
+            {
+              "w": "it",
+              "start": 268.385,
+              "end": 268.569
+            },
+            {
+              "w": "on",
+              "start": 268.569,
+              "end": 268.754
+            },
+            {
+              "w": "a",
+              "start": 268.754,
+              "end": 268.892
+            },
+            {
+              "w": "subscription,",
+              "start": 268.892,
+              "end": 269.538
+            },
+            {
+              "w": "so",
+              "start": 269.538,
+              "end": 269.722
+            },
+            {
+              "w": "no",
+              "start": 269.722,
+              "end": 269.907
+            },
+            {
+              "w": "extra",
+              "start": 269.907,
+              "end": 270.229
+            },
+            {
+              "w": "money",
+              "start": 270.229,
+              "end": 270.552
+            },
+            {
+              "w": "changed",
+              "start": 270.552,
+              "end": 270.967
+            },
+            {
+              "w": "hands.",
+              "start": 270.967,
+              "end": 271.29
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Zero extra. My favorite price.",
+          "start": 271.43,
+          "end": 274.04,
+          "words": [
+            {
+              "w": "Zero",
+              "start": 271.43,
+              "end": 271.942
+            },
+            {
+              "w": "extra.",
+              "start": 271.942,
+              "end": 272.54
+            },
+            {
+              "w": "My",
+              "start": 272.6,
+              "end": 272.874
+            },
+            {
+              "w": "favorite",
+              "start": 272.874,
+              "end": 273.56
+            },
+            {
+              "w": "price.",
+              "start": 273.56,
+              "end": 274.04
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s49",
+      "start": 274.23,
+      "end": 279.43,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Our gap is bigger than the claim, and it's one run.",
+          "start": 274.23,
+          "end": 276.47,
+          "words": [
+            {
+              "w": "Our",
+              "start": 274.23,
+              "end": 274.417
+            },
+            {
+              "w": "gap",
+              "start": 274.417,
+              "end": 274.603
+            },
+            {
+              "w": "is",
+              "start": 274.603,
+              "end": 274.753
+            },
+            {
+              "w": "bigger",
+              "start": 274.753,
+              "end": 275.051
+            },
+            {
+              "w": "than",
+              "start": 275.051,
+              "end": 275.275
+            },
+            {
+              "w": "the",
+              "start": 275.275,
+              "end": 275.462
+            },
+            {
+              "w": "claim,",
+              "start": 275.462,
+              "end": 275.723
+            },
+            {
+              "w": "and",
+              "start": 275.723,
+              "end": 275.91
+            },
+            {
+              "w": "it's",
+              "start": 275.91,
+              "end": 276.097
+            },
+            {
+              "w": "one",
+              "start": 276.097,
+              "end": 276.283
+            },
+            {
+              "w": "run.",
+              "start": 276.283,
+              "end": 276.47
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Opus 5.5 took six times fewer steps.",
+          "start": 276.55,
+          "end": 279.3,
+          "words": [
+            {
+              "w": "Opus",
+              "start": 276.55,
+              "end": 276.943
+            },
+            {
+              "w": "5.5",
+              "start": 276.943,
+              "end": 277.205
+            },
+            {
+              "w": "took",
+              "start": 277.205,
+              "end": 277.598
+            },
+            {
+              "w": "six",
+              "start": 277.598,
+              "end": 277.925
+            },
+            {
+              "w": "times",
+              "start": 277.925,
+              "end": 278.383
+            },
+            {
+              "w": "fewer",
+              "start": 278.383,
+              "end": 278.842
+            },
+            {
+              "w": "steps.",
+              "start": 278.842,
+              "end": 279.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s50",
+      "start": 279.43,
+      "end": 286.66,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "That's the difference.",
+          "start": 279.43,
+          "end": 280.39,
+          "words": [
+            {
+              "w": "That's",
+              "start": 279.43,
+              "end": 279.71
+            },
+            {
+              "w": "the",
+              "start": 279.71,
+              "end": 279.91
+            },
+            {
+              "w": "difference.",
+              "start": 279.91,
+              "end": 280.39
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "A different task could look very different.",
+          "start": 280.47,
+          "end": 282.42,
+          "words": [
+            {
+              "w": "A",
+              "start": 280.47,
+              "end": 280.587
+            },
+            {
+              "w": "different",
+              "start": 280.587,
+              "end": 281.016
+            },
+            {
+              "w": "task",
+              "start": 281.016,
+              "end": 281.25
+            },
+            {
+              "w": "could",
+              "start": 281.25,
+              "end": 281.523
+            },
+            {
+              "w": "look",
+              "start": 281.523,
+              "end": 281.757
+            },
+            {
+              "w": "very",
+              "start": 281.757,
+              "end": 281.991
+            },
+            {
+              "w": "different.",
+              "start": 281.991,
+              "end": 282.42
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Fine. Now the pretty part.",
+          "start": 282.56,
+          "end": 284.47,
+          "words": [
+            {
+              "w": "Fine.",
+              "start": 282.56,
+              "end": 283.1
+            },
+            {
+              "w": "Now",
+              "start": 283.16,
+              "end": 283.433
+            },
+            {
+              "w": "the",
+              "start": 283.433,
+              "end": 283.706
+            },
+            {
+              "w": "pretty",
+              "start": 283.706,
+              "end": 284.143
+            },
+            {
+              "w": "part.",
+              "start": 284.143,
+              "end": 284.47
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Tests can't measure how a page looks.",
+          "start": 284.61,
+          "end": 286.53,
+          "words": [
+            {
+              "w": "Tests",
+              "start": 284.61,
+              "end": 284.923
+            },
+            {
+              "w": "can't",
+              "start": 284.923,
+              "end": 285.19
+            },
+            {
+              "w": "measure",
+              "start": 285.19,
+              "end": 285.592
+            },
+            {
+              "w": "how",
+              "start": 285.592,
+              "end": 285.816
+            },
+            {
+              "w": "a",
+              "start": 285.816,
+              "end": 285.95
+            },
+            {
+              "w": "page",
+              "start": 285.95,
+              "end": 286.217
+            },
+            {
+              "w": "looks.",
+              "start": 286.217,
+              "end": 286.53
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s51",
+      "start": 286.66,
+      "end": 293.26,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Opus 5 filled the whole screen.",
+          "start": 286.66,
+          "end": 288.57,
+          "words": [
+            {
+              "w": "Opus",
+              "start": 286.66,
+              "end": 286.97
+            },
+            {
+              "w": "5",
+              "start": 286.97,
+              "end": 287.125
+            },
+            {
+              "w": "filled",
+              "start": 287.125,
+              "end": 287.538
+            },
+            {
+              "w": "the",
+              "start": 287.538,
+              "end": 287.796
+            },
+            {
+              "w": "whole",
+              "start": 287.796,
+              "end": 288.157
+            },
+            {
+              "w": "screen.",
+              "start": 288.157,
+              "end": 288.57
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Vertical bars, value labels, tiny bars inside the table.",
+          "start": 288.65,
+          "end": 292.29,
+          "words": [
+            {
+              "w": "Vertical",
+              "start": 288.65,
+              "end": 289.228
+            },
+            {
+              "w": "bars,",
+              "start": 289.228,
+              "end": 289.574
+            },
+            {
+              "w": "value",
+              "start": 289.574,
+              "end": 289.979
+            },
+            {
+              "w": "labels,",
+              "start": 289.979,
+              "end": 290.441
+            },
+            {
+              "w": "tiny",
+              "start": 290.441,
+              "end": 290.788
+            },
+            {
+              "w": "bars",
+              "start": 290.788,
+              "end": 291.134
+            },
+            {
+              "w": "inside",
+              "start": 291.134,
+              "end": 291.597
+            },
+            {
+              "w": "the",
+              "start": 291.597,
+              "end": 291.886
+            },
+            {
+              "w": "table.",
+              "start": 291.886,
+              "end": 292.29
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Fancy.",
+          "start": 292.43,
+          "end": 293.07,
+          "words": [
+            {
+              "w": "Fancy.",
+              "start": 292.43,
+              "end": 293.07
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s52",
+      "start": 293.26,
+      "end": 298.99,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Opus 5.5 went clean and readable, with a share column.",
+          "start": 293.26,
+          "end": 296.88,
+          "words": [
+            {
+              "w": "Opus",
+              "start": 293.26,
+              "end": 293.61
+            },
+            {
+              "w": "5.5",
+              "start": 293.61,
+              "end": 293.844
+            },
+            {
+              "w": "went",
+              "start": 293.844,
+              "end": 294.194
+            },
+            {
+              "w": "clean",
+              "start": 294.194,
+              "end": 294.603
+            },
+            {
+              "w": "and",
+              "start": 294.603,
+              "end": 294.895
+            },
+            {
+              "w": "readable,",
+              "start": 294.895,
+              "end": 295.479
+            },
+            {
+              "w": "with",
+              "start": 295.479,
+              "end": 295.829
+            },
+            {
+              "w": "a",
+              "start": 295.829,
+              "end": 296.004
+            },
+            {
+              "w": "share",
+              "start": 296.004,
+              "end": 296.413
+            },
+            {
+              "w": "column.",
+              "start": 296.413,
+              "end": 296.88
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "But half its chart panel sits empty.",
+          "start": 296.96,
+          "end": 298.86,
+          "words": [
+            {
+              "w": "But",
+              "start": 296.96,
+              "end": 297.181
+            },
+            {
+              "w": "half",
+              "start": 297.181,
+              "end": 297.446
+            },
+            {
+              "w": "its",
+              "start": 297.446,
+              "end": 297.667
+            },
+            {
+              "w": "chart",
+              "start": 297.667,
+              "end": 297.976
+            },
+            {
+              "w": "panel",
+              "start": 297.976,
+              "end": 298.286
+            },
+            {
+              "w": "sits",
+              "start": 298.286,
+              "end": 298.551
+            },
+            {
+              "w": "empty.",
+              "start": 298.551,
+              "end": 298.86
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s53",
+      "start": 298.99,
+      "end": 304.22,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "About a hundred and ten pixels sit blank at the bottom.",
+          "start": 298.99,
+          "end": 301.81,
+          "words": [
+            {
+              "w": "About",
+              "start": 298.99,
+              "end": 299.289
+            },
+            {
+              "w": "a",
+              "start": 299.289,
+              "end": 299.417
+            },
+            {
+              "w": "hundred",
+              "start": 299.417,
+              "end": 299.802
+            },
+            {
+              "w": "and",
+              "start": 299.802,
+              "end": 300.015
+            },
+            {
+              "w": "ten",
+              "start": 300.015,
+              "end": 300.229
+            },
+            {
+              "w": "pixels",
+              "start": 300.229,
+              "end": 300.571
+            },
+            {
+              "w": "sit",
+              "start": 300.571,
+              "end": 300.785
+            },
+            {
+              "w": "blank",
+              "start": 300.785,
+              "end": 301.084
+            },
+            {
+              "w": "at",
+              "start": 301.084,
+              "end": 301.255
+            },
+            {
+              "w": "the",
+              "start": 301.255,
+              "end": 301.468
+            },
+            {
+              "w": "bottom.",
+              "start": 301.468,
+              "end": 301.81
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I'd have given both a ten. Didn't look.",
+          "start": 301.95,
+          "end": 304.03,
+          "words": [
+            {
+              "w": "I'd",
+              "start": 301.95,
+              "end": 302.14
+            },
+            {
+              "w": "have",
+              "start": 302.14,
+              "end": 302.424
+            },
+            {
+              "w": "given",
+              "start": 302.424,
+              "end": 302.756
+            },
+            {
+              "w": "both",
+              "start": 302.756,
+              "end": 303.041
+            },
+            {
+              "w": "a",
+              "start": 303.041,
+              "end": 303.183
+            },
+            {
+              "w": "ten.",
+              "start": 303.183,
+              "end": 303.42
+            },
+            {
+              "w": "Didn't",
+              "start": 303.48,
+              "end": 303.776
+            },
+            {
+              "w": "look.",
+              "start": 303.776,
+              "end": 304.03
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s54",
+      "start": 304.22,
+      "end": 311.57,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Our QA agent did look.",
+          "start": 304.22,
+          "end": 305.63,
+          "words": [
+            {
+              "w": "Our",
+              "start": 304.22,
+              "end": 304.481
+            },
+            {
+              "w": "QA",
+              "start": 304.481,
+              "end": 304.69
+            },
+            {
+              "w": "agent",
+              "start": 304.69,
+              "end": 305.056
+            },
+            {
+              "w": "did",
+              "start": 305.056,
+              "end": 305.317
+            },
+            {
+              "w": "look.",
+              "start": 305.317,
+              "end": 305.63
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nine out of ten for Opus 5, seven for Opus 5.5.",
+          "start": 305.71,
+          "end": 309.43,
+          "words": [
+            {
+              "w": "Nine",
+              "start": 305.71,
+              "end": 306.109
+            },
+            {
+              "w": "out",
+              "start": 306.109,
+              "end": 306.441
+            },
+            {
+              "w": "of",
+              "start": 306.441,
+              "end": 306.706
+            },
+            {
+              "w": "ten",
+              "start": 306.706,
+              "end": 307.039
+            },
+            {
+              "w": "for",
+              "start": 307.039,
+              "end": 307.371
+            },
+            {
+              "w": "Opus",
+              "start": 307.371,
+              "end": 307.769
+            },
+            {
+              "w": "5,",
+              "start": 307.769,
+              "end": 307.969
+            },
+            {
+              "w": "seven",
+              "start": 307.969,
+              "end": 308.434
+            },
+            {
+              "w": "for",
+              "start": 308.434,
+              "end": 308.766
+            },
+            {
+              "w": "Opus",
+              "start": 308.766,
+              "end": 309.164
+            },
+            {
+              "w": "5.5.",
+              "start": 309.164,
+              "end": 309.43
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Harsh. Accurate, but harsh.",
+          "start": 309.57,
+          "end": 311.38,
+          "words": [
+            {
+              "w": "Harsh.",
+              "start": 309.57,
+              "end": 310.07
+            },
+            {
+              "w": "Accurate,",
+              "start": 310.13,
+              "end": 310.698
+            },
+            {
+              "w": "but",
+              "start": 310.698,
+              "end": 310.982
+            },
+            {
+              "w": "harsh.",
+              "start": 310.982,
+              "end": 311.38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s55",
+      "start": 311.57,
+      "end": 315.84,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "One more difference.",
+          "start": 311.57,
+          "end": 312.64,
+          "words": [
+            {
+              "w": "One",
+              "start": 311.57,
+              "end": 311.803
+            },
+            {
+              "w": "more",
+              "start": 311.803,
+              "end": 312.082
+            },
+            {
+              "w": "difference.",
+              "start": 312.082,
+              "end": 312.64
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Opus 5.5 never opened its page in a browser.",
+          "start": 312.72,
+          "end": 315.71,
+          "words": [
+            {
+              "w": "Opus",
+              "start": 312.72,
+              "end": 313.065
+            },
+            {
+              "w": "5.5",
+              "start": 313.065,
+              "end": 313.295
+            },
+            {
+              "w": "never",
+              "start": 313.295,
+              "end": 313.698
+            },
+            {
+              "w": "opened",
+              "start": 313.698,
+              "end": 314.158
+            },
+            {
+              "w": "its",
+              "start": 314.158,
+              "end": 314.445
+            },
+            {
+              "w": "page",
+              "start": 314.445,
+              "end": 314.79
+            },
+            {
+              "w": "in",
+              "start": 314.79,
+              "end": 315.02
+            },
+            {
+              "w": "a",
+              "start": 315.02,
+              "end": 315.193
+            },
+            {
+              "w": "browser.",
+              "start": 315.193,
+              "end": 315.71
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s56",
+      "start": 315.84,
+      "end": 319.95,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "It checked the numbers with a script and called it done.",
+          "start": 315.84,
+          "end": 318.34,
+          "words": [
+            {
+              "w": "It",
+              "start": 315.84,
+              "end": 315.989
+            },
+            {
+              "w": "checked",
+              "start": 315.989,
+              "end": 316.325
+            },
+            {
+              "w": "the",
+              "start": 316.325,
+              "end": 316.512
+            },
+            {
+              "w": "numbers",
+              "start": 316.512,
+              "end": 316.847
+            },
+            {
+              "w": "with",
+              "start": 316.847,
+              "end": 317.071
+            },
+            {
+              "w": "a",
+              "start": 317.071,
+              "end": 317.183
+            },
+            {
+              "w": "script",
+              "start": 317.183,
+              "end": 317.482
+            },
+            {
+              "w": "and",
+              "start": 317.482,
+              "end": 317.668
+            },
+            {
+              "w": "called",
+              "start": 317.668,
+              "end": 317.967
+            },
+            {
+              "w": "it",
+              "start": 317.967,
+              "end": 318.116
+            },
+            {
+              "w": "done.",
+              "start": 318.116,
+              "end": 318.34
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "And it said so openly.",
+          "start": 318.42,
+          "end": 319.76,
+          "words": [
+            {
+              "w": "And",
+              "start": 318.42,
+              "end": 318.668
+            },
+            {
+              "w": "it",
+              "start": 318.668,
+              "end": 318.867
+            },
+            {
+              "w": "said",
+              "start": 318.867,
+              "end": 319.164
+            },
+            {
+              "w": "so",
+              "start": 319.164,
+              "end": 319.363
+            },
+            {
+              "w": "openly.",
+              "start": 319.363,
+              "end": 319.76
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s57",
+      "start": 319.95,
+      "end": 323.73,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "It skipped checking its own work. I've never felt so seen.",
+          "start": 319.95,
+          "end": 323.54,
+          "words": [
+            {
+              "w": "It",
+              "start": 319.95,
+              "end": 320.137
+            },
+            {
+              "w": "skipped",
+              "start": 320.137,
+              "end": 320.557
+            },
+            {
+              "w": "checking",
+              "start": 320.557,
+              "end": 321.023
+            },
+            {
+              "w": "its",
+              "start": 321.023,
+              "end": 321.257
+            },
+            {
+              "w": "own",
+              "start": 321.257,
+              "end": 321.49
+            },
+            {
+              "w": "work.",
+              "start": 321.49,
+              "end": 321.77
+            },
+            {
+              "w": "I've",
+              "start": 321.97,
+              "end": 322.25
+            },
+            {
+              "w": "never",
+              "start": 322.25,
+              "end": 322.643
+            },
+            {
+              "w": "felt",
+              "start": 322.643,
+              "end": 322.979
+            },
+            {
+              "w": "so",
+              "start": 322.979,
+              "end": 323.204
+            },
+            {
+              "w": "seen.",
+              "start": 323.204,
+              "end": 323.54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s58",
+      "start": 323.73,
+      "end": 328.79,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "QA also hunted for edge cases the tests missed.",
+          "start": 323.73,
+          "end": 326.55,
+          "words": [
+            {
+              "w": "QA",
+              "start": 323.73,
+              "end": 323.931
+            },
+            {
+              "w": "also",
+              "start": 323.931,
+              "end": 324.234
+            },
+            {
+              "w": "hunted",
+              "start": 324.234,
+              "end": 324.636
+            },
+            {
+              "w": "for",
+              "start": 324.636,
+              "end": 324.888
+            },
+            {
+              "w": "edge",
+              "start": 324.888,
+              "end": 325.19
+            },
+            {
+              "w": "cases",
+              "start": 325.19,
+              "end": 325.543
+            },
+            {
+              "w": "the",
+              "start": 325.543,
+              "end": 325.795
+            },
+            {
+              "w": "tests",
+              "start": 325.795,
+              "end": 326.147
+            },
+            {
+              "w": "missed.",
+              "start": 326.147,
+              "end": 326.55
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "It found one in Opus 5.5.",
+          "start": 326.63,
+          "end": 328.6,
+          "words": [
+            {
+              "w": "It",
+              "start": 326.63,
+              "end": 326.893
+            },
+            {
+              "w": "found",
+              "start": 326.893,
+              "end": 327.352
+            },
+            {
+              "w": "one",
+              "start": 327.352,
+              "end": 327.681
+            },
+            {
+              "w": "in",
+              "start": 327.681,
+              "end": 327.943
+            },
+            {
+              "w": "Opus",
+              "start": 327.943,
+              "end": 328.337
+            },
+            {
+              "w": "5.5.",
+              "start": 328.337,
+              "end": 328.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s59",
+      "start": 328.79,
+      "end": 334.43,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The cheap one has a bug. Shocking.",
+          "start": 328.79,
+          "end": 330.82,
+          "words": [
+            {
+              "w": "The",
+              "start": 328.79,
+              "end": 329.005
+            },
+            {
+              "w": "cheap",
+              "start": 329.005,
+              "end": 329.306
+            },
+            {
+              "w": "one",
+              "start": 329.306,
+              "end": 329.521
+            },
+            {
+              "w": "has",
+              "start": 329.521,
+              "end": 329.736
+            },
+            {
+              "w": "a",
+              "start": 329.736,
+              "end": 329.865
+            },
+            {
+              "w": "bug.",
+              "start": 329.865,
+              "end": 330.08
+            },
+            {
+              "w": "Shocking.",
+              "start": 330.14,
+              "end": 330.82
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "An empty tool name gets counted but never appears in the table.",
+          "start": 330.96,
+          "end": 334.3,
+          "words": [
+            {
+              "w": "An",
+              "start": 330.96,
+              "end": 331.138
+            },
+            {
+              "w": "empty",
+              "start": 331.138,
+              "end": 331.45
+            },
+            {
+              "w": "tool",
+              "start": 331.45,
+              "end": 331.717
+            },
+            {
+              "w": "name",
+              "start": 331.717,
+              "end": 331.984
+            },
+            {
+              "w": "gets",
+              "start": 331.984,
+              "end": 332.251
+            },
+            {
+              "w": "counted",
+              "start": 332.251,
+              "end": 332.652
+            },
+            {
+              "w": "but",
+              "start": 332.652,
+              "end": 332.875
+            },
+            {
+              "w": "never",
+              "start": 332.875,
+              "end": 333.187
+            },
+            {
+              "w": "appears",
+              "start": 333.187,
+              "end": 333.587
+            },
+            {
+              "w": "in",
+              "start": 333.587,
+              "end": 333.766
+            },
+            {
+              "w": "the",
+              "start": 333.766,
+              "end": 333.988
+            },
+            {
+              "w": "table.",
+              "start": 333.988,
+              "end": 334.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s60",
+      "start": 334.43,
+      "end": 340.83,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "So the totals don't add up.",
+          "start": 334.43,
+          "end": 335.9,
+          "words": [
+            {
+              "w": "So",
+              "start": 334.43,
+              "end": 334.614
+            },
+            {
+              "w": "the",
+              "start": 334.614,
+              "end": 334.843
+            },
+            {
+              "w": "totals",
+              "start": 334.843,
+              "end": 335.211
+            },
+            {
+              "w": "don't",
+              "start": 335.211,
+              "end": 335.487
+            },
+            {
+              "w": "add",
+              "start": 335.487,
+              "end": 335.716
+            },
+            {
+              "w": "up.",
+              "start": 335.716,
+              "end": 335.9
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Opus 5 had one too.",
+          "start": 335.98,
+          "end": 337.53,
+          "words": [
+            {
+              "w": "Opus",
+              "start": 335.98,
+              "end": 336.368
+            },
+            {
+              "w": "5",
+              "start": 336.368,
+              "end": 336.561
+            },
+            {
+              "w": "had",
+              "start": 336.561,
+              "end": 336.884
+            },
+            {
+              "w": "one",
+              "start": 336.884,
+              "end": 337.207
+            },
+            {
+              "w": "too.",
+              "start": 337.207,
+              "end": 337.53
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "With forty different tools, its side panel runs off screen.",
+          "start": 337.61,
+          "end": 340.64,
+          "words": [
+            {
+              "w": "With",
+              "start": 337.61,
+              "end": 337.877
+            },
+            {
+              "w": "forty",
+              "start": 337.877,
+              "end": 338.189
+            },
+            {
+              "w": "different",
+              "start": 338.189,
+              "end": 338.679
+            },
+            {
+              "w": "tools,",
+              "start": 338.679,
+              "end": 338.991
+            },
+            {
+              "w": "its",
+              "start": 338.991,
+              "end": 339.214
+            },
+            {
+              "w": "side",
+              "start": 339.214,
+              "end": 339.481
+            },
+            {
+              "w": "panel",
+              "start": 339.481,
+              "end": 339.793
+            },
+            {
+              "w": "runs",
+              "start": 339.793,
+              "end": 340.061
+            },
+            {
+              "w": "off",
+              "start": 340.061,
+              "end": 340.284
+            },
+            {
+              "w": "screen.",
+              "start": 340.284,
+              "end": 340.64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s61",
+      "start": 340.83,
+      "end": 344.86,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So, a tie. In bugs too.",
+          "start": 340.83,
+          "end": 342.85,
+          "words": [
+            {
+              "w": "So,",
+              "start": 340.83,
+              "end": 341.17
+            },
+            {
+              "w": "a",
+              "start": 341.17,
+              "end": 341.425
+            },
+            {
+              "w": "tie.",
+              "start": 341.425,
+              "end": 341.85
+            },
+            {
+              "w": "In",
+              "start": 341.91,
+              "end": 342.161
+            },
+            {
+              "w": "bugs",
+              "start": 342.161,
+              "end": 342.537
+            },
+            {
+              "w": "too.",
+              "start": 342.537,
+              "end": 342.85
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Neither case was in the real data.",
+          "start": 342.99,
+          "end": 344.73,
+          "words": [
+            {
+              "w": "Neither",
+              "start": 342.99,
+              "end": 343.372
+            },
+            {
+              "w": "case",
+              "start": 343.372,
+              "end": 343.627
+            },
+            {
+              "w": "was",
+              "start": 343.627,
+              "end": 343.839
+            },
+            {
+              "w": "in",
+              "start": 343.839,
+              "end": 344.009
+            },
+            {
+              "w": "the",
+              "start": 344.009,
+              "end": 344.221
+            },
+            {
+              "w": "real",
+              "start": 344.221,
+              "end": 344.475
+            },
+            {
+              "w": "data.",
+              "start": 344.475,
+              "end": 344.73
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s62",
+      "start": 344.86,
+      "end": 350.33,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Opus 5 checked its work, but left a mess behind.",
+          "start": 344.86,
+          "end": 347.68,
+          "words": [
+            {
+              "w": "Opus",
+              "start": 344.86,
+              "end": 345.157
+            },
+            {
+              "w": "5",
+              "start": 345.157,
+              "end": 345.305
+            },
+            {
+              "w": "checked",
+              "start": 345.305,
+              "end": 345.751
+            },
+            {
+              "w": "its",
+              "start": 345.751,
+              "end": 345.998
+            },
+            {
+              "w": "work,",
+              "start": 345.998,
+              "end": 346.295
+            },
+            {
+              "w": "but",
+              "start": 346.295,
+              "end": 346.542
+            },
+            {
+              "w": "left",
+              "start": 346.542,
+              "end": 346.839
+            },
+            {
+              "w": "a",
+              "start": 346.839,
+              "end": 346.987
+            },
+            {
+              "w": "mess",
+              "start": 346.987,
+              "end": 347.284
+            },
+            {
+              "w": "behind.",
+              "start": 347.284,
+              "end": 347.68
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Draft scripts and screenshots stayed in its folder.",
+          "start": 347.76,
+          "end": 350.2,
+          "words": [
+            {
+              "w": "Draft",
+              "start": 347.76,
+              "end": 348.049
+            },
+            {
+              "w": "scripts",
+              "start": 348.049,
+              "end": 348.422
+            },
+            {
+              "w": "and",
+              "start": 348.422,
+              "end": 348.628
+            },
+            {
+              "w": "screenshots",
+              "start": 348.628,
+              "end": 349.166
+            },
+            {
+              "w": "stayed",
+              "start": 349.166,
+              "end": 349.497
+            },
+            {
+              "w": "in",
+              "start": 349.497,
+              "end": 349.662
+            },
+            {
+              "w": "its",
+              "start": 349.662,
+              "end": 349.869
+            },
+            {
+              "w": "folder.",
+              "start": 349.869,
+              "end": 350.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s63",
+      "start": 350.33,
+      "end": 355.93,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "To be fair, it wasn't allowed to delete files.",
+          "start": 350.33,
+          "end": 352.63,
+          "words": [
+            {
+              "w": "To",
+              "start": 350.33,
+              "end": 350.504
+            },
+            {
+              "w": "be",
+              "start": 350.504,
+              "end": 350.677
+            },
+            {
+              "w": "fair,",
+              "start": 350.677,
+              "end": 350.938
+            },
+            {
+              "w": "it",
+              "start": 350.938,
+              "end": 351.111
+            },
+            {
+              "w": "wasn't",
+              "start": 351.111,
+              "end": 351.415
+            },
+            {
+              "w": "allowed",
+              "start": 351.415,
+              "end": 351.805
+            },
+            {
+              "w": "to",
+              "start": 351.805,
+              "end": 351.979
+            },
+            {
+              "w": "delete",
+              "start": 351.979,
+              "end": 352.326
+            },
+            {
+              "w": "files.",
+              "start": 352.326,
+              "end": 352.63
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Not allowed to clean up. I use that excuse too.",
+          "start": 352.77,
+          "end": 355.74,
+          "words": [
+            {
+              "w": "Not",
+              "start": 352.77,
+              "end": 353.015
+            },
+            {
+              "w": "allowed",
+              "start": 353.015,
+              "end": 353.456
+            },
+            {
+              "w": "to",
+              "start": 353.456,
+              "end": 353.651
+            },
+            {
+              "w": "clean",
+              "start": 353.651,
+              "end": 353.994
+            },
+            {
+              "w": "up.",
+              "start": 353.994,
+              "end": 354.19
+            },
+            {
+              "w": "I",
+              "start": 354.25,
+              "end": 354.416
+            },
+            {
+              "w": "use",
+              "start": 354.416,
+              "end": 354.691
+            },
+            {
+              "w": "that",
+              "start": 354.691,
+              "end": 355.023
+            },
+            {
+              "w": "excuse",
+              "start": 355.023,
+              "end": 355.464
+            },
+            {
+              "w": "too.",
+              "start": 355.464,
+              "end": 355.74
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s64",
+      "start": 355.93,
+      "end": 361.34,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "KAXO, upgrade or not?",
+          "start": 355.93,
+          "end": 357.53,
+          "words": [
+            {
+              "w": "KAXO,",
+              "start": 355.93,
+              "end": 356.33
+            },
+            {
+              "w": "upgrade",
+              "start": 356.33,
+              "end": 356.93
+            },
+            {
+              "w": "or",
+              "start": 356.93,
+              "end": 357.197
+            },
+            {
+              "w": "not?",
+              "start": 357.197,
+              "end": 357.53
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Upgrade. Five times faster, for a fraction of the price.",
+          "start": 357.71,
+          "end": 361.21,
+          "words": [
+            {
+              "w": "Upgrade.",
+              "start": 357.71,
+              "end": 358.45
+            },
+            {
+              "w": "Five",
+              "start": 358.51,
+              "end": 358.805
+            },
+            {
+              "w": "times",
+              "start": 358.805,
+              "end": 359.148
+            },
+            {
+              "w": "faster,",
+              "start": 359.148,
+              "end": 359.541
+            },
+            {
+              "w": "for",
+              "start": 359.541,
+              "end": 359.786
+            },
+            {
+              "w": "a",
+              "start": 359.786,
+              "end": 359.934
+            },
+            {
+              "w": "fraction",
+              "start": 359.934,
+              "end": 360.425
+            },
+            {
+              "w": "of",
+              "start": 360.425,
+              "end": 360.621
+            },
+            {
+              "w": "the",
+              "start": 360.621,
+              "end": 360.866
+            },
+            {
+              "w": "price.",
+              "start": 360.866,
+              "end": 361.21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s65",
+      "start": 361.34,
+      "end": 368.34,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And the checking it skips? QA does that anyway.",
+          "start": 361.34,
+          "end": 364.22,
+          "words": [
+            {
+              "w": "And",
+              "start": 361.34,
+              "end": 361.558
+            },
+            {
+              "w": "the",
+              "start": 361.558,
+              "end": 361.775
+            },
+            {
+              "w": "checking",
+              "start": 361.775,
+              "end": 362.211
+            },
+            {
+              "w": "it",
+              "start": 362.211,
+              "end": 362.385
+            },
+            {
+              "w": "skips?",
+              "start": 362.385,
+              "end": 362.69
+            },
+            {
+              "w": "QA",
+              "start": 362.79,
+              "end": 363.028
+            },
+            {
+              "w": "does",
+              "start": 363.028,
+              "end": 363.386
+            },
+            {
+              "w": "that",
+              "start": 363.386,
+              "end": 363.743
+            },
+            {
+              "w": "anyway.",
+              "start": 363.743,
+              "end": 364.22
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Fast worker, careful checker. And me, supervising from the couch.",
+          "start": 364.3,
+          "end": 368.15,
+          "words": [
+            {
+              "w": "Fast",
+              "start": 364.3,
+              "end": 364.637
+            },
+            {
+              "w": "worker,",
+              "start": 364.637,
+              "end": 365.087
+            },
+            {
+              "w": "careful",
+              "start": 365.087,
+              "end": 365.594
+            },
+            {
+              "w": "checker.",
+              "start": 365.594,
+              "end": 366.1
+            },
+            {
+              "w": "And",
+              "start": 366.16,
+              "end": 366.409
+            },
+            {
+              "w": "me,",
+              "start": 366.409,
+              "end": 366.608
+            },
+            {
+              "w": "supervising",
+              "start": 366.608,
+              "end": 367.255
+            },
+            {
+              "w": "from",
+              "start": 367.255,
+              "end": 367.553
+            },
+            {
+              "w": "the",
+              "start": 367.553,
+              "end": 367.802
+            },
+            {
+              "w": "couch.",
+              "start": 367.802,
+              "end": 368.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s66",
+      "start": 368.34,
+      "end": 371.77,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "If looks are the whole job, Opus 5 earned its extra dollar.",
+          "start": 368.34,
+          "end": 371.64,
+          "words": [
+            {
+              "w": "If",
+              "start": 368.34,
+              "end": 368.529
+            },
+            {
+              "w": "looks",
+              "start": 368.529,
+              "end": 368.859
+            },
+            {
+              "w": "are",
+              "start": 368.859,
+              "end": 369.094
+            },
+            {
+              "w": "the",
+              "start": 369.094,
+              "end": 369.33
+            },
+            {
+              "w": "whole",
+              "start": 369.33,
+              "end": 369.66
+            },
+            {
+              "w": "job,",
+              "start": 369.66,
+              "end": 369.896
+            },
+            {
+              "w": "Opus",
+              "start": 369.896,
+              "end": 370.179
+            },
+            {
+              "w": "5",
+              "start": 370.179,
+              "end": 370.32
+            },
+            {
+              "w": "earned",
+              "start": 370.32,
+              "end": 370.697
+            },
+            {
+              "w": "its",
+              "start": 370.697,
+              "end": 370.933
+            },
+            {
+              "w": "extra",
+              "start": 370.933,
+              "end": 371.263
+            },
+            {
+              "w": "dollar.",
+              "start": 371.263,
+              "end": 371.64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s67",
+      "start": 371.77,
+      "end": 377.24,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Oh, and both were told to reply in one line.",
+          "start": 371.77,
+          "end": 374.15,
+          "words": [
+            {
+              "w": "Oh,",
+              "start": 371.77,
+              "end": 371.95
+            },
+            {
+              "w": "and",
+              "start": 371.95,
+              "end": 372.174
+            },
+            {
+              "w": "both",
+              "start": 372.174,
+              "end": 372.444
+            },
+            {
+              "w": "were",
+              "start": 372.444,
+              "end": 372.713
+            },
+            {
+              "w": "told",
+              "start": 372.713,
+              "end": 372.982
+            },
+            {
+              "w": "to",
+              "start": 372.982,
+              "end": 373.162
+            },
+            {
+              "w": "reply",
+              "start": 373.162,
+              "end": 373.476
+            },
+            {
+              "w": "in",
+              "start": 373.476,
+              "end": 373.656
+            },
+            {
+              "w": "one",
+              "start": 373.656,
+              "end": 373.881
+            },
+            {
+              "w": "line.",
+              "start": 373.881,
+              "end": 374.15
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Neither did.",
+          "start": 374.23,
+          "end": 375.01,
+          "words": [
+            {
+              "w": "Neither",
+              "start": 374.23,
+              "end": 374.731
+            },
+            {
+              "w": "did.",
+              "start": 374.731,
+              "end": 375.01
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "At least they reply. I don't.",
+          "start": 375.15,
+          "end": 377.05,
+          "words": [
+            {
+              "w": "At",
+              "start": 375.15,
+              "end": 375.358
+            },
+            {
+              "w": "least",
+              "start": 375.358,
+              "end": 375.723
+            },
+            {
+              "w": "they",
+              "start": 375.723,
+              "end": 376.035
+            },
+            {
+              "w": "reply.",
+              "start": 376.035,
+              "end": 376.4
+            },
+            {
+              "w": "I",
+              "start": 376.46,
+              "end": 376.657
+            },
+            {
+              "w": "don't.",
+              "start": 376.657,
+              "end": 377.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s68",
+      "start": 377.24,
+      "end": 392.31,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "One job, one run: a data point, not a law.",
+          "start": 377.24,
+          "end": 379.72,
+          "words": [
+            {
+              "w": "One",
+              "start": 377.24,
+              "end": 377.493
+            },
+            {
+              "w": "job,",
+              "start": 377.493,
+              "end": 377.746
+            },
+            {
+              "w": "one",
+              "start": 377.746,
+              "end": 377.999
+            },
+            {
+              "w": "run:",
+              "start": 377.999,
+              "end": 378.252
+            },
+            {
+              "w": "a",
+              "start": 378.252,
+              "end": 378.404
+            },
+            {
+              "w": "data",
+              "start": 378.404,
+              "end": 378.708
+            },
+            {
+              "w": "point,",
+              "start": 378.708,
+              "end": 379.062
+            },
+            {
+              "w": "not",
+              "start": 379.062,
+              "end": 379.315
+            },
+            {
+              "w": "a",
+              "start": 379.315,
+              "end": 379.467
+            },
+            {
+              "w": "law.",
+              "start": 379.467,
+              "end": 379.72
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Every number's source, including Anthropic's page, is in the description.",
+          "start": 379.8,
+          "end": 383.58,
+          "words": [
+            {
+              "w": "Every",
+              "start": 379.8,
+              "end": 380.135
+            },
+            {
+              "w": "number's",
+              "start": 380.135,
+              "end": 380.566
+            },
+            {
+              "w": "source,",
+              "start": 380.566,
+              "end": 380.948
+            },
+            {
+              "w": "including",
+              "start": 380.948,
+              "end": 381.475
+            },
+            {
+              "w": "Anthropic's",
+              "start": 381.475,
+              "end": 382.049
+            },
+            {
+              "w": "page,",
+              "start": 382.049,
+              "end": 382.336
+            },
+            {
+              "w": "is",
+              "start": 382.336,
+              "end": 382.527
+            },
+            {
+              "w": "in",
+              "start": 382.527,
+              "end": 382.719
+            },
+            {
+              "w": "the",
+              "start": 382.719,
+              "end": 382.958
+            },
+            {
+              "w": "description.",
+              "start": 382.958,
+              "end": 383.58
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Want a rematch on a harder task? Tell us in the comments.",
+          "start": 383.66,
+          "end": 386.67,
+          "words": [
+            {
+              "w": "Want",
+              "start": 383.66,
+              "end": 383.915
+            },
+            {
+              "w": "a",
+              "start": 383.915,
+              "end": 384.043
+            },
+            {
+              "w": "rematch",
+              "start": 384.043,
+              "end": 384.426
+            },
+            {
+              "w": "on",
+              "start": 384.426,
+              "end": 384.596
+            },
+            {
+              "w": "a",
+              "start": 384.596,
+              "end": 384.724
+            },
+            {
+              "w": "harder",
+              "start": 384.724,
+              "end": 385.065
+            },
+            {
+              "w": "task?",
+              "start": 385.065,
+              "end": 385.32
+            },
+            {
+              "w": "Tell",
+              "start": 385.42,
+              "end": 385.679
+            },
+            {
+              "w": "us",
+              "start": 385.679,
+              "end": 385.851
+            },
+            {
+              "w": "in",
+              "start": 385.851,
+              "end": 386.023
+            },
+            {
+              "w": "the",
+              "start": 386.023,
+              "end": 386.239
+            },
+            {
+              "w": "comments.",
+              "start": 386.239,
+              "end": 386.67
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Anthropic said forty percent cheaper.",
+          "start": 386.81,
+          "end": 389.01,
+          "words": [
+            {
+              "w": "Anthropic",
+              "start": 386.81,
+              "end": 387.386
+            },
+            {
+              "w": "said",
+              "start": 387.386,
+              "end": 387.7
+            },
+            {
+              "w": "forty",
+              "start": 387.7,
+              "end": 388.067
+            },
+            {
+              "w": "percent",
+              "start": 388.067,
+              "end": 388.539
+            },
+            {
+              "w": "cheaper.",
+              "start": 388.539,
+              "end": 389.01
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "My bill said eighty-one percent. For one job.",
+          "start": 389.09,
+          "end": 392.26,
+          "words": [
+            {
+              "w": "My",
+              "start": 389.09,
+              "end": 389.312
+            },
+            {
+              "w": "bill",
+              "start": 389.312,
+              "end": 389.646
+            },
+            {
+              "w": "said",
+              "start": 389.646,
+              "end": 389.979
+            },
+            {
+              "w": "eighty-one",
+              "start": 389.979,
+              "end": 390.59
+            },
+            {
+              "w": "percent.",
+              "start": 390.59,
+              "end": 391.09
+            },
+            {
+              "w": "For",
+              "start": 391.15,
+              "end": 391.52
+            },
+            {
+              "w": "one",
+              "start": 391.52,
+              "end": 391.89
+            },
+            {
+              "w": "job.",
+              "start": 391.89,
+              "end": 392.26
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "duration": 392.31
+}

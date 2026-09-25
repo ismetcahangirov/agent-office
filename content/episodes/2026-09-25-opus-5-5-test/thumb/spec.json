@@ -1,0 +1,20 @@
+{
+  "format": "16x9",
+  "line1": "SAME JOB",
+  "line2": "81% CHEAPER",
+  "mascot": "mascot.png",
+  "glow": "#ff7a45",
+  "elements": [
+    {
+      "src": "claude.svg",
+      "x": 0.1,
+      "y": 0.83,
+      "w": 0.09,
+      "rotate": -6,
+      "glow": "#ff7a45"
+    }
+  ],
+  "mascot_scale": 1.1,
+  "mascot_y": 0.06,
+  "mascot_x": 0.07
+}

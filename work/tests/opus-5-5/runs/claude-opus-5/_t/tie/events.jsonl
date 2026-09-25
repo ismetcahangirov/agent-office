@@ -1,0 +1,10 @@
+{"t":1790200800000,"event":"PreToolUse","session":"s1","agentId":null,"agentType":null,"tool":"Zebra","detail":""}
+
+not json at all
+{"t":1790200800001,"event":"PreToolUse","session":"s1","agentId":null,"agentType":null,"tool":"Alpha","detail":""}
+{"broken":
+{"t":1790197200000,"event":"PreToolUse","session":"s2","agentId":null,"agentType":null,"tool":"Alpha","detail":""}
+{"t":1790197200001,"event":"SubagentStart","session":"s2","agentId":"x","agentType":"qa","tool":"","detail":""}
+{"t":1790197200002,"event":"Stop","session":"s2","agentId":null,"agentType":null,"tool":"","detail":""}
+{"t":1790200800002,"event":"PreToolUse","session":"s1","agentId":null,"agentType":null,"tool":"","detail":""}
+

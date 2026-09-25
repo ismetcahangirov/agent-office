@@ -25,7 +25,7 @@ thumbnail `/thumbnail`, AI gündəmi isə `/gundem` skill-i ilə gedir (`.claude
 | `content/character/poses/` | təkrar istifadə olunan KAXO şəkilləri |
 | `content/THUMBNAILS.md` | thumbnail formulu: mətn, rənglər, maskot, loqo, kompozisiya |
 | `content/character/character.md` | KAXO-nun görünüşü, xasiyyəti, stil prompt-u, səsləri |
-| `content/character/reference.jpg` | hər şəkil generasiyasında referans |
+| `content/character/reference.png` | hər şəkil generasiyasında referans |
 | `content/lessons.md` | statistikadan çıxan dərslər. Ssenaridən əvvəl oxunur |
 | `content/ideas.md` | ideya bankı |
 | `content/published.md` | paylaşılmış videolar və linklər |

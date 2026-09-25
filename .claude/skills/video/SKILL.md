@@ -115,13 +115,17 @@ Brauzer alətlərini **bir** ToolSearch çağırışı ilə yüklə: `tabs_conte
 
 **Əvvəlcədən bil (epizod 1 təcrübəsi):**
 - Chrome-da `chatgpt.com` üçün **Automatic downloads = Allow** olmalıdır, yoxsa 4–5 şəkildən sonra endirmələr səssizcə bloklanır. Bloklanıbsa, sahibdən icazə istə. Blok açılanda gecikmiş endirmələr bir neçə nüsxə ilə gəlir, artıq nüsxələri sil.
-- `file_upload` yalnız sessiya ilə paylaşılmış faylları qəbul edir. `reference.jpg` rədd olunarsa, sahibdən faylı ChatGPT pəncərəsinə sürükləməsini xahiş et.
+- `file_upload` yalnız sessiya ilə paylaşılmış faylları qəbul edir. `reference.png` rədd olunarsa, sahibdən faylı ChatGPT pəncərəsinə sürükləməsini xahiş et.
+- **Brauzer donursa (epizod 2):** səbəb çox vaxt CPU-dur. `tts.py` (Kokoro) bütün nüvələri tutur və Chrome renderer cavab vermir. Şəkilləri **TTS-dən əvvəl** bitir, ya da TTS işləyərkən brauzerə toxunma.
+- Uzun prompt-u `computer type` ilə hərf-hərf yazma (donur). Mətni JS ilə daxil et: `const e=document.querySelector('#prompt-textarea'); e.focus(); document.execCommand('insertText', false, "<prompt>")`, sonra `Return`. Gözləməni JS dövrü ilə yox, `computer wait` (4×10 s) + screenshot ilə et.
+- Endirəndə son şəkli sayla yox, **başlığı (`alt`) ilə** seç: eyni şəklin səhifədə bir neçə `src` nüsxəsi olur, say səhv nəticə verir. Donma zamanı göndərilən mesaj sonradan gedə bilər (ikiqat generasiya), əvvəlcə ekrana bax.
+- Söhbət 7–8 böyük şəkildən sonra ağırlaşır. Yeni söhbət aç: referans + artıq alınmış bir səhnə şəklini (üslub və robotlar üçün) birlikdə yüklə.
 - `javascript_tool` 45 saniyədə timeout olur. Gözləmə dövrünü ≤ 32 s saxla və lazım olsa təkrar çağır.
 - Yeni şəkil `img[alt^="Generated image"]` ilə tapılır. ChatGPT-nin CSP qaydası `localhost`-a sorğunu bloklayır, ona görə yalnız endirmə yolu işləyir.
 
 1. `tabs_context_mcp` → yeni tab → `https://chatgpt.com`. Giriş ekranı görünürsə, sahibə yaz: **"ChatGPT hesabına daxil ol, hazır olanda de."** Sonra gözlə. Parol yazma, hesab yaratma.
 2. Yeni söhbət aç. Birinci mesaj:
-   - `content/character/reference.jpg` faylını `file_upload` ilə yüklə;
+   - `content/character/reference.png` faylını `file_upload` ilə yüklə (layihə yolundan birbaşa işləyir; scratchpad-dakı nüsxə rədd olunur);
    - mətn: `character.md`-dəki **stil prompt-u** + "This is KAXO, the main character. I will ask for several scenes of him. Always keep him exactly like this reference." + **ardıcıllıq bloku**.
 3. Hər kadr üçün (yalnız `images/<id>.png` hələ **olmayanlar**):
    - əvvəlcə `content/character/poses/`-a bax: uyğun poza varsa, kopyala (`images/<id>.png`), yeni generasiya etmə (limit qənaəti, epizodun ≤ 50%-i);
@@ -151,7 +155,8 @@ Brauzer alətlərini **bir** ToolSearch çağırışı ilə yüklə: `tabs_conte
 ## 6/10 B-roll: ofis və ekran yazısı (real görüntü)
 **Ekran yazısı (xəbər və ya alət səhifəsi, long və news flash üçün):**
 ```bash
-node tools/video/record_page.js <rəsmi URL> content/episodes/<epizod>/clips/<ad>.webm 12 --scroll          # long (16:9)
+node tools/video/record_page.js <rəsmi URL> content/episodes/<epizod>/clips/<ad>.webm 12 --scroll          # long (16:9); intro animasiyası varsa --wait=5, kiçik ekran üçün qurulmuş səhifə --zoom=1.5
+# çıxışdakı "content from Xs" = episode.json-da clip_start (yükləmə qara ekranını keçmək üçün)
 node tools/video/record_page.js <rəsmi URL> content/episodes/<epizod>/clips/<ad>.webm 10 --scroll --mobile # short
 ```
 Kliplər ≤ 15 s olur, yalnız rəsmi və ictimai səhifələrdən (RULES §13).

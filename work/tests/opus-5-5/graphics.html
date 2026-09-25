@@ -1,0 +1,64 @@
+<!doctype html>
+<!-- Animated result graphics for the episode, real numbers from runs/*.json and qa-report.md.
+     ?m=race | bill | tests   recorded with tools/video/record_page.js (file:// URL) -->
+<html><head><meta charset="utf-8"><style>
+@font-face { font-family: Anton; src: url(../../../tools/video/fonts/Anton-Regular.ttf); }
+* { box-sizing: border-box; margin: 0; }
+body { width: 1920px; height: 1080px; background: #0b0d10; color: #fff; font-family: Anton, Impact, sans-serif; overflow: hidden;
+  display: flex; flex-direction: column; justify-content: center; padding: 0 140px; gap: 70px; }
+h1 { font-size: 84px; letter-spacing: 1px; text-transform: uppercase; }
+h1 span { color: #ffd23f; }
+.row { display: grid; grid-template-columns: 330px 1fr 300px; align-items: center; gap: 40px; }
+.name { font-size: 64px; }
+.name.new { color: #3ddc97; }
+.track { height: 90px; background: #1a1f26; border-radius: 12px; overflow: hidden; }
+.bar { height: 100%; width: 0; border-radius: 12px; background: #5b6675; }
+.bar.new { background: linear-gradient(90deg, #3ddc97, #22d3ee); }
+.val { font-size: 76px; text-align: right; font-variant-numeric: tabular-nums; }
+.val.new { color: #3ddc97; }
+.sub { font-size: 40px; color: #8b95a3; font-family: Arial, sans-serif; font-weight: 700; margin-top: -40px; }
+.board { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; }
+.card { background: #141920; border-radius: 24px; padding: 50px; text-align: center; opacity: 0; transform: scale(.9); transition: all .5s; }
+.card.on { opacity: 1; transform: none; }
+.card .big { font-size: 220px; line-height: 1; color: #3ddc97; }
+.card .lbl { font-size: 56px; margin-top: 20px; }
+</style></head><body>
+<script>
+const m = new URLSearchParams(location.search).get('m') || 'race';
+const ease = (t) => 1 - Math.pow(1 - Math.min(1, t), 3);
+function bars(title, sub, rows, dur, fmt) {
+  document.body.innerHTML = `<h1>${title}</h1>` + (sub ? `<div class="sub">${sub}</div>` : '') + rows.map((r, i) =>
+    `<div class="row"><div class="name ${r.cls}">${r.name}</div><div class="track"><div class="bar ${r.cls}" id="b${i}"></div></div><div class="val ${r.cls}" id="v${i}">${fmt(0)}</div></div>`).join('');
+  const max = Math.max(...rows.map((r) => r.v));
+  const t0 = performance.now() + 800;
+  (function tick(now) {
+    rows.forEach((r, i) => {
+      // every bar grows at the same speed, so the bigger number simply takes longer (a real race)
+      const p = Math.max(0, Math.min(1, (now - t0) / dur * max / r.v));
+      const shown = r.v * (r.linear ? p : ease(p));
+      document.getElementById('b' + i).style.width = (shown / max * 100) + '%';
+      document.getElementById('v' + i).textContent = fmt(shown);
+    });
+    requestAnimationFrame(tick);
+  })(performance.now());
+}
+if (m === 'race') {
+  bars('Same task. <span>Time to finish</span>', 'wall-clock seconds, one run each, default settings',
+    [{ name: 'Opus 5.5', v: 53, cls: 'new', linear: true }, { name: 'Opus 5', v: 265, cls: '', linear: true }],
+    7000, (x) => Math.round(x) + ' s');
+} else if (m === 'bill') {
+  bars('Same task. <span>The bill</span>', 'API-equivalent cost (total_cost_usd) · steps taken',
+    [{ name: 'Opus 5.5', v: 0.27, cls: 'new' }, { name: 'Opus 5', v: 1.45, cls: '' }],
+    3500, (x) => '$' + x.toFixed(2));
+  setTimeout(() => {
+    document.body.insertAdjacentHTML('beforeend',
+      '<div class="row"><div class="name new">Steps</div><div class="name" style="font-size:76px"><span style="color:#3ddc97">5</span> vs 31</div><div></div></div>');
+  }, 5200);
+} else if (m === 'tests') {
+  document.body.innerHTML = '<h1>Hidden tests <span>passed</span></h1><div class="board">' +
+    '<div class="card" id="c0"><div class="big">18/18</div><div class="lbl">Opus 5</div></div>' +
+    '<div class="card" id="c1"><div class="big">18/18</div><div class="lbl">Opus 5.5</div></div></div>';
+  setTimeout(() => document.getElementById('c0').classList.add('on'), 900);
+  setTimeout(() => document.getElementById('c1').classList.add('on'), 1900);
+}
+</script></body></html>
