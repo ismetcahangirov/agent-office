@@ -1,0 +1,59 @@
+1
+00:00:00,000 --> 00:00:03,000
+I have five employees. None of them are human.
+
+2
+00:00:03,190 --> 00:00:05,810
+This is KAXO. He runs an AI company.
+
+3
+00:00:05,950 --> 00:00:07,890
+Revenue? Zero dollars.
+
+4
+00:00:08,080 --> 00:00:11,290
+Day one. First task: figure out what the company does.
+
+5
+00:00:11,370 --> 00:00:14,100
+It read the code. Even its own job description.
+
+6
+00:00:14,290 --> 00:00:16,520
+Never read mine. Seems risky.
+
+7
+00:00:16,710 --> 00:00:18,200
+Then the news team's first shift.
+
+8
+00:00:18,280 --> 00:00:21,550
+Thirteen tries to reach the internet. All thirteen, blocked.
+
+9
+00:00:21,630 --> 00:00:23,390
+Nobody gave them web access.
+
+10
+00:00:23,580 --> 00:00:25,270
+Technically, that was my job.
+
+11
+00:00:25,410 --> 00:00:28,360
+Zero news. And the CEO refused to make any up.
+
+12
+00:00:28,550 --> 00:00:30,600
+Good call. I don't make stuff up either.
+
+13
+00:00:30,680 --> 00:00:31,890
+That'd be work.
+
+14
+00:00:32,080 --> 00:00:35,180
+Day one's over. Two of five employees actually worked.
+
+15
+00:00:35,320 --> 00:00:36,400
+So, like I said...

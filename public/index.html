@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="az">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agent Office</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="logo">▣</span>
+      <div>
+        <h1>Agent Office</h1>
+        <p id="sub">0 kapitallı AI şirkəti · canlı</p>
+      </div>
+    </div>
+    <div id="badge" class="badge wait">GÖZLƏYİR</div>
+  </header>
+
+  <main class="layout">
+    <section class="stage-wrap">
+      <div id="stage" class="stage">
+        <canvas id="office" width="480" height="272"></canvas>
+        <div id="overlay" class="overlay"></div>
+      </div>
+    </section>
+
+    <aside class="panel">
+      <div class="stats" id="stats"></div>
+      <h2 id="h-team">Komanda</h2>
+      <ul class="team" id="team"></ul>
+      <h2 id="h-feed">Canlı axın</h2>
+      <ol class="feed" id="feed"></ol>
+    </aside>
+  </main>
+
+  <script src="office.js"></script>
+</body>
+</html>

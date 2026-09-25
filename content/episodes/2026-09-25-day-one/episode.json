@@ -1,0 +1,149 @@
+{
+  "slug": "day-one",
+  "format": "short",
+  "status": "done",
+  "idea": "Day one at KAXO's company: 5 AI employees, 0 humans, $0 revenue. The first employee learned what the company does by reading the company's own files, including its own job description. The news team tried the internet 13 times, got blocked 13 times, and the CEO refused to invent news. KAXO also refuses to make things up, because that would be work. Loops back to the opening line.",
+  "real_fact": "Researcher, first task, read 7 files incl. its own job description researcher.md (session 53dd56f9, 2026-09-24 23:53:09-23:53:46, data/events.jsonl). News team first run, a manual test (session cd667c3a, 2026-09-25 02:20:18-02:22:14): 13 web attempts, all denied, 0 news; CEO: 'anything for 2026-09-22 to 2026-09-25 would be invented' (data/events.jsonl, data/gundem-logs/2026-09-25.log). Only 2 of 5 roles (CEO, Researcher) have done real work. Revenue: $0. Summary: content/reports/2026-09-25-day-one.md",
+  "playlists": [
+    "KAXO's AI Company",
+    "KAXO Shorts"
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "motion": "zoom_in",
+      "prompt": "KAXO sprawled sideways on a worn, saggy brown couch in a messy small startup office, one arm hanging off the edge, heavy-lidded eyes looking straight at the camera with a smug lazy half-smile. Behind him: empty office chairs, a whiteboard with scribbles, a dying potted plant, pizza boxes on the floor. Medium shot, camera at couch height.",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "I have five employees. [pause] None of them are human."
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "motion": "static",
+      "prompt": "KAXO standing slouched in front of a plain office wall, deadpan bored expression, holding up a tiny handwritten cardboard sign that reads \"$0\" between two fingers at chest height, the other hand in his shorts pocket. Centered medium close-up, lots of empty wall around him.",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "This is KAXO. He runs an AI company."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Revenue? [pause] Zero dollars.",
+          "speed": 0.9
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "clip": "clips/office-research.webm",
+      "clip_start": 12,
+      "crop": [
+        0.095,
+        0.01,
+        0.31,
+        0.97
+      ],
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Day one. First task: figure out what the company does."
+        },
+        {
+          "speaker": "narrator",
+          "text": "It read the code. Even its own job description."
+        }
+      ],
+      "fit": "cover",
+      "sharp": true
+    },
+    {
+      "id": "s04",
+      "motion": "pan_right",
+      "prompt": "KAXO asleep face-down on a cluttered office desk, cheek squished on a pile of papers, drool on the paper, one droopy eye barely cracked open toward the camera. A white coffee mug that says \"CEO\" next to his head, a closed laptop, crumpled sticky notes. Side view at desk level, slightly wide.",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Never read mine. [pause] Seems risky."
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "clip": "clips/office-news.webm",
+      "clip_start": 12,
+      "crop": [
+        0.2,
+        0.01,
+        0.31,
+        0.97
+      ],
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Then the news team's first shift."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Thirteen tries to reach the internet. All thirteen, blocked."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nobody gave them web access."
+        }
+      ],
+      "fit": "cover",
+      "sharp": true
+    },
+    {
+      "id": "s06",
+      "motion": "zoom_in",
+      "prompt": "KAXO leaning back in a squeaky office chair with his bare feet up on the desk, glancing sideways at a laptop screen that shows a big red \"ACCESS DENIED\" warning, completely unbothered, eyebrows slightly raised. Over-the-shoulder medium shot so the laptop screen is visible, dim office lighting.",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Technically, that was my job."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Zero news. And the CEO refused to make any up."
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "motion": "zoom_out",
+      "prompt": "KAXO lying flat on his back on the office floor next to the couch, one hand resting on his belly, the other giving a slow lazy thumbs-up toward the ceiling, eyes half closed, satisfied tiny smile. Top-down camera looking straight down at him, his bare feet and a crumpled blanket in frame.",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Good call. I don't make stuff up either."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "[pause] That'd be work.",
+          "speed": 0.85
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "motion": "pan_left",
+      "prompt": "KAXO standing at the office window at night with his hands in his shorts pockets, looking back over his shoulder at the camera with a tired, knowing look. Five empty desks with glowing monitors behind him, city lights outside. Wide shot, calm and quiet.",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Day one's over. Two of five employees actually worked."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "So, like I said...",
+          "speed": 0.9
+        }
+      ]
+    }
+  ],
+  "outcome": "paylaşılmadı: sahib \"tanıtım videosu kimi\" gördü (2026-09-25). Şəkillər poza kitabxanasına köçürüldü."
+}

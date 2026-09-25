@@ -1,0 +1,13 @@
+data/
+node_modules/
+tools/video/models/
+content/episodes/*/video/_segments/
+__pycache__/
+tools/video/.venv/
+content/voice-samples/
+content/episodes/*/video/
+content/episodes/*/clips/
+*.log
+.env
+.env.*
+.claude/settings.local.json

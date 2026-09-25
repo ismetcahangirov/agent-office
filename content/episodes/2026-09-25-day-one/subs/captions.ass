@@ -1,0 +1,59 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Arial Black,96,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,1,0,0,0,100,100,1,0,1,7,2,2,80,80,520,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.88,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}I HAVE FIVE
+Dialogue: 0,0:00:00.88,0:00:01.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}EMPLOYEES.
+Dialogue: 0,0:00:01.72,0:00:02.45,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}NONE OF THEM
+Dialogue: 0,0:00:02.45,0:00:03.00,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}ARE HUMAN.
+Dialogue: 0,0:00:03.19,0:00:04.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}THIS IS KAXO.
+Dialogue: 0,0:00:04.26,0:00:05.06,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}HE RUNS AN
+Dialogue: 0,0:00:05.06,0:00:05.81,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}AI COMPANY.
+Dialogue: 0,0:00:05.95,0:00:06.59,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}REVENUE?
+Dialogue: 0,0:00:06.79,0:00:07.89,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}ZERO DOLLARS.
+Dialogue: 0,0:00:08.08,0:00:08.72,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}DAY ONE.
+Dialogue: 0,0:00:08.78,0:00:09.41,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}FIRST TASK:
+Dialogue: 0,0:00:09.41,0:00:10.32,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}FIGURE OUT WHAT
+Dialogue: 0,0:00:10.32,0:00:11.00,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}THE COMPANY
+Dialogue: 0,0:00:11.00,0:00:11.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}DOES.
+Dialogue: 0,0:00:11.37,0:00:12.04,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}IT READ THE
+Dialogue: 0,0:00:12.04,0:00:12.31,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}CODE.
+Dialogue: 0,0:00:12.37,0:00:13.18,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}EVEN ITS OWN
+Dialogue: 0,0:00:13.18,0:00:14.10,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}JOB DESCRIPTION.
+Dialogue: 0,0:00:14.29,0:00:15.33,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}NEVER READ MINE.
+Dialogue: 0,0:00:15.53,0:00:16.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}SEEMS RISKY.
+Dialogue: 0,0:00:16.71,0:00:17.38,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}THEN THE NEWS
+Dialogue: 0,0:00:17.38,0:00:17.93,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}TEAM'S FIRST
+Dialogue: 0,0:00:17.93,0:00:18.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}SHIFT.
+Dialogue: 0,0:00:18.28,0:00:18.98,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}THIRTEEN TRIES
+Dialogue: 0,0:00:18.98,0:00:19.64,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}TO REACH THE
+Dialogue: 0,0:00:19.64,0:00:20.05,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}INTERNET.
+Dialogue: 0,0:00:20.11,0:00:21.01,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}ALL THIRTEEN,
+Dialogue: 0,0:00:21.01,0:00:21.55,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}BLOCKED.
+Dialogue: 0,0:00:21.63,0:00:22.70,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}NOBODY GAVE THEM
+Dialogue: 0,0:00:22.70,0:00:23.39,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}WEB ACCESS.
+Dialogue: 0,0:00:23.58,0:00:24.25,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}TECHNICALLY,
+Dialogue: 0,0:00:24.25,0:00:25.01,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}THAT WAS MY
+Dialogue: 0,0:00:25.01,0:00:25.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}JOB.
+Dialogue: 0,0:00:25.41,0:00:26.26,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}ZERO NEWS.
+Dialogue: 0,0:00:26.32,0:00:27.03,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}AND THE CEO
+Dialogue: 0,0:00:27.03,0:00:27.93,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}REFUSED TO MAKE
+Dialogue: 0,0:00:27.93,0:00:28.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}ANY UP.
+Dialogue: 0,0:00:28.55,0:00:29.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}GOOD CALL.
+Dialogue: 0,0:00:29.25,0:00:29.85,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}I DON'T MAKE
+Dialogue: 0,0:00:29.85,0:00:30.60,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}STUFF UP EITHER.
+Dialogue: 0,0:00:30.88,0:00:31.89,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}THAT'D BE WORK.
+Dialogue: 0,0:00:32.08,0:00:32.98,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}DAY ONE'S OVER.
+Dialogue: 0,0:00:33.04,0:00:33.77,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}TWO OF FIVE
+Dialogue: 0,0:00:33.77,0:00:34.30,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}EMPLOYEES
+Dialogue: 0,0:00:34.30,0:00:35.18,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}ACTUALLY WORKED.
+Dialogue: 0,0:00:35.32,0:00:35.55,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}SO,
+Dialogue: 0,0:00:35.55,0:00:36.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}LIKE I SAID...

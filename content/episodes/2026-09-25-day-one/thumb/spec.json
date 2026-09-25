@@ -1,0 +1,9 @@
+{
+  "format": "9x16",
+  "line1": "5 EMPLOYEES",
+  "line2": "ZERO HUMANS",
+  "mascot": "mascot.png",
+  "glow": "#19d3ff",
+  "mascot_scale": 1.05,
+  "mascot_y": 0.02
+}

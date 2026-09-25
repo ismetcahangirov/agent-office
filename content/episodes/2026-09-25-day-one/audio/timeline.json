@@ -1,0 +1,696 @@
+{
+  "shots": [
+    {
+      "id": "s01",
+      "start": 0.0,
+      "end": 3.19,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "I have five employees. None of them are human.",
+          "start": 0.0,
+          "end": 3.0,
+          "words": [
+            {
+              "w": "I",
+              "start": 0.0,
+              "end": 0.175
+            },
+            {
+              "w": "have",
+              "start": 0.175,
+              "end": 0.526
+            },
+            {
+              "w": "five",
+              "start": 0.526,
+              "end": 0.877
+            },
+            {
+              "w": "employees.",
+              "start": 0.877,
+              "end": 1.52
+            },
+            {
+              "w": "None",
+              "start": 1.72,
+              "end": 1.994
+            },
+            {
+              "w": "of",
+              "start": 1.994,
+              "end": 2.177
+            },
+            {
+              "w": "them",
+              "start": 2.177,
+              "end": 2.451
+            },
+            {
+              "w": "are",
+              "start": 2.451,
+              "end": 2.68
+            },
+            {
+              "w": "human.",
+              "start": 2.68,
+              "end": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "start": 3.19,
+      "end": 8.08,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "This is KAXO. He runs an AI company.",
+          "start": 3.19,
+          "end": 5.81,
+          "words": [
+            {
+              "w": "This",
+              "start": 3.19,
+              "end": 3.569
+            },
+            {
+              "w": "is",
+              "start": 3.569,
+              "end": 3.821
+            },
+            {
+              "w": "KAXO.",
+              "start": 3.821,
+              "end": 4.2
+            },
+            {
+              "w": "He",
+              "start": 4.26,
+              "end": 4.49
+            },
+            {
+              "w": "runs",
+              "start": 4.49,
+              "end": 4.834
+            },
+            {
+              "w": "an",
+              "start": 4.834,
+              "end": 5.064
+            },
+            {
+              "w": "AI",
+              "start": 5.064,
+              "end": 5.293
+            },
+            {
+              "w": "company.",
+              "start": 5.293,
+              "end": 5.81
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Revenue? Zero dollars.",
+          "start": 5.95,
+          "end": 7.89,
+          "words": [
+            {
+              "w": "Revenue?",
+              "start": 5.95,
+              "end": 6.59
+            },
+            {
+              "w": "Zero",
+              "start": 6.79,
+              "end": 7.23
+            },
+            {
+              "w": "dollars.",
+              "start": 7.23,
+              "end": 7.89
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "start": 8.08,
+      "end": 14.29,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Day one. First task: figure out what the company does.",
+          "start": 8.08,
+          "end": 11.29,
+          "words": [
+            {
+              "w": "Day",
+              "start": 8.08,
+              "end": 8.4
+            },
+            {
+              "w": "one.",
+              "start": 8.4,
+              "end": 8.72
+            },
+            {
+              "w": "First",
+              "start": 8.78,
+              "end": 9.118
+            },
+            {
+              "w": "task:",
+              "start": 9.118,
+              "end": 9.408
+            },
+            {
+              "w": "figure",
+              "start": 9.408,
+              "end": 9.794
+            },
+            {
+              "w": "out",
+              "start": 9.794,
+              "end": 10.035
+            },
+            {
+              "w": "what",
+              "start": 10.035,
+              "end": 10.325
+            },
+            {
+              "w": "the",
+              "start": 10.325,
+              "end": 10.566
+            },
+            {
+              "w": "company",
+              "start": 10.566,
+              "end": 11.0
+            },
+            {
+              "w": "does.",
+              "start": 11.0,
+              "end": 11.29
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "It read the code. Even its own job description.",
+          "start": 11.37,
+          "end": 14.1,
+          "words": [
+            {
+              "w": "It",
+              "start": 11.37,
+              "end": 11.549
+            },
+            {
+              "w": "read",
+              "start": 11.549,
+              "end": 11.818
+            },
+            {
+              "w": "the",
+              "start": 11.818,
+              "end": 12.041
+            },
+            {
+              "w": "code.",
+              "start": 12.041,
+              "end": 12.31
+            },
+            {
+              "w": "Even",
+              "start": 12.37,
+              "end": 12.675
+            },
+            {
+              "w": "its",
+              "start": 12.675,
+              "end": 12.93
+            },
+            {
+              "w": "own",
+              "start": 12.93,
+              "end": 13.184
+            },
+            {
+              "w": "job",
+              "start": 13.184,
+              "end": 13.439
+            },
+            {
+              "w": "description.",
+              "start": 13.439,
+              "end": 14.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "start": 14.29,
+      "end": 16.71,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Never read mine. Seems risky.",
+          "start": 14.29,
+          "end": 16.52,
+          "words": [
+            {
+              "w": "Never",
+              "start": 14.29,
+              "end": 14.673
+            },
+            {
+              "w": "read",
+              "start": 14.673,
+              "end": 15.002
+            },
+            {
+              "w": "mine.",
+              "start": 15.002,
+              "end": 15.33
+            },
+            {
+              "w": "Seems",
+              "start": 15.53,
+              "end": 16.025
+            },
+            {
+              "w": "risky.",
+              "start": 16.025,
+              "end": 16.52
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "start": 16.71,
+      "end": 23.58,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Then the news team's first shift.",
+          "start": 16.71,
+          "end": 18.2,
+          "words": [
+            {
+              "w": "Then",
+              "start": 16.71,
+              "end": 16.945
+            },
+            {
+              "w": "the",
+              "start": 16.945,
+              "end": 17.141
+            },
+            {
+              "w": "news",
+              "start": 17.141,
+              "end": 17.377
+            },
+            {
+              "w": "team's",
+              "start": 17.377,
+              "end": 17.651
+            },
+            {
+              "w": "first",
+              "start": 17.651,
+              "end": 17.926
+            },
+            {
+              "w": "shift.",
+              "start": 17.926,
+              "end": 18.2
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Thirteen tries to reach the internet. All thirteen, blocked.",
+          "start": 18.28,
+          "end": 21.55,
+          "words": [
+            {
+              "w": "Thirteen",
+              "start": 18.28,
+              "end": 18.692
+            },
+            {
+              "w": "tries",
+              "start": 18.692,
+              "end": 18.98
+            },
+            {
+              "w": "to",
+              "start": 18.98,
+              "end": 19.144
+            },
+            {
+              "w": "reach",
+              "start": 19.144,
+              "end": 19.433
+            },
+            {
+              "w": "the",
+              "start": 19.433,
+              "end": 19.638
+            },
+            {
+              "w": "internet.",
+              "start": 19.638,
+              "end": 20.05
+            },
+            {
+              "w": "All",
+              "start": 20.11,
+              "end": 20.41
+            },
+            {
+              "w": "thirteen,",
+              "start": 20.41,
+              "end": 21.01
+            },
+            {
+              "w": "blocked.",
+              "start": 21.01,
+              "end": 21.55
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nobody gave them web access.",
+          "start": 21.63,
+          "end": 23.39,
+          "words": [
+            {
+              "w": "Nobody",
+              "start": 21.63,
+              "end": 22.057
+            },
+            {
+              "w": "gave",
+              "start": 22.057,
+              "end": 22.377
+            },
+            {
+              "w": "them",
+              "start": 22.377,
+              "end": 22.697
+            },
+            {
+              "w": "web",
+              "start": 22.697,
+              "end": 22.963
+            },
+            {
+              "w": "access.",
+              "start": 22.963,
+              "end": 23.39
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "start": 23.58,
+      "end": 28.55,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Technically, that was my job.",
+          "start": 23.58,
+          "end": 25.27,
+          "words": [
+            {
+              "w": "Technically,",
+              "start": 23.58,
+              "end": 24.246
+            },
+            {
+              "w": "that",
+              "start": 24.246,
+              "end": 24.553
+            },
+            {
+              "w": "was",
+              "start": 24.553,
+              "end": 24.809
+            },
+            {
+              "w": "my",
+              "start": 24.809,
+              "end": 25.014
+            },
+            {
+              "w": "job.",
+              "start": 25.014,
+              "end": 25.27
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Zero news. And the CEO refused to make any up.",
+          "start": 25.41,
+          "end": 28.36,
+          "words": [
+            {
+              "w": "Zero",
+              "start": 25.41,
+              "end": 25.835
+            },
+            {
+              "w": "news.",
+              "start": 25.835,
+              "end": 26.26
+            },
+            {
+              "w": "And",
+              "start": 26.32,
+              "end": 26.557
+            },
+            {
+              "w": "the",
+              "start": 26.557,
+              "end": 26.794
+            },
+            {
+              "w": "CEO",
+              "start": 26.794,
+              "end": 27.032
+            },
+            {
+              "w": "refused",
+              "start": 27.032,
+              "end": 27.459
+            },
+            {
+              "w": "to",
+              "start": 27.459,
+              "end": 27.648
+            },
+            {
+              "w": "make",
+              "start": 27.648,
+              "end": 27.933
+            },
+            {
+              "w": "any",
+              "start": 27.933,
+              "end": 28.17
+            },
+            {
+              "w": "up.",
+              "start": 28.17,
+              "end": 28.36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "start": 28.55,
+      "end": 32.08,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Good call. I don't make stuff up either.",
+          "start": 28.55,
+          "end": 30.6,
+          "words": [
+            {
+              "w": "Good",
+              "start": 28.55,
+              "end": 28.87
+            },
+            {
+              "w": "call.",
+              "start": 28.87,
+              "end": 29.19
+            },
+            {
+              "w": "I",
+              "start": 29.25,
+              "end": 29.369
+            },
+            {
+              "w": "don't",
+              "start": 29.369,
+              "end": 29.607
+            },
+            {
+              "w": "make",
+              "start": 29.607,
+              "end": 29.846
+            },
+            {
+              "w": "stuff",
+              "start": 29.846,
+              "end": 30.124
+            },
+            {
+              "w": "up",
+              "start": 30.124,
+              "end": 30.282
+            },
+            {
+              "w": "either.",
+              "start": 30.282,
+              "end": 30.6
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "That'd be work.",
+          "start": 30.68,
+          "end": 31.89,
+          "words": [
+            {
+              "w": "That'd",
+              "start": 30.88,
+              "end": 31.296
+            },
+            {
+              "w": "be",
+              "start": 31.296,
+              "end": 31.534
+            },
+            {
+              "w": "work.",
+              "start": 31.534,
+              "end": 31.89
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "start": 32.08,
+      "end": 36.45,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Day one's over. Two of five employees actually worked.",
+          "start": 32.08,
+          "end": 35.18,
+          "words": [
+            {
+              "w": "Day",
+              "start": 32.08,
+              "end": 32.345
+            },
+            {
+              "w": "one's",
+              "start": 32.345,
+              "end": 32.662
+            },
+            {
+              "w": "over.",
+              "start": 32.662,
+              "end": 32.98
+            },
+            {
+              "w": "Two",
+              "start": 33.04,
+              "end": 33.283
+            },
+            {
+              "w": "of",
+              "start": 33.283,
+              "end": 33.478
+            },
+            {
+              "w": "five",
+              "start": 33.478,
+              "end": 33.77
+            },
+            {
+              "w": "employees",
+              "start": 33.77,
+              "end": 34.305
+            },
+            {
+              "w": "actually",
+              "start": 34.305,
+              "end": 34.791
+            },
+            {
+              "w": "worked.",
+              "start": 34.791,
+              "end": 35.18
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "So, like I said...",
+          "start": 35.32,
+          "end": 36.4,
+          "words": [
+            {
+              "w": "So,",
+              "start": 35.32,
+              "end": 35.547
+            },
+            {
+              "w": "like",
+              "start": 35.547,
+              "end": 35.888
+            },
+            {
+              "w": "I",
+              "start": 35.888,
+              "end": 36.059
+            },
+            {
+              "w": "said...",
+              "start": 36.059,
+              "end": 36.4
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "duration": 36.45
+}
