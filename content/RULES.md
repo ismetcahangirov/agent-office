@@ -79,6 +79,8 @@ Məqsəd izləyicinin videonu tərk etməməsidir. Mətn "oxunan mətn" kimi yox
 - **Şəkillər:** short üçün şaquli 2:3 (1024×1536), long üçün üfüqi 3:2 (1536×1024). Hər səhnə prompt-u **ardıcıllıq bloku** ilə bitir, blokdakı `{ASPECT}` formata görə doldurulur, referans şəkil həmişə əlavə olunur.
 - **Poza kitabxanası:** `content/character/poses/`. Uğurlu KAXO şəkilləri təkrar istifadə üçün saxlanılır. Bir epizodda kitabxanadan ən çox 50% kadr götürülür (README-yə bax).
 - **Ekran yazısı (long):** yeni alətin və ya modelin rəsmi səhifəsi, demo, nəticə. Hər klip ≤ 15 s, üstündə KAXO və ya diktorun şərhi olur (şərh və tənqid məqsədi, §13).
+- **Kompüter ekranı:** VS Code-da agentin real kodunun yazılması (`tools/video/type_code.py`), terminal, proqram pəncərəsi (`tools/video/record_screen.py`). Yalnız real iş göstərilir. Kadrda şəxsi məlumat, sir və bildiriş olmur.
+- **Stock video:** yalnız Pexels və Pixabay (pulsuz lisenziya, `tools/video/stock.py`), epizodun ≤ 20%-i. Müəllif `clips/stock.json`-da saxlanılır və təsvirdə göstərilir. Stock görüntü "bizim ofis" kimi təqdim olunmur. API açarları yalnız `.env`-dədir.
 - **Fon:** sadədir: ofis, divan, server otağı, kafe. Detal az olur, çünki xarakter ön plandadır.
 - **Mətn:** şəkillərdə mətn olmur, mətni altyazı verir. İstisna: səhnə üçün lazım olan ekran və ya lövhə.
 - **Ofis B-roll:** yalnız real hadisələrdən çəkilir (`node demo.js --replay ... --speed N` + `tools/video/record_office.js`). Ssenarili demo görüntüsü videoya **düşmür**.

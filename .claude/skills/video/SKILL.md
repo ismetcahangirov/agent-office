@@ -1,6 +1,6 @@
 ---
 name: video
-description: KAXO kanalı üçün yeni video epizodu hazırlayır - statistika və dərslər, araşdırma, ssenari, ChatGPT-də şəkillər (brauzer), Kokoro səsləndirmə, altyazı, montaj, SEO və thumbnail, sahibin təsdiqi, YouTube-a paylaşma, hesabat və təmizlik. İstifadəçi "/video", "/video davam", "yeni video", "yeni epizod" yazanda işə sal.
+description: KAXO kanalı üçün yeni video epizodu hazırlayır - statistika və dərslər, araşdırma, ssenari, ChatGPT-də şəkillər (brauzer), ekran yazısı (VS Code-da kod, terminal), stock video (Pexels/Pixabay), Kokoro səsləndirmə, altyazı, montaj, SEO və thumbnail, sahibin təsdiqi, YouTube-a paylaşma, hesabat və təmizlik. İstifadəçi "/video", "/video davam", "yeni video", "yeni epizod" yazanda işə sal.
 ---
 
 # /video: KAXO epizodu, başdan sona
@@ -62,7 +62,8 @@ seo.json       başlıq, təsvir, tag-lar, parametrlər
 ## 1/10 Hazırlıq
 1. Server işləyirmi: `curl -s -o /dev/null -w "%{http_code}" localhost:4317/`. İşləmirsə, `npm start` fonda işə sal (`run_in_background`).
 2. Alətlər yerindədirmi: `tools/video/.venv/Scripts/python -c "import kokoro_onnx, soundfile, PIL, imageio_ffmpeg, rembg"` və `tools/video/models/` altında `kokoro-v1.0.int8.onnx`, `voices-v1.0.bin`. Python paketləri **yalnız bu venv-ə** quraşdırılır, qlobal Python-a toxunulmur.
-3. `/video davam`: `content/episodes/` içində `status` dəyəri `done` olmayan ən yeni epizodu tap və o addımdan davam et.
+3. Ekran və stock alətləri: `.env`-də `PEXELS_API_KEY` və `PIXABAY_API_KEY` var (dəyərləri çap etmə), `code --version` işləyir.
+4. `/video davam`: `content/episodes/` içində `status` dəyəri `done` olmayan ən yeni epizodu tap və o addımdan davam et.
 
 ## 2/10 Statistika və dərslər (paylaşılmış video varsa)
 `published.md`-də ≥ 48 saat əvvəl paylaşılmış və son 3 gündə statistikası yığılmamış video varsa:
@@ -164,6 +165,32 @@ node tools/video/record_office.js content/episodes/<epizod>/clips/office.webm <s
 - `--from/--to` epizodun real faktının vaxt aralığıdır, `events.jsonl`-dan götürülür. Replay əvvəlcə `DemoReset` göndərir: lövhə və sayğaclar yalnız təkrar oynanan real hadisələri göstərir.
 - **Short-da ofis:** blur-fit ofisi çox kiçik göstərir. Masalara şaquli crop et: `"fit": "cover", "sharp": true, "crop": [x, 0.01, 0.31, 0.97]`. CEO+Kəşfiyyatçı üçün x≈0.095, Kəşfiyyatçı mərkəzdə x≈0.2. Bubble-ların kəsilmədiyini kadrdan yoxla.
 - Ssenarili demo (`node demo.js` arqumentsiz) videoya **düşmür**.
+
+**Kompüter ekranı (sahib icazə verib: ekranı yazmaq, VS Code-da kod yazmaq, terminal, istənilən proqram):**
+Yaxşı video üçün lazım olan real görüntünü özün çək. Görüntü real iş olmalıdır (RULES §5): agentin yazdığı həqiqi fayl, həqiqi terminal çıxışı, həqiqi sayt.
+```bash
+# kod yazılır + yazılır (VS Code, hərf-hərf, klaviatura ilə); mənbə builder-in real faylıdır
+tools/video/.venv/Scripts/python tools/video/type_code.py work/<layihə>/<fayl> --cps 28 --record content/episodes/<epizod>/clips/code.mp4
+# istənilən pəncərə (terminal, brauzer, sayt); fonda başlat, işi gör, sonra stop faylı yarat
+tools/video/.venv/Scripts/python tools/video/record_screen.py content/episodes/<epizod>/clips/term.mp4 --window "<başlıq hissəsi>" --seconds 60 --stop-file work/screen/.stop
+tools/video/.venv/Scripts/python tools/video/record_screen.py --list      # açıq pəncərə başlıqları
+```
+- `type_code.py` `work/screen/`-də ayrıca VS Code pəncərəsi açır. Orada avtomatik mötərizə, girinti və təkliflər söndürülür, kod mənbə ilə eyni yazılır, sonda yoxlanır (`typed OK`). Uzun fayldan ~15–40 sətirlik maraqlı hissəni ayrıca fayla çıxar. Tam fayl videoda darıxdırıcıdır.
+- Yazı zamanı sahib klaviatura və siçana toxunmamalıdır. Fokus itəndə alət özü dayanır. Başlamazdan əvvəl sahibə bir sətir yaz: "N saniyə ekranı yazıram, toxunma".
+- **Məxfilik:** yazmazdan əvvəl kadrda şəxsi heç nə olmamalıdır: poçt, çat, `.env`, token, brauzer tabları, bildirişlər. Yalnız lazım olan pəncərəni `--window` ilə yaz, tam ekranı yox. Yazıdan sonra 2–3 kadrı `Read` ilə yoxla. Sirr görünürsə, klipi sil.
+- Kadrda artıq panel görünürsə (yan panel, extension reklamı), `episode.json`-da `crop` ilə kəs.
+- Short üçün kod kadrı: `"fit": "cover"` + mətnin olduğu sol hissəyə `crop` (məsələn `[0.1, 0.05, 0.45, 0.9]`). Kod oxunaqlı qalmalıdır (şrift 20, kadrdan yoxla).
+
+**Stock video (Pexels, Pixabay: pulsuz lisenziya):**
+Real görüntü və KAXO şəkli olmayan yerdə (ümumi plan: şəhər, server otağı, klaviatura, insanlar ofisdə) istifadə olunur. Əsas vizual deyil, epizodun ≤ 20%-i. Açarlar `.env`-dədir (`PEXELS_API_KEY`, `PIXABAY_API_KEY`). Repoya, skill-ə və hesabata **yazılmır**.
+```bash
+tools/video/.venv/Scripts/python tools/video/stock.py search "server room blue lights" --orientation landscape --thumbs work/screen/thumbs   # long; short üçün portrait
+tools/video/.venv/Scripts/python tools/video/stock.py get pexels:31155915 content/episodes/<epizod> city     # -> clips/city.mp4 + clips/stock.json
+```
+- Seçmədən əvvəl `--thumbs` ilə endirilən posterlərə `Read` ilə bax. Loqosu, tanınan brendi və ya aydın üzü (əsas plan) olan klipi götürmə.
+- `clips/stock.json` müəllif qeydidir. SEO addımında təsvirə "Stock footage: Pexels / Pixabay (<müəlliflər>)" sətri əlavə olunur.
+- Stock klip real fakt kimi təqdim olunmur: "bizim ofis", "bizim server" demə (RULES §5).
+
 - `status: "audio"`.
 
 ## 7/10 Səs, altyazı, montaj
@@ -237,4 +264,7 @@ Başlıq üçün 3 variant yaz, ən yaxşısını `title`-a qoy, digərlərini `
 | `ModuleNotFoundError` | Paketi venv-ə qur: `tools/video/.venv/Scripts/python -m pip install <paket>`. Qlobal `pip install` etmə (aider-chat asılılıqlarını pozur) |
 | ChatGPT selektoru dəyişib | `find` / `read_page` ilə tap, JS nümunəsini yenilə və bu skill-də düzəlt |
 | YouTube Studio forması dəyişib | `read_page` ilə sahələri tap. Əmin deyilsənsə, sahibdən soruş, təxmini klik etmə |
+| `type_code.py`: "focus lost" | Kimsə başqa pəncərəyə klikləyib. Sahibdən toxunmamağı xahiş et, təkrar işlət |
+| Mətn VS Code-da Find qutusuna və ya menyuya düşür | `focus_editor()` (Esc, Esc, Ctrl+1) yetmir: VS Code pəncərəsini bağla, təkrar işlət |
+| `stock.py`: 401/403 | Açar səhvdir və ya limit dolub (Pexels 200/saat, Pixabay 100/dəq). O biri mənbəyə keç (`--source`) |
 | Brauzer icazəsi yoxdur | Sahibə yaz: Claude in Chrome genişlənməsində `chatgpt.com` və `studio.youtube.com` üçün icazə lazımdır |

@@ -31,7 +31,7 @@ thumbnail `/thumbnail`, AI gündəmi isə `/gundem` skill-i ilə gedir (`.claude
 | `content/published.md` | paylaşılmış videolar və linklər |
 | `content/reports/` | epizod araşdırma və istehsal hesabatları (son 10) |
 | `content/stats/` | YouTube statistikası (xam) |
-| `tools/video/` | `tts.py`, `subs.py`, `assemble.py`, `cutout.py`, `thumbnail.js`, `record_office.js`, `record_page.js`, `chapters.py`, `take_download.py`, `housekeeping.py`, `voice_samples.py` |
+| `tools/video/` | `tts.py`, `subs.py`, `assemble.py`, `cutout.py`, `thumbnail.js`, `record_office.js`, `record_page.js`, `chapters.py`, `take_download.py`, `housekeeping.py`, `voice_samples.py`, `record_screen.py` (ekran), `type_code.py` (VS Code-da kod yazılışı), `stock.py` (Pexels/Pixabay; açarlar `.env`-də) |
 
 Python alətləri yalnız layihənin venv-i ilə işlədilir: `tools/video/.venv/Scripts/python`. Qlobal `pip install` etmə.
 

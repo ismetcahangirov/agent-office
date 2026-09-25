@@ -81,7 +81,12 @@
   "permissions": {
     "allow": [
       "WebSearch",
-      "WebFetch"
+      "WebFetch",
+      "Bash(tools/video/.venv/Scripts/python tools/video/*)",
+      "Bash(node tools/video/*)",
+      "Bash(node demo.js*)",
+      "Bash(code *)",
+      "Bash(npm start*)"
     ]
   }
 }

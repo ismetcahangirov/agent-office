@@ -11,3 +11,4 @@ content/episodes/*/clips/
 .env
 .env.*
 .claude/settings.local.json
+work/screen/
