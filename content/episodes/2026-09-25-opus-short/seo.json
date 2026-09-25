@@ -1,0 +1,26 @@
+{
+  "title": "Opus 5.5 Did the Same Job for 27 Cents #shorts",
+  "title_alternatives": [
+    "Same AI Job: $1.45 vs 27 Cents #shorts",
+    "Opus 5.5 vs Opus 5: The Cheap One Skipped This #shorts"
+  ],
+  "description": "Same job, two Claude models: Opus 5 charged $1.45, Opus 5.5 charged 27 cents. Both passed 18/18 hidden tests.\n\nFull test (6 min): https://youtu.be/3RbuOZYm-ck\n\nCosts are API-equivalent from Claude Code's own logs; we ran it on a subscription. One run per model, default settings, not a benchmark.\n\nMade with AI tools; stories based on a real AI-agent company.\n\n#shorts #ai #aiagents #claude",
+  "tr": {
+    "title": "Opus 5.5 Aynı İşi 27 Sente Yaptı #shorts",
+    "description": "Aynı iş, iki Claude modeli: Opus 5 1,45 dolar, Opus 5.5 27 sent tuttu. İkisi de 18 gizli testin hepsini geçti.\n\nTestin tamamı (6 dk): https://youtu.be/3RbuOZYm-ck\n\nMaliyetler Claude Code'un kendi loglarından API karşılığıdır; abonelikle çalıştırdık. Model başına tek deneme, varsayılan ayarlar, benchmark değil.\n\nYapay zeka araçlarıyla üretildi; gerçek bir yapay zeka ajan şirketine dayanan hikayeler.\n\n#shorts #ai #aiagents #claude #yapayzeka"
+  },
+  "tags": ["claude opus 5.5", "opus 5.5", "opus 5.5 vs opus 5", "claude code", "ai model test", "ai agents", "ai cost", "KAXO", "shorts"],
+  "hashtags": ["#shorts", "#ai", "#aiagents", "#claude"],
+  "category": "Science & Technology",
+  "language": "en",
+  "made_for_kids": false,
+  "altered_content": false,
+  "playlists": ["KAXO Tests AI Tools", "KAXO Shorts"],
+  "captions": "subs/captions.srt",
+  "captions_tr": "subs/captions.tr.srt",
+  "thumbnail": null,
+  "related_long": "https://youtu.be/3RbuOZYm-ck",
+  "sources": ["https://www.anthropic.com/claude-opus-5-5"],
+  "ai_note": "Made with AI tools; stories based on a real AI-agent company.",
+  "keywords_used": ["opus 5.5", "claude opus 5.5", "ai cost"]
+}

@@ -3,6 +3,7 @@
 //   --scroll  slowly scrolls the page while recording
 //   --mobile  390x844 viewport (fits vertical Shorts without blur)
 //   --zoom=1.5  renders the page at 1920/1.5 css px wide, recorded at 1920x1080 (pages built for small screens look bigger)
+//   --vertical  1080x1920 viewport and video (vertical graphics for Shorts)
 //   --wheel     scrolls with real mouse-wheel events (sites that hijack scroll ignore window.scrollTo)
 //   --wait=4    extra seconds before scrolling (intro animations); the printed "content from" is the clip_start to use
 // Only public pages. Cookie banners are hidden best-effort. Keep clips short (commentary use, RULES §13).
@@ -24,7 +25,8 @@ const path = require('path');
   const opt = (k, d) => Number((process.argv.find((a) => a.startsWith(`--${k}=`)) || '').split('=')[1] || d);
   const zoom = opt('zoom', 1);
   const extraWait = opt('wait', 0);
-  const size = mobile ? { width: 390, height: 844 } : { width: 1920, height: 1080 };
+  const vertical = process.argv.includes('--vertical');
+  const size = mobile ? { width: 390, height: 844 } : vertical ? { width: 1080, height: 1920 } : { width: 1920, height: 1080 };
   const viewport = { width: Math.round(size.width / zoom), height: Math.round(size.height / zoom) };
 
   fs.mkdirSync(path.dirname(out), { recursive: true });

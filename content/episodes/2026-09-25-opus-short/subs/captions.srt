@@ -1,0 +1,59 @@
+1
+00:00:00,000 --> 00:00:02,900
+One AI charged a dollar forty-five for this job.
+
+2
+00:00:02,980 --> 00:00:05,100
+The other charged twenty-seven cents.
+
+3
+00:00:05,230 --> 00:00:07,520
+Meet Opus 5 and Opus 5.5.
+
+4
+00:00:07,660 --> 00:00:09,350
+They work, and I supervise.
+
+5
+00:00:09,540 --> 00:00:12,270
+Each got one try at the same real dashboard job.
+
+6
+00:00:12,400 --> 00:00:15,240
+Opus 5.5 was done in fifty-three seconds.
+
+7
+00:00:15,320 --> 00:00:17,850
+The older model took two hundred and sixty-five.
+
+8
+00:00:18,040 --> 00:00:20,040
+I can't find my remote that fast.
+
+9
+00:00:20,230 --> 00:00:22,460
+Yet both passed all eighteen hidden tests.
+
+10
+00:00:22,590 --> 00:00:24,910
+The new one took five steps, not thirty-one.
+
+11
+00:00:24,990 --> 00:00:27,250
+Fewer steps mean a smaller API bill.
+
+12
+00:00:27,380 --> 00:00:29,410
+But it never checked its page in a browser.
+
+13
+00:00:29,600 --> 00:00:33,190
+It skipped checking its own work. I've never felt so seen.
+
+14
+00:00:33,380 --> 00:00:35,330
+The full test is in the long video.
+
+15
+00:00:35,470 --> 00:00:37,640
+So yes, I'm upgrading, because...

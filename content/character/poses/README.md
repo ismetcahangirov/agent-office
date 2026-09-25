@@ -24,3 +24,4 @@ ChatGPT limiti azdır, uzun videoya isə 20+ kadr lazımdır. Buna görə KAXO-n
 | `beanbag-stopwatch-robot-typing__office__3x2.png` | bean-bag-da, əlində saniyəölçən, arxada robot yazır | ofis | 3:2 | 2026-09-25-opus-5-5-test |
 | `couch-hugging-robot-teary__lounge-lamp__3x2.png` | divanda robotu qucaqlayır, kövrəlib | lampa işığı | 3:2 | 2026-09-25-opus-5-5-test |
 | `cutout-suspicious-receipt__none__waist-up.png` | fonsuz, qəbzi tutub şübhə ilə baxır (thumbnail) | yox | — | 2026-09-25-opus-5-5-test |
+| `couch-hugging-robot-teary__lounge-lamp__2x3.png` | divanda robotu qucaqlayır, kövrəlib (şaquli) | lampa işığı | 2:3 | 2026-09-25-opus-short |

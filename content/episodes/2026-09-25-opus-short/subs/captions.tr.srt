@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:02,900
+Bir yapay zekâ bu iş için bir dolar kırk beş aldı.
+
+2
+00:00:02,980 --> 00:00:05,100
+Öbürü yirmi yedi sent aldı.
+
+3
+00:00:05,230 --> 00:00:07,520
+Karşınızda Opus 5 ve Opus 5.5.
+
+4
+00:00:07,660 --> 00:00:09,350
+Onlar çalışıyor, ben denetliyorum.
+
+5
+00:00:09,540 --> 00:00:12,270
+İkisi de aynı gerçek dashboard işini birer kez denedi.
+
+6
+00:00:12,400 --> 00:00:15,240
+Opus 5.5 elli üç saniyede bitirdi.
+
+7
+00:00:15,320 --> 00:00:17,850
+Eski model iki yüz altmış beş saniye sürdü.
+
+8
+00:00:18,040 --> 00:00:20,040
+Ben o sürede kumandamı bile bulamam.
+
+9
+00:00:20,230 --> 00:00:22,460
+Yine de ikisi de on sekiz gizli testin hepsini geçti.
+
+10
+00:00:22,590 --> 00:00:24,910
+Yenisi otuz bir değil, beş adımda bitirdi.
+
+11
+00:00:24,990 --> 00:00:27,250
+Daha az adım, daha küçük API faturası demek.
+
+12
+00:00:27,380 --> 00:00:29,410
+Ama sayfasını tarayıcıda hiç kontrol etmedi.
+
+13
+00:00:29,600 --> 00:00:33,190
+Kendi işini kontrol etmeyi atladı. Kendimi hiç bu kadar anlaşılmış hissetmemiştim.
+
+14
+00:00:33,380 --> 00:00:35,330
+Testin tamamı uzun videoda.
+
+15
+00:00:35,470 --> 00:00:37,640
+Yani evet, yükseltiyorum, çünkü...
+

@@ -1,0 +1,179 @@
+{
+  "slug": "opus-short",
+  "format": "short",
+  "status": "done",
+  "idea": "Short cut from the long Opus 5 vs Opus 5.5 test, with a new hook. Opens on the bill: one AI charged $1.45 for a job, the other 27 cents (API-equivalent). Setup: Opus 5 vs Opus 5.5, one try each at the same real dashboard job, hidden tests. Escalation: 53 s vs 265 s, both 18/18, 5 steps vs 31 steps explain the smaller API bill. Punchline (~80%): Opus 5.5 never checked its page in a browser; KAXO hugs the robot: 'It skipped checking its own work. [pause] I've never felt so seen.' Loop: KAXO's last line 'So yes, I'm upgrading, because...' leads back into the opening line about the bill.",
+  "real_fact": "Opus 5 vs Opus 5.5, one run each, same task, Claude Code default settings: 265 s vs 53 s, 31 vs 5 turns, $1.45 vs $0.27 API-equivalent (total_cost_usd, run on a subscription, no real payment), hidden tests 18/18 for both, Opus 5.5 did not open its page in a browser (Node script only). (mənbə: content/reports/2026-09-25-opus-5-5-test.md)",
+  "related_long": "https://youtu.be/3RbuOZYm-ck",
+  "playlists": [
+    "KAXO Tests AI Tools",
+    "KAXO Shorts"
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "motion": "zoom_in",
+      "clip": "clips/bill-v.webm",
+      "clip_start": 3,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "One AI charged a dollar forty-five for this job.",
+          "text_tr": "Bir yapay zekâ bu iş için bir dolar kırk beş aldı."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The other charged twenty-seven cents.",
+          "text_tr": "Öbürü yirmi yedi sent aldı."
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "motion": "pan_right",
+      "asset": "long:s03.png",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Meet Opus 5 and Opus 5.5.",
+          "text_tr": "Karşınızda Opus 5 ve Opus 5.5."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "They work, and I supervise.",
+          "text_tr": "Onlar çalışıyor, ben denetliyorum."
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "motion": "zoom_in",
+      "clip": "clips/office.webm",
+      "crop": [
+        0.6,
+        0.15,
+        0.17,
+        0.5
+      ],
+      "fit": "cover",
+      "sharp": true,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Each got one try at the same real dashboard job.",
+          "text_tr": "İkisi de aynı gerçek dashboard işini birer kez denedi."
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "motion": "zoom_in",
+      "clip": "clips/race-v.webm",
+      "clip_start": 3,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Opus 5.5 was done in fifty-three seconds.",
+          "text_tr": "Opus 5.5 elli üç saniyede bitirdi."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The older model took two hundred and sixty-five.",
+          "text_tr": "Eski model iki yüz altmış beş saniye sürdü."
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "motion": "zoom_out",
+      "asset": "long:s33.png",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "I can't find my remote that fast.",
+          "text_tr": "Ben o sürede kumandamı bile bulamam."
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "motion": "zoom_in",
+      "clip": "clips/tests-v.webm",
+      "clip_start": 3,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Yet both passed all eighteen hidden tests.",
+          "text_tr": "Yine de ikisi de on sekiz gizli testin hepsini geçti."
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "motion": "pan_right",
+      "asset": "long:s40.png",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The new one took five steps, not thirty-one.",
+          "text_tr": "Yenisi otuz bir değil, beş adımda bitirdi."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Fewer steps mean a smaller API bill.",
+          "text_tr": "Daha az adım, daha küçük API faturası demek."
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "clip": "clips/code-opus-5-5.mp4",
+      "crop": [
+        0.22,
+        0.07,
+        0.4,
+        0.62
+      ],
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "But it never checked its page in a browser.",
+          "text_tr": "Ama sayfasını tarayıcıda hiç kontrol etmedi."
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "motion": "zoom_in",
+      "prompt": "KAXO slouched on a saggy couch with his arm around a small boxy grey robot (simple box body, round screen face with two dot eyes). The robot slouches in exactly the same lazy way, both of them sinking into the cushions side by side. KAXO looks down at the robot with proud, teary, deeply moved eyes and a trembling little smile. Warm lamp light. Vertical composition: the two figures fill the middle of the frame, couch at the bottom third, plain wall above their heads, camera at couch height, medium-close shot. No text anywhere.",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "It skipped checking its own work. [pause] I've never felt so seen.",
+          "text_tr": "Kendi işini kontrol etmeyi atladı. [pause] Kendimi hiç bu kadar anlaşılmış hissetmemiştim.",
+          "speed": 0.88
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "motion": "zoom_out",
+      "asset": "long:s64.png",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The full test is in the long video.",
+          "text_tr": "Testin tamamı uzun videoda."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "So yes, I'm upgrading, because...",
+          "text_tr": "Yani evet, yükseltiyorum, çünkü...",
+          "speed": 0.9
+        }
+      ]
+    }
+  ],
+  "youtube": "https://youtube.com/shorts/voAHRbTb1zw"
+}

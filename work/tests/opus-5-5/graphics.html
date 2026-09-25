@@ -22,9 +22,19 @@ h1 span { color: #ffd23f; }
 .card.on { opacity: 1; transform: none; }
 .card .big { font-size: 220px; line-height: 1; color: #3ddc97; }
 .card .lbl { font-size: 56px; margin-top: 20px; }
+.v body, body.v { width: 1080px; height: 1920px; padding: 0 80px; gap: 90px; }
+body.v { justify-content: flex-start; padding-top: 260px; }
+body.v h1 { font-size: 100px; line-height: 1.05; }
+body.v .sub { font-size: 38px; margin-top: -50px; }
+body.v .row { grid-template-columns: 1fr auto; grid-template-areas: "name val" "track track"; gap: 18px 20px; }
+body.v .name { grid-area: name; font-size: 80px; } body.v .val { grid-area: val; font-size: 90px; } body.v .track { grid-area: track; height: 110px; }
+body.v .row.steps { display: flex; gap: 40px; align-items: baseline; }
+body.v .board { grid-template-columns: 1fr; gap: 36px; } body.v .card { padding: 30px; } body.v .card .big { font-size: 200px; }
 </style></head><body>
 <script>
-const m = new URLSearchParams(location.search).get('m') || 'race';
+const q = new URLSearchParams(location.search);
+const m = q.get('m') || 'race';
+if (q.get('v')) document.body.classList.add('v');
 const ease = (t) => 1 - Math.pow(1 - Math.min(1, t), 3);
 function bars(title, sub, rows, dur, fmt) {
   document.body.innerHTML = `<h1>${title}</h1>` + (sub ? `<div class="sub">${sub}</div>` : '') + rows.map((r, i) =>
@@ -52,7 +62,7 @@ if (m === 'race') {
     3500, (x) => '$' + x.toFixed(2));
   setTimeout(() => {
     document.body.insertAdjacentHTML('beforeend',
-      '<div class="row"><div class="name new">Steps</div><div class="name" style="font-size:76px"><span style="color:#3ddc97">5</span> vs 31</div><div></div></div>');
+      '<div class="row steps"><div class="name new">Steps</div><div class="name" style="font-size:76px"><span style="color:#3ddc97">5</span> vs 31</div><div></div></div>');
   }, 5200);
 } else if (m === 'tests') {
   document.body.innerHTML = '<h1>Hidden tests <span>passed</span></h1><div class="board">' +

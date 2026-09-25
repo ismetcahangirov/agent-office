@@ -1,0 +1,755 @@
+{
+  "shots": [
+    {
+      "id": "s01",
+      "start": 0.0,
+      "end": 5.23,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "One AI charged a dollar forty-five for this job.",
+          "start": 0.0,
+          "end": 2.9,
+          "words": [
+            {
+              "w": "One",
+              "start": 0.0,
+              "end": 0.259
+            },
+            {
+              "w": "AI",
+              "start": 0.259,
+              "end": 0.466
+            },
+            {
+              "w": "charged",
+              "start": 0.466,
+              "end": 0.932
+            },
+            {
+              "w": "a",
+              "start": 0.932,
+              "end": 1.087
+            },
+            {
+              "w": "dollar",
+              "start": 1.087,
+              "end": 1.502
+            },
+            {
+              "w": "forty-five",
+              "start": 1.502,
+              "end": 2.071
+            },
+            {
+              "w": "for",
+              "start": 2.071,
+              "end": 2.33
+            },
+            {
+              "w": "this",
+              "start": 2.33,
+              "end": 2.641
+            },
+            {
+              "w": "job.",
+              "start": 2.641,
+              "end": 2.9
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "The other charged twenty-seven cents.",
+          "start": 2.98,
+          "end": 5.1,
+          "words": [
+            {
+              "w": "The",
+              "start": 2.98,
+              "end": 3.239
+            },
+            {
+              "w": "other",
+              "start": 3.239,
+              "end": 3.6
+            },
+            {
+              "w": "charged",
+              "start": 3.6,
+              "end": 4.066
+            },
+            {
+              "w": "twenty-seven",
+              "start": 4.066,
+              "end": 4.738
+            },
+            {
+              "w": "cents.",
+              "start": 4.738,
+              "end": 5.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "start": 5.23,
+      "end": 9.54,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Meet Opus 5 and Opus 5.5.",
+          "start": 5.23,
+          "end": 7.52,
+          "words": [
+            {
+              "w": "Meet",
+              "start": 5.23,
+              "end": 5.688
+            },
+            {
+              "w": "Opus",
+              "start": 5.688,
+              "end": 6.146
+            },
+            {
+              "w": "5",
+              "start": 6.146,
+              "end": 6.375
+            },
+            {
+              "w": "and",
+              "start": 6.375,
+              "end": 6.757
+            },
+            {
+              "w": "Opus",
+              "start": 6.757,
+              "end": 7.215
+            },
+            {
+              "w": "5.5.",
+              "start": 7.215,
+              "end": 7.52
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "They work, and I supervise.",
+          "start": 7.66,
+          "end": 9.35,
+          "words": [
+            {
+              "w": "They",
+              "start": 7.66,
+              "end": 7.987
+            },
+            {
+              "w": "work,",
+              "start": 7.987,
+              "end": 8.314
+            },
+            {
+              "w": "and",
+              "start": 8.314,
+              "end": 8.587
+            },
+            {
+              "w": "I",
+              "start": 8.587,
+              "end": 8.75
+            },
+            {
+              "w": "supervise.",
+              "start": 8.75,
+              "end": 9.35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "start": 9.54,
+      "end": 12.4,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Each got one try at the same real dashboard job.",
+          "start": 9.54,
+          "end": 12.27,
+          "words": [
+            {
+              "w": "Each",
+              "start": 9.54,
+              "end": 9.822
+            },
+            {
+              "w": "got",
+              "start": 9.822,
+              "end": 10.058
+            },
+            {
+              "w": "one",
+              "start": 10.058,
+              "end": 10.293
+            },
+            {
+              "w": "try",
+              "start": 10.293,
+              "end": 10.528
+            },
+            {
+              "w": "at",
+              "start": 10.528,
+              "end": 10.717
+            },
+            {
+              "w": "the",
+              "start": 10.717,
+              "end": 10.952
+            },
+            {
+              "w": "same",
+              "start": 10.952,
+              "end": 11.234
+            },
+            {
+              "w": "real",
+              "start": 11.234,
+              "end": 11.517
+            },
+            {
+              "w": "dashboard",
+              "start": 11.517,
+              "end": 12.035
+            },
+            {
+              "w": "job.",
+              "start": 12.035,
+              "end": 12.27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "start": 12.4,
+      "end": 18.04,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Opus 5.5 was done in fifty-three seconds.",
+          "start": 12.4,
+          "end": 15.24,
+          "words": [
+            {
+              "w": "Opus",
+              "start": 12.4,
+              "end": 12.77
+            },
+            {
+              "w": "5.5",
+              "start": 12.77,
+              "end": 13.017
+            },
+            {
+              "w": "was",
+              "start": 13.017,
+              "end": 13.326
+            },
+            {
+              "w": "done",
+              "start": 13.326,
+              "end": 13.697
+            },
+            {
+              "w": "in",
+              "start": 13.697,
+              "end": 13.943
+            },
+            {
+              "w": "fifty-three",
+              "start": 13.943,
+              "end": 14.684
+            },
+            {
+              "w": "seconds.",
+              "start": 14.684,
+              "end": 15.24
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "The older model took two hundred and sixty-five.",
+          "start": 15.32,
+          "end": 17.85,
+          "words": [
+            {
+              "w": "The",
+              "start": 15.32,
+              "end": 15.55
+            },
+            {
+              "w": "older",
+              "start": 15.55,
+              "end": 15.872
+            },
+            {
+              "w": "model",
+              "start": 15.872,
+              "end": 16.194
+            },
+            {
+              "w": "took",
+              "start": 16.194,
+              "end": 16.47
+            },
+            {
+              "w": "two",
+              "start": 16.47,
+              "end": 16.7
+            },
+            {
+              "w": "hundred",
+              "start": 16.7,
+              "end": 17.114
+            },
+            {
+              "w": "and",
+              "start": 17.114,
+              "end": 17.344
+            },
+            {
+              "w": "sixty-five.",
+              "start": 17.344,
+              "end": 17.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "start": 18.04,
+      "end": 20.23,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "I can't find my remote that fast.",
+          "start": 18.04,
+          "end": 20.04,
+          "words": [
+            {
+              "w": "I",
+              "start": 18.04,
+              "end": 18.194
+            },
+            {
+              "w": "can't",
+              "start": 18.194,
+              "end": 18.502
+            },
+            {
+              "w": "find",
+              "start": 18.502,
+              "end": 18.809
+            },
+            {
+              "w": "my",
+              "start": 18.809,
+              "end": 19.014
+            },
+            {
+              "w": "remote",
+              "start": 19.014,
+              "end": 19.425
+            },
+            {
+              "w": "that",
+              "start": 19.425,
+              "end": 19.732
+            },
+            {
+              "w": "fast.",
+              "start": 19.732,
+              "end": 20.04
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "start": 20.23,
+      "end": 22.59,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Yet both passed all eighteen hidden tests.",
+          "start": 20.23,
+          "end": 22.46,
+          "words": [
+            {
+              "w": "Yet",
+              "start": 20.23,
+              "end": 20.458
+            },
+            {
+              "w": "both",
+              "start": 20.458,
+              "end": 20.731
+            },
+            {
+              "w": "passed",
+              "start": 20.731,
+              "end": 21.095
+            },
+            {
+              "w": "all",
+              "start": 21.095,
+              "end": 21.322
+            },
+            {
+              "w": "eighteen",
+              "start": 21.322,
+              "end": 21.777
+            },
+            {
+              "w": "hidden",
+              "start": 21.777,
+              "end": 22.141
+            },
+            {
+              "w": "tests.",
+              "start": 22.141,
+              "end": 22.46
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "start": 22.59,
+      "end": 27.38,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The new one took five steps, not thirty-one.",
+          "start": 22.59,
+          "end": 24.91,
+          "words": [
+            {
+              "w": "The",
+              "start": 22.59,
+              "end": 22.822
+            },
+            {
+              "w": "new",
+              "start": 22.822,
+              "end": 23.054
+            },
+            {
+              "w": "one",
+              "start": 23.054,
+              "end": 23.286
+            },
+            {
+              "w": "took",
+              "start": 23.286,
+              "end": 23.564
+            },
+            {
+              "w": "five",
+              "start": 23.564,
+              "end": 23.843
+            },
+            {
+              "w": "steps,",
+              "start": 23.843,
+              "end": 24.168
+            },
+            {
+              "w": "not",
+              "start": 24.168,
+              "end": 24.4
+            },
+            {
+              "w": "thirty-one.",
+              "start": 24.4,
+              "end": 24.91
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Fewer steps mean a smaller API bill.",
+          "start": 24.99,
+          "end": 27.25,
+          "words": [
+            {
+              "w": "Fewer",
+              "start": 24.99,
+              "end": 25.358
+            },
+            {
+              "w": "steps",
+              "start": 25.358,
+              "end": 25.726
+            },
+            {
+              "w": "mean",
+              "start": 25.726,
+              "end": 26.041
+            },
+            {
+              "w": "a",
+              "start": 26.041,
+              "end": 26.199
+            },
+            {
+              "w": "smaller",
+              "start": 26.199,
+              "end": 26.672
+            },
+            {
+              "w": "API",
+              "start": 26.672,
+              "end": 26.935
+            },
+            {
+              "w": "bill.",
+              "start": 26.935,
+              "end": 27.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "start": 27.38,
+      "end": 29.6,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "But it never checked its page in a browser.",
+          "start": 27.38,
+          "end": 29.41,
+          "words": [
+            {
+              "w": "But",
+              "start": 27.38,
+              "end": 27.575
+            },
+            {
+              "w": "it",
+              "start": 27.575,
+              "end": 27.731
+            },
+            {
+              "w": "never",
+              "start": 27.731,
+              "end": 28.005
+            },
+            {
+              "w": "checked",
+              "start": 28.005,
+              "end": 28.356
+            },
+            {
+              "w": "its",
+              "start": 28.356,
+              "end": 28.551
+            },
+            {
+              "w": "page",
+              "start": 28.551,
+              "end": 28.785
+            },
+            {
+              "w": "in",
+              "start": 28.785,
+              "end": 28.942
+            },
+            {
+              "w": "a",
+              "start": 28.942,
+              "end": 29.059
+            },
+            {
+              "w": "browser.",
+              "start": 29.059,
+              "end": 29.41
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "start": 29.6,
+      "end": 33.38,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "It skipped checking its own work. I've never felt so seen.",
+          "start": 29.6,
+          "end": 33.19,
+          "words": [
+            {
+              "w": "It",
+              "start": 29.6,
+              "end": 29.787
+            },
+            {
+              "w": "skipped",
+              "start": 29.787,
+              "end": 30.207
+            },
+            {
+              "w": "checking",
+              "start": 30.207,
+              "end": 30.673
+            },
+            {
+              "w": "its",
+              "start": 30.673,
+              "end": 30.907
+            },
+            {
+              "w": "own",
+              "start": 30.907,
+              "end": 31.14
+            },
+            {
+              "w": "work.",
+              "start": 31.14,
+              "end": 31.42
+            },
+            {
+              "w": "I've",
+              "start": 31.62,
+              "end": 31.9
+            },
+            {
+              "w": "never",
+              "start": 31.9,
+              "end": 32.293
+            },
+            {
+              "w": "felt",
+              "start": 32.293,
+              "end": 32.629
+            },
+            {
+              "w": "so",
+              "start": 32.629,
+              "end": 32.854
+            },
+            {
+              "w": "seen.",
+              "start": 32.854,
+              "end": 33.19
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "start": 33.38,
+      "end": 37.69,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The full test is in the long video.",
+          "start": 33.38,
+          "end": 35.33,
+          "words": [
+            {
+              "w": "The",
+              "start": 33.38,
+              "end": 33.607
+            },
+            {
+              "w": "full",
+              "start": 33.607,
+              "end": 33.879
+            },
+            {
+              "w": "test",
+              "start": 33.879,
+              "end": 34.151
+            },
+            {
+              "w": "is",
+              "start": 34.151,
+              "end": 34.332
+            },
+            {
+              "w": "in",
+              "start": 34.332,
+              "end": 34.514
+            },
+            {
+              "w": "the",
+              "start": 34.514,
+              "end": 34.74
+            },
+            {
+              "w": "long",
+              "start": 34.74,
+              "end": 35.013
+            },
+            {
+              "w": "video.",
+              "start": 35.013,
+              "end": 35.33
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "So yes, I'm upgrading, because...",
+          "start": 35.47,
+          "end": 37.64,
+          "words": [
+            {
+              "w": "So",
+              "start": 35.47,
+              "end": 35.733
+            },
+            {
+              "w": "yes,",
+              "start": 35.733,
+              "end": 36.062
+            },
+            {
+              "w": "I'm",
+              "start": 36.062,
+              "end": 36.325
+            },
+            {
+              "w": "upgrading,",
+              "start": 36.325,
+              "end": 37.048
+            },
+            {
+              "w": "because...",
+              "start": 37.048,
+              "end": 37.64
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "duration": 37.69
+}

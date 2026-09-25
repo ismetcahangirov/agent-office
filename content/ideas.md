@@ -7,7 +7,7 @@
 - [x] [long] "KAXO upgraded his employees to Opus 5.5. Was it worth it?" real test Opus 5.5 vs Opus 5 (news 2026-09-25 #1, son tarix 2026-10-02) ✓ 2026-09-25-opus-5-5-test
 - [ ] [long] "Opus 5.5 vs GPT-6 Sol: same day, same price war" (news 2026-09-25 #1 #2, son tarix 2026-10-02; GPT testi ödənişlidir → sahibin icazəsi)
 
-- [ ] [short-from] 2026-09-25-opus-5-5-test (punchline: "It skipped checking its own work. I've never felt so seen." / yarış qrafiki)
+- [x] [short-from] 2026-09-25-opus-5-5-test ✓ 2026-09-25-opus-short (punchline: "It skipped checking its own work. I've never felt so seen." / yarış qrafiki)
 
 ## Evergreen
 

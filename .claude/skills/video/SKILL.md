@@ -92,7 +92,7 @@ Sonra `status: "script"` et.
 ## 4/10 İdeya və ssenari
 1. İdeyanı seç: `/video <mövzu>` verilibsə o, yoxsa `ideas.md` (əvvəlcə "Gündəm" bölməsi, vaxtı keçməyənlər) + A-nın real faktları + `lessons.md`. İdeyada **ən azı bir real fakt** olmalıdır (RULES §5, §13).
    - **Long "tested X":** əvvəlcə real test: CEO kimi `builder`/`researcher` agentlərinə aləti real tapşırıqda sınamağı tapşır (`work/tests/<slug>/`). Nəticəni (nə alındı, nə alınmadı, vaxt, rəqəmlər) hesabata yaz. Ssenari bu nəticəyə əsaslanır, uydurma nəticə olmur.
-   - **Short-from:** long-un `script.md` + `timeline.json`-undan 30–55 saniyəlik ən güclü parçanı seç, yeni hook yaz, 9:16 kadrlar hazırla (long şəkilləri blur-fit ilə, açar kadr üçün yeni 2:3 şəkil).
+   - **Short-from:** qrafikləri şaquli yaz (`graphics.html?v=1` + `record_page --vertical`, məzmun yuxarı 60%-də, altyazıya dəyməsin). Long-un `script.md` + `timeline.json`-undan 30–55 saniyəlik ən güclü parçanı seç, yeni hook yaz, 9:16 kadrlar hazırla (long şəkilləri blur-fit ilə, açar kadr üçün yeni 2:3 şəkil).
 2. `marketer` agentinə ssenari yazdır. Ona RULES §3-ü, **§3a-nı (danışıq tərzi)**, xarakter faylını, seçilmiş faktı, açar sözləri və `lessons.md`-ni ver. Nəticə `episode.json` (sxem yuxarıda) və `script.md` olur: kadr, səs, mətn və vizual cədvəl şəklində.
 3. CEO kimi yoxla. Bu siyahıdan biri pozulursa, düzəlt:
    - [ ] ilk 2 saniyədə hook var;
@@ -248,6 +248,9 @@ Başlıq üçün 3 variant yaz, ən yaxşısını `title`-a qoy, digərlərini `
 ## 10/10 Paylaşma, qeyd, hesabat, təmizlik
 **Yalnız `status: "approved"` olanda.**
 1. Claude in Chrome ilə `https://studio.youtube.com/channel/<ID>/videos/upload?d=ud` aç (menyudakı "Upload videos" bəzən klikə cavab vermir). **`file_upload` limiti 10 MB-dır**, `final.mp4` ondan böyükdür: sahibdən faylı yükləmə pəncərəsinə sürükləməsini xahiş et (Explorer-də `explorer /select,<yol>` ilə aç), sonra formu sən doldur.
+   - **Short-lar (≤ 60 s):** yükləmə nüsxəsini 10 MB-dan aşağı sıx (`-c:v h264_nvenc -b:v 1.8M -maxrate 2.2M -c:a copy video/upload.mp4`), sonra özün `file_upload` et; sahibə ehtiyac yoxdur.
+   - Yükləmə pəncərəsində **`Esc` basma**: dialoq bağlanır (video Draft qalır, Content → Shorts → Edit draft ilə davam et).
+   - Short-un "Related video" bağlantısı və təsvirdəki kliklənən linklər "advanced features" təsdiqi tələb edir (sahib: Studio → Settings → Channel → Feature eligibility).
    - Kanal telefonla təsdiqlənməyibsə, **xüsusi thumbnail yüklənmir** (səssizcə rədd olunur) və təsvirdəki linklər kliklənmir. Sahibdən `youtube.com/verify` etməsini xahiş et, thumbnail-i sonra Studio → Content → video → Thumbnail ilə əlavə et.
    - Altyazı: Subtitles → Add → Upload file → "With timing". "Continue" basma (Windows fayl pəncərəsi açılır): gizli `input[type=file]`-ə birbaşa `file_upload` et.
    - Dropdown-lar (dil, kateqoriya): variantı JS ilə `innerText` üzrə tap və `.click()` et, iki siyahını eyni anda açıq qoyma.
