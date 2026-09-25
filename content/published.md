@@ -2,7 +2,7 @@
 
 | Tarix | Format | Başlıq | URL | Playlist(lər) | Epizod | Son statistika |
 |---|---|---|---|---|---|---|
-| 2026-09-25 | long (6:33) | Claude Opus 5.5 vs Opus 5: Same Job, Real Bill | https://youtu.be/kehg3FSoxAY | KAXO Tests AI Tools, AI Models Explained | 2026-09-25-opus-5-5-test | — |
+| 2026-09-25 | long (6:33) | Claude Opus 5.5 vs Opus 5: Same Job, Real Bill (EN + TR başlıq/altyazı) | https://youtu.be/3RbuOZYm-ck (ilk yükləmə https://youtu.be/kehg3FSoxAY səs boşluqlarına görə Private) | KAXO Tests AI Tools, AI Models Explained | 2026-09-25-opus-5-5-test | — |
 
 ## Playlistlər
 | Playlist | URL | Yaradılıb |

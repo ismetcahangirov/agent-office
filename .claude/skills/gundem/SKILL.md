@@ -24,7 +24,7 @@ Hər ikisi son **72 saata** baxır (sahib başqa aralıq deyibsə, o aralığa).
 
 ## 2. Yoxlama (CEO)
 - Hər xəbərin **birinci mənbəyi** olmalıdır: rəsmi blog, sənəd, repo. Yalnız sosial media və ya şayiə varsa, xəbər "təsdiqlənməyib" kimi işarələnir və kontentə **girmir**.
-- Tarix yoxlanılır: köhnə xəbər yeni kimi təqdim olunmur.
+- Tarix yoxlanılır: köhnə xəbər yeni kimi təqdim olunmur. **Tarixi WebFetch xülasəsindən götürmə** (Framer/Next saytlarında `page-optimized-at`, `released-at` kimi texniki vaxtları dərc tarixi kimi oxuyur; Jev 2026-09-15 idi, 09-25 kimi yazılmışdı). Səhifədə görünən tarixə və ya mənbə kodundakı `datePublished`/`"date"` sahəsinə bax: `curl -sL <url> | grep -oE '(datePublished|"date")[^,]{0,40}'`.
 - Rəqəmlər (benchmark, qiymət, kontekst uzunluğu) yalnız rəsmi mənbədən götürülür və mənbə ilə birlikdə yazılır.
 
 ## 3. Qiymətləndirmə və ideyalar

@@ -1,0 +1,596 @@
+1
+00:00:00,000 --> 00:00:04,840
+Anthropic, Opus 5.5 %40 daha ucuz diyor. Faturaya baktım.
+
+2
+00:00:05,030 --> 00:00:08,080
+KAXO'nun tüm çalışanları Claude ajanları.
+
+3
+00:00:08,160 --> 00:00:12,140
+Anthropic, Opus 5.5'i çıkardı; KAXO'nun tek bir sorusu vardı.
+
+4
+00:00:12,330 --> 00:00:15,370
+Yükseltmeye değer mi? Yoksa sadece sayı mı büyüdü?
+
+5
+00:00:15,550 --> 00:00:17,450
+Testi de çalışanları yaptı.
+
+6
+00:00:17,580 --> 00:00:20,910
+Opus 5 ve Opus 5.5'e birebir aynı iş verildi.
+
+7
+00:00:20,990 --> 00:00:24,420
+Aynı talimat, aynı veri, sonda aynı gizli testler.
+
+8
+00:00:24,610 --> 00:00:27,380
+Kararı ben veririm. Biri benim yerime verince.
+
+9
+00:00:27,520 --> 00:00:29,370
+Süreyi saniyesine kadar ölçtük.
+
+10
+00:00:29,500 --> 00:00:31,690
+Biri diğerinden beş kat hızlı bitti.
+
+11
+00:00:31,830 --> 00:00:34,770
+Beş kat. Biri kontrol etti. Ben değil.
+
+12
+00:00:34,960 --> 00:00:37,420
+Maliyetleri de loglardan çıkardık.
+
+13
+00:00:37,500 --> 00:00:40,090
+Anthropic %40 diyor. Biz kendimiz ölçtük.
+
+14
+00:00:40,220 --> 00:00:42,590
+Ve yavaş olan, hızlının atladığını yaptı.
+
+15
+00:00:42,730 --> 00:00:45,230
+Kararım sonda. Tek işim bu.
+
+16
+00:00:45,420 --> 00:00:48,190
+İkisi de KAXO'nun şirketine dashboard yaptı.
+
+17
+00:00:48,330 --> 00:00:50,610
+Çoğu, başkalarının emeğinin grafiği.
+
+18
+00:00:50,800 --> 00:00:53,690
+Testten önce, Anthropic'in resmi vaadi şu.
+
+19
+00:00:53,770 --> 00:00:55,820
+Token fiyatı %20 düşüyor.
+
+20
+00:00:55,960 --> 00:00:58,460
+Daha ucuz çalışan. En sevdiğim tür.
+
+21
+00:00:58,650 --> 00:01:01,790
+Girdi, milyon token başına 5 dolardan 4 dolara iniyor.
+
+22
+00:01:01,870 --> 00:01:04,580
+Çıktı 25 dolardan 20 dolara düşüyor.
+
+23
+00:01:04,710 --> 00:01:06,810
+Önbellekten okuma %60 ucuzluyor.
+
+24
+00:01:06,890 --> 00:01:10,220
+Tipik iş yükünde toplamda %40 daha ucuz diyorlar.
+
+25
+00:01:10,410 --> 00:01:12,630
+Önce %20 indirim, sonra %40 indirim.
+
+26
+00:01:12,710 --> 00:01:15,610
+Hesapladım. Artık her şey neredeyse bedava.
+
+27
+00:01:15,800 --> 00:01:16,450
+Toplanmaz.
+
+28
+00:01:16,530 --> 00:01:18,810
+%40, tipik iş için tahminleri.
+
+29
+00:01:18,890 --> 00:01:21,170
+Kimse KAXO'ya bedava bir şey vermiyor.
+
+30
+00:01:21,360 --> 00:01:21,970
+Ayıp.
+
+31
+00:01:22,110 --> 00:01:24,770
+Çıktı ayrıca %30'dan fazla hızlanacakmış.
+
+32
+00:01:24,850 --> 00:01:29,240
+Terminal-Bench 4.0'da skor 52'den 66'ya çıkıyor.
+
+33
+00:01:29,370 --> 00:01:32,410
+OSWorld'de 74'ten neredeyse 82'ye.
+
+34
+00:01:32,490 --> 00:01:34,930
+Bu sayılar Anthropic'in kendi sayfasından.
+
+35
+00:01:35,070 --> 00:01:38,710
+Benchmark iş mülakatıdır. Mülakatta herkes harikadır.
+
+36
+00:01:38,900 --> 00:01:40,870
+Token fiyatının bir tuzağı var.
+
+37
+00:01:40,950 --> 00:01:43,820
+Bir iş on bin token da yer, bir milyon da.
+
+38
+00:01:43,950 --> 00:01:46,410
+Asıl ödediğin, biten iş başına fiyat.
+
+39
+00:01:46,550 --> 00:01:49,540
+Gerçek bir iş istedim. Ve gerçek bir fiş.
+
+40
+00:01:49,730 --> 00:01:51,880
+İş, KAXO'nun gerçek ofisinden geldi.
+
+41
+00:01:51,960 --> 00:01:54,860
+Orada bir ajan her araç kullandığında loglanıyor.
+
+42
+00:01:54,990 --> 00:01:57,010
+O logda 96 olay vardı.
+
+43
+00:01:57,150 --> 00:01:59,160
+96. Okumak için fazla uzun.
+
+44
+00:01:59,350 --> 00:02:03,070
+Görev: bu logu tek HTML dosyasında dashboard'a çevirmek.
+
+45
+00:02:03,150 --> 00:02:05,390
+Kütüphane yok, internet yok, koyu tema.
+
+46
+00:02:05,520 --> 00:02:07,670
+Ekran görüntüsü alınacak, şık olmalı.
+
+47
+00:02:07,810 --> 00:02:09,770
+Şık görünmek de benim tüm işim.
+
+48
+00:02:09,960 --> 00:02:14,280
+Sayfada olay, araç çağrısı, oturum, alt ajan ve en yoğun saat olacak.
+
+49
+00:02:14,360 --> 00:02:16,640
+Sıralı araç tablosu ve bar grafiği de.
+
+50
+00:02:16,770 --> 00:02:20,730
+Bir sayı daha: KAXO'nun verimliliği, şartnameyle %0'a sabit.
+
+51
+00:02:20,870 --> 00:02:22,930
+Sonunda doğru bir metrik.
+
+52
+00:02:23,120 --> 00:02:25,240
+Sonra önemli kısım: gizli testler.
+
+53
+00:02:25,320 --> 00:02:27,500
+Testi bildiler, içeriğini görmediler.
+
+54
+00:02:27,640 --> 00:02:29,880
+Sırları severim. Daha az konuşma.
+
+55
+00:02:30,070 --> 00:02:32,560
+İkisi bitince 18 kontrol çalıştı.
+
+56
+00:02:32,640 --> 00:02:35,660
+Kimi gerçek logla, kimi bozmak için uydurma veriyle.
+
+57
+00:02:35,850 --> 00:02:38,190
+Bozmak için üretilmiş veri. Tam benlik.
+
+58
+00:02:38,330 --> 00:02:39,810
+Yarıştan önce bir uyarı.
+
+59
+00:02:39,940 --> 00:02:42,870
+Tek görev, model başına tek deneme; benchmark değil.
+
+60
+00:02:42,950 --> 00:02:45,490
+İkisi de Claude Code'da, varsayılan ayarda.
+
+61
+00:02:45,680 --> 00:02:49,020
+Tek zar atışı. Çoğu iş kararım gibi.
+
+62
+00:02:49,210 --> 00:02:51,880
+Aynı anda, ayrı klasörlerde başladılar.
+
+63
+00:02:51,960 --> 00:02:55,930
+Opus 5.5 şartnameyi okudu, sayfayı yazdı, sayıları kontrol etti.
+
+64
+00:02:56,060 --> 00:02:57,590
+53 saniye, bitti.
+
+65
+00:02:57,730 --> 00:03:00,060
+Ben 53 saniyede öğle yemeği seçemem.
+
+66
+00:03:00,250 --> 00:03:02,940
+Opus 5.5'in yazdığı gerçek kod bu.
+
+67
+00:03:03,020 --> 00:03:04,270
+Toplam beş adım.
+
+68
+00:03:04,400 --> 00:03:06,540
+Bu arada Opus 5 hâlâ devam ediyordu.
+
+69
+00:03:06,680 --> 00:03:09,550
+Kronometre başlattım. Katkım buydu.
+
+70
+00:03:09,740 --> 00:03:11,670
+Bu deneme 31 adım sürecekti.
+
+71
+00:03:11,750 --> 00:03:14,200
+Sayfayı yazdı, sonra tarayıcıda açtı.
+
+72
+00:03:14,330 --> 00:03:16,630
+Sonra kendi dört uç durumunu test etti.
+
+73
+00:03:16,770 --> 00:03:18,580
+Kendi işini denetlemek. Cesur.
+
+74
+00:03:18,770 --> 00:03:21,870
+Başlangıçtan 4 dakika 25 saniye sonra bitirdi.
+
+75
+00:03:22,060 --> 00:03:23,560
+Çoğunu uyuyarak geçirdim.
+
+76
+00:03:23,700 --> 00:03:25,060
+Fark buradan geliyor.
+
+77
+00:03:25,190 --> 00:03:27,800
+Model her adımda tüm bağlamını yeniden okur.
+
+78
+00:03:27,880 --> 00:03:30,890
+Daha çok adım, daha çok okuma; okuma da para.
+
+79
+00:03:31,020 --> 00:03:34,740
+Opus 5 yaklaşık 1,3 milyon önbellekli token okudu.
+
+80
+00:03:34,880 --> 00:03:37,520
+1,3 milyon. Ben belki dört tane okudum.
+
+81
+00:03:37,710 --> 00:03:41,060
+Opus 5.5 ise yaklaşık 128 bin token okudu.
+
+82
+00:03:41,140 --> 00:03:42,600
+Kabaca on kat az.
+
+83
+00:03:42,680 --> 00:03:45,060
+Az adım, az okuma, küçük fatura.
+
+84
+00:03:45,250 --> 00:03:47,520
+Biri her adımda kılavuzu okuyor.
+
+85
+00:03:47,600 --> 00:03:49,570
+Öbürü göz atıyor. Saygı duyarım.
+
+86
+00:03:49,760 --> 00:03:51,100
+Şimdi gizli testler.
+
+87
+00:03:51,180 --> 00:03:53,370
+Opus 5, 18 testin 18'ini geçti.
+
+88
+00:03:53,450 --> 00:03:56,690
+Ya Opus 5.5? O da 18'de 18.
+
+89
+00:03:56,880 --> 00:03:59,970
+İkisi de tam puan. Yani kimse kovulmuyor.
+
+90
+00:04:00,050 --> 00:04:02,330
+Birini kovmaya hazırdım. Zihnen.
+
+91
+00:04:02,520 --> 00:04:04,720
+Gerçek sayılar iki sayfada da tuttu.
+
+92
+00:04:04,800 --> 00:04:07,840
+96 olay, 70 araç çağrısı, 5 oturum.
+
+93
+00:04:07,920 --> 00:04:10,890
+Ve KAXO'nun verimliliği, doğru şekilde, %0.
+
+94
+00:04:11,080 --> 00:04:12,340
+Doğru. İki kere.
+
+95
+00:04:12,480 --> 00:04:13,220
+Ve fatura.
+
+96
+00:04:13,300 --> 00:04:16,360
+Claude Code, her denemenin API maliyetini logluyor.
+
+97
+00:04:16,490 --> 00:04:18,760
+Opus 5 için yaklaşık $1.45.
+
+98
+00:04:18,840 --> 00:04:21,490
+Opus 5.5 ise $0.27 tuttu.
+
+99
+00:04:21,680 --> 00:04:24,560
+27 sent. Kanepede bundan fazlasını kaybettim.
+
+100
+00:04:24,700 --> 00:04:27,840
+Bu %81 daha ucuz. Anthropic %40 demişti.
+
+101
+00:04:27,970 --> 00:04:31,290
+Abonelikle çalıştırdık, ekstra para ödenmedi.
+
+102
+00:04:31,430 --> 00:04:34,040
+Sıfır ekstra. En sevdiğim fiyat.
+
+103
+00:04:34,230 --> 00:04:36,470
+Fark iddiadan büyük ama tek deneme.
+
+104
+00:04:36,550 --> 00:04:39,300
+Opus 5.5 altı kat daha az adım attı.
+
+105
+00:04:39,430 --> 00:04:40,390
+Fark bu.
+
+106
+00:04:40,470 --> 00:04:42,420
+Başka görevde durum değişebilir.
+
+107
+00:04:42,560 --> 00:04:44,470
+Peki. Şimdi güzel kısım.
+
+108
+00:04:44,610 --> 00:04:46,530
+Testler görünüşü ölçemez.
+
+109
+00:04:46,660 --> 00:04:48,570
+Opus 5 tüm ekranı doldurdu.
+
+110
+00:04:48,650 --> 00:04:52,290
+Dikey çubuklar, değer etiketleri, tablo içinde minik çubuklar.
+
+111
+00:04:52,430 --> 00:04:53,070
+Şatafatlı.
+
+112
+00:04:53,260 --> 00:04:56,880
+Opus 5.5 sade ve okunaklı gitti, bir de pay sütunu var.
+
+113
+00:04:56,960 --> 00:04:58,860
+Ama grafik panelinin yarısı boş.
+
+114
+00:04:58,990 --> 00:05:01,810
+Altta yaklaşık 110 piksel boş duruyor.
+
+115
+00:05:01,950 --> 00:05:04,030
+İkisine de 10 verirdim. Bakmadım.
+
+116
+00:05:04,220 --> 00:05:05,630
+QA ajanımız baktı ama.
+
+117
+00:05:05,710 --> 00:05:09,430
+Opus 5'e 10 üzerinden 9, Opus 5.5'e 7.
+
+118
+00:05:09,570 --> 00:05:11,380
+Sert. Doğru ama sert.
+
+119
+00:05:11,570 --> 00:05:12,640
+Bir fark daha.
+
+120
+00:05:12,720 --> 00:05:15,710
+Opus 5.5 sayfasını hiç tarayıcıda açmadı.
+
+121
+00:05:15,840 --> 00:05:18,340
+Sayıları scriptle kontrol edip bitti dedi.
+
+122
+00:05:18,420 --> 00:05:19,760
+Bunu da açıkça söyledi.
+
+123
+00:05:19,950 --> 00:05:23,540
+Kendi işini kontrol etmedi. Beni kimse bu kadar anlamamıştı.
+
+124
+00:05:23,730 --> 00:05:26,550
+QA, testlerin kaçırdığı uç durumları da aradı.
+
+125
+00:05:26,630 --> 00:05:28,600
+Opus 5.5'te bir tane buldu.
+
+126
+00:05:28,790 --> 00:05:30,820
+Ucuzunda bug çıktı. Ne sürpriz.
+
+127
+00:05:30,960 --> 00:05:34,300
+Boş araç adı sayılıyor ama tabloda hiç görünmüyor.
+
+128
+00:05:34,430 --> 00:05:35,900
+Yani toplamlar tutmuyor.
+
+129
+00:05:35,980 --> 00:05:37,530
+Opus 5'te de bir tane var.
+
+130
+00:05:37,610 --> 00:05:40,640
+40 farklı araçta yan paneli ekrandan taşıyor.
+
+131
+00:05:40,830 --> 00:05:42,850
+Yani berabere. Buglarda bile.
+
+132
+00:05:42,990 --> 00:05:44,730
+İkisi de gerçek veride yoktu.
+
+133
+00:05:44,860 --> 00:05:47,680
+Opus 5 işini kontrol etti ama ortalığı dağıttı.
+
+134
+00:05:47,760 --> 00:05:50,200
+Taslaklar ve görüntüler klasörde kaldı.
+
+135
+00:05:50,330 --> 00:05:52,630
+Adil olalım, dosya silme izni yoktu.
+
+136
+00:05:52,770 --> 00:05:55,740
+Temizlik izni yok. Ben de bu bahaneyi kullanırım.
+
+137
+00:05:55,930 --> 00:05:57,530
+KAXO, yükseltelim mi?
+
+138
+00:05:57,710 --> 00:06:01,210
+Yükseltin. Beş kat hızlı, üstelik çok daha ucuza.
+
+139
+00:06:01,340 --> 00:06:04,220
+Atladığı kontrol mü? QA zaten yapıyor.
+
+140
+00:06:04,300 --> 00:06:08,150
+Hızlı işçi, titiz kontrolcü. Ben de kanepeden yönetiyorum.
+
+141
+00:06:08,340 --> 00:06:11,640
+İş sadece görüntüyse, Opus 5 o fazladan doları hak etti.
+
+142
+00:06:11,770 --> 00:06:14,150
+Ha, ikisine de tek satır cevap denmişti.
+
+143
+00:06:14,230 --> 00:06:15,010
+Uymadılar.
+
+144
+00:06:15,150 --> 00:06:17,050
+Bari cevap verdiler. Ben vermem.
+
+145
+00:06:17,240 --> 00:06:19,720
+Tek iş, tek deneme: veri noktası, yasa değil.
+
+146
+00:06:19,800 --> 00:06:23,580
+Anthropic'in sayfası dahil tüm kaynaklar açıklamada.
+
+147
+00:06:23,660 --> 00:06:26,670
+Daha zor bir görevde rövanş? Yorumlara yazın.
+
+148
+00:06:26,810 --> 00:06:29,010
+Anthropic %40 daha ucuz dedi.
+
+149
+00:06:29,090 --> 00:06:32,260
+Benim faturam %81 dedi. Tek bir iş için.
+

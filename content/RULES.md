@@ -209,3 +209,11 @@ egister-gundem-task.ps1 -Time 08:00`
 
 ## 14. Playlistlər
 Qaydalar və siyahı: [PLAYLISTS.md](PLAYLISTS.md). Hər video paylaşılanda ən azı bir playlistə qoyulur, short-lar əlavə olaraq "KAXO Shorts"-a.
+
+## 15. Lokalizasiya: türkcə (sahib, 2026-09-25; bütün videolar və Short-lar)
+Türk dilli ölkələrdən baxan izləyici videonu türkcə görməlidir:
+- **Başlıq və təsvir:** hər videoya türkcə tərcümə (Studio → Languages → Turkish). `seo.json` → `tr.title`, `tr.description`.
+- **Altyazı:** ingiliscə `subs/captions.srt` + türkcə `subs/captions.tr.srt` yüklənir.
+- **Səs:** türkcə səs dorojkası `audio/voice_tr.wav`. İngiliscə ilə **eyni uzunluqda** olur (hər shot öz vaxtına sığdırılır), YouTube-a "multi-language audio" kimi yüklənir. **Vəziyyət (2026-09-25):** kanalda multi-language audio/auto-dubbing funksiyası hələ yoxdur (Studio → Subtitles-də yalnız altyazı və başlıq sütunları). Piper-in yeganə tr_TR səsi (dfki) CC BY-NC-SA-dır, kommersiya kanalında işlədilmir. Funksiya açılana qədər: TR başlıq + təsvir + altyazı. Açılanda: kommersiya lisenziyalı TTS (sahibin icazəsi) və ya YouTube auto-dubbing.
+- Tərcümə hərfi deyil, danışıq türkcəsidir (§3a qaydaları türkcəyə də aiddir): KAXO-nun yumoru qorunur, rəqəmlər və mənbələr dəyişmir.
+- Ödənişli TTS yalnız sahibin icazəsi ilə.

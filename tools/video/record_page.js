@@ -3,6 +3,7 @@
 //   --scroll  slowly scrolls the page while recording
 //   --mobile  390x844 viewport (fits vertical Shorts without blur)
 //   --zoom=1.5  renders the page at 1920/1.5 css px wide, recorded at 1920x1080 (pages built for small screens look bigger)
+//   --wheel     scrolls with real mouse-wheel events (sites that hijack scroll ignore window.scrollTo)
 //   --wait=4    extra seconds before scrolling (intro animations); the printed "content from" is the clip_start to use
 // Only public pages. Cookie banners are hidden best-effort. Keep clips short (commentary use, RULES §13).
 const { chromium } = require('playwright');
@@ -19,6 +20,7 @@ const path = require('path');
   const seconds = Number(secArg || 12);
   const scroll = process.argv.includes('--scroll');
   const mobile = process.argv.includes('--mobile');
+  const wheel = process.argv.includes('--wheel');
   const opt = (k, d) => Number((process.argv.find((a) => a.startsWith(`--${k}=`)) || '').split('=')[1] || d);
   const zoom = opt('zoom', 1);
   const extraWait = opt('wait', 0);
@@ -40,7 +42,14 @@ const path = require('path');
 
   await page.waitForTimeout(extraWait * 1000);
   const contentFrom = ((Date.now() - t0) / 1000).toFixed(1);
-  if (scroll) {
+  if (scroll && wheel) {
+    await page.mouse.move(viewport.width / 2, viewport.height / 2);
+    const steps = seconds * 10;
+    for (let i = 0; i < steps; i++) {
+      await page.mouse.wheel(0, Math.round(viewport.height * 3 / steps));
+      await page.waitForTimeout(100);
+    }
+  } else if (scroll) {
     const steps = seconds * 10;
     const total = await page.evaluate(() => Math.max(0, document.body.scrollHeight - innerHeight));
     const target = Math.min(total, viewport.height * 3);

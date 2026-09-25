@@ -122,18 +122,28 @@ def main(ep_dir):
     (work / "list.txt").write_text("\n".join(listing) + "\n", encoding="utf-8")
     run(["-f", "concat", "-safe", "0", "-i", "video/_segments/list.txt", "-c", "copy", "video/_segments/joined.mp4"], ep_dir)
 
+    # Audio is mixed and loudness-normalised in its own pass. Doing it in the same filter graph as the subtitle
+    # burn-in left gaps in the AAC stream (episode 2: 351 s of samples in a 392 s video, heard as dropouts).
     music = sorted((ROOT / "content" / "music").glob("*.mp3")) if (ROOT / "content" / "music").exists() else []
-    inputs = ["-i", "video/_segments/joined.mp4", "-i", "audio/voice.wav"]
+    norm = "loudnorm=I=-14:TP=-1.5,aresample=48000"
     if music:
-        inputs += ["-stream_loop", "-1", "-i", str(music[0])]
-        audio = "[1:a]volume=1.0[v];[2:a]volume=0.07[m];[v][m]amix=inputs=2:duration=first:dropout_transition=0,loudnorm=I=-14:TP=-1.5[a]"
+        run(["-i", "audio/voice.wav", "-stream_loop", "-1", "-i", str(music[0]), "-filter_complex",
+             f"[0:a]volume=1.0[v];[1:a]volume=0.07[m];[v][m]amix=inputs=2:duration=first:dropout_transition=0,{norm}",
+             "-ar", "48000", "-ac", "1", "video/_segments/mix.wav"], ep_dir)
     else:
-        audio = "[1:a]loudnorm=I=-14:TP=-1.5[a]"
-    graph = f"[0:v]ass=subs/captions.ass[vid];{audio}"
-    run([*inputs, "-filter_complex", graph, "-map", "[vid]", "-map", "[a]", *enc,
-         "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-t", f"{tl['duration']:.3f}", "-movflags", "+faststart",
-         "video/final.mp4"], ep_dir)
+        run(["-i", "audio/voice.wav", "-af", norm, "-ar", "48000", "-ac", "1", "video/_segments/mix.wav"], ep_dir)
+    run(["-i", "video/_segments/joined.mp4", "-i", "video/_segments/mix.wav", "-vf", "ass=subs/captions.ass",
+         "-map", "0:v", "-map", "1:a", *enc, "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
+         "-t", f"{tl['duration']:.3f}", "-movflags", "+faststart", "video/final.mp4"], ep_dir)
     shutil.rmtree(work)
+
+    # guard: the audio stream must cover the whole video (a short stream plays back as silent gaps)
+    probe = subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(), "-hide_banner", "-i", str(ep_dir / "video" / "final.mp4"),
+                            "-map", "0:a", "-af", "astats=metadata=1", "-f", "null", "-"], capture_output=True, text=True)
+    samples = [int(l.rsplit(":", 1)[1]) for l in probe.stderr.splitlines() if "Number of samples" in l]
+    if not samples or samples[-1] < 48000 * (tl["duration"] - 0.5):
+        raise SystemExit(f"audio stream too short: {samples[-1] / 48000 if samples else 0:.1f}s of {tl['duration']:.1f}s")
+    print(f"audio ok: {samples[-1] / 48000:.1f}s of {tl['duration']:.1f}s")
 
     thumb = ep_dir / "images" / "thumbnail.png"
     if thumb.exists():

@@ -209,6 +209,8 @@ tools/video/.venv/Scripts/python tools/video/assemble.py content/episodes/<epizo
 - **Sükut yoxlaması (məcburi):** `voice.wav`-da ≥ 120 ms sükutların cəmi ümumi müddətin 10%-dən az, ən uzunu ≤ 0.35 s olmalıdır:
   `tools/video/.venv/Scripts/python -c "import soundfile as sf,numpy as np;a,sr=sf.read('<epizod>/audio/voice.wav');fr=int(.01*sr);q=np.array([np.abs(a[i:i+fr]).max()<.02 for i in range(0,len(a)-fr,fr)]);import itertools;g=[len(list(x))/100 for k,x in itertools.groupby(q) if k];g=[x for x in g if x>=.12];print(round(sum(g),2),'/',round(len(a)/sr,1),'max',max(g,default=0))"`
   Keçmirsə: ssenaridəki `[pause]` və qısa nöqtəli cümlələri azalt, yenidən səsləndir.
+- `assemble.py` sonda `audio ok: X of Y` çap edir; səs axını qısadırsa xəta verir (epizod 2-də səs boşluqları oldu). Bu sətri mütləq yoxla.
+- **Scroll-jacking saytlar** (anthropic.com və s.) `record_page --scroll`-da ilişmiş görünür: kadrlara bax, ilişibsə sabit bölmə screenshot-ları (`work/screen/shot_text.js`) + `motion` istifadə et.
 - `timeline.json`-da müddətə bax. Short 55 saniyədən uzundursa, ssenarini qısalt və bu addımı təkrarla.
 - Yoxlama: `final.mp4`-dən 3–4 kadr çıxar (imageio-ffmpeg: `-ss <s> -frames:v 1`) və `Read` ilə bax: altyazı oxunurmu, kadr boş deyilmi, crop düzgündürmü.
 - `status: "seo"`.
@@ -258,6 +260,7 @@ Başlıq üçün 3 variant yaz, ən yaxşısını `title`-a qoy, digərlərini `
    - Subtitles → Upload file → `subs/captions.srt`;
    - long üçün thumbnail.
 3. Görünürlük **Public**-dir, sahib başqa vaxt deyibsə, **Schedule**. "Publish"-dən əvvəl formanı `read_page` ilə yoxla.
+3a. **Türkcə lokalizasiya (RULES §15):** `marketer` → `subs/captions.tr.srt` (vaxt kodları eyni) + `seo.json` → `tr.title/description`. Dərcdən sonra Studio → video → Subtitles → Add language → Turkish: qələm (Title & description) ilə TR başlıq/təsvir → Publish; altyazı sütununda qələm → Upload file → gizli `input[type=file]`-ə `captions.tr.srt` → Publish. API ilə yoxla: `localizations` içində `tr`. Yeni yükləmədə **Reuse details** köhnə videodan başlıq/təsvir/tag/playlist köçürür (kids və AI sualını yenə yoxla).
 4. Video linkini götür. `published.md`-yə sətir əlavə et (playlist sütunu ilə), `status: "published"`. Short-from-dursa, təsvirə long-un linkini əlavə et. Long-dursa, sonradan kəsilən short-lar üçün `ideas.md`-yə `[short-from] <epizod>` yaz.
 5. Yeni, keyfiyyətli KAXO şəkillərini `content/character/poses/`-a köçür və README cədvəlinə əlavə et.
 6. Hesabatın "İstehsal qeydləri" bölməsini tamamla: nə alındı, nə alınmadı, limitlər, vaxt.

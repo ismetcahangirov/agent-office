@@ -23,8 +23,6 @@
     },
     {
       "id": "s02",
-      "clip": "clips/anthropic.webm",
-      "clip_start": 9.5,
       "lines": [
         {
           "speaker": "narrator",
@@ -34,7 +32,9 @@
           "speaker": "narrator",
           "text": "Anthropic released Opus 5.5, and KAXO had one question."
         }
-      ]
+      ],
+      "asset": "shot:anthropic-hero.png",
+      "motion": "zoom_in"
     },
     {
       "id": "s03",
@@ -145,8 +145,6 @@
     {
       "id": "s10",
       "chapter": "What Anthropic claims",
-      "clip": "clips/anthropic.webm",
-      "clip_start": 11,
       "lines": [
         {
           "speaker": "narrator",
@@ -160,7 +158,9 @@
           "speaker": "kaxo",
           "text": "Cheaper employees. My favorite kind."
         }
-      ]
+      ],
+      "asset": "shot:anthropic-graphics.png",
+      "motion": "zoom_in"
     },
     {
       "id": "s11",
@@ -209,8 +209,6 @@
     },
     {
       "id": "s14",
-      "clip": "clips/anthropic.webm",
-      "clip_start": 13,
       "lines": [
         {
           "speaker": "narrator",
@@ -224,7 +222,9 @@
           "speaker": "narrator",
           "text": "Nobody's giving KAXO anything for free."
         }
-      ]
+      ],
+      "asset": "shot:anthropic-price.png",
+      "motion": "zoom_out"
     },
     {
       "id": "s15",
@@ -248,8 +248,6 @@
     },
     {
       "id": "s16",
-      "clip": "clips/anthropic.webm",
-      "clip_start": 15,
       "lines": [
         {
           "speaker": "narrator",
@@ -263,7 +261,9 @@
           "speaker": "kaxo",
           "text": "Benchmarks are job interviews. Everyone's great at interviews."
         }
-      ]
+      ],
+      "asset": "shot:anthropic-intro.png",
+      "motion": "pan_left"
     },
     {
       "id": "s17",
@@ -800,8 +800,6 @@
     },
     {
       "id": "s49",
-      "clip": "clips/anthropic.webm",
-      "clip_start": 17,
       "lines": [
         {
           "speaker": "narrator",
@@ -811,7 +809,9 @@
           "speaker": "narrator",
           "text": "Opus 5.5 took six times fewer steps."
         }
-      ]
+      ],
+      "asset": "shot:anthropic-graphics.png",
+      "motion": "zoom_out"
     },
     {
       "id": "s50",
@@ -1160,5 +1160,6 @@
       ]
     }
   ],
-  "youtube": "https://youtu.be/kehg3FSoxAY"
+  "youtube": "https://youtu.be/3RbuOZYm-ck",
+  "youtube_old_private": "https://youtu.be/kehg3FSoxAY"
 }
