@@ -245,7 +245,10 @@ Başlıq üçün 3 variant yaz, ən yaxşısını `title`-a qoy, digərlərini `
 
 ## 10/10 Paylaşma, qeyd, hesabat, təmizlik
 **Yalnız `status: "approved"` olanda.**
-1. Claude in Chrome ilə `https://studio.youtube.com` aç (sahib daxil olmayıbsa, gözlə) → **Create → Upload videos** → `file_upload` ilə `video/final.mp4`.
+1. Claude in Chrome ilə `https://studio.youtube.com/channel/<ID>/videos/upload?d=ud` aç (menyudakı "Upload videos" bəzən klikə cavab vermir). **`file_upload` limiti 10 MB-dır**, `final.mp4` ondan böyükdür: sahibdən faylı yükləmə pəncərəsinə sürükləməsini xahiş et (Explorer-də `explorer /select,<yol>` ilə aç), sonra formu sən doldur.
+   - Kanal telefonla təsdiqlənməyibsə, **xüsusi thumbnail yüklənmir** (səssizcə rədd olunur) və təsvirdəki linklər kliklənmir. Sahibdən `youtube.com/verify` etməsini xahiş et, thumbnail-i sonra Studio → Content → video → Thumbnail ilə əlavə et.
+   - Altyazı: Subtitles → Add → Upload file → "With timing". "Continue" basma (Windows fayl pəncərəsi açılır): gizli `input[type=file]`-ə birbaşa `file_upload` et.
+   - Dropdown-lar (dil, kateqoriya): variantı JS ilə `innerText` üzrə tap və `.click()` et, iki siyahını eyni anda açıq qoyma.
 2. `seo.json`-dan doldur:
    - başlıq, təsvir (sonunda hashtag-lar ilə), tag-lar ("Show more" altında);
    - playlist(lər): `seo.json` → `playlists` (PLAYLISTS.md). Playlist yoxdursa, Studio-da **Create playlist** ilə PLAYLISTS.md-dəki ad və təsvirlə yarat və `published.md`-nin "Playlistlər" cədvəlinə yaz;
