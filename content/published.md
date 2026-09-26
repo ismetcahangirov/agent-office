@@ -2,6 +2,7 @@
 
 | Tarix | Format | Başlıq | URL | Playlist(lər) | Epizod | Son statistika |
 |---|---|---|---|---|---|---|
+| 2026-09-26 | long (7:09) | Claude + Remotion Remade Our Video. Ours Lost. (EN + TR başlıq/təsvir/altyazı) | https://youtu.be/qbxkwvXUzMk | KAXO Tests AI Tools | 2026-09-26-claude-remotion | — |
 | 2026-09-25 | short (0:38) | Opus 5.5 Did the Same Job for 27 Cents #shorts (EN + TR) | https://youtube.com/shorts/voAHRbTb1zw | KAXO Tests AI Tools, KAXO Shorts | 2026-09-25-opus-short | — |
 | 2026-09-25 | long (6:33) | Claude Opus 5.5 vs Opus 5: Same Job, Real Bill (EN + TR başlıq/altyazı) | https://youtu.be/3RbuOZYm-ck (ilk yükləmə https://youtu.be/kehg3FSoxAY səs boşluqlarına görə Private) | KAXO Tests AI Tools, AI Models Explained | 2026-09-25-opus-5-5-test | — |
 

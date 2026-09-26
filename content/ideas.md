@@ -4,11 +4,12 @@
 
 ## Gündəm (`/gundem` doldurur, vaxtı keçən silinir)
 - [ ] [short] "Claude broke a physics record for $2,000. KAXO's company has $0." (news 2026-09-26 #1 #4, son tarix 2026-09-27)
-- [ ] [long] "Can Claude make a YouTube video by itself? KAXO fired the editor." Opus 5.5 + Remotion real test, `work/tests/claude-remotion/` (news 2026-09-26 siqnal "claude remotion", son tarix 2026-10-03)
+- [x] [long] "Can Claude make a YouTube video by itself? KAXO fired the editor." Opus 5.5 + Remotion real test, `work/tests/claude-remotion/` (news 2026-09-26 siqnal "claude remotion", son tarix 2026-10-03) ✓ 2026-09-26-claude-remotion
 - [x] [long] "KAXO upgraded his employees to Opus 5.5. Was it worth it?" real test Opus 5.5 vs Opus 5 (news 2026-09-25 #1, son tarix 2026-10-02) ✓ 2026-09-25-opus-5-5-test
 - [ ] [long] "Opus 5.5 vs GPT-6 Sol: same day, same price war" (news 2026-09-25 #1 #2, son tarix 2026-10-02; GPT testi ödənişlidir → sahibin icazəsi)
 
 - [x] [short-from] 2026-09-25-opus-5-5-test ✓ 2026-09-25-opus-short (punchline: "It skipped checking its own work. I've never felt so seen." / yarış qrafiki)
+- [ ] [short-from] 2026-09-26-claude-remotion (hook: "Our own video lost to a Claude remake" / punchline: "So I'm firing my video editor. Which is also Claude." / kor test cədvəli; related long https://youtu.be/qbxkwvXUzMk)
 
 ## Evergreen
 

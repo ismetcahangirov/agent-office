@@ -1,7 +1,7 @@
 {
   "slug": "claude-remotion",
   "format": "long",
-  "status": "approved",
+  "status": "done",
   "idea": "Can Claude make a YouTube video by itself? KAXO fired the editor. Agents build a KAXO video with Remotion (code-only video) from scratch, compared with our own pipeline.",
   "real_fact": "Remotion test 2026-09-26: Claude rebuilt our published Opus short in ~20 min (2 rounds, 104 tool calls); blind QA scored it 55 vs 49 for our own version and found a white flash in ours (work/tests/claude-remotion/)",
   "shots": [

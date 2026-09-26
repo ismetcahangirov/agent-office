@@ -31,3 +31,18 @@ Long: "Can Claude make a YouTube video by itself?". Test ədalətli olsun deyə 
 - **QA bizim paylaşılmış short-da qüsur tapdı (CEO kadrla təsdiqlədi):** 9.5–9.9 s ağ ekran (ofis klipinin yüklənmə kadrı), 27.4–29.6 s kod kadrı demək olar boşdur və kəsilib, 1.5–3 s altyazı qrafik etiketinin üstünə düşür. Yəni ~30 dəq və 1 insan baxışından keçən videomuzda heç kim görməyib.
 - **Dürüstlük riski B-də:** terminal kadrı imitasiyadır (real log deyil), QA bunu "real kimi göstərilir" deyə qeyd etdi. Epizodda "recreation" deyilməlidir.
 - Claude-un edə bilmədikləri: KAXO şəkilləri (ChatGPT-dən bizdə idi), səs (bizim Kokoro faylı verildi), real görüntü, qeydlər insandan gəldi (raund 2), hesaba giriş, dərc.
+
+### İstehsal (2026-09-26)
+- **Dərc:** https://youtu.be/qbxkwvXUzMk, 7:09, Public, KAXO Tests AI Tools. EN altyazı, TR başlıq/təsvir/altyazı (158 sətir, `text_tr`-dən). Thumbnail "BLIND TEST / 55 VS 49" (alternativlər seo.json-da).
+- **Vaxt:** araşdırma 13:30 → test 13:44–14:05 → QA 14:10 → ssenari ~14:30 → B-roll, qrafiklər → 12 ChatGPT şəkli (limit dolmadı, 8 şəkildən sonra yeni söhbət) → TTS ~35 dəq (7:09 səs, sükut 6.7%, max 0.27 s) → montaj → dərc ~15:45.
+- **Alındı:** kor QA real və dürüst hekayə verdi; ssenari 72 kadr, 6 fəsil (1:18, 2:27, 3:39, 4:43, 6:03); 8 poza təkrar istifadə (40%).
+- **Problemlər və həllər:**
+  - `type_code.py` zamanı Kilo Code paneli ~17 s-də açılıb fokusu aldı, kodun yarısı çat qutusuna yazıldı (model seçilməmişdi, heç nə göndərilmədi). Klipin ilk 16 s-i işlədildi; ayrı `--user-data-dir` profili pəncərə açmadı, geri qaytarıldı. Skill-də səhv halı kimi yazıldı.
+  - Marketer `chapter`-i hər kadra yazmışdı → chapters.py 70 "fəsil" gördü; yalnız fəslin ilk kadrında saxlanıldı.
+  - `asset: pose:...` sahəsini assemble.py oxumur → pozalar `images/<id>.png` kimi kopyalandı.
+  - Klip başlanğıcları: record_page/graphics "content from" 2.5–6.9 s; ofis kliplərinin 0-cı kadrı ağdır (bizim short-dakı ağ ekranın səbəbi eyni idi!) → hamısı düzəldildi, son montaj YAVG ilə ağ/qara kadra yoxlanıldı (0 tapıldı).
+  - "ISUPERVISE" bug kadrı saxlanmamışdı (yoxlama kadrları üzərinə yazılıb) → imitasiya əvəzinə g-rounds qrafiki ("found its own bug").
+  - HN klipi scroll ilə oxunmurdu → statik, zoom 2.2.
+  - "Animated slides" HN-də hərfi yoxdur ("flashy slide decks", "simple slides"); ekranda dırnaqsız xülasə kimi saxlanıldı (yenidən TTS ~35 dəq olardı).
+  - YouTube Studio əvvəl başqa kanal/hesabda açıldı ("izniniz yok"), sahib keçid etdi.
+- **Dərs (bizim pipeline üçün):** klip başlanğıcında yüklənmə kadrı → montajdan sonra avtomatik parlaqlıq yoxlaması (ağ/qara kadr) lazımdır. `/video` 7-ci addıma əlavə olunmalıdır.

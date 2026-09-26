@@ -25,3 +25,8 @@ ChatGPT limiti azdır, uzun videoya isə 20+ kadr lazımdır. Buna görə KAXO-n
 | `couch-hugging-robot-teary__lounge-lamp__3x2.png` | divanda robotu qucaqlayır, kövrəlib | lampa işığı | 3:2 | 2026-09-25-opus-5-5-test |
 | `cutout-suspicious-receipt__none__waist-up.png` | fonsuz, qəbzi tutub şübhə ilə baxır (thumbnail) | yox | — | 2026-09-25-opus-5-5-test |
 | `couch-hugging-robot-teary__lounge-lamp__2x3.png` | divanda robotu qucaqlayır, kövrəlib (şaquli) | lampa işığı | 2:3 | 2026-09-25-opus-short |
+| `couch-lying-phone-glow__living-room-evening__3x2.png` | divanda uzanıb telefona baxır, ekran işığı üzündə | axşam, qonaq otağı | 3:2 | 2026-09-26-claude-remotion |
+| `hammock-sleeping-robot-typing__office-night__3x2.png` | hamakda yatır, önündə robot kod yazır | gecə ofisi | 3:2 | 2026-09-26-claude-remotion |
+| `between-two-robots-pointing__office__3x2.png` | iki robot bir-birini göstərir, KAXO ortada zərflə | ofis | 3:2 | 2026-09-26-claude-remotion |
+| `pointing-at-robot-note-smug__office__3x2.png` | robotun oxuduğu qeydi özündənrazı göstərir | ofis | 3:2 | 2026-09-26-claude-remotion |
+| `cutout-shrug-blank-card__none__waist-up.png` | fonsuz, çiyin çəkir, əlində kartoçka (kartoçka silinib, loqo qoymaq üçün) | yox | — | 2026-09-26-claude-remotion |
