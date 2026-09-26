@@ -1,0 +1,20 @@
+{
+  "format": "16x9",
+  "line1": "BLIND TEST",
+  "line2": "55 VS 49",
+  "mascot": "mascot.png",
+  "glow": "#19d3ff",
+  "elements": [
+    {
+      "src": "claude.svg",
+      "x": 0.9,
+      "y": 0.6,
+      "w": 0.095,
+      "rotate": 6,
+      "glow": "#ff7a45"
+    }
+  ],
+  "mascot_scale": 0.95,
+  "mascot_y": -0.02,
+  "mascot_x": 0.0
+}

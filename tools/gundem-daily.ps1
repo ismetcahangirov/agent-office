@@ -19,8 +19,9 @@ if (Test-Path (Join-Path $project "content\news\$today.md")) {
 }
 
 $prompt = @"
-This is the unattended daily news run. Execute every step of .claude/skills/gundem/SKILL.md for the last 72 hours.
+This is the unattended daily news run. Execute every step of .claude/skills/gundem/SKILL.md for the last 24 hours only.
 Headless rules: do not ask the owner anything and do not use AskUserQuestion; make reasonable choices yourself.
+Agents you launch run in the background: never end your turn while one is still running. Wait for every agent to report, then write the files; your final message must come after the digest is written (2026-09-26 the run ended right after launching the researchers and wrote nothing).
 Write the digest to content/news/$today.md and update the Gundem section of content/ideas.md exactly as the skill says.
 Do not publish, record, render or delete anything outside content/news/ and content/ideas.md.
 Finish with a 5-line summary in Azerbaijani: top news and the recommended next video.

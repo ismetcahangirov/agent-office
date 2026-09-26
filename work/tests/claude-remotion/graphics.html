@@ -1,0 +1,101 @@
+<!doctype html>
+<!-- Animated result graphics for the Claude + Remotion episode. Numbers from content/reports/2026-09-26-claude-remotion.md.
+     ?s=time | rounds | score   recorded with tools/video/record_page.js (file:// URL).
+     The build starts ~2.6 s after load (record_page's "content from" point), finishes within ~3 s, then holds. -->
+<html><head><meta charset="utf-8"><style>
+@font-face { font-family: Anton; src: url(../../../tools/video/fonts/Anton-Regular.ttf); }
+* { box-sizing: border-box; margin: 0; }
+body { width: 1920px; height: 1080px; background: #0b0d10; color: #fff; font-family: Anton, Impact, sans-serif; overflow: hidden;
+  display: flex; flex-direction: column; justify-content: center; padding: 0 140px; gap: 50px; }
+h1 { font-size: 84px; letter-spacing: 1px; text-transform: uppercase; line-height: 1.05; }
+h1 span { color: #ffd23f; }
+.sub { font-size: 40px; color: #8b95a3; font-family: Arial, sans-serif; font-weight: 700; margin-top: -30px; }
+.fade { opacity: 0; transform: translateY(20px); transition: opacity .45s, transform .45s; }
+.fade.on { opacity: 1; transform: none; }
+
+/* time */
+.brow { display: grid; grid-template-columns: 1fr 300px; grid-template-areas: "name val" "track track"; gap: 10px 30px; align-items: end; }
+.brow .name { grid-area: name; font-size: 54px; }
+.brow .val { grid-area: val; font-size: 72px; text-align: right; line-height: 1; }
+.brow .track { grid-area: track; height: 70px; background: #1a1f26; border-radius: 12px; overflow: hidden; }
+.bar { height: 100%; width: 0; border-radius: 12px; background: #ff5a5f; }
+.bar.new { background: linear-gradient(90deg, #3ddc97, #22d3ee); min-width: 0; }
+.red { color: #ff5a5f; } .green { color: #3ddc97; } .yel { color: #ffd23f; }
+.foot { font-size: 38px; color: #8b95a3; font-family: Arial, sans-serif; font-weight: 700; }
+
+/* rounds */
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; }
+.col { background: #141920; border-radius: 24px; padding: 28px 44px; }
+body.rounds { gap: 36px; }
+.col h2 { font-size: 64px; margin-bottom: 6px; }
+.col.r1 h2 { color: #ff5a5f; } .col.r2 h2 { color: #3ddc97; }
+.stat { display: flex; justify-content: space-between; align-items: baseline; font-size: 44px; padding: 2px 0; border-bottom: 2px solid #1f262f; }
+.stat b { font-weight: 400; font-size: 54px; }
+.col.r2 .stat b { color: #3ddc97; }
+.tags { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; min-height: 124px; align-content: flex-start; }
+.tag { font-family: Arial, sans-serif; font-weight: 800; font-size: 30px; padding: 8px 16px; border-radius: 12px; }
+.tag.bad { background: rgba(255,90,95,.18); color: #ff8a8d; border: 3px solid #ff5a5f; }
+.tag.good { background: rgba(61,220,151,.16); color: #6ff0b6; border: 3px solid #3ddc97; }
+
+/* score */
+body.score { gap: 20px; }
+body.score h1 { font-size: 72px; }
+body.score h1 small { display: block; font-size: 40px; color: #ffd23f; font-family: Arial, sans-serif; font-weight: 800; text-transform: none; margin-top: 6px; }
+table { width: 100%; border-collapse: collapse; font-size: 50px; }
+th { font-weight: 400; font-size: 44px; padding: 0 0 10px; text-align: center; }
+th.a { color: #ff9f43; } th.b { color: #3ddc97; }
+td { padding: 0; line-height: 1.25; border-bottom: 2px solid #1f262f; }
+td.n { text-align: center; width: 380px; font-size: 52px; }
+td.win { color: #ffd23f; }
+tr.row { opacity: 0; transition: opacity .35s; } tr.row.on { opacity: 1; }
+tr.total td { border-bottom: none; padding-top: 12px; font-size: 60px; }
+tr.total td.n { font-size: 70px; }
+.hl { display: inline-block; padding: 0 26px; border-radius: 14px; transition: background .4s, color .4s, transform .4s; }
+tr.total.on .hl.b { background: #3ddc97; color: #0b0d10; transform: scale(1.12); }
+.of { font-size: 40px; color: #8b95a3; }
+</style></head><body>
+<script>
+const s = new URLSearchParams(location.search).get('s') || 'time';
+const START = 2600;            // record_page starts "content" at ~2.5 s
+const at = (ms, fn) => setTimeout(fn, START + ms);
+const on = (id) => document.getElementById(id).classList.add('on');
+const ease = (t) => 1 - Math.pow(1 - Math.min(1, Math.max(0, t)), 3);
+
+if (s === 'time') {
+  document.body.innerHTML = `<h1>How long <span>it took</span></h1>` +
+    [['Our long episode (pipeline)', 180, '~3 hours', '', 'red'],
+     ['Claude + Remotion, round 1', 10.7, '10.7 min', 'new', 'green'],
+     ['Round 2 (after notes)', 9, '~9 min', 'new', 'green']].map((r, i) =>
+    `<div class="brow fade" id="r${i}"><div class="name">${r[0]}</div><div class="val ${r[4]}">${r[2]}</div>
+     <div class="track"><div class="bar ${r[3]}" id="b${i}" data-v="${r[1]}"></div></div></div>`).join('') +
+    `<div class="foot fade" id="f">Same short, same voice, same images · bars to scale (3 h = 180 min)</div>`;
+  [0, 1, 2].forEach((i) => at(i * 500, () => {
+    on('r' + i);
+    const b = document.getElementById('b' + i), v = +b.dataset.v, t0 = performance.now();
+    (function tick(now) { const p = ease((now - t0) / 1400); b.style.width = (v / 180 * 100 * p) + '%'; if (p < 1) requestAnimationFrame(tick); })(t0);
+  }));
+  at(2200, () => on('f'));
+} else if (s === 'rounds') {
+  const stats = [['Minutes', '10.7', '~9'], ['Tool calls', '46', '58'], ['Full renders', '1', '1'], ['Errors', '4', '4'], ['Self-score', '5–6/10', '7/10']];
+  const col = (k, title, idx, tags, cls) => `<div class="col ${k} fade" id="${k}"><h2>${title}</h2>` +
+    stats.map((st) => `<div class="stat"><span>${st[0]}</span><b>${st[idx]}</b></div>`).join('') +
+    `<div class="tags">${tags.map((t, j) => `<span class="tag ${cls} fade" id="${k}t${j}">${t}</span>`).join('')}</div></div>`;
+  document.body.classList.add('rounds');
+  document.body.innerHTML = `<h1>Round 1 <span>vs</span> Round 2</h1><div class="cols">` +
+    col('r1', 'Round 1', 1, ['hook second empty', 'label on the wrong character', 'half the frame empty'], 'bad') +
+    col('r2', 'Round 2', 2, ['all 6 notes fixed', 'found its own bug'], 'good') + '</div>';
+  at(0, () => on('r1')); at(500, () => on('r2'));
+  [0, 1, 2].forEach((j) => at(1100 + j * 350, () => on('r1t' + j)));
+  [0, 1].forEach((j) => at(2200 + j * 350, () => on('r2t' + j)));
+} else if (s === 'score') {
+  document.body.classList.add('score');
+  const rows = [['Hook', 6, 8], ['Subtitles', 5, 8], ['Visual variety', 7, 7], ['Real footage', 6, 2], ['Comedy', 6, 7],
+    ['Technical defects', 5, 8], ['Audio', 8, 7], ['Keep watching', 6, 8]];
+  document.body.innerHTML = `<h1>Blind test<small>(judge didn't know which is which)</small></h1><table>
+    <tr><th></th><th class="a">OUR PIPELINE</th><th class="b">CLAUDE + REMOTION</th></tr>` +
+    rows.map((r, i) => `<tr class="row" id="t${i}"><td>${r[0]}</td><td class="n ${r[1] > r[2] ? 'win' : ''}">${r[1]}</td><td class="n ${r[2] > r[1] ? 'win' : ''}">${r[2]}</td></tr>`).join('') +
+    `<tr class="row total" id="tt"><td>TOTAL <span class="of">(out of 80)</span></td><td class="n"><span class="hl">49</span></td><td class="n"><span class="hl b">55</span></td></tr></table>`;
+  rows.forEach((_, i) => at(i * 280, () => on('t' + i)));
+  at(rows.length * 280 + 300, () => on('tt'));
+}
+</script></body></html>

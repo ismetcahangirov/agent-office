@@ -196,6 +196,7 @@ Risk **yüksək**dirsə, video paylaşılmır, əvvəl düzəldilir.
 
 ## 13. Gündəm: son dəyişiklikləri izləmək
 - **Mənbə:** `/gundem` skill-i (`.claude/skills/gundem/SKILL.md`). `/video` işə düşəndə son gündəm faylı 24 saatdan köhnədirsə, əvvəlcə `/gundem` işlədilir.
+- **Pəncərə:** hər gündəm yalnız son **24 saatı** əhatə edir (sahib 2026-09-26). Tarixə həm məqalənin, həm hadisənin ilk açıqlanma tarixi daxildir: köhnə hadisəyə dair yeni yazı gündəmə girmir.
 - **Nə izlənir:** yeni modellər, alətlər, böyük yeniləmələr, AI şirkətlərinin buraxılışları, trend repolar. Mənbə siyahısı skill-dədir.
 - **Təsdiq qaydası:** hər xəbərin birinci mənbəyi (rəsmi blog, sənəd, repo) olmalıdır. Şayiə, sızma və "insider" iddiaları kontentə girmir. Rəqəmlər yalnız rəsmi mənbədən götürülür və təsvirdə mənbə linki verilir.
 - **Təzəlik:** news flash short xəbərdən sonra ilk 48 saatda çıxmalıdır. Gecikibsə, long videoda "həftənin xəbərləri" hissəsinə keçir.

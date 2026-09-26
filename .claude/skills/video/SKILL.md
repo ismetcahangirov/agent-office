@@ -279,6 +279,7 @@ Başlıq üçün 3 variant yaz, ən yaxşısını `title`-a qoy, digərlərini `
 | ChatGPT selektoru dəyişib | `find` / `read_page` ilə tap, JS nümunəsini yenilə və bu skill-də düzəlt |
 | YouTube Studio forması dəyişib | `read_page` ilə sahələri tap. Əmin deyilsənsə, sahibdən soruş, təxmini klik etmə |
 | `type_code.py`: "focus lost" | Kimsə başqa pəncərəyə klikləyib. Sahibdən toxunmamağı xahiş et, təkrar işlət |
+| `type_code.py` ortasında Kilo Code paneli açılır, qalan kod çat qutusuna yazılır ("saved file differs") | Genişlənmə ~17 s sonra paneli özü açır (2026-09-26). Qısa hissə (≤ 15 sətir) yaz və ya klipin panelə qədərki hissəsini işlət; ayrı `--user-data-dir` profili pəncərə açmadı. Sahibdən Kilo Code-u `work/screen` workspace-i üçün söndürməsini xahiş et |
 | Mətn VS Code-da Find qutusuna və ya menyuya düşür | `focus_editor()` (Esc, Esc, Ctrl+1) yetmir: VS Code pəncərəsini bağla, təkrar işlət |
 | `stock.py`: 401/403 | Açar səhvdir və ya limit dolub (Pexels 200/saat, Pixabay 100/dəq). O biri mənbəyə keç (`--source`) |
 | Brauzer icazəsi yoxdur | Sahibə yaz: Claude in Chrome genişlənməsində `chatgpt.com` və `studio.youtube.com` üçün icazə lazımdır |

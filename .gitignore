@@ -12,3 +12,10 @@ content/episodes/*/clips/
 .env.*
 .claude/settings.local.json
 work/screen/
+
+# claude-remotion test: renders, blind copies, copied media
+work/tests/claude-remotion/out/
+work/tests/claude-remotion/blind/
+work/tests/claude-remotion/app/public/
+work/tests/claude-remotion/app/.agents/
+work/tests/claude-remotion/app/.claude/

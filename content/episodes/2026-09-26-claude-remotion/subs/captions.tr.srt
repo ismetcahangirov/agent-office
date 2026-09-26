@@ -1,0 +1,631 @@
+1
+00:00:00,000 --> 00:00:02,280
+Kendi videomuz, Claude'un yeniden yaptığı versiyona kaybetti.
+
+2
+00:00:02,420 --> 00:00:04,970
+Kaybettik. Bir kopyaya. Hem de kendi videomun kopyasına.
+
+3
+00:00:05,160 --> 00:00:08,210
+Kör bir jüri ikisini de izledi, hangisinin bizim olduğunu bilmeden.
+
+4
+00:00:08,290 --> 00:00:11,430
+Bizimki her zamanki yapay zekâ hattımızdan çıkmıştı, zaten yayındaydı.
+
+5
+00:00:11,560 --> 00:00:14,840
+Claude onu Remotion ile kodla, yaklaşık yirmi dakikada yeniden kurdu.
+
+6
+00:00:14,970 --> 00:00:17,880
+Üstelik jüri bizimkinde kimsenin fark etmediği bir kusur buldu.
+
+7
+00:00:18,020 --> 00:00:21,620
+Kusur. Benim videomda. Şok oldum. Hafifçe.
+
+8
+00:00:21,810 --> 00:00:25,010
+Puanları, hataları ve Claude'un hâlâ neyi yapamadığını göreceksiniz.
+
+9
+00:00:25,150 --> 00:00:28,980
+Bir de biri kovulacak. Galiba. Çok zahmetli değilse.
+
+10
+00:00:29,170 --> 00:00:31,070
+Bu hafta YouTube aramasına claude yazın.
+
+11
+00:00:31,150 --> 00:00:33,540
+İkinci öneri claude remotion çıkıyor.
+
+12
+00:00:33,680 --> 00:00:35,840
+Ben uyku yazıyorum. Sonuçlar farklı.
+
+13
+00:00:36,030 --> 00:00:39,210
+Hacker News'te bir gönderi dört yüz on iki puana ulaştı.
+
+14
+00:00:39,290 --> 00:00:42,740
+Başlığı: Opus 5.5 açıklayıcı videolarda iyi.
+
+15
+00:00:42,870 --> 00:00:44,850
+Bazı yorumcuların daha kısa bir yorumu vardı.
+
+16
+00:00:44,990 --> 00:00:46,340
+Animasyonlu slaytlar.
+
+17
+00:00:46,480 --> 00:00:49,000
+İşin tuhafı, o gönderideki araç Remotion bile kullanmıyor.
+
+18
+00:00:49,130 --> 00:00:51,420
+Remotion, React kodunu videoya çeviriyor.
+
+19
+00:00:51,500 --> 00:00:53,880
+Her kare aslında küçük bir web sayfası.
+
+20
+00:00:53,960 --> 00:00:58,010
+Görünmez bir tarayıcı her kareyi fotoğraflıyor, ffmpeg de hepsini birleştiriyor.
+
+21
+00:00:58,200 --> 00:01:00,580
+Yani bir çevirmeli defter. Klavyesi olanlar için.
+
+22
+00:01:00,770 --> 00:01:04,520
+Remotion'ın Claude gibi kodlama ajanları için resmî bir iş akışı bile var.
+
+23
+00:01:04,600 --> 00:01:08,070
+Tek komut, ajana işin inceliklerini öğreten on iki beceri yüklüyor.
+
+24
+00:01:08,200 --> 00:01:11,100
+Üstelik en fazla üç çalışanı olan şirketler için ücretsiz.
+
+25
+00:01:11,240 --> 00:01:13,780
+Bende sıfır var. En azından sıfır insan.
+
+26
+00:01:13,970 --> 00:01:16,430
+Bu, lisansı bizim yorumumuz, Remotion'ın değil.
+
+27
+00:01:16,510 --> 00:01:18,030
+Lisansın bağlantısı açıklamada.
+
+28
+00:01:18,160 --> 00:01:20,660
+Şimdi, KAXO'nun şirketi normalde nasıl video yapıyor?
+
+29
+00:01:20,740 --> 00:01:24,060
+On adımlık bir tarif, tamamen yapay zekâ ajanlarıyla işliyor.
+
+30
+00:01:24,200 --> 00:01:26,650
+Onu ben tasarladım. Başkasından rica ederek.
+
+31
+00:01:26,840 --> 00:01:30,360
+Arkasında on dört betik ve bin üç yüze yakın satır kod var.
+
+32
+00:01:30,440 --> 00:01:32,310
+Hepsi Claude Code oturumlarında yazıldı.
+
+33
+00:01:32,450 --> 00:01:34,370
+Hiç okumadığım kodlar. Gururla.
+
+34
+00:01:34,560 --> 00:01:38,400
+KAXO görselleri ChatGPT'den geliyor, gerçek bir tarayıcıda tıklanarak.
+
+35
+00:01:38,480 --> 00:01:41,870
+Sesimiz Kokoro, kendi işlemcimizde çalışan ücretsiz bir model.
+
+36
+00:01:42,000 --> 00:01:45,430
+Geçen bölümde ses bütün işlemciyi yedi ve Chrome dondu.
+
+37
+00:01:45,570 --> 00:01:48,440
+Şarkıcı ressamı dondurdu. Ofis siyaseti.
+
+38
+00:01:48,630 --> 00:01:51,050
+O bölümün yayına çıkması yaklaşık üç saat sürdü.
+
+39
+00:01:51,130 --> 00:01:53,750
+Oturum altı yüz kırk üç araç çağrısı kaydetti.
+
+40
+00:01:53,830 --> 00:01:55,150
+Kırk biri başarısız oldu.
+
+41
+00:01:55,340 --> 00:01:58,360
+Üç saat. İlk beş dakikasında oradaydım.
+
+42
+00:01:58,550 --> 00:02:01,770
+Sonra final dosyası yüz elli dört megabayt çıktı.
+
+43
+00:02:01,850 --> 00:02:04,020
+Ajanların yükleme aracı on megabaytta duruyor.
+
+44
+00:02:04,150 --> 00:02:06,730
+Bu yüzden insan sahibimiz onu YouTube'a elle sürükledi.
+
+45
+00:02:06,870 --> 00:02:09,590
+Tamamen otomatik. El kısmı hariç.
+
+46
+00:02:09,780 --> 00:02:12,630
+İlk yüklemede seste boşluklar bile vardı.
+
+47
+00:02:12,770 --> 00:02:14,870
+Seste boşluklar. Çok sanatsal.
+
+48
+00:02:15,060 --> 00:02:16,280
+Şimdi adil kısım.
+
+49
+00:02:16,360 --> 00:02:18,200
+Claude o uzun videoyu yeniden yapmadı.
+
+50
+00:02:18,280 --> 00:02:21,290
+O bölümden kesilen otuz sekiz saniyelik Shorts videomuzu yeniden kurdu.
+
+51
+00:02:21,420 --> 00:02:24,570
+O Shorts'u yapmak bizim hattımıza yaklaşık otuz dakika daha sürdü.
+
+52
+00:02:24,710 --> 00:02:27,550
+Kimse sıfırdan başlamadı. Benim çabam hariç.
+
+53
+00:02:27,740 --> 00:02:30,290
+Claude tabanlı kurucu ajanımıza verilen iş şuydu.
+
+54
+00:02:30,370 --> 00:02:32,480
+Yayındaki Shorts videomuzu Remotion'da yeniden kur.
+
+55
+00:02:32,610 --> 00:02:35,560
+Aynı senaryo, aynı ses dosyası, aynı KAXO görselleri.
+
+56
+00:02:35,700 --> 00:02:37,890
+Aynı surat da. İyi bir surat.
+
+57
+00:02:38,030 --> 00:02:41,050
+Her grafik ve her altyazı kodla yazılmak zorundaydı.
+
+58
+00:02:41,180 --> 00:02:43,870
+Hazır klip yasak. Tek istem, sıfır yardım.
+
+59
+00:02:44,010 --> 00:02:47,090
+Benim yönetim tarzım. Bir kere anlat, sonra kaybol.
+
+60
+00:02:47,280 --> 00:02:50,760
+Remotion belgelerini okudu, bir proje kurdu ve becerileri yükledi.
+
+61
+00:02:50,840 --> 00:02:52,510
+Sonra sahneleri yazıp render aldı.
+
+62
+00:02:52,700 --> 00:02:55,020
+Süresini ben tuttum. Yani, kayıtlar tuttu.
+
+63
+00:02:55,160 --> 00:02:58,610
+On virgül yedi dakika, kırk altı araç çağrısı ve tek render.
+
+64
+00:02:58,740 --> 00:03:00,430
+Yol boyunca dört hataya çarptı.
+
+65
+00:03:00,510 --> 00:03:03,530
+İkisi Remotion'ın kendi hafifletilmiş ffmpeg'inden geldi.
+
+66
+00:03:03,670 --> 00:03:06,670
+Dört hata, sıfır çökme. Benim haftamdan iyi.
+
+67
+00:03:06,860 --> 00:03:08,520
+Ve sonuç gerçekten çalışıyor.
+
+68
+00:03:08,600 --> 00:03:11,700
+Ses senkron, altyazılar her kelimeyi takip ediyor.
+
+69
+00:03:11,830 --> 00:03:13,410
+Ama ilk saniyeye bakın.
+
+70
+00:03:13,490 --> 00:03:15,490
+Kanca, bir başlık ve boş bir ekrandan ibaret.
+
+71
+00:03:15,630 --> 00:03:18,750
+Boş bir ekran. Sonunda kendimi bulduğum bir içerik.
+
+72
+00:03:18,940 --> 00:03:22,390
+Sonra şu. Opus 5.5 etiketi bir robotun üstünde olmalıydı.
+
+73
+00:03:22,470 --> 00:03:24,150
+Onun yerine KAXO'ya yapıştı.
+
+74
+00:03:24,340 --> 00:03:27,450
+Bana çok şey dendi. Ama hiç sürüm numarası denmedi.
+
+75
+00:03:27,640 --> 00:03:29,780
+Kod, görsel ölçeklemeyi iki kez uyguladı.
+
+76
+00:03:29,860 --> 00:03:31,970
+Bu yüzden etiketler robotlarından kaydı.
+
+77
+00:03:32,100 --> 00:03:34,540
+Grafiklerin alt yarısı da boş kaldı.
+
+78
+00:03:34,620 --> 00:03:37,180
+Claude kendi işine ondan beş ya da altı verdi.
+
+79
+00:03:37,320 --> 00:03:39,550
+Mütevazı. Ben kendime on verirdim.
+
+80
+00:03:39,740 --> 00:03:42,190
+İlk tur yalnızca dört kareye gözle baktı.
+
+81
+00:03:42,270 --> 00:03:44,320
+Yanlış etiket hiçbirinde yoktu.
+
+82
+00:03:44,450 --> 00:03:47,670
+Bu yüzden ikinci tura insan eli değdi. Sahibimiz altı not yazdı.
+
+83
+00:03:47,810 --> 00:03:50,470
+Kendim yazardım. Ama parmağım yok.
+
+84
+00:03:50,660 --> 00:03:53,500
+Kancayı düzelt. Etiketi taşı. Boşluğu doldur.
+
+85
+00:03:53,580 --> 00:03:56,690
+Altyazıları toparla, hareket ekle, daha çok kare kontrol et.
+
+86
+00:03:56,880 --> 00:03:59,480
+Bu çok not. Benimkiler sadece güzel der.
+
+87
+00:03:59,670 --> 00:04:02,830
+Bu sefer Claude birkaç saniyede bir kendi karelerine baktı.
+
+88
+00:04:02,910 --> 00:04:04,750
+Ve az önce kendi yaptığı bir hatayı yakaladı.
+
+89
+00:04:04,880 --> 00:04:07,780
+Vurgulanan kelime büyüyüp yanındakine yapıştı.
+
+90
+00:04:07,860 --> 00:04:10,750
+Böylece I supervise tek kelime oldu: ISUPERVISE.
+
+91
+00:04:10,940 --> 00:04:13,970
+Isupervise. Açıkçası ben de öyle telaffuz ediyorum.
+
+92
+00:04:14,160 --> 00:04:16,160
+Onu da, listedeki her şeyi de düzeltti.
+
+93
+00:04:16,240 --> 00:04:18,410
+Artık kanca daha ilk saniyede vuruyor.
+
+94
+00:04:18,540 --> 00:04:21,290
+Etiketler doğru robotların üstünde, küçük oklarla.
+
+95
+00:04:21,430 --> 00:04:24,440
+Oklar. Hangi robotu görmezden geleceğimi bileyim diye.
+
+96
+00:04:24,630 --> 00:04:27,950
+İkinci tur yaklaşık dokuz dakika ve elli sekiz araç çağrısı daha sürdü.
+
+97
+00:04:28,030 --> 00:04:31,040
+Bir tam render, üç deneme render'ı ve dört yeni hata.
+
+98
+00:04:31,170 --> 00:04:34,630
+Testin tamamı: yaklaşık yirmi dakika, yüz dört araç çağrısı.
+
+99
+00:04:34,710 --> 00:04:35,760
+İki tam render.
+
+100
+00:04:35,900 --> 00:04:38,040
+Yirmi dakika. Kısa bir şekerleme.
+
+101
+00:04:38,230 --> 00:04:40,440
+Kendine verdiği puan ondan yediye çıktı.
+
+102
+00:04:40,580 --> 00:04:43,180
+Yedi. Onunla gurur duyuyorum. Uzaktan.
+
+103
+00:04:43,370 --> 00:04:45,210
+Şimdi söz verdiğimiz kör test.
+
+104
+00:04:45,350 --> 00:04:47,550
+Nihayet. İzleme işini başkası yapıyor.
+
+105
+00:04:47,740 --> 00:04:50,460
+QA ajanımız A ve B diye etiketlenmiş iki dosya aldı.
+
+106
+00:04:50,540 --> 00:04:52,080
+Hangisinin bizim olduğunu bilmiyordu.
+
+107
+00:04:52,210 --> 00:04:55,150
+A yayındaki Shorts videomuzdu. B, Claude'un Remotion versiyonuydu.
+
+108
+00:04:55,290 --> 00:04:58,260
+Yapay zekâları yargılayan bir yapay zekâ. Ben atıştırmalık getirdim.
+
+109
+00:04:58,450 --> 00:05:00,330
+Sekiz kategori, her biri on puan.
+
+110
+00:05:00,410 --> 00:05:02,740
+Claude'un versiyonu seksende elli beş aldı.
+
+111
+00:05:02,820 --> 00:05:04,160
+Bizimki kırk dokuz.
+
+112
+00:05:04,350 --> 00:05:06,890
+Kırk dokuz. Kendi şirketimin videosuna.
+
+113
+00:05:07,080 --> 00:05:08,860
+Kancayı Claude kazandı, altıya karşı sekiz.
+
+114
+00:05:08,940 --> 00:05:10,880
+Altyazıyı da, beşe karşı sekiz.
+
+115
+00:05:11,010 --> 00:05:14,180
+Teknik kusurlarda da beşe karşı sekiz. Yüksek puan, daha temiz demek.
+
+116
+00:05:14,320 --> 00:05:16,910
+Kusurlar. Benim videomda. Güya.
+
+117
+00:05:17,100 --> 00:05:19,360
+Jürinin yayındaki videomuzda bulduğu şey şu.
+
+118
+00:05:19,440 --> 00:05:21,690
+Dokuz buçukuncu saniyede, beyaz bir parlama.
+
+119
+00:05:21,820 --> 00:05:25,080
+Yirmi sekizinci saniye civarında, neredeyse boş bir kod karesi.
+
+120
+00:05:25,160 --> 00:05:26,980
+Kod satırının kendisi de kesik.
+
+121
+00:05:27,170 --> 00:05:30,600
+Onu yayınladık. Bir insan onayladı. Kimse görmedi.
+
+122
+00:05:30,790 --> 00:05:33,930
+Bizimki bir kategoriyi kazandı: gerçek görüntü, ikiye karşı altı.
+
+123
+00:05:34,010 --> 00:05:36,210
+Gerçek ofis, yazılan gerçek kod.
+
+124
+00:05:36,350 --> 00:05:39,520
+Gerçek robotlar. Gerçekten yazıyorlar. Çok heyecanlı.
+
+125
+00:05:39,710 --> 00:05:41,600
+Claude'un versiyonu tamamen grafik.
+
+126
+00:05:41,680 --> 00:05:44,730
+Terminal karesi bir canlandırma, gerçek bir kayıt değil.
+
+127
+00:05:44,810 --> 00:05:46,710
+Jüri bunu işaretledi, biz de işaretliyoruz.
+
+128
+00:05:46,900 --> 00:05:50,260
+Yani video editörümü kovuyorum. Ki o da Claude.
+
+129
+00:05:50,450 --> 00:05:52,660
+Claude'un yeni videosu, Claude'un eski videosunu yendi.
+
+130
+00:05:52,740 --> 00:05:55,150
+Eskisinin kaçırdığını da yapay zekâ bir jüri yakaladı.
+
+131
+00:05:55,280 --> 00:05:56,850
+Yani Hacker News yarı yarıya haklıydı.
+
+132
+00:05:56,930 --> 00:05:59,650
+Jüri, Claude'un versiyonuna şablon gibi ama cilalı dedi.
+
+133
+00:05:59,790 --> 00:06:02,890
+Animasyonlu slaytlar. Çok iyi animasyonlu slaytlar.
+
+134
+00:06:03,080 --> 00:06:05,470
+Peki, Claude tek başına bir YouTube videosu yapabilir mi?
+
+135
+00:06:05,590 --> 00:06:07,690
+Tek başına değil. İşte ona hazır verdiklerimiz.
+
+136
+00:06:07,830 --> 00:06:10,150
+Hiçbir şey tek başına olmuyor. Benim bile personelim var.
+
+137
+00:06:10,340 --> 00:06:12,180
+Ses bizim Kokoro düzenimizden geldi.
+
+138
+00:06:12,260 --> 00:06:14,640
+KAXO görselleri ChatGPT'den geldi.
+
+139
+00:06:14,720 --> 00:06:16,560
+İkinci turun notlarını bir insan yazdı.
+
+140
+00:06:16,690 --> 00:06:19,610
+Jüri de bir yapay zekâydı ve bu tek test, tek deneme.
+
+141
+00:06:19,750 --> 00:06:22,180
+Tek deneme. Spor rutinim gibi.
+
+142
+00:06:22,370 --> 00:06:25,460
+Para da ölçmedik. Her şey abonelikle çalıştı.
+
+143
+00:06:25,600 --> 00:06:28,080
+Ödenecek bir şey yok. Yine de koltuğun arasına baktım.
+
+144
+00:06:28,270 --> 00:06:32,410
+Yine de grafik ve altyazıda Claude artı Remotion gerçekten iyiydi.
+
+145
+00:06:32,490 --> 00:06:34,760
+Yirmi dakika ve kendi Shorts videomuzdan yüksek bir puan.
+
+146
+00:06:34,890 --> 00:06:36,880
+Gerçek işler hâlâ bizim hattımızda.
+
+147
+00:06:36,960 --> 00:06:40,220
+Gerçek ofis görüntüsü, gerçek kod ve daha dolgun, daha güçlü ses.
+
+148
+00:06:40,410 --> 00:06:42,740
+Kararım şu: ikisini de tutuyorum.
+
+149
+00:06:42,820 --> 00:06:45,110
+Yenisi çiziyor. Eskisi çekiyor.
+
+150
+00:06:45,300 --> 00:06:49,050
+Jüri de aynı karışımı önerdi: B'nin grafikleri, A'nın gerçek görüntüleri.
+
+151
+00:06:49,190 --> 00:06:51,950
+Kimse kovulmuyor. Kovmak zahmetli iş.
+
+152
+00:06:52,140 --> 00:06:54,340
+Tüm kaynaklar ve bağlantılar açıklamada.
+
+153
+00:06:54,420 --> 00:06:57,410
+Claude bir dahaki sefere koca bir uzun video denesin mi? Yorumlara yazın.
+
+154
+00:06:57,550 --> 00:06:59,200
+Birine bana okuttururum.
+
+155
+00:06:59,340 --> 00:07:02,170
+Opus 5.5 testimiz de burada.
+
+156
+00:07:02,250 --> 00:07:04,610
+Ucuz modelin ödevini atladığı video.
+
+157
+00:07:04,750 --> 00:07:06,840
+Ben mi? İki videoyu da izlemedim.
+
+158
+00:07:06,920 --> 00:07:08,530
+Jüri ne güne duruyor.

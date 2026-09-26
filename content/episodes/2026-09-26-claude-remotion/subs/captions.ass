@@ -1,0 +1,306 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Arial,56,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,1,0,0,0,100,100,1,0,1,4,2,2,80,80,70,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.58,Cap,,0,0,0,,{\c&H00FFFFFF&}Our own video just lost to a
+Dialogue: 0,0:00:01.58,0:00:02.28,Cap,,0,0,0,,{\c&H00FFFFFF&}Claude remake.
+Dialogue: 0,0:00:02.42,0:00:02.98,Cap,,0,0,0,,{\c&H0048D98A&}Lost.
+Dialogue: 0,0:00:03.04,0:00:03.79,Cap,,0,0,0,,{\c&H0048D98A&}To a remake.
+Dialogue: 0,0:00:03.85,0:00:04.97,Cap,,0,0,0,,{\c&H0048D98A&}Of my own video.
+Dialogue: 0,0:00:05.16,0:00:07.00,Cap,,0,0,0,,{\c&H00FFFFFF&}A blind judge watched both, without
+Dialogue: 0,0:00:07.00,0:00:08.21,Cap,,0,0,0,,{\c&H00FFFFFF&}knowing which was ours.
+Dialogue: 0,0:00:08.29,0:00:10.02,Cap,,0,0,0,,{\c&H00FFFFFF&}Ours came out of our usual AI
+Dialogue: 0,0:00:10.02,0:00:11.43,Cap,,0,0,0,,{\c&H00FFFFFF&}pipeline, already published.
+Dialogue: 0,0:00:11.56,0:00:13.62,Cap,,0,0,0,,{\c&H00FFFFFF&}Claude rebuilt it in code, with Remotion,
+Dialogue: 0,0:00:13.62,0:00:14.84,Cap,,0,0,0,,{\c&H00FFFFFF&}in about twenty minutes.
+Dialogue: 0,0:00:14.97,0:00:16.49,Cap,,0,0,0,,{\c&H00FFFFFF&}And the judge found a flaw in
+Dialogue: 0,0:00:16.49,0:00:17.88,Cap,,0,0,0,,{\c&H00FFFFFF&}ours that nobody had noticed.
+Dialogue: 0,0:00:18.02,0:00:18.75,Cap,,0,0,0,,{\c&H0048D98A&}A flaw.
+Dialogue: 0,0:00:18.81,0:00:19.89,Cap,,0,0,0,,{\c&H0048D98A&}In my video.
+Dialogue: 0,0:00:19.95,0:00:20.72,Cap,,0,0,0,,{\c&H0048D98A&}I'm shocked.
+Dialogue: 0,0:00:20.78,0:00:21.62,Cap,,0,0,0,,{\c&H0048D98A&}Mildly.
+Dialogue: 0,0:00:21.81,0:00:23.70,Cap,,0,0,0,,{\c&H00FFFFFF&}You'll see the scores, the mistakes, and
+Dialogue: 0,0:00:23.70,0:00:25.01,Cap,,0,0,0,,{\c&H00FFFFFF&}what Claude still can't do.
+Dialogue: 0,0:00:25.15,0:00:26.99,Cap,,0,0,0,,{\c&H0048D98A&}Also, somebody's getting fired.
+Dialogue: 0,0:00:27.05,0:00:27.75,Cap,,0,0,0,,{\c&H0048D98A&}Probably.
+Dialogue: 0,0:00:27.81,0:00:28.98,Cap,,0,0,0,,{\c&H0048D98A&}If it's not much effort.
+Dialogue: 0,0:00:29.17,0:00:31.07,Cap,,0,0,0,,{\c&H00FFFFFF&}Type claude into YouTube search this week.
+Dialogue: 0,0:00:31.15,0:00:33.54,Cap,,0,0,0,,{\c&H00FFFFFF&}The second suggestion is claude remotion.
+Dialogue: 0,0:00:33.68,0:00:34.70,Cap,,0,0,0,,{\c&H0048D98A&}I type naps.
+Dialogue: 0,0:00:34.76,0:00:35.84,Cap,,0,0,0,,{\c&H0048D98A&}Different results.
+Dialogue: 0,0:00:36.03,0:00:37.85,Cap,,0,0,0,,{\c&H00FFFFFF&}On Hacker News, one post hit four
+Dialogue: 0,0:00:37.85,0:00:39.21,Cap,,0,0,0,,{\c&H00FFFFFF&}hundred and twelve points.
+Dialogue: 0,0:00:39.29,0:00:41.55,Cap,,0,0,0,,{\c&H00FFFFFF&}Its title: Opus 5.5 is good at
+Dialogue: 0,0:00:41.55,0:00:42.74,Cap,,0,0,0,,{\c&H00FFFFFF&}explainer videos.
+Dialogue: 0,0:00:42.87,0:00:44.85,Cap,,0,0,0,,{\c&H00FFFFFF&}Some commenters had a shorter review.
+Dialogue: 0,0:00:44.99,0:00:46.34,Cap,,0,0,0,,{\c&H0048D98A&}Animated slides.
+Dialogue: 0,0:00:46.48,0:00:48.33,Cap,,0,0,0,,{\c&H00FFFFFF&}The tool in that post doesn't even
+Dialogue: 0,0:00:48.33,0:00:49.00,Cap,,0,0,0,,{\c&H00FFFFFF&}use Remotion.
+Dialogue: 0,0:00:49.13,0:00:51.42,Cap,,0,0,0,,{\c&H00FFFFFF&}Remotion turns React code into video.
+Dialogue: 0,0:00:51.50,0:00:53.60,Cap,,0,0,0,,{\c&H00FFFFFF&}Every frame is basically a little web
+Dialogue: 0,0:00:53.60,0:00:53.88,Cap,,0,0,0,,{\c&H00FFFFFF&}page.
+Dialogue: 0,0:00:53.96,0:00:56.15,Cap,,0,0,0,,{\c&H00FFFFFF&}A hidden browser photographs each frame,
+Dialogue: 0,0:00:56.15,0:00:58.01,Cap,,0,0,0,,{\c&H00FFFFFF&}and ffmpeg stitches them together.
+Dialogue: 0,0:00:58.20,0:00:59.14,Cap,,0,0,0,,{\c&H0048D98A&}So it's a flipbook.
+Dialogue: 0,0:00:59.20,0:01:00.58,Cap,,0,0,0,,{\c&H0048D98A&}For people with keyboards.
+Dialogue: 0,0:01:00.77,0:01:03.11,Cap,,0,0,0,,{\c&H00FFFFFF&}Remotion even has an official workflow for
+Dialogue: 0,0:01:03.11,0:01:04.52,Cap,,0,0,0,,{\c&H00FFFFFF&}coding agents like Claude.
+Dialogue: 0,0:01:04.60,0:01:06.67,Cap,,0,0,0,,{\c&H00FFFFFF&}One command installs twelve skills that
+Dialogue: 0,0:01:06.67,0:01:08.07,Cap,,0,0,0,,{\c&H00FFFFFF&}teach the agent the ropes.
+Dialogue: 0,0:01:08.20,0:01:10.12,Cap,,0,0,0,,{\c&H00FFFFFF&}It's also free for companies with up
+Dialogue: 0,0:01:10.12,0:01:11.10,Cap,,0,0,0,,{\c&H00FFFFFF&}to three employees.
+Dialogue: 0,0:01:11.24,0:01:12.17,Cap,,0,0,0,,{\c&H0048D98A&}I have zero.
+Dialogue: 0,0:01:12.23,0:01:13.78,Cap,,0,0,0,,{\c&H0048D98A&}Zero humans, at least.
+Dialogue: 0,0:01:13.97,0:01:15.94,Cap,,0,0,0,,{\c&H00FFFFFF&}That's our reading of the license, not
+Dialogue: 0,0:01:15.94,0:01:16.43,Cap,,0,0,0,,{\c&H00FFFFFF&}Remotion's.
+Dialogue: 0,0:01:16.51,0:01:18.03,Cap,,0,0,0,,{\c&H00FFFFFF&}The license is linked below.
+Dialogue: 0,0:01:18.16,0:01:20.33,Cap,,0,0,0,,{\c&H00FFFFFF&}Now, how KAXO's company normally makes a
+Dialogue: 0,0:01:20.33,0:01:20.66,Cap,,0,0,0,,{\c&H00FFFFFF&}video.
+Dialogue: 0,0:01:20.74,0:01:23.35,Cap,,0,0,0,,{\c&H00FFFFFF&}It's a ten-step recipe, run entirely by
+Dialogue: 0,0:01:23.35,0:01:24.06,Cap,,0,0,0,,{\c&H00FFFFFF&}AI agents.
+Dialogue: 0,0:01:24.20,0:01:25.06,Cap,,0,0,0,,{\c&H0048D98A&}I designed it.
+Dialogue: 0,0:01:25.12,0:01:26.65,Cap,,0,0,0,,{\c&H0048D98A&}By asking someone else to.
+Dialogue: 0,0:01:26.84,0:01:28.87,Cap,,0,0,0,,{\c&H00FFFFFF&}Behind it sit fourteen scripts and nearly
+Dialogue: 0,0:01:28.87,0:01:30.36,Cap,,0,0,0,,{\c&H00FFFFFF&}thirteen hundred lines of code.
+Dialogue: 0,0:01:30.44,0:01:32.31,Cap,,0,0,0,,{\c&H00FFFFFF&}All written in Claude Code sessions.
+Dialogue: 0,0:01:32.45,0:01:33.69,Cap,,0,0,0,,{\c&H0048D98A&}Code I've never read.
+Dialogue: 0,0:01:33.75,0:01:34.37,Cap,,0,0,0,,{\c&H0048D98A&}Proudly.
+Dialogue: 0,0:01:34.56,0:01:37.04,Cap,,0,0,0,,{\c&H00FFFFFF&}The KAXO images come from ChatGPT, clicked
+Dialogue: 0,0:01:37.04,0:01:38.40,Cap,,0,0,0,,{\c&H00FFFFFF&}through a real browser.
+Dialogue: 0,0:01:38.48,0:01:40.47,Cap,,0,0,0,,{\c&H00FFFFFF&}Our voice is Kokoro, a free model
+Dialogue: 0,0:01:40.47,0:01:41.87,Cap,,0,0,0,,{\c&H00FFFFFF&}running on our own CPU.
+Dialogue: 0,0:01:42.00,0:01:44.19,Cap,,0,0,0,,{\c&H00FFFFFF&}Last episode, the voice ate the whole
+Dialogue: 0,0:01:44.19,0:01:45.43,Cap,,0,0,0,,{\c&H00FFFFFF&}CPU, and Chrome froze.
+Dialogue: 0,0:01:45.57,0:01:47.12,Cap,,0,0,0,,{\c&H0048D98A&}The singer froze the painter.
+Dialogue: 0,0:01:47.18,0:01:48.44,Cap,,0,0,0,,{\c&H0048D98A&}Office politics.
+Dialogue: 0,0:01:48.63,0:01:50.65,Cap,,0,0,0,,{\c&H00FFFFFF&}That episode took about three hours to
+Dialogue: 0,0:01:50.65,0:01:51.05,Cap,,0,0,0,,{\c&H00FFFFFF&}publish.
+Dialogue: 0,0:01:51.13,0:01:53.19,Cap,,0,0,0,,{\c&H00FFFFFF&}The session logged six hundred forty-three
+Dialogue: 0,0:01:53.19,0:01:53.75,Cap,,0,0,0,,{\c&H00FFFFFF&}tool calls.
+Dialogue: 0,0:01:53.83,0:01:55.15,Cap,,0,0,0,,{\c&H00FFFFFF&}Forty-one of them failed.
+Dialogue: 0,0:01:55.34,0:01:56.23,Cap,,0,0,0,,{\c&H0048D98A&}Three hours.
+Dialogue: 0,0:01:56.29,0:01:57.96,Cap,,0,0,0,,{\c&H0048D98A&}I was there for the first five
+Dialogue: 0,0:01:57.96,0:01:58.36,Cap,,0,0,0,,{\c&H0048D98A&}minutes.
+Dialogue: 0,0:01:58.55,0:02:00.56,Cap,,0,0,0,,{\c&H00FFFFFF&}Then the final file weighed a hundred
+Dialogue: 0,0:02:00.56,0:02:01.77,Cap,,0,0,0,,{\c&H00FFFFFF&}and fifty-four megabytes.
+Dialogue: 0,0:02:01.85,0:02:04.02,Cap,,0,0,0,,{\c&H00FFFFFF&}The agents' upload tool stops at ten.
+Dialogue: 0,0:02:04.15,0:02:05.93,Cap,,0,0,0,,{\c&H00FFFFFF&}So our human owner dragged it into
+Dialogue: 0,0:02:05.93,0:02:06.73,Cap,,0,0,0,,{\c&H00FFFFFF&}YouTube by hand.
+Dialogue: 0,0:02:06.87,0:02:07.96,Cap,,0,0,0,,{\c&H0048D98A&}Fully automated.
+Dialogue: 0,0:02:08.02,0:02:09.59,Cap,,0,0,0,,{\c&H0048D98A&}Except the part with the hand.
+Dialogue: 0,0:02:09.78,0:02:11.64,Cap,,0,0,0,,{\c&H00FFFFFF&}Its first upload even went out with
+Dialogue: 0,0:02:11.64,0:02:12.63,Cap,,0,0,0,,{\c&H00FFFFFF&}holes in the sound.
+Dialogue: 0,0:02:12.77,0:02:13.87,Cap,,0,0,0,,{\c&H0048D98A&}Holes in the sound.
+Dialogue: 0,0:02:13.93,0:02:14.87,Cap,,0,0,0,,{\c&H0048D98A&}Very artistic.
+Dialogue: 0,0:02:15.06,0:02:16.28,Cap,,0,0,0,,{\c&H00FFFFFF&}Now, the fair part.
+Dialogue: 0,0:02:16.36,0:02:18.20,Cap,,0,0,0,,{\c&H00FFFFFF&}Claude didn't redo that long video.
+Dialogue: 0,0:02:18.28,0:02:20.17,Cap,,0,0,0,,{\c&H00FFFFFF&}It rebuilt our thirty-eight-second short,
+Dialogue: 0,0:02:20.17,0:02:21.29,Cap,,0,0,0,,{\c&H00FFFFFF&}cut from that episode.
+Dialogue: 0,0:02:21.42,0:02:23.56,Cap,,0,0,0,,{\c&H00FFFFFF&}Making that short took our pipeline about
+Dialogue: 0,0:02:23.56,0:02:24.57,Cap,,0,0,0,,{\c&H00FFFFFF&}thirty more minutes.
+Dialogue: 0,0:02:24.71,0:02:26.41,Cap,,0,0,0,,{\c&H0048D98A&}Nobody started from zero.
+Dialogue: 0,0:02:26.47,0:02:27.55,Cap,,0,0,0,,{\c&H0048D98A&}Except my effort.
+Dialogue: 0,0:02:27.74,0:02:29.71,Cap,,0,0,0,,{\c&H00FFFFFF&}So here's the job a Claude builder
+Dialogue: 0,0:02:29.71,0:02:30.29,Cap,,0,0,0,,{\c&H00FFFFFF&}agent got.
+Dialogue: 0,0:02:30.37,0:02:32.48,Cap,,0,0,0,,{\c&H00FFFFFF&}Rebuild our published short in Remotion.
+Dialogue: 0,0:02:32.61,0:02:35.12,Cap,,0,0,0,,{\c&H00FFFFFF&}Same script, same voice file, same KAXO
+Dialogue: 0,0:02:35.12,0:02:35.56,Cap,,0,0,0,,{\c&H00FFFFFF&}images.
+Dialogue: 0,0:02:35.70,0:02:36.78,Cap,,0,0,0,,{\c&H0048D98A&}Same face too.
+Dialogue: 0,0:02:36.84,0:02:37.89,Cap,,0,0,0,,{\c&H0048D98A&}It's a good face.
+Dialogue: 0,0:02:38.03,0:02:40.06,Cap,,0,0,0,,{\c&H00FFFFFF&}Every graphic and every subtitle had to
+Dialogue: 0,0:02:40.06,0:02:41.05,Cap,,0,0,0,,{\c&H00FFFFFF&}be written in code.
+Dialogue: 0,0:02:41.18,0:02:42.61,Cap,,0,0,0,,{\c&H00FFFFFF&}No finished clips allowed.
+Dialogue: 0,0:02:42.67,0:02:43.87,Cap,,0,0,0,,{\c&H00FFFFFF&}One prompt, no help.
+Dialogue: 0,0:02:44.01,0:02:45.25,Cap,,0,0,0,,{\c&H0048D98A&}My management style.
+Dialogue: 0,0:02:45.31,0:02:47.09,Cap,,0,0,0,,{\c&H0048D98A&}Explain once, then vanish.
+Dialogue: 0,0:02:47.28,0:02:49.04,Cap,,0,0,0,,{\c&H00FFFFFF&}It read Remotion's docs, set up a
+Dialogue: 0,0:02:49.04,0:02:50.76,Cap,,0,0,0,,{\c&H00FFFFFF&}project, and installed the skills.
+Dialogue: 0,0:02:50.84,0:02:52.51,Cap,,0,0,0,,{\c&H00FFFFFF&}Then it wrote the scenes and rendered.
+Dialogue: 0,0:02:52.70,0:02:53.53,Cap,,0,0,0,,{\c&H0048D98A&}I timed it.
+Dialogue: 0,0:02:53.59,0:02:55.02,Cap,,0,0,0,,{\c&H0048D98A&}Well, the log timed it.
+Dialogue: 0,0:02:55.16,0:02:57.36,Cap,,0,0,0,,{\c&H00FFFFFF&}Ten point seven minutes, forty-six tool
+Dialogue: 0,0:02:57.36,0:02:58.61,Cap,,0,0,0,,{\c&H00FFFFFF&}calls, and one render.
+Dialogue: 0,0:02:58.74,0:03:00.43,Cap,,0,0,0,,{\c&H00FFFFFF&}Along the way, it hit four errors.
+Dialogue: 0,0:03:00.51,0:03:03.08,Cap,,0,0,0,,{\c&H00FFFFFF&}Two came from Remotion's own slimmed-down
+Dialogue: 0,0:03:03.08,0:03:03.53,Cap,,0,0,0,,{\c&H00FFFFFF&}ffmpeg.
+Dialogue: 0,0:03:03.67,0:03:05.54,Cap,,0,0,0,,{\c&H0048D98A&}Four errors, zero crashes.
+Dialogue: 0,0:03:05.60,0:03:06.67,Cap,,0,0,0,,{\c&H0048D98A&}Better than my week.
+Dialogue: 0,0:03:06.86,0:03:08.52,Cap,,0,0,0,,{\c&H00FFFFFF&}And the result actually works.
+Dialogue: 0,0:03:08.60,0:03:10.24,Cap,,0,0,0,,{\c&H00FFFFFF&}The voice is in sync, and the
+Dialogue: 0,0:03:10.24,0:03:11.70,Cap,,0,0,0,,{\c&H00FFFFFF&}subtitles follow every word.
+Dialogue: 0,0:03:11.83,0:03:13.41,Cap,,0,0,0,,{\c&H00FFFFFF&}But look at the very first second.
+Dialogue: 0,0:03:13.49,0:03:14.90,Cap,,0,0,0,,{\c&H00FFFFFF&}The hook is a heading and an
+Dialogue: 0,0:03:14.90,0:03:15.49,Cap,,0,0,0,,{\c&H00FFFFFF&}empty screen.
+Dialogue: 0,0:03:15.63,0:03:16.78,Cap,,0,0,0,,{\c&H0048D98A&}An empty screen.
+Dialogue: 0,0:03:16.84,0:03:18.75,Cap,,0,0,0,,{\c&H0048D98A&}Finally, content I relate to.
+Dialogue: 0,0:03:18.94,0:03:19.60,Cap,,0,0,0,,{\c&H00FFFFFF&}Then this.
+Dialogue: 0,0:03:19.66,0:03:21.83,Cap,,0,0,0,,{\c&H00FFFFFF&}The label Opus 5.5 should sit on
+Dialogue: 0,0:03:21.83,0:03:22.39,Cap,,0,0,0,,{\c&H00FFFFFF&}a robot.
+Dialogue: 0,0:03:22.47,0:03:24.15,Cap,,0,0,0,,{\c&H00FFFFFF&}It landed on KAXO instead.
+Dialogue: 0,0:03:24.34,0:03:26.13,Cap,,0,0,0,,{\c&H0048D98A&}I've been called a lot of things.
+Dialogue: 0,0:03:26.19,0:03:27.45,Cap,,0,0,0,,{\c&H0048D98A&}Never a version number.
+Dialogue: 0,0:03:27.64,0:03:29.78,Cap,,0,0,0,,{\c&H00FFFFFF&}The code applied the image scaling twice.
+Dialogue: 0,0:03:29.86,0:03:31.97,Cap,,0,0,0,,{\c&H00FFFFFF&}So the labels drifted off their robots.
+Dialogue: 0,0:03:32.10,0:03:34.01,Cap,,0,0,0,,{\c&H00FFFFFF&}The bottom half of the graphics sat
+Dialogue: 0,0:03:34.01,0:03:34.54,Cap,,0,0,0,,{\c&H00FFFFFF&}empty, too.
+Dialogue: 0,0:03:34.62,0:03:36.38,Cap,,0,0,0,,{\c&H00FFFFFF&}Claude graded its own work five or
+Dialogue: 0,0:03:36.38,0:03:37.18,Cap,,0,0,0,,{\c&H00FFFFFF&}six out of ten.
+Dialogue: 0,0:03:37.32,0:03:37.90,Cap,,0,0,0,,{\c&H0048D98A&}Humble.
+Dialogue: 0,0:03:37.96,0:03:39.55,Cap,,0,0,0,,{\c&H0048D98A&}I'd have given myself a ten.
+Dialogue: 0,0:03:39.74,0:03:41.94,Cap,,0,0,0,,{\c&H00FFFFFF&}Round one only checked four frames by
+Dialogue: 0,0:03:41.94,0:03:42.19,Cap,,0,0,0,,{\c&H00FFFFFF&}eye.
+Dialogue: 0,0:03:42.27,0:03:44.07,Cap,,0,0,0,,{\c&H00FFFFFF&}The misplaced label wasn't in any of
+Dialogue: 0,0:03:44.07,0:03:44.32,Cap,,0,0,0,,{\c&H00FFFFFF&}them.
+Dialogue: 0,0:03:44.45,0:03:46.13,Cap,,0,0,0,,{\c&H00FFFFFF&}So round two got human help.
+Dialogue: 0,0:03:46.19,0:03:47.67,Cap,,0,0,0,,{\c&H00FFFFFF&}Our owner wrote six notes.
+Dialogue: 0,0:03:47.81,0:03:49.11,Cap,,0,0,0,,{\c&H0048D98A&}I'd have written them myself.
+Dialogue: 0,0:03:49.17,0:03:50.47,Cap,,0,0,0,,{\c&H0048D98A&}No fingers, though.
+Dialogue: 0,0:03:50.66,0:03:51.34,Cap,,0,0,0,,{\c&H00FFFFFF&}Fix the hook.
+Dialogue: 0,0:03:51.40,0:03:52.21,Cap,,0,0,0,,{\c&H00FFFFFF&}Move the label.
+Dialogue: 0,0:03:52.27,0:03:53.50,Cap,,0,0,0,,{\c&H00FFFFFF&}Fill the empty space.
+Dialogue: 0,0:03:53.58,0:03:55.70,Cap,,0,0,0,,{\c&H00FFFFFF&}Clean up the subtitles, add motion, and
+Dialogue: 0,0:03:55.70,0:03:56.69,Cap,,0,0,0,,{\c&H00FFFFFF&}check more frames.
+Dialogue: 0,0:03:56.88,0:03:58.06,Cap,,0,0,0,,{\c&H0048D98A&}That's a lot of notes.
+Dialogue: 0,0:03:58.12,0:03:59.48,Cap,,0,0,0,,{\c&H0048D98A&}Mine just say nice.
+Dialogue: 0,0:03:59.67,0:04:01.85,Cap,,0,0,0,,{\c&H00FFFFFF&}This time, Claude checked its own frames
+Dialogue: 0,0:04:01.85,0:04:02.83,Cap,,0,0,0,,{\c&H00FFFFFF&}every few seconds.
+Dialogue: 0,0:04:02.91,0:04:04.07,Cap,,0,0,0,,{\c&H00FFFFFF&}And it caught a bug it had
+Dialogue: 0,0:04:04.07,0:04:04.75,Cap,,0,0,0,,{\c&H00FFFFFF&}just made itself.
+Dialogue: 0,0:04:04.88,0:04:06.83,Cap,,0,0,0,,{\c&H00FFFFFF&}Its highlighted word grew and squashed
+Dialogue: 0,0:04:06.83,0:04:07.78,Cap,,0,0,0,,{\c&H00FFFFFF&}into its neighbour.
+Dialogue: 0,0:04:07.86,0:04:10.04,Cap,,0,0,0,,{\c&H00FFFFFF&}So I supervise became one word:
+Dialogue: 0,0:04:10.04,0:04:10.75,Cap,,0,0,0,,{\c&H00FFFFFF&}ISUPERVISE.
+Dialogue: 0,0:04:10.94,0:04:11.96,Cap,,0,0,0,,{\c&H0048D98A&}Isupervise.
+Dialogue: 0,0:04:12.02,0:04:13.97,Cap,,0,0,0,,{\c&H0048D98A&}Honestly, that's how I pronounce it.
+Dialogue: 0,0:04:14.16,0:04:15.76,Cap,,0,0,0,,{\c&H00FFFFFF&}It fixed that, and everything else on
+Dialogue: 0,0:04:15.76,0:04:16.16,Cap,,0,0,0,,{\c&H00FFFFFF&}the list.
+Dialogue: 0,0:04:16.24,0:04:17.80,Cap,,0,0,0,,{\c&H00FFFFFF&}Now the hook lands in the very
+Dialogue: 0,0:04:17.80,0:04:18.41,Cap,,0,0,0,,{\c&H00FFFFFF&}first second.
+Dialogue: 0,0:04:18.54,0:04:20.35,Cap,,0,0,0,,{\c&H00FFFFFF&}The labels sit on the right robots,
+Dialogue: 0,0:04:20.35,0:04:21.29,Cap,,0,0,0,,{\c&H00FFFFFF&}with little arrows.
+Dialogue: 0,0:04:21.43,0:04:22.06,Cap,,0,0,0,,{\c&H0048D98A&}Arrows.
+Dialogue: 0,0:04:22.12,0:04:24.05,Cap,,0,0,0,,{\c&H0048D98A&}So I know exactly which robot to
+Dialogue: 0,0:04:24.05,0:04:24.44,Cap,,0,0,0,,{\c&H0048D98A&}ignore.
+Dialogue: 0,0:04:24.63,0:04:26.60,Cap,,0,0,0,,{\c&H00FFFFFF&}Round two took about nine minutes and
+Dialogue: 0,0:04:26.60,0:04:27.95,Cap,,0,0,0,,{\c&H00FFFFFF&}fifty-eight more tool calls.
+Dialogue: 0,0:04:28.03,0:04:30.16,Cap,,0,0,0,,{\c&H00FFFFFF&}One full render, three test renders, and
+Dialogue: 0,0:04:30.16,0:04:31.04,Cap,,0,0,0,,{\c&H00FFFFFF&}four new errors.
+Dialogue: 0,0:04:31.17,0:04:33.17,Cap,,0,0,0,,{\c&H00FFFFFF&}The whole test: about twenty minutes, a
+Dialogue: 0,0:04:33.17,0:04:34.63,Cap,,0,0,0,,{\c&H00FFFFFF&}hundred and four tool calls.
+Dialogue: 0,0:04:34.71,0:04:35.76,Cap,,0,0,0,,{\c&H00FFFFFF&}Two full renders.
+Dialogue: 0,0:04:35.90,0:04:36.85,Cap,,0,0,0,,{\c&H0048D98A&}Twenty minutes.
+Dialogue: 0,0:04:36.91,0:04:38.04,Cap,,0,0,0,,{\c&H0048D98A&}That's a short nap.
+Dialogue: 0,0:04:38.23,0:04:40.05,Cap,,0,0,0,,{\c&H00FFFFFF&}Its self-score went up to seven out
+Dialogue: 0,0:04:40.05,0:04:40.44,Cap,,0,0,0,,{\c&H00FFFFFF&}of ten.
+Dialogue: 0,0:04:40.58,0:04:41.14,Cap,,0,0,0,,{\c&H0048D98A&}Seven.
+Dialogue: 0,0:04:41.20,0:04:42.30,Cap,,0,0,0,,{\c&H0048D98A&}I'm proud of it.
+Dialogue: 0,0:04:42.36,0:04:43.18,Cap,,0,0,0,,{\c&H0048D98A&}From a distance.
+Dialogue: 0,0:04:43.37,0:04:45.21,Cap,,0,0,0,,{\c&H00FFFFFF&}Now, the blind test we promised.
+Dialogue: 0,0:04:45.35,0:04:45.99,Cap,,0,0,0,,{\c&H0048D98A&}Finally.
+Dialogue: 0,0:04:46.05,0:04:47.55,Cap,,0,0,0,,{\c&H0048D98A&}Someone else does the watching.
+Dialogue: 0,0:04:47.74,0:04:49.89,Cap,,0,0,0,,{\c&H00FFFFFF&}Our QA agent got two files, labeled
+Dialogue: 0,0:04:49.89,0:04:50.46,Cap,,0,0,0,,{\c&H00FFFFFF&}A and B.
+Dialogue: 0,0:04:50.54,0:04:52.08,Cap,,0,0,0,,{\c&H00FFFFFF&}It didn't know which one was ours.
+Dialogue: 0,0:04:52.21,0:04:53.36,Cap,,0,0,0,,{\c&H00FFFFFF&}A was our published short.
+Dialogue: 0,0:04:53.42,0:04:55.15,Cap,,0,0,0,,{\c&H00FFFFFF&}B was Claude's Remotion version.
+Dialogue: 0,0:04:55.29,0:04:57.16,Cap,,0,0,0,,{\c&H0048D98A&}An AI judging AIs.
+Dialogue: 0,0:04:57.22,0:04:58.26,Cap,,0,0,0,,{\c&H0048D98A&}I brought snacks.
+Dialogue: 0,0:04:58.45,0:05:00.33,Cap,,0,0,0,,{\c&H00FFFFFF&}Eight categories, ten points each.
+Dialogue: 0,0:05:00.41,0:05:02.39,Cap,,0,0,0,,{\c&H00FFFFFF&}Claude's version scored fifty-five out of
+Dialogue: 0,0:05:02.39,0:05:02.74,Cap,,0,0,0,,{\c&H00FFFFFF&}eighty.
+Dialogue: 0,0:05:02.82,0:05:04.16,Cap,,0,0,0,,{\c&H00FFFFFF&}Ours got forty-nine.
+Dialogue: 0,0:05:04.35,0:05:05.19,Cap,,0,0,0,,{\c&H0048D98A&}Forty-nine.
+Dialogue: 0,0:05:05.25,0:05:06.89,Cap,,0,0,0,,{\c&H0048D98A&}For my own company's video.
+Dialogue: 0,0:05:07.08,0:05:08.86,Cap,,0,0,0,,{\c&H00FFFFFF&}Claude won the hook, eight to six.
+Dialogue: 0,0:05:08.94,0:05:10.88,Cap,,0,0,0,,{\c&H00FFFFFF&}It won subtitles, eight to five.
+Dialogue: 0,0:05:11.01,0:05:13.02,Cap,,0,0,0,,{\c&H00FFFFFF&}And technical defects, eight to five.
+Dialogue: 0,0:05:13.08,0:05:14.18,Cap,,0,0,0,,{\c&H00FFFFFF&}Higher means cleaner.
+Dialogue: 0,0:05:14.32,0:05:15.02,Cap,,0,0,0,,{\c&H0048D98A&}Defects.
+Dialogue: 0,0:05:15.08,0:05:16.00,Cap,,0,0,0,,{\c&H0048D98A&}In my video.
+Dialogue: 0,0:05:16.06,0:05:16.91,Cap,,0,0,0,,{\c&H0048D98A&}Allegedly.
+Dialogue: 0,0:05:17.10,0:05:18.67,Cap,,0,0,0,,{\c&H00FFFFFF&}Here's what the judge found in our
+Dialogue: 0,0:05:18.67,0:05:19.36,Cap,,0,0,0,,{\c&H00FFFFFF&}published short.
+Dialogue: 0,0:05:19.44,0:05:21.06,Cap,,0,0,0,,{\c&H00FFFFFF&}At nine and a half seconds, a
+Dialogue: 0,0:05:21.06,0:05:21.69,Cap,,0,0,0,,{\c&H00FFFFFF&}white flash.
+Dialogue: 0,0:05:21.82,0:05:23.98,Cap,,0,0,0,,{\c&H00FFFFFF&}Near twenty-eight seconds, a code shot
+Dialogue: 0,0:05:23.98,0:05:25.08,Cap,,0,0,0,,{\c&H00FFFFFF&}that's almost empty.
+Dialogue: 0,0:05:25.16,0:05:26.77,Cap,,0,0,0,,{\c&H00FFFFFF&}And the code line itself is cut
+Dialogue: 0,0:05:26.77,0:05:26.98,Cap,,0,0,0,,{\c&H00FFFFFF&}off.
+Dialogue: 0,0:05:27.17,0:05:28.20,Cap,,0,0,0,,{\c&H0048D98A&}We published that.
+Dialogue: 0,0:05:28.26,0:05:29.52,Cap,,0,0,0,,{\c&H0048D98A&}A human approved it.
+Dialogue: 0,0:05:29.58,0:05:30.60,Cap,,0,0,0,,{\c&H0048D98A&}Nobody saw it.
+Dialogue: 0,0:05:30.79,0:05:33.20,Cap,,0,0,0,,{\c&H00FFFFFF&}Ours did win one category: real footage,
+Dialogue: 0,0:05:33.20,0:05:33.93,Cap,,0,0,0,,{\c&H00FFFFFF&}six to two.
+Dialogue: 0,0:05:34.01,0:05:36.21,Cap,,0,0,0,,{\c&H00FFFFFF&}Real office, real code being typed.
+Dialogue: 0,0:05:36.35,0:05:37.57,Cap,,0,0,0,,{\c&H0048D98A&}Real robots.
+Dialogue: 0,0:05:37.63,0:05:38.66,Cap,,0,0,0,,{\c&H0048D98A&}Really typing.
+Dialogue: 0,0:05:38.72,0:05:39.52,Cap,,0,0,0,,{\c&H0048D98A&}Thrilling stuff.
+Dialogue: 0,0:05:39.71,0:05:41.60,Cap,,0,0,0,,{\c&H00FFFFFF&}Claude's version is pure graphics.
+Dialogue: 0,0:05:41.68,0:05:44.01,Cap,,0,0,0,,{\c&H00FFFFFF&}Its terminal shot is a recreation, not
+Dialogue: 0,0:05:44.01,0:05:44.73,Cap,,0,0,0,,{\c&H00FFFFFF&}a real log.
+Dialogue: 0,0:05:44.81,0:05:46.53,Cap,,0,0,0,,{\c&H00FFFFFF&}The judge flagged it, and so do
+Dialogue: 0,0:05:46.53,0:05:46.71,Cap,,0,0,0,,{\c&H00FFFFFF&}we.
+Dialogue: 0,0:05:46.90,0:05:48.80,Cap,,0,0,0,,{\c&H0048D98A&}So I'm firing my video editor.
+Dialogue: 0,0:05:49.00,0:05:50.26,Cap,,0,0,0,,{\c&H0048D98A&}Which is also Claude.
+Dialogue: 0,0:05:50.45,0:05:52.34,Cap,,0,0,0,,{\c&H00FFFFFF&}Claude's new video beat Claude's old
+Dialogue: 0,0:05:52.34,0:05:52.66,Cap,,0,0,0,,{\c&H00FFFFFF&}video.
+Dialogue: 0,0:05:52.74,0:05:54.39,Cap,,0,0,0,,{\c&H00FFFFFF&}And an AI judge caught what the
+Dialogue: 0,0:05:54.39,0:05:55.15,Cap,,0,0,0,,{\c&H00FFFFFF&}old one missed.
+Dialogue: 0,0:05:55.28,0:05:56.85,Cap,,0,0,0,,{\c&H00FFFFFF&}So Hacker News was half right.
+Dialogue: 0,0:05:56.93,0:05:58.55,Cap,,0,0,0,,{\c&H00FFFFFF&}The judge called Claude's version
+Dialogue: 0,0:05:58.55,0:05:59.65,Cap,,0,0,0,,{\c&H00FFFFFF&}templated, but polished.
+Dialogue: 0,0:05:59.79,0:06:01.08,Cap,,0,0,0,,{\c&H0048D98A&}Animated slides.
+Dialogue: 0,0:06:01.14,0:06:02.89,Cap,,0,0,0,,{\c&H0048D98A&}Very good animated slides.
+Dialogue: 0,0:06:03.08,0:06:04.94,Cap,,0,0,0,,{\c&H00FFFFFF&}So, can Claude make a YouTube video
+Dialogue: 0,0:06:04.94,0:06:05.47,Cap,,0,0,0,,{\c&H00FFFFFF&}by itself?
+Dialogue: 0,0:06:05.59,0:06:06.57,Cap,,0,0,0,,{\c&H00FFFFFF&}Not by itself.
+Dialogue: 0,0:06:06.63,0:06:07.69,Cap,,0,0,0,,{\c&H00FFFFFF&}Here's what we handed it.
+Dialogue: 0,0:06:07.83,0:06:09.08,Cap,,0,0,0,,{\c&H0048D98A&}Nothing's by itself.
+Dialogue: 0,0:06:09.14,0:06:10.15,Cap,,0,0,0,,{\c&H0048D98A&}Even I have staff.
+Dialogue: 0,0:06:10.34,0:06:12.18,Cap,,0,0,0,,{\c&H00FFFFFF&}The voice came from our Kokoro setup.
+Dialogue: 0,0:06:12.26,0:06:14.64,Cap,,0,0,0,,{\c&H00FFFFFF&}KAXO's images came from ChatGPT.
+Dialogue: 0,0:06:14.72,0:06:16.56,Cap,,0,0,0,,{\c&H00FFFFFF&}A human wrote the round-two notes.
+Dialogue: 0,0:06:16.69,0:06:18.37,Cap,,0,0,0,,{\c&H00FFFFFF&}The judge was an AI too, and
+Dialogue: 0,0:06:18.37,0:06:19.61,Cap,,0,0,0,,{\c&H00FFFFFF&}it's one test, one run.
+Dialogue: 0,0:06:19.75,0:06:20.44,Cap,,0,0,0,,{\c&H0048D98A&}One run.
+Dialogue: 0,0:06:20.50,0:06:22.18,Cap,,0,0,0,,{\c&H0048D98A&}Like my exercise routine.
+Dialogue: 0,0:06:22.37,0:06:23.81,Cap,,0,0,0,,{\c&H00FFFFFF&}No dollars measured either.
+Dialogue: 0,0:06:23.87,0:06:25.46,Cap,,0,0,0,,{\c&H00FFFFFF&}It all ran on a subscription.
+Dialogue: 0,0:06:25.60,0:06:26.55,Cap,,0,0,0,,{\c&H0048D98A&}Nothing to pay.
+Dialogue: 0,0:06:26.61,0:06:28.08,Cap,,0,0,0,,{\c&H0048D98A&}I checked the couch anyway.
+Dialogue: 0,0:06:28.27,0:06:30.54,Cap,,0,0,0,,{\c&H00FFFFFF&}Still, for graphics and subtitles, Claude
+Dialogue: 0,0:06:30.54,0:06:32.41,Cap,,0,0,0,,{\c&H00FFFFFF&}plus Remotion was genuinely good.
+Dialogue: 0,0:06:32.49,0:06:34.15,Cap,,0,0,0,,{\c&H00FFFFFF&}Twenty minutes, and a higher score than
+Dialogue: 0,0:06:34.15,0:06:34.76,Cap,,0,0,0,,{\c&H00FFFFFF&}our own short.
+Dialogue: 0,0:06:34.89,0:06:36.88,Cap,,0,0,0,,{\c&H00FFFFFF&}Our pipeline still owns the real stuff.
+Dialogue: 0,0:06:36.96,0:06:39.15,Cap,,0,0,0,,{\c&H00FFFFFF&}Real office footage, real code, and a
+Dialogue: 0,0:06:39.15,0:06:40.22,Cap,,0,0,0,,{\c&H00FFFFFF&}fuller, louder mix.
+Dialogue: 0,0:06:40.41,0:06:41.54,Cap,,0,0,0,,{\c&H0048D98A&}So here's my verdict.
+Dialogue: 0,0:06:41.60,0:06:42.74,Cap,,0,0,0,,{\c&H0048D98A&}I'm keeping both.
+Dialogue: 0,0:06:42.82,0:06:43.87,Cap,,0,0,0,,{\c&H0048D98A&}The new one draws.
+Dialogue: 0,0:06:43.93,0:06:45.11,Cap,,0,0,0,,{\c&H0048D98A&}The old one films.
+Dialogue: 0,0:06:45.30,0:06:47.54,Cap,,0,0,0,,{\c&H00FFFFFF&}The judge suggested the same mix: B's
+Dialogue: 0,0:06:47.54,0:06:49.05,Cap,,0,0,0,,{\c&H00FFFFFF&}graphics, A's real footage.
+Dialogue: 0,0:06:49.19,0:06:50.67,Cap,,0,0,0,,{\c&H0048D98A&}Nobody gets fired.
+Dialogue: 0,0:06:50.73,0:06:51.95,Cap,,0,0,0,,{\c&H0048D98A&}Firing takes effort.
+Dialogue: 0,0:06:52.14,0:06:53.79,Cap,,0,0,0,,{\c&H00FFFFFF&}Every source and link is in the
+Dialogue: 0,0:06:53.79,0:06:54.34,Cap,,0,0,0,,{\c&H00FFFFFF&}description.
+Dialogue: 0,0:06:54.42,0:06:56.18,Cap,,0,0,0,,{\c&H00FFFFFF&}Should Claude try a whole long video
+Dialogue: 0,0:06:56.18,0:06:56.42,Cap,,0,0,0,,{\c&H00FFFFFF&}next?
+Dialogue: 0,0:06:56.52,0:06:57.41,Cap,,0,0,0,,{\c&H00FFFFFF&}Comment below.
+Dialogue: 0,0:06:57.55,0:06:59.20,Cap,,0,0,0,,{\c&H0048D98A&}I'll have someone read them to me.
+Dialogue: 0,0:06:59.34,0:07:01.84,Cap,,0,0,0,,{\c&H00FFFFFF&}Our Opus 5.5 test is right here,
+Dialogue: 0,0:07:01.84,0:07:02.17,Cap,,0,0,0,,{\c&H00FFFFFF&}too.
+Dialogue: 0,0:07:02.25,0:07:03.74,Cap,,0,0,0,,{\c&H00FFFFFF&}It's the one where the cheap model
+Dialogue: 0,0:07:03.74,0:07:04.61,Cap,,0,0,0,,{\c&H00FFFFFF&}skipped its homework.
+Dialogue: 0,0:07:04.75,0:07:05.21,Cap,,0,0,0,,{\c&H0048D98A&}Me?
+Dialogue: 0,0:07:05.31,0:07:06.84,Cap,,0,0,0,,{\c&H0048D98A&}I didn't watch either video.
+Dialogue: 0,0:07:06.92,0:07:08.53,Cap,,0,0,0,,{\c&H0048D98A&}That's what the judge is for.

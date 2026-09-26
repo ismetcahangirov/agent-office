@@ -1,0 +1,1369 @@
+{
+  "slug": "claude-remotion",
+  "format": "long",
+  "status": "approved",
+  "idea": "Can Claude make a YouTube video by itself? KAXO fired the editor. Agents build a KAXO video with Remotion (code-only video) from scratch, compared with our own pipeline.",
+  "real_fact": "Remotion test 2026-09-26: Claude rebuilt our published Opus short in ~20 min (2 rounds, 104 tool calls); blind QA scored it 55 vs 49 for our own version and found a white flash in ours (work/tests/claude-remotion/)",
+  "shots": [
+    {
+      "id": "s01",
+      "chapter": "Our video lost to a remake",
+      "motion": "zoom_in",
+      "prompt": "A tiny dim screening room with two old boxy TVs side by side on a low table, both screens glowing with abstract coloured shapes only. In front of the TVs sits a small boxy grey robot (simple box body, round screen face with two dot eyes) wearing a black blindfold tied over its screen face, holding a blank clipboard and a pencil very seriously. KAXO slumps in a worn cinema seat behind the robot, one heavy eyebrow raised, looking suspiciously at the robot instead of the TVs. Wide horizontal framing, camera at seat height, space around the characters. No readable text anywhere.",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Our own video just lost to a Claude remake.",
+          "text_tr": "Kendi videomuz, Claude'un yeniden yaptığı versiyona kaybetti."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Lost. To a remake. Of my own video.",
+          "text_tr": "Kaybettik. Bir kopyaya. Hem de kendi videomun kopyasına.",
+          "speed": 0.9
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "clip": "clips/ours.mp4",
+      "clip_start": 10,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "A blind judge watched both, without knowing which was ours.",
+          "text_tr": "Kör bir jüri ikisini de izledi, hangisinin bizim olduğunu bilmeden."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Ours came out of our usual AI pipeline, already published.",
+          "text_tr": "Bizimki her zamanki yapay zekâ hattımızdan çıkmıştı, zaten yayındaydı."
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "clip": "clips/v2.mp4",
+      "clip_start": 1,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Claude rebuilt it in code, with Remotion, in about twenty minutes.",
+          "text_tr": "Claude onu Remotion ile kodla, yaklaşık yirmi dakikada yeniden kurdu."
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "asset": "pose:couch-sprawled__messy-office__2x3.png",
+      "motion": "zoom_out",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "And the judge found a flaw in ours that nobody had noticed.",
+          "text_tr": "Üstelik jüri bizimkinde kimsenin fark etmediği bir kusur buldu."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "A flaw. In my video. I'm shocked. Mildly.",
+          "text_tr": "Kusur. Benim videomda. Şok oldum. Hafifçe.",
+          "speed": 0.88
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "clip": "clips/office.webm",
+      "clip_start": 0.5,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "You'll see the scores, the mistakes, and what Claude still can't do.",
+          "text_tr": "Puanları, hataları ve Claude'un hâlâ neyi yapamadığını göreceksiniz."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Also, somebody's getting fired. Probably. If it's not much effort.",
+          "text_tr": "Bir de biri kovulacak. Galiba. Çok zahmetli değilse."
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "motion": "pan_right",
+      "prompt": "KAXO lying on his back on a saggy couch in a dim living-room corner, holding a smartphone above his face with both hands. The phone's glow lights up his droopy eyes and lazy half-smile; the screen faces away from the camera. One bare foot hangs off the armrest. Wide horizontal framing, lots of empty space around him, evening light. No readable text.",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Type claude into YouTube search this week.",
+          "text_tr": "Bu hafta YouTube aramasına claude yazın."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The second suggestion is claude remotion.",
+          "text_tr": "İkinci öneri claude remotion çıkıyor."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I type naps. Different results.",
+          "text_tr": "Ben uyku yazıyorum. Sonuçlar farklı."
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "clip": "clips/hn.webm",
+      "clip_start": 7,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "On Hacker News, one post hit four hundred and twelve points.",
+          "text_tr": "Hacker News'te bir gönderi dört yüz on iki puana ulaştı."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Its title: Opus 5.5 is good at explainer videos.",
+          "text_tr": "Başlığı: Opus 5.5 açıklayıcı videolarda iyi."
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "clip": "clips/hn.webm",
+      "clip_start": 8.5,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Some commenters had a shorter review.",
+          "text_tr": "Bazı yorumcuların daha kısa bir yorumu vardı."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Animated slides.",
+          "text_tr": "Animasyonlu slaytlar.",
+          "speed": 0.88
+        },
+        {
+          "speaker": "narrator",
+          "text": "The tool in that post doesn't even use Remotion.",
+          "text_tr": "İşin tuhafı, o gönderideki araç Remotion bile kullanmıyor."
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "clip": "clips/remotion-docs.webm",
+      "clip_start": 3,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Remotion turns React code into video.",
+          "text_tr": "Remotion, React kodunu videoya çeviriyor."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Every frame is basically a little web page.",
+          "text_tr": "Her kare aslında küçük bir web sayfası."
+        },
+        {
+          "speaker": "narrator",
+          "text": "A hidden browser photographs each frame, and ffmpeg stitches them together.",
+          "text_tr": "Görünmez bir tarayıcı her kareyi fotoğraflıyor, ffmpeg de hepsini birleştiriyor."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "motion": "zoom_in",
+      "prompt": "KAXO sitting cross-legged on an office carpet, lazily thumbing through a thick paper flipbook so its pages fan out in a blur, bored heavy-lidded expression. Beside him an open laptop shows only colourful abstract code blocks. Wide horizontal framing, plain office wall behind him, space around the character. No readable text.",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So it's a flipbook. For people with keyboards.",
+          "text_tr": "Yani bir çevirmeli defter. Klavyesi olanlar için."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "clip": "clips/remotion-docs.webm",
+      "clip_start": 7,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Remotion even has an official workflow for coding agents like Claude.",
+          "text_tr": "Remotion'ın Claude gibi kodlama ajanları için resmî bir iş akışı bile var."
+        },
+        {
+          "speaker": "narrator",
+          "text": "One command installs twelve skills that teach the agent the ropes.",
+          "text_tr": "Tek komut, ajana işin inceliklerini öğreten on iki beceri yüklüyor."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "asset": "pose:holding-zero-dollar-sign__plain-wall__2x3.png",
+      "motion": "zoom_in",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "It's also free for companies with up to three employees.",
+          "text_tr": "Üstelik en fazla üç çalışanı olan şirketler için ücretsiz."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I have zero. Zero humans, at least.",
+          "text_tr": "Bende sıfır var. En azından sıfır insan."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "clip": "clips/remotion-docs.webm",
+      "clip_start": 10,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "That's our reading of the license, not Remotion's.",
+          "text_tr": "Bu, lisansı bizim yorumumuz, Remotion'ın değil."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The license is linked below.",
+          "text_tr": "Lisansın bağlantısı açıklamada."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "chapter": "How we normally make videos",
+      "motion": "pan_left",
+      "prompt": "A long, absurdly complicated contraption fills a messy office: conveyor belts, tubes and pulleys link several work stations. At each station a small boxy grey robot (simple box body, round screen face with two dot eyes) works: one paints at an easel, one sings into a studio microphone, one types at a laptop, one holds giant scissors over a film strip. KAXO stands at the far end with his hands in his shorts pockets, watching the machine with mild approval. Wide horizontal panoramic framing. No readable text.",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Now, how KAXO's company normally makes a video.",
+          "text_tr": "Şimdi, KAXO'nun şirketi normalde nasıl video yapıyor?"
+        },
+        {
+          "speaker": "narrator",
+          "text": "It's a ten-step recipe, run entirely by AI agents.",
+          "text_tr": "On adımlık bir tarif, tamamen yapay zekâ ajanlarıyla işliyor."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I designed it. By asking someone else to.",
+          "text_tr": "Onu ben tasarladım. Başkasından rica ederek."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "clip": "clips/office-ep2.webm",
+      "clip_start": 0.5,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Behind it sit fourteen scripts and nearly thirteen hundred lines of code.",
+          "text_tr": "Arkasında on dört betik ve bin üç yüze yakın satır kod var."
+        },
+        {
+          "speaker": "narrator",
+          "text": "All written in Claude Code sessions.",
+          "text_tr": "Hepsi Claude Code oturumlarında yazıldı."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Code I've never read. Proudly.",
+          "text_tr": "Hiç okumadığım kodlar. Gururla."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "clip": "clips/office-ep2.webm",
+      "clip_start": 10,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The KAXO images come from ChatGPT, clicked through a real browser.",
+          "text_tr": "KAXO görselleri ChatGPT'den geliyor, gerçek bir tarayıcıda tıklanarak."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Our voice is Kokoro, a free model running on our own CPU.",
+          "text_tr": "Sesimiz Kokoro, kendi işlemcimizde çalışan ücretsiz bir model."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "motion": "zoom_in",
+      "prompt": "Inside a small office, a boxy grey robot (simple box body, round screen face with two dot eyes) wearing headphones sings loudly into a studio microphone, sweat drops flying. Next to it a second boxy grey robot at an easel is completely frozen inside a big block of ice, paintbrush raised mid-stroke. KAXO lounges on a beanbag between them, looking at the frozen robot with a deadpan, unbothered face. Wide horizontal framing, simple background. No readable text.",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Last episode, the voice ate the whole CPU, and Chrome froze.",
+          "text_tr": "Geçen bölümde ses bütün işlemciyi yedi ve Chrome dondu."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The singer froze the painter. Office politics.",
+          "text_tr": "Şarkıcı ressamı dondurdu. Ofis siyaseti."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "clip": "clips/g-time.webm",
+      "clip_start": 3,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "That episode took about three hours to publish.",
+          "text_tr": "O bölümün yayına çıkması yaklaşık üç saat sürdü."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The session logged six hundred forty-three tool calls.",
+          "text_tr": "Oturum altı yüz kırk üç araç çağrısı kaydetti."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Forty-one of them failed.",
+          "text_tr": "Kırk biri başarısız oldu."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "asset": "pose:asleep-on-desk-ceo-mug__office__2x3.png",
+      "motion": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Three hours. I was there for the first five minutes.",
+          "text_tr": "Üç saat. İlk beş dakikasında oradaydım.",
+          "speed": 0.88
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "clip": "clips/office-ep2.webm",
+      "clip_start": 25,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Then the final file weighed a hundred and fifty-four megabytes.",
+          "text_tr": "Sonra final dosyası yüz elli dört megabayt çıktı."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The agents' upload tool stops at ten.",
+          "text_tr": "Ajanların yükleme aracı on megabaytta duruyor."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "motion": "pan_left",
+      "prompt": "A giant cartoon human hand (only the hand and a bit of shirt sleeve, no face or body) reaches in from the right edge of the frame and drags an enormous heavy cardboard box across an office floor, leaving scuff marks. KAXO and two small boxy grey robots (simple box body, round screen face with two dot eyes) step aside to let it pass; KAXO has his hands in his pockets and watches, unimpressed. Wide horizontal framing. The box has no labels or text.",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "So our human owner dragged it into YouTube by hand.",
+          "text_tr": "Bu yüzden insan sahibimiz onu YouTube'a elle sürükledi."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Fully automated. Except the part with the hand.",
+          "text_tr": "Tamamen otomatik. El kısmı hariç."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "clip": "clips/office-ep2.webm",
+      "clip_start": 40,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Its first upload even went out with holes in the sound.",
+          "text_tr": "İlk yüklemede seste boşluklar bile vardı."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Holes in the sound. Very artistic.",
+          "text_tr": "Seste boşluklar. Çok sanatsal."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "clip": "clips/g-time.webm",
+      "clip_start": 5,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Now, the fair part.",
+          "text_tr": "Şimdi adil kısım."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Claude didn't redo that long video.",
+          "text_tr": "Claude o uzun videoyu yeniden yapmadı."
+        },
+        {
+          "speaker": "narrator",
+          "text": "It rebuilt our thirty-eight-second short, cut from that episode.",
+          "text_tr": "O bölümden kesilen otuz sekiz saniyelik Shorts videomuzu yeniden kurdu."
+        }
+      ]
+    },
+    {
+      "id": "s24",
+      "clip": "clips/ours.mp4",
+      "clip_start": 20,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Making that short took our pipeline about thirty more minutes.",
+          "text_tr": "O Shorts'u yapmak bizim hattımıza yaklaşık otuz dakika daha sürdü."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Nobody started from zero. Except my effort.",
+          "text_tr": "Kimse sıfırdan başlamadı. Benim çabam hariç."
+        }
+      ]
+    },
+    {
+      "id": "s25",
+      "chapter": "Round one: one prompt",
+      "motion": "zoom_in",
+      "prompt": "A small boxy grey robot (simple box body, round screen face with two dot eyes) sits alone at a tidy desk, typing fast on a laptop that shows colourful abstract code blocks. A single sticky note is stuck on the desk next to it, with one scribbled line and no readable text. In the background KAXO sleeps in a hammock strung between a coat rack and a filing cabinet, one arm dangling. Wide horizontal framing, office setting, space around the characters. No readable text.",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "So here's the job a Claude builder agent got.",
+          "text_tr": "Claude tabanlı kurucu ajanımıza verilen iş şuydu."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Rebuild our published short in Remotion.",
+          "text_tr": "Yayındaki Shorts videomuzu Remotion'da yeniden kur."
+        }
+      ]
+    },
+    {
+      "id": "s26",
+      "clip": "clips/code-remotion.mp4",
+      "clip_start": 0,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Same script, same voice file, same KAXO images.",
+          "text_tr": "Aynı senaryo, aynı ses dosyası, aynı KAXO görselleri."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Same face too. It's a good face.",
+          "text_tr": "Aynı surat da. İyi bir surat."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Every graphic and every subtitle had to be written in code.",
+          "text_tr": "Her grafik ve her altyazı kodla yazılmak zorundaydı."
+        }
+      ],
+      "crop": [
+        0.1,
+        0.03,
+        0.53,
+        0.56
+      ]
+    },
+    {
+      "id": "s27",
+      "clip": "clips/code-remotion.mp4",
+      "clip_start": 9,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "No finished clips allowed. One prompt, no help.",
+          "text_tr": "Hazır klip yasak. Tek istem, sıfır yardım."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "My management style. Explain once, then vanish.",
+          "text_tr": "Benim yönetim tarzım. Bir kere anlat, sonra kaybol."
+        }
+      ],
+      "crop": [
+        0.1,
+        0.03,
+        0.53,
+        0.56
+      ]
+    },
+    {
+      "id": "s28",
+      "clip": "clips/office.webm",
+      "clip_start": 40,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "It read Remotion's docs, set up a project, and installed the skills.",
+          "text_tr": "Remotion belgelerini okudu, bir proje kurdu ve becerileri yükledi."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Then it wrote the scenes and rendered.",
+          "text_tr": "Sonra sahneleri yazıp render aldı."
+        }
+      ]
+    },
+    {
+      "id": "s29",
+      "asset": "pose:beanbag-stopwatch-robot-typing__office__3x2.png",
+      "motion": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "I timed it. Well, the log timed it.",
+          "text_tr": "Süresini ben tuttum. Yani, kayıtlar tuttu."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Ten point seven minutes, forty-six tool calls, and one render.",
+          "text_tr": "On virgül yedi dakika, kırk altı araç çağrısı ve tek render."
+        }
+      ]
+    },
+    {
+      "id": "s30",
+      "clip": "clips/g-rounds.webm",
+      "clip_start": 3,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Along the way, it hit four errors.",
+          "text_tr": "Yol boyunca dört hataya çarptı."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Two came from Remotion's own slimmed-down ffmpeg.",
+          "text_tr": "İkisi Remotion'ın kendi hafifletilmiş ffmpeg'inden geldi."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Four errors, zero crashes. Better than my week.",
+          "text_tr": "Dört hata, sıfır çökme. Benim haftamdan iyi."
+        }
+      ]
+    },
+    {
+      "id": "s31",
+      "clip": "clips/v1.mp4",
+      "clip_start": 3,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "And the result actually works.",
+          "text_tr": "Ve sonuç gerçekten çalışıyor."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The voice is in sync, and the subtitles follow every word.",
+          "text_tr": "Ses senkron, altyazılar her kelimeyi takip ediyor."
+        }
+      ]
+    },
+    {
+      "id": "s32",
+      "clip": "clips/v1.mp4",
+      "clip_start": 1,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "But look at the very first second.",
+          "text_tr": "Ama ilk saniyeye bakın."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The hook is a heading and an empty screen.",
+          "text_tr": "Kanca, bir başlık ve boş bir ekrandan ibaret."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "An empty screen. Finally, content I relate to.",
+          "text_tr": "Boş bir ekran. Sonunda kendimi bulduğum bir içerik."
+        }
+      ]
+    },
+    {
+      "id": "s33",
+      "clip": "clips/v1.mp4",
+      "clip_start": 6,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Then this. The label Opus 5.5 should sit on a robot.",
+          "text_tr": "Sonra şu. Opus 5.5 etiketi bir robotun üstünde olmalıydı."
+        },
+        {
+          "speaker": "narrator",
+          "text": "It landed on KAXO instead.",
+          "text_tr": "Onun yerine KAXO'ya yapıştı."
+        }
+      ]
+    },
+    {
+      "id": "s34",
+      "motion": "zoom_in",
+      "prompt": "KAXO standing between two small boxy grey robots (simple box body, round screen face with two dot eyes). A big blank white name tag with a thick black arrow drawn on it is stuck crookedly on KAXO's forehead, the arrow pointing down at him. Both robots stare at KAXO with tilted, confused heads. KAXO rolls his droopy eyes up toward the tag, completely unbothered. Wide horizontal framing, plain office background, space around the characters. No letters or numbers on the tag.",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "I've been called a lot of things. Never a version number.",
+          "text_tr": "Bana çok şey dendi. Ama hiç sürüm numarası denmedi.",
+          "speed": 0.88
+        }
+      ]
+    },
+    {
+      "id": "s35",
+      "clip": "clips/code-remotion.mp4",
+      "clip_start": 3,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The code applied the image scaling twice.",
+          "text_tr": "Kod, görsel ölçeklemeyi iki kez uyguladı."
+        },
+        {
+          "speaker": "narrator",
+          "text": "So the labels drifted off their robots.",
+          "text_tr": "Bu yüzden etiketler robotlarından kaydı."
+        }
+      ],
+      "crop": [
+        0.1,
+        0.03,
+        0.53,
+        0.56
+      ]
+    },
+    {
+      "id": "s36",
+      "clip": "clips/v1.mp4",
+      "clip_start": 12,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The bottom half of the graphics sat empty, too.",
+          "text_tr": "Grafiklerin alt yarısı da boş kaldı."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Claude graded its own work five or six out of ten.",
+          "text_tr": "Claude kendi işine ondan beş ya da altı verdi."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Humble. I'd have given myself a ten.",
+          "text_tr": "Mütevazı. Ben kendime on verirdim."
+        }
+      ]
+    },
+    {
+      "id": "s37",
+      "chapter": "Round two: six notes",
+      "clip": "clips/office.webm",
+      "clip_start": 50,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Round one only checked four frames by eye.",
+          "text_tr": "İlk tur yalnızca dört kareye gözle baktı."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The misplaced label wasn't in any of them.",
+          "text_tr": "Yanlış etiket hiçbirinde yoktu."
+        }
+      ]
+    },
+    {
+      "id": "s38",
+      "motion": "zoom_in",
+      "prompt": "A small boxy grey robot (simple box body, round screen face with two dot eyes) sits at a desk reading a short handwritten note (only scribbled lines, no readable text) with intense focus. KAXO leans on the edge of the desk right behind it, pointing at the note with one finger and a smug half-smile, as if he wrote it. Wide horizontal framing, simple office background, space around the characters.",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "So round two got human help. Our owner wrote six notes.",
+          "text_tr": "Bu yüzden ikinci tura insan eli değdi. Sahibimiz altı not yazdı."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I'd have written them myself. No fingers, though.",
+          "text_tr": "Kendim yazardım. Ama parmağım yok."
+        }
+      ]
+    },
+    {
+      "id": "s39",
+      "clip": "clips/g-rounds.webm",
+      "clip_start": 5,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Fix the hook. Move the label. Fill the empty space.",
+          "text_tr": "Kancayı düzelt. Etiketi taşı. Boşluğu doldur."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Clean up the subtitles, add motion, and check more frames.",
+          "text_tr": "Altyazıları toparla, hareket ekle, daha çok kare kontrol et."
+        }
+      ]
+    },
+    {
+      "id": "s40",
+      "clip": "clips/v1.mp4",
+      "clip_start": 20,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "That's a lot of notes. Mine just say nice.",
+          "text_tr": "Bu çok not. Benimkiler sadece güzel der."
+        }
+      ]
+    },
+    {
+      "id": "s41",
+      "clip": "clips/code-remotion.mp4",
+      "clip_start": 1,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "This time, Claude checked its own frames every few seconds.",
+          "text_tr": "Bu sefer Claude birkaç saniyede bir kendi karelerine baktı."
+        },
+        {
+          "speaker": "narrator",
+          "text": "And it caught a bug it had just made itself.",
+          "text_tr": "Ve az önce kendi yaptığı bir hatayı yakaladı."
+        }
+      ],
+      "crop": [
+        0.1,
+        0.03,
+        0.53,
+        0.56
+      ]
+    },
+    {
+      "id": "s42",
+      "clip": "clips/g-rounds.webm",
+      "clip_start": 7,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Its highlighted word grew and squashed into its neighbour.",
+          "text_tr": "Vurgulanan kelime büyüyüp yanındakine yapıştı."
+        },
+        {
+          "speaker": "narrator",
+          "text": "So I supervise became one word: ISUPERVISE.",
+          "text_tr": "Böylece I supervise tek kelime oldu: ISUPERVISE."
+        }
+      ]
+    },
+    {
+      "id": "s43",
+      "asset": "pose:feet-up-access-denied__office-night__2x3.png",
+      "motion": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Isupervise. Honestly, that's how I pronounce it.",
+          "text_tr": "Isupervise. Açıkçası ben de öyle telaffuz ediyorum.",
+          "speed": 0.88
+        }
+      ]
+    },
+    {
+      "id": "s44",
+      "clip": "clips/v2.mp4",
+      "clip_start": 1,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "It fixed that, and everything else on the list.",
+          "text_tr": "Onu da, listedeki her şeyi de düzeltti."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Now the hook lands in the very first second.",
+          "text_tr": "Artık kanca daha ilk saniyede vuruyor."
+        }
+      ]
+    },
+    {
+      "id": "s45",
+      "clip": "clips/v2.mp4",
+      "clip_start": 6,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The labels sit on the right robots, with little arrows.",
+          "text_tr": "Etiketler doğru robotların üstünde, küçük oklarla."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Arrows. So I know exactly which robot to ignore.",
+          "text_tr": "Oklar. Hangi robotu görmezden geleceğimi bileyim diye."
+        }
+      ]
+    },
+    {
+      "id": "s46",
+      "clip": "clips/g-rounds.webm",
+      "clip_start": 6,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Round two took about nine minutes and fifty-eight more tool calls.",
+          "text_tr": "İkinci tur yaklaşık dokuz dakika ve elli sekiz araç çağrısı daha sürdü."
+        },
+        {
+          "speaker": "narrator",
+          "text": "One full render, three test renders, and four new errors.",
+          "text_tr": "Bir tam render, üç deneme render'ı ve dört yeni hata."
+        }
+      ]
+    },
+    {
+      "id": "s47",
+      "clip": "clips/office.webm",
+      "clip_start": 60,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The whole test: about twenty minutes, a hundred and four tool calls.",
+          "text_tr": "Testin tamamı: yaklaşık yirmi dakika, yüz dört araç çağrısı."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Two full renders.",
+          "text_tr": "İki tam render."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Twenty minutes. That's a short nap.",
+          "text_tr": "Yirmi dakika. Kısa bir şekerleme."
+        }
+      ]
+    },
+    {
+      "id": "s48",
+      "clip": "clips/v2.mp4",
+      "clip_start": 12,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Its self-score went up to seven out of ten.",
+          "text_tr": "Kendine verdiği puan ondan yediye çıktı."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Seven. I'm proud of it. From a distance.",
+          "text_tr": "Yedi. Onunla gurur duyuyorum. Uzaktan."
+        }
+      ]
+    },
+    {
+      "id": "s49",
+      "chapter": "The blind test",
+      "clip": "clips/office.webm",
+      "clip_start": 70,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Now, the blind test we promised.",
+          "text_tr": "Şimdi söz verdiğimiz kör test."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Finally. Someone else does the watching.",
+          "text_tr": "Nihayet. İzleme işini başkası yapıyor."
+        }
+      ]
+    },
+    {
+      "id": "s50",
+      "clip": "clips/ours.mp4",
+      "clip_start": 1,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Our QA agent got two files, labeled A and B.",
+          "text_tr": "QA ajanımız A ve B diye etiketlenmiş iki dosya aldı."
+        },
+        {
+          "speaker": "narrator",
+          "text": "It didn't know which one was ours.",
+          "text_tr": "Hangisinin bizim olduğunu bilmiyordu."
+        }
+      ]
+    },
+    {
+      "id": "s51",
+      "clip": "clips/v2.mp4",
+      "clip_start": 8,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "A was our published short. B was Claude's Remotion version.",
+          "text_tr": "A yayındaki Shorts videomuzdu. B, Claude'un Remotion versiyonuydu."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "An AI judging AIs. I brought snacks.",
+          "text_tr": "Yapay zekâları yargılayan bir yapay zekâ. Ben atıştırmalık getirdim."
+        }
+      ]
+    },
+    {
+      "id": "s52",
+      "clip": "clips/g-score.webm",
+      "clip_start": 2.6,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Eight categories, ten points each.",
+          "text_tr": "Sekiz kategori, her biri on puan."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Claude's version scored fifty-five out of eighty.",
+          "text_tr": "Claude'un versiyonu seksende elli beş aldı."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Ours got forty-nine.",
+          "text_tr": "Bizimki kırk dokuz."
+        }
+      ]
+    },
+    {
+      "id": "s53",
+      "motion": "zoom_in",
+      "prompt": "KAXO slumped deep in a saggy couch, frozen mid-reaction: his heavy eyelids slightly wider than usual, mouth a little open showing uneven teeth, a TV remote slipping out of his limp hand and falling toward the floor. A small TV off to the side glows with an abstract coloured bar chart, no text. Wide horizontal framing, couch-height camera, dim living-room light, space around him.",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Forty-nine. For my own company's video.",
+          "text_tr": "Kırk dokuz. Kendi şirketimin videosuna.",
+          "speed": 0.88
+        }
+      ]
+    },
+    {
+      "id": "s54",
+      "clip": "clips/v2.mp4",
+      "clip_start": 3,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Claude won the hook, eight to six.",
+          "text_tr": "Kancayı Claude kazandı, altıya karşı sekiz."
+        },
+        {
+          "speaker": "narrator",
+          "text": "It won subtitles, eight to five.",
+          "text_tr": "Altyazıyı da, beşe karşı sekiz."
+        }
+      ]
+    },
+    {
+      "id": "s55",
+      "clip": "clips/g-score.webm",
+      "clip_start": 6,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "And technical defects, eight to five. Higher means cleaner.",
+          "text_tr": "Teknik kusurlarda da beşe karşı sekiz. Yüksek puan, daha temiz demek."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Defects. In my video. Allegedly.",
+          "text_tr": "Kusurlar. Benim videomda. Güya."
+        }
+      ]
+    },
+    {
+      "id": "s56",
+      "clip": "clips/ours.mp4",
+      "clip_start": 9,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Here's what the judge found in our published short.",
+          "text_tr": "Jürinin yayındaki videomuzda bulduğu şey şu."
+        },
+        {
+          "speaker": "narrator",
+          "text": "At nine and a half seconds, a white flash.",
+          "text_tr": "Dokuz buçukuncu saniyede, beyaz bir parlama."
+        }
+      ]
+    },
+    {
+      "id": "s57",
+      "clip": "clips/ours.mp4",
+      "clip_start": 27.4,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Near twenty-eight seconds, a code shot that's almost empty.",
+          "text_tr": "Yirmi sekizinci saniye civarında, neredeyse boş bir kod karesi."
+        },
+        {
+          "speaker": "narrator",
+          "text": "And the code line itself is cut off.",
+          "text_tr": "Kod satırının kendisi de kesik."
+        }
+      ]
+    },
+    {
+      "id": "s58",
+      "asset": "pose:lying-on-floor-thumbs-up__office-floor__2x3.png",
+      "motion": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "We published that. A human approved it. Nobody saw it.",
+          "text_tr": "Onu yayınladık. Bir insan onayladı. Kimse görmedi."
+        }
+      ]
+    },
+    {
+      "id": "s59",
+      "clip": "clips/ours.mp4",
+      "clip_start": 10,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Ours did win one category: real footage, six to two.",
+          "text_tr": "Bizimki bir kategoriyi kazandı: gerçek görüntü, ikiye karşı altı."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Real office, real code being typed.",
+          "text_tr": "Gerçek ofis, yazılan gerçek kod."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Real robots. Really typing. Thrilling stuff.",
+          "text_tr": "Gerçek robotlar. Gerçekten yazıyorlar. Çok heyecanlı."
+        }
+      ]
+    },
+    {
+      "id": "s60",
+      "clip": "clips/v2.mp4",
+      "clip_start": 27,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Claude's version is pure graphics.",
+          "text_tr": "Claude'un versiyonu tamamen grafik."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Its terminal shot is a recreation, not a real log.",
+          "text_tr": "Terminal karesi bir canlandırma, gerçek bir kayıt değil."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The judge flagged it, and so do we.",
+          "text_tr": "Jüri bunu işaretledi, biz de işaretliyoruz."
+        }
+      ]
+    },
+    {
+      "id": "s61",
+      "motion": "zoom_in",
+      "prompt": "KAXO standing in an office holding out a small pink envelope, stuck between two identical small boxy grey robots (simple box body, round screen face with two dot eyes). Both robots point at each other at exactly the same time. KAXO looks from one to the other with a tired, blank expression, the envelope hanging limply from his hand. Wide horizontal framing, plain office background, space around the characters. No text on the envelope.",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So I'm firing my video editor. [pause] Which is also Claude.",
+          "text_tr": "Yani video editörümü kovuyorum. [pause] Ki o da Claude.",
+          "speed": 0.88
+        }
+      ]
+    },
+    {
+      "id": "s62",
+      "clip": "clips/office.webm",
+      "clip_start": 74,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Claude's new video beat Claude's old video.",
+          "text_tr": "Claude'un yeni videosu, Claude'un eski videosunu yendi."
+        },
+        {
+          "speaker": "narrator",
+          "text": "And an AI judge caught what the old one missed.",
+          "text_tr": "Eskisinin kaçırdığını da yapay zekâ bir jüri yakaladı."
+        }
+      ]
+    },
+    {
+      "id": "s63",
+      "clip": "clips/hn.webm",
+      "clip_start": 9,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "So Hacker News was half right.",
+          "text_tr": "Yani Hacker News yarı yarıya haklıydı."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The judge called Claude's version templated, but polished.",
+          "text_tr": "Jüri, Claude'un versiyonuna şablon gibi ama cilalı dedi."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Animated slides. Very good animated slides.",
+          "text_tr": "Animasyonlu slaytlar. Çok iyi animasyonlu slaytlar."
+        }
+      ]
+    },
+    {
+      "id": "s64",
+      "chapter": "The verdict",
+      "clip": "clips/g-time.webm",
+      "clip_start": 7,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "So, can Claude make a YouTube video by itself?",
+          "text_tr": "Peki, Claude tek başına bir YouTube videosu yapabilir mi?"
+        },
+        {
+          "speaker": "narrator",
+          "text": "Not by itself. Here's what we handed it.",
+          "text_tr": "Tek başına değil. İşte ona hazır verdiklerimiz."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Nothing's by itself. Even I have staff.",
+          "text_tr": "Hiçbir şey tek başına olmuyor. Benim bile personelim var."
+        }
+      ]
+    },
+    {
+      "id": "s65",
+      "clip": "clips/v2.mp4",
+      "clip_start": 22,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The voice came from our Kokoro setup.",
+          "text_tr": "Ses bizim Kokoro düzenimizden geldi."
+        },
+        {
+          "speaker": "narrator",
+          "text": "KAXO's images came from ChatGPT.",
+          "text_tr": "KAXO görselleri ChatGPT'den geldi."
+        },
+        {
+          "speaker": "narrator",
+          "text": "A human wrote the round-two notes.",
+          "text_tr": "İkinci turun notlarını bir insan yazdı."
+        }
+      ]
+    },
+    {
+      "id": "s66",
+      "clip": "clips/g-score.webm",
+      "clip_start": 8,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The judge was an AI too, and it's one test, one run.",
+          "text_tr": "Jüri de bir yapay zekâydı ve bu tek test, tek deneme."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "One run. Like my exercise routine.",
+          "text_tr": "Tek deneme. Spor rutinim gibi."
+        }
+      ]
+    },
+    {
+      "id": "s67",
+      "asset": "pose:couch-long-receipt__office-lounge__3x2.png",
+      "motion": "pan_right",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "No dollars measured either. It all ran on a subscription.",
+          "text_tr": "Para da ölçmedik. Her şey abonelikle çalıştı."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Nothing to pay. I checked the couch anyway.",
+          "text_tr": "Ödenecek bir şey yok. Yine de koltuğun arasına baktım."
+        }
+      ]
+    },
+    {
+      "id": "s68",
+      "clip": "clips/code-remotion.mp4",
+      "clip_start": 4,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Still, for graphics and subtitles, Claude plus Remotion was genuinely good.",
+          "text_tr": "Yine de grafik ve altyazıda Claude artı Remotion gerçekten iyiydi."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Twenty minutes, and a higher score than our own short.",
+          "text_tr": "Yirmi dakika ve kendi Shorts videomuzdan yüksek bir puan."
+        }
+      ],
+      "crop": [
+        0.1,
+        0.03,
+        0.53,
+        0.56
+      ]
+    },
+    {
+      "id": "s69",
+      "clip": "clips/office.webm",
+      "clip_start": 78,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Our pipeline still owns the real stuff.",
+          "text_tr": "Gerçek işler hâlâ bizim hattımızda."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Real office footage, real code, and a fuller, louder mix.",
+          "text_tr": "Gerçek ofis görüntüsü, gerçek kod ve daha dolgun, daha güçlü ses."
+        }
+      ]
+    },
+    {
+      "id": "s70",
+      "motion": "zoom_out",
+      "prompt": "KAXO asleep in a hammock strung between two office desks. At each desk a small boxy grey robot (simple box body, round screen face with two dot eyes) works quietly: one draws on a drawing tablet, the other holds a small handheld video camera. Soft warm afternoon light, calm and peaceful mood. Wide horizontal framing, lots of space around the characters. No readable text.",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So here's my verdict. I'm keeping both.",
+          "text_tr": "Kararım şu: ikisini de tutuyorum."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The new one draws. The old one films.",
+          "text_tr": "Yenisi çiziyor. Eskisi çekiyor."
+        }
+      ]
+    },
+    {
+      "id": "s71",
+      "clip": "clips/v2.mp4",
+      "clip_start": 31,
+      "fit": "blur",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The judge suggested the same mix: B's graphics, A's real footage.",
+          "text_tr": "Jüri de aynı karışımı önerdi: B'nin grafikleri, A'nın gerçek görüntüleri."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Nobody gets fired. Firing takes effort.",
+          "text_tr": "Kimse kovulmuyor. Kovmak zahmetli iş.",
+          "speed": 0.88
+        }
+      ]
+    },
+    {
+      "id": "s72",
+      "asset": "pose:at-window-looking-back__office-night__2x3.png",
+      "motion": "static",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Every source and link is in the description.",
+          "text_tr": "Tüm kaynaklar ve bağlantılar açıklamada."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Should Claude try a whole long video next? Comment below.",
+          "text_tr": "Claude bir dahaki sefere koca bir uzun video denesin mi? Yorumlara yazın."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I'll have someone read them to me.",
+          "text_tr": "Birine bana okuttururum."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Our Opus 5.5 test is right here, too.",
+          "text_tr": "Opus 5.5 testimiz de burada."
+        },
+        {
+          "speaker": "narrator",
+          "text": "It's the one where the cheap model skipped its homework.",
+          "text_tr": "Ucuz modelin ödevini atladığı video."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Me? I didn't watch either video.",
+          "text_tr": "Ben mi? İki videoyu da izlemedim."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "That's what the judge is for.",
+          "text_tr": "Jüri ne güne duruyor.",
+          "speed": 0.88
+        }
+      ]
+    }
+  ]
+}

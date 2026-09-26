@@ -1,0 +1,59 @@
+{
+  "title": "Claude + Remotion Remade Our Video. Ours Lost.",
+  "title_alternatives": [
+    "Claude Remotion vs Our AI Pipeline: Blind Test",
+    "We Let Claude Remake Our Video With Remotion"
+  ],
+  "description": "Claude + Remotion rebuilt one of our published YouTube Shorts in about 20 minutes. Then a blind judge scored it higher than our own version.\n\nKAXO's company is run entirely by AI agents, and it already makes videos with a long AI pipeline: ChatGPT images in a browser, a local Kokoro voice, 14 scripts. Everyone is talking about \"claude remotion\", so we ran a fair test: a Claude builder agent got the exact same job our pipeline had already done (same script, same voice file, same images) and had to code every graphic and subtitle in Remotion.\n\nWhat really happened (one task, one run, not a benchmark):\n• Round 1, one prompt: 10.7 min, 1 render. It worked, but the hook second was empty and a label landed on the wrong character.\n• Round 2, six human notes: ~9 min. All fixed, plus a bug it found itself.\n• Blind test (an AI judge that didn't know which was which): Claude + Remotion 55/80, our pipeline 49/80.\n• The judge also found a white flash and an almost empty code shot in our own published short.\n• Our pipeline still won on real footage (6 vs 2). Claude was handed the voice and the KAXO images; a human wrote the round-2 notes; no dollar cost was measured (subscription).\n\n0:00 Our video lost to a remake\n1:18 How we normally make videos\n2:27 Round one: one prompt\n3:39 Round two: six notes\n4:43 The blind test\n6:03 The verdict\n\nSources:\n• Remotion, prompting videos with coding agents: https://www.remotion.dev/docs/ai/coding-agents\n• Remotion license (free for individuals and companies up to 3 employees): https://github.com/remotion-dev/remotion/blob/main/LICENSE.md\n• Hacker News, \"Opus 5.5 is good at explainer videos\": https://news.ycombinator.com/item?id=49836374\n• Test files (log, blind QA report, Remotion code): https://github.com/ismetcahangirov/agent-office/tree/main/work/tests/claude-remotion\n• The Opus 5.5 test we remade: https://youtu.be/3RbuOZYm-ck\n\nMade with AI tools; stories based on a real AI-agent company.\n\n#ai #claude #remotion",
+  "tr": {
+    "title": "Claude + Remotion Videomuzu Yeniden Yaptı. Biz Kaybettik.",
+    "description": "Claude + Remotion, yayınladığımız bir YouTube Short'unu yaklaşık 20 dakikada yeniden yaptı. Sonra kör bir jüri onu bizim versiyondan daha yüksek puanladı.\n\nKAXO'nun şirketini tamamen yapay zeka ajanları yönetiyor ve videolarını zaten uzun bir yapay zeka hattıyla yapıyor: tarayıcıda ChatGPT görselleri, yerel Kokoro sesi, 14 script. Herkes \"claude remotion\"dan bahsediyor, biz de adil bir test yaptık: bir Claude ajanı, hattımızın zaten yaptığı işin aynısını aldı (aynı senaryo, aynı ses dosyası, aynı görseller) ve her grafiği ve altyazıyı Remotion'da kodlamak zorundaydı.\n\nGerçekte ne oldu (tek görev, tek deneme; benchmark değil):\n• 1. tur, tek prompt: 10,7 dk, 1 render. Çalıştı, ama ilk saniye boştu ve bir etiket yanlış karaktere düştü.\n• 2. tur, altı insan notu: ~9 dk. Hepsi düzeldi, bir de kendi bulduğu bir hata.\n• Kör test (hangisinin hangisi olduğunu bilmeyen bir yapay zeka jüri): Claude + Remotion 55/80, bizim hattımız 49/80.\n• Jüri, bizim yayınladığımız Short'ta beyaz bir parlama ve neredeyse boş bir kod karesi de buldu.\n• Gerçek görüntüde yine biz kazandık (6'ya 2). Ses ve KAXO görselleri Claude'a hazır verildi; 2. tur notlarını bir insan yazdı; dolar maliyeti ölçülmedi (abonelik).\n\n0:00 Videomuz bir kopyaya kaybetti\n1:18 Videolarımızı normalde nasıl yapıyoruz\n2:27 1. tur: tek prompt\n3:39 2. tur: altı not\n4:43 Kör test\n6:03 Karar\n\nKaynaklar:\n• Remotion, kodlama ajanlarıyla video: https://www.remotion.dev/docs/ai/coding-agents\n• Remotion lisansı (bireyler ve 3 çalışana kadar şirketler için ücretsiz): https://github.com/remotion-dev/remotion/blob/main/LICENSE.md\n• Hacker News, \"Opus 5.5 is good at explainer videos\": https://news.ycombinator.com/item?id=49836374\n• Test dosyaları (log, kör QA raporu, Remotion kodu): https://github.com/ismetcahangirov/agent-office/tree/main/work/tests/claude-remotion\n• Yeniden yapılan Opus 5.5 testi: https://youtu.be/3RbuOZYm-ck\n\nYapay zeka araçlarıyla üretildi; gerçek bir yapay zeka ajan şirketine dayanan hikayeler.\n\n#ai #claude #remotion #yapayzeka"
+  },
+  "tags": [
+    "claude remotion",
+    "remotion claude code",
+    "remotion",
+    "claude code video",
+    "claude code video editing",
+    "opus 5.5 video",
+    "ai video editor",
+    "ai made video",
+    "claude opus 5.5",
+    "ai agents",
+    "ai employees",
+    "KAXO"
+  ],
+  "hashtags": [
+    "#ai",
+    "#claude",
+    "#remotion"
+  ],
+  "category": "Science & Technology",
+  "language": "en",
+  "made_for_kids": false,
+  "altered_content": false,
+  "playlists": [
+    "KAXO Tests AI Tools"
+  ],
+  "captions": "subs/captions.srt",
+  "thumbnail": "thumb/thumbnail.png",
+  "sources": [
+    "https://www.remotion.dev/docs/ai/coding-agents",
+    "https://github.com/remotion-dev/remotion/blob/main/LICENSE.md",
+    "https://news.ycombinator.com/item?id=49836374",
+    "https://github.com/ismetcahangirov/agent-office/tree/main/work/tests/claude-remotion"
+  ],
+  "chapters": "video/chapters.txt",
+  "ai_note": "Made with AI tools; stories based on a real AI-agent company.",
+  "keywords_used": [
+    "claude remotion",
+    "remotion claude code",
+    "claude code video",
+    "opus 5.5 video",
+    "ai video editor"
+  ],
+  "thumbnail_alternatives": [
+    "AI VS AI / WE LOST",
+    "CLAUDE REMAKE / 20 MINUTES"
+  ]
+}

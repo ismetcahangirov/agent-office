@@ -8,7 +8,7 @@ description: AI gündəmini izləyir - yeni modellər, alətlər, buraxılışla
 **Əvvəlcə oxu:** `content/RULES.md` §13 (gündəm qaydaları), `content/ideas.md`, ən son `content/news/*.md` (təkrar yazmamaq üçün), `content/published.md`.
 
 ## 1. Toplama (2 `researcher` agenti, eyni mesajda)
-Hər ikisi son **72 saata** baxır (sahib başqa aralıq deyibsə, o aralığa). Hər xəbər üçün: başlıq, tarix, **birinci mənbə URL-i**, 1 cümləlik "nə dəyişdi".
+Hər ikisi yalnız son **24 saata** baxır (sahib başqa aralıq deyibsə, o aralığa). Pəncərədən kənar xəbər cədvələ girmir; ən çox "pəncərədən kənar" sətrində bir sözlə qeyd olunur. Dünənki gündəmdə olan xəbər yalnız yeni rəsmi inkişaf varsa təkrarlanır. Hər xəbər üçün: başlıq, tarix, **birinci mənbə URL-i**, 1 cümləlik "nə dəyişdi".
 
 - **A. Rəsmi mənbələr (birinci mənbə):**
   - Anthropic news, OpenAI blog, Google DeepMind / Google AI blog, Meta AI, Mistral, xAI, DeepSeek, Qwen, Microsoft AI, Apple ML, NVIDIA;
@@ -25,6 +25,7 @@ Hər ikisi son **72 saata** baxır (sahib başqa aralıq deyibsə, o aralığa).
 ## 2. Yoxlama (CEO)
 - Hər xəbərin **birinci mənbəyi** olmalıdır: rəsmi blog, sənəd, repo. Yalnız sosial media və ya şayiə varsa, xəbər "təsdiqlənməyib" kimi işarələnir və kontentə **girmir**.
 - Tarix yoxlanılır: köhnə xəbər yeni kimi təqdim olunmur. **Tarixi WebFetch xülasəsindən götürmə** (Framer/Next saytlarında `page-optimized-at`, `released-at` kimi texniki vaxtları dərc tarixi kimi oxuyur; Jev 2026-09-15 idi, 09-25 kimi yazılmışdı). Səhifədə görünən tarixə və ya mənbə kodundakı `datePublished`/`"date"` sahəsinə bax: `curl -sL <url> | grep -oE '(datePublished|"date")[^,]{0,40}'`.
+- **Hadisənin tarixi ≠ məqalənin tarixi.** Hesabat, analiz, "revealing the details" tipli yazılarda hadisənin özünün ilk nə vaxt açıqlandığını ayrıca axtar (`WebSearch "<hadisə> <ay il>"`, Wikipedia). Köhnə hadisəyə dair yeni detal news flash deyil, evergreen olur (2026-09-26: swarmtraces 09-25 hesabatı iyuldakı OpenAI–HF hadisəsinə aid idi, OpenAI onu 07-21-də açıqlamışdı).
 - Rəqəmlər (benchmark, qiymət, kontekst uzunluğu) yalnız rəsmi mənbədən götürülür və mənbə ilə birlikdə yazılır.
 
 ## 3. Qiymətləndirmə və ideyalar
@@ -41,7 +42,7 @@ Hər təsdiqlənmiş xəbərə 1–5 bal ver:
 ## 4. Yazmaq
 1. `content/news/YYYY-MM-DD.md`:
    ```
-   # AI gündəmi · YYYY-MM-DD (son 72 saat)
+   # AI gündəmi · YYYY-MM-DD (son 24 saat)
    ## Təsdiqlənmiş xəbərlər
    | # | Xəbər | Tarix | Mənbə | Maraq | KAXO | Təzəlik | Qeyd |
    ## Təsdiqlənməmiş (kontentə girmir)
