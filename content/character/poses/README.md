@@ -30,3 +30,6 @@ ChatGPT limiti azdır, uzun videoya isə 20+ kadr lazımdır. Buna görə KAXO-n
 | `between-two-robots-pointing__office__3x2.png` | iki robot bir-birini göstərir, KAXO ortada zərflə | ofis | 3:2 | 2026-09-26-claude-remotion |
 | `pointing-at-robot-note-smug__office__3x2.png` | robotun oxuduğu qeydi özündənrazı göstərir | ofis | 3:2 | 2026-09-26-claude-remotion |
 | `cutout-shrug-blank-card__none__waist-up.png` | fonsuz, çiyin çəkir, əlində kartoçka (kartoçka silinib, loqo qoymaq üçün) | yox | — | 2026-09-26-claude-remotion |
+| `bed-pointing-robots-night__bedroom__2x3.png` | yataqda uzanıb robotlara "işləyin" göstərir | gecə yataq otağı | 2:3 | 2026-09-26-nine-loops |
+| `bed-stretching-morning-loops__bedroom__2x3.png` | səhər dincəlmiş uzanır, divarlar diaqramla dolu | səhər yataq otağı | 2:3 | 2026-09-26-nine-loops |
+| `beanbag-lazy-clap-robot-podium__office__2x3.png` | puf-kresloda tənbəl alqış, robot kağız göstərir | ofis | 2:3 | 2026-09-26-nine-loops |

@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:03,580
+I'm going to sleep. Keep working on this until I tell you to stop.
+
+2
+00:00:03,770 --> 00:00:08,070
+Anthropic's physicists really sent that to Claude, after Matt von Hippel's challenge.
+
+3
+00:00:08,200 --> 00:00:09,640
+The goal was nine loops.
+
+4
+00:00:09,720 --> 00:00:13,390
+Loops measure how complicated particle interactions are allowed to get.
+
+5
+00:00:13,520 --> 00:00:17,440
+The record was eight. Claude, running Fable 5.1, reached nine.
+
+6
+00:00:17,570 --> 00:00:20,180
+The bill came to around one or two thousand dollars.
+
+7
+00:00:20,310 --> 00:00:23,270
+SLAC's Lance Dixon checked it and called it quite a triumph.
+
+8
+00:00:23,400 --> 00:00:27,170
+Another group, helped by GPT-6, got there around the same time.
+
+9
+00:00:27,300 --> 00:00:30,280
+KAXO's staff runs on Claude too, so he tried that prompt.
+
+10
+00:00:30,470 --> 00:00:33,470
+Claude did nine loops. I did nine hours.
+
+11
+00:00:33,600 --> 00:00:35,660
+And I still haven't told them to stop.

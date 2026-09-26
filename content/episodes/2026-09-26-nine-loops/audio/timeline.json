@@ -1,0 +1,713 @@
+{
+  "shots": [
+    {
+      "id": "s01",
+      "start": 0.0,
+      "end": 3.77,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "I'm going to sleep. Keep working on this until I tell you to stop.",
+          "start": 0.0,
+          "end": 3.58,
+          "words": [
+            {
+              "w": "I'm",
+              "start": 0.0,
+              "end": 0.187
+            },
+            {
+              "w": "going",
+              "start": 0.187,
+              "end": 0.515
+            },
+            {
+              "w": "to",
+              "start": 0.515,
+              "end": 0.702
+            },
+            {
+              "w": "sleep.",
+              "start": 0.702,
+              "end": 1.03
+            },
+            {
+              "w": "Keep",
+              "start": 1.09,
+              "end": 1.357
+            },
+            {
+              "w": "working",
+              "start": 1.357,
+              "end": 1.757
+            },
+            {
+              "w": "on",
+              "start": 1.757,
+              "end": 1.935
+            },
+            {
+              "w": "this",
+              "start": 1.935,
+              "end": 2.202
+            },
+            {
+              "w": "until",
+              "start": 2.202,
+              "end": 2.513
+            },
+            {
+              "w": "I",
+              "start": 2.513,
+              "end": 2.646
+            },
+            {
+              "w": "tell",
+              "start": 2.646,
+              "end": 2.913
+            },
+            {
+              "w": "you",
+              "start": 2.913,
+              "end": 3.135
+            },
+            {
+              "w": "to",
+              "start": 3.135,
+              "end": 3.313
+            },
+            {
+              "w": "stop.",
+              "start": 3.313,
+              "end": 3.58
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "start": 3.77,
+      "end": 8.2,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Anthropic's physicists really sent that to Claude, after Matt von Hippel's challenge.",
+          "start": 3.77,
+          "end": 8.07,
+          "words": [
+            {
+              "w": "Anthropic's",
+              "start": 3.77,
+              "end": 4.319
+            },
+            {
+              "w": "physicists",
+              "start": 4.319,
+              "end": 4.868
+            },
+            {
+              "w": "really",
+              "start": 4.868,
+              "end": 5.234
+            },
+            {
+              "w": "sent",
+              "start": 5.234,
+              "end": 5.508
+            },
+            {
+              "w": "that",
+              "start": 5.508,
+              "end": 5.783
+            },
+            {
+              "w": "to",
+              "start": 5.783,
+              "end": 5.966
+            },
+            {
+              "w": "Claude,",
+              "start": 5.966,
+              "end": 6.332
+            },
+            {
+              "w": "after",
+              "start": 6.332,
+              "end": 6.652
+            },
+            {
+              "w": "Matt",
+              "start": 6.652,
+              "end": 6.926
+            },
+            {
+              "w": "von",
+              "start": 6.926,
+              "end": 7.155
+            },
+            {
+              "w": "Hippel's",
+              "start": 7.155,
+              "end": 7.567
+            },
+            {
+              "w": "challenge.",
+              "start": 7.567,
+              "end": 8.07
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "start": 8.2,
+      "end": 13.52,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The goal was nine loops.",
+          "start": 8.2,
+          "end": 9.64,
+          "words": [
+            {
+              "w": "The",
+              "start": 8.2,
+              "end": 8.448
+            },
+            {
+              "w": "goal",
+              "start": 8.448,
+              "end": 8.746
+            },
+            {
+              "w": "was",
+              "start": 8.746,
+              "end": 8.994
+            },
+            {
+              "w": "nine",
+              "start": 8.994,
+              "end": 9.292
+            },
+            {
+              "w": "loops.",
+              "start": 9.292,
+              "end": 9.64
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Loops measure how complicated particle interactions are allowed to get.",
+          "start": 9.72,
+          "end": 13.39,
+          "words": [
+            {
+              "w": "Loops",
+              "start": 9.72,
+              "end": 10.037
+            },
+            {
+              "w": "measure",
+              "start": 10.037,
+              "end": 10.445
+            },
+            {
+              "w": "how",
+              "start": 10.445,
+              "end": 10.671
+            },
+            {
+              "w": "complicated",
+              "start": 10.671,
+              "end": 11.26
+            },
+            {
+              "w": "particle",
+              "start": 11.26,
+              "end": 11.714
+            },
+            {
+              "w": "interactions",
+              "start": 11.714,
+              "end": 12.348
+            },
+            {
+              "w": "are",
+              "start": 12.348,
+              "end": 12.574
+            },
+            {
+              "w": "allowed",
+              "start": 12.574,
+              "end": 12.982
+            },
+            {
+              "w": "to",
+              "start": 12.982,
+              "end": 13.163
+            },
+            {
+              "w": "get.",
+              "start": 13.163,
+              "end": 13.39
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "start": 13.52,
+      "end": 17.57,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The record was eight. Claude, running Fable 5.1, reached nine.",
+          "start": 13.52,
+          "end": 17.44,
+          "words": [
+            {
+              "w": "The",
+              "start": 13.52,
+              "end": 13.738
+            },
+            {
+              "w": "record",
+              "start": 13.738,
+              "end": 14.087
+            },
+            {
+              "w": "was",
+              "start": 14.087,
+              "end": 14.305
+            },
+            {
+              "w": "eight.",
+              "start": 14.305,
+              "end": 14.61
+            },
+            {
+              "w": "Claude,",
+              "start": 14.67,
+              "end": 15.185
+            },
+            {
+              "w": "running",
+              "start": 15.185,
+              "end": 15.765
+            },
+            {
+              "w": "Fable",
+              "start": 15.765,
+              "end": 16.216
+            },
+            {
+              "w": "5.1,",
+              "start": 16.216,
+              "end": 16.474
+            },
+            {
+              "w": "reached",
+              "start": 16.474,
+              "end": 17.053
+            },
+            {
+              "w": "nine.",
+              "start": 17.053,
+              "end": 17.44
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "start": 17.57,
+      "end": 20.31,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The bill came to around one or two thousand dollars.",
+          "start": 17.57,
+          "end": 20.18,
+          "words": [
+            {
+              "w": "The",
+              "start": 17.57,
+              "end": 17.78
+            },
+            {
+              "w": "bill",
+              "start": 17.78,
+              "end": 18.033
+            },
+            {
+              "w": "came",
+              "start": 18.033,
+              "end": 18.286
+            },
+            {
+              "w": "to",
+              "start": 18.286,
+              "end": 18.454
+            },
+            {
+              "w": "around",
+              "start": 18.454,
+              "end": 18.791
+            },
+            {
+              "w": "one",
+              "start": 18.791,
+              "end": 19.001
+            },
+            {
+              "w": "or",
+              "start": 19.001,
+              "end": 19.17
+            },
+            {
+              "w": "two",
+              "start": 19.17,
+              "end": 19.38
+            },
+            {
+              "w": "thousand",
+              "start": 19.38,
+              "end": 19.801
+            },
+            {
+              "w": "dollars.",
+              "start": 19.801,
+              "end": 20.18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "start": 20.31,
+      "end": 23.4,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "SLAC's Lance Dixon checked it and called it quite a triumph.",
+          "start": 20.31,
+          "end": 23.27,
+          "words": [
+            {
+              "w": "SLAC's",
+              "start": 20.31,
+              "end": 20.606
+            },
+            {
+              "w": "Lance",
+              "start": 20.606,
+              "end": 20.902
+            },
+            {
+              "w": "Dixon",
+              "start": 20.902,
+              "end": 21.198
+            },
+            {
+              "w": "checked",
+              "start": 21.198,
+              "end": 21.579
+            },
+            {
+              "w": "it",
+              "start": 21.579,
+              "end": 21.748
+            },
+            {
+              "w": "and",
+              "start": 21.748,
+              "end": 21.959
+            },
+            {
+              "w": "called",
+              "start": 21.959,
+              "end": 22.297
+            },
+            {
+              "w": "it",
+              "start": 22.297,
+              "end": 22.467
+            },
+            {
+              "w": "quite",
+              "start": 22.467,
+              "end": 22.763
+            },
+            {
+              "w": "a",
+              "start": 22.763,
+              "end": 22.889
+            },
+            {
+              "w": "triumph.",
+              "start": 22.889,
+              "end": 23.27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "start": 23.4,
+      "end": 27.3,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Another group, helped by GPT-6, got there around the same time.",
+          "start": 23.4,
+          "end": 27.17,
+          "words": [
+            {
+              "w": "Another",
+              "start": 23.4,
+              "end": 23.878
+            },
+            {
+              "w": "group,",
+              "start": 23.878,
+              "end": 24.25
+            },
+            {
+              "w": "helped",
+              "start": 24.25,
+              "end": 24.674
+            },
+            {
+              "w": "by",
+              "start": 24.674,
+              "end": 24.887
+            },
+            {
+              "w": "GPT-6,",
+              "start": 24.887,
+              "end": 25.205
+            },
+            {
+              "w": "got",
+              "start": 25.205,
+              "end": 25.471
+            },
+            {
+              "w": "there",
+              "start": 25.471,
+              "end": 25.843
+            },
+            {
+              "w": "around",
+              "start": 25.843,
+              "end": 26.267
+            },
+            {
+              "w": "the",
+              "start": 26.267,
+              "end": 26.533
+            },
+            {
+              "w": "same",
+              "start": 26.533,
+              "end": 26.851
+            },
+            {
+              "w": "time.",
+              "start": 26.851,
+              "end": 27.17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "start": 27.3,
+      "end": 30.47,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "KAXO's staff runs on Claude too, so he tried that prompt.",
+          "start": 27.3,
+          "end": 30.28,
+          "words": [
+            {
+              "w": "KAXO's",
+              "start": 27.3,
+              "end": 27.616
+            },
+            {
+              "w": "staff",
+              "start": 27.616,
+              "end": 27.932
+            },
+            {
+              "w": "runs",
+              "start": 27.932,
+              "end": 28.203
+            },
+            {
+              "w": "on",
+              "start": 28.203,
+              "end": 28.384
+            },
+            {
+              "w": "Claude",
+              "start": 28.384,
+              "end": 28.745
+            },
+            {
+              "w": "too,",
+              "start": 28.745,
+              "end": 28.971
+            },
+            {
+              "w": "so",
+              "start": 28.971,
+              "end": 29.151
+            },
+            {
+              "w": "he",
+              "start": 29.151,
+              "end": 29.332
+            },
+            {
+              "w": "tried",
+              "start": 29.332,
+              "end": 29.648
+            },
+            {
+              "w": "that",
+              "start": 29.648,
+              "end": 29.919
+            },
+            {
+              "w": "prompt.",
+              "start": 29.919,
+              "end": 30.28
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "start": 30.47,
+      "end": 33.6,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Claude did nine loops. I did nine hours.",
+          "start": 30.47,
+          "end": 33.47,
+          "words": [
+            {
+              "w": "Claude",
+              "start": 30.47,
+              "end": 30.907
+            },
+            {
+              "w": "did",
+              "start": 30.907,
+              "end": 31.18
+            },
+            {
+              "w": "nine",
+              "start": 31.18,
+              "end": 31.508
+            },
+            {
+              "w": "loops.",
+              "start": 31.508,
+              "end": 31.89
+            },
+            {
+              "w": "I",
+              "start": 32.09,
+              "end": 32.287
+            },
+            {
+              "w": "did",
+              "start": 32.287,
+              "end": 32.616
+            },
+            {
+              "w": "nine",
+              "start": 32.616,
+              "end": 33.01
+            },
+            {
+              "w": "hours.",
+              "start": 33.01,
+              "end": 33.47
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "start": 33.6,
+      "end": 35.71,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And I still haven't told them to stop.",
+          "start": 33.6,
+          "end": 35.66,
+          "words": [
+            {
+              "w": "And",
+              "start": 33.6,
+              "end": 33.829
+            },
+            {
+              "w": "I",
+              "start": 33.829,
+              "end": 33.966
+            },
+            {
+              "w": "still",
+              "start": 33.966,
+              "end": 34.287
+            },
+            {
+              "w": "haven't",
+              "start": 34.287,
+              "end": 34.653
+            },
+            {
+              "w": "told",
+              "start": 34.653,
+              "end": 34.928
+            },
+            {
+              "w": "them",
+              "start": 34.928,
+              "end": 35.202
+            },
+            {
+              "w": "to",
+              "start": 35.202,
+              "end": 35.385
+            },
+            {
+              "w": "stop.",
+              "start": 35.385,
+              "end": 35.66
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "duration": 35.71
+}

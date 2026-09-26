@@ -9,9 +9,9 @@ Kaktus KAXO 0 kapitallı şirkətin sahibidir. İşçiləri Claude Code agentlə
 Kontent üç qatdan ibarətdir:
 1. **Sitcom qatı:** KAXO-nun cizgi səhnələri, zarafat, personaj.
 2. **Gündəm qatı:** AI dünyasında son dəyişikliklər: yeni modellər, alətlər, buraxılışlar (§13). KAXO və işçiləri bunlara reaksiya verir, sınayır, izah edir.
-3. **Real qat:** şirkətdə həqiqətən baş verənlər: agentlərin real tapşırıqları, testləri, səhvləri, rəqəmləri, ofis görüntüsü.
+3. **Real qat:** mövzunun real sınağı: agentlər aləti/modeli real tapşırıqda yoxlayır, nəticə, rəqəm, ofis görüntüsü. Şirkətin öz hadisələri və kanalın keçmiş videoları mövzu olmur (§3, sahib 2026-09-26).
 
-Hər video ən azı bir **real** faktdan çıxır: təsdiqlənmiş xəbər (`content/news/`), şirkət hadisəsi (`data/events.jsonl`, `work/`) və ya real test nəticəsi.
+Hər video ən azı bir **real** faktdan çıxır: təsdiqlənmiş xəbər (`content/news/`) və ya mövzunun real test nəticəsi (`work/tests/`).
 
 - **Auditoriya:** ingilisdilli, 18–35 yaş, texnologiya ilə maraqlanan, developer, solo sahibkar.
 - **Dil:** ingilis dili. Qeydlər və hesabatlar Azərbaycan dilindədir.
@@ -19,14 +19,18 @@ Hər video ən azı bir **real** faktdan çıxır: təsdiqlənmiş xəbər (`con
 Xarakterin təfərrüatları: [character/character.md](character/character.md).
 
 ## 2. Formatlar
-| Format | Ölçü | Uzunluq | Tezlik | Növ |
-|---|---|---|---|---|
-| **Long** | 1920×1080 | 6–10 dəq | həftədə 1 | "KAXO's employees tested X", model izahı, həftənin AI xəbərləri |
-| **Short: news flash** | 1080×1920 | 30–50 s | həftədə 1–2 | təzə xəbər + KAXO-nun reaksiyası (ilk 48 saat) |
-| **Short: long-dan kəsik** | 1080×1920 | 30–55 s | hər long-dan 1–2 | long-un ən güclü anı, yeni hook ilə |
-| **Short: ofis/sitcom** | 1080×1920 | 30–55 s | həftədə 0–1 | şirkət hekayəsi |
+**Əsas istiqamət (sahib, 2026-09-26):** tutorial və incələmə, xüsusən **yeni çıxan AI alətlərinin/modellərinin incələməsi və tutorialı**. Referans kanallar: @Avenoxai, @poyrazavsever, @FornYapayZeka və oxşar ingilisdilli kanallar (analiz: `work/research/reference-channels-2026-09-26.md`). Məqsəd onlardan **əvvəl** çıxmaqdır: Türk kanallarının ilk montajlı incələməsi buraxılışdan ~22–26 saat sonra gəlir. Dil: ingiliscə əsas, TR lokalizasiya (§15).
 
-**Həftəlik plan:** 1 long + 3 short (cəmi 4 video). YPP üçün izlənmə saatını long videolar gətirir (§12), kəşfi və abunəçini short-lar.
+| Format | Ölçü | Uzunluq | Nə vaxt | Növ |
+|---|---|---|---|---|
+| **Release review (long)** | 1920×1080 | 8–12 dəq | buraxılışdan ≤ 12 saat | yeni alət/model real tapşırıqda sınanır: nə edir, necə qurulur, nəticə, rəqəmlər |
+| **Tutorial (long)** | 1920×1080 | 12–25 dəq | buraxılışdan 1–3 gün, və ya evergreen | "sıfırdan" addım-addım qurulum və istifadə, ekran yazısı əsasdır, fəsillərlə |
+| **Release short** | 1080×1920 | 30–50 s | buraxılışdan ≤ 3 saat | nə çıxdı + bir real fakt/test + KAXO-nun reaksiyası |
+| **Short: long-dan kəsik** | 1080×1920 | 30–55 s | hər long-dan 1–2 | long-un ən faydalı anı (tip, nəticə), yeni hook ilə |
+
+- Yeni model versiyasında sürət qazandırır, yeni konsepsiyada (yeni alət növü) dərinlik: izah + tutorial.
+- Model olmayan buraxılışlar (marketplace, plugin portalı, TTS, API) Türk kanallarında boşdur: prioritetdir.
+- Gündəm yalnız sahib yazanda işləyir (§13), ona görə sürət sahibin "gündəm" mesajından başlayır.
 
 ## 3. Short-un quruluşu
 1. **0–2 s, hook:** ilk kadr və ilk cümlə sualla, şokla və ya absurd vəziyyətlə tutur. Salamlaşma, loqo, "in this video" olmur.
@@ -36,6 +40,8 @@ Xarakterin təfərrüatları: [character/character.md](character/character.md).
 5. **Loop sonu:** son cümlə ilk kadra qayıdır, beləcə video dövrə vurur.
 
 **Tanıtım videosu deyil (sahib, 2026-09-25):** "Bizim şirkət/KAXO belədir" tipli özünü təqdimat videosu çəkilmir. İlk epizod (day-one) məhz bu səbəbdən paylaşılmadı. Hər video bir **mövzu** haqqındadır: xəbər, alət testi, konkret hadisə, izləyiciyə faydalı nəticə. Şirkət və KAXO fon və bucaqdır, mövzunun özü deyil. Yoxlama: başlıqdan "KAXO" və "my company" sözlərini çıxaranda da video maraqlı qalırmı?
+
+**Yalnız mövzu (sahib, 2026-09-26):** videoda kanalın keçmiş videoları, onların səhvləri, statistikası, abunəçi sayı və **şirkətin real hadisələri** (agent tapşırıqları, loglar, səhvlər, gəlir rəqəmləri) mövzu olmur. Video yalnız öz mövzusundan (xəbər, alət, model) bəhs edir. KAXO mövzuya reaksiya verən personajdır; sitcom uydurması olar, amma real fakt kimi təqdim olunmur. Real fakt = xəbərin və ya testin birinci mənbəyi. Təsvirdə əlaqəli videonun linki qala bilər.
 
 Əlavə qaydalar:
 - 6–12 kadr olur. Kadr hər 2–4 saniyədə dəyişir.
@@ -67,7 +73,7 @@ Məqsəd izləyicinin videonu tərk etməməsidir. Mətn "oxunan mətn" kimi yox
 
 ## 3b. Long videonun quruluşu (6–10 dəq)
 1. **0–30 s, hook + vəd:** ən maraqlı nəticəni və ya sualı dərhal göstər ("We gave this new model our hardest task. It… did not go well."). Sonra izləyicinin sonda nə alacağını de. Uzun giriş, salam və "subscribe" olmur.
-2. **Fəsillər:** 3–6 fəsil, hər biri ≥ 60 s. Hər shot-da `"chapter"` sahəsi olur, `tools/video/chapters.py` fəsil siyahısını çıxarır.
+2. **Fəsillər:** 3–6 fəsil, hər biri ≥ 60 s. Fəslin ilk shot-unda `"chapter"` sahəsi olur (sonrakı shot-larda yox), `tools/video/chapters.py` fəsil siyahısını çıxarır.
 3. **Hər 30–60 saniyədə "pattern interrupt":** KAXO-nun zarafatı, ofis görüntüsü, ekran yazısı, rəqəm qrafiki. Eyni tip kadr 20 saniyədən çox davam etmir.
 4. **Açıq döngülər:** "We'll see the score in a minute…" kimi vədlər verilir və mütləq yerinə yetirilir.
 5. **Real test hissəsi:** agentlərin aləti real sınadığı yer: ofis görüntüsü, ekran yazısı (`tools/video/record_page.js`), nəticə cədvəli. Videonun ürəyi budur və monetizasiya üçün "orijinal dəyər" də budur (§12).
@@ -203,10 +209,7 @@ Risk **yüksək**dirsə, video paylaşılmır, əvvəl düzəldilir.
 - **Öz baxışımız mütləqdir:** xəbəri sadəcə təkrar demək reused və inauthentic riskidir (§12). Hər gündəm videosunda KAXO-nun şərhi, real test və ya müqayisə olur.
 - **Başqasının materialı:** rəsmi səhifələrin qısa ekran yazısı (≤ 15 s) şərh üçün istifadə olunur. Başqasının videosu, reklam çarxı və musiqisi istifadə olunmur. Loqolar yalnız mövzunu göstərmək üçündür (§6).
 - **Arxiv:** `content/news/YYYY-MM-DD.md`, son 14 gün saxlanılır.
-- **Avtomatik işləmə:** Windows Task Scheduler-də "KAXO Gundem" tapşırığı hər gün 09:00-da `tools/gundem-daily.ps1`-i işlədir (headless `claude -p`, yalnız oxuma, web və `content/news/`, `ideas.md` yazısı; Bash, paylaşma və silmə yoxdur). Kompüter o vaxt yatmışdısa, oyananda işləyir. Eyni gün ikinci dəfə işləmir. Loglar `data/gundem-logs/`-dadır (son 30).
-  - Vaxtı dəyişmək: `powershell -NoProfile -ExecutionPolicy Bypass -File tools
-egister-gundem-task.ps1 -Time 08:00`
-  - Söndürmək: `Unregister-ScheduledTask -TaskName 'KAXO Gundem' -Confirm:$false`
+- **İşləmə:** gündəm yalnız sahib `/gundem` və ya "gündəm" yazanda işləyir (sahib 2026-09-26: sistem serverdə deyil). Windows Task Scheduler-dəki "KAXO Gundem" tapşırığı **söndürülüb** (Disable, silinməyib); yenidən açmaq: `Enable-ScheduledTask -TaskName 'KAXO Gundem'`. `tools/gundem-daily.ps1` saxlanılır.
 
 ## 14. Playlistlər
 Qaydalar və siyahı: [PLAYLISTS.md](PLAYLISTS.md). Hər video paylaşılanda ən azı bir playlistə qoyulur, short-lar əlavə olaraq "KAXO Shorts"-a.

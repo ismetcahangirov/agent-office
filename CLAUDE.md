@@ -21,7 +21,7 @@ thumbnail `/thumbnail`, AI gündəmi isə `/gundem` skill-i ilə gedir (`.claude
 |---|---|
 | `content/RULES.md` | kanal qaydaları: format, quruluş, vizual, dürüstlük, SEO, nəşr, təmizlik |
 | `content/PLAYLISTS.md` | playlistlər və hansı videonun hara getdiyi |
-| `content/news/` | `/gundem` arxivi: təsdiqlənmiş AI xəbərləri və ideyalar (son 14 gün); hər gün 09:00-da avtomatik (Task Scheduler "KAXO Gundem", `tools/gundem-daily.ps1`) |
+| `content/news/` | `/gundem` arxivi: təsdiqlənmiş AI xəbərləri və ideyalar (son 14 gün); yalnız sahib istəyəndə (Task Scheduler "KAXO Gundem" 2026-09-26-dan söndürülüb) |
 | `content/character/poses/` | təkrar istifadə olunan KAXO şəkilləri |
 | `content/THUMBNAILS.md` | thumbnail formulu: mətn, rənglər, maskot, loqo, kompozisiya |
 | `content/character/character.md` | KAXO-nun görünüşü, xasiyyəti, stil prompt-u, səsləri |

@@ -76,7 +76,7 @@ seo.json       başlıq, təsvir, tag-lar, parametrlər
 ## 3/10 Araşdırma (subagentlər, paralel)
 **Gündəm:** ən son `content/news/*.md` 24 saatdan köhnədirsə və ya yoxdursa, əvvəlcə `.claude/skills/gundem/SKILL.md`-ni icra et. Gündəm ideyası seçiləndə aşağıdakı A agenti şirkət faktı ilə yanaşı xəbərin rəsmi mənbəsini də yoxlayır.
 İki `researcher` agentini **eyni mesajda** işə sal:
-- **A. Şirkətdə nə baş verib:** `data/events.jsonl` (son epizoddan bəri), `work/`, son hesabatlar. Nəticə: real faktlar, rəqəmlər və maraqlı anlar (xəta, uğur, absurd vəziyyət), hər biri mənbəsi ilə.
+- **A. Mövzunun faktları:** xəbərin/alətin birinci mənbəyi (tarix, rəqəmlər, qısa sitatlar, məhdudiyyətlər, rəqib nəticələr), test varsa `work/tests/<slug>/` nəticələri. Şirkətin öz hadisələri və kanalın keçmiş videoları toplanmır: videoda danışılmır (RULES §3, sahib 2026-09-26).
 - **B. Bazar və SEO:** YouTube autocomplete (`suggestqueries…&ds=yt&q=`, RULES §8) ilə "ai agents", "ai employees", "ai company", "ai startup" və mövzuya aid sözlərə bax. Son ayın oxşar Shorts-larını və nəyin işlədiyini araşdır. Nəticə: 5–10 açar söz (populyarlıq əlaməti ilə) və 3 hook nümunəsi.
 
 Hər ikisinin nəticəsini `content/reports/YYYY-MM-DD-<slug>.md`-yə yaz:
@@ -90,7 +90,7 @@ Hər ikisinin nəticəsini `content/reports/YYYY-MM-DD-<slug>.md`-yə yaz:
 Sonra `status: "script"` et.
 
 ## 4/10 İdeya və ssenari
-1. İdeyanı seç: `/video <mövzu>` verilibsə o, yoxsa `ideas.md` (əvvəlcə "Gündəm" bölməsi, vaxtı keçməyənlər) + A-nın real faktları + `lessons.md`. İdeyada **ən azı bir real fakt** olmalıdır (RULES §5, §13).
+1. İdeyanı seç: `/video <mövzu>` verilibsə o, yoxsa `ideas.md` (əvvəlcə "Gündəm" bölməsi, vaxtı keçməyənlər) + A-nın mövzu faktları + `lessons.md`. İdeyada **ən azı bir real fakt** olmalıdır (RULES §5, §13).
    - **Long "tested X":** əvvəlcə real test: CEO kimi `builder`/`researcher` agentlərinə aləti real tapşırıqda sınamağı tapşır (`work/tests/<slug>/`). Nəticəni (nə alındı, nə alınmadı, vaxt, rəqəmlər) hesabata yaz. Ssenari bu nəticəyə əsaslanır, uydurma nəticə olmur.
    - **Short-from:** qrafikləri şaquli yaz (`graphics.html?v=1` + `record_page --vertical`, məzmun yuxarı 60%-də, altyazıya dəyməsin). Long-un `script.md` + `timeline.json`-undan 30–55 saniyəlik ən güclü parçanı seç, yeni hook yaz, 9:16 kadrlar hazırla (long şəkilləri blur-fit ilə, açar kadr üçün yeni 2:3 şəkil).
 2. `marketer` agentinə ssenari yazdır. Ona RULES §3-ü, **§3a-nı (danışıq tərzi)**, xarakter faylını, seçilmiş faktı, açar sözləri və `lessons.md`-ni ver. Nəticə `episode.json` (sxem yuxarıda) və `script.md` olur: kadr, səs, mətn və vizual cədvəl şəklində.
@@ -98,11 +98,11 @@ Sonra `status: "script"` et.
    - [ ] ilk 2 saniyədə hook var;
    - [ ] punchline videonun ~80%-indədir;
    - [ ] son cümlə dövrə vurur;
-   - [ ] short 30–55 saniyədir (~2.5 söz/s ilə yoxla); long 6–10 dəqiqədir, RULES §3b quruluşu var, hər shot-da `chapter` var, fəsillər ≥ 60 s;
+   - [ ] short 30–55 saniyədir (~2.5 söz/s ilə yoxla); long 6–10 dəqiqədir, RULES §3b quruluşu var, `chapter` yalnız fəslin İLK shot-unda (hər shot-da olsa chapters.py hər kadrı fəsil sayır), fəsillər ≥ 60 s;
    - [ ] short: 6–12 kadr, 1–2-si ofis B-roll; long: kadr hər 3–8 saniyədə dəyişir, ofis və ekran yazısı var, poza kitabxanasından ≤ 50%;
    - [ ] cümlələr ≤ 12 sözdür;
    - [ ] danışıq dilidir (§3a): qısaltmalar var, cümlələr axır, `[pause]` ən çox 1 dəfədir (yalnız əsas punchline-dan əvvəl), qırıq-qırıq nöqtəli cümlələr, rəsmi söz və siyahı yoxdur;
-   - [ ] **tanıtım videosu deyil** (§3): video bir mövzu haqqındadır, özünü təqdimat deyil;
+   - [ ] **tanıtım videosu deyil** (§3): video bir mövzu haqqındadır, özünü təqdimat deyil; kanalın keçmiş videolarından, statistikasından və şirkətin real hadisələrindən danışılmır, yalnız mövzu;
    - [ ] hər cümləni ucadan oxu: robot kimi səslənən cümləni yenidən yaz;
    - [ ] qadağalar yoxdur (§6);
    - [ ] real fakt düzgündür;
@@ -210,7 +210,7 @@ tools/video/.venv/Scripts/python tools/video/assemble.py content/episodes/<epizo
   `tools/video/.venv/Scripts/python -c "import soundfile as sf,numpy as np;a,sr=sf.read('<epizod>/audio/voice.wav');fr=int(.01*sr);q=np.array([np.abs(a[i:i+fr]).max()<.02 for i in range(0,len(a)-fr,fr)]);import itertools;g=[len(list(x))/100 for k,x in itertools.groupby(q) if k];g=[x for x in g if x>=.12];print(round(sum(g),2),'/',round(len(a)/sr,1),'max',max(g,default=0))"`
   Keçmirsə: ssenaridəki `[pause]` və qısa nöqtəli cümlələri azalt, yenidən səsləndir.
 - **Ağ/qara kadr yoxlaması (məcburi):** klipin 0-cı kadrı çox vaxt yüklənmə ekranıdır (ağ). Bu, opus-short-da 0.4 s ağ ekran kimi dərc olunub (2026-09-25), 2026-09-26-da kor QA tapıb. `clip_start` ən az `record_page`-in "content from" dəyəri, ofis kliplərində isə ≥ 0.5 olmalıdır. Montajdan sonra yoxla (boş çıxış = təmiz):
-  `"$F" -hide_banner -i <epizod>/video/final.mp4 -vf "fps=8,scale=64:36,signalstats,metadata=print:key=lavfi.signalstats.YAVG" -an -f null - 2>&1 | tr '\r' '\n' | grep -oE "pts_time:[0-9.]+|YAVG=[0-9.]+" | paste -d' ' - - | sed 's/pts_time://; s/YAVG=//' | awk '$2>230 || $2<6'` (`$F` = imageio-ffmpeg; ağ fonlu sayt klipi 200–225 verir, normaldır).
+  `"$F" -hide_banner -i <epizod>/video/final.mp4 -vf "fps=8,scale=64:36,signalstats,metadata=print:key=lavfi.signalstats.YAVG" -an -f null - 2>&1 | tr '\r' '\n' | grep -oE "pts_time:[0-9.]+|YAVG=[0-9.]+" | paste -d' ' - - | sed 's/pts_time://; s/YAVG=//' | tools/video/.venv/Scripts/python -c "import sys;[print(l,end='') for l in sys.stdin if not 6<=float(l.split()[1])<=230]"` (`$F` = imageio-ffmpeg; ağ fonlu sayt klipi 200–225 verir, normaldır).
 - `assemble.py` sonda `audio ok: X of Y` çap edir; səs axını qısadırsa xəta verir (epizod 2-də səs boşluqları oldu). Bu sətri mütləq yoxla.
 - **Scroll-jacking saytlar** (anthropic.com və s.) `record_page --scroll`-da ilişmiş görünür: kadrlara bax, ilişibsə sabit bölmə screenshot-ları (`work/screen/shot_text.js`) + `motion` istifadə et.
 - `timeline.json`-da müddətə bax. Short 55 saniyədən uzundursa, ssenarini qısalt və bu addımı təkrarla.

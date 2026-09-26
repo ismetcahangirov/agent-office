@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:03,580
+Uyumaya gidiyorum. Ben durdur diyene kadar bunun üzerinde çalışmaya devam et.
+
+2
+00:00:03,770 --> 00:00:08,070
+Anthropic'in fizikçileri bunu gerçekten Claude'a yazdı, Matt von Hippel'in meydan okumasından sonra.
+
+3
+00:00:08,200 --> 00:00:09,640
+Hedef dokuz döngüydü.
+
+4
+00:00:09,720 --> 00:00:13,390
+Döngü sayısı, parçacık etkileşimlerinin ne kadar karmaşıklaşabileceğini gösterir.
+
+5
+00:00:13,520 --> 00:00:17,440
+Rekor sekizdi. Fable 5.1 ile çalışan Claude dokuza ulaştı.
+
+6
+00:00:17,570 --> 00:00:20,180
+Fatura bin ile iki bin dolar civarında tuttu.
+
+7
+00:00:20,310 --> 00:00:23,270
+SLAC'tan Lance Dixon sonucu kontrol etti ve buna epey büyük bir zafer dedi.
+
+8
+00:00:23,400 --> 00:00:27,170
+GPT-6'dan yardım alan başka bir grup da hemen hemen aynı anda oraya vardı.
+
+9
+00:00:27,300 --> 00:00:30,280
+KAXO'nun çalışanları da Claude ile çalışıyor, o da bu komutu denedi.
+
+10
+00:00:30,470 --> 00:00:33,470
+Claude dokuz döngü çözdü. Ben dokuz saat uyudum.
+
+11
+00:00:33,600 --> 00:00:35,660
+Ve onlara hâlâ dur demedim.

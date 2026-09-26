@@ -1,0 +1,157 @@
+{
+  "slug": "nine-loops",
+  "format": "short",
+  "status": "done",
+  "idea": "News flash: Anthropic's physicists told Claude 'I'm going to sleep, keep working' and got a nine-loop particle-physics result for about $1-2k (2026-09-25). KAXO tries the same prompt on his robots (sitcom).",
+  "real_fact": "Anthropic research post 2026-09-25 (guest post by physicist Matt von Hippel, whose challenge was 'beaten a month later'): Anthropic's physicists had Claude (Fable 5.1, in Claude Science) compute the six-particle amplitude in planar N=4 SYM at nine loops; previous record eight loops (Lance Dixon, 'a few years back'). Their prompt: 'I'm going to sleep and won't be available for another several hours. Keep working on this until I tell you to stop.' Cost 'around one or two thousand dollars' per approach. Lance Dixon (SLAC) verified it: 'quite a triumph'. Caveats: 'Claude used known methods'; Song He's group (CAS, Beijing) got most of the result at about the same time with GPT-6 help. Loops = 'a measure of how complicated interactions between particles are allowed to get'. (mənbə: https://www.anthropic.com/research/yes-claude-can-do-nine-loops, content/reports/2026-09-26-nine-loops.md, work/research/ep-nine-loops-facts.md). KAXO's own attempt (s08-s10) is sitcom fiction, not a real company event.",
+  "playlists": [
+    "KAXO Shorts"
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "motion": "zoom_in",
+      "prompt": "Night in KAXO's small messy bedroom. KAXO lies in a narrow bed under a thin blanket pulled up to his belly, head sunk into a flat pillow, eyes half closed, lazily pointing one finger at two small boxy grey robots (simple box body, round screen face with two dot eyes) who sit at a tiny desk right beside the bed with a glowing laptop. The robots turn toward him, attentive and ready to work. Warm bedside lamp light, dark blue night outside the window. Vertical composition: bed across the lower half, KAXO's face and pointing hand in the centre, robots on the right third, camera at mattress height, medium shot. No text anywhere.",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "I'm going to sleep. Keep working on this until I tell you to stop.",
+          "text_tr": "Uyumaya gidiyorum. Ben durdur diyene kadar bunun üzerinde çalışmaya devam et."
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "motion": "zoom_in",
+      "clip": "clips/anthropic.webm",
+      "clip_start": 6.5,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Anthropic's physicists really sent that to Claude, after Matt von Hippel's challenge.",
+          "text_tr": "Anthropic'in fizikçileri bunu gerçekten Claude'a yazdı, Matt von Hippel'in meydan okumasından sonra."
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "motion": "pan_right",
+      "prompt": "Night in a small, plain physics lab. Two small boxy grey robots (simple box body, round screen face with two dot eyes) are busily filling a huge chalkboard with dozens of looping, curly particle diagrams: circles, wavy lines and loops nested inside loops, the drawings getting denser and more tangled toward the right. One robot stands on a stool to reach the top, chalk dust floats in the air, a desk lamp glows. No KAXO in this scene. Vertical composition: the chalkboard fills the upper two thirds, robots in the lower third, camera at robot height. No numbers, letters or readable text anywhere.",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The goal was nine loops.",
+          "text_tr": "Hedef dokuz döngüydü."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Loops measure how complicated particle interactions are allowed to get.",
+          "text_tr": "Döngü sayısı, parçacık etkileşimlerinin ne kadar karmaşıklaşabileceğini gösterir."
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "motion": "zoom_in",
+      "clip": "clips/anthropic.webm",
+      "clip_start": 7,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The record was eight. Claude, running Fable 5.1, reached nine.",
+          "text_tr": "Rekor sekizdi. Fable 5.1 ile çalışan Claude dokuza ulaştı."
+        }
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        1.0,
+        0.62
+      ],
+      "fit": "cover"
+    },
+    {
+      "id": "s05",
+      "motion": "zoom_out",
+      "pose": "lying-on-floor-thumbs-up__office-floor__2x3.png",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The bill came to around one or two thousand dollars.",
+          "text_tr": "Fatura bin ile iki bin dolar civarında tuttu."
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "motion": "zoom_in",
+      "prompt": "A small boxy grey robot (simple box body, round screen face with two dot eyes) stands on a low wooden crate like a podium, proudly holding up a big hand-drawn page covered in looping curly diagrams with a large gold star sticker in the corner. Below it, KAXO slouches deep in a saggy beanbag, giving one slow, lazy clap with half-closed eyes, polite but barely awake. Plain office wall behind. Vertical composition: robot and page in the upper half, KAXO in the lower half, camera slightly low. No numbers, letters or readable text anywhere.",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "SLAC's Lance Dixon checked it and called it quite a triumph.",
+          "text_tr": "SLAC'tan Lance Dixon sonucu kontrol etti ve buna epey büyük bir zafer dedi."
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "motion": "pan_right",
+      "pose": "at-window-looking-back__office-night__2x3.png",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Another group, helped by GPT-6, got there around the same time.",
+          "text_tr": "GPT-6'dan yardım alan başka bir grup da hemen hemen aynı anda oraya vardı."
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "motion": "zoom_in",
+      "clip": "clips/office.webm",
+      "clip_start": 30,
+      "fit": "cover",
+      "sharp": true,
+      "crop": [
+        0.68,
+        0.4,
+        0.28,
+        0.58
+      ],
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "KAXO's staff runs on Claude too, so he tried that prompt.",
+          "text_tr": "KAXO'nun çalışanları da Claude ile çalışıyor, o da bu komutu denedi."
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "motion": "zoom_out",
+      "prompt": "Morning in the same small messy bedroom as before. KAXO sits up in bed stretching both arms high above his head, blissfully well-rested, a lazy satisfied smile, eyes still droopy. Around him the two small boxy grey robots (simple box body, round screen face with two dot eyes) are still working frantically: chalk loop diagrams now cover every wall, the floor and even the ceiling, chalk dust everywhere, one robot on a small ladder drawing yet more loops, the other scribbling on the headboard. Bright morning sunlight through the window. Vertical composition: KAXO in the lower middle, walls and ceiling full of loops above him, camera at bed height. No numbers, letters or readable text anywhere.",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Claude did nine loops. [pause] I did nine hours.",
+          "text_tr": "Claude dokuz döngü çözdü. [pause] Ben dokuz saat uyudum.",
+          "speed": 0.88
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "motion": "zoom_in",
+      "pose": "asleep-on-desk-ceo-mug__office__2x3.png",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And I still haven't told them to stop.",
+          "text_tr": "Ve onlara hâlâ dur demedim.",
+          "speed": 0.9
+        }
+      ]
+    }
+  ]
+}

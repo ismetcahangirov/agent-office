@@ -1,0 +1,51 @@
+{
+  "title": "AI Physics Record: Claude Worked While Physicists Slept",
+  "title_alternatives": [
+    "AI Breaks a Physics Record for About $2,000 (Claude)",
+    "\"I'm Going to Sleep\": Claude Breaks an AI Physics Record"
+  ],
+  "description": "Physicists told Claude \"I'm going to sleep, keep working\" and came back to a nine-loop particle-physics result that beat the previous eight-loop record. Cost: around one or two thousand dollars.\n\nWhat happened (from the official post, Sep 25, 2026): physicist Matt von Hippel challenged AI companies; a month later Anthropic's physicists had Claude (Fable 5.1, in Claude Science) compute the six-particle amplitude at nine loops. SLAC's Lance Dixon checked it and called it \"quite a triumph\". Claude used known methods, and Song He's group reached the result around the same time with GPT-6's help.\n\nSource: https://www.anthropic.com/research/yes-claude-can-do-nine-loops\n\nMade with AI tools; the KAXO scenes are a cartoon, the physics facts are from the source above.\n\n#shorts #ai #claude #physics",
+  "tr": {
+    "title": "Yapay Zekâ Fizik Rekoru: Fizikçiler Uyurken Claude Çalıştı",
+    "description": "Fizikçiler Claude'a \"Ben uyuyorum, çalışmaya devam et\" dedi ve önceki sekiz döngü rekorunu geçen dokuz döngülü bir parçacık fiziği sonucuyla karşılaştılar. Maliyet: yaklaşık bir iki bin dolar.\n\nNe oldu (resmi yazıdan, 25 Eylül 2026): fizikçi Matt von Hippel yapay zekâ şirketlerine meydan okudu; bir ay sonra Anthropic'in fizikçileri Claude'a (Fable 5.1, Claude Science içinde) altı parçacıklı genliği dokuz döngüde hesaplattı. SLAC'tan Lance Dixon sonucu kontrol etti ve \"büyük bir zafer\" dedi. Claude bilinen yöntemleri kullandı; Song He'nin grubu da neredeyse aynı anda GPT-6'nın yardımıyla sonuca ulaştı.\n\nKaynak: https://www.anthropic.com/research/yes-claude-can-do-nine-loops\n\nYapay zekâ araçlarıyla üretildi; KAXO sahneleri çizgi filmdir, fizik bilgileri yukarıdaki kaynaktandır.\n\n#shorts #ai #claude #yapayzeka"
+  },
+  "tags": [
+    "ai physics",
+    "claude",
+    "anthropic claude",
+    "ai scientist",
+    "ai breaks record",
+    "ai scientific discovery",
+    "claude science",
+    "fable 5.1",
+    "particle physics",
+    "KAXO"
+  ],
+  "hashtags": [
+    "#shorts",
+    "#ai",
+    "#claude",
+    "#physics"
+  ],
+  "category": "Science & Technology",
+  "language": "en",
+  "made_for_kids": false,
+  "altered_content": false,
+  "playlists": [
+    "KAXO Reacts: AI News",
+    "KAXO Shorts"
+  ],
+  "captions": "subs/captions.srt",
+  "thumbnail": null,
+  "cover": "thumb/cover.png",
+  "sources": [
+    "https://www.anthropic.com/research/yes-claude-can-do-nine-loops"
+  ],
+  "ai_note": "Made with AI tools; the KAXO scenes are a cartoon, the physics facts are from the source.",
+  "keywords_used": [
+    "ai physics",
+    "claude",
+    "ai breaks record",
+    "ai scientist"
+  ]
+}

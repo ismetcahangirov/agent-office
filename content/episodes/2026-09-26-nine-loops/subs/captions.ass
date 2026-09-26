@@ -1,0 +1,62 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Arial Black,96,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,1,0,0,0,100,100,1,0,1,7,2,2,80,80,520,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.70,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}I'M GOING TO
+Dialogue: 0,0:00:00.70,0:00:01.03,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}SLEEP.
+Dialogue: 0,0:00:01.09,0:00:01.94,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}KEEP WORKING ON
+Dialogue: 0,0:00:01.94,0:00:02.65,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}THIS UNTIL I
+Dialogue: 0,0:00:02.65,0:00:03.31,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}TELL YOU TO
+Dialogue: 0,0:00:03.31,0:00:03.58,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}STOP.
+Dialogue: 0,0:00:03.77,0:00:04.32,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}ANTHROPIC'S
+Dialogue: 0,0:00:04.32,0:00:04.87,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}PHYSICISTS
+Dialogue: 0,0:00:04.87,0:00:05.78,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}REALLY SENT THAT
+Dialogue: 0,0:00:05.78,0:00:06.33,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}TO CLAUDE,
+Dialogue: 0,0:00:06.33,0:00:07.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}AFTER MATT VON
+Dialogue: 0,0:00:07.16,0:00:07.57,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}HIPPEL'S
+Dialogue: 0,0:00:07.57,0:00:08.07,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}CHALLENGE.
+Dialogue: 0,0:00:08.20,0:00:08.99,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}THE GOAL WAS
+Dialogue: 0,0:00:08.99,0:00:09.64,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}NINE LOOPS.
+Dialogue: 0,0:00:09.72,0:00:10.45,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}LOOPS MEASURE
+Dialogue: 0,0:00:10.45,0:00:11.26,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}HOW COMPLICATED
+Dialogue: 0,0:00:11.26,0:00:11.71,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}PARTICLE
+Dialogue: 0,0:00:11.71,0:00:12.57,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}INTERACTIONS ARE
+Dialogue: 0,0:00:12.57,0:00:13.39,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}ALLOWED TO GET.
+Dialogue: 0,0:00:13.52,0:00:14.30,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}THE RECORD WAS
+Dialogue: 0,0:00:14.30,0:00:14.61,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}EIGHT.
+Dialogue: 0,0:00:14.67,0:00:15.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}CLAUDE,
+Dialogue: 0,0:00:15.19,0:00:16.22,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}RUNNING FABLE
+Dialogue: 0,0:00:16.22,0:00:16.47,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}5.1,
+Dialogue: 0,0:00:16.47,0:00:17.44,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}REACHED NINE.
+Dialogue: 0,0:00:17.57,0:00:18.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}THE BILL CAME
+Dialogue: 0,0:00:18.29,0:00:19.00,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}TO AROUND ONE
+Dialogue: 0,0:00:19.00,0:00:19.80,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}OR TWO THOUSAND
+Dialogue: 0,0:00:19.80,0:00:20.18,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}DOLLARS.
+Dialogue: 0,0:00:20.31,0:00:20.90,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}SLAC'S LANCE
+Dialogue: 0,0:00:20.90,0:00:21.75,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}DIXON CHECKED IT
+Dialogue: 0,0:00:21.75,0:00:22.47,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}AND CALLED IT
+Dialogue: 0,0:00:22.47,0:00:23.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}QUITE A TRIUMPH.
+Dialogue: 0,0:00:23.40,0:00:24.25,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}ANOTHER GROUP,
+Dialogue: 0,0:00:24.25,0:00:25.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}HELPED BY GPT-6,
+Dialogue: 0,0:00:25.20,0:00:26.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}GOT THERE AROUND
+Dialogue: 0,0:00:26.27,0:00:27.17,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}THE SAME TIME.
+Dialogue: 0,0:00:27.30,0:00:27.93,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}KAXO'S STAFF
+Dialogue: 0,0:00:27.93,0:00:28.75,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}RUNS ON CLAUDE
+Dialogue: 0,0:00:28.75,0:00:28.97,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}TOO,
+Dialogue: 0,0:00:28.97,0:00:29.65,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}SO HE TRIED
+Dialogue: 0,0:00:29.65,0:00:30.28,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H00FFFFFF&}THAT PROMPT.
+Dialogue: 0,0:00:30.47,0:00:31.51,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}CLAUDE DID NINE
+Dialogue: 0,0:00:31.51,0:00:31.89,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}LOOPS.
+Dialogue: 0,0:00:32.09,0:00:33.01,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}I DID NINE
+Dialogue: 0,0:00:33.01,0:00:33.47,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}HOURS.
+Dialogue: 0,0:00:33.60,0:00:34.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}AND I STILL
+Dialogue: 0,0:00:34.29,0:00:34.93,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}HAVEN'T TOLD
+Dialogue: 0,0:00:34.93,0:00:35.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,80,\fscx100\fscy100)\c&H0048D98A&}THEM TO STOP.
