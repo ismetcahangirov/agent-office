@@ -17,8 +17,25 @@ Hər ikisi yalnız son **24 saata** baxır (sahib başqa aralıq deyibsə, o ara
   - Product Hunt (AI kateqoriyası).
 - **B. Gündəm siqnalları (nə müzakirə olunur):**
   - Hacker News ön səhifəsi (`https://hn.algolia.com/api/v1/search?tags=front_page`);
+  - **YouTube trend videoları və Reddit:** agentləri çağırmazdan **əvvəl** CEO arxa planda işlədir (`run_in_background`, Reddit limitinə görə 5–12 dəq; researcher-in Bash-ı yoxdur), A agenti bu arada işləyir:
+    `tools/video/.venv/Scripts/python tools/gundem/social.py [--hours 24]` → `work/research/gundem-YYYY-MM-DD-social.md`.
+    - YouTube: son 24 saatda dərc olunmuş, ən çox baxılan AI videoları (Data API, `YOUTUBE_API_KEY` `.env`-dən, çap olunmur). Hansı mövzu baxılır, rəqib kanallar nə çəkib.
+    - Reddit: aşağıdakı sub-ların günün top postları, müəlliflə birlikdə (JSON API 403 verir, `top/.rss` işlədilir; 429-a qarşı fasilə var). X ilə eyni qayda:
+      - **Rəsmi (birinci mənbə sayılır):** şirkətin təsdiqlənmiş hesabı və ya işçisinin (flair "Anthropic"/"OpenAI" və s.) öz şirkəti haqqında postu, rəsmi AMA-lar. Müəllifi yoxla, adına görə güvənmə.
+      - **Şirkət sub-ları (siqnal):** r/ClaudeAI, r/ClaudeCode, r/Anthropic, r/OpenAI, r/ChatGPT, r/GeminiAI, r/Bard.
+      - **Texniki icma (siqnal, tez-tez ilk görür):** r/LocalLLaMA (açıq modellər, HF buraxılışları), r/MachineLearning (paper-lər).
+      - **Geniş gündəm (siqnal):** r/singularity, r/artificial; vizual alətlər: r/StableDiffusion, r/aivideo.
+      - **Sızma/şayiə postları** ("rumored", "leak", skrinşot, "insider"): həmişə "təsdiqlənməyib".
+    B agentinə bu faylın yolu verilir: o, meme/qeyri-AI səs-küyü süzür, mövzuları qruplaşdırır.
+  - **X/Twitter:** API yoxdur (pulsuz qanuni yol yoxdur, scraper X ToS-a ziddir: `work/research/x-api-free-options-2026-09-27.md`). B agenti WebSearch ilə axtarır (`site:x.com <mövzu>`, `site:x.com/<hesab>`, `"<model adı>" x.com`). Tarix postun özündən götürülür. Baxılan hesablar:
+    - **Rəsmi (birinci mənbə sayılır):** @AnthropicAI, @claudeai, @OpenAI, @OpenAIDevs, @GoogleDeepMind, @GeminiApp, @GoogleAI, @MetaAI, @MistralAI, @xai, @deepseek_ai, @Alibaba_Qwen, @MicrosoftAI, @nvidia, @huggingface.
+    - **Rəhbərlər və komanda üzvləri (öz şirkətinin elanı birinci mənbədir):** @sama, @gdb, @DarioAmodei, @alexalbert__, @bcherny, @demishassabis, @OfficialLoganK, @sundarpichai, @satyanadella, @mustafasuleyman, @elonmusk, @ClementDelangue.
+    - **Gündəm yaradanlar (yalnız siqnal):** @karpathy, @ylecun, @AndrewYNg, @emollick, @simonw, @swyx, @_akhaliq, @rowancheung, @kimmonismus.
+    - **Sızma/şayiə hesabları (həmişə "təsdiqlənməyib"):** @testingcatalog, @btibor91, @legit_api. Onların iddiası yalnız rəsmi təsdiq gəlincə xəbərə çevrilir, amma "bu gün nə gözlənilir" üçün faydalıdır.
   - YouTube autocomplete (`suggestqueries…&ds=yt&q=` ilə "new ai", "claude", "gpt", "gemini", "ai agent" və s.);
   - "AI news this week" axtarışı.
+
+  Reddit, X və YouTube **yalnız siqnaldır**: oradakı iddia rəsmi mənbə (A) tapılmadan "təsdiqlənməyib" bölməsinə düşür. Rəsmi hesabın öz X postu isə birinci mənbə sayılır.
 
   Nəticə: A-dakı xəbərlərdən hansıları həqiqətən çox danışılır, bir də A-da olmayan, amma çox müzakirə olunan mövzular.
 

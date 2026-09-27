@@ -7,6 +7,8 @@
 - [x] [long] "Can Claude make a YouTube video by itself? KAXO fired the editor." Opus 5.5 + Remotion real test, `work/tests/claude-remotion/` (news 2026-09-26 siqnal "claude remotion", son tarix 2026-10-03) ✓ 2026-09-26-claude-remotion
 - [x] [long] "KAXO upgraded his employees to Opus 5.5. Was it worth it?" real test Opus 5.5 vs Opus 5 (news 2026-09-25 #1, son tarix 2026-10-02) ✓ 2026-09-25-opus-5-5-test
 - [ ] [long] "Opus 5.5 vs GPT-6 Sol: same day, same price war" (news 2026-09-25 #1 #2, son tarix 2026-10-02; GPT testi ödənişlidir → sahibin icazəsi)
+- ~~[short] "OpenAI's AI invented a computer worm. By accident."~~ sahib bəyənmədi, çəkilmir (2026-09-27): self-replicating prompt injection + token sızması, yalnız alignment.openai.com faktları (news 2026-09-27 #1, son tarix 2026-09-27)
+- [ ] [long] "OpenAI DevDay 2026: tested in 12 hours" release review, `work/tests/devday-2026/` (news 2026-09-27 qarşıdan gələn; DevDay tarixi yoxlanmalı, OpenAI API ödənişlidir → sahibin icazəsi)
 
 - [x] [short-from] 2026-09-25-opus-5-5-test ✓ 2026-09-25-opus-short (punchline: "It skipped checking its own work. I've never felt so seen." / yarış qrafiki)
 - ~~[short-from] 2026-09-26-claude-remotion~~ ləğv: öz videomuzdan danışır (RULES §3 "yalnız mövzu", 2026-09-26)
