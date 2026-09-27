@@ -1,0 +1,770 @@
+{
+  "slug": "claude-code-tutorial",
+  "format": "long",
+  "kind": "tutorial",
+  "status": "images",
+  "idea": "Claude Code + Opus 5.5 from zero: build a real app in ~20 minutes (step-by-step, real screen recording)",
+  "real_fact": "Real Claude Code 2.1.283 session on Windows, 2026-09-27: Opus 5.5 planned (~80 s) and built a 3-file Focus Timer (~130 s), added daily stats (~70 s), /init wrote CLAUDE.md, git commit c51582b (C:/kaxo-demo/focus-timer, work/tests/claude-code-tutorial/plan.md)",
+  "shots": [
+    {
+      "id": "s01",
+      "clip": "clips/app-desktop.webm",
+      "clip_start": 7,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "This focus timer took one paragraph and about six minutes of Claude's time.",
+          "text_tr": "Bu odak zamanlayıcısı tek bir paragraf ve Claude'un yaklaşık altı dakikasını aldı."
+        },
+        {
+          "speaker": "narrator",
+          "text": "No frameworks, no build step, and it works on a phone.",
+          "text_tr": "Framework yok, derleme adımı yok, telefonda da çalışıyor."
+        }
+      ],
+      "chapter": "What we're building"
+    },
+    {
+      "id": "s02",
+      "motion": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "I wrote the paragraph. That's the hard part.",
+          "text_tr": "Paragrafı ben yazdım. Zor kısmı oydu.",
+          "speed": 0.9
+        },
+        {
+          "speaker": "narrator",
+          "text": "It isn't. But you'll see every step, on Windows, starting from a fresh install.",
+          "text_tr": "Değildi. Ama her adımı göreceksin, Windows'ta, sıfır kurulumdan başlayarak."
+        }
+      ],
+      "pose": "couch-sprawled__messy-office__2x3.png"
+    },
+    {
+      "id": "s03",
+      "clip": "clips/app-desktop.webm",
+      "clip_start": 19,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "You'll install Claude Code, pick Opus 5.5, make it plan before it codes, add features, and fix a real bug.",
+          "text_tr": "Claude Code'u kuracak, Opus 5.5'i seçecek, kodlamadan önce plan yaptıracak, özellik ekleyecek ve gerçek bir hata düzelteceksin."
+        },
+        {
+          "speaker": "narrator",
+          "text": "We'll even commit it to git, which KAXO has never done in his life.",
+          "text_tr": "Hatta git'e commit edeceğiz, KAXO'nun hayatında hiç yapmadığı bir şey."
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "motion": "static",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Here's what you need first. A paid Claude plan, Pro or Max, or a Console account with API billing.",
+          "text_tr": "Önce gerekenler. Ücretli bir Claude planı, Pro ya da Max, veya API faturalı bir Console hesabı."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The free Claude plan doesn't include Claude Code.",
+          "text_tr": "Ücretsiz Claude planında Claude Code yok."
+        },
+        {
+          "speaker": "narrator",
+          "text": "And on Windows, install Git for Windows too, so Claude can use its bash tools.",
+          "text_tr": "Windows'ta ayrıca Git for Windows kur, böylece Claude bash araçlarını kullanabilir."
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "motion": "static",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Installing is one line. On Windows, paste this into PowerShell.",
+          "text_tr": "Kurulum tek satır. Windows'ta bunu PowerShell'e yapıştır."
+        },
+        {
+          "speaker": "narrator",
+          "text": "On a Mac or Linux it's a curl command instead. Both are on the official setup page.",
+          "text_tr": "Mac ya da Linux'ta onun yerine bir curl komutu var. İkisi de resmi kurulum sayfasında."
+        }
+      ],
+      "chapter": "Install and log in"
+    },
+    {
+      "id": "s06",
+      "clip": "clips/c_launch.mp4",
+      "clip_start": 1,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Check it worked with claude dash dash version. Then open your project folder and type claude.",
+          "text_tr": "claude tire tire version ile çalıştığını kontrol et. Sonra proje klasörünü aç ve claude yaz."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The first time, it asks if you trust this folder. Say yes only for code you actually know.",
+          "text_tr": "İlk seferde bu klasöre güvenip güvenmediğini sorar. Sadece gerçekten tanıdığın kod için evet de."
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "clip": "clips/c_theme.mp4",
+      "clip_start": 0,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "On a brand new install, it asks for a text style first. Dark mode, obviously.",
+          "text_tr": "Yepyeni bir kurulumda önce yazı stilini sorar. Karanlık mod, tabii ki."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Everything's better in the dark. Especially naps.",
+          "text_tr": "Karanlıkta her şey daha iyi. Özellikle şekerlemeler.",
+          "speed": 0.9
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "clip": "clips/c_login.mp4",
+      "clip_start": 1,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Then the login method. Pick your Claude subscription, and a browser tab opens to sign in.",
+          "text_tr": "Sonra giriş yöntemi. Claude aboneliğini seç, giriş için bir tarayıcı sekmesi açılır."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Approve it there, and you're back in the terminal, logged in.",
+          "text_tr": "Orada onayla, terminale giriş yapmış olarak dönersin."
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "clip": "clips/c_model.mp4",
+      "clip_start": 0.5,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Type slash model to see the models. Opus 5.5 is the default here, and it's what we'll use.",
+          "text_tr": "Modelleri görmek için eğik çizgi model yaz. Burada varsayılan Opus 5.5, biz de onu kullanacağız."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Sonnet is lighter and Haiku is the fastest. The arrow keys change the effort level.",
+          "text_tr": "Sonnet daha hafif, Haiku en hızlısı. Ok tuşları efor seviyesini değiştirir."
+        }
+      ],
+      "chapter": "Model and modes"
+    },
+    {
+      "id": "s10",
+      "clip": "clips/c_modes.mp4",
+      "clip_start": 8,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Now the most useful key in Claude Code: Shift plus Tab. It cycles the permission modes.",
+          "text_tr": "Şimdi Claude Code'un en faydalı tuşu: Shift artı Tab. İzin modları arasında geçiş yapar."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Auto mode runs safe actions on its own. Manual asks you before anything happens.",
+          "text_tr": "Otomatik mod güvenli işleri kendisi yapar. Manuel mod her şeyden önce sana sorar."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Accept edits changes files without asking, and plan mode can read and think, but it can't touch a thing.",
+          "text_tr": "Accept edits dosyaları sormadan değiştirir, plan modu ise okuyup düşünebilir ama hiçbir şeye dokunamaz."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "motion": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Plan mode. It's basically me, except it actually writes the plan down.",
+          "text_tr": "Plan modu. Temelde ben, tek farkı planı gerçekten yazıya dökmesi.",
+          "speed": 0.9
+        }
+      ],
+      "pose": "pointing-at-robot-note-smug__office__3x2.png"
+    },
+    {
+      "id": "s12",
+      "clip": "clips/c_prompt.mp4",
+      "clip_start": 3,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Here's the whole prompt. A Pomodoro timer with twenty-five minutes of focus and five of break, plus a task list.",
+          "text_tr": "İşte tüm prompt. Yirmi beş dakika odak, beş dakika mola olan bir Pomodoro zamanlayıcı ve bir görev listesi."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Save it in localStorage, give it a dark design that works on a phone, and the key words at the end: plan it first.",
+          "text_tr": "localStorage'a kaydet, telefonda da çalışan karanlık bir tasarım yap ve sondaki anahtar kelimeler: önce planla."
+        }
+      ],
+      "chapter": "Plan first"
+    },
+    {
+      "id": "s13",
+      "clip": "clips/c_think.mp4",
+      "clip_start": 0,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Opus 5.5 looks at the empty folder and thinks for about a minute. This part is sped up.",
+          "text_tr": "Opus 5.5 boş klasöre bakıp yaklaşık bir dakika düşünüyor. Bu kısım hızlandırıldı."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "clip": "clips/c_plan.mp4",
+      "clip_start": 2,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Then you get an actual plan. Three files: index dot html, styles dot css and app dot js.",
+          "text_tr": "Sonra gerçek bir plan geliyor. Üç dosya: index nokta html, styles nokta css ve app nokta js."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The timer works from the moment it should finish, so it stays right even in a background tab.",
+          "text_tr": "Zamanlayıcı bitmesi gereken andan hesaplıyor, böylece arka plandaki sekmede bile doğru kalıyor."
+        },
+        {
+          "speaker": "narrator",
+          "text": "It even adds a fast mode for testing, where a focus session lasts ten seconds.",
+          "text_tr": "Test için bir hızlı mod bile ekliyor, orada bir odak seansı on saniye sürüyor."
+        },
+        {
+          "speaker": "narrator",
+          "text": "At the end, it wrote its own test checklist: add tasks, start, pause, reload, and resize to phone width.",
+          "text_tr": "Sonunda kendi test listesini yazdı: görev ekle, başlat, duraklat, yenile ve telefon genişliğine küçült."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Read it. If something's off, choose tell Claude what to change. We liked it, so: yes, and use auto mode.",
+          "text_tr": "Oku. Bir şey yanlışsa Claude'a neyi değiştireceğini söyle seçeneğini seç. Biz beğendik, yani: evet, otomatik modla."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "motion": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "I approved a plan. Management is exhausting.",
+          "text_tr": "Bir planı onayladım. Yöneticilik çok yorucu.",
+          "speed": 0.9
+        }
+      ],
+      "pose": "beanbag-stopwatch-robot-typing__office__3x2.png"
+    },
+    {
+      "id": "s16",
+      "clip": "clips/c_write.mp4",
+      "clip_start": 0,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "And now it builds. Every change shows up as a diff, right in the terminal.",
+          "text_tr": "Ve şimdi inşa ediyor. Her değişiklik terminalde bir diff olarak görünüyor."
+        },
+        {
+          "speaker": "narrator",
+          "text": "This is three times faster than real life. The whole build took about two minutes.",
+          "text_tr": "Bu gerçek hızın üç katı. Tüm inşa yaklaşık iki dakika sürdü."
+        }
+      ],
+      "chapter": "Claude builds it"
+    },
+    {
+      "id": "s17",
+      "clip": "clips/c_skip.mp4",
+      "clip_start": 0,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Then a surprise. Claude asked to open Chrome and test the app by itself.",
+          "text_tr": "Sonra bir sürpriz. Claude, Chrome'u açıp uygulamayı kendisi test etmek istedi."
+        },
+        {
+          "speaker": "narrator",
+          "text": "That's a great habit, but we were recording, so we told it to skip, and it ran a syntax check instead.",
+          "text_tr": "Harika bir alışkanlık, ama kayıttaydık, atlamasını söyledik, o da yerine sözdizimi kontrolü yaptı."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "clip": "clips/c_summary.mp4",
+      "clip_start": 2,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Then it wraps up with a summary: what each part does, and how to check it yourself.",
+          "text_tr": "Sonra bir özetle bitiriyor: her parça ne yapıyor ve kendin nasıl kontrol edersin."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "clip": "clips/app-desktop.webm",
+      "clip_start": 2,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "So let's check. Add a few tasks, and pick the one you're working on.",
+          "text_tr": "Hadi kontrol edelim. Birkaç görev ekle ve üzerinde çalıştığını seç."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Press start. In fast mode, the focus session ends in ten seconds.",
+          "text_tr": "Başlat'a bas. Hızlı modda odak seansı on saniyede biter."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "clip": "clips/app-desktop.webm",
+      "clip_start": 19,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The ring fills up, a chime plays, the task gets its tomato, and it switches to a break.",
+          "text_tr": "Halka doluyor, bir zil çalıyor, görev domatesini alıyor ve molaya geçiyor."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Reload the page, and everything is still there.",
+          "text_tr": "Sayfayı yenile, her şey hâlâ yerinde."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "motion": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "It wrote three files while I blinked. It was a long blink.",
+          "text_tr": "Ben göz kırparken üç dosya yazdı. Uzun bir göz kırpmaydı.",
+          "speed": 0.9
+        }
+      ],
+      "pose": "hammock-sleeping-robot-typing__office-night__3x2.png"
+    },
+    {
+      "id": "r01",
+      "clip": "clips/v_timer.mp4",
+      "clip_start": 0,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Before adding anything, open the folder in your editor and look at what it wrote.",
+          "text_tr": "Bir şey eklemeden önce klasörü editöründe aç ve ne yazdığına bak."
+        },
+        {
+          "speaker": "narrator",
+          "text": "When you press start, it saves the exact moment the session should end. Time left is that moment minus now.",
+          "text_tr": "Başlat'a bastığında seansın biteceği tam anı kaydediyor. Kalan süre, o an eksi şimdi."
+        }
+      ],
+      "chapter": "Read the code"
+    },
+    {
+      "id": "r02",
+      "clip": "clips/v_tick.mp4",
+      "clip_start": 0,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "A tick every quarter of a second only redraws the screen and checks if time is up.",
+          "text_tr": "Her çeyrek saniyedeki tık sadece ekranı yeniden çiziyor ve sürenin dolup dolmadığına bakıyor."
+        },
+        {
+          "speaker": "narrator",
+          "text": "So if the browser slows the tab down, the clock is still right.",
+          "text_tr": "Yani tarayıcı sekmeyi yavaşlatsa bile saat doğru kalıyor."
+        }
+      ]
+    },
+    {
+      "id": "r03",
+      "clip": "clips/v_load.mp4",
+      "clip_start": 0,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Loading from localStorage checks every field, so broken saved data can't crash the app.",
+          "text_tr": "localStorage'dan yükleme her alanı kontrol ediyor, böylece bozuk kayıtlı veri uygulamayı çökertemiyor."
+        }
+      ]
+    },
+    {
+      "id": "r04",
+      "clip": "clips/v_claudemd.mp4",
+      "clip_start": 0,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "You don't have to understand every line. But reading the main parts once is how you catch surprises early.",
+          "text_tr": "Her satırı anlamak zorunda değilsin. Ama ana kısımları bir kez okumak sürprizleri erken yakalamanın yolu."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "clip": "clips/c_stats_prompt.mp4",
+      "clip_start": 0,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Now a second request, in plain English: a stats bar with pomodoros today and focus minutes today, reset at midnight.",
+          "text_tr": "Şimdi ikinci istek, düz İngilizceyle: bugünkü pomodorolar ve bugünkü odak dakikaları olan, gece yarısı sıfırlanan bir istatistik çubuğu."
+        }
+      ],
+      "chapter": "Add a feature"
+    },
+    {
+      "id": "s23",
+      "clip": "clips/c_stats_work.mp4",
+      "clip_start": 0,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "No plan mode this time, because it's a small change. Claude edits all three files.",
+          "text_tr": "Bu sefer plan modu yok, çünkü küçük bir değişiklik. Claude üç dosyayı da düzenliyor."
+        },
+        {
+          "speaker": "narrator",
+          "text": "This part is twice the real speed.",
+          "text_tr": "Bu kısım gerçek hızın iki katı."
+        }
+      ]
+    },
+    {
+      "id": "s24",
+      "clip": "clips/c_stats_done.mp4",
+      "clip_start": 1,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "And it tells you straight what it didn't test: the midnight reset was never checked in a browser.",
+          "text_tr": "Ve neyi test etmediğini açıkça söylüyor: gece yarısı sıfırlaması tarayıcıda hiç denenmedi."
+        },
+        {
+          "speaker": "narrator",
+          "text": "That honesty is useful. Test the parts it says it didn't.",
+          "text_tr": "Bu dürüstlük işe yarar. Test etmediğini söylediği kısımları sen test et."
+        }
+      ]
+    },
+    {
+      "id": "s25",
+      "clip": "clips/app-desktop.webm",
+      "clip_start": 24,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "And there it is at the top: one pomodoro today.",
+          "text_tr": "İşte en üstte: bugün bir pomodoro."
+        }
+      ]
+    },
+    {
+      "id": "s26",
+      "clip": "clips/c_init.mp4",
+      "clip_start": 0,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Next, slash init. Claude reads the project and writes a CLAUDE dot md file.",
+          "text_tr": "Sırada eğik çizgi init var. Claude projeyi okuyup bir CLAUDE nokta md dosyası yazıyor."
+        },
+        {
+          "speaker": "narrator",
+          "text": "It's a short guide: how to run the app, what not to break, and how the code fits together.",
+          "text_tr": "Kısa bir rehber: uygulama nasıl çalıştırılır, neyi bozmamalı ve kod nasıl bir araya geliyor."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Every new Claude Code session in this folder reads it first.",
+          "text_tr": "Bu klasördeki her yeni Claude Code oturumu önce onu okur."
+        }
+      ],
+      "chapter": "CLAUDE.md and git"
+    },
+    {
+      "id": "s27",
+      "clip": "clips/c_git.mp4",
+      "clip_start": 2,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The last request: initialize git and commit everything with a clear message.",
+          "text_tr": "Son istek: git'i başlat ve her şeyi açık bir mesajla commit et."
+        },
+        {
+          "speaker": "narrator",
+          "text": "One commit, four files, and nothing pushed anywhere without asking.",
+          "text_tr": "Bir commit, dört dosya ve sormadan hiçbir yere push yok."
+        }
+      ]
+    },
+    {
+      "id": "t01",
+      "clip": "clips/d_ask.mp4",
+      "clip_start": 1,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Now close it and come back later. A new session starts fresh, but it reads CLAUDE dot md first.",
+          "text_tr": "Şimdi kapat ve sonra geri dön. Yeni oturum sıfırdan başlar ama önce CLAUDE nokta md'yi okur."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Type the at sign to point at a file. We asked how the timer stays accurate in a background tab.",
+          "text_tr": "Bir dosyayı göstermek için et işaretini yaz. Zamanlayıcının arka plan sekmesinde nasıl doğru kaldığını sorduk."
+        },
+        {
+          "speaker": "narrator",
+          "text": "It answers with line numbers, and it even admits one limit: the chime can come late while the tab is hidden.",
+          "text_tr": "Satır numaralarıyla cevap veriyor, hatta bir sınırı da kabul ediyor: sekme gizliyken zil geç çalabilir."
+        }
+      ],
+      "chapter": "Session two: ask, fix, undo"
+    },
+    {
+      "id": "t02",
+      "clip": "clips/d_review.mp4",
+      "clip_start": 0,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Next, the most useful prompt for beginners: review the code for real bugs, and fix the most important one.",
+          "text_tr": "Sırada yeni başlayanlar için en faydalı prompt: kodu gerçek hatalar için incele ve en önemlisini düzelt."
+        }
+      ]
+    },
+    {
+      "id": "t03",
+      "clip": "clips/d_review_done.mp4",
+      "clip_start": 1,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "And it found one. With the app open in two tabs, the older tab's next save wiped out changes from the newer one.",
+          "text_tr": "Ve bir tane buldu. Uygulama iki sekmede açıkken, eski sekmenin bir sonraki kaydı yeni sekmedeki değişiklikleri siliyordu."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The fix listens for storage changes from other tabs. Seven lines. And again, it tells you it hasn't tried two tabs yet.",
+          "text_tr": "Düzeltme diğer sekmelerden gelen depolama değişikliklerini dinliyor. Yedi satır. Ve yine, iki sekmeyi henüz denemediğini söylüyor."
+        }
+      ]
+    },
+    {
+      "id": "t04",
+      "motion": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "A bug I didn't know about, fixed before I knew about it. That's my kind of bug.",
+          "text_tr": "Varlığından haberim olmayan bir hata, haberim olmadan düzeldi. Tam benim tarzım bir hata.",
+          "speed": 0.9
+        }
+      ],
+      "pose": "pointing-at-robot-note-smug__office__3x2.png"
+    },
+    {
+      "id": "t05",
+      "clip": "clips/d_esc.mp4",
+      "clip_start": 3,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Now a mistake on purpose. We asked for a whole settings panel: lengths, themes, sounds.",
+          "text_tr": "Şimdi bilerek bir hata. Koca bir ayarlar paneli istedik: süreler, temalar, sesler."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Too much. Press Escape, and it stops right away and asks what to do instead.",
+          "text_tr": "Fazla. Escape'e bas, hemen duruyor ve onun yerine ne yapacağını soruyor."
+        }
+      ]
+    },
+    {
+      "id": "t06",
+      "clip": "clips/d_simple.mp4",
+      "clip_start": 0,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "So we narrowed it down: just a fifty ten preset button next to the tabs.",
+          "text_tr": "Biz de daralttık: sekmelerin yanına sadece elli on hazır ayar düğmesi."
+        },
+        {
+          "speaker": "narrator",
+          "text": "It changes the code, updates CLAUDE dot md, and says what it didn't test.",
+          "text_tr": "Kodu değiştiriyor, CLAUDE nokta md'yi güncelliyor ve neyi test etmediğini söylüyor."
+        }
+      ]
+    },
+    {
+      "id": "t07",
+      "clip": "clips/app-preset.webm",
+      "clip_start": 4,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "We checked it in the browser. One click, and the focus session is fifty minutes.",
+          "text_tr": "Tarayıcıda kontrol ettik. Bir tık ve odak seansı elli dakika."
+        }
+      ]
+    },
+    {
+      "id": "t08",
+      "clip": "clips/d_rewind.mp4",
+      "clip_start": 2,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "And if you don't like a change, press Escape twice. That opens Rewind.",
+          "text_tr": "Bir değişikliği beğenmezsen, iki kez Escape'e bas. Bu Rewind'ı açar."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Pick an earlier message, and it restores the code, the conversation, or both. We kept the current version.",
+          "text_tr": "Daha önceki bir mesajı seç, kodu, konuşmayı ya da ikisini geri yükler. Biz mevcut sürümü tuttuk."
+        }
+      ]
+    },
+    {
+      "id": "t09",
+      "clip": "clips/d_commit2.mp4",
+      "clip_start": 1,
+      "fit": "cover",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "One more commit. It split the work into two: the bug fix, and the preset button.",
+          "text_tr": "Bir commit daha. İşi ikiye böldü: hata düzeltmesi ve hazır ayar düğmesi."
+        }
+      ]
+    },
+    {
+      "id": "s28",
+      "motion": "static",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Five tips from the official best practices. One, give Claude a way to check its own work.",
+          "text_tr": "Resmi en iyi uygulamalardan beş ipucu. Bir, Claude'a kendi işini kontrol etmenin bir yolunu ver."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Here that was the fast mode and a syntax check. In a bigger project, it's tests.",
+          "text_tr": "Burada bu hızlı mod ve sözdizimi kontrolüydü. Daha büyük bir projede testler."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Two, plan first, then code. The plan is where you catch a wrong idea for free.",
+          "text_tr": "İki, önce planla, sonra kodla. Yanlış bir fikri bedavaya yakaladığın yer plan."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Three, be specific, and point at files with the at sign. Small, clear requests beat one giant wish.",
+          "text_tr": "Üç, net ol ve dosyaları et işaretiyle göster. Küçük, net istekler tek bir dev dilekten iyidir."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Four, keep CLAUDE dot md short. And five, Escape stops it anytime, while Escape twice rewinds.",
+          "text_tr": "Dört, CLAUDE nokta md'yi kısa tut. Ve beş, Escape onu her an durdurur, iki kez Escape geri sarar."
+        }
+      ],
+      "chapter": "Five tips and the verdict"
+    },
+    {
+      "id": "s29",
+      "motion": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "My verdict? It planned, built, tested what it could, and committed.",
+          "text_tr": "Kararım mı? Planladı, inşa etti, yapabildiğini test etti ve commit etti.",
+          "speed": 0.9
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I pressed Enter. [pause] Ten out of ten, for me.",
+          "text_tr": "Ben Enter'a bastım. [pause] Benim için on üzerinden on.",
+          "speed": 0.9
+        },
+        {
+          "speaker": "narrator",
+          "text": "Next time, Opus 5.5 gets a much bigger project.",
+          "text_tr": "Bir dahaki sefere Opus 5.5 çok daha büyük bir proje alacak."
+        }
+      ],
+      "pose": "lying-on-floor-thumbs-up__office-floor__2x3.png"
+    },
+    {
+      "id": "s30",
+      "clip": "clips/app-desktop.webm",
+      "clip_start": 9,
+      "fit": "cover",
+      "lines": [],
+      "min_duration": 20
+    }
+  ]
+}

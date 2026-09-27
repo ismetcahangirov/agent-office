@@ -2,6 +2,7 @@
 
 | Tarix | Format | Başlıq | URL | Playlist(lər) | Epizod | Son statistika |
 |---|---|---|---|---|---|---|
+| 2026-09-27 | long (6:23) | Claude Code Tutorial for Beginners (Windows + Opus 5.5) (EN + TR başlıq/təsvir/altyazı) | https://youtu.be/Cai17CW1GPA | KAXO Tests AI Tools, AI Models Explained | 2026-09-27-claude-code-tutorial | — |
 | 2026-09-26 | short (0:36) | AI Physics Record: Claude Worked While Physicists Slept (EN + TR) | https://youtube.com/shorts/WQogx1oam2g | KAXO Reacts: AI News, KAXO Shorts | 2026-09-26-nine-loops | — |
 | 2026-09-26 | long (7:09) | Claude + Remotion Remade Our Video. Ours Lost. (EN + TR başlıq/təsvir/altyazı) · **Private 2026-09-26** | https://youtu.be/qbxkwvXUzMk | KAXO Tests AI Tools | 2026-09-26-claude-remotion | — |
 | 2026-09-25 | short (0:38) | Opus 5.5 Did the Same Job for 27 Cents #shorts (EN + TR) · **Private 2026-09-26** | https://youtube.com/shorts/voAHRbTb1zw | KAXO Tests AI Tools, KAXO Shorts | 2026-09-25-opus-short | — |

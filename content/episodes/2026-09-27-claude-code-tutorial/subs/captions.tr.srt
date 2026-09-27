@@ -1,0 +1,467 @@
+1
+00:00:00,000 --> 00:00:03,940
+Bu odak zamanlayıcısı tek bir paragraf ve Claude'un yaklaşık altı dakikasını aldı.
+
+2
+00:00:04,020 --> 00:00:06,890
+Framework yok, derleme adımı yok, telefonda da çalışıyor.
+
+3
+00:00:07,080 --> 00:00:09,710
+Paragrafı ben yazdım. Zor kısmı oydu.
+
+4
+00:00:09,850 --> 00:00:13,950
+Değildi. Ama her adımı göreceksin, Windows'ta, sıfır kurulumdan başlayarak.
+
+5
+00:00:14,080 --> 00:00:16,899
+Claude Code'u kuracak, Opus 5.5'i seçecek, kodlamadan önce
+
+6
+00:00:16,899 --> 00:00:20,070
+plan yaptıracak, özellik ekleyecek ve gerçek bir hata düzelteceksin.
+
+7
+00:00:20,150 --> 00:00:23,380
+Hatta git'e commit edeceğiz, KAXO'nun hayatında hiç yapmadığı bir şey.
+
+8
+00:00:23,510 --> 00:00:26,385
+Önce gerekenler. Ücretli bir Claude planı, Pro ya
+
+9
+00:00:26,385 --> 00:00:29,260
+da Max, veya API faturalı bir Console hesabı.
+
+10
+00:00:29,340 --> 00:00:31,740
+Ücretsiz Claude planında Claude Code yok.
+
+11
+00:00:31,820 --> 00:00:35,880
+Windows'ta ayrıca Git for Windows kur, böylece Claude bash araçlarını kullanabilir.
+
+12
+00:00:36,010 --> 00:00:39,760
+Kurulum tek satır. Windows'ta bunu PowerShell'e yapıştır.
+
+13
+00:00:39,840 --> 00:00:41,903
+Mac ya da Linux'ta onun yerine bir
+
+14
+00:00:41,903 --> 00:00:44,260
+curl komutu var. İkisi de resmi kurulum sayfasında.
+
+15
+00:00:44,390 --> 00:00:46,593
+claude tire tire version ile çalıştığını kontrol
+
+16
+00:00:46,593 --> 00:00:49,110
+et. Sonra proje klasörünü aç ve claude yaz.
+
+17
+00:00:49,190 --> 00:00:51,580
+İlk seferde bu klasöre güvenip güvenmediğini sorar.
+
+18
+00:00:51,580 --> 00:00:53,970
+Sadece gerçekten tanıdığın kod için evet de.
+
+19
+00:00:54,100 --> 00:00:58,470
+Yepyeni bir kurulumda önce yazı stilini sorar. Karanlık mod, tabii ki.
+
+20
+00:00:58,610 --> 00:01:01,450
+Karanlıkta her şey daha iyi. Özellikle şekerlemeler.
+
+21
+00:01:01,640 --> 00:01:06,430
+Sonra giriş yöntemi. Claude aboneliğini seç, giriş için bir tarayıcı sekmesi açılır.
+
+22
+00:01:06,510 --> 00:01:09,110
+Orada onayla, terminale giriş yapmış olarak dönersin.
+
+23
+00:01:09,240 --> 00:01:11,835
+Modelleri görmek için eğik çizgi model yaz.
+
+24
+00:01:11,835 --> 00:01:14,800
+Burada varsayılan Opus 5.5, biz de onu kullanacağız.
+
+25
+00:01:14,880 --> 00:01:19,410
+Sonnet daha hafif, Haiku en hızlısı. Ok tuşları efor seviyesini değiştirir.
+
+26
+00:01:19,540 --> 00:01:21,880
+Şimdi Claude Code'un en faydalı tuşu: Shift
+
+27
+00:01:21,880 --> 00:01:24,220
+artı Tab. İzin modları arasında geçiş yapar.
+
+28
+00:01:24,300 --> 00:01:26,345
+Otomatik mod güvenli işleri kendisi yapar.
+
+29
+00:01:26,345 --> 00:01:28,730
+Manuel mod her şeyden önce sana sorar.
+
+30
+00:01:28,810 --> 00:01:31,425
+Accept edits dosyaları sormadan değiştirir, plan modu
+
+31
+00:01:31,425 --> 00:01:34,040
+ise okuyup düşünebilir ama hiçbir şeye dokunamaz.
+
+32
+00:01:34,230 --> 00:01:38,310
+Plan modu. Temelde ben, tek farkı planı gerçekten yazıya dökmesi.
+
+33
+00:01:38,500 --> 00:01:41,495
+İşte tüm prompt. Yirmi beş dakika odak, beş dakika
+
+34
+00:01:41,495 --> 00:01:44,490
+mola olan bir Pomodoro zamanlayıcı ve bir görev listesi.
+
+35
+00:01:44,570 --> 00:01:47,356
+localStorage'a kaydet, telefonda da çalışan karanlık bir
+
+36
+00:01:47,356 --> 00:01:50,540
+tasarım yap ve sondaki anahtar kelimeler: önce planla.
+
+37
+00:01:50,670 --> 00:01:55,510
+Opus 5.5 boş klasöre bakıp yaklaşık bir dakika düşünüyor. Bu kısım hızlandırıldı.
+
+38
+00:01:55,640 --> 00:01:58,449
+Sonra gerçek bir plan geliyor. Üç dosya: index
+
+39
+00:01:58,449 --> 00:02:01,610
+nokta html, styles nokta css ve app nokta js.
+
+40
+00:02:01,690 --> 00:02:06,070
+Zamanlayıcı bitmesi gereken andan hesaplıyor, böylece arka plandaki sekmede bile doğru kalıyor.
+
+41
+00:02:06,150 --> 00:02:08,260
+Test için bir hızlı mod bile ekliyor,
+
+42
+00:02:08,260 --> 00:02:10,370
+orada bir odak seansı on saniye sürüyor.
+
+43
+00:02:10,450 --> 00:02:13,190
+Sonunda kendi test listesini yazdı: görev ekle,
+
+44
+00:02:13,190 --> 00:02:15,930
+başlat, duraklat, yenile ve telefon genişliğine küçült.
+
+45
+00:02:16,010 --> 00:02:18,745
+Oku. Bir şey yanlışsa Claude'a neyi değiştireceğini söyle
+
+46
+00:02:18,745 --> 00:02:21,480
+seçeneğini seç. Biz beğendik, yani: evet, otomatik modla.
+
+47
+00:02:21,670 --> 00:02:24,740
+Bir planı onayladım. Yöneticilik çok yorucu.
+
+48
+00:02:24,930 --> 00:02:28,990
+Ve şimdi inşa ediyor. Her değişiklik terminalde bir diff olarak görünüyor.
+
+49
+00:02:29,070 --> 00:02:33,250
+Bu gerçek hızın üç katı. Tüm inşa yaklaşık iki dakika sürdü.
+
+50
+00:02:33,380 --> 00:02:37,030
+Sonra bir sürpriz. Claude, Chrome'u açıp uygulamayı kendisi test etmek istedi.
+
+51
+00:02:37,110 --> 00:02:39,450
+Harika bir alışkanlık, ama kayıttaydık, atlamasını
+
+52
+00:02:39,450 --> 00:02:42,180
+söyledik, o da yerine sözdizimi kontrolü yaptı.
+
+53
+00:02:42,310 --> 00:02:44,036
+Sonra bir özetle bitiriyor: her parça
+
+54
+00:02:44,036 --> 00:02:46,050
+ne yapıyor ve kendin nasıl kontrol edersin.
+
+55
+00:02:46,180 --> 00:02:49,390
+Hadi kontrol edelim. Birkaç görev ekle ve üzerinde çalıştığını seç.
+
+56
+00:02:49,470 --> 00:02:53,090
+Başlat'a bas. Hızlı modda odak seansı on saniyede biter.
+
+57
+00:02:53,220 --> 00:02:57,570
+Halka doluyor, bir zil çalıyor, görev domatesini alıyor ve molaya geçiyor.
+
+58
+00:02:57,650 --> 00:02:59,760
+Sayfayı yenile, her şey hâlâ yerinde.
+
+59
+00:02:59,950 --> 00:03:03,210
+Ben göz kırparken üç dosya yazdı. Uzun bir göz kırpmaydı.
+
+60
+00:03:03,400 --> 00:03:07,190
+Bir şey eklemeden önce klasörü editöründe aç ve ne yazdığına bak.
+
+61
+00:03:07,270 --> 00:03:09,841
+Başlat'a bastığında seansın biteceği tam anı
+
+62
+00:03:09,841 --> 00:03:12,840
+kaydediyor. Kalan süre, o an eksi şimdi.
+
+63
+00:03:12,970 --> 00:03:15,024
+Her çeyrek saniyedeki tık sadece ekranı
+
+64
+00:03:15,024 --> 00:03:17,420
+yeniden çiziyor ve sürenin dolup dolmadığına bakıyor.
+
+65
+00:03:17,500 --> 00:03:20,530
+Yani tarayıcı sekmeyi yavaşlatsa bile saat doğru kalıyor.
+
+66
+00:03:20,660 --> 00:03:25,520
+localStorage'dan yükleme her alanı kontrol ediyor, böylece bozuk kayıtlı veri uygulamayı çökertemiyor.
+
+67
+00:03:25,650 --> 00:03:28,063
+Her satırı anlamak zorunda değilsin. Ama ana
+
+68
+00:03:28,063 --> 00:03:30,820
+kısımları bir kez okumak sürprizleri erken yakalamanın yolu.
+
+69
+00:03:30,950 --> 00:03:34,215
+Şimdi ikinci istek, düz İngilizceyle: bugünkü pomodorolar ve bugünkü
+
+70
+00:03:34,215 --> 00:03:37,480
+odak dakikaları olan, gece yarısı sıfırlanan bir istatistik çubuğu.
+
+71
+00:03:37,610 --> 00:03:39,860
+Bu sefer plan modu yok, çünkü küçük
+
+72
+00:03:39,860 --> 00:03:42,110
+bir değişiklik. Claude üç dosyayı da düzenliyor.
+
+73
+00:03:42,190 --> 00:03:44,080
+Bu kısım gerçek hızın iki katı.
+
+74
+00:03:44,210 --> 00:03:48,670
+Ve neyi test etmediğini açıkça söylüyor: gece yarısı sıfırlaması tarayıcıda hiç denenmedi.
+
+75
+00:03:48,750 --> 00:03:51,660
+Bu dürüstlük işe yarar. Test etmediğini söylediği kısımları sen test et.
+
+76
+00:03:51,790 --> 00:03:54,510
+İşte en üstte: bugün bir pomodoro.
+
+77
+00:03:54,640 --> 00:03:56,905
+Sırada eğik çizgi init var. Claude projeyi
+
+78
+00:03:56,905 --> 00:03:59,170
+okuyup bir CLAUDE nokta md dosyası yazıyor.
+
+79
+00:03:59,250 --> 00:04:01,375
+Kısa bir rehber: uygulama nasıl çalıştırılır, neyi
+
+80
+00:04:01,375 --> 00:04:03,500
+bozmamalı ve kod nasıl bir araya geliyor.
+
+81
+00:04:03,580 --> 00:04:06,690
+Bu klasördeki her yeni Claude Code oturumu önce onu okur.
+
+82
+00:04:06,820 --> 00:04:10,930
+Son istek: git'i başlat ve her şeyi açık bir mesajla commit et.
+
+83
+00:04:11,010 --> 00:04:14,500
+Bir commit, dört dosya ve sormadan hiçbir yere push yok.
+
+84
+00:04:14,630 --> 00:04:17,315
+Şimdi kapat ve sonra geri dön. Yeni oturum
+
+85
+00:04:17,315 --> 00:04:20,000
+sıfırdan başlar ama önce CLAUDE nokta md'yi okur.
+
+86
+00:04:20,080 --> 00:04:22,418
+Bir dosyayı göstermek için et işaretini yaz.
+
+87
+00:04:22,418 --> 00:04:25,090
+Zamanlayıcının arka plan sekmesinde nasıl doğru kaldığını sorduk.
+
+88
+00:04:25,170 --> 00:04:27,783
+Satır numaralarıyla cevap veriyor, hatta bir sınırı
+
+89
+00:04:27,783 --> 00:04:30,770
+da kabul ediyor: sekme gizliyken zil geç çalabilir.
+
+90
+00:04:30,900 --> 00:04:33,590
+Sırada yeni başlayanlar için en faydalı prompt: kodu
+
+91
+00:04:33,590 --> 00:04:36,280
+gerçek hatalar için incele ve en önemlisini düzelt.
+
+92
+00:04:36,410 --> 00:04:39,229
+Ve bir tane buldu. Uygulama iki sekmede açıkken,
+
+93
+00:04:39,229 --> 00:04:42,400
+eski sekmenin bir sonraki kaydı yeni sekmedeki değişiklikleri siliyordu.
+
+94
+00:04:42,480 --> 00:04:45,645
+Düzeltme diğer sekmelerden gelen depolama değişikliklerini dinliyor. Yedi
+
+95
+00:04:45,645 --> 00:04:48,810
+satır. Ve yine, iki sekmeyi henüz denemediğini söylüyor.
+
+96
+00:04:49,000 --> 00:04:50,943
+Varlığından haberim olmayan bir hata, haberim
+
+97
+00:04:50,943 --> 00:04:53,210
+olmadan düzeldi. Tam benim tarzım bir hata.
+
+98
+00:04:53,400 --> 00:04:58,210
+Şimdi bilerek bir hata. Koca bir ayarlar paneli istedik: süreler, temalar, sesler.
+
+99
+00:04:58,290 --> 00:05:02,180
+Fazla. Escape'e bas, hemen duruyor ve onun yerine ne yapacağını soruyor.
+
+100
+00:05:02,310 --> 00:05:06,010
+Biz de daralttık: sekmelerin yanına sadece elli on hazır ayar düğmesi.
+
+101
+00:05:06,090 --> 00:05:10,080
+Kodu değiştiriyor, CLAUDE nokta md'yi güncelliyor ve neyi test etmediğini söylüyor.
+
+102
+00:05:10,210 --> 00:05:14,170
+Tarayıcıda kontrol ettik. Bir tık ve odak seansı elli dakika.
+
+103
+00:05:14,300 --> 00:05:18,230
+Bir değişikliği beğenmezsen, iki kez Escape'e bas. Bu Rewind'ı açar.
+
+104
+00:05:18,310 --> 00:05:20,935
+Daha önceki bir mesajı seç, kodu, konuşmayı ya
+
+105
+00:05:20,935 --> 00:05:23,560
+da ikisini geri yükler. Biz mevcut sürümü tuttuk.
+
+106
+00:05:23,690 --> 00:05:27,740
+Bir commit daha. İşi ikiye böldü: hata düzeltmesi ve hazır ayar düğmesi.
+
+107
+00:05:27,870 --> 00:05:29,816
+Resmi en iyi uygulamalardan beş ipucu. Bir,
+
+108
+00:05:29,816 --> 00:05:32,040
+Claude'a kendi işini kontrol etmenin bir yolunu ver.
+
+109
+00:05:32,120 --> 00:05:36,150
+Burada bu hızlı mod ve sözdizimi kontrolüydü. Daha büyük bir projede testler.
+
+110
+00:05:36,230 --> 00:05:40,430
+İki, önce planla, sonra kodla. Yanlış bir fikri bedavaya yakaladığın yer plan.
+
+111
+00:05:40,510 --> 00:05:43,280
+Üç, net ol ve dosyaları et işaretiyle göster.
+
+112
+00:05:43,280 --> 00:05:46,050
+Küçük, net istekler tek bir dev dilekten iyidir.
+
+113
+00:05:46,130 --> 00:05:48,965
+Dört, CLAUDE nokta md'yi kısa tut. Ve beş, Escape
+
+114
+00:05:48,965 --> 00:05:51,800
+onu her an durdurur, iki kez Escape geri sarar.
+
+115
+00:05:51,990 --> 00:05:55,930
+Kararım mı? Planladı, inşa etti, yapabildiğini test etti ve commit etti.
+
+116
+00:05:56,010 --> 00:05:58,790
+Ben Enter'a bastım. Benim için on üzerinden on.
+
+117
+00:05:58,930 --> 00:06:02,120
+Bir dahaki sefere Opus 5.5 çok daha büyük bir proje alacak.

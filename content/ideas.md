@@ -8,7 +8,10 @@
 - [x] [long] "KAXO upgraded his employees to Opus 5.5. Was it worth it?" real test Opus 5.5 vs Opus 5 (news 2026-09-25 #1, son tarix 2026-10-02) ✓ 2026-09-25-opus-5-5-test
 - [ ] [long] "Opus 5.5 vs GPT-6 Sol: same day, same price war" (news 2026-09-25 #1 #2, son tarix 2026-10-02; GPT testi ödənişlidir → sahibin icazəsi)
 - ~~[short] "OpenAI's AI invented a computer worm. By accident."~~ sahib bəyənmədi, çəkilmir (2026-09-27): self-replicating prompt injection + token sızması, yalnız alignment.openai.com faktları (news 2026-09-27 #1, son tarix 2026-09-27)
-- [ ] [long] "OpenAI DevDay 2026: tested in 12 hours" release review, `work/tests/devday-2026/` (news 2026-09-27 qarşıdan gələn; DevDay tarixi yoxlanmalı, OpenAI API ödənişlidir → sahibin icazəsi)
+- [ ] [long] "OpenAI DevDay 2026: tested in 12 hours" release review, `work/tests/devday-2026/` (news 2026-09-27 #3, DevDay 2026-09-29 rəsmi teaser; OpenAI API ödənişlidir → sahibin icazəsi)
+- [x] [long, tutorial] "Claude Code + Opus 5.5 from zero" addım-addım, ekran yazısı (news 2026-09-27 siqnal #2, evergreen) ✓ 2026-09-27-claude-code-tutorial
+- [ ] [short-from] 2026-09-27-claude-code-tutorial (ən güclü an: Esc ilə dayandırıb "keep it simple" və ya iki tab bug-ı)
+- [ ] [short] Sonnet 5.5 release short, rəsmi elandan ≤3 saat; şablon indi (news 2026-09-27, Anthropic "coming weeks" 09-22)
 
 - [x] [short-from] 2026-09-25-opus-5-5-test ✓ 2026-09-25-opus-short (punchline: "It skipped checking its own work. I've never felt so seen." / yarış qrafiki)
 - ~~[short-from] 2026-09-26-claude-remotion~~ ləğv: öz videomuzdan danışır (RULES §3 "yalnız mövzu", 2026-09-26)

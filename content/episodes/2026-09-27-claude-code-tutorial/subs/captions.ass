@@ -1,0 +1,247 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Arial,56,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,1,0,0,0,100,100,1,0,1,4,2,2,80,80,70,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.13,Cap,,0,0,0,,{\c&H00FFFFFF&}This focus timer took one paragraph and
+Dialogue: 0,0:00:02.13,0:00:03.94,Cap,,0,0,0,,{\c&H00FFFFFF&}about six minutes of Claude's time.
+Dialogue: 0,0:00:04.02,0:00:05.93,Cap,,0,0,0,,{\c&H00FFFFFF&}No frameworks, no build step, and it
+Dialogue: 0,0:00:05.93,0:00:06.89,Cap,,0,0,0,,{\c&H00FFFFFF&}works on a phone.
+Dialogue: 0,0:00:07.08,0:00:08.43,Cap,,0,0,0,,{\c&H0048D98A&}I wrote the paragraph.
+Dialogue: 0,0:00:08.49,0:00:09.71,Cap,,0,0,0,,{\c&H0048D98A&}That's the hard part.
+Dialogue: 0,0:00:09.85,0:00:10.49,Cap,,0,0,0,,{\c&H00FFFFFF&}It isn't.
+Dialogue: 0,0:00:10.55,0:00:12.42,Cap,,0,0,0,,{\c&H00FFFFFF&}But you'll see every step, on Windows,
+Dialogue: 0,0:00:12.42,0:00:13.95,Cap,,0,0,0,,{\c&H00FFFFFF&}starting from a fresh install.
+Dialogue: 0,0:00:14.08,0:00:16.38,Cap,,0,0,0,,{\c&H00FFFFFF&}You'll install Claude Code, pick Opus 5.5,
+Dialogue: 0,0:00:16.38,0:00:18.37,Cap,,0,0,0,,{\c&H00FFFFFF&}make it plan before it codes, add
+Dialogue: 0,0:00:18.37,0:00:20.07,Cap,,0,0,0,,{\c&H00FFFFFF&}features, and fix a real bug.
+Dialogue: 0,0:00:20.15,0:00:21.79,Cap,,0,0,0,,{\c&H00FFFFFF&}We'll even commit it to git, which
+Dialogue: 0,0:00:21.79,0:00:23.38,Cap,,0,0,0,,{\c&H00FFFFFF&}KAXO has never done in his life.
+Dialogue: 0,0:00:23.51,0:00:24.78,Cap,,0,0,0,,{\c&H00FFFFFF&}Here's what you need first.
+Dialogue: 0,0:00:24.84,0:00:26.83,Cap,,0,0,0,,{\c&H00FFFFFF&}A paid Claude plan, Pro or Max,
+Dialogue: 0,0:00:26.83,0:00:29.26,Cap,,0,0,0,,{\c&H00FFFFFF&}or a Console account with API billing.
+Dialogue: 0,0:00:29.34,0:00:31.14,Cap,,0,0,0,,{\c&H00FFFFFF&}The free Claude plan doesn't include
+Dialogue: 0,0:00:31.14,0:00:31.74,Cap,,0,0,0,,{\c&H00FFFFFF&}Claude Code.
+Dialogue: 0,0:00:31.82,0:00:33.87,Cap,,0,0,0,,{\c&H00FFFFFF&}And on Windows, install Git for Windows
+Dialogue: 0,0:00:33.87,0:00:35.57,Cap,,0,0,0,,{\c&H00FFFFFF&}too, so Claude can use its bash
+Dialogue: 0,0:00:35.57,0:00:35.88,Cap,,0,0,0,,{\c&H00FFFFFF&}tools.
+Dialogue: 0,0:00:36.01,0:00:37.54,Cap,,0,0,0,,{\c&H00FFFFFF&}Installing is one line.
+Dialogue: 0,0:00:37.60,0:00:39.76,Cap,,0,0,0,,{\c&H00FFFFFF&}On Windows, paste this into PowerShell.
+Dialogue: 0,0:00:39.84,0:00:41.21,Cap,,0,0,0,,{\c&H00FFFFFF&}On a Mac or Linux it's a
+Dialogue: 0,0:00:41.21,0:00:42.27,Cap,,0,0,0,,{\c&H00FFFFFF&}curl command instead.
+Dialogue: 0,0:00:42.33,0:00:44.26,Cap,,0,0,0,,{\c&H00FFFFFF&}Both are on the official setup page.
+Dialogue: 0,0:00:44.39,0:00:46.31,Cap,,0,0,0,,{\c&H00FFFFFF&}Check it worked with claude dash dash
+Dialogue: 0,0:00:46.31,0:00:46.69,Cap,,0,0,0,,{\c&H00FFFFFF&}version.
+Dialogue: 0,0:00:46.75,0:00:48.76,Cap,,0,0,0,,{\c&H00FFFFFF&}Then open your project folder and type
+Dialogue: 0,0:00:48.76,0:00:49.11,Cap,,0,0,0,,{\c&H00FFFFFF&}claude.
+Dialogue: 0,0:00:49.19,0:00:50.78,Cap,,0,0,0,,{\c&H00FFFFFF&}The first time, it asks if you
+Dialogue: 0,0:00:50.78,0:00:51.69,Cap,,0,0,0,,{\c&H00FFFFFF&}trust this folder.
+Dialogue: 0,0:00:51.75,0:00:53.69,Cap,,0,0,0,,{\c&H00FFFFFF&}Say yes only for code you actually
+Dialogue: 0,0:00:53.69,0:00:53.97,Cap,,0,0,0,,{\c&H00FFFFFF&}know.
+Dialogue: 0,0:00:54.10,0:00:55.79,Cap,,0,0,0,,{\c&H00FFFFFF&}On a brand new install, it asks
+Dialogue: 0,0:00:55.79,0:00:57.03,Cap,,0,0,0,,{\c&H00FFFFFF&}for a text style first.
+Dialogue: 0,0:00:57.09,0:00:58.47,Cap,,0,0,0,,{\c&H00FFFFFF&}Dark mode, obviously.
+Dialogue: 0,0:00:58.61,0:01:00.18,Cap,,0,0,0,,{\c&H0048D98A&}Everything's better in the dark.
+Dialogue: 0,0:01:00.24,0:01:01.45,Cap,,0,0,0,,{\c&H0048D98A&}Especially naps.
+Dialogue: 0,0:01:01.64,0:01:02.85,Cap,,0,0,0,,{\c&H00FFFFFF&}Then the login method.
+Dialogue: 0,0:01:02.91,0:01:04.83,Cap,,0,0,0,,{\c&H00FFFFFF&}Pick your Claude subscription, and a
+Dialogue: 0,0:01:04.83,0:01:06.43,Cap,,0,0,0,,{\c&H00FFFFFF&}browser tab opens to sign in.
+Dialogue: 0,0:01:06.51,0:01:08.09,Cap,,0,0,0,,{\c&H00FFFFFF&}Approve it there, and you're back in
+Dialogue: 0,0:01:08.09,0:01:09.11,Cap,,0,0,0,,{\c&H00FFFFFF&}the terminal, logged in.
+Dialogue: 0,0:01:09.24,0:01:11.28,Cap,,0,0,0,,{\c&H00FFFFFF&}Type slash model to see the models.
+Dialogue: 0,0:01:11.34,0:01:13.55,Cap,,0,0,0,,{\c&H00FFFFFF&}Opus 5.5 is the default here, and
+Dialogue: 0,0:01:13.55,0:01:14.80,Cap,,0,0,0,,{\c&H00FFFFFF&}it's what we'll use.
+Dialogue: 0,0:01:14.88,0:01:16.86,Cap,,0,0,0,,{\c&H00FFFFFF&}Sonnet is lighter and Haiku is the
+Dialogue: 0,0:01:16.86,0:01:17.29,Cap,,0,0,0,,{\c&H00FFFFFF&}fastest.
+Dialogue: 0,0:01:17.35,0:01:19.41,Cap,,0,0,0,,{\c&H00FFFFFF&}The arrow keys change the effort level.
+Dialogue: 0,0:01:19.54,0:01:21.42,Cap,,0,0,0,,{\c&H00FFFFFF&}Now the most useful key in Claude
+Dialogue: 0,0:01:21.42,0:01:22.52,Cap,,0,0,0,,{\c&H00FFFFFF&}Code: Shift plus Tab.
+Dialogue: 0,0:01:22.58,0:01:24.22,Cap,,0,0,0,,{\c&H00FFFFFF&}It cycles the permission modes.
+Dialogue: 0,0:01:24.30,0:01:26.20,Cap,,0,0,0,,{\c&H00FFFFFF&}Auto mode runs safe actions on its
+Dialogue: 0,0:01:26.20,0:01:26.43,Cap,,0,0,0,,{\c&H00FFFFFF&}own.
+Dialogue: 0,0:01:26.49,0:01:28.73,Cap,,0,0,0,,{\c&H00FFFFFF&}Manual asks you before anything happens.
+Dialogue: 0,0:01:28.81,0:01:30.90,Cap,,0,0,0,,{\c&H00FFFFFF&}Accept edits changes files without asking,
+Dialogue: 0,0:01:30.90,0:01:32.64,Cap,,0,0,0,,{\c&H00FFFFFF&}and plan mode can read and think,
+Dialogue: 0,0:01:32.64,0:01:34.04,Cap,,0,0,0,,{\c&H00FFFFFF&}but it can't touch a thing.
+Dialogue: 0,0:01:34.23,0:01:35.03,Cap,,0,0,0,,{\c&H0048D98A&}Plan mode.
+Dialogue: 0,0:01:35.09,0:01:37.11,Cap,,0,0,0,,{\c&H0048D98A&}It's basically me, except it actually
+Dialogue: 0,0:01:37.11,0:01:38.31,Cap,,0,0,0,,{\c&H0048D98A&}writes the plan down.
+Dialogue: 0,0:01:38.50,0:01:39.69,Cap,,0,0,0,,{\c&H00FFFFFF&}Here's the whole prompt.
+Dialogue: 0,0:01:39.75,0:01:41.96,Cap,,0,0,0,,{\c&H00FFFFFF&}A Pomodoro timer with twenty-five minutes
+Dialogue: 0,0:01:41.96,0:01:43.79,Cap,,0,0,0,,{\c&H00FFFFFF&}of focus and five of break, plus
+Dialogue: 0,0:01:43.79,0:01:44.49,Cap,,0,0,0,,{\c&H00FFFFFF&}a task list.
+Dialogue: 0,0:01:44.57,0:01:46.38,Cap,,0,0,0,,{\c&H00FFFFFF&}Save it in localStorage, give it a
+Dialogue: 0,0:01:46.38,0:01:48.20,Cap,,0,0,0,,{\c&H00FFFFFF&}dark design that works on a phone,
+Dialogue: 0,0:01:48.20,0:01:49.79,Cap,,0,0,0,,{\c&H00FFFFFF&}and the key words at the end:
+Dialogue: 0,0:01:49.79,0:01:50.54,Cap,,0,0,0,,{\c&H00FFFFFF&}plan it first.
+Dialogue: 0,0:01:50.67,0:01:52.62,Cap,,0,0,0,,{\c&H00FFFFFF&}Opus 5.5 looks at the empty folder
+Dialogue: 0,0:01:52.62,0:01:54.33,Cap,,0,0,0,,{\c&H00FFFFFF&}and thinks for about a minute.
+Dialogue: 0,0:01:54.39,0:01:55.51,Cap,,0,0,0,,{\c&H00FFFFFF&}This part is sped up.
+Dialogue: 0,0:01:55.64,0:01:56.99,Cap,,0,0,0,,{\c&H00FFFFFF&}Then you get an actual plan.
+Dialogue: 0,0:01:57.05,0:02:00.02,Cap,,0,0,0,,{\c&H00FFFFFF&}Three files: index dot html, styles dot
+Dialogue: 0,0:02:00.02,0:02:01.61,Cap,,0,0,0,,{\c&H00FFFFFF&}css and app dot js.
+Dialogue: 0,0:02:01.69,0:02:03.36,Cap,,0,0,0,,{\c&H00FFFFFF&}The timer works from the moment it
+Dialogue: 0,0:02:03.36,0:02:05.11,Cap,,0,0,0,,{\c&H00FFFFFF&}should finish, so it stays right even
+Dialogue: 0,0:02:05.11,0:02:06.07,Cap,,0,0,0,,{\c&H00FFFFFF&}in a background tab.
+Dialogue: 0,0:02:06.15,0:02:07.80,Cap,,0,0,0,,{\c&H00FFFFFF&}It even adds a fast mode for
+Dialogue: 0,0:02:07.80,0:02:09.96,Cap,,0,0,0,,{\c&H00FFFFFF&}testing, where a focus session lasts ten
+Dialogue: 0,0:02:09.96,0:02:10.37,Cap,,0,0,0,,{\c&H00FFFFFF&}seconds.
+Dialogue: 0,0:02:10.45,0:02:12.09,Cap,,0,0,0,,{\c&H00FFFFFF&}At the end, it wrote its own
+Dialogue: 0,0:02:12.09,0:02:14.10,Cap,,0,0,0,,{\c&H00FFFFFF&}test checklist: add tasks, start, pause,
+Dialogue: 0,0:02:14.10,0:02:15.93,Cap,,0,0,0,,{\c&H00FFFFFF&}reload, and resize to phone width.
+Dialogue: 0,0:02:16.01,0:02:16.57,Cap,,0,0,0,,{\c&H00FFFFFF&}Read it.
+Dialogue: 0,0:02:16.63,0:02:18.38,Cap,,0,0,0,,{\c&H00FFFFFF&}If something's off, choose tell Claude
+Dialogue: 0,0:02:18.38,0:02:19.12,Cap,,0,0,0,,{\c&H00FFFFFF&}what to change.
+Dialogue: 0,0:02:19.18,0:02:20.88,Cap,,0,0,0,,{\c&H00FFFFFF&}We liked it, so: yes, and use
+Dialogue: 0,0:02:20.88,0:02:21.48,Cap,,0,0,0,,{\c&H00FFFFFF&}auto mode.
+Dialogue: 0,0:02:21.67,0:02:22.95,Cap,,0,0,0,,{\c&H0048D98A&}I approved a plan.
+Dialogue: 0,0:02:23.01,0:02:24.74,Cap,,0,0,0,,{\c&H0048D98A&}Management is exhausting.
+Dialogue: 0,0:02:24.93,0:02:25.97,Cap,,0,0,0,,{\c&H00FFFFFF&}And now it builds.
+Dialogue: 0,0:02:26.03,0:02:27.81,Cap,,0,0,0,,{\c&H00FFFFFF&}Every change shows up as a diff,
+Dialogue: 0,0:02:27.81,0:02:28.99,Cap,,0,0,0,,{\c&H00FFFFFF&}right in the terminal.
+Dialogue: 0,0:02:29.07,0:02:30.97,Cap,,0,0,0,,{\c&H00FFFFFF&}This is three times faster than real
+Dialogue: 0,0:02:30.97,0:02:31.23,Cap,,0,0,0,,{\c&H00FFFFFF&}life.
+Dialogue: 0,0:02:31.29,0:02:33.25,Cap,,0,0,0,,{\c&H00FFFFFF&}The whole build took about two minutes.
+Dialogue: 0,0:02:33.38,0:02:34.35,Cap,,0,0,0,,{\c&H00FFFFFF&}Then a surprise.
+Dialogue: 0,0:02:34.41,0:02:36.16,Cap,,0,0,0,,{\c&H00FFFFFF&}Claude asked to open Chrome and test
+Dialogue: 0,0:02:36.16,0:02:37.03,Cap,,0,0,0,,{\c&H00FFFFFF&}the app by itself.
+Dialogue: 0,0:02:37.11,0:02:38.77,Cap,,0,0,0,,{\c&H00FFFFFF&}That's a great habit, but we were
+Dialogue: 0,0:02:38.77,0:02:40.43,Cap,,0,0,0,,{\c&H00FFFFFF&}recording, so we told it to skip,
+Dialogue: 0,0:02:40.43,0:02:42.18,Cap,,0,0,0,,{\c&H00FFFFFF&}and it ran a syntax check instead.
+Dialogue: 0,0:02:42.31,0:02:43.80,Cap,,0,0,0,,{\c&H00FFFFFF&}Then it wraps up with a summary:
+Dialogue: 0,0:02:43.80,0:02:45.25,Cap,,0,0,0,,{\c&H00FFFFFF&}what each part does, and how to
+Dialogue: 0,0:02:45.25,0:02:46.05,Cap,,0,0,0,,{\c&H00FFFFFF&}check it yourself.
+Dialogue: 0,0:02:46.18,0:02:46.94,Cap,,0,0,0,,{\c&H00FFFFFF&}So let's check.
+Dialogue: 0,0:02:47.00,0:02:48.41,Cap,,0,0,0,,{\c&H00FFFFFF&}Add a few tasks, and pick the
+Dialogue: 0,0:02:48.41,0:02:49.39,Cap,,0,0,0,,{\c&H00FFFFFF&}one you're working on.
+Dialogue: 0,0:02:49.47,0:02:50.17,Cap,,0,0,0,,{\c&H00FFFFFF&}Press start.
+Dialogue: 0,0:02:50.23,0:02:52.25,Cap,,0,0,0,,{\c&H00FFFFFF&}In fast mode, the focus session ends
+Dialogue: 0,0:02:52.25,0:02:53.09,Cap,,0,0,0,,{\c&H00FFFFFF&}in ten seconds.
+Dialogue: 0,0:02:53.22,0:02:54.88,Cap,,0,0,0,,{\c&H00FFFFFF&}The ring fills up, a chime plays,
+Dialogue: 0,0:02:54.88,0:02:56.55,Cap,,0,0,0,,{\c&H00FFFFFF&}the task gets its tomato, and it
+Dialogue: 0,0:02:56.55,0:02:57.57,Cap,,0,0,0,,{\c&H00FFFFFF&}switches to a break.
+Dialogue: 0,0:02:57.65,0:02:59.49,Cap,,0,0,0,,{\c&H00FFFFFF&}Reload the page, and everything is still
+Dialogue: 0,0:02:59.49,0:02:59.76,Cap,,0,0,0,,{\c&H00FFFFFF&}there.
+Dialogue: 0,0:02:59.95,0:03:02.01,Cap,,0,0,0,,{\c&H0048D98A&}It wrote three files while I blinked.
+Dialogue: 0,0:03:02.07,0:03:03.21,Cap,,0,0,0,,{\c&H0048D98A&}It was a long blink.
+Dialogue: 0,0:03:03.40,0:03:05.35,Cap,,0,0,0,,{\c&H00FFFFFF&}Before adding anything, open the folder in
+Dialogue: 0,0:03:05.35,0:03:06.91,Cap,,0,0,0,,{\c&H00FFFFFF&}your editor and look at what it
+Dialogue: 0,0:03:06.91,0:03:07.19,Cap,,0,0,0,,{\c&H00FFFFFF&}wrote.
+Dialogue: 0,0:03:07.27,0:03:08.94,Cap,,0,0,0,,{\c&H00FFFFFF&}When you press start, it saves the
+Dialogue: 0,0:03:08.94,0:03:10.66,Cap,,0,0,0,,{\c&H00FFFFFF&}exact moment the session should end.
+Dialogue: 0,0:03:10.72,0:03:12.84,Cap,,0,0,0,,{\c&H00FFFFFF&}Time left is that moment minus now.
+Dialogue: 0,0:03:12.97,0:03:14.77,Cap,,0,0,0,,{\c&H00FFFFFF&}A tick every quarter of a second
+Dialogue: 0,0:03:14.77,0:03:16.79,Cap,,0,0,0,,{\c&H00FFFFFF&}only redraws the screen and checks if
+Dialogue: 0,0:03:16.79,0:03:17.42,Cap,,0,0,0,,{\c&H00FFFFFF&}time is up.
+Dialogue: 0,0:03:17.50,0:03:19.08,Cap,,0,0,0,,{\c&H00FFFFFF&}So if the browser slows the tab
+Dialogue: 0,0:03:19.08,0:03:20.53,Cap,,0,0,0,,{\c&H00FFFFFF&}down, the clock is still right.
+Dialogue: 0,0:03:20.66,0:03:22.82,Cap,,0,0,0,,{\c&H00FFFFFF&}Loading from localStorage checks every
+Dialogue: 0,0:03:22.82,0:03:25.03,Cap,,0,0,0,,{\c&H00FFFFFF&}field, so broken saved data can't crash
+Dialogue: 0,0:03:25.03,0:03:25.52,Cap,,0,0,0,,{\c&H00FFFFFF&}the app.
+Dialogue: 0,0:03:25.65,0:03:27.49,Cap,,0,0,0,,{\c&H00FFFFFF&}You don't have to understand every line.
+Dialogue: 0,0:03:27.55,0:03:29.33,Cap,,0,0,0,,{\c&H00FFFFFF&}But reading the main parts once is
+Dialogue: 0,0:03:29.33,0:03:30.82,Cap,,0,0,0,,{\c&H00FFFFFF&}how you catch surprises early.
+Dialogue: 0,0:03:30.95,0:03:33.16,Cap,,0,0,0,,{\c&H00FFFFFF&}Now a second request, in plain English:
+Dialogue: 0,0:03:33.16,0:03:35.32,Cap,,0,0,0,,{\c&H00FFFFFF&}a stats bar with pomodoros today and
+Dialogue: 0,0:03:35.32,0:03:37.48,Cap,,0,0,0,,{\c&H00FFFFFF&}focus minutes today, reset at midnight.
+Dialogue: 0,0:03:37.61,0:03:39.49,Cap,,0,0,0,,{\c&H00FFFFFF&}No plan mode this time, because it's
+Dialogue: 0,0:03:39.49,0:03:40.30,Cap,,0,0,0,,{\c&H00FFFFFF&}a small change.
+Dialogue: 0,0:03:40.36,0:03:42.11,Cap,,0,0,0,,{\c&H00FFFFFF&}Claude edits all three files.
+Dialogue: 0,0:03:42.19,0:03:44.08,Cap,,0,0,0,,{\c&H00FFFFFF&}This part is twice the real speed.
+Dialogue: 0,0:03:44.21,0:03:45.83,Cap,,0,0,0,,{\c&H00FFFFFF&}And it tells you straight what it
+Dialogue: 0,0:03:45.83,0:03:47.68,Cap,,0,0,0,,{\c&H00FFFFFF&}didn't test: the midnight reset was never
+Dialogue: 0,0:03:47.68,0:03:48.67,Cap,,0,0,0,,{\c&H00FFFFFF&}checked in a browser.
+Dialogue: 0,0:03:48.75,0:03:50.13,Cap,,0,0,0,,{\c&H00FFFFFF&}That honesty is useful.
+Dialogue: 0,0:03:50.19,0:03:51.66,Cap,,0,0,0,,{\c&H00FFFFFF&}Test the parts it says it didn't.
+Dialogue: 0,0:03:51.79,0:03:53.44,Cap,,0,0,0,,{\c&H00FFFFFF&}And there it is at the top:
+Dialogue: 0,0:03:53.44,0:03:54.51,Cap,,0,0,0,,{\c&H00FFFFFF&}one pomodoro today.
+Dialogue: 0,0:03:54.64,0:03:55.83,Cap,,0,0,0,,{\c&H00FFFFFF&}Next, slash init.
+Dialogue: 0,0:03:55.89,0:03:58.06,Cap,,0,0,0,,{\c&H00FFFFFF&}Claude reads the project and writes a
+Dialogue: 0,0:03:58.06,0:03:59.17,Cap,,0,0,0,,{\c&H00FFFFFF&}CLAUDE dot md file.
+Dialogue: 0,0:03:59.25,0:04:00.71,Cap,,0,0,0,,{\c&H00FFFFFF&}It's a short guide: how to run
+Dialogue: 0,0:04:00.71,0:04:02.21,Cap,,0,0,0,,{\c&H00FFFFFF&}the app, what not to break, and
+Dialogue: 0,0:04:02.21,0:04:03.50,Cap,,0,0,0,,{\c&H00FFFFFF&}how the code fits together.
+Dialogue: 0,0:04:03.58,0:04:05.55,Cap,,0,0,0,,{\c&H00FFFFFF&}Every new Claude Code session in this
+Dialogue: 0,0:04:05.55,0:04:06.69,Cap,,0,0,0,,{\c&H00FFFFFF&}folder reads it first.
+Dialogue: 0,0:04:06.82,0:04:08.80,Cap,,0,0,0,,{\c&H00FFFFFF&}The last request: initialize git and
+Dialogue: 0,0:04:08.80,0:04:10.93,Cap,,0,0,0,,{\c&H00FFFFFF&}commit everything with a clear message.
+Dialogue: 0,0:04:11.01,0:04:13.24,Cap,,0,0,0,,{\c&H00FFFFFF&}One commit, four files, and nothing pushed
+Dialogue: 0,0:04:13.24,0:04:14.50,Cap,,0,0,0,,{\c&H00FFFFFF&}anywhere without asking.
+Dialogue: 0,0:04:14.63,0:04:16.42,Cap,,0,0,0,,{\c&H00FFFFFF&}Now close it and come back later.
+Dialogue: 0,0:04:16.48,0:04:18.48,Cap,,0,0,0,,{\c&H00FFFFFF&}A new session starts fresh, but it
+Dialogue: 0,0:04:18.48,0:04:20.00,Cap,,0,0,0,,{\c&H00FFFFFF&}reads CLAUDE dot md first.
+Dialogue: 0,0:04:20.08,0:04:21.71,Cap,,0,0,0,,{\c&H00FFFFFF&}Type the at sign to point at
+Dialogue: 0,0:04:21.71,0:04:22.12,Cap,,0,0,0,,{\c&H00FFFFFF&}a file.
+Dialogue: 0,0:04:22.18,0:04:24.08,Cap,,0,0,0,,{\c&H00FFFFFF&}We asked how the timer stays accurate
+Dialogue: 0,0:04:24.08,0:04:25.09,Cap,,0,0,0,,{\c&H00FFFFFF&}in a background tab.
+Dialogue: 0,0:04:25.17,0:04:27.07,Cap,,0,0,0,,{\c&H00FFFFFF&}It answers with line numbers, and it
+Dialogue: 0,0:04:27.07,0:04:28.96,Cap,,0,0,0,,{\c&H00FFFFFF&}even admits one limit: the chime can
+Dialogue: 0,0:04:28.96,0:04:30.77,Cap,,0,0,0,,{\c&H00FFFFFF&}come late while the tab is hidden.
+Dialogue: 0,0:04:30.90,0:04:32.58,Cap,,0,0,0,,{\c&H00FFFFFF&}Next, the most useful prompt for
+Dialogue: 0,0:04:32.58,0:04:34.65,Cap,,0,0,0,,{\c&H00FFFFFF&}beginners: review the code for real bugs,
+Dialogue: 0,0:04:34.65,0:04:36.28,Cap,,0,0,0,,{\c&H00FFFFFF&}and fix the most important one.
+Dialogue: 0,0:04:36.41,0:04:37.38,Cap,,0,0,0,,{\c&H00FFFFFF&}And it found one.
+Dialogue: 0,0:04:37.44,0:04:39.09,Cap,,0,0,0,,{\c&H00FFFFFF&}With the app open in two tabs,
+Dialogue: 0,0:04:39.09,0:04:40.97,Cap,,0,0,0,,{\c&H00FFFFFF&}the older tab's next save wiped out
+Dialogue: 0,0:04:40.97,0:04:42.40,Cap,,0,0,0,,{\c&H00FFFFFF&}changes from the newer one.
+Dialogue: 0,0:04:42.48,0:04:44.69,Cap,,0,0,0,,{\c&H00FFFFFF&}The fix listens for storage changes from
+Dialogue: 0,0:04:44.69,0:04:45.29,Cap,,0,0,0,,{\c&H00FFFFFF&}other tabs.
+Dialogue: 0,0:04:45.35,0:04:46.24,Cap,,0,0,0,,{\c&H00FFFFFF&}Seven lines.
+Dialogue: 0,0:04:46.30,0:04:47.88,Cap,,0,0,0,,{\c&H00FFFFFF&}And again, it tells you it hasn't
+Dialogue: 0,0:04:47.88,0:04:48.81,Cap,,0,0,0,,{\c&H00FFFFFF&}tried two tabs yet.
+Dialogue: 0,0:04:49.00,0:04:50.73,Cap,,0,0,0,,{\c&H0048D98A&}A bug I didn't know about, fixed
+Dialogue: 0,0:04:50.73,0:04:52.01,Cap,,0,0,0,,{\c&H0048D98A&}before I knew about it.
+Dialogue: 0,0:04:52.07,0:04:53.21,Cap,,0,0,0,,{\c&H0048D98A&}That's my kind of bug.
+Dialogue: 0,0:04:53.40,0:04:54.94,Cap,,0,0,0,,{\c&H00FFFFFF&}Now a mistake on purpose.
+Dialogue: 0,0:04:55.00,0:04:57.03,Cap,,0,0,0,,{\c&H00FFFFFF&}We asked for a whole settings panel:
+Dialogue: 0,0:04:57.03,0:04:58.21,Cap,,0,0,0,,{\c&H00FFFFFF&}lengths, themes, sounds.
+Dialogue: 0,0:04:58.29,0:04:58.87,Cap,,0,0,0,,{\c&H00FFFFFF&}Too much.
+Dialogue: 0,0:04:58.93,0:05:00.76,Cap,,0,0,0,,{\c&H00FFFFFF&}Press Escape, and it stops right away
+Dialogue: 0,0:05:00.76,0:05:02.18,Cap,,0,0,0,,{\c&H00FFFFFF&}and asks what to do instead.
+Dialogue: 0,0:05:02.31,0:05:03.90,Cap,,0,0,0,,{\c&H00FFFFFF&}So we narrowed it down: just a
+Dialogue: 0,0:05:03.90,0:05:05.75,Cap,,0,0,0,,{\c&H00FFFFFF&}fifty ten preset button next to the
+Dialogue: 0,0:05:05.75,0:05:06.01,Cap,,0,0,0,,{\c&H00FFFFFF&}tabs.
+Dialogue: 0,0:05:06.09,0:05:08.27,Cap,,0,0,0,,{\c&H00FFFFFF&}It changes the code, updates CLAUDE dot
+Dialogue: 0,0:05:08.27,0:05:10.08,Cap,,0,0,0,,{\c&H00FFFFFF&}md, and says what it didn't test.
+Dialogue: 0,0:05:10.21,0:05:11.65,Cap,,0,0,0,,{\c&H00FFFFFF&}We checked it in the browser.
+Dialogue: 0,0:05:11.71,0:05:13.49,Cap,,0,0,0,,{\c&H00FFFFFF&}One click, and the focus session is
+Dialogue: 0,0:05:13.49,0:05:14.17,Cap,,0,0,0,,{\c&H00FFFFFF&}fifty minutes.
+Dialogue: 0,0:05:14.30,0:05:15.91,Cap,,0,0,0,,{\c&H00FFFFFF&}And if you don't like a change,
+Dialogue: 0,0:05:15.91,0:05:16.87,Cap,,0,0,0,,{\c&H00FFFFFF&}press Escape twice.
+Dialogue: 0,0:05:16.93,0:05:18.23,Cap,,0,0,0,,{\c&H00FFFFFF&}That opens Rewind.
+Dialogue: 0,0:05:18.31,0:05:20.38,Cap,,0,0,0,,{\c&H00FFFFFF&}Pick an earlier message, and it restores
+Dialogue: 0,0:05:20.38,0:05:22.15,Cap,,0,0,0,,{\c&H00FFFFFF&}the code, the conversation, or both.
+Dialogue: 0,0:05:22.21,0:05:23.56,Cap,,0,0,0,,{\c&H00FFFFFF&}We kept the current version.
+Dialogue: 0,0:05:23.69,0:05:24.65,Cap,,0,0,0,,{\c&H00FFFFFF&}One more commit.
+Dialogue: 0,0:05:24.71,0:05:26.27,Cap,,0,0,0,,{\c&H00FFFFFF&}It split the work into two: the
+Dialogue: 0,0:05:26.27,0:05:27.74,Cap,,0,0,0,,{\c&H00FFFFFF&}bug fix, and the preset button.
+Dialogue: 0,0:05:27.87,0:05:29.52,Cap,,0,0,0,,{\c&H00FFFFFF&}Five tips from the official best
+Dialogue: 0,0:05:29.52,0:05:29.99,Cap,,0,0,0,,{\c&H00FFFFFF&}practices.
+Dialogue: 0,0:05:30.05,0:05:31.45,Cap,,0,0,0,,{\c&H00FFFFFF&}One, give Claude a way to check
+Dialogue: 0,0:05:31.45,0:05:32.04,Cap,,0,0,0,,{\c&H00FFFFFF&}its own work.
+Dialogue: 0,0:05:32.12,0:05:33.65,Cap,,0,0,0,,{\c&H00FFFFFF&}Here that was the fast mode and
+Dialogue: 0,0:05:33.65,0:05:34.36,Cap,,0,0,0,,{\c&H00FFFFFF&}a syntax check.
+Dialogue: 0,0:05:34.42,0:05:36.15,Cap,,0,0,0,,{\c&H00FFFFFF&}In a bigger project, it's tests.
+Dialogue: 0,0:05:36.23,0:05:37.93,Cap,,0,0,0,,{\c&H00FFFFFF&}Two, plan first, then code.
+Dialogue: 0,0:05:37.99,0:05:39.47,Cap,,0,0,0,,{\c&H00FFFFFF&}The plan is where you catch a
+Dialogue: 0,0:05:39.47,0:05:40.43,Cap,,0,0,0,,{\c&H00FFFFFF&}wrong idea for free.
+Dialogue: 0,0:05:40.51,0:05:42.44,Cap,,0,0,0,,{\c&H00FFFFFF&}Three, be specific, and point at files
+Dialogue: 0,0:05:42.44,0:05:43.36,Cap,,0,0,0,,{\c&H00FFFFFF&}with the at sign.
+Dialogue: 0,0:05:43.42,0:05:46.05,Cap,,0,0,0,,{\c&H00FFFFFF&}Small, clear requests beat one giant wish.
+Dialogue: 0,0:05:46.13,0:05:48.18,Cap,,0,0,0,,{\c&H00FFFFFF&}Four, keep CLAUDE dot md short.
+Dialogue: 0,0:05:48.24,0:05:50.58,Cap,,0,0,0,,{\c&H00FFFFFF&}And five, Escape stops it anytime, while
+Dialogue: 0,0:05:50.58,0:05:51.80,Cap,,0,0,0,,{\c&H00FFFFFF&}Escape twice rewinds.
+Dialogue: 0,0:05:51.99,0:05:52.98,Cap,,0,0,0,,{\c&H0048D98A&}My verdict?
+Dialogue: 0,0:05:53.08,0:05:55.18,Cap,,0,0,0,,{\c&H0048D98A&}It planned, built, tested what it could,
+Dialogue: 0,0:05:55.18,0:05:55.93,Cap,,0,0,0,,{\c&H0048D98A&}and committed.
+Dialogue: 0,0:05:56.01,0:05:57.15,Cap,,0,0,0,,{\c&H0048D98A&}I pressed Enter.
+Dialogue: 0,0:05:57.35,0:05:58.79,Cap,,0,0,0,,{\c&H0048D98A&}Ten out of ten, for me.
+Dialogue: 0,0:05:58.93,0:06:01.12,Cap,,0,0,0,,{\c&H00FFFFFF&}Next time, Opus 5.5 gets a much
+Dialogue: 0,0:06:01.12,0:06:02.12,Cap,,0,0,0,,{\c&H00FFFFFF&}bigger project.
