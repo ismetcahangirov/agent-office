@@ -186,6 +186,14 @@ tools/video/.venv/Scripts/python tools/video/record_screen.py --list      # aç�
 - Kadrda artıq panel görünürsə (yan panel, extension reklamı), `episode.json`-da `crop` ilə kəs.
 - Short üçün kod kadrı: `"fit": "cover"` + mətnin olduğu sol hissəyə `crop` (məsələn `[0.1, 0.05, 0.45, 0.9]`). Kod oxunaqlı qalmalıdır (şrift 20, kadrdan yoxla).
 
+**Claude Code (və ya başqa CLI) tutorial çəkilişi:** real interaktiv sessiya `tools/video/drive_terminal.py` ilə idarə olunur (`open` → `record_screen.py --window KAXO-DEMO` fonda → `type`/`key` → `wait` transcript-dən "idle"/"stalled" qaytarır → `shot` ilə yoxla). Qaydalar (2026-09-27 epizodu, `work/tests/claude-code-tutorial/`):
+- Demo layihə **home-dan kənarda** (`C:\kaxo-demo\<ad>`), profil `--config-dir ~/kaxo-demo/.claude-clean`: yoxsa `~/.claude/CLAUDE.md` "project" kimi yüklənir, şəxsi qaydalar kadra düşür. Çəkilişdən əvvəl həmin qovluqda `claude -p "list loaded instruction files or NONE"` → `NONE`.
+- Bash-dan slash əmri göndərəndə `export MSYS_NO_PATHCONV=1` (yoxsa `/model` → `C:/Program Files/Git/model`).
+- Giriş (OAuth) sahibindir; girişdən sonrakı Enter-i auto-mode klassifikatoru bloklayır, sahib basır. E-poçt, OAuth URL-i, limit bannerləri kəsilir və ya `drawbox` ilə örtülür.
+- Ekran yazısı üstdəki pəncərəni çəkir: sahib kompüterdədirsə (görüş, brauzer) başlama, əvvəl `shot` ilə yoxla, şəxsi kadr düşsə dərhal sil.
+- Kliplər `cut_clips.py` nümunəsi ilə kəsilir: 1920x1020 terminal 16:9-a `pad` olunur (`cover` kənarı kəsir), gözləmələr `setpts` ilə 2–3x sürətlənir və diktor bunu deyir.
+- Tətbiqin öz görüntüsü Playwright ilə (`recordVideo.size` = viewport, yoxsa kadr dördə bir dolur).
+
 **Stock video (Pexels, Pixabay: pulsuz lisenziya):**
 Real görüntü və KAXO şəkli olmayan yerdə (ümumi plan: şəhər, server otağı, klaviatura, insanlar ofisdə) istifadə olunur. Əsas vizual deyil, epizodun ≤ 20%-i. Açarlar `.env`-dədir (`PEXELS_API_KEY`, `PIXABAY_API_KEY`). Repoya, skill-ə və hesabata **yazılmır**.
 ```bash

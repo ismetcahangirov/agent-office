@@ -1,0 +1,7211 @@
+{
+  "shots": [
+    {
+      "id": "s01",
+      "start": 0.0,
+      "end": 7.08,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "This focus timer took one paragraph and about six minutes of Claude's time.",
+          "start": 0.0,
+          "end": 3.94,
+          "words": [
+            {
+              "w": "This",
+              "start": 0.0,
+              "end": 0.272
+            },
+            {
+              "w": "focus",
+              "start": 0.272,
+              "end": 0.589
+            },
+            {
+              "w": "timer",
+              "start": 0.589,
+              "end": 0.906
+            },
+            {
+              "w": "took",
+              "start": 0.906,
+              "end": 1.177
+            },
+            {
+              "w": "one",
+              "start": 1.177,
+              "end": 1.404
+            },
+            {
+              "w": "paragraph",
+              "start": 1.404,
+              "end": 1.902
+            },
+            {
+              "w": "and",
+              "start": 1.902,
+              "end": 2.129
+            },
+            {
+              "w": "about",
+              "start": 2.129,
+              "end": 2.446
+            },
+            {
+              "w": "six",
+              "start": 2.446,
+              "end": 2.672
+            },
+            {
+              "w": "minutes",
+              "start": 2.672,
+              "end": 3.08
+            },
+            {
+              "w": "of",
+              "start": 3.08,
+              "end": 3.261
+            },
+            {
+              "w": "Claude's",
+              "start": 3.261,
+              "end": 3.668
+            },
+            {
+              "w": "time.",
+              "start": 3.668,
+              "end": 3.94
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "No frameworks, no build step, and it works on a phone.",
+          "start": 4.02,
+          "end": 6.89,
+          "words": [
+            {
+              "w": "No",
+              "start": 4.02,
+              "end": 4.202
+            },
+            {
+              "w": "frameworks,",
+              "start": 4.202,
+              "end": 4.749
+            },
+            {
+              "w": "no",
+              "start": 4.749,
+              "end": 4.931
+            },
+            {
+              "w": "build",
+              "start": 4.931,
+              "end": 5.25
+            },
+            {
+              "w": "step,",
+              "start": 5.25,
+              "end": 5.523
+            },
+            {
+              "w": "and",
+              "start": 5.523,
+              "end": 5.751
+            },
+            {
+              "w": "it",
+              "start": 5.751,
+              "end": 5.933
+            },
+            {
+              "w": "works",
+              "start": 5.933,
+              "end": 6.252
+            },
+            {
+              "w": "on",
+              "start": 6.252,
+              "end": 6.434
+            },
+            {
+              "w": "a",
+              "start": 6.434,
+              "end": 6.571
+            },
+            {
+              "w": "phone.",
+              "start": 6.571,
+              "end": 6.89
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "start": 7.08,
+      "end": 14.08,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "I wrote the paragraph. That's the hard part.",
+          "start": 7.08,
+          "end": 9.71,
+          "words": [
+            {
+              "w": "I",
+              "start": 7.08,
+              "end": 7.236
+            },
+            {
+              "w": "wrote",
+              "start": 7.236,
+              "end": 7.599
+            },
+            {
+              "w": "the",
+              "start": 7.599,
+              "end": 7.859
+            },
+            {
+              "w": "paragraph.",
+              "start": 7.859,
+              "end": 8.43
+            },
+            {
+              "w": "That's",
+              "start": 8.49,
+              "end": 8.846
+            },
+            {
+              "w": "the",
+              "start": 8.846,
+              "end": 9.1
+            },
+            {
+              "w": "hard",
+              "start": 9.1,
+              "end": 9.405
+            },
+            {
+              "w": "part.",
+              "start": 9.405,
+              "end": 9.71
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "It isn't. But you'll see every step, on Windows, starting from a fresh install.",
+          "start": 9.85,
+          "end": 13.95,
+          "words": [
+            {
+              "w": "It",
+              "start": 9.85,
+              "end": 10.106
+            },
+            {
+              "w": "isn't.",
+              "start": 10.106,
+              "end": 10.49
+            },
+            {
+              "w": "But",
+              "start": 10.55,
+              "end": 10.768
+            },
+            {
+              "w": "you'll",
+              "start": 10.768,
+              "end": 11.073
+            },
+            {
+              "w": "see",
+              "start": 11.073,
+              "end": 11.291
+            },
+            {
+              "w": "every",
+              "start": 11.291,
+              "end": 11.596
+            },
+            {
+              "w": "step,",
+              "start": 11.596,
+              "end": 11.858
+            },
+            {
+              "w": "on",
+              "start": 11.858,
+              "end": 12.032
+            },
+            {
+              "w": "Windows,",
+              "start": 12.032,
+              "end": 12.424
+            },
+            {
+              "w": "starting",
+              "start": 12.424,
+              "end": 12.86
+            },
+            {
+              "w": "from",
+              "start": 12.86,
+              "end": 13.122
+            },
+            {
+              "w": "a",
+              "start": 13.122,
+              "end": 13.253
+            },
+            {
+              "w": "fresh",
+              "start": 13.253,
+              "end": 13.558
+            },
+            {
+              "w": "install.",
+              "start": 13.558,
+              "end": 13.95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "start": 14.08,
+      "end": 23.51,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "You'll install Claude Code, pick Opus 5.5, make it plan before it codes, add features, and fix a real bug.",
+          "start": 14.08,
+          "end": 20.07,
+          "words": [
+            {
+              "w": "You'll",
+              "start": 14.08,
+              "end": 14.429
+            },
+            {
+              "w": "install",
+              "start": 14.429,
+              "end": 14.879
+            },
+            {
+              "w": "Claude",
+              "start": 14.879,
+              "end": 15.278
+            },
+            {
+              "w": "Code,",
+              "start": 15.278,
+              "end": 15.578
+            },
+            {
+              "w": "pick",
+              "start": 15.578,
+              "end": 15.877
+            },
+            {
+              "w": "Opus",
+              "start": 15.877,
+              "end": 16.177
+            },
+            {
+              "w": "5.5,",
+              "start": 16.177,
+              "end": 16.376
+            },
+            {
+              "w": "make",
+              "start": 16.376,
+              "end": 16.676
+            },
+            {
+              "w": "it",
+              "start": 16.676,
+              "end": 16.875
+            },
+            {
+              "w": "plan",
+              "start": 16.875,
+              "end": 17.175
+            },
+            {
+              "w": "before",
+              "start": 17.175,
+              "end": 17.574
+            },
+            {
+              "w": "it",
+              "start": 17.574,
+              "end": 17.774
+            },
+            {
+              "w": "codes,",
+              "start": 17.774,
+              "end": 18.123
+            },
+            {
+              "w": "add",
+              "start": 18.123,
+              "end": 18.373
+            },
+            {
+              "w": "features,",
+              "start": 18.373,
+              "end": 18.872
+            },
+            {
+              "w": "and",
+              "start": 18.872,
+              "end": 19.122
+            },
+            {
+              "w": "fix",
+              "start": 19.122,
+              "end": 19.371
+            },
+            {
+              "w": "a",
+              "start": 19.371,
+              "end": 19.521
+            },
+            {
+              "w": "real",
+              "start": 19.521,
+              "end": 19.82
+            },
+            {
+              "w": "bug.",
+              "start": 19.82,
+              "end": 20.07
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "We'll even commit it to git, which KAXO has never done in his life.",
+          "start": 20.15,
+          "end": 23.38,
+          "words": [
+            {
+              "w": "We'll",
+              "start": 20.15,
+              "end": 20.395
+            },
+            {
+              "w": "even",
+              "start": 20.395,
+              "end": 20.641
+            },
+            {
+              "w": "commit",
+              "start": 20.641,
+              "end": 20.968
+            },
+            {
+              "w": "it",
+              "start": 20.968,
+              "end": 21.131
+            },
+            {
+              "w": "to",
+              "start": 21.131,
+              "end": 21.295
+            },
+            {
+              "w": "git,",
+              "start": 21.295,
+              "end": 21.499
+            },
+            {
+              "w": "which",
+              "start": 21.499,
+              "end": 21.785
+            },
+            {
+              "w": "KAXO",
+              "start": 21.785,
+              "end": 22.031
+            },
+            {
+              "w": "has",
+              "start": 22.031,
+              "end": 22.235
+            },
+            {
+              "w": "never",
+              "start": 22.235,
+              "end": 22.521
+            },
+            {
+              "w": "done",
+              "start": 22.521,
+              "end": 22.767
+            },
+            {
+              "w": "in",
+              "start": 22.767,
+              "end": 22.93
+            },
+            {
+              "w": "his",
+              "start": 22.93,
+              "end": 23.135
+            },
+            {
+              "w": "life.",
+              "start": 23.135,
+              "end": 23.38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "start": 23.51,
+      "end": 36.01,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Here's what you need first. A paid Claude plan, Pro or Max, or a Console account with API billing.",
+          "start": 23.51,
+          "end": 29.26,
+          "words": [
+            {
+              "w": "Here's",
+              "start": 23.51,
+              "end": 23.797
+            },
+            {
+              "w": "what",
+              "start": 23.797,
+              "end": 24.043
+            },
+            {
+              "w": "you",
+              "start": 24.043,
+              "end": 24.247
+            },
+            {
+              "w": "need",
+              "start": 24.247,
+              "end": 24.493
+            },
+            {
+              "w": "first.",
+              "start": 24.493,
+              "end": 24.78
+            },
+            {
+              "w": "A",
+              "start": 24.84,
+              "end": 25.002
+            },
+            {
+              "w": "paid",
+              "start": 25.002,
+              "end": 25.325
+            },
+            {
+              "w": "Claude",
+              "start": 25.325,
+              "end": 25.756
+            },
+            {
+              "w": "plan,",
+              "start": 25.756,
+              "end": 26.08
+            },
+            {
+              "w": "Pro",
+              "start": 26.08,
+              "end": 26.349
+            },
+            {
+              "w": "or",
+              "start": 26.349,
+              "end": 26.565
+            },
+            {
+              "w": "Max,",
+              "start": 26.565,
+              "end": 26.834
+            },
+            {
+              "w": "or",
+              "start": 26.834,
+              "end": 27.05
+            },
+            {
+              "w": "a",
+              "start": 27.05,
+              "end": 27.212
+            },
+            {
+              "w": "Console",
+              "start": 27.212,
+              "end": 27.697
+            },
+            {
+              "w": "account",
+              "start": 27.697,
+              "end": 28.182
+            },
+            {
+              "w": "with",
+              "start": 28.182,
+              "end": 28.505
+            },
+            {
+              "w": "API",
+              "start": 28.505,
+              "end": 28.775
+            },
+            {
+              "w": "billing.",
+              "start": 28.775,
+              "end": 29.26
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "The free Claude plan doesn't include Claude Code.",
+          "start": 29.34,
+          "end": 31.74,
+          "words": [
+            {
+              "w": "The",
+              "start": 29.34,
+              "end": 29.554
+            },
+            {
+              "w": "free",
+              "start": 29.554,
+              "end": 29.811
+            },
+            {
+              "w": "Claude",
+              "start": 29.811,
+              "end": 30.154
+            },
+            {
+              "w": "plan",
+              "start": 30.154,
+              "end": 30.411
+            },
+            {
+              "w": "doesn't",
+              "start": 30.411,
+              "end": 30.754
+            },
+            {
+              "w": "include",
+              "start": 30.754,
+              "end": 31.14
+            },
+            {
+              "w": "Claude",
+              "start": 31.14,
+              "end": 31.483
+            },
+            {
+              "w": "Code.",
+              "start": 31.483,
+              "end": 31.74
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "And on Windows, install Git for Windows too, so Claude can use its bash tools.",
+          "start": 31.82,
+          "end": 35.88,
+          "words": [
+            {
+              "w": "And",
+              "start": 31.82,
+              "end": 32.043
+            },
+            {
+              "w": "on",
+              "start": 32.043,
+              "end": 32.222
+            },
+            {
+              "w": "Windows,",
+              "start": 32.222,
+              "end": 32.623
+            },
+            {
+              "w": "install",
+              "start": 32.623,
+              "end": 33.025
+            },
+            {
+              "w": "Git",
+              "start": 33.025,
+              "end": 33.248
+            },
+            {
+              "w": "for",
+              "start": 33.248,
+              "end": 33.471
+            },
+            {
+              "w": "Windows",
+              "start": 33.471,
+              "end": 33.872
+            },
+            {
+              "w": "too,",
+              "start": 33.872,
+              "end": 34.095
+            },
+            {
+              "w": "so",
+              "start": 34.095,
+              "end": 34.274
+            },
+            {
+              "w": "Claude",
+              "start": 34.274,
+              "end": 34.631
+            },
+            {
+              "w": "can",
+              "start": 34.631,
+              "end": 34.854
+            },
+            {
+              "w": "use",
+              "start": 34.854,
+              "end": 35.077
+            },
+            {
+              "w": "its",
+              "start": 35.077,
+              "end": 35.3
+            },
+            {
+              "w": "bash",
+              "start": 35.3,
+              "end": 35.568
+            },
+            {
+              "w": "tools.",
+              "start": 35.568,
+              "end": 35.88
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "start": 36.01,
+      "end": 44.39,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Installing is one line. On Windows, paste this into PowerShell.",
+          "start": 36.01,
+          "end": 39.76,
+          "words": [
+            {
+              "w": "Installing",
+              "start": 36.01,
+              "end": 36.69
+            },
+            {
+              "w": "is",
+              "start": 36.69,
+              "end": 36.917
+            },
+            {
+              "w": "one",
+              "start": 36.917,
+              "end": 37.2
+            },
+            {
+              "w": "line.",
+              "start": 37.2,
+              "end": 37.54
+            },
+            {
+              "w": "On",
+              "start": 37.6,
+              "end": 37.796
+            },
+            {
+              "w": "Windows,",
+              "start": 37.796,
+              "end": 38.238
+            },
+            {
+              "w": "paste",
+              "start": 38.238,
+              "end": 38.582
+            },
+            {
+              "w": "this",
+              "start": 38.582,
+              "end": 38.876
+            },
+            {
+              "w": "into",
+              "start": 38.876,
+              "end": 39.171
+            },
+            {
+              "w": "PowerShell.",
+              "start": 39.171,
+              "end": 39.76
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "On a Mac or Linux it's a curl command instead. Both are on the official setup page.",
+          "start": 39.84,
+          "end": 44.26,
+          "words": [
+            {
+              "w": "On",
+              "start": 39.84,
+              "end": 40.017
+            },
+            {
+              "w": "a",
+              "start": 40.017,
+              "end": 40.149
+            },
+            {
+              "w": "Mac",
+              "start": 40.149,
+              "end": 40.37
+            },
+            {
+              "w": "or",
+              "start": 40.37,
+              "end": 40.547
+            },
+            {
+              "w": "Linux",
+              "start": 40.547,
+              "end": 40.856
+            },
+            {
+              "w": "it's",
+              "start": 40.856,
+              "end": 41.077
+            },
+            {
+              "w": "a",
+              "start": 41.077,
+              "end": 41.21
+            },
+            {
+              "w": "curl",
+              "start": 41.21,
+              "end": 41.475
+            },
+            {
+              "w": "command",
+              "start": 41.475,
+              "end": 41.872
+            },
+            {
+              "w": "instead.",
+              "start": 41.872,
+              "end": 42.27
+            },
+            {
+              "w": "Both",
+              "start": 42.33,
+              "end": 42.599
+            },
+            {
+              "w": "are",
+              "start": 42.599,
+              "end": 42.824
+            },
+            {
+              "w": "on",
+              "start": 42.824,
+              "end": 43.003
+            },
+            {
+              "w": "the",
+              "start": 43.003,
+              "end": 43.228
+            },
+            {
+              "w": "official",
+              "start": 43.228,
+              "end": 43.677
+            },
+            {
+              "w": "setup",
+              "start": 43.677,
+              "end": 43.991
+            },
+            {
+              "w": "page.",
+              "start": 43.991,
+              "end": 44.26
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "start": 44.39,
+      "end": 54.1,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Check it worked with claude dash dash version. Then open your project folder and type claude.",
+          "start": 44.39,
+          "end": 49.11,
+          "words": [
+            {
+              "w": "Check",
+              "start": 44.39,
+              "end": 44.688
+            },
+            {
+              "w": "it",
+              "start": 44.688,
+              "end": 44.859
+            },
+            {
+              "w": "worked",
+              "start": 44.859,
+              "end": 45.199
+            },
+            {
+              "w": "with",
+              "start": 45.199,
+              "end": 45.455
+            },
+            {
+              "w": "claude",
+              "start": 45.455,
+              "end": 45.796
+            },
+            {
+              "w": "dash",
+              "start": 45.796,
+              "end": 46.051
+            },
+            {
+              "w": "dash",
+              "start": 46.051,
+              "end": 46.307
+            },
+            {
+              "w": "version.",
+              "start": 46.307,
+              "end": 46.69
+            },
+            {
+              "w": "Then",
+              "start": 46.75,
+              "end": 47.012
+            },
+            {
+              "w": "open",
+              "start": 47.012,
+              "end": 47.274
+            },
+            {
+              "w": "your",
+              "start": 47.274,
+              "end": 47.537
+            },
+            {
+              "w": "project",
+              "start": 47.537,
+              "end": 47.93
+            },
+            {
+              "w": "folder",
+              "start": 47.93,
+              "end": 48.28
+            },
+            {
+              "w": "and",
+              "start": 48.28,
+              "end": 48.498
+            },
+            {
+              "w": "type",
+              "start": 48.498,
+              "end": 48.76
+            },
+            {
+              "w": "claude.",
+              "start": 48.76,
+              "end": 49.11
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "The first time, it asks if you trust this folder. Say yes only for code you actually know.",
+          "start": 49.19,
+          "end": 53.97,
+          "words": [
+            {
+              "w": "The",
+              "start": 49.19,
+              "end": 49.406
+            },
+            {
+              "w": "first",
+              "start": 49.406,
+              "end": 49.707
+            },
+            {
+              "w": "time,",
+              "start": 49.707,
+              "end": 49.966
+            },
+            {
+              "w": "it",
+              "start": 49.966,
+              "end": 50.138
+            },
+            {
+              "w": "asks",
+              "start": 50.138,
+              "end": 50.397
+            },
+            {
+              "w": "if",
+              "start": 50.397,
+              "end": 50.569
+            },
+            {
+              "w": "you",
+              "start": 50.569,
+              "end": 50.785
+            },
+            {
+              "w": "trust",
+              "start": 50.785,
+              "end": 51.087
+            },
+            {
+              "w": "this",
+              "start": 51.087,
+              "end": 51.345
+            },
+            {
+              "w": "folder.",
+              "start": 51.345,
+              "end": 51.69
+            },
+            {
+              "w": "Say",
+              "start": 51.75,
+              "end": 51.981
+            },
+            {
+              "w": "yes",
+              "start": 51.981,
+              "end": 52.212
+            },
+            {
+              "w": "only",
+              "start": 52.212,
+              "end": 52.49
+            },
+            {
+              "w": "for",
+              "start": 52.49,
+              "end": 52.721
+            },
+            {
+              "w": "code",
+              "start": 52.721,
+              "end": 52.999
+            },
+            {
+              "w": "you",
+              "start": 52.999,
+              "end": 53.23
+            },
+            {
+              "w": "actually",
+              "start": 53.23,
+              "end": 53.693
+            },
+            {
+              "w": "know.",
+              "start": 53.693,
+              "end": 53.97
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "start": 54.1,
+      "end": 61.64,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "On a brand new install, it asks for a text style first. Dark mode, obviously.",
+          "start": 54.1,
+          "end": 58.47,
+          "words": [
+            {
+              "w": "On",
+              "start": 54.1,
+              "end": 54.278
+            },
+            {
+              "w": "a",
+              "start": 54.278,
+              "end": 54.411
+            },
+            {
+              "w": "brand",
+              "start": 54.411,
+              "end": 54.722
+            },
+            {
+              "w": "new",
+              "start": 54.722,
+              "end": 54.943
+            },
+            {
+              "w": "install,",
+              "start": 54.943,
+              "end": 55.343
+            },
+            {
+              "w": "it",
+              "start": 55.343,
+              "end": 55.521
+            },
+            {
+              "w": "asks",
+              "start": 55.521,
+              "end": 55.787
+            },
+            {
+              "w": "for",
+              "start": 55.787,
+              "end": 56.009
+            },
+            {
+              "w": "a",
+              "start": 56.009,
+              "end": 56.142
+            },
+            {
+              "w": "text",
+              "start": 56.142,
+              "end": 56.408
+            },
+            {
+              "w": "style",
+              "start": 56.408,
+              "end": 56.719
+            },
+            {
+              "w": "first.",
+              "start": 56.719,
+              "end": 57.03
+            },
+            {
+              "w": "Dark",
+              "start": 57.09,
+              "end": 57.45
+            },
+            {
+              "w": "mode,",
+              "start": 57.45,
+              "end": 57.81
+            },
+            {
+              "w": "obviously.",
+              "start": 57.81,
+              "end": 58.47
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Everything's better in the dark. Especially naps.",
+          "start": 58.61,
+          "end": 61.45,
+          "words": [
+            {
+              "w": "Everything's",
+              "start": 58.61,
+              "end": 59.177
+            },
+            {
+              "w": "better",
+              "start": 59.177,
+              "end": 59.526
+            },
+            {
+              "w": "in",
+              "start": 59.526,
+              "end": 59.7
+            },
+            {
+              "w": "the",
+              "start": 59.7,
+              "end": 59.918
+            },
+            {
+              "w": "dark.",
+              "start": 59.918,
+              "end": 60.18
+            },
+            {
+              "w": "Especially",
+              "start": 60.24,
+              "end": 61.047
+            },
+            {
+              "w": "naps.",
+              "start": 61.047,
+              "end": 61.45
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "start": 61.64,
+      "end": 69.24,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Then the login method. Pick your Claude subscription, and a browser tab opens to sign in.",
+          "start": 61.64,
+          "end": 66.43,
+          "words": [
+            {
+              "w": "Then",
+              "start": 61.64,
+              "end": 61.919
+            },
+            {
+              "w": "the",
+              "start": 61.919,
+              "end": 62.152
+            },
+            {
+              "w": "login",
+              "start": 62.152,
+              "end": 62.478
+            },
+            {
+              "w": "method.",
+              "start": 62.478,
+              "end": 62.85
+            },
+            {
+              "w": "Pick",
+              "start": 62.91,
+              "end": 63.184
+            },
+            {
+              "w": "your",
+              "start": 63.184,
+              "end": 63.459
+            },
+            {
+              "w": "Claude",
+              "start": 63.459,
+              "end": 63.824
+            },
+            {
+              "w": "subscription,",
+              "start": 63.824,
+              "end": 64.464
+            },
+            {
+              "w": "and",
+              "start": 64.464,
+              "end": 64.693
+            },
+            {
+              "w": "a",
+              "start": 64.693,
+              "end": 64.83
+            },
+            {
+              "w": "browser",
+              "start": 64.83,
+              "end": 65.241
+            },
+            {
+              "w": "tab",
+              "start": 65.241,
+              "end": 65.47
+            },
+            {
+              "w": "opens",
+              "start": 65.47,
+              "end": 65.79
+            },
+            {
+              "w": "to",
+              "start": 65.79,
+              "end": 65.973
+            },
+            {
+              "w": "sign",
+              "start": 65.973,
+              "end": 66.247
+            },
+            {
+              "w": "in.",
+              "start": 66.247,
+              "end": 66.43
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Approve it there, and you're back in the terminal, logged in.",
+          "start": 66.51,
+          "end": 69.11,
+          "words": [
+            {
+              "w": "Approve",
+              "start": 66.51,
+              "end": 66.849
+            },
+            {
+              "w": "it",
+              "start": 66.849,
+              "end": 67.0
+            },
+            {
+              "w": "there,",
+              "start": 67.0,
+              "end": 67.264
+            },
+            {
+              "w": "and",
+              "start": 67.264,
+              "end": 67.452
+            },
+            {
+              "w": "you're",
+              "start": 67.452,
+              "end": 67.716
+            },
+            {
+              "w": "back",
+              "start": 67.716,
+              "end": 67.942
+            },
+            {
+              "w": "in",
+              "start": 67.942,
+              "end": 68.093
+            },
+            {
+              "w": "the",
+              "start": 68.093,
+              "end": 68.281
+            },
+            {
+              "w": "terminal,",
+              "start": 68.281,
+              "end": 68.658
+            },
+            {
+              "w": "logged",
+              "start": 68.658,
+              "end": 68.959
+            },
+            {
+              "w": "in.",
+              "start": 68.959,
+              "end": 69.11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "start": 69.24,
+      "end": 79.54,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Type slash model to see the models. Opus 5.5 is the default here, and it's what we'll use.",
+          "start": 69.24,
+          "end": 74.8,
+          "words": [
+            {
+              "w": "Type",
+              "start": 69.24,
+              "end": 69.531
+            },
+            {
+              "w": "slash",
+              "start": 69.531,
+              "end": 69.871
+            },
+            {
+              "w": "model",
+              "start": 69.871,
+              "end": 70.211
+            },
+            {
+              "w": "to",
+              "start": 70.211,
+              "end": 70.406
+            },
+            {
+              "w": "see",
+              "start": 70.406,
+              "end": 70.649
+            },
+            {
+              "w": "the",
+              "start": 70.649,
+              "end": 70.891
+            },
+            {
+              "w": "models.",
+              "start": 70.891,
+              "end": 71.28
+            },
+            {
+              "w": "Opus",
+              "start": 71.34,
+              "end": 71.68
+            },
+            {
+              "w": "5.5",
+              "start": 71.68,
+              "end": 71.907
+            },
+            {
+              "w": "is",
+              "start": 71.907,
+              "end": 72.134
+            },
+            {
+              "w": "the",
+              "start": 72.134,
+              "end": 72.418
+            },
+            {
+              "w": "default",
+              "start": 72.418,
+              "end": 72.928
+            },
+            {
+              "w": "here,",
+              "start": 72.928,
+              "end": 73.269
+            },
+            {
+              "w": "and",
+              "start": 73.269,
+              "end": 73.552
+            },
+            {
+              "w": "it's",
+              "start": 73.552,
+              "end": 73.836
+            },
+            {
+              "w": "what",
+              "start": 73.836,
+              "end": 74.176
+            },
+            {
+              "w": "we'll",
+              "start": 74.176,
+              "end": 74.516
+            },
+            {
+              "w": "use.",
+              "start": 74.516,
+              "end": 74.8
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Sonnet is lighter and Haiku is the fastest. The arrow keys change the effort level.",
+          "start": 74.88,
+          "end": 79.41,
+          "words": [
+            {
+              "w": "Sonnet",
+              "start": 74.88,
+              "end": 75.258
+            },
+            {
+              "w": "is",
+              "start": 75.258,
+              "end": 75.447
+            },
+            {
+              "w": "lighter",
+              "start": 75.447,
+              "end": 75.872
+            },
+            {
+              "w": "and",
+              "start": 75.872,
+              "end": 76.109
+            },
+            {
+              "w": "Haiku",
+              "start": 76.109,
+              "end": 76.439
+            },
+            {
+              "w": "is",
+              "start": 76.439,
+              "end": 76.628
+            },
+            {
+              "w": "the",
+              "start": 76.628,
+              "end": 76.865
+            },
+            {
+              "w": "fastest.",
+              "start": 76.865,
+              "end": 77.29
+            },
+            {
+              "w": "The",
+              "start": 77.35,
+              "end": 77.574
+            },
+            {
+              "w": "arrow",
+              "start": 77.574,
+              "end": 77.887
+            },
+            {
+              "w": "keys",
+              "start": 77.887,
+              "end": 78.156
+            },
+            {
+              "w": "change",
+              "start": 78.156,
+              "end": 78.514
+            },
+            {
+              "w": "the",
+              "start": 78.514,
+              "end": 78.738
+            },
+            {
+              "w": "effort",
+              "start": 78.738,
+              "end": 79.097
+            },
+            {
+              "w": "level.",
+              "start": 79.097,
+              "end": 79.41
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "start": 79.54,
+      "end": 94.23,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Now the most useful key in Claude Code: Shift plus Tab. It cycles the permission modes.",
+          "start": 79.54,
+          "end": 84.22,
+          "words": [
+            {
+              "w": "Now",
+              "start": 79.54,
+              "end": 79.769
+            },
+            {
+              "w": "the",
+              "start": 79.769,
+              "end": 79.998
+            },
+            {
+              "w": "most",
+              "start": 79.998,
+              "end": 80.274
+            },
+            {
+              "w": "useful",
+              "start": 80.274,
+              "end": 80.64
+            },
+            {
+              "w": "key",
+              "start": 80.64,
+              "end": 80.87
+            },
+            {
+              "w": "in",
+              "start": 80.87,
+              "end": 81.053
+            },
+            {
+              "w": "Claude",
+              "start": 81.053,
+              "end": 81.42
+            },
+            {
+              "w": "Code:",
+              "start": 81.42,
+              "end": 81.695
+            },
+            {
+              "w": "Shift",
+              "start": 81.695,
+              "end": 82.016
+            },
+            {
+              "w": "plus",
+              "start": 82.016,
+              "end": 82.291
+            },
+            {
+              "w": "Tab.",
+              "start": 82.291,
+              "end": 82.52
+            },
+            {
+              "w": "It",
+              "start": 82.58,
+              "end": 82.762
+            },
+            {
+              "w": "cycles",
+              "start": 82.762,
+              "end": 83.127
+            },
+            {
+              "w": "the",
+              "start": 83.127,
+              "end": 83.354
+            },
+            {
+              "w": "permission",
+              "start": 83.354,
+              "end": 83.901
+            },
+            {
+              "w": "modes.",
+              "start": 83.901,
+              "end": 84.22
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Auto mode runs safe actions on its own. Manual asks you before anything happens.",
+          "start": 84.3,
+          "end": 88.73,
+          "words": [
+            {
+              "w": "Auto",
+              "start": 84.3,
+              "end": 84.572
+            },
+            {
+              "w": "mode",
+              "start": 84.572,
+              "end": 84.844
+            },
+            {
+              "w": "runs",
+              "start": 84.844,
+              "end": 85.116
+            },
+            {
+              "w": "safe",
+              "start": 85.116,
+              "end": 85.388
+            },
+            {
+              "w": "actions",
+              "start": 85.388,
+              "end": 85.796
+            },
+            {
+              "w": "on",
+              "start": 85.796,
+              "end": 85.977
+            },
+            {
+              "w": "its",
+              "start": 85.977,
+              "end": 86.203
+            },
+            {
+              "w": "own.",
+              "start": 86.203,
+              "end": 86.43
+            },
+            {
+              "w": "Manual",
+              "start": 86.49,
+              "end": 86.88
+            },
+            {
+              "w": "asks",
+              "start": 86.88,
+              "end": 87.172
+            },
+            {
+              "w": "you",
+              "start": 87.172,
+              "end": 87.415
+            },
+            {
+              "w": "before",
+              "start": 87.415,
+              "end": 87.805
+            },
+            {
+              "w": "anything",
+              "start": 87.805,
+              "end": 88.292
+            },
+            {
+              "w": "happens.",
+              "start": 88.292,
+              "end": 88.73
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Accept edits changes files without asking, and plan mode can read and think, but it can't touch a thing.",
+          "start": 88.81,
+          "end": 94.04,
+          "words": [
+            {
+              "w": "Accept",
+              "start": 88.81,
+              "end": 89.159
+            },
+            {
+              "w": "edits",
+              "start": 89.159,
+              "end": 89.464
+            },
+            {
+              "w": "changes",
+              "start": 89.464,
+              "end": 89.856
+            },
+            {
+              "w": "files",
+              "start": 89.856,
+              "end": 90.161
+            },
+            {
+              "w": "without",
+              "start": 90.161,
+              "end": 90.553
+            },
+            {
+              "w": "asking,",
+              "start": 90.553,
+              "end": 90.902
+            },
+            {
+              "w": "and",
+              "start": 90.902,
+              "end": 91.12
+            },
+            {
+              "w": "plan",
+              "start": 91.12,
+              "end": 91.381
+            },
+            {
+              "w": "mode",
+              "start": 91.381,
+              "end": 91.643
+            },
+            {
+              "w": "can",
+              "start": 91.643,
+              "end": 91.861
+            },
+            {
+              "w": "read",
+              "start": 91.861,
+              "end": 92.122
+            },
+            {
+              "w": "and",
+              "start": 92.122,
+              "end": 92.34
+            },
+            {
+              "w": "think,",
+              "start": 92.34,
+              "end": 92.645
+            },
+            {
+              "w": "but",
+              "start": 92.645,
+              "end": 92.863
+            },
+            {
+              "w": "it",
+              "start": 92.863,
+              "end": 93.038
+            },
+            {
+              "w": "can't",
+              "start": 93.038,
+              "end": 93.299
+            },
+            {
+              "w": "touch",
+              "start": 93.299,
+              "end": 93.604
+            },
+            {
+              "w": "a",
+              "start": 93.604,
+              "end": 93.735
+            },
+            {
+              "w": "thing.",
+              "start": 93.735,
+              "end": 94.04
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "start": 94.23,
+      "end": 98.5,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Plan mode. It's basically me, except it actually writes the plan down.",
+          "start": 94.23,
+          "end": 98.31,
+          "words": [
+            {
+              "w": "Plan",
+              "start": 94.23,
+              "end": 94.63
+            },
+            {
+              "w": "mode.",
+              "start": 94.63,
+              "end": 95.03
+            },
+            {
+              "w": "It's",
+              "start": 95.09,
+              "end": 95.33
+            },
+            {
+              "w": "basically",
+              "start": 95.33,
+              "end": 95.859
+            },
+            {
+              "w": "me,",
+              "start": 95.859,
+              "end": 96.051
+            },
+            {
+              "w": "except",
+              "start": 96.051,
+              "end": 96.436
+            },
+            {
+              "w": "it",
+              "start": 96.436,
+              "end": 96.628
+            },
+            {
+              "w": "actually",
+              "start": 96.628,
+              "end": 97.109
+            },
+            {
+              "w": "writes",
+              "start": 97.109,
+              "end": 97.493
+            },
+            {
+              "w": "the",
+              "start": 97.493,
+              "end": 97.733
+            },
+            {
+              "w": "plan",
+              "start": 97.733,
+              "end": 98.022
+            },
+            {
+              "w": "down.",
+              "start": 98.022,
+              "end": 98.31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "start": 98.5,
+      "end": 110.67,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Here's the whole prompt. A Pomodoro timer with twenty-five minutes of focus and five of break, plus a task list.",
+          "start": 98.5,
+          "end": 104.49,
+          "words": [
+            {
+              "w": "Here's",
+              "start": 98.5,
+              "end": 98.809
+            },
+            {
+              "w": "the",
+              "start": 98.809,
+              "end": 99.029
+            },
+            {
+              "w": "whole",
+              "start": 99.029,
+              "end": 99.337
+            },
+            {
+              "w": "prompt.",
+              "start": 99.337,
+              "end": 99.69
+            },
+            {
+              "w": "A",
+              "start": 99.75,
+              "end": 99.891
+            },
+            {
+              "w": "Pomodoro",
+              "start": 99.891,
+              "end": 100.36
+            },
+            {
+              "w": "timer",
+              "start": 100.36,
+              "end": 100.689
+            },
+            {
+              "w": "with",
+              "start": 100.689,
+              "end": 100.97
+            },
+            {
+              "w": "twenty-five",
+              "start": 100.97,
+              "end": 101.533
+            },
+            {
+              "w": "minutes",
+              "start": 101.533,
+              "end": 101.956
+            },
+            {
+              "w": "of",
+              "start": 101.956,
+              "end": 102.143
+            },
+            {
+              "w": "focus",
+              "start": 102.143,
+              "end": 102.472
+            },
+            {
+              "w": "and",
+              "start": 102.472,
+              "end": 102.707
+            },
+            {
+              "w": "five",
+              "start": 102.707,
+              "end": 102.988
+            },
+            {
+              "w": "of",
+              "start": 102.988,
+              "end": 103.176
+            },
+            {
+              "w": "break,",
+              "start": 103.176,
+              "end": 103.504
+            },
+            {
+              "w": "plus",
+              "start": 103.504,
+              "end": 103.786
+            },
+            {
+              "w": "a",
+              "start": 103.786,
+              "end": 103.927
+            },
+            {
+              "w": "task",
+              "start": 103.927,
+              "end": 104.208
+            },
+            {
+              "w": "list.",
+              "start": 104.208,
+              "end": 104.49
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Save it in localStorage, give it a dark design that works on a phone, and the key words at the end: plan it first.",
+          "start": 104.57,
+          "end": 110.54,
+          "words": [
+            {
+              "w": "Save",
+              "start": 104.57,
+              "end": 104.835
+            },
+            {
+              "w": "it",
+              "start": 104.835,
+              "end": 105.012
+            },
+            {
+              "w": "in",
+              "start": 105.012,
+              "end": 105.189
+            },
+            {
+              "w": "localStorage,",
+              "start": 105.189,
+              "end": 105.808
+            },
+            {
+              "w": "give",
+              "start": 105.808,
+              "end": 106.074
+            },
+            {
+              "w": "it",
+              "start": 106.074,
+              "end": 106.25
+            },
+            {
+              "w": "a",
+              "start": 106.25,
+              "end": 106.383
+            },
+            {
+              "w": "dark",
+              "start": 106.383,
+              "end": 106.648
+            },
+            {
+              "w": "design",
+              "start": 106.648,
+              "end": 107.002
+            },
+            {
+              "w": "that",
+              "start": 107.002,
+              "end": 107.268
+            },
+            {
+              "w": "works",
+              "start": 107.268,
+              "end": 107.577
+            },
+            {
+              "w": "on",
+              "start": 107.577,
+              "end": 107.754
+            },
+            {
+              "w": "a",
+              "start": 107.754,
+              "end": 107.887
+            },
+            {
+              "w": "phone,",
+              "start": 107.887,
+              "end": 108.196
+            },
+            {
+              "w": "and",
+              "start": 108.196,
+              "end": 108.417
+            },
+            {
+              "w": "the",
+              "start": 108.417,
+              "end": 108.638
+            },
+            {
+              "w": "key",
+              "start": 108.638,
+              "end": 108.86
+            },
+            {
+              "w": "words",
+              "start": 108.86,
+              "end": 109.169
+            },
+            {
+              "w": "at",
+              "start": 109.169,
+              "end": 109.346
+            },
+            {
+              "w": "the",
+              "start": 109.346,
+              "end": 109.567
+            },
+            {
+              "w": "end:",
+              "start": 109.567,
+              "end": 109.788
+            },
+            {
+              "w": "plan",
+              "start": 109.788,
+              "end": 110.054
+            },
+            {
+              "w": "it",
+              "start": 110.054,
+              "end": 110.23
+            },
+            {
+              "w": "first.",
+              "start": 110.23,
+              "end": 110.54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "start": 110.67,
+      "end": 115.64,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Opus 5.5 looks at the empty folder and thinks for about a minute. This part is sped up.",
+          "start": 110.67,
+          "end": 115.51,
+          "words": [
+            {
+              "w": "Opus",
+              "start": 110.67,
+              "end": 110.955
+            },
+            {
+              "w": "5.5",
+              "start": 110.955,
+              "end": 111.145
+            },
+            {
+              "w": "looks",
+              "start": 111.145,
+              "end": 111.478
+            },
+            {
+              "w": "at",
+              "start": 111.478,
+              "end": 111.668
+            },
+            {
+              "w": "the",
+              "start": 111.668,
+              "end": 111.906
+            },
+            {
+              "w": "empty",
+              "start": 111.906,
+              "end": 112.239
+            },
+            {
+              "w": "folder",
+              "start": 112.239,
+              "end": 112.619
+            },
+            {
+              "w": "and",
+              "start": 112.619,
+              "end": 112.856
+            },
+            {
+              "w": "thinks",
+              "start": 112.856,
+              "end": 113.237
+            },
+            {
+              "w": "for",
+              "start": 113.237,
+              "end": 113.474
+            },
+            {
+              "w": "about",
+              "start": 113.474,
+              "end": 113.807
+            },
+            {
+              "w": "a",
+              "start": 113.807,
+              "end": 113.95
+            },
+            {
+              "w": "minute.",
+              "start": 113.95,
+              "end": 114.33
+            },
+            {
+              "w": "This",
+              "start": 114.39,
+              "end": 114.648
+            },
+            {
+              "w": "part",
+              "start": 114.648,
+              "end": 114.907
+            },
+            {
+              "w": "is",
+              "start": 114.907,
+              "end": 115.079
+            },
+            {
+              "w": "sped",
+              "start": 115.079,
+              "end": 115.338
+            },
+            {
+              "w": "up.",
+              "start": 115.338,
+              "end": 115.51
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "start": 115.64,
+      "end": 141.67,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Then you get an actual plan. Three files: index dot html, styles dot css and app dot js.",
+          "start": 115.64,
+          "end": 121.61,
+          "words": [
+            {
+              "w": "Then",
+              "start": 115.64,
+              "end": 115.878
+            },
+            {
+              "w": "you",
+              "start": 115.878,
+              "end": 116.077
+            },
+            {
+              "w": "get",
+              "start": 116.077,
+              "end": 116.275
+            },
+            {
+              "w": "an",
+              "start": 116.275,
+              "end": 116.434
+            },
+            {
+              "w": "actual",
+              "start": 116.434,
+              "end": 116.752
+            },
+            {
+              "w": "plan.",
+              "start": 116.752,
+              "end": 116.99
+            },
+            {
+              "w": "Three",
+              "start": 117.05,
+              "end": 117.513
+            },
+            {
+              "w": "files:",
+              "start": 117.513,
+              "end": 117.975
+            },
+            {
+              "w": "index",
+              "start": 117.975,
+              "end": 118.438
+            },
+            {
+              "w": "dot",
+              "start": 118.438,
+              "end": 118.768
+            },
+            {
+              "w": "html,",
+              "start": 118.768,
+              "end": 119.165
+            },
+            {
+              "w": "styles",
+              "start": 119.165,
+              "end": 119.693
+            },
+            {
+              "w": "dot",
+              "start": 119.693,
+              "end": 120.024
+            },
+            {
+              "w": "css",
+              "start": 120.024,
+              "end": 120.354
+            },
+            {
+              "w": "and",
+              "start": 120.354,
+              "end": 120.685
+            },
+            {
+              "w": "app",
+              "start": 120.685,
+              "end": 121.015
+            },
+            {
+              "w": "dot",
+              "start": 121.015,
+              "end": 121.346
+            },
+            {
+              "w": "js.",
+              "start": 121.346,
+              "end": 121.61
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "The timer works from the moment it should finish, so it stays right even in a background tab.",
+          "start": 121.69,
+          "end": 126.07,
+          "words": [
+            {
+              "w": "The",
+              "start": 121.69,
+              "end": 121.889
+            },
+            {
+              "w": "timer",
+              "start": 121.889,
+              "end": 122.168
+            },
+            {
+              "w": "works",
+              "start": 122.168,
+              "end": 122.447
+            },
+            {
+              "w": "from",
+              "start": 122.447,
+              "end": 122.685
+            },
+            {
+              "w": "the",
+              "start": 122.685,
+              "end": 122.885
+            },
+            {
+              "w": "moment",
+              "start": 122.885,
+              "end": 123.203
+            },
+            {
+              "w": "it",
+              "start": 123.203,
+              "end": 123.362
+            },
+            {
+              "w": "should",
+              "start": 123.362,
+              "end": 123.681
+            },
+            {
+              "w": "finish,",
+              "start": 123.681,
+              "end": 123.999
+            },
+            {
+              "w": "so",
+              "start": 123.999,
+              "end": 124.159
+            },
+            {
+              "w": "it",
+              "start": 124.159,
+              "end": 124.318
+            },
+            {
+              "w": "stays",
+              "start": 124.318,
+              "end": 124.597
+            },
+            {
+              "w": "right",
+              "start": 124.597,
+              "end": 124.875
+            },
+            {
+              "w": "even",
+              "start": 124.875,
+              "end": 125.114
+            },
+            {
+              "w": "in",
+              "start": 125.114,
+              "end": 125.274
+            },
+            {
+              "w": "a",
+              "start": 125.274,
+              "end": 125.393
+            },
+            {
+              "w": "background",
+              "start": 125.393,
+              "end": 125.871
+            },
+            {
+              "w": "tab.",
+              "start": 125.871,
+              "end": 126.07
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "It even adds a fast mode for testing, where a focus session lasts ten seconds.",
+          "start": 126.15,
+          "end": 130.37,
+          "words": [
+            {
+              "w": "It",
+              "start": 126.15,
+              "end": 126.333
+            },
+            {
+              "w": "even",
+              "start": 126.333,
+              "end": 126.609
+            },
+            {
+              "w": "adds",
+              "start": 126.609,
+              "end": 126.884
+            },
+            {
+              "w": "a",
+              "start": 126.884,
+              "end": 127.022
+            },
+            {
+              "w": "fast",
+              "start": 127.022,
+              "end": 127.297
+            },
+            {
+              "w": "mode",
+              "start": 127.297,
+              "end": 127.572
+            },
+            {
+              "w": "for",
+              "start": 127.572,
+              "end": 127.801
+            },
+            {
+              "w": "testing,",
+              "start": 127.801,
+              "end": 128.214
+            },
+            {
+              "w": "where",
+              "start": 128.214,
+              "end": 128.535
+            },
+            {
+              "w": "a",
+              "start": 128.535,
+              "end": 128.673
+            },
+            {
+              "w": "focus",
+              "start": 128.673,
+              "end": 128.994
+            },
+            {
+              "w": "session",
+              "start": 128.994,
+              "end": 129.407
+            },
+            {
+              "w": "lasts",
+              "start": 129.407,
+              "end": 129.728
+            },
+            {
+              "w": "ten",
+              "start": 129.728,
+              "end": 129.957
+            },
+            {
+              "w": "seconds.",
+              "start": 129.957,
+              "end": 130.37
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "At the end, it wrote its own test checklist: add tasks, start, pause, reload, and resize to phone width.",
+          "start": 130.45,
+          "end": 135.93,
+          "words": [
+            {
+              "w": "At",
+              "start": 130.45,
+              "end": 130.637
+            },
+            {
+              "w": "the",
+              "start": 130.637,
+              "end": 130.872
+            },
+            {
+              "w": "end,",
+              "start": 130.872,
+              "end": 131.106
+            },
+            {
+              "w": "it",
+              "start": 131.106,
+              "end": 131.293
+            },
+            {
+              "w": "wrote",
+              "start": 131.293,
+              "end": 131.621
+            },
+            {
+              "w": "its",
+              "start": 131.621,
+              "end": 131.855
+            },
+            {
+              "w": "own",
+              "start": 131.855,
+              "end": 132.089
+            },
+            {
+              "w": "test",
+              "start": 132.089,
+              "end": 132.37
+            },
+            {
+              "w": "checklist:",
+              "start": 132.37,
+              "end": 132.886
+            },
+            {
+              "w": "add",
+              "start": 132.886,
+              "end": 133.12
+            },
+            {
+              "w": "tasks,",
+              "start": 133.12,
+              "end": 133.448
+            },
+            {
+              "w": "start,",
+              "start": 133.448,
+              "end": 133.775
+            },
+            {
+              "w": "pause,",
+              "start": 133.775,
+              "end": 134.103
+            },
+            {
+              "w": "reload,",
+              "start": 134.103,
+              "end": 134.478
+            },
+            {
+              "w": "and",
+              "start": 134.478,
+              "end": 134.712
+            },
+            {
+              "w": "resize",
+              "start": 134.712,
+              "end": 135.087
+            },
+            {
+              "w": "to",
+              "start": 135.087,
+              "end": 135.274
+            },
+            {
+              "w": "phone",
+              "start": 135.274,
+              "end": 135.602
+            },
+            {
+              "w": "width.",
+              "start": 135.602,
+              "end": 135.93
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Read it. If something's off, choose tell Claude what to change. We liked it, so: yes, and use auto mode.",
+          "start": 136.01,
+          "end": 141.48,
+          "words": [
+            {
+              "w": "Read",
+              "start": 136.01,
+              "end": 136.346
+            },
+            {
+              "w": "it.",
+              "start": 136.346,
+              "end": 136.57
+            },
+            {
+              "w": "If",
+              "start": 136.63,
+              "end": 136.793
+            },
+            {
+              "w": "something's",
+              "start": 136.793,
+              "end": 137.283
+            },
+            {
+              "w": "off,",
+              "start": 137.283,
+              "end": 137.487
+            },
+            {
+              "w": "choose",
+              "start": 137.487,
+              "end": 137.814
+            },
+            {
+              "w": "tell",
+              "start": 137.814,
+              "end": 138.059
+            },
+            {
+              "w": "Claude",
+              "start": 138.059,
+              "end": 138.385
+            },
+            {
+              "w": "what",
+              "start": 138.385,
+              "end": 138.63
+            },
+            {
+              "w": "to",
+              "start": 138.63,
+              "end": 138.793
+            },
+            {
+              "w": "change.",
+              "start": 138.793,
+              "end": 139.12
+            },
+            {
+              "w": "We",
+              "start": 139.18,
+              "end": 139.38
+            },
+            {
+              "w": "liked",
+              "start": 139.38,
+              "end": 139.73
+            },
+            {
+              "w": "it,",
+              "start": 139.73,
+              "end": 139.93
+            },
+            {
+              "w": "so:",
+              "start": 139.93,
+              "end": 140.13
+            },
+            {
+              "w": "yes,",
+              "start": 140.13,
+              "end": 140.38
+            },
+            {
+              "w": "and",
+              "start": 140.38,
+              "end": 140.63
+            },
+            {
+              "w": "use",
+              "start": 140.63,
+              "end": 140.88
+            },
+            {
+              "w": "auto",
+              "start": 140.88,
+              "end": 141.18
+            },
+            {
+              "w": "mode.",
+              "start": 141.18,
+              "end": 141.48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "start": 141.67,
+      "end": 144.93,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "I approved a plan. Management is exhausting.",
+          "start": 141.67,
+          "end": 144.74,
+          "words": [
+            {
+              "w": "I",
+              "start": 141.67,
+              "end": 141.845
+            },
+            {
+              "w": "approved",
+              "start": 141.845,
+              "end": 142.426
+            },
+            {
+              "w": "a",
+              "start": 142.426,
+              "end": 142.601
+            },
+            {
+              "w": "plan.",
+              "start": 142.601,
+              "end": 142.95
+            },
+            {
+              "w": "Management",
+              "start": 143.01,
+              "end": 143.751
+            },
+            {
+              "w": "is",
+              "start": 143.751,
+              "end": 143.999
+            },
+            {
+              "w": "exhausting.",
+              "start": 143.999,
+              "end": 144.74
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "start": 144.93,
+      "end": 153.38,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "And now it builds. Every change shows up as a diff, right in the terminal.",
+          "start": 144.93,
+          "end": 148.99,
+          "words": [
+            {
+              "w": "And",
+              "start": 144.93,
+              "end": 145.166
+            },
+            {
+              "w": "now",
+              "start": 145.166,
+              "end": 145.403
+            },
+            {
+              "w": "it",
+              "start": 145.403,
+              "end": 145.592
+            },
+            {
+              "w": "builds.",
+              "start": 145.592,
+              "end": 145.97
+            },
+            {
+              "w": "Every",
+              "start": 146.03,
+              "end": 146.349
+            },
+            {
+              "w": "change",
+              "start": 146.349,
+              "end": 146.713
+            },
+            {
+              "w": "shows",
+              "start": 146.713,
+              "end": 147.032
+            },
+            {
+              "w": "up",
+              "start": 147.032,
+              "end": 147.214
+            },
+            {
+              "w": "as",
+              "start": 147.214,
+              "end": 147.396
+            },
+            {
+              "w": "a",
+              "start": 147.396,
+              "end": 147.533
+            },
+            {
+              "w": "diff,",
+              "start": 147.533,
+              "end": 147.806
+            },
+            {
+              "w": "right",
+              "start": 147.806,
+              "end": 148.125
+            },
+            {
+              "w": "in",
+              "start": 148.125,
+              "end": 148.307
+            },
+            {
+              "w": "the",
+              "start": 148.307,
+              "end": 148.535
+            },
+            {
+              "w": "terminal.",
+              "start": 148.535,
+              "end": 148.99
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "This is three times faster than real life. The whole build took about two minutes.",
+          "start": 149.07,
+          "end": 153.25,
+          "words": [
+            {
+              "w": "This",
+              "start": 149.07,
+              "end": 149.329
+            },
+            {
+              "w": "is",
+              "start": 149.329,
+              "end": 149.502
+            },
+            {
+              "w": "three",
+              "start": 149.502,
+              "end": 149.804
+            },
+            {
+              "w": "times",
+              "start": 149.804,
+              "end": 150.107
+            },
+            {
+              "w": "faster",
+              "start": 150.107,
+              "end": 150.452
+            },
+            {
+              "w": "than",
+              "start": 150.452,
+              "end": 150.712
+            },
+            {
+              "w": "real",
+              "start": 150.712,
+              "end": 150.971
+            },
+            {
+              "w": "life.",
+              "start": 150.971,
+              "end": 151.23
+            },
+            {
+              "w": "The",
+              "start": 151.29,
+              "end": 151.503
+            },
+            {
+              "w": "whole",
+              "start": 151.503,
+              "end": 151.801
+            },
+            {
+              "w": "build",
+              "start": 151.801,
+              "end": 152.1
+            },
+            {
+              "w": "took",
+              "start": 152.1,
+              "end": 152.355
+            },
+            {
+              "w": "about",
+              "start": 152.355,
+              "end": 152.653
+            },
+            {
+              "w": "two",
+              "start": 152.653,
+              "end": 152.867
+            },
+            {
+              "w": "minutes.",
+              "start": 152.867,
+              "end": 153.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "start": 153.38,
+      "end": 162.31,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Then a surprise. Claude asked to open Chrome and test the app by itself.",
+          "start": 153.38,
+          "end": 157.03,
+          "words": [
+            {
+              "w": "Then",
+              "start": 153.38,
+              "end": 153.686
+            },
+            {
+              "w": "a",
+              "start": 153.686,
+              "end": 153.839
+            },
+            {
+              "w": "surprise.",
+              "start": 153.839,
+              "end": 154.35
+            },
+            {
+              "w": "Claude",
+              "start": 154.41,
+              "end": 154.728
+            },
+            {
+              "w": "asked",
+              "start": 154.728,
+              "end": 155.005
+            },
+            {
+              "w": "to",
+              "start": 155.005,
+              "end": 155.164
+            },
+            {
+              "w": "open",
+              "start": 155.164,
+              "end": 155.402
+            },
+            {
+              "w": "Chrome",
+              "start": 155.402,
+              "end": 155.72
+            },
+            {
+              "w": "and",
+              "start": 155.72,
+              "end": 155.918
+            },
+            {
+              "w": "test",
+              "start": 155.918,
+              "end": 156.157
+            },
+            {
+              "w": "the",
+              "start": 156.157,
+              "end": 156.355
+            },
+            {
+              "w": "app",
+              "start": 156.355,
+              "end": 156.554
+            },
+            {
+              "w": "by",
+              "start": 156.554,
+              "end": 156.712
+            },
+            {
+              "w": "itself.",
+              "start": 156.712,
+              "end": 157.03
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "That's a great habit, but we were recording, so we told it to skip, and it ran a syntax check instead.",
+          "start": 157.11,
+          "end": 162.18,
+          "words": [
+            {
+              "w": "That's",
+              "start": 157.11,
+              "end": 157.408
+            },
+            {
+              "w": "a",
+              "start": 157.408,
+              "end": 157.536
+            },
+            {
+              "w": "great",
+              "start": 157.536,
+              "end": 157.834
+            },
+            {
+              "w": "habit,",
+              "start": 157.834,
+              "end": 158.133
+            },
+            {
+              "w": "but",
+              "start": 158.133,
+              "end": 158.346
+            },
+            {
+              "w": "we",
+              "start": 158.346,
+              "end": 158.516
+            },
+            {
+              "w": "were",
+              "start": 158.516,
+              "end": 158.772
+            },
+            {
+              "w": "recording,",
+              "start": 158.772,
+              "end": 159.24
+            },
+            {
+              "w": "so",
+              "start": 159.24,
+              "end": 159.411
+            },
+            {
+              "w": "we",
+              "start": 159.411,
+              "end": 159.581
+            },
+            {
+              "w": "told",
+              "start": 159.581,
+              "end": 159.837
+            },
+            {
+              "w": "it",
+              "start": 159.837,
+              "end": 160.007
+            },
+            {
+              "w": "to",
+              "start": 160.007,
+              "end": 160.178
+            },
+            {
+              "w": "skip,",
+              "start": 160.178,
+              "end": 160.433
+            },
+            {
+              "w": "and",
+              "start": 160.433,
+              "end": 160.646
+            },
+            {
+              "w": "it",
+              "start": 160.646,
+              "end": 160.817
+            },
+            {
+              "w": "ran",
+              "start": 160.817,
+              "end": 161.03
+            },
+            {
+              "w": "a",
+              "start": 161.03,
+              "end": 161.157
+            },
+            {
+              "w": "syntax",
+              "start": 161.157,
+              "end": 161.498
+            },
+            {
+              "w": "check",
+              "start": 161.498,
+              "end": 161.797
+            },
+            {
+              "w": "instead.",
+              "start": 161.797,
+              "end": 162.18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "start": 162.31,
+      "end": 166.18,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Then it wraps up with a summary: what each part does, and how to check it yourself.",
+          "start": 162.31,
+          "end": 166.05,
+          "words": [
+            {
+              "w": "Then",
+              "start": 162.31,
+              "end": 162.539
+            },
+            {
+              "w": "it",
+              "start": 162.539,
+              "end": 162.692
+            },
+            {
+              "w": "wraps",
+              "start": 162.692,
+              "end": 162.959
+            },
+            {
+              "w": "up",
+              "start": 162.959,
+              "end": 163.111
+            },
+            {
+              "w": "with",
+              "start": 163.111,
+              "end": 163.34
+            },
+            {
+              "w": "a",
+              "start": 163.34,
+              "end": 163.455
+            },
+            {
+              "w": "summary:",
+              "start": 163.455,
+              "end": 163.798
+            },
+            {
+              "w": "what",
+              "start": 163.798,
+              "end": 164.027
+            },
+            {
+              "w": "each",
+              "start": 164.027,
+              "end": 164.256
+            },
+            {
+              "w": "part",
+              "start": 164.256,
+              "end": 164.485
+            },
+            {
+              "w": "does,",
+              "start": 164.485,
+              "end": 164.714
+            },
+            {
+              "w": "and",
+              "start": 164.714,
+              "end": 164.905
+            },
+            {
+              "w": "how",
+              "start": 164.905,
+              "end": 165.096
+            },
+            {
+              "w": "to",
+              "start": 165.096,
+              "end": 165.249
+            },
+            {
+              "w": "check",
+              "start": 165.249,
+              "end": 165.516
+            },
+            {
+              "w": "it",
+              "start": 165.516,
+              "end": 165.668
+            },
+            {
+              "w": "yourself.",
+              "start": 165.668,
+              "end": 166.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "start": 166.18,
+      "end": 173.22,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "So let's check. Add a few tasks, and pick the one you're working on.",
+          "start": 166.18,
+          "end": 169.39,
+          "words": [
+            {
+              "w": "So",
+              "start": 166.18,
+              "end": 166.359
+            },
+            {
+              "w": "let's",
+              "start": 166.359,
+              "end": 166.627
+            },
+            {
+              "w": "check.",
+              "start": 166.627,
+              "end": 166.94
+            },
+            {
+              "w": "Add",
+              "start": 167.0,
+              "end": 167.196
+            },
+            {
+              "w": "a",
+              "start": 167.196,
+              "end": 167.313
+            },
+            {
+              "w": "few",
+              "start": 167.313,
+              "end": 167.509
+            },
+            {
+              "w": "tasks,",
+              "start": 167.509,
+              "end": 167.784
+            },
+            {
+              "w": "and",
+              "start": 167.784,
+              "end": 167.98
+            },
+            {
+              "w": "pick",
+              "start": 167.98,
+              "end": 168.215
+            },
+            {
+              "w": "the",
+              "start": 168.215,
+              "end": 168.41
+            },
+            {
+              "w": "one",
+              "start": 168.41,
+              "end": 168.606
+            },
+            {
+              "w": "you're",
+              "start": 168.606,
+              "end": 168.881
+            },
+            {
+              "w": "working",
+              "start": 168.881,
+              "end": 169.233
+            },
+            {
+              "w": "on.",
+              "start": 169.233,
+              "end": 169.39
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Press start. In fast mode, the focus session ends in ten seconds.",
+          "start": 169.47,
+          "end": 173.09,
+          "words": [
+            {
+              "w": "Press",
+              "start": 169.47,
+              "end": 169.82
+            },
+            {
+              "w": "start.",
+              "start": 169.82,
+              "end": 170.17
+            },
+            {
+              "w": "In",
+              "start": 170.23,
+              "end": 170.418
+            },
+            {
+              "w": "fast",
+              "start": 170.418,
+              "end": 170.699
+            },
+            {
+              "w": "mode,",
+              "start": 170.699,
+              "end": 170.98
+            },
+            {
+              "w": "the",
+              "start": 170.98,
+              "end": 171.215
+            },
+            {
+              "w": "focus",
+              "start": 171.215,
+              "end": 171.543
+            },
+            {
+              "w": "session",
+              "start": 171.543,
+              "end": 171.965
+            },
+            {
+              "w": "ends",
+              "start": 171.965,
+              "end": 172.246
+            },
+            {
+              "w": "in",
+              "start": 172.246,
+              "end": 172.434
+            },
+            {
+              "w": "ten",
+              "start": 172.434,
+              "end": 172.668
+            },
+            {
+              "w": "seconds.",
+              "start": 172.668,
+              "end": 173.09
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "start": 173.22,
+      "end": 179.95,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The ring fills up, a chime plays, the task gets its tomato, and it switches to a break.",
+          "start": 173.22,
+          "end": 177.57,
+          "words": [
+            {
+              "w": "The",
+              "start": 173.22,
+              "end": 173.433
+            },
+            {
+              "w": "ring",
+              "start": 173.433,
+              "end": 173.689
+            },
+            {
+              "w": "fills",
+              "start": 173.689,
+              "end": 173.988
+            },
+            {
+              "w": "up,",
+              "start": 173.988,
+              "end": 174.158
+            },
+            {
+              "w": "a",
+              "start": 174.158,
+              "end": 174.286
+            },
+            {
+              "w": "chime",
+              "start": 174.286,
+              "end": 174.585
+            },
+            {
+              "w": "plays,",
+              "start": 174.585,
+              "end": 174.883
+            },
+            {
+              "w": "the",
+              "start": 174.883,
+              "end": 175.096
+            },
+            {
+              "w": "task",
+              "start": 175.096,
+              "end": 175.352
+            },
+            {
+              "w": "gets",
+              "start": 175.352,
+              "end": 175.608
+            },
+            {
+              "w": "its",
+              "start": 175.608,
+              "end": 175.821
+            },
+            {
+              "w": "tomato,",
+              "start": 175.821,
+              "end": 176.163
+            },
+            {
+              "w": "and",
+              "start": 176.163,
+              "end": 176.376
+            },
+            {
+              "w": "it",
+              "start": 176.376,
+              "end": 176.546
+            },
+            {
+              "w": "switches",
+              "start": 176.546,
+              "end": 176.973
+            },
+            {
+              "w": "to",
+              "start": 176.973,
+              "end": 177.144
+            },
+            {
+              "w": "a",
+              "start": 177.144,
+              "end": 177.271
+            },
+            {
+              "w": "break.",
+              "start": 177.271,
+              "end": 177.57
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Reload the page, and everything is still there.",
+          "start": 177.65,
+          "end": 179.76,
+          "words": [
+            {
+              "w": "Reload",
+              "start": 177.65,
+              "end": 177.963
+            },
+            {
+              "w": "the",
+              "start": 177.963,
+              "end": 178.158
+            },
+            {
+              "w": "page,",
+              "start": 178.158,
+              "end": 178.392
+            },
+            {
+              "w": "and",
+              "start": 178.392,
+              "end": 178.588
+            },
+            {
+              "w": "everything",
+              "start": 178.588,
+              "end": 179.057
+            },
+            {
+              "w": "is",
+              "start": 179.057,
+              "end": 179.213
+            },
+            {
+              "w": "still",
+              "start": 179.213,
+              "end": 179.486
+            },
+            {
+              "w": "there.",
+              "start": 179.486,
+              "end": 179.76
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "start": 179.95,
+      "end": 183.4,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "It wrote three files while I blinked. It was a long blink.",
+          "start": 179.95,
+          "end": 183.21,
+          "words": [
+            {
+              "w": "It",
+              "start": 179.95,
+              "end": 180.137
+            },
+            {
+              "w": "wrote",
+              "start": 180.137,
+              "end": 180.465
+            },
+            {
+              "w": "three",
+              "start": 180.465,
+              "end": 180.793
+            },
+            {
+              "w": "files",
+              "start": 180.793,
+              "end": 181.12
+            },
+            {
+              "w": "while",
+              "start": 181.12,
+              "end": 181.448
+            },
+            {
+              "w": "I",
+              "start": 181.448,
+              "end": 181.589
+            },
+            {
+              "w": "blinked.",
+              "start": 181.589,
+              "end": 182.01
+            },
+            {
+              "w": "It",
+              "start": 182.07,
+              "end": 182.252
+            },
+            {
+              "w": "was",
+              "start": 182.252,
+              "end": 182.48
+            },
+            {
+              "w": "a",
+              "start": 182.48,
+              "end": 182.617
+            },
+            {
+              "w": "long",
+              "start": 182.617,
+              "end": 182.891
+            },
+            {
+              "w": "blink.",
+              "start": 182.891,
+              "end": 183.21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r01",
+      "start": 183.4,
+      "end": 192.97,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Before adding anything, open the folder in your editor and look at what it wrote.",
+          "start": 183.4,
+          "end": 187.19,
+          "words": [
+            {
+              "w": "Before",
+              "start": 183.4,
+              "end": 183.719
+            },
+            {
+              "w": "adding",
+              "start": 183.719,
+              "end": 184.038
+            },
+            {
+              "w": "anything,",
+              "start": 184.038,
+              "end": 184.437
+            },
+            {
+              "w": "open",
+              "start": 184.437,
+              "end": 184.677
+            },
+            {
+              "w": "the",
+              "start": 184.677,
+              "end": 184.876
+            },
+            {
+              "w": "folder",
+              "start": 184.876,
+              "end": 185.195
+            },
+            {
+              "w": "in",
+              "start": 185.195,
+              "end": 185.355
+            },
+            {
+              "w": "your",
+              "start": 185.355,
+              "end": 185.594
+            },
+            {
+              "w": "editor",
+              "start": 185.594,
+              "end": 185.913
+            },
+            {
+              "w": "and",
+              "start": 185.913,
+              "end": 186.113
+            },
+            {
+              "w": "look",
+              "start": 186.113,
+              "end": 186.352
+            },
+            {
+              "w": "at",
+              "start": 186.352,
+              "end": 186.512
+            },
+            {
+              "w": "what",
+              "start": 186.512,
+              "end": 186.751
+            },
+            {
+              "w": "it",
+              "start": 186.751,
+              "end": 186.911
+            },
+            {
+              "w": "wrote.",
+              "start": 186.911,
+              "end": 187.19
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "When you press start, it saves the exact moment the session should end. Time left is that moment minus now.",
+          "start": 187.27,
+          "end": 192.84,
+          "words": [
+            {
+              "w": "When",
+              "start": 187.27,
+              "end": 187.515
+            },
+            {
+              "w": "you",
+              "start": 187.515,
+              "end": 187.719
+            },
+            {
+              "w": "press",
+              "start": 187.719,
+              "end": 188.005
+            },
+            {
+              "w": "start,",
+              "start": 188.005,
+              "end": 188.291
+            },
+            {
+              "w": "it",
+              "start": 188.291,
+              "end": 188.454
+            },
+            {
+              "w": "saves",
+              "start": 188.454,
+              "end": 188.74
+            },
+            {
+              "w": "the",
+              "start": 188.74,
+              "end": 188.945
+            },
+            {
+              "w": "exact",
+              "start": 188.945,
+              "end": 189.23
+            },
+            {
+              "w": "moment",
+              "start": 189.23,
+              "end": 189.557
+            },
+            {
+              "w": "the",
+              "start": 189.557,
+              "end": 189.761
+            },
+            {
+              "w": "session",
+              "start": 189.761,
+              "end": 190.129
+            },
+            {
+              "w": "should",
+              "start": 190.129,
+              "end": 190.456
+            },
+            {
+              "w": "end.",
+              "start": 190.456,
+              "end": 190.66
+            },
+            {
+              "w": "Time",
+              "start": 190.72,
+              "end": 191.023
+            },
+            {
+              "w": "left",
+              "start": 191.023,
+              "end": 191.326
+            },
+            {
+              "w": "is",
+              "start": 191.326,
+              "end": 191.528
+            },
+            {
+              "w": "that",
+              "start": 191.528,
+              "end": 191.83
+            },
+            {
+              "w": "moment",
+              "start": 191.83,
+              "end": 192.234
+            },
+            {
+              "w": "minus",
+              "start": 192.234,
+              "end": 192.588
+            },
+            {
+              "w": "now.",
+              "start": 192.588,
+              "end": 192.84
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r02",
+      "start": 192.97,
+      "end": 200.66,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "A tick every quarter of a second only redraws the screen and checks if time is up.",
+          "start": 192.97,
+          "end": 197.42,
+          "words": [
+            {
+              "w": "A",
+              "start": 192.97,
+              "end": 193.105
+            },
+            {
+              "w": "tick",
+              "start": 193.105,
+              "end": 193.375
+            },
+            {
+              "w": "every",
+              "start": 193.375,
+              "end": 193.689
+            },
+            {
+              "w": "quarter",
+              "start": 193.689,
+              "end": 194.094
+            },
+            {
+              "w": "of",
+              "start": 194.094,
+              "end": 194.274
+            },
+            {
+              "w": "a",
+              "start": 194.274,
+              "end": 194.408
+            },
+            {
+              "w": "second",
+              "start": 194.408,
+              "end": 194.768
+            },
+            {
+              "w": "only",
+              "start": 194.768,
+              "end": 195.038
+            },
+            {
+              "w": "redraws",
+              "start": 195.038,
+              "end": 195.442
+            },
+            {
+              "w": "the",
+              "start": 195.442,
+              "end": 195.667
+            },
+            {
+              "w": "screen",
+              "start": 195.667,
+              "end": 196.027
+            },
+            {
+              "w": "and",
+              "start": 196.027,
+              "end": 196.251
+            },
+            {
+              "w": "checks",
+              "start": 196.251,
+              "end": 196.611
+            },
+            {
+              "w": "if",
+              "start": 196.611,
+              "end": 196.791
+            },
+            {
+              "w": "time",
+              "start": 196.791,
+              "end": 197.06
+            },
+            {
+              "w": "is",
+              "start": 197.06,
+              "end": 197.24
+            },
+            {
+              "w": "up.",
+              "start": 197.24,
+              "end": 197.42
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "So if the browser slows the tab down, the clock is still right.",
+          "start": 197.5,
+          "end": 200.53,
+          "words": [
+            {
+              "w": "So",
+              "start": 197.5,
+              "end": 197.662
+            },
+            {
+              "w": "if",
+              "start": 197.662,
+              "end": 197.823
+            },
+            {
+              "w": "the",
+              "start": 197.823,
+              "end": 198.025
+            },
+            {
+              "w": "browser",
+              "start": 198.025,
+              "end": 198.389
+            },
+            {
+              "w": "slows",
+              "start": 198.389,
+              "end": 198.672
+            },
+            {
+              "w": "the",
+              "start": 198.672,
+              "end": 198.874
+            },
+            {
+              "w": "tab",
+              "start": 198.874,
+              "end": 199.076
+            },
+            {
+              "w": "down,",
+              "start": 199.076,
+              "end": 199.318
+            },
+            {
+              "w": "the",
+              "start": 199.318,
+              "end": 199.52
+            },
+            {
+              "w": "clock",
+              "start": 199.52,
+              "end": 199.803
+            },
+            {
+              "w": "is",
+              "start": 199.803,
+              "end": 199.964
+            },
+            {
+              "w": "still",
+              "start": 199.964,
+              "end": 200.247
+            },
+            {
+              "w": "right.",
+              "start": 200.247,
+              "end": 200.53
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r03",
+      "start": 200.66,
+      "end": 205.65,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Loading from localStorage checks every field, so broken saved data can't crash the app.",
+          "start": 200.66,
+          "end": 205.52,
+          "words": [
+            {
+              "w": "Loading",
+              "start": 200.66,
+              "end": 201.102
+            },
+            {
+              "w": "from",
+              "start": 201.102,
+              "end": 201.396
+            },
+            {
+              "w": "localStorage",
+              "start": 201.396,
+              "end": 202.084
+            },
+            {
+              "w": "checks",
+              "start": 202.084,
+              "end": 202.476
+            },
+            {
+              "w": "every",
+              "start": 202.476,
+              "end": 202.82
+            },
+            {
+              "w": "field,",
+              "start": 202.82,
+              "end": 203.164
+            },
+            {
+              "w": "so",
+              "start": 203.164,
+              "end": 203.36
+            },
+            {
+              "w": "broken",
+              "start": 203.36,
+              "end": 203.753
+            },
+            {
+              "w": "saved",
+              "start": 203.753,
+              "end": 204.096
+            },
+            {
+              "w": "data",
+              "start": 204.096,
+              "end": 204.391
+            },
+            {
+              "w": "can't",
+              "start": 204.391,
+              "end": 204.685
+            },
+            {
+              "w": "crash",
+              "start": 204.685,
+              "end": 205.029
+            },
+            {
+              "w": "the",
+              "start": 205.029,
+              "end": 205.275
+            },
+            {
+              "w": "app.",
+              "start": 205.275,
+              "end": 205.52
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r04",
+      "start": 205.65,
+      "end": 210.95,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "You don't have to understand every line. But reading the main parts once is how you catch surprises early.",
+          "start": 205.65,
+          "end": 210.82,
+          "words": [
+            {
+              "w": "You",
+              "start": 205.65,
+              "end": 205.85
+            },
+            {
+              "w": "don't",
+              "start": 205.85,
+              "end": 206.09
+            },
+            {
+              "w": "have",
+              "start": 206.09,
+              "end": 206.33
+            },
+            {
+              "w": "to",
+              "start": 206.33,
+              "end": 206.49
+            },
+            {
+              "w": "understand",
+              "start": 206.49,
+              "end": 206.97
+            },
+            {
+              "w": "every",
+              "start": 206.97,
+              "end": 207.25
+            },
+            {
+              "w": "line.",
+              "start": 207.25,
+              "end": 207.49
+            },
+            {
+              "w": "But",
+              "start": 207.55,
+              "end": 207.762
+            },
+            {
+              "w": "reading",
+              "start": 207.762,
+              "end": 208.145
+            },
+            {
+              "w": "the",
+              "start": 208.145,
+              "end": 208.357
+            },
+            {
+              "w": "main",
+              "start": 208.357,
+              "end": 208.612
+            },
+            {
+              "w": "parts",
+              "start": 208.612,
+              "end": 208.909
+            },
+            {
+              "w": "once",
+              "start": 208.909,
+              "end": 209.164
+            },
+            {
+              "w": "is",
+              "start": 209.164,
+              "end": 209.334
+            },
+            {
+              "w": "how",
+              "start": 209.334,
+              "end": 209.546
+            },
+            {
+              "w": "you",
+              "start": 209.546,
+              "end": 209.758
+            },
+            {
+              "w": "catch",
+              "start": 209.758,
+              "end": 210.056
+            },
+            {
+              "w": "surprises",
+              "start": 210.056,
+              "end": 210.523
+            },
+            {
+              "w": "early.",
+              "start": 210.523,
+              "end": 210.82
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "start": 210.95,
+      "end": 217.61,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Now a second request, in plain English: a stats bar with pomodoros today and focus minutes today, reset at midnight.",
+          "start": 210.95,
+          "end": 217.48,
+          "words": [
+            {
+              "w": "Now",
+              "start": 210.95,
+              "end": 211.195
+            },
+            {
+              "w": "a",
+              "start": 211.195,
+              "end": 211.343
+            },
+            {
+              "w": "second",
+              "start": 211.343,
+              "end": 211.736
+            },
+            {
+              "w": "request,",
+              "start": 211.736,
+              "end": 212.177
+            },
+            {
+              "w": "in",
+              "start": 212.177,
+              "end": 212.374
+            },
+            {
+              "w": "plain",
+              "start": 212.374,
+              "end": 212.718
+            },
+            {
+              "w": "English:",
+              "start": 212.718,
+              "end": 213.159
+            },
+            {
+              "w": "a",
+              "start": 213.159,
+              "end": 213.307
+            },
+            {
+              "w": "stats",
+              "start": 213.307,
+              "end": 213.65
+            },
+            {
+              "w": "bar",
+              "start": 213.65,
+              "end": 213.896
+            },
+            {
+              "w": "with",
+              "start": 213.896,
+              "end": 214.19
+            },
+            {
+              "w": "pomodoros",
+              "start": 214.19,
+              "end": 214.731
+            },
+            {
+              "w": "today",
+              "start": 214.731,
+              "end": 215.074
+            },
+            {
+              "w": "and",
+              "start": 215.074,
+              "end": 215.32
+            },
+            {
+              "w": "focus",
+              "start": 215.32,
+              "end": 215.663
+            },
+            {
+              "w": "minutes",
+              "start": 215.663,
+              "end": 216.105
+            },
+            {
+              "w": "today,",
+              "start": 216.105,
+              "end": 216.449
+            },
+            {
+              "w": "reset",
+              "start": 216.449,
+              "end": 216.793
+            },
+            {
+              "w": "at",
+              "start": 216.793,
+              "end": 216.989
+            },
+            {
+              "w": "midnight.",
+              "start": 216.989,
+              "end": 217.48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "start": 217.61,
+      "end": 224.21,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "No plan mode this time, because it's a small change. Claude edits all three files.",
+          "start": 217.61,
+          "end": 222.11,
+          "words": [
+            {
+              "w": "No",
+              "start": 217.61,
+              "end": 217.789
+            },
+            {
+              "w": "plan",
+              "start": 217.789,
+              "end": 218.058
+            },
+            {
+              "w": "mode",
+              "start": 218.058,
+              "end": 218.327
+            },
+            {
+              "w": "this",
+              "start": 218.327,
+              "end": 218.596
+            },
+            {
+              "w": "time,",
+              "start": 218.596,
+              "end": 218.865
+            },
+            {
+              "w": "because",
+              "start": 218.865,
+              "end": 219.269
+            },
+            {
+              "w": "it's",
+              "start": 219.269,
+              "end": 219.493
+            },
+            {
+              "w": "a",
+              "start": 219.493,
+              "end": 219.628
+            },
+            {
+              "w": "small",
+              "start": 219.628,
+              "end": 219.941
+            },
+            {
+              "w": "change.",
+              "start": 219.941,
+              "end": 220.3
+            },
+            {
+              "w": "Claude",
+              "start": 220.36,
+              "end": 220.772
+            },
+            {
+              "w": "edits",
+              "start": 220.772,
+              "end": 221.132
+            },
+            {
+              "w": "all",
+              "start": 221.132,
+              "end": 221.389
+            },
+            {
+              "w": "three",
+              "start": 221.389,
+              "end": 221.75
+            },
+            {
+              "w": "files.",
+              "start": 221.75,
+              "end": 222.11
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "This part is twice the real speed.",
+          "start": 222.19,
+          "end": 224.08,
+          "words": [
+            {
+              "w": "This",
+              "start": 222.19,
+              "end": 222.467
+            },
+            {
+              "w": "part",
+              "start": 222.467,
+              "end": 222.743
+            },
+            {
+              "w": "is",
+              "start": 222.743,
+              "end": 222.928
+            },
+            {
+              "w": "twice",
+              "start": 222.928,
+              "end": 223.25
+            },
+            {
+              "w": "the",
+              "start": 223.25,
+              "end": 223.481
+            },
+            {
+              "w": "real",
+              "start": 223.481,
+              "end": 223.757
+            },
+            {
+              "w": "speed.",
+              "start": 223.757,
+              "end": 224.08
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s24",
+      "start": 224.21,
+      "end": 231.79,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "And it tells you straight what it didn't test: the midnight reset was never checked in a browser.",
+          "start": 224.21,
+          "end": 228.67,
+          "words": [
+            {
+              "w": "And",
+              "start": 224.21,
+              "end": 224.407
+            },
+            {
+              "w": "it",
+              "start": 224.407,
+              "end": 224.565
+            },
+            {
+              "w": "tells",
+              "start": 224.565,
+              "end": 224.842
+            },
+            {
+              "w": "you",
+              "start": 224.842,
+              "end": 225.039
+            },
+            {
+              "w": "straight",
+              "start": 225.039,
+              "end": 225.434
+            },
+            {
+              "w": "what",
+              "start": 225.434,
+              "end": 225.67
+            },
+            {
+              "w": "it",
+              "start": 225.67,
+              "end": 225.828
+            },
+            {
+              "w": "didn't",
+              "start": 225.828,
+              "end": 226.105
+            },
+            {
+              "w": "test:",
+              "start": 226.105,
+              "end": 226.341
+            },
+            {
+              "w": "the",
+              "start": 226.341,
+              "end": 226.539
+            },
+            {
+              "w": "midnight",
+              "start": 226.539,
+              "end": 226.933
+            },
+            {
+              "w": "reset",
+              "start": 226.933,
+              "end": 227.21
+            },
+            {
+              "w": "was",
+              "start": 227.21,
+              "end": 227.407
+            },
+            {
+              "w": "never",
+              "start": 227.407,
+              "end": 227.683
+            },
+            {
+              "w": "checked",
+              "start": 227.683,
+              "end": 228.038
+            },
+            {
+              "w": "in",
+              "start": 228.038,
+              "end": 228.196
+            },
+            {
+              "w": "a",
+              "start": 228.196,
+              "end": 228.315
+            },
+            {
+              "w": "browser.",
+              "start": 228.315,
+              "end": 228.67
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "That honesty is useful. Test the parts it says it didn't.",
+          "start": 228.75,
+          "end": 231.66,
+          "words": [
+            {
+              "w": "That",
+              "start": 228.75,
+              "end": 229.057
+            },
+            {
+              "w": "honesty",
+              "start": 229.057,
+              "end": 229.517
+            },
+            {
+              "w": "is",
+              "start": 229.517,
+              "end": 229.721
+            },
+            {
+              "w": "useful.",
+              "start": 229.721,
+              "end": 230.13
+            },
+            {
+              "w": "Test",
+              "start": 230.19,
+              "end": 230.416
+            },
+            {
+              "w": "the",
+              "start": 230.416,
+              "end": 230.605
+            },
+            {
+              "w": "parts",
+              "start": 230.605,
+              "end": 230.868
+            },
+            {
+              "w": "it",
+              "start": 230.868,
+              "end": 231.019
+            },
+            {
+              "w": "says",
+              "start": 231.019,
+              "end": 231.245
+            },
+            {
+              "w": "it",
+              "start": 231.245,
+              "end": 231.396
+            },
+            {
+              "w": "didn't.",
+              "start": 231.396,
+              "end": 231.66
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s25",
+      "start": 231.79,
+      "end": 234.64,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "And there it is at the top: one pomodoro today.",
+          "start": 231.79,
+          "end": 234.51,
+          "words": [
+            {
+              "w": "And",
+              "start": 231.79,
+              "end": 232.033
+            },
+            {
+              "w": "there",
+              "start": 232.033,
+              "end": 232.373
+            },
+            {
+              "w": "it",
+              "start": 232.373,
+              "end": 232.567
+            },
+            {
+              "w": "is",
+              "start": 232.567,
+              "end": 232.761
+            },
+            {
+              "w": "at",
+              "start": 232.761,
+              "end": 232.956
+            },
+            {
+              "w": "the",
+              "start": 232.956,
+              "end": 233.199
+            },
+            {
+              "w": "top:",
+              "start": 233.199,
+              "end": 233.441
+            },
+            {
+              "w": "one",
+              "start": 233.441,
+              "end": 233.684
+            },
+            {
+              "w": "pomodoro",
+              "start": 233.684,
+              "end": 234.17
+            },
+            {
+              "w": "today.",
+              "start": 234.17,
+              "end": 234.51
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s26",
+      "start": 234.64,
+      "end": 246.82,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Next, slash init. Claude reads the project and writes a CLAUDE dot md file.",
+          "start": 234.64,
+          "end": 239.17,
+          "words": [
+            {
+              "w": "Next,",
+              "start": 234.64,
+              "end": 235.016
+            },
+            {
+              "w": "slash",
+              "start": 235.016,
+              "end": 235.454
+            },
+            {
+              "w": "init.",
+              "start": 235.454,
+              "end": 235.83
+            },
+            {
+              "w": "Claude",
+              "start": 235.89,
+              "end": 236.276
+            },
+            {
+              "w": "reads",
+              "start": 236.276,
+              "end": 236.614
+            },
+            {
+              "w": "the",
+              "start": 236.614,
+              "end": 236.855
+            },
+            {
+              "w": "project",
+              "start": 236.855,
+              "end": 237.289
+            },
+            {
+              "w": "and",
+              "start": 237.289,
+              "end": 237.53
+            },
+            {
+              "w": "writes",
+              "start": 237.53,
+              "end": 237.916
+            },
+            {
+              "w": "a",
+              "start": 237.916,
+              "end": 238.061
+            },
+            {
+              "w": "CLAUDE",
+              "start": 238.061,
+              "end": 238.446
+            },
+            {
+              "w": "dot",
+              "start": 238.446,
+              "end": 238.688
+            },
+            {
+              "w": "md",
+              "start": 238.688,
+              "end": 238.881
+            },
+            {
+              "w": "file.",
+              "start": 238.881,
+              "end": 239.17
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "It's a short guide: how to run the app, what not to break, and how the code fits together.",
+          "start": 239.25,
+          "end": 243.5,
+          "words": [
+            {
+              "w": "It's",
+              "start": 239.25,
+              "end": 239.452
+            },
+            {
+              "w": "a",
+              "start": 239.452,
+              "end": 239.574
+            },
+            {
+              "w": "short",
+              "start": 239.574,
+              "end": 239.857
+            },
+            {
+              "w": "guide:",
+              "start": 239.857,
+              "end": 240.14
+            },
+            {
+              "w": "how",
+              "start": 240.14,
+              "end": 240.343
+            },
+            {
+              "w": "to",
+              "start": 240.343,
+              "end": 240.505
+            },
+            {
+              "w": "run",
+              "start": 240.505,
+              "end": 240.707
+            },
+            {
+              "w": "the",
+              "start": 240.707,
+              "end": 240.91
+            },
+            {
+              "w": "app,",
+              "start": 240.91,
+              "end": 241.112
+            },
+            {
+              "w": "what",
+              "start": 241.112,
+              "end": 241.355
+            },
+            {
+              "w": "not",
+              "start": 241.355,
+              "end": 241.557
+            },
+            {
+              "w": "to",
+              "start": 241.557,
+              "end": 241.719
+            },
+            {
+              "w": "break,",
+              "start": 241.719,
+              "end": 242.002
+            },
+            {
+              "w": "and",
+              "start": 242.002,
+              "end": 242.205
+            },
+            {
+              "w": "how",
+              "start": 242.205,
+              "end": 242.407
+            },
+            {
+              "w": "the",
+              "start": 242.407,
+              "end": 242.61
+            },
+            {
+              "w": "code",
+              "start": 242.61,
+              "end": 242.852
+            },
+            {
+              "w": "fits",
+              "start": 242.852,
+              "end": 243.095
+            },
+            {
+              "w": "together.",
+              "start": 243.095,
+              "end": 243.5
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Every new Claude Code session in this folder reads it first.",
+          "start": 243.58,
+          "end": 246.69,
+          "words": [
+            {
+              "w": "Every",
+              "start": 243.58,
+              "end": 243.887
+            },
+            {
+              "w": "new",
+              "start": 243.887,
+              "end": 244.106
+            },
+            {
+              "w": "Claude",
+              "start": 244.106,
+              "end": 244.456
+            },
+            {
+              "w": "Code",
+              "start": 244.456,
+              "end": 244.719
+            },
+            {
+              "w": "session",
+              "start": 244.719,
+              "end": 245.113
+            },
+            {
+              "w": "in",
+              "start": 245.113,
+              "end": 245.288
+            },
+            {
+              "w": "this",
+              "start": 245.288,
+              "end": 245.551
+            },
+            {
+              "w": "folder",
+              "start": 245.551,
+              "end": 245.902
+            },
+            {
+              "w": "reads",
+              "start": 245.902,
+              "end": 246.208
+            },
+            {
+              "w": "it",
+              "start": 246.208,
+              "end": 246.383
+            },
+            {
+              "w": "first.",
+              "start": 246.383,
+              "end": 246.69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s27",
+      "start": 246.82,
+      "end": 254.63,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The last request: initialize git and commit everything with a clear message.",
+          "start": 246.82,
+          "end": 250.93,
+          "words": [
+            {
+              "w": "The",
+              "start": 246.82,
+              "end": 247.056
+            },
+            {
+              "w": "last",
+              "start": 247.056,
+              "end": 247.34
+            },
+            {
+              "w": "request:",
+              "start": 247.34,
+              "end": 247.765
+            },
+            {
+              "w": "initialize",
+              "start": 247.765,
+              "end": 248.332
+            },
+            {
+              "w": "git",
+              "start": 248.332,
+              "end": 248.568
+            },
+            {
+              "w": "and",
+              "start": 248.568,
+              "end": 248.804
+            },
+            {
+              "w": "commit",
+              "start": 248.804,
+              "end": 249.182
+            },
+            {
+              "w": "everything",
+              "start": 249.182,
+              "end": 249.749
+            },
+            {
+              "w": "with",
+              "start": 249.749,
+              "end": 250.032
+            },
+            {
+              "w": "a",
+              "start": 250.032,
+              "end": 250.174
+            },
+            {
+              "w": "clear",
+              "start": 250.174,
+              "end": 250.505
+            },
+            {
+              "w": "message.",
+              "start": 250.505,
+              "end": 250.93
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "One commit, four files, and nothing pushed anywhere without asking.",
+          "start": 251.01,
+          "end": 254.5,
+          "words": [
+            {
+              "w": "One",
+              "start": 251.01,
+              "end": 251.243
+            },
+            {
+              "w": "commit,",
+              "start": 251.243,
+              "end": 251.615
+            },
+            {
+              "w": "four",
+              "start": 251.615,
+              "end": 251.894
+            },
+            {
+              "w": "files,",
+              "start": 251.894,
+              "end": 252.22
+            },
+            {
+              "w": "and",
+              "start": 252.22,
+              "end": 252.453
+            },
+            {
+              "w": "nothing",
+              "start": 252.453,
+              "end": 252.871
+            },
+            {
+              "w": "pushed",
+              "start": 252.871,
+              "end": 253.244
+            },
+            {
+              "w": "anywhere",
+              "start": 253.244,
+              "end": 253.709
+            },
+            {
+              "w": "without",
+              "start": 253.709,
+              "end": 254.128
+            },
+            {
+              "w": "asking.",
+              "start": 254.128,
+              "end": 254.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t01",
+      "start": 254.63,
+      "end": 270.9,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Now close it and come back later. A new session starts fresh, but it reads CLAUDE dot md first.",
+          "start": 254.63,
+          "end": 260.0,
+          "words": [
+            {
+              "w": "Now",
+              "start": 254.63,
+              "end": 254.854
+            },
+            {
+              "w": "close",
+              "start": 254.854,
+              "end": 255.167
+            },
+            {
+              "w": "it",
+              "start": 255.167,
+              "end": 255.346
+            },
+            {
+              "w": "and",
+              "start": 255.346,
+              "end": 255.57
+            },
+            {
+              "w": "come",
+              "start": 255.57,
+              "end": 255.838
+            },
+            {
+              "w": "back",
+              "start": 255.838,
+              "end": 256.107
+            },
+            {
+              "w": "later.",
+              "start": 256.107,
+              "end": 256.42
+            },
+            {
+              "w": "A",
+              "start": 256.48,
+              "end": 256.627
+            },
+            {
+              "w": "new",
+              "start": 256.627,
+              "end": 256.871
+            },
+            {
+              "w": "session",
+              "start": 256.871,
+              "end": 257.311
+            },
+            {
+              "w": "starts",
+              "start": 257.311,
+              "end": 257.702
+            },
+            {
+              "w": "fresh,",
+              "start": 257.702,
+              "end": 258.044
+            },
+            {
+              "w": "but",
+              "start": 258.044,
+              "end": 258.289
+            },
+            {
+              "w": "it",
+              "start": 258.289,
+              "end": 258.484
+            },
+            {
+              "w": "reads",
+              "start": 258.484,
+              "end": 258.827
+            },
+            {
+              "w": "CLAUDE",
+              "start": 258.827,
+              "end": 259.218
+            },
+            {
+              "w": "dot",
+              "start": 259.218,
+              "end": 259.462
+            },
+            {
+              "w": "md",
+              "start": 259.462,
+              "end": 259.658
+            },
+            {
+              "w": "first.",
+              "start": 259.658,
+              "end": 260.0
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Type the at sign to point at a file. We asked how the timer stays accurate in a background tab.",
+          "start": 260.08,
+          "end": 265.09,
+          "words": [
+            {
+              "w": "Type",
+              "start": 260.08,
+              "end": 260.352
+            },
+            {
+              "w": "the",
+              "start": 260.352,
+              "end": 260.579
+            },
+            {
+              "w": "at",
+              "start": 260.579,
+              "end": 260.76
+            },
+            {
+              "w": "sign",
+              "start": 260.76,
+              "end": 261.032
+            },
+            {
+              "w": "to",
+              "start": 261.032,
+              "end": 261.213
+            },
+            {
+              "w": "point",
+              "start": 261.213,
+              "end": 261.531
+            },
+            {
+              "w": "at",
+              "start": 261.531,
+              "end": 261.712
+            },
+            {
+              "w": "a",
+              "start": 261.712,
+              "end": 261.848
+            },
+            {
+              "w": "file.",
+              "start": 261.848,
+              "end": 262.12
+            },
+            {
+              "w": "We",
+              "start": 262.18,
+              "end": 262.349
+            },
+            {
+              "w": "asked",
+              "start": 262.349,
+              "end": 262.644
+            },
+            {
+              "w": "how",
+              "start": 262.644,
+              "end": 262.855
+            },
+            {
+              "w": "the",
+              "start": 262.855,
+              "end": 263.066
+            },
+            {
+              "w": "timer",
+              "start": 263.066,
+              "end": 263.361
+            },
+            {
+              "w": "stays",
+              "start": 263.361,
+              "end": 263.656
+            },
+            {
+              "w": "accurate",
+              "start": 263.656,
+              "end": 264.078
+            },
+            {
+              "w": "in",
+              "start": 264.078,
+              "end": 264.247
+            },
+            {
+              "w": "a",
+              "start": 264.247,
+              "end": 264.373
+            },
+            {
+              "w": "background",
+              "start": 264.373,
+              "end": 264.879
+            },
+            {
+              "w": "tab.",
+              "start": 264.879,
+              "end": 265.09
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "It answers with line numbers, and it even admits one limit: the chime can come late while the tab is hidden.",
+          "start": 265.17,
+          "end": 270.77,
+          "words": [
+            {
+              "w": "It",
+              "start": 265.17,
+              "end": 265.346
+            },
+            {
+              "w": "answers",
+              "start": 265.346,
+              "end": 265.743
+            },
+            {
+              "w": "with",
+              "start": 265.743,
+              "end": 266.008
+            },
+            {
+              "w": "line",
+              "start": 266.008,
+              "end": 266.272
+            },
+            {
+              "w": "numbers,",
+              "start": 266.272,
+              "end": 266.669
+            },
+            {
+              "w": "and",
+              "start": 266.669,
+              "end": 266.89
+            },
+            {
+              "w": "it",
+              "start": 266.89,
+              "end": 267.066
+            },
+            {
+              "w": "even",
+              "start": 267.066,
+              "end": 267.331
+            },
+            {
+              "w": "admits",
+              "start": 267.331,
+              "end": 267.683
+            },
+            {
+              "w": "one",
+              "start": 267.683,
+              "end": 267.904
+            },
+            {
+              "w": "limit:",
+              "start": 267.904,
+              "end": 268.213
+            },
+            {
+              "w": "the",
+              "start": 268.213,
+              "end": 268.433
+            },
+            {
+              "w": "chime",
+              "start": 268.433,
+              "end": 268.742
+            },
+            {
+              "w": "can",
+              "start": 268.742,
+              "end": 268.962
+            },
+            {
+              "w": "come",
+              "start": 268.962,
+              "end": 269.227
+            },
+            {
+              "w": "late",
+              "start": 269.227,
+              "end": 269.491
+            },
+            {
+              "w": "while",
+              "start": 269.491,
+              "end": 269.8
+            },
+            {
+              "w": "the",
+              "start": 269.8,
+              "end": 270.02
+            },
+            {
+              "w": "tab",
+              "start": 270.02,
+              "end": 270.241
+            },
+            {
+              "w": "is",
+              "start": 270.241,
+              "end": 270.417
+            },
+            {
+              "w": "hidden.",
+              "start": 270.417,
+              "end": 270.77
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t02",
+      "start": 270.9,
+      "end": 276.41,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Next, the most useful prompt for beginners: review the code for real bugs, and fix the most important one.",
+          "start": 270.9,
+          "end": 276.28,
+          "words": [
+            {
+              "w": "Next,",
+              "start": 270.9,
+              "end": 271.165
+            },
+            {
+              "w": "the",
+              "start": 271.165,
+              "end": 271.385
+            },
+            {
+              "w": "most",
+              "start": 271.385,
+              "end": 271.65
+            },
+            {
+              "w": "useful",
+              "start": 271.65,
+              "end": 272.002
+            },
+            {
+              "w": "prompt",
+              "start": 272.002,
+              "end": 272.355
+            },
+            {
+              "w": "for",
+              "start": 272.355,
+              "end": 272.576
+            },
+            {
+              "w": "beginners:",
+              "start": 272.576,
+              "end": 273.061
+            },
+            {
+              "w": "review",
+              "start": 273.061,
+              "end": 273.414
+            },
+            {
+              "w": "the",
+              "start": 273.414,
+              "end": 273.634
+            },
+            {
+              "w": "code",
+              "start": 273.634,
+              "end": 273.899
+            },
+            {
+              "w": "for",
+              "start": 273.899,
+              "end": 274.119
+            },
+            {
+              "w": "real",
+              "start": 274.119,
+              "end": 274.384
+            },
+            {
+              "w": "bugs,",
+              "start": 274.384,
+              "end": 274.648
+            },
+            {
+              "w": "and",
+              "start": 274.648,
+              "end": 274.869
+            },
+            {
+              "w": "fix",
+              "start": 274.869,
+              "end": 275.089
+            },
+            {
+              "w": "the",
+              "start": 275.089,
+              "end": 275.31
+            },
+            {
+              "w": "most",
+              "start": 275.31,
+              "end": 275.574
+            },
+            {
+              "w": "important",
+              "start": 275.574,
+              "end": 276.06
+            },
+            {
+              "w": "one.",
+              "start": 276.06,
+              "end": 276.28
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t03",
+      "start": 276.41,
+      "end": 289.0,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "And it found one. With the app open in two tabs, the older tab's next save wiped out changes from the newer one.",
+          "start": 276.41,
+          "end": 282.4,
+          "words": [
+            {
+              "w": "And",
+              "start": 276.41,
+              "end": 276.641
+            },
+            {
+              "w": "it",
+              "start": 276.641,
+              "end": 276.826
+            },
+            {
+              "w": "found",
+              "start": 276.826,
+              "end": 277.149
+            },
+            {
+              "w": "one.",
+              "start": 277.149,
+              "end": 277.38
+            },
+            {
+              "w": "With",
+              "start": 277.44,
+              "end": 277.708
+            },
+            {
+              "w": "the",
+              "start": 277.708,
+              "end": 277.932
+            },
+            {
+              "w": "app",
+              "start": 277.932,
+              "end": 278.155
+            },
+            {
+              "w": "open",
+              "start": 278.155,
+              "end": 278.423
+            },
+            {
+              "w": "in",
+              "start": 278.423,
+              "end": 278.602
+            },
+            {
+              "w": "two",
+              "start": 278.602,
+              "end": 278.825
+            },
+            {
+              "w": "tabs,",
+              "start": 278.825,
+              "end": 279.093
+            },
+            {
+              "w": "the",
+              "start": 279.093,
+              "end": 279.317
+            },
+            {
+              "w": "older",
+              "start": 279.317,
+              "end": 279.63
+            },
+            {
+              "w": "tab's",
+              "start": 279.63,
+              "end": 279.898
+            },
+            {
+              "w": "next",
+              "start": 279.898,
+              "end": 280.166
+            },
+            {
+              "w": "save",
+              "start": 280.166,
+              "end": 280.434
+            },
+            {
+              "w": "wiped",
+              "start": 280.434,
+              "end": 280.747
+            },
+            {
+              "w": "out",
+              "start": 280.747,
+              "end": 280.97
+            },
+            {
+              "w": "changes",
+              "start": 280.97,
+              "end": 281.372
+            },
+            {
+              "w": "from",
+              "start": 281.372,
+              "end": 281.64
+            },
+            {
+              "w": "the",
+              "start": 281.64,
+              "end": 281.864
+            },
+            {
+              "w": "newer",
+              "start": 281.864,
+              "end": 282.177
+            },
+            {
+              "w": "one.",
+              "start": 282.177,
+              "end": 282.4
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "The fix listens for storage changes from other tabs. Seven lines. And again, it tells you it hasn't tried two tabs yet.",
+          "start": 282.48,
+          "end": 288.81,
+          "words": [
+            {
+              "w": "The",
+              "start": 282.48,
+              "end": 282.71
+            },
+            {
+              "w": "fix",
+              "start": 282.71,
+              "end": 282.941
+            },
+            {
+              "w": "listens",
+              "start": 282.941,
+              "end": 283.355
+            },
+            {
+              "w": "for",
+              "start": 283.355,
+              "end": 283.586
+            },
+            {
+              "w": "storage",
+              "start": 283.586,
+              "end": 284.0
+            },
+            {
+              "w": "changes",
+              "start": 284.0,
+              "end": 284.415
+            },
+            {
+              "w": "from",
+              "start": 284.415,
+              "end": 284.691
+            },
+            {
+              "w": "other",
+              "start": 284.691,
+              "end": 285.014
+            },
+            {
+              "w": "tabs.",
+              "start": 285.014,
+              "end": 285.29
+            },
+            {
+              "w": "Seven",
+              "start": 285.35,
+              "end": 285.795
+            },
+            {
+              "w": "lines.",
+              "start": 285.795,
+              "end": 286.24
+            },
+            {
+              "w": "And",
+              "start": 286.3,
+              "end": 286.502
+            },
+            {
+              "w": "again,",
+              "start": 286.502,
+              "end": 286.786
+            },
+            {
+              "w": "it",
+              "start": 286.786,
+              "end": 286.948
+            },
+            {
+              "w": "tells",
+              "start": 286.948,
+              "end": 287.231
+            },
+            {
+              "w": "you",
+              "start": 287.231,
+              "end": 287.434
+            },
+            {
+              "w": "it",
+              "start": 287.434,
+              "end": 287.595
+            },
+            {
+              "w": "hasn't",
+              "start": 287.595,
+              "end": 287.879
+            },
+            {
+              "w": "tried",
+              "start": 287.879,
+              "end": 288.162
+            },
+            {
+              "w": "two",
+              "start": 288.162,
+              "end": 288.365
+            },
+            {
+              "w": "tabs",
+              "start": 288.365,
+              "end": 288.608
+            },
+            {
+              "w": "yet.",
+              "start": 288.608,
+              "end": 288.81
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t04",
+      "start": 289.0,
+      "end": 293.4,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "A bug I didn't know about, fixed before I knew about it. That's my kind of bug.",
+          "start": 289.0,
+          "end": 293.21,
+          "words": [
+            {
+              "w": "A",
+              "start": 289.0,
+              "end": 289.137
+            },
+            {
+              "w": "bug",
+              "start": 289.137,
+              "end": 289.365
+            },
+            {
+              "w": "I",
+              "start": 289.365,
+              "end": 289.502
+            },
+            {
+              "w": "didn't",
+              "start": 289.502,
+              "end": 289.821
+            },
+            {
+              "w": "know",
+              "start": 289.821,
+              "end": 290.095
+            },
+            {
+              "w": "about,",
+              "start": 290.095,
+              "end": 290.414
+            },
+            {
+              "w": "fixed",
+              "start": 290.414,
+              "end": 290.733
+            },
+            {
+              "w": "before",
+              "start": 290.733,
+              "end": 291.098
+            },
+            {
+              "w": "I",
+              "start": 291.098,
+              "end": 291.235
+            },
+            {
+              "w": "knew",
+              "start": 291.235,
+              "end": 291.508
+            },
+            {
+              "w": "about",
+              "start": 291.508,
+              "end": 291.828
+            },
+            {
+              "w": "it.",
+              "start": 291.828,
+              "end": 292.01
+            },
+            {
+              "w": "That's",
+              "start": 292.07,
+              "end": 292.377
+            },
+            {
+              "w": "my",
+              "start": 292.377,
+              "end": 292.552
+            },
+            {
+              "w": "kind",
+              "start": 292.552,
+              "end": 292.815
+            },
+            {
+              "w": "of",
+              "start": 292.815,
+              "end": 292.991
+            },
+            {
+              "w": "bug.",
+              "start": 292.991,
+              "end": 293.21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t05",
+      "start": 293.4,
+      "end": 302.31,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Now a mistake on purpose. We asked for a whole settings panel: lengths, themes, sounds.",
+          "start": 293.4,
+          "end": 298.21,
+          "words": [
+            {
+              "w": "Now",
+              "start": 293.4,
+              "end": 293.657
+            },
+            {
+              "w": "a",
+              "start": 293.657,
+              "end": 293.811
+            },
+            {
+              "w": "mistake",
+              "start": 293.811,
+              "end": 294.273
+            },
+            {
+              "w": "on",
+              "start": 294.273,
+              "end": 294.478
+            },
+            {
+              "w": "purpose.",
+              "start": 294.478,
+              "end": 294.94
+            },
+            {
+              "w": "We",
+              "start": 295.0,
+              "end": 295.189
+            },
+            {
+              "w": "asked",
+              "start": 295.189,
+              "end": 295.519
+            },
+            {
+              "w": "for",
+              "start": 295.519,
+              "end": 295.755
+            },
+            {
+              "w": "a",
+              "start": 295.755,
+              "end": 295.897
+            },
+            {
+              "w": "whole",
+              "start": 295.897,
+              "end": 296.227
+            },
+            {
+              "w": "settings",
+              "start": 296.227,
+              "end": 296.699
+            },
+            {
+              "w": "panel:",
+              "start": 296.699,
+              "end": 297.03
+            },
+            {
+              "w": "lengths,",
+              "start": 297.03,
+              "end": 297.455
+            },
+            {
+              "w": "themes,",
+              "start": 297.455,
+              "end": 297.832
+            },
+            {
+              "w": "sounds.",
+              "start": 297.832,
+              "end": 298.21
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Too much. Press Escape, and it stops right away and asks what to do instead.",
+          "start": 298.29,
+          "end": 302.18,
+          "words": [
+            {
+              "w": "Too",
+              "start": 298.29,
+              "end": 298.554
+            },
+            {
+              "w": "much.",
+              "start": 298.554,
+              "end": 298.87
+            },
+            {
+              "w": "Press",
+              "start": 298.93,
+              "end": 299.222
+            },
+            {
+              "w": "Escape,",
+              "start": 299.222,
+              "end": 299.555
+            },
+            {
+              "w": "and",
+              "start": 299.555,
+              "end": 299.763
+            },
+            {
+              "w": "it",
+              "start": 299.763,
+              "end": 299.93
+            },
+            {
+              "w": "stops",
+              "start": 299.93,
+              "end": 300.222
+            },
+            {
+              "w": "right",
+              "start": 300.222,
+              "end": 300.513
+            },
+            {
+              "w": "away",
+              "start": 300.513,
+              "end": 300.763
+            },
+            {
+              "w": "and",
+              "start": 300.763,
+              "end": 300.972
+            },
+            {
+              "w": "asks",
+              "start": 300.972,
+              "end": 301.222
+            },
+            {
+              "w": "what",
+              "start": 301.222,
+              "end": 301.472
+            },
+            {
+              "w": "to",
+              "start": 301.472,
+              "end": 301.638
+            },
+            {
+              "w": "do",
+              "start": 301.638,
+              "end": 301.805
+            },
+            {
+              "w": "instead.",
+              "start": 301.805,
+              "end": 302.18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t06",
+      "start": 302.31,
+      "end": 310.21,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "So we narrowed it down: just a fifty ten preset button next to the tabs.",
+          "start": 302.31,
+          "end": 306.01,
+          "words": [
+            {
+              "w": "So",
+              "start": 302.31,
+              "end": 302.482
+            },
+            {
+              "w": "we",
+              "start": 302.482,
+              "end": 302.654
+            },
+            {
+              "w": "narrowed",
+              "start": 302.654,
+              "end": 303.084
+            },
+            {
+              "w": "it",
+              "start": 303.084,
+              "end": 303.257
+            },
+            {
+              "w": "down:",
+              "start": 303.257,
+              "end": 303.515
+            },
+            {
+              "w": "just",
+              "start": 303.515,
+              "end": 303.773
+            },
+            {
+              "w": "a",
+              "start": 303.773,
+              "end": 303.902
+            },
+            {
+              "w": "fifty",
+              "start": 303.902,
+              "end": 304.203
+            },
+            {
+              "w": "ten",
+              "start": 304.203,
+              "end": 304.418
+            },
+            {
+              "w": "preset",
+              "start": 304.418,
+              "end": 304.762
+            },
+            {
+              "w": "button",
+              "start": 304.762,
+              "end": 305.107
+            },
+            {
+              "w": "next",
+              "start": 305.107,
+              "end": 305.365
+            },
+            {
+              "w": "to",
+              "start": 305.365,
+              "end": 305.537
+            },
+            {
+              "w": "the",
+              "start": 305.537,
+              "end": 305.752
+            },
+            {
+              "w": "tabs.",
+              "start": 305.752,
+              "end": 306.01
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "It changes the code, updates CLAUDE dot md, and says what it didn't test.",
+          "start": 306.09,
+          "end": 310.08,
+          "words": [
+            {
+              "w": "It",
+              "start": 306.09,
+              "end": 306.28
+            },
+            {
+              "w": "changes",
+              "start": 306.28,
+              "end": 306.708
+            },
+            {
+              "w": "the",
+              "start": 306.708,
+              "end": 306.945
+            },
+            {
+              "w": "code,",
+              "start": 306.945,
+              "end": 307.23
+            },
+            {
+              "w": "updates",
+              "start": 307.23,
+              "end": 307.658
+            },
+            {
+              "w": "CLAUDE",
+              "start": 307.658,
+              "end": 308.038
+            },
+            {
+              "w": "dot",
+              "start": 308.038,
+              "end": 308.275
+            },
+            {
+              "w": "md,",
+              "start": 308.275,
+              "end": 308.465
+            },
+            {
+              "w": "and",
+              "start": 308.465,
+              "end": 308.703
+            },
+            {
+              "w": "says",
+              "start": 308.703,
+              "end": 308.988
+            },
+            {
+              "w": "what",
+              "start": 308.988,
+              "end": 309.273
+            },
+            {
+              "w": "it",
+              "start": 309.273,
+              "end": 309.463
+            },
+            {
+              "w": "didn't",
+              "start": 309.463,
+              "end": 309.795
+            },
+            {
+              "w": "test.",
+              "start": 309.795,
+              "end": 310.08
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t07",
+      "start": 310.21,
+      "end": 314.3,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "We checked it in the browser. One click, and the focus session is fifty minutes.",
+          "start": 310.21,
+          "end": 314.17,
+          "words": [
+            {
+              "w": "We",
+              "start": 310.21,
+              "end": 310.375
+            },
+            {
+              "w": "checked",
+              "start": 310.375,
+              "end": 310.745
+            },
+            {
+              "w": "it",
+              "start": 310.745,
+              "end": 310.909
+            },
+            {
+              "w": "in",
+              "start": 310.909,
+              "end": 311.074
+            },
+            {
+              "w": "the",
+              "start": 311.074,
+              "end": 311.28
+            },
+            {
+              "w": "browser.",
+              "start": 311.28,
+              "end": 311.65
+            },
+            {
+              "w": "One",
+              "start": 311.71,
+              "end": 311.922
+            },
+            {
+              "w": "click,",
+              "start": 311.922,
+              "end": 312.219
+            },
+            {
+              "w": "and",
+              "start": 312.219,
+              "end": 312.431
+            },
+            {
+              "w": "the",
+              "start": 312.431,
+              "end": 312.643
+            },
+            {
+              "w": "focus",
+              "start": 312.643,
+              "end": 312.94
+            },
+            {
+              "w": "session",
+              "start": 312.94,
+              "end": 313.322
+            },
+            {
+              "w": "is",
+              "start": 313.322,
+              "end": 313.491
+            },
+            {
+              "w": "fifty",
+              "start": 313.491,
+              "end": 313.788
+            },
+            {
+              "w": "minutes.",
+              "start": 313.788,
+              "end": 314.17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t08",
+      "start": 314.3,
+      "end": 323.69,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "And if you don't like a change, press Escape twice. That opens Rewind.",
+          "start": 314.3,
+          "end": 318.23,
+          "words": [
+            {
+              "w": "And",
+              "start": 314.3,
+              "end": 314.518
+            },
+            {
+              "w": "if",
+              "start": 314.518,
+              "end": 314.692
+            },
+            {
+              "w": "you",
+              "start": 314.692,
+              "end": 314.91
+            },
+            {
+              "w": "don't",
+              "start": 314.91,
+              "end": 315.171
+            },
+            {
+              "w": "like",
+              "start": 315.171,
+              "end": 315.433
+            },
+            {
+              "w": "a",
+              "start": 315.433,
+              "end": 315.563
+            },
+            {
+              "w": "change,",
+              "start": 315.563,
+              "end": 315.912
+            },
+            {
+              "w": "press",
+              "start": 315.912,
+              "end": 316.217
+            },
+            {
+              "w": "Escape",
+              "start": 316.217,
+              "end": 316.565
+            },
+            {
+              "w": "twice.",
+              "start": 316.565,
+              "end": 316.87
+            },
+            {
+              "w": "That",
+              "start": 316.93,
+              "end": 317.301
+            },
+            {
+              "w": "opens",
+              "start": 317.301,
+              "end": 317.735
+            },
+            {
+              "w": "Rewind.",
+              "start": 317.735,
+              "end": 318.23
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Pick an earlier message, and it restores the code, the conversation, or both. We kept the current version.",
+          "start": 318.31,
+          "end": 323.56,
+          "words": [
+            {
+              "w": "Pick",
+              "start": 318.31,
+              "end": 318.575
+            },
+            {
+              "w": "an",
+              "start": 318.575,
+              "end": 318.751
+            },
+            {
+              "w": "earlier",
+              "start": 318.751,
+              "end": 319.149
+            },
+            {
+              "w": "message,",
+              "start": 319.149,
+              "end": 319.546
+            },
+            {
+              "w": "and",
+              "start": 319.546,
+              "end": 319.767
+            },
+            {
+              "w": "it",
+              "start": 319.767,
+              "end": 319.943
+            },
+            {
+              "w": "restores",
+              "start": 319.943,
+              "end": 320.384
+            },
+            {
+              "w": "the",
+              "start": 320.384,
+              "end": 320.605
+            },
+            {
+              "w": "code,",
+              "start": 320.605,
+              "end": 320.87
+            },
+            {
+              "w": "the",
+              "start": 320.87,
+              "end": 321.091
+            },
+            {
+              "w": "conversation,",
+              "start": 321.091,
+              "end": 321.709
+            },
+            {
+              "w": "or",
+              "start": 321.709,
+              "end": 321.885
+            },
+            {
+              "w": "both.",
+              "start": 321.885,
+              "end": 322.15
+            },
+            {
+              "w": "We",
+              "start": 322.21,
+              "end": 322.374
+            },
+            {
+              "w": "kept",
+              "start": 322.374,
+              "end": 322.619
+            },
+            {
+              "w": "the",
+              "start": 322.619,
+              "end": 322.824
+            },
+            {
+              "w": "current",
+              "start": 322.824,
+              "end": 323.192
+            },
+            {
+              "w": "version.",
+              "start": 323.192,
+              "end": 323.56
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t09",
+      "start": 323.69,
+      "end": 327.87,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "One more commit. It split the work into two: the bug fix, and the preset button.",
+          "start": 323.69,
+          "end": 327.74,
+          "words": [
+            {
+              "w": "One",
+              "start": 323.69,
+              "end": 323.943
+            },
+            {
+              "w": "more",
+              "start": 323.943,
+              "end": 324.246
+            },
+            {
+              "w": "commit.",
+              "start": 324.246,
+              "end": 324.65
+            },
+            {
+              "w": "It",
+              "start": 324.71,
+              "end": 324.874
+            },
+            {
+              "w": "split",
+              "start": 324.874,
+              "end": 325.16
+            },
+            {
+              "w": "the",
+              "start": 325.16,
+              "end": 325.365
+            },
+            {
+              "w": "work",
+              "start": 325.365,
+              "end": 325.611
+            },
+            {
+              "w": "into",
+              "start": 325.611,
+              "end": 325.856
+            },
+            {
+              "w": "two:",
+              "start": 325.856,
+              "end": 326.061
+            },
+            {
+              "w": "the",
+              "start": 326.061,
+              "end": 326.266
+            },
+            {
+              "w": "bug",
+              "start": 326.266,
+              "end": 326.471
+            },
+            {
+              "w": "fix,",
+              "start": 326.471,
+              "end": 326.675
+            },
+            {
+              "w": "and",
+              "start": 326.675,
+              "end": 326.88
+            },
+            {
+              "w": "the",
+              "start": 326.88,
+              "end": 327.085
+            },
+            {
+              "w": "preset",
+              "start": 327.085,
+              "end": 327.412
+            },
+            {
+              "w": "button.",
+              "start": 327.412,
+              "end": 327.74
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s28",
+      "start": 327.87,
+      "end": 351.99,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Five tips from the official best practices. One, give Claude a way to check its own work.",
+          "start": 327.87,
+          "end": 332.04,
+          "words": [
+            {
+              "w": "Five",
+              "start": 327.87,
+              "end": 328.124
+            },
+            {
+              "w": "tips",
+              "start": 328.124,
+              "end": 328.379
+            },
+            {
+              "w": "from",
+              "start": 328.379,
+              "end": 328.633
+            },
+            {
+              "w": "the",
+              "start": 328.633,
+              "end": 328.845
+            },
+            {
+              "w": "official",
+              "start": 328.845,
+              "end": 329.269
+            },
+            {
+              "w": "best",
+              "start": 329.269,
+              "end": 329.524
+            },
+            {
+              "w": "practices.",
+              "start": 329.524,
+              "end": 329.99
+            },
+            {
+              "w": "One,",
+              "start": 330.05,
+              "end": 330.234
+            },
+            {
+              "w": "give",
+              "start": 330.234,
+              "end": 330.455
+            },
+            {
+              "w": "Claude",
+              "start": 330.455,
+              "end": 330.75
+            },
+            {
+              "w": "a",
+              "start": 330.75,
+              "end": 330.861
+            },
+            {
+              "w": "way",
+              "start": 330.861,
+              "end": 331.045
+            },
+            {
+              "w": "to",
+              "start": 331.045,
+              "end": 331.192
+            },
+            {
+              "w": "check",
+              "start": 331.192,
+              "end": 331.45
+            },
+            {
+              "w": "its",
+              "start": 331.45,
+              "end": 331.635
+            },
+            {
+              "w": "own",
+              "start": 331.635,
+              "end": 331.819
+            },
+            {
+              "w": "work.",
+              "start": 331.819,
+              "end": 332.04
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Here that was the fast mode and a syntax check. In a bigger project, it's tests.",
+          "start": 332.12,
+          "end": 336.15,
+          "words": [
+            {
+              "w": "Here",
+              "start": 332.12,
+              "end": 332.356
+            },
+            {
+              "w": "that",
+              "start": 332.356,
+              "end": 332.592
+            },
+            {
+              "w": "was",
+              "start": 332.592,
+              "end": 332.788
+            },
+            {
+              "w": "the",
+              "start": 332.788,
+              "end": 332.985
+            },
+            {
+              "w": "fast",
+              "start": 332.985,
+              "end": 333.22
+            },
+            {
+              "w": "mode",
+              "start": 333.22,
+              "end": 333.456
+            },
+            {
+              "w": "and",
+              "start": 333.456,
+              "end": 333.653
+            },
+            {
+              "w": "a",
+              "start": 333.653,
+              "end": 333.771
+            },
+            {
+              "w": "syntax",
+              "start": 333.771,
+              "end": 334.085
+            },
+            {
+              "w": "check.",
+              "start": 334.085,
+              "end": 334.36
+            },
+            {
+              "w": "In",
+              "start": 334.42,
+              "end": 334.612
+            },
+            {
+              "w": "a",
+              "start": 334.612,
+              "end": 334.756
+            },
+            {
+              "w": "bigger",
+              "start": 334.756,
+              "end": 335.141
+            },
+            {
+              "w": "project,",
+              "start": 335.141,
+              "end": 335.573
+            },
+            {
+              "w": "it's",
+              "start": 335.573,
+              "end": 335.814
+            },
+            {
+              "w": "tests.",
+              "start": 335.814,
+              "end": 336.15
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Two, plan first, then code. The plan is where you catch a wrong idea for free.",
+          "start": 336.23,
+          "end": 340.43,
+          "words": [
+            {
+              "w": "Two,",
+              "start": 336.23,
+              "end": 336.513
+            },
+            {
+              "w": "plan",
+              "start": 336.513,
+              "end": 336.853
+            },
+            {
+              "w": "first,",
+              "start": 336.853,
+              "end": 337.25
+            },
+            {
+              "w": "then",
+              "start": 337.25,
+              "end": 337.59
+            },
+            {
+              "w": "code.",
+              "start": 337.59,
+              "end": 337.93
+            },
+            {
+              "w": "The",
+              "start": 337.99,
+              "end": 338.19
+            },
+            {
+              "w": "plan",
+              "start": 338.19,
+              "end": 338.43
+            },
+            {
+              "w": "is",
+              "start": 338.43,
+              "end": 338.59
+            },
+            {
+              "w": "where",
+              "start": 338.59,
+              "end": 338.87
+            },
+            {
+              "w": "you",
+              "start": 338.87,
+              "end": 339.07
+            },
+            {
+              "w": "catch",
+              "start": 339.07,
+              "end": 339.35
+            },
+            {
+              "w": "a",
+              "start": 339.35,
+              "end": 339.47
+            },
+            {
+              "w": "wrong",
+              "start": 339.47,
+              "end": 339.75
+            },
+            {
+              "w": "idea",
+              "start": 339.75,
+              "end": 339.99
+            },
+            {
+              "w": "for",
+              "start": 339.99,
+              "end": 340.19
+            },
+            {
+              "w": "free.",
+              "start": 340.19,
+              "end": 340.43
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Three, be specific, and point at files with the at sign. Small, clear requests beat one giant wish.",
+          "start": 340.51,
+          "end": 346.05,
+          "words": [
+            {
+              "w": "Three,",
+              "start": 340.51,
+              "end": 340.817
+            },
+            {
+              "w": "be",
+              "start": 340.817,
+              "end": 340.992
+            },
+            {
+              "w": "specific,",
+              "start": 340.992,
+              "end": 341.431
+            },
+            {
+              "w": "and",
+              "start": 341.431,
+              "end": 341.65
+            },
+            {
+              "w": "point",
+              "start": 341.65,
+              "end": 341.957
+            },
+            {
+              "w": "at",
+              "start": 341.957,
+              "end": 342.132
+            },
+            {
+              "w": "files",
+              "start": 342.132,
+              "end": 342.439
+            },
+            {
+              "w": "with",
+              "start": 342.439,
+              "end": 342.702
+            },
+            {
+              "w": "the",
+              "start": 342.702,
+              "end": 342.922
+            },
+            {
+              "w": "at",
+              "start": 342.922,
+              "end": 343.097
+            },
+            {
+              "w": "sign.",
+              "start": 343.097,
+              "end": 343.36
+            },
+            {
+              "w": "Small,",
+              "start": 343.42,
+              "end": 343.804
+            },
+            {
+              "w": "clear",
+              "start": 343.804,
+              "end": 344.187
+            },
+            {
+              "w": "requests",
+              "start": 344.187,
+              "end": 344.735
+            },
+            {
+              "w": "beat",
+              "start": 344.735,
+              "end": 345.064
+            },
+            {
+              "w": "one",
+              "start": 345.064,
+              "end": 345.338
+            },
+            {
+              "w": "giant",
+              "start": 345.338,
+              "end": 345.721
+            },
+            {
+              "w": "wish.",
+              "start": 345.721,
+              "end": 346.05
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Four, keep CLAUDE dot md short. And five, Escape stops it anytime, while Escape twice rewinds.",
+          "start": 346.13,
+          "end": 351.8,
+          "words": [
+            {
+              "w": "Four,",
+              "start": 346.13,
+              "end": 346.472
+            },
+            {
+              "w": "keep",
+              "start": 346.472,
+              "end": 346.813
+            },
+            {
+              "w": "CLAUDE",
+              "start": 346.813,
+              "end": 347.269
+            },
+            {
+              "w": "dot",
+              "start": 347.269,
+              "end": 347.554
+            },
+            {
+              "w": "md",
+              "start": 347.554,
+              "end": 347.781
+            },
+            {
+              "w": "short.",
+              "start": 347.781,
+              "end": 348.18
+            },
+            {
+              "w": "And",
+              "start": 348.24,
+              "end": 348.494
+            },
+            {
+              "w": "five,",
+              "start": 348.494,
+              "end": 348.799
+            },
+            {
+              "w": "Escape",
+              "start": 348.799,
+              "end": 349.206
+            },
+            {
+              "w": "stops",
+              "start": 349.206,
+              "end": 349.562
+            },
+            {
+              "w": "it",
+              "start": 349.562,
+              "end": 349.766
+            },
+            {
+              "w": "anytime,",
+              "start": 349.766,
+              "end": 350.223
+            },
+            {
+              "w": "while",
+              "start": 350.223,
+              "end": 350.579
+            },
+            {
+              "w": "Escape",
+              "start": 350.579,
+              "end": 350.986
+            },
+            {
+              "w": "twice",
+              "start": 350.986,
+              "end": 351.342
+            },
+            {
+              "w": "rewinds.",
+              "start": 351.342,
+              "end": 351.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s29",
+      "start": 351.99,
+      "end": 362.17,
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "My verdict? It planned, built, tested what it could, and committed.",
+          "start": 351.99,
+          "end": 355.93,
+          "words": [
+            {
+              "w": "My",
+              "start": 351.99,
+              "end": 352.295
+            },
+            {
+              "w": "verdict?",
+              "start": 352.295,
+              "end": 352.98
+            },
+            {
+              "w": "It",
+              "start": 353.08,
+              "end": 353.267
+            },
+            {
+              "w": "planned,",
+              "start": 353.267,
+              "end": 353.687
+            },
+            {
+              "w": "built,",
+              "start": 353.687,
+              "end": 354.014
+            },
+            {
+              "w": "tested",
+              "start": 354.014,
+              "end": 354.388
+            },
+            {
+              "w": "what",
+              "start": 354.388,
+              "end": 354.669
+            },
+            {
+              "w": "it",
+              "start": 354.669,
+              "end": 354.855
+            },
+            {
+              "w": "could,",
+              "start": 354.855,
+              "end": 355.182
+            },
+            {
+              "w": "and",
+              "start": 355.182,
+              "end": 355.416
+            },
+            {
+              "w": "committed.",
+              "start": 355.416,
+              "end": 355.93
+            }
+          ]
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I pressed Enter. Ten out of ten, for me.",
+          "start": 356.01,
+          "end": 358.79,
+          "words": [
+            {
+              "w": "I",
+              "start": 356.01,
+              "end": 356.19
+            },
+            {
+              "w": "pressed",
+              "start": 356.19,
+              "end": 356.73
+            },
+            {
+              "w": "Enter.",
+              "start": 356.73,
+              "end": 357.15
+            },
+            {
+              "w": "Ten",
+              "start": 357.35,
+              "end": 357.607
+            },
+            {
+              "w": "out",
+              "start": 357.607,
+              "end": 357.864
+            },
+            {
+              "w": "of",
+              "start": 357.864,
+              "end": 358.07
+            },
+            {
+              "w": "ten,",
+              "start": 358.07,
+              "end": 358.327
+            },
+            {
+              "w": "for",
+              "start": 358.327,
+              "end": 358.584
+            },
+            {
+              "w": "me.",
+              "start": 358.584,
+              "end": 358.79
+            }
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "Next time, Opus 5.5 gets a much bigger project.",
+          "start": 358.93,
+          "end": 362.12,
+          "words": [
+            {
+              "w": "Next",
+              "start": 358.93,
+              "end": 359.284
+            },
+            {
+              "w": "time,",
+              "start": 359.284,
+              "end": 359.639
+            },
+            {
+              "w": "Opus",
+              "start": 359.639,
+              "end": 359.993
+            },
+            {
+              "w": "5.5",
+              "start": 359.993,
+              "end": 360.23
+            },
+            {
+              "w": "gets",
+              "start": 360.23,
+              "end": 360.584
+            },
+            {
+              "w": "a",
+              "start": 360.584,
+              "end": 360.761
+            },
+            {
+              "w": "much",
+              "start": 360.761,
+              "end": 361.116
+            },
+            {
+              "w": "bigger",
+              "start": 361.116,
+              "end": 361.588
+            },
+            {
+              "w": "project.",
+              "start": 361.588,
+              "end": 362.12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s30",
+      "start": 362.17,
+      "end": 382.22,
+      "lines": []
+    }
+  ],
+  "duration": 382.22
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Claude Code Tutorial for Beginners (Windows + Opus 5.5)",
+  "title_alternatives": [
+    "Claude Code From Zero: Build a Real App on Windows",
+    "I Built an App With Claude Code in 6 Minutes (Opus 5.5)"
+  ],
+  "description": "A real Claude Code tutorial for beginners, recorded on Windows from a fresh install. Opus 5.5 plans and builds a working Pomodoro focus timer (HTML, CSS, JavaScript) from one paragraph, then we add features, fix a real bug and commit to git.\n\nEverything on screen is real: one Claude Code session (v2.1.283, Opus 5.5, Claude Max plan), no cuts to the code, waiting parts sped up and marked.\n\nWhat you'll learn:\n• Install Claude Code on Windows with one PowerShell line\n• Log in, pick a model with /model, switch modes with Shift+Tab\n• Plan mode first, then build\n• /init and CLAUDE.md, @file mentions\n• Esc to stop, Esc Esc to rewind, commit with git\n\nInstall (from the official docs):\nWindows: irm https://claude.ai/install.ps1 | iex\nmacOS / Linux: curl -fsSL https://claude.ai/install.sh | bash\n\n0:00 What we're building\n0:36 Install and log in\n1:09 Model and modes\n1:38 Plan first\n2:24 Claude builds it\n3:03 Read the code\n3:30 Add a feature\n3:54 CLAUDE.md and git\n4:14 Session two: ask, fix, undo\n5:27 Five tips and the verdict\n\nSources:\n• Claude Code setup (install commands): https://code.claude.com/docs/en/setup\n• Authentication and plans: https://code.claude.com/docs/en/authentication\n• Permission modes (Shift+Tab): https://code.claude.com/docs/en/permission-modes\n• Best practices: https://code.claude.com/docs/en/best-practices\n\nMade with AI tools; stories based on a real AI-agent company.\n\n#claudecode #claude #ai",
+  "tr": {
+    "title": "Claude Code Kullanımı: Sıfırdan Gerçek Uygulama (Windows + Opus 5.5)",
+    "description": "Yeni başlayanlar için gerçek bir Claude Code eğitimi, Windows'ta sıfır kurulumdan kaydedildi. Opus 5.5 tek bir paragraftan çalışan bir Pomodoro odak zamanlayıcısı (HTML, CSS, JavaScript) planlayıp inşa ediyor; sonra özellik ekliyor, gerçek bir hatayı düzeltiyor ve git'e commit ediyoruz.\n\nEkrandaki her şey gerçek: Claude Code oturumu (v2.1.283, Opus 5.5, Claude Max planı), bekleme kısımları hızlandırıldı ve belirtildi.\n\nÖğrenecekleriniz:\n• Claude Code'u Windows'a tek PowerShell satırıyla kurmak\n• Giriş, /model ile model seçimi, Shift+Tab ile modlar\n• Önce plan modu, sonra inşa\n• /init ve CLAUDE.md, @dosya\n• Esc ile durdurmak, Esc Esc ile geri almak, git commit\n\nKurulum (resmi dokümanlardan):\nWindows: irm https://claude.ai/install.ps1 | iex\nmacOS / Linux: curl -fsSL https://claude.ai/install.sh | bash\n\n0:00 Ne yapıyoruz\n0:36 Kurulum ve giriş\n1:09 Model ve modlar\n1:38 Önce plan\n2:24 Claude inşa ediyor\n3:03 Kodu okumak\n3:30 Özellik eklemek\n3:54 CLAUDE.md ve git\n4:14 İkinci oturum: sor, düzelt, geri al\n5:27 Beş ipucu ve karar\n\nKaynaklar:\n• Claude Code setup (install commands): https://code.claude.com/docs/en/setup\n• Authentication and plans: https://code.claude.com/docs/en/authentication\n• Permission modes (Shift+Tab): https://code.claude.com/docs/en/permission-modes\n• Best practices: https://code.claude.com/docs/en/best-practices\n\nYapay zeka araçlarıyla üretildi; gerçek bir yapay zeka ajan şirketine dayanan hikayeler.\n\n#claudecode #claude #yapayzeka"
+  },
+  "tags": [
+    "claude code tutorial",
+    "claude code tutorial for beginners",
+    "claude code windows",
+    "claude code windows install",
+    "how to use claude code",
+    "claude code for beginners",
+    "claude opus 5.5",
+    "opus 5.5",
+    "claude code plan mode",
+    "claude.md",
+    "claude code kullanımı",
+    "claude code nasıl kurulur",
+    "KAXO"
+  ],
+  "hashtags": [
+    "#claudecode",
+    "#claude",
+    "#ai"
+  ],
+  "category": "Science & Technology",
+  "language": "en",
+  "made_for_kids": false,
+  "altered_content": false,
+  "playlists": [
+    "KAXO Tests AI Tools",
+    "AI Models Explained"
+  ],
+  "captions": "subs/captions.srt",
+  "captions_tr": "subs/captions.tr.srt",
+  "thumbnail": "thumb/thumbnail.png",
+  "thumbnail_alternatives": [
+    "BUILT IN 6 MIN / OPUS 5.5",
+    "ONE PARAGRAPH / REAL APP"
+  ],
+  "chapters": "video/chapters.txt",
+  "ai_note": "Made with AI tools; stories based on a real AI-agent company.",
+  "keywords_used": [
+    "claude code tutorial for beginners",
+    "claude code windows",
+    "opus 5.5",
+    "claude code kullanımı"
+  ]
+}

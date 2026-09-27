@@ -1,0 +1,327 @@
+1
+00:00:00,000 --> 00:00:03,940
+This focus timer took one paragraph and about six minutes of Claude's time.
+
+2
+00:00:04,020 --> 00:00:06,890
+No frameworks, no build step, and it works on a phone.
+
+3
+00:00:07,080 --> 00:00:09,710
+I wrote the paragraph. That's the hard part.
+
+4
+00:00:09,850 --> 00:00:13,950
+It isn't. But you'll see every step, on Windows, starting from a fresh install.
+
+5
+00:00:14,080 --> 00:00:20,070
+You'll install Claude Code, pick Opus 5.5, make it plan before it codes, add features, and fix a real bug.
+
+6
+00:00:20,150 --> 00:00:23,380
+We'll even commit it to git, which KAXO has never done in his life.
+
+7
+00:00:23,510 --> 00:00:29,260
+Here's what you need first. A paid Claude plan, Pro or Max, or a Console account with API billing.
+
+8
+00:00:29,340 --> 00:00:31,740
+The free Claude plan doesn't include Claude Code.
+
+9
+00:00:31,820 --> 00:00:35,880
+And on Windows, install Git for Windows too, so Claude can use its bash tools.
+
+10
+00:00:36,010 --> 00:00:39,760
+Installing is one line. On Windows, paste this into PowerShell.
+
+11
+00:00:39,840 --> 00:00:44,260
+On a Mac or Linux it's a curl command instead. Both are on the official setup page.
+
+12
+00:00:44,390 --> 00:00:49,110
+Check it worked with claude dash dash version. Then open your project folder and type claude.
+
+13
+00:00:49,190 --> 00:00:53,970
+The first time, it asks if you trust this folder. Say yes only for code you actually know.
+
+14
+00:00:54,100 --> 00:00:58,470
+On a brand new install, it asks for a text style first. Dark mode, obviously.
+
+15
+00:00:58,610 --> 00:01:01,450
+Everything's better in the dark. Especially naps.
+
+16
+00:01:01,640 --> 00:01:06,430
+Then the login method. Pick your Claude subscription, and a browser tab opens to sign in.
+
+17
+00:01:06,510 --> 00:01:09,110
+Approve it there, and you're back in the terminal, logged in.
+
+18
+00:01:09,240 --> 00:01:14,800
+Type slash model to see the models. Opus 5.5 is the default here, and it's what we'll use.
+
+19
+00:01:14,880 --> 00:01:19,410
+Sonnet is lighter and Haiku is the fastest. The arrow keys change the effort level.
+
+20
+00:01:19,540 --> 00:01:24,220
+Now the most useful key in Claude Code: Shift plus Tab. It cycles the permission modes.
+
+21
+00:01:24,300 --> 00:01:28,730
+Auto mode runs safe actions on its own. Manual asks you before anything happens.
+
+22
+00:01:28,810 --> 00:01:34,040
+Accept edits changes files without asking, and plan mode can read and think, but it can't touch a thing.
+
+23
+00:01:34,230 --> 00:01:38,310
+Plan mode. It's basically me, except it actually writes the plan down.
+
+24
+00:01:38,500 --> 00:01:44,490
+Here's the whole prompt. A Pomodoro timer with twenty-five minutes of focus and five of break, plus a task list.
+
+25
+00:01:44,570 --> 00:01:50,540
+Save it in localStorage, give it a dark design that works on a phone, and the key words at the end: plan it first.
+
+26
+00:01:50,670 --> 00:01:55,510
+Opus 5.5 looks at the empty folder and thinks for about a minute. This part is sped up.
+
+27
+00:01:55,640 --> 00:02:01,610
+Then you get an actual plan. Three files: index dot html, styles dot css and app dot js.
+
+28
+00:02:01,690 --> 00:02:06,070
+The timer works from the moment it should finish, so it stays right even in a background tab.
+
+29
+00:02:06,150 --> 00:02:10,370
+It even adds a fast mode for testing, where a focus session lasts ten seconds.
+
+30
+00:02:10,450 --> 00:02:15,930
+At the end, it wrote its own test checklist: add tasks, start, pause, reload, and resize to phone width.
+
+31
+00:02:16,010 --> 00:02:21,480
+Read it. If something's off, choose tell Claude what to change. We liked it, so: yes, and use auto mode.
+
+32
+00:02:21,670 --> 00:02:24,740
+I approved a plan. Management is exhausting.
+
+33
+00:02:24,930 --> 00:02:28,990
+And now it builds. Every change shows up as a diff, right in the terminal.
+
+34
+00:02:29,070 --> 00:02:33,250
+This is three times faster than real life. The whole build took about two minutes.
+
+35
+00:02:33,380 --> 00:02:37,030
+Then a surprise. Claude asked to open Chrome and test the app by itself.
+
+36
+00:02:37,110 --> 00:02:42,180
+That's a great habit, but we were recording, so we told it to skip, and it ran a syntax check instead.
+
+37
+00:02:42,310 --> 00:02:46,050
+Then it wraps up with a summary: what each part does, and how to check it yourself.
+
+38
+00:02:46,180 --> 00:02:49,390
+So let's check. Add a few tasks, and pick the one you're working on.
+
+39
+00:02:49,470 --> 00:02:53,090
+Press start. In fast mode, the focus session ends in ten seconds.
+
+40
+00:02:53,220 --> 00:02:57,570
+The ring fills up, a chime plays, the task gets its tomato, and it switches to a break.
+
+41
+00:02:57,650 --> 00:02:59,760
+Reload the page, and everything is still there.
+
+42
+00:02:59,950 --> 00:03:03,210
+It wrote three files while I blinked. It was a long blink.
+
+43
+00:03:03,400 --> 00:03:07,190
+Before adding anything, open the folder in your editor and look at what it wrote.
+
+44
+00:03:07,270 --> 00:03:12,840
+When you press start, it saves the exact moment the session should end. Time left is that moment minus now.
+
+45
+00:03:12,970 --> 00:03:17,420
+A tick every quarter of a second only redraws the screen and checks if time is up.
+
+46
+00:03:17,500 --> 00:03:20,530
+So if the browser slows the tab down, the clock is still right.
+
+47
+00:03:20,660 --> 00:03:25,520
+Loading from localStorage checks every field, so broken saved data can't crash the app.
+
+48
+00:03:25,650 --> 00:03:30,820
+You don't have to understand every line. But reading the main parts once is how you catch surprises early.
+
+49
+00:03:30,950 --> 00:03:37,480
+Now a second request, in plain English: a stats bar with pomodoros today and focus minutes today, reset at midnight.
+
+50
+00:03:37,610 --> 00:03:42,110
+No plan mode this time, because it's a small change. Claude edits all three files.
+
+51
+00:03:42,190 --> 00:03:44,080
+This part is twice the real speed.
+
+52
+00:03:44,210 --> 00:03:48,670
+And it tells you straight what it didn't test: the midnight reset was never checked in a browser.
+
+53
+00:03:48,750 --> 00:03:51,660
+That honesty is useful. Test the parts it says it didn't.
+
+54
+00:03:51,790 --> 00:03:54,510
+And there it is at the top: one pomodoro today.
+
+55
+00:03:54,640 --> 00:03:59,170
+Next, slash init. Claude reads the project and writes a CLAUDE dot md file.
+
+56
+00:03:59,250 --> 00:04:03,500
+It's a short guide: how to run the app, what not to break, and how the code fits together.
+
+57
+00:04:03,580 --> 00:04:06,690
+Every new Claude Code session in this folder reads it first.
+
+58
+00:04:06,820 --> 00:04:10,930
+The last request: initialize git and commit everything with a clear message.
+
+59
+00:04:11,010 --> 00:04:14,500
+One commit, four files, and nothing pushed anywhere without asking.
+
+60
+00:04:14,630 --> 00:04:20,000
+Now close it and come back later. A new session starts fresh, but it reads CLAUDE dot md first.
+
+61
+00:04:20,080 --> 00:04:25,090
+Type the at sign to point at a file. We asked how the timer stays accurate in a background tab.
+
+62
+00:04:25,170 --> 00:04:30,770
+It answers with line numbers, and it even admits one limit: the chime can come late while the tab is hidden.
+
+63
+00:04:30,900 --> 00:04:36,280
+Next, the most useful prompt for beginners: review the code for real bugs, and fix the most important one.
+
+64
+00:04:36,410 --> 00:04:42,400
+And it found one. With the app open in two tabs, the older tab's next save wiped out changes from the newer one.
+
+65
+00:04:42,480 --> 00:04:48,810
+The fix listens for storage changes from other tabs. Seven lines. And again, it tells you it hasn't tried two tabs yet.
+
+66
+00:04:49,000 --> 00:04:53,210
+A bug I didn't know about, fixed before I knew about it. That's my kind of bug.
+
+67
+00:04:53,400 --> 00:04:58,210
+Now a mistake on purpose. We asked for a whole settings panel: lengths, themes, sounds.
+
+68
+00:04:58,290 --> 00:05:02,180
+Too much. Press Escape, and it stops right away and asks what to do instead.
+
+69
+00:05:02,310 --> 00:05:06,010
+So we narrowed it down: just a fifty ten preset button next to the tabs.
+
+70
+00:05:06,090 --> 00:05:10,080
+It changes the code, updates CLAUDE dot md, and says what it didn't test.
+
+71
+00:05:10,210 --> 00:05:14,170
+We checked it in the browser. One click, and the focus session is fifty minutes.
+
+72
+00:05:14,300 --> 00:05:18,230
+And if you don't like a change, press Escape twice. That opens Rewind.
+
+73
+00:05:18,310 --> 00:05:23,560
+Pick an earlier message, and it restores the code, the conversation, or both. We kept the current version.
+
+74
+00:05:23,690 --> 00:05:27,740
+One more commit. It split the work into two: the bug fix, and the preset button.
+
+75
+00:05:27,870 --> 00:05:32,040
+Five tips from the official best practices. One, give Claude a way to check its own work.
+
+76
+00:05:32,120 --> 00:05:36,150
+Here that was the fast mode and a syntax check. In a bigger project, it's tests.
+
+77
+00:05:36,230 --> 00:05:40,430
+Two, plan first, then code. The plan is where you catch a wrong idea for free.
+
+78
+00:05:40,510 --> 00:05:46,050
+Three, be specific, and point at files with the at sign. Small, clear requests beat one giant wish.
+
+79
+00:05:46,130 --> 00:05:51,800
+Four, keep CLAUDE dot md short. And five, Escape stops it anytime, while Escape twice rewinds.
+
+80
+00:05:51,990 --> 00:05:55,930
+My verdict? It planned, built, tested what it could, and committed.
+
+81
+00:05:56,010 --> 00:05:58,790
+I pressed Enter. Ten out of ten, for me.
+
+82
+00:05:58,930 --> 00:06:02,120
+Next time, Opus 5.5 gets a much bigger project.

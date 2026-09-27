@@ -1,0 +1,4 @@
+{ "format": "16x9", "line1": "CLAUDE CODE", "line2": "FROM ZERO", "mascot": "mascot.png",
+  "glow": "#ff7a45", "background": "bg.png",
+  "elements": [ { "src": "claude.svg", "x": 0.515, "y": 0.76, "w": 0.11, "rotate": -8, "glow": "#ff7a45" } ],
+  "mascot_scale": 1.12, "mascot_x": 0.0, "mascot_y": 0.08 }
