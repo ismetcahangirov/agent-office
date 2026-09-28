@@ -91,7 +91,7 @@ Sonra `status: "script"` et.
 
 ## 4/10 İdeya və ssenari
 1. İdeyanı seç: `/video <mövzu>` verilibsə o, yoxsa `ideas.md` (əvvəlcə "Gündəm" bölməsi, vaxtı keçməyənlər) + A-nın mövzu faktları + `lessons.md`. İdeyada **ən azı bir real fakt** olmalıdır (RULES §5, §13).
-   - **Long "tested X":** əvvəlcə real test: CEO kimi `builder`/`researcher` agentlərinə aləti real tapşırıqda sınamağı tapşır (`work/tests/<slug>/`). Nəticəni (nə alındı, nə alınmadı, vaxt, rəqəmlər) hesabata yaz. Ssenari bu nəticəyə əsaslanır, uydurma nəticə olmur.
+   - **Long "tested X":** əvvəlcə real test: CEO kimi `builder`/`researcher` agentlərinə aləti real tapşırıqda sınamağı tapşır (`work/tests/<slug>/`). Tapşırığın nəticəsi **vizual** olmalıdır: simulyasiya, animasiya, oyun, 3D və ya motion klip (RULES §2). Nəticənin interaktiv ekran yazısı çəkilir: klik, slider, rejim dəyişmək. Nəticəni (nə alındı, nə alınmadı, vaxt, rəqəmlər) hesabata yaz. Ssenari bu nəticəyə əsaslanır, uydurma nəticə olmur.
    - **Short-from:** qrafikləri şaquli yaz (`graphics.html?v=1` + `record_page --vertical`, məzmun yuxarı 60%-də, altyazıya dəyməsin). Long-un `script.md` + `timeline.json`-undan 30–55 saniyəlik ən güclü parçanı seç, yeni hook yaz, 9:16 kadrlar hazırla (long şəkilləri blur-fit ilə, açar kadr üçün yeni 2:3 şəkil).
 2. `marketer` agentinə ssenari yazdır. Ona RULES §3-ü, **§3a-nı (danışıq tərzi)**, xarakter faylını, seçilmiş faktı, açar sözləri və `lessons.md`-ni ver. Nəticə `episode.json` (sxem yuxarıda) və `script.md` olur: kadr, səs, mətn və vizual cədvəl şəklində.
 3. CEO kimi yoxla. Bu siyahıdan biri pozulursa, düzəlt:
@@ -102,6 +102,7 @@ Sonra `status: "script"` et.
    - [ ] short: 6–12 kadr, 1–2-si ofis B-roll; long: kadr hər 3–8 saniyədə dəyişir, ofis və ekran yazısı var, poza kitabxanasından ≤ 50%;
    - [ ] cümlələr ≤ 12 sözdür;
    - [ ] danışıq dilidir (§3a): qısaltmalar var, cümlələr axır, `[pause]` ən çox 1 dəfədir (yalnız əsas punchline-dan əvvəl), qırıq-qırıq nöqtəli cümlələr, rəsmi söz və siyahı yoxdur;
+   - [ ] **ton səmimi, canlı reaksiyadır** (§3a): long və testdə tək aparıcı KAXO birinci şəxsdə danışır; reaksiya cümlələri kadrın həmin anına bağlıdır; hər tərifdən sonra səbəb gəlir; eyni tərif sözü ≤ 2 dəfədir; ən azı bir zəif yer deyilir; test nəticəsi vizualdır və vaxtın ≥ 50%-ində ekrandadır;
    - [ ] **tanıtım videosu deyil** (§3): video bir mövzu haqqındadır, özünü təqdimat deyil; kanalın keçmiş videolarından, statistikasından və şirkətin real hadisələrindən danışılmır, yalnız mövzu;
    - [ ] hər cümləni ucadan oxu: robot kimi səslənən cümləni yenidən yaz;
    - [ ] qadağalar yoxdur (§6);
@@ -191,7 +192,7 @@ tools/video/.venv/Scripts/python tools/video/record_screen.py --list      # aç�
 - Bash-dan slash əmri göndərəndə `export MSYS_NO_PATHCONV=1` (yoxsa `/model` → `C:/Program Files/Git/model`).
 - Giriş (OAuth) sahibindir; girişdən sonrakı Enter-i auto-mode klassifikatoru bloklayır, sahib basır. E-poçt, OAuth URL-i, limit bannerləri kəsilir və ya `drawbox` ilə örtülür.
 - Ekran yazısı üstdəki pəncərəni çəkir: sahib kompüterdədirsə (görüş, brauzer) başlama, əvvəl `shot` ilə yoxla, şəxsi kadr düşsə dərhal sil.
-- Kliplər `cut_clips.py` nümunəsi ilə kəsilir: 1920x1020 terminal 16:9-a `pad` olunur (`cover` kənarı kəsir), gözləmələr `setpts` ilə 2–3x sürətlənir və diktor bunu deyir.
+- Kliplər `cut_clips.py` nümunəsi ilə kəsilir: 1920x1020 terminal 16:9-a `pad` olunur (`cover` kənarı kəsir), gözləmələr `setpts` ilə 2–3x sürətlənir və KAXO bunu deyir.
 - Tətbiqin öz görüntüsü Playwright ilə (`recordVideo.size` = viewport, yoxsa kadr dördə bir dolur).
 
 **Stock video (Pexels, Pixabay: pulsuz lisenziya):**
