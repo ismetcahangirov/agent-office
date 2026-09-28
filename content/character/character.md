@@ -10,8 +10,9 @@
 
 - Kaktus. Şirkətin sahibidir, bütün işçiləri AI agentləridir.
 - Özü heç nə etmir: divanda uzanır, "nəzarət edir", ideya atır, sonra yatır.
-- Tənbəl, sakit, quru yumorlu, özünə ironiya ilə baxan. Heç vaxt əsəbləşmir, sadəcə yorulur.
-- Bilmədən düz deyir: agentlər həqiqətən bütün işi görür, o isə bunu açıq etiraf edir.
+- **Videoda səmimi aparıcıdır (sahib, 2026-09-28):** dostuna yeni oyuncaq göstərirmiş kimi danışır. Maraqlıdır, nəticəni canlı görür və reaksiya verir, heyranlığını gizlətmir, amma zəif yeri də düz deyir (RULES §3a).
+- Tənbəllik və özünə ironiya ədviyyat kimi qalır: arabir bir zarafat ("it built a whole ocean, I'm still on my first coffee"). Heç vaxt əsəbləşmir.
+- Bilmədən düz deyir: işi AI görür, o isə bunu açıq etiraf edir.
 
 ## Görünüş (dəyişməz)
 
@@ -38,8 +39,8 @@ Keep the character EXACTLY as in the attached reference image: same cactus body 
 
 | Rol        | Default                  | Tərz                                                    |
 | ---------- | ------------------------ | ------------------------------------------------------- |
-| `kaxo`     | `am_puck`, speed 0.92    | tənbəl, yavaş, quru; cümlə sonunda sanki əsnəyir        |
-| `narrator` | `bm_fable`, speed 1.02, `lang: en-us` (sahib seçib, 2026-09-25) | britaniya səsi amerikan tələffüzü ilə, sənədli film diktoru kimi ciddi; kontrast yumor yaradır |
+| `kaxo`     | `bm_fable`, speed 0.98, `lang: en-us` (`tts.py` DEFAULT_VOICES) | tək aparıcı: səmimi, canlı, heyrət anında 1.05, zarafatda 0.85 |
+| `narrator` | `bm_fable`, speed 1.08, `lang: en-us` (sahib seçib, 2026-09-25) | long və test videolarında işlədilmir (2026-09-28); lazım olsa yalnız fəsil başlığında bir cümlə |
 
 - **Eyni səs, iki rol:** KAXO da, diktor da `bm_fable`-dır. Onları temp (KAXO 0.9, diktor 1.02), altyazı rəngi (KAXO yaşıl) və yazı tərzi (KAXO qısa, bezgin; diktor ciddi) ayırır. Ssenaridə kimin danışdığı ilk sözlərdən aydın olmalıdır.
 - **Səs seçmək:** `content/voice-samples/` qovluğunda eyni cümlələr fərqli səslərlə oxunub (`kaxo__*.wav`, `narrator__*.wav`). Sahib qulaqla seçir, seçim bu cədvələ və `tools/video/tts.py`-dəki `DEFAULT_VOICES`-ə yazılır.

@@ -31,6 +31,7 @@ Xarakterin təfərrüatları: [character/character.md](character/character.md).
 - Yeni model versiyasında sürət qazandırır, yeni konsepsiyada (yeni alət növü) dərinlik: izah + tutorial.
 - Model olmayan buraxılışlar (marketplace, plugin portalı, TTS, API) Türk kanallarında boşdur: prioritetdir.
 - Gündəm yalnız sahib yazanda işləyir (§13), ona görə sürət sahibin "gündəm" mesajından başlayır.
+- **Claude və ya model testində nəticə vizual olur (sahib, 2026-09-28):** test tapşırığı elə seçilir ki, nəticə ekranda görünsün və "vay" dedirtsin: simulyasiya (fizika, okean, planetlər), interaktiv animasiya, oyun, 3D səhnə, motion design və ya intro klipi, canlı data vizualı. Nəticə yalnız kod, refaktor, CLI çıxışı və ya mətn cavabıdırsa, bu, testin nəticəsi sayılmır (tutorialda addım kimi göstərilə bilər). Nəticə tam ekranda, interaktiv şəkildə (klik, slider, rejim dəyişmək) göstərilir. Release review-da vaxtın ən azı yarısı nəticə kadrlarına gedir. Referans: Jaldis "Opus 5.5! Tek Cümle Yetiyor mu?" (üç simulyasiya), Avenox "Opus 5.5 Motion Designer Oldu mu?" (After Effects klipi).
 
 ## 3. Short-un quruluşu
 1. **0–2 s, hook:** ilk kadr və ilk cümlə sualla, şokla və ya absurd vəziyyətlə tutur. Salamlaşma, loqo, "in this video" olmur.
@@ -46,10 +47,24 @@ Xarakterin təfərrüatları: [character/character.md](character/character.md).
 Əlavə qaydalar:
 - 6–12 kadr olur. Kadr hər 2–4 saniyədə dəyişir.
 - 1–2 kadr real ofis görüntüsüdür (B-roll).
-- Hər videoda **bir ideya** olur. Diktor sənədli film ciddiliyi ilə danışır, KAXO tənbəl, quru tonla. Kontrast yumor yaradır.
+- Hər videoda **bir ideya** olur. Ton §3a-dadır: KAXO səmimi danışır, dostuna göstərirmiş kimi, canlı reaksiya ilə.
 - Cümlələr qısadır (≤ 12 söz), danışıq dilindədir. Hər cümlə ekranda altyazı olacaq.
 
-## 3a. Danışıq tərzi: axıcı, insani, yumorlu
+## 3a. Danışıq tərzi: səmimi, canlı reaksiya, "dostuna göstərirəm" (sahib, 2026-09-28)
+
+Video elə qurulur ki, sanki KAXO izləyici ilə yan-yana oturub ekranı göstərir: "bax bura, indi açırıq, vay, gör nə etdi". Hazır xülasə oxunmur. KAXO nəticəni **ilk dəfə görürmüş kimi** danışır. Referans: Jaldis və Avenox-un Opus 5.5 videoları (analiz 2026-09-28). Onlardan səmimi ton götürülür, izahsız "inanılmaz" təkrarı götürülmür.
+
+**Tək aparıcı:** long və test videolarında yalnız KAXO danışır (`kaxo`, birinci şəxsdə: "I gave it one sentence", "let's open it"). Diktor işlədilmir, lazım olsa yalnız fəsil başlığında bir cümlə deyir. "I tried it" yalnız bu videonun testinə aiddir. Şirkət hadisələri və keçmiş videolar yenə olmur (§3).
+
+**Canlı reaksiya necə yazılır (TTS ilə):**
+- **İndiki zaman, kadra bağlı:** hər reaksiya cümləsi ekranda həmin an görünən şeyə aiddir. Məsələn: "Okay, it's done. Let's open it… wait, the fish swim away when I tap the glass?" Cümlə `timeline`-da klipin həmin anına yerləşdirilir.
+- **Reaksiya + səbəb:** hər "wow"-dan sonra niyə təsirləndiyi deyilir. Məsələn: "…and I never asked for day and night." Səbəbsiz tərif olmur.
+- **Heyrət müxtəlif olur:** eyni tərif sözü ("insane", "amazing", "crazy") videoda ən çox 2 dəfə işlədilir. Heyrət sual, konkret detal, rəqəm və ya gülüşlə də göstərilir.
+- **Canlı anlar:** "hold on", "let me crank the wind up", "okay, I did not expect that", özünü düzəltmək ("well… almost").
+- **Dürüst reaksiya:** qəribə və ya səhv yer də deyilir. Məsələn: "the water temperature never moves, though. That's a bit off." Hər testdə ən azı bir zəif yer göstərilir.
+- **Konkret rəqəmlər:** vaxt, limitin neçə faizi getdiyi, promptun uzunluğu, qiymət.
+- **Özünü tanıdan an:** izləyici öz yerinə qoyulur. Məsələn: "You know when you've got half an idea and just type two lines? That's exactly what I did."
+- **Gözləmə boş keçmir:** agent işləyərkən KAXO onun nə etdiyini, model haqqında bir faydalı faktı və ya öz gözləntisini deyir. Gözləmə kadrı sürətləndirilir.
 
 **Fasiləsiz axın (sahib iki dəfə "duraksama çoxdur" dedi):** səs demək olar ki, arasız axmalıdır.
 - `[pause]` videoda ən çox 1 dəfə, yalnız əsas punchline-dan əvvəl işlədilir.
@@ -59,32 +74,28 @@ Məqsəd izləyicinin videonu tərk etməməsidir. Mətn "oxunan mətn" kimi yox
 
 - **Qısaltmalar həmişə:** "I'm", "don't", "it's", "we're", "gonna". "I am not going to" robot kimi səslənir.
 - **Ritm dəyişir:** qısa zərbə cümləsi, sonra bir az uzun cümlə, sonra yenə qısa. Eyni uzunluqda üç cümlə ardıcıl gəlmir.
-- **Komik fasilə:** punchline-dan əvvəl `[pause]` və ya `...` qoyulur. Məsələn: "They finished the whole website. [pause] I finished my nap."
-- **Understatement və quru yumor:** KAXO heç vaxt bağırmır, hər şeyi azaldaraq deyir. Məsələn: "Productivity is up 400%. Mine is not."
-- **Birbaşa müraciət:** izləyiciyə "you" ilə danışılır, ritorik sual verilir. Məsələn: "You ever hire someone smarter than you? Yeah. Five times."
-- **Interjection-lar ölçülü:** "Honestly.", "Anyway.", "Look.", "Okay so" kimi sözlər videoda ən çox 2 dəfə.
-- **Callback:** əvvəl deyilən zarafat sonda qayıdır. Loop-a da kömək edir.
-- **Qadağandır:** siyahı kimi sadalamaq ("Firstly… Secondly…"), rəsmi sözlər ("utilize", "furthermore", "in conclusion"), "In this video", "Let's dive in", eyni sözlə başlayan ardıcıl cümlələr.
-- **Rollar:**
-  - **Diktor:** sənədli film ciddiliyi, bir az rəsmi. Yumor onun ciddiliyi ilə KAXO-nun tənbəlliyi arasındakı kontrastdan gəlir.
-  - **KAXO:** yavaş, bezgin, rahat, özündən razı. Cümlələri qısadır, tez-tez yarımçıq qalır ("I was gonna help, but…").
-- **Səs testi:** ssenari yazıldıqdan sonra hər cümlə sanki ucadan oxunur. Dil ilişirsə, cümlə dəyişdirilir.
-- **Səs parametrləri:** `character.md` → "Səs". Per-line `speed` komik anlar üçündür, məsələn 0.85 ən bezgin cümlə üçün.
+- **Yumor ədviyyatdır, əsas ton deyil:** KAXO-nun tənbəl kaktus yumoru videoda 1–3 yüngül zarafat kimi keçir. Məsələn: "It built a whole ocean. I'm still on my first coffee." Ton istidir, maraqlıdır, həyəcanlıdır. Quru və bezgin deyil.
+- **Birbaşa müraciət:** izləyiciyə "you" ilə danışılır, onu dəvət edir: "look at this", "watch the waves here".
+- **Interjection-lar canlılıq verir:** "okay", "wait", "look", "hold on". Amma eyni söz iki ardıcıl cümlədə təkrarlanmır, mənasız filler ("like", "you know") hər cümlədə işlədilmir.
+- **Callback:** girişdəki sual ("will one sentence be enough?") sonda cavablanır.
+- **Qadağandır:** siyahı kimi sadalamaq ("Firstly… Secondly…"), rəsmi sözlər ("utilize", "furthermore", "in conclusion"), "In this video", "Let's dive in", eyni sözlə başlayan ardıcıl cümlələr, hazır xülasə tonu ("The model produced a simulation that features…").
+- **Səs testi:** ssenari yazıldıqdan sonra hər cümlə sanki ucadan oxunur. Dil ilişirsə və ya cümlə dosta danışan birinin sözünə oxşamırsa, dəyişdirilir.
+- **Səs parametrləri:** `character.md` → "Səs". KAXO normal templə danışır (~1.0), heyrət anında bir az tez (1.05), yavaş temp (0.85) yalnız zarafatdadır.
 
 ## 3b. Long videonun quruluşu (6–10 dəq)
 1. **0–30 s, hook + vəd:** ən maraqlı nəticəni və ya sualı dərhal göstər ("We gave this new model our hardest task. It… did not go well."). Sonra izləyicinin sonda nə alacağını de. Uzun giriş, salam və "subscribe" olmur.
 2. **Fəsillər:** 3–6 fəsil, hər biri ≥ 60 s. Fəslin ilk shot-unda `"chapter"` sahəsi olur (sonrakı shot-larda yox), `tools/video/chapters.py` fəsil siyahısını çıxarır.
 3. **Hər 30–60 saniyədə "pattern interrupt":** KAXO-nun zarafatı, ofis görüntüsü, ekran yazısı, rəqəm qrafiki. Eyni tip kadr 20 saniyədən çox davam etmir.
 4. **Açıq döngülər:** "We'll see the score in a minute…" kimi vədlər verilir və mütləq yerinə yetirilir.
-5. **Real test hissəsi:** agentlərin aləti real sınadığı yer: ofis görüntüsü, ekran yazısı (`tools/video/record_page.js`), nəticə cədvəli. Videonun ürəyi budur və monetizasiya üçün "orijinal dəyər" də budur (§12).
-6. **Nəticə + KAXO-nun hökmü (son 60 s):** qısa, dürüst yekun. Sonra növbəti videoya körpü. Son 20 saniyədə end screen üçün sakit kadr olur.
-7. **Danışıq:** §3a eynilə keçərlidir. Diktor aparıcıdır, KAXO şərh edir. Diktor 3–4 cümlədən çox fasiləsiz danışmır.
+5. **Real test hissəsi:** alətin real sınandığı yer. Nəticə vizualdır (§2) və tam ekranda, KAXO-nun canlı reaksiyası ilə gəzilir. Burada ekran yazısı (`tools/video/record_page.js`, `record_screen.py`) və nəticə cədvəli olur. Videonun ürəyi budur və monetizasiya üçün "orijinal dəyər" də budur (§12).
+6. **Nəticə + KAXO-nun hökmü (son 60 s):** qısa, dürüst yekun: girişdəki suala cavab, bir güclü və bir zəif yer. Sonra növbəti videoya körpü. Son 20 saniyədə end screen üçün sakit kadr olur.
+7. **Danışıq:** §3a eynilə keçərlidir. KAXO tək aparıcıdır və ekran yazısının üstündən birinci şəxsdə danışır.
 
 ## 4. Vizual qaydalar
 - **Stil:** `character.md`-dəki sahib prompt-u, dəyişmədən. Adult cartoon sitcom üslubu: kobud əl xətti, düz rənglər, qalın konturlar.
 - **Şəkillər:** short üçün şaquli 2:3 (1024×1536), long üçün üfüqi 3:2 (1536×1024). Hər səhnə prompt-u **ardıcıllıq bloku** ilə bitir, blokdakı `{ASPECT}` formata görə doldurulur, referans şəkil həmişə əlavə olunur.
 - **Poza kitabxanası:** `content/character/poses/`. Uğurlu KAXO şəkilləri təkrar istifadə üçün saxlanılır. Bir epizodda kitabxanadan ən çox 50% kadr götürülür (README-yə bax).
-- **Ekran yazısı (long):** yeni alətin və ya modelin rəsmi səhifəsi, demo, nəticə. Hər klip ≤ 15 s, üstündə KAXO və ya diktorun şərhi olur (şərh və tənqid məqsədi, §13).
+- **Ekran yazısı (long):** yeni alətin və ya modelin rəsmi səhifəsi, demo, nəticə. Hər klip ≤ 15 s, üstündə KAXO-nun şərhi olur (şərh və tənqid məqsədi, §13).
 - **Kompüter ekranı:** VS Code-da agentin real kodunun yazılması (`tools/video/type_code.py`), terminal, proqram pəncərəsi (`tools/video/record_screen.py`). Yalnız real iş göstərilir. Kadrda şəxsi məlumat, sir və bildiriş olmur.
 - **Stock video:** yalnız Pexels və Pixabay (pulsuz lisenziya, `tools/video/stock.py`), epizodun ≤ 20%-i. Müəllif `clips/stock.json`-da saxlanılır və təsvirdə göstərilir. Stock görüntü "bizim ofis" kimi təqdim olunmur. API açarları yalnız `.env`-dədir.
 - **Fon:** sadədir: ofis, divan, server otağı, kafe. Detal az olur, çünki xarakter ön plandadır.
