@@ -2,8 +2,10 @@ import { AbsoluteFill, Img, interpolate, staticFile, useCurrentFrame } from 'rem
 import { C } from '../theme';
 import { EPISODE_SCENES } from './episode';
 import { STORY_SCENES } from './stories';
+import { EUROPE_SCENES } from './europe';
 
-// Background scenes drawn in code (RULES §5.0). Generic ones live here; topic scenes in episode.tsx.
+// Background scenes drawn in code (RULES §5.0). Generic ones live here; topic scenes in episode.tsx (Japan),
+// stories.tsx (Japan story vignettes) and europe.tsx (potato episode, incl. the European "document").
 const dots = `radial-gradient(circle, rgba(43,33,24,.07) 3px, transparent 4px) 0 0/56px 56px`;
 
 export const Studio: React.FC = () => (
@@ -12,7 +14,7 @@ export const Studio: React.FC = () => (
   </AbsoluteFill>
 );
 
-// An old document: a hanging scroll on a wooden desk; vertical brush lines are written in one by one,
+// A Japanese document (scene "paper"): a hanging scroll on a wooden desk; vertical brush lines are written in one by one,
 // then a red seal lands. Never an empty frame (owner review, 2026-10-31).
 export const Paper: React.FC = () => {
   const f = useCurrentFrame();
@@ -48,11 +50,11 @@ export const Paper: React.FC = () => {
   );
 };
 
-// Public-domain archive image, shown whole on a paper mat (the camera move gives it life).
+// Public-domain archive image, shown whole on a paper mat (the camera move gives it life); small scans are scaled up.
 export const Archive: React.FC<{ src: string }> = ({ src }) => (
   <AbsoluteFill style={{ background: `${dots}, ${C.ink}`, alignItems: 'center', justifyContent: 'center' }}>
     <div style={{ background: '#f4e6c4', padding: 26, borderRadius: 12, boxShadow: '0 30px 60px rgba(0,0,0,.45)', transform: 'rotate(-1.2deg)' }}>
-      <Img src={staticFile(src)} style={{ maxWidth: 1500, maxHeight: 880, display: 'block' }} />
+      <Img src={staticFile(src)} style={{ height: 860, maxWidth: 1500, objectFit: 'contain', display: 'block' }} />
     </div>
   </AbsoluteFill>
 );
@@ -60,6 +62,6 @@ export const Archive: React.FC<{ src: string }> = ({ src }) => (
 export const Scene: React.FC<{ name: string; image?: string }> = ({ name, image }) => {
   if (image) return <Archive src={image} />;
   if (name === 'paper') return <Paper />;
-  const S = EPISODE_SCENES[name] || STORY_SCENES[name];
+  const S = EPISODE_SCENES[name] || STORY_SCENES[name] || EUROPE_SCENES[name];
   return S ? <S /> : <Studio />;
 };

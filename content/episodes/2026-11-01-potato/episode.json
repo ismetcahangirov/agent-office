@@ -1,0 +1,2204 @@
+{
+  "slug": "potato",
+  "format": "long",
+  "area": "food",
+  "outfit": "his usual mustard cardigan, white tee and olive trousers, plus a short tomato-red apron",
+  "props": "a wooden spoon he uses as a pointer, a small market basket",
+  "status": "done",
+  "question": "Why was Europe afraid of the potato?",
+  "reasons": [
+    "STRANGER",
+    "TASTE",
+    "FIELDS",
+    "DOCTORS",
+    "ORDERS",
+    "HUNGER"
+  ],
+  "sources": [
+    "content/reports/2026-11-01-potato.md"
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "scene": "kolberg-market",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "Kolberg, 1740s",
+        "small": "a Baltic town in Prussia"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Kolberg, a little Baltic town, sometime in the 1740s."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "A drum rolls across the market square."
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "scene": "kolberg-market",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "A wagon creaks in, piled high with lumpy brown things."
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "scene": "kolberg-market",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.8
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "People sniff them."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Someone tastes one."
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "scene": "kolberg-dog",
+      "kaxo": null,
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Then they offer one to a dog."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The dog sniffs it — and walks away.",
+          "tone": "amused"
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "scene": "kolberg-market",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.22
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Everyone agrees."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "These things don't smell, don't taste, and not even the dogs will eat them."
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "scene": "kolberg-market",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Oh, and the wagon?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It was a gift from the King.",
+          "tone": "deadpan"
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "scene": "potsdam-tomb",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "Potsdam, today",
+        "small": "Sanssouci palace garden"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Today, that King lies in a plain stone tomb in Potsdam, Germany."
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "scene": "potsdam-tomb",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And people still leave potatoes on it.",
+          "tone": "surprised"
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "scene": "potsdam-tomb",
+      "kaxo": null,
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "They're thanking him for a clever trick."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.5
+      },
+      "graphic": {
+        "type": "label",
+        "big": "Why was Europe afraid of the potato?",
+        "small": "and was it, really?"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So, why was Europe afraid of the potato?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And was it, really?",
+          "tone": "curious"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "scene": "royal-field",
+      "kaxo": null,
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The usual story: scared farmers, tricked by a clever king and a clever pharmacist."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "scene": "village-garden",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But the old records tell a different story."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And it has six parts."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "scene": "paris-faculty",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "One is a law that nobody can find."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "scene": "prisoner-camp",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Another starts in a prison camp."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "scene": "sablons-field",
+      "kaxo": null,
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And one is a field with guards who go home every night.",
+          "tone": "curious"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.22
+      },
+      "graphic": {
+        "type": "label",
+        "big": "MYTH · DISPUTED · RECORD",
+        "small": "we check every famous story"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Whenever a famous story shows up, we'll check it."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Myth, disputed, or on the record."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "STRANGER",
+          "TASTE",
+          "FIELDS",
+          "DOCTORS",
+          "ORDERS",
+          "HUNGER"
+        ],
+        "step": 0,
+        "icon": "potato"
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Six reasons, six puzzle pieces."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Fit them all, and the answer appears."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "scene": "andes-field",
+      "kaxo": null,
+      "graphic": {
+        "type": "chapter",
+        "n": 1,
+        "title": "The Stranger"
+      },
+      "camera": "zoom_in",
+      "chapter": "1. The Stranger",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The potato comes from the Andes, the high mountains of South America."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "scene": "andes-field",
+      "image": "guaman-poma-harvest.png",
+      "kaxo": null,
+      "graphic": {
+        "type": "archive",
+        "caption": "Potato harvest in the Andes",
+        "src": "Guaman Poma, around 1615"
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "In the 1530s, Spanish soldiers found them stored in village homes."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "scene": "ship-cargo",
+      "kaxo": null,
+      "graphic": {
+        "type": "map",
+        "focus": "canary-antwerp",
+        "label": "Canary Islands to Antwerp"
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "By the 1560s, potatoes were cargo."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "In 1567, barrels of them sailed from the Canary Islands to Antwerp."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "scene": "ship-cargo",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "28 November 1567",
+        "small": "receipt: Canary Islands to Antwerp"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And the shipping record still exists.",
+          "tone": "excited"
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "scene": "botanist-study",
+      "image": "clusius-1588.jpg",
+      "kaxo": null,
+      "graphic": {
+        "type": "archive",
+        "caption": "Taratoufli, sent to Clusius",
+        "src": "Vienna, 1588 to 1589"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "In 1588, two of them reached Clusius, a famous plant expert in Vienna."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "A painting of the plant followed."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "scene": "botanist-study",
+      "image": "clusius-1588.jpg",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.8
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Look at the name: Taratoufli."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "That's Italian for little truffles."
+        }
+      ]
+    },
+    {
+      "id": "s24",
+      "scene": "botanist-study",
+      "image": "gerard-1597.png",
+      "kaxo": null,
+      "graphic": {
+        "type": "archive",
+        "caption": "Potatoes of Virginia",
+        "src": "John Gerard, The Herball, 1597"
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "In England, John Gerard printed this picture in 1597."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "He called them Potatoes of Virginia."
+        }
+      ]
+    },
+    {
+      "id": "s25",
+      "scene": "botanist-study",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.25
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Wrong part of the Americas, by the way.",
+          "tone": "amused"
+        }
+      ]
+    },
+    {
+      "id": "s26",
+      "scene": "kolberg-market",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.75
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Even the name was a mess: papa, batata, patata."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And newcomers often didn't know how to plant it."
+        }
+      ]
+    },
+    {
+      "id": "s27",
+      "scene": "kolberg-market",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Back in Kolberg, one grandmother piled them all in a heap and covered it with a little soil.",
+          "tone": "amused"
+        }
+      ]
+    },
+    {
+      "id": "s28",
+      "scene": "botanist-study",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Now, famous story number one: Europe thought potatoes were poison.",
+          "tone": "curious"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "They're cousins of deadly nightshade, a poisonous plant."
+        }
+      ]
+    },
+    {
+      "id": "s29",
+      "scene": "botanist-study",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.22
+      },
+      "graphic": {
+        "type": "verdict",
+        "stamp": "DISPUTED",
+        "small": "Earle 2020; Gerard 1597"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The family link is real, but Gerard called them wholesome food, roasted or boiled."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And historian Rebecca Earle finds that poison fears weren't what held Europe back."
+        }
+      ]
+    },
+    {
+      "id": "s30",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "STRANGER",
+          "TASTE",
+          "FIELDS",
+          "DOCTORS",
+          "ORDERS",
+          "HUNGER"
+        ],
+        "step": 1,
+        "icon": "potato"
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Piece one clicks in: STRANGER."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "A new plant, with a borrowed name and no instructions."
+        }
+      ]
+    },
+    {
+      "id": "s31",
+      "scene": "farmhouse-kitchen",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But strange isn't scary."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "So how did it taste?"
+        }
+      ]
+    },
+    {
+      "id": "s32",
+      "scene": "kolberg-dog",
+      "kaxo": null,
+      "graphic": {
+        "type": "chapter",
+        "n": 2,
+        "title": "The Taste"
+      },
+      "camera": "zoom_in",
+      "chapter": "2. The Taste",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Let's go back to that dog in Kolberg."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Did that scene really happen?",
+          "tone": "curious"
+        }
+      ]
+    },
+    {
+      "id": "s33",
+      "scene": "document",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.8
+      },
+      "graphic": {
+        "type": "verdict",
+        "stamp": "RECORD",
+        "small": "Joachim Nettelbeck's memoir"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "It comes from the memoir of Joachim Nettelbeck, a sailor from Kolberg."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "He saw it as a small boy and wrote it down as an old man."
+        }
+      ]
+    },
+    {
+      "id": "s34",
+      "scene": "botanist-study",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "Encyclopédie, 1765",
+        "small": "the entry on the potato"
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And Kolberg wasn't alone."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "In 1765, France's famous Encyclopedia wrote an entry on the potato."
+        }
+      ]
+    },
+    {
+      "id": "s35",
+      "scene": "botanist-study",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.2
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "However you cook it, it said, the potato is bland and floury."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It can't be counted among pleasant foods.",
+          "tone": "deadpan"
+        }
+      ]
+    },
+    {
+      "id": "s36",
+      "scene": "botanist-study",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.75
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Ouch.",
+          "tone": "amused"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "That's a one-star review."
+        }
+      ]
+    },
+    {
+      "id": "s37",
+      "scene": "farmhouse-kitchen",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But read on."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "In five French regions, it says, potatoes were the everyday food of farm families."
+        }
+      ]
+    },
+    {
+      "id": "s38",
+      "scene": "farmhouse-kitchen",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "label",
+        "big": "5 regions",
+        "small": "Lorraine, Alsace, Lyonnais, Vivarais, Dauphiné"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "For much of the year!",
+          "tone": "surprised"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The experts were bored."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Farm families were already eating."
+        }
+      ]
+    },
+    {
+      "id": "s39",
+      "scene": "farmhouse-kitchen",
+      "kaxo": null,
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Part of the problem was status."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Potatoes had a name as filler food for the poor."
+        }
+      ]
+    },
+    {
+      "id": "s40",
+      "scene": "village-garden",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.22
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So far, nobody sounds afraid."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Bored, yes. Afraid, no.",
+          "tone": "curious"
+        }
+      ]
+    },
+    {
+      "id": "s41",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "STRANGER",
+          "TASTE",
+          "FIELDS",
+          "DOCTORS",
+          "ORDERS",
+          "HUNGER"
+        ],
+        "step": 2,
+        "icon": "potato"
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Piece two: TASTE."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Not scary, just bland and a bit low-class."
+        }
+      ]
+    },
+    {
+      "id": "s42",
+      "scene": "village-garden",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So why are potatoes so hard to find in old records?",
+          "tone": "curious"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The answer is out in the fields."
+        }
+      ]
+    },
+    {
+      "id": "s43",
+      "scene": "village-fields",
+      "kaxo": null,
+      "graphic": {
+        "type": "chapter",
+        "n": 3,
+        "title": "The Fields"
+      },
+      "camera": "zoom_in",
+      "chapter": "3. The Fields",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Imagine you're a farmer in a German village around 1700."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Your village farms three huge fields."
+        }
+      ]
+    },
+    {
+      "id": "s44",
+      "scene": "village-fields",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "3 fields",
+        "small": "winter grain · spring grain · rest"
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Each year, one grows winter grain, one grows spring grain, and one rests."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "That resting field is called fallow."
+        }
+      ]
+    },
+    {
+      "id": "s45",
+      "scene": "village-fields",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.8
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "It gets a year off for the soil, and the cows graze there."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And the whole village follows one shared plan."
+        }
+      ]
+    },
+    {
+      "id": "s46",
+      "scene": "document",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "About 40%",
+        "small": "of farmland resting, northern Germany, late 1700s"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "In one region of northern Germany, about 40 percent of farmland was resting."
+        }
+      ]
+    },
+    {
+      "id": "s47",
+      "scene": "village-garden",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.75
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So where do potatoes go?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Into the little garden behind the house."
+        }
+      ]
+    },
+    {
+      "id": "s48",
+      "scene": "village-garden",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And here's the clever part.",
+          "tone": "curious"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Farmers owed the church a tithe, one tenth of their harvest."
+        }
+      ]
+    },
+    {
+      "id": "s49",
+      "scene": "village-garden",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.2
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But a few rows by the kitchen door were easy to hide and hard to tax."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The tax man barely saw them."
+        }
+      ]
+    },
+    {
+      "id": "s50",
+      "scene": "document",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "The potato tithe from the fallow field",
+        "small": "church file, Anhalt, 1802"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Then potatoes crept into the resting fields."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And in 1802, church officials in Anhalt opened a whole file about it."
+        }
+      ]
+    },
+    {
+      "id": "s51",
+      "scene": "document",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.22
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Its title: the potato tithe from the fallow field."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Who gets a tenth of a potato?",
+          "tone": "amused"
+        }
+      ]
+    },
+    {
+      "id": "s52",
+      "scene": "village-fields",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.78
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Historians still argue about the timing."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Earle says farmers grew potatoes in many parts of Europe by the late 1600s."
+        }
+      ]
+    },
+    {
+      "id": "s53",
+      "scene": "village-fields",
+      "kaxo": null,
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Others say big potato fields only spread after 1800."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Both can be true: gardens early, fields late."
+        }
+      ]
+    },
+    {
+      "id": "s54",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.22
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "STRANGER",
+          "TASTE",
+          "FIELDS",
+          "DOCTORS",
+          "ORDERS",
+          "HUNGER"
+        ],
+        "step": 3,
+        "icon": "potato"
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Piece three: FIELDS."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "No room in the plan, so it hid in the garden."
+        }
+      ]
+    },
+    {
+      "id": "s55",
+      "scene": "village-garden",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.75
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "We're past halfway, and the two most famous stories are still ahead.",
+          "tone": "excited"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "If you like stories checked against the record, subscribe."
+        }
+      ]
+    },
+    {
+      "id": "s56",
+      "scene": "farmhouse-kitchen",
+      "kaxo": null,
+      "graphic": {
+        "type": "chapter",
+        "n": 4,
+        "title": "The Doctors"
+      },
+      "camera": "zoom_in",
+      "chapter": "4. The Doctors",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But was the potato actually safe to eat?",
+          "tone": "curious"
+        }
+      ]
+    },
+    {
+      "id": "s57",
+      "scene": "paris-faculty",
+      "kaxo": null,
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Paris, 1771."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "France's finance minister sends a question to the city's top doctors."
+        }
+      ]
+    },
+    {
+      "id": "s58",
+      "scene": "paris-faculty",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "1771",
+        "small": "Paris Faculty of Medicine"
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Some provinces blame potatoes for making people sick."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Is that true?",
+          "tone": "curious"
+        }
+      ]
+    },
+    {
+      "id": "s59",
+      "scene": "paris-faculty",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.8
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The doctors' answer: potatoes are safe.",
+          "tone": "warm"
+        }
+      ]
+    },
+    {
+      "id": "s60",
+      "scene": "village-fields",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.2
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So the critics change their story."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Now potatoes harm the grain and wear out the soil."
+        }
+      ]
+    },
+    {
+      "id": "s61",
+      "scene": "document",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Then there's a story all over the internet."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "France banned potatoes in 1748, over a rumor about leprosy."
+        }
+      ]
+    },
+    {
+      "id": "s62",
+      "scene": "paris-faculty",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.75
+      },
+      "graphic": {
+        "type": "verdict",
+        "stamp": "MYTH",
+        "small": "no such law has been found"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Historians have looked for that law."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Nobody has found it.",
+          "tone": "serious"
+        }
+      ]
+    },
+    {
+      "id": "s63",
+      "scene": "botanist-study",
+      "kaxo": null,
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Earle traces that rumor to one secondhand note in a plant book from 1620."
+        }
+      ]
+    },
+    {
+      "id": "s64",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "STRANGER",
+          "TASTE",
+          "FIELDS",
+          "DOCTORS",
+          "ORDERS",
+          "HUNGER"
+        ],
+        "step": 4,
+        "icon": "potato"
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Piece four: DOCTORS."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Real doubts, an official question, and no ban."
+        }
+      ]
+    },
+    {
+      "id": "s65",
+      "scene": "prussian-office",
+      "kaxo": null,
+      "graphic": {
+        "type": "map",
+        "focus": "pomerania",
+        "label": "Kolberg, Pomerania"
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Remember the King who sent that wagon to Kolberg?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "He was just getting started."
+        }
+      ]
+    },
+    {
+      "id": "s66",
+      "scene": "prussian-office",
+      "kaxo": null,
+      "graphic": {
+        "type": "chapter",
+        "n": 5,
+        "title": "The Orders"
+      },
+      "camera": "zoom_in",
+      "chapter": "5. The Orders",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Prussia, April 1746."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The first royal potato order goes out, in Pomerania, the region around Kolberg."
+        }
+      ]
+    },
+    {
+      "id": "s67",
+      "scene": "document",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "9 April 1746",
+        "small": "first potato order, Pomerania"
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "It aims to ease a shortage of bread."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Townspeople and farmers should work hard at growing garden crops, especially potatoes."
+        }
+      ]
+    },
+    {
+      "id": "s68",
+      "scene": "prussian-office",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "label",
+        "big": "24 March 1756",
+        "small": "circular order to Silesia"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Ten years later, in 1756, came the most famous one."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Officials must explain why potatoes are useful, and urge people to plant them that spring."
+        }
+      ]
+    },
+    {
+      "id": "s69",
+      "scene": "prussian-office",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.22
+      },
+      "graphic": {
+        "type": "quiz",
+        "q": "How many potato orders did Prussia send out?",
+        "a": "1",
+        "b": "5",
+        "c": "15",
+        "ok": "c"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "How many potato orders did Prussia send out?",
+          "tone": "curious"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "One, five, or fifteen?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Have a guess."
+        }
+      ]
+    },
+    {
+      "id": "s70",
+      "scene": "prussian-office",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "verdict",
+        "stamp": "RECORD",
+        "small": "German Historical Museum, Berlin"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Fifteen.",
+          "tone": "excited"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Historians count at least fifteen potato orders."
+        }
+      ]
+    },
+    {
+      "id": "s71",
+      "scene": "prussian-office",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.22
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "If you need fifteen orders, the first fourteen didn't quite work.",
+          "tone": "amused"
+        }
+      ]
+    },
+    {
+      "id": "s72",
+      "scene": "royal-field",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Now, Germany's favorite potato story.",
+          "tone": "curious"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Frederick plants a royal potato field and puts soldiers around it."
+        }
+      ]
+    },
+    {
+      "id": "s73",
+      "scene": "royal-field",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Farmers think: if the King guards it, it must be valuable."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "So at night, they sneak in and take some home."
+        }
+      ]
+    },
+    {
+      "id": "s74",
+      "scene": "royal-field",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.78
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Trick complete.",
+          "tone": "amused"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Potatoes everywhere."
+        }
+      ]
+    },
+    {
+      "id": "s75",
+      "scene": "potsdam-tomb",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.22
+      },
+      "graphic": {
+        "type": "verdict",
+        "stamp": "MYTH",
+        "small": "Jürgen Luh, AP, 2025"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Jürgen Luh, a historian for Prussia's old palaces, says there's no good evidence for it.",
+          "tone": "serious"
+        }
+      ]
+    },
+    {
+      "id": "s76",
+      "scene": "potsdam-tomb",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.75
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "He adds that Frederick never ate a potato himself.",
+          "tone": "surprised"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Not boiled, not fried."
+        }
+      ]
+    },
+    {
+      "id": "s77",
+      "scene": "document",
+      "image": "warthmuller-1886.jpg",
+      "kaxo": null,
+      "graphic": {
+        "type": "archive",
+        "caption": "The King Is Everywhere",
+        "src": "Robert Warthmüller, 1886"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The hero picture comes partly from paintings like this one."
+        }
+      ]
+    },
+    {
+      "id": "s78",
+      "scene": "document",
+      "image": "warthmuller-1886.jpg",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.85
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "It shows Frederick checking a potato harvest."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The artist painted it a hundred years after the King died."
+        }
+      ]
+    },
+    {
+      "id": "s79",
+      "scene": "village-fields",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.78
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So did farmers fight the potato?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Luh says many simply ignored the orders."
+        }
+      ]
+    },
+    {
+      "id": "s80",
+      "scene": "village-garden",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Many farmers weren't against potatoes."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "They already grew them in gardens, just not in big fields.",
+          "tone": "warm"
+        }
+      ]
+    },
+    {
+      "id": "s81",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "STRANGER",
+          "TASTE",
+          "FIELDS",
+          "DOCTORS",
+          "ORDERS",
+          "HUNGER"
+        ],
+        "step": 5,
+        "icon": "potato"
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Piece five: ORDERS."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The state wanted potato fields long before most farmers did."
+        }
+      ]
+    },
+    {
+      "id": "s82",
+      "scene": "farmhouse-kitchen",
+      "kaxo": null,
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But orders alone didn't win the argument."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Hungry years did more.",
+          "tone": "serious"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And it starts with a prisoner."
+        }
+      ]
+    },
+    {
+      "id": "s83",
+      "scene": "prisoner-camp",
+      "kaxo": null,
+      "graphic": {
+        "type": "chapter",
+        "n": 6,
+        "title": "Hunger"
+      },
+      "camera": "zoom_in",
+      "chapter": "6. Hunger",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "In the 1750s and 1760s, France and Prussia are at war."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The Prussians capture a young French army pharmacist."
+        }
+      ]
+    },
+    {
+      "id": "s84",
+      "scene": "prisoner-camp",
+      "image": "parmentier-dumont.jpg",
+      "kaxo": null,
+      "graphic": {
+        "type": "archive",
+        "caption": "Antoine Parmentier",
+        "src": "portrait by François Dumont"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "His name is Antoine Parmentier."
+        }
+      ]
+    },
+    {
+      "id": "s85",
+      "scene": "prisoner-camp",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.78
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "As a prisoner, he's fed potato mash, day after day."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Later, he'll spend decades promoting it."
+        }
+      ],
+      "image": "parmentier-dumont.jpg",
+      "focus": [
+        0.55,
+        0.32
+      ]
+    },
+    {
+      "id": "s86",
+      "scene": "village-fields-rain",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Then come the hungry years."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "In 1770 and 1771, heavy rain ruins the harvests in the Czech lands."
+        }
+      ]
+    },
+    {
+      "id": "s87",
+      "scene": "village-fields-rain",
+      "kaxo": null,
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Bread gets expensive."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Families go hungry.",
+          "tone": "serious"
+        }
+      ]
+    },
+    {
+      "id": "s88",
+      "scene": "besancon-academy",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "Besançon, early 1770s",
+        "small": "a prize contest"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "In France, an academy in Besançon runs a contest."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Which plants could stand in for bread when harvests fail?"
+        }
+      ]
+    },
+    {
+      "id": "s89",
+      "scene": "besancon-academy",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Parmentier answers with the potato, and wins.",
+          "tone": "excited"
+        }
+      ]
+    },
+    {
+      "id": "s90",
+      "scene": "sablons-field",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Now, the French version of the trick."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Parmentier plants potatoes on a sandy army field outside Paris."
+        }
+      ]
+    },
+    {
+      "id": "s91",
+      "scene": "sablons-field",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Guards watch it by day, and go home at night."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Curious Parisians sneak in and take the potatoes."
+        }
+      ]
+    },
+    {
+      "id": "s92",
+      "scene": "sablons-field",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.22
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Sound familiar?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It's the same story as Frederick's field.",
+          "tone": "amused"
+        }
+      ]
+    },
+    {
+      "id": "s93",
+      "scene": "document",
+      "kaxo": null,
+      "graphic": {
+        "type": "verdict",
+        "stamp": "MYTH",
+        "small": "told after his death, by Virey"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And it has the same problem.",
+          "tone": "deadpan"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "A colleague named Virey told it after Parmentier died."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Historians think Virey borrowed an older tale."
+        }
+      ]
+    },
+    {
+      "id": "s94",
+      "scene": "sablons-field",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The field itself was real, though."
+        }
+      ]
+    },
+    {
+      "id": "s95",
+      "scene": "versailles-hall",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And in the 1780s, the story goes, he brings potato flowers to Versailles."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The King pins one to his coat."
+        }
+      ],
+      "focus": [
+        0.42,
+        0.6
+      ]
+    },
+    {
+      "id": "s96",
+      "scene": "versailles-hall",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.78
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Sources don't even agree on the year.",
+          "tone": "surprised"
+        }
+      ]
+    },
+    {
+      "id": "s97",
+      "scene": "farmhouse-kitchen",
+      "kaxo": null,
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Hungry years made rulers take the potato seriously."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Officials and scholars started to see a well-fed people as a strong country."
+        }
+      ]
+    },
+    {
+      "id": "s98",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "STRANGER",
+          "TASTE",
+          "FIELDS",
+          "DOCTORS",
+          "ORDERS",
+          "HUNGER"
+        ],
+        "step": 6,
+        "ans": "Not so much afraid as unimpressed. Many fear stories came later.",
+        "icon": "potato"
+      },
+      "camera": "zoom_out",
+      "chapter": "The Answer",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Piece six: HUNGER."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And there's the full picture."
+        }
+      ]
+    },
+    {
+      "id": "s99",
+      "scene": "kolberg-market",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.75
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So, why was Europe afraid of the potato?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Mostly, it wasn't.",
+          "tone": "warm"
+        }
+      ]
+    },
+    {
+      "id": "s100",
+      "scene": "kolberg-market",
+      "kaxo": {
+        "pose": "idle",
+        "x": 0.22
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Europe wasn't so much afraid of the potato as unimpressed by it."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And many of the scary stories were written later."
+        }
+      ]
+    },
+    {
+      "id": "s101",
+      "scene": "kolberg-dog",
+      "kaxo": null,
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Remember that dog in Kolberg?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "He wasn't scared. Just unimpressed.",
+          "tone": "amused"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "For a long time, neither was Europe."
+        }
+      ]
+    },
+    {
+      "id": "s102",
+      "scene": "document",
+      "kaxo": null,
+      "graphic": {
+        "type": "map",
+        "focus": "old-world",
+        "label": "Europe, Asia, Africa"
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But once Europe gave it a real chance, it paid off."
+        }
+      ]
+    },
+    {
+      "id": "s103",
+      "scene": "document",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "quiz",
+        "q": "How much of the population growth in Europe, Asia and Africa, 1700 to 1900, came from potatoes?",
+        "a": "About 5%",
+        "b": "Up to a quarter",
+        "c": "Over half",
+        "ok": "b"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "One last guess.",
+          "tone": "excited"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "From 1700 to 1900, how much population growth in Europe, Asia and Africa came from potatoes?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "About five percent, up to a quarter, or over half?"
+        }
+      ]
+    },
+    {
+      "id": "s104",
+      "scene": "document",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "Up to 1/4",
+        "small": "Nunn & Qian 2011 · a review: 1/6 to 1/4"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "About a quarter, say economists Nathan Nunn and Nancy Qian.",
+          "tone": "excited"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "A later review puts it between a sixth and a quarter."
+        }
+      ]
+    },
+    {
+      "id": "s105",
+      "scene": "potsdam-tomb",
+      "kaxo": null,
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "[pause] And that tomb in Potsdam?",
+          "tone": "curious"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "People still leave potatoes on it."
+        }
+      ]
+    },
+    {
+      "id": "s106",
+      "scene": "potsdam-tomb",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.75
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "They're thanking Frederick for a trick he probably never pulled.",
+          "tone": "amused"
+        }
+      ]
+    },
+    {
+      "id": "s107",
+      "scene": "prussian-office",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "15 orders",
+        "small": "real, and mostly forgotten"
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Meanwhile, his fifteen real orders hardly get a thank-you.",
+          "tone": "deadpan"
+        }
+      ]
+    },
+    {
+      "id": "s108",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.22
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Next time: how did humans invent glass?",
+          "tone": "excited"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Subscribe, and it'll show up for you."
+        }
+      ]
+    },
+    {
+      "id": "s109",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.22
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Tell me in the comments: what food did you hate at first, and love now?"
+        }
+      ]
+    },
+    {
+      "id": "s110",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.25
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "See you next time.",
+          "tone": "warm"
+        }
+      ],
+      "min_duration": 16
+    }
+  ],
+  "url": "https://youtu.be/3ZETOCz8R0g"
+}

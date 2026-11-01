@@ -19,11 +19,18 @@ export type KaxoSpec = { pose: Pose; x?: number; y?: number; scale?: number; fli
 export type Graphic =
   | { type: 'chapter'; n: number; title: string }
   | { type: 'quiz'; q: string; a: string; b: string; c: string; ok: 'a' | 'b' | 'c' }
-  | { type: 'puzzle'; labels: string[]; step: number; title?: string; ans?: string }
+  // icon: the picture the pieces make ("potato"; default "dish")
+  | { type: 'puzzle'; labels: string[]; step: number; title?: string; ans?: string; icon?: string }
   | { type: 'label'; big: string; small?: string }
   | { type: 'chart'; title: string; items: [string, number][]; unit?: string; src?: string }
   | { type: 'map'; focus: string; label?: string; route?: string }
-  | { type: 'text'; big: string; small?: string };
+  | { type: 'text'; big: string; small?: string }
+  // fact-check stamp, the channel's signature: MYTH (tomato), DISPUTED (mustard), RECORD (olive) + source line
+  | { type: 'verdict'; stamp: 'MYTH' | 'DISPUTED' | 'RECORD'; small?: string }
+  // caption plate for an archive picture (shot.image); the picture itself is drawn by the Archive scene
+  | { type: 'archive'; caption: string; src?: string }
+  // empty object in episode.json = no graphic
+  | { type?: undefined };
 
 export type Line = { text: string; start: number; end: number };
 
@@ -47,4 +54,6 @@ export type EpisodeProps = {
   duration: number;
   music: boolean;
   shots: Shot[];
+  outfit?: string;
+  silent?: boolean; // no voice.wav yet (test renders before the voiceover exists)
 };

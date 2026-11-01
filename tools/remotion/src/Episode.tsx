@@ -24,8 +24,10 @@ const useFont = () => {
   }, [handle]);
 };
 
-export const Episode: React.FC<EpisodeProps> = (props) => {
-  useFont();
+// Voice + loudness; a test render without voice.wav passes `silent: true` (KAXO then only breathes).
+export const Episode: React.FC<EpisodeProps> = (props) => (props.silent ? <EpisodeBody {...props} loud={() => 0} /> : <EpisodeVoiced {...props} />);
+
+const EpisodeVoiced: React.FC<EpisodeProps> = (props) => {
   const { fps } = useVideoConfig();
   const voice = staticFile(`${props.base}/voice.wav`);
   const audio = useAudioData(voice);
@@ -34,10 +36,16 @@ export const Episode: React.FC<EpisodeProps> = (props) => {
     const v = visualizeAudio({ fps, frame, audioData: audio, numberOfSamples: 16 });
     return Math.min(1, (v.slice(0, 8).reduce((a, b) => a + b, 0) / 8) * 6);
   };
+  return <EpisodeBody {...props} loud={loud} voice={voice} />;
+};
+
+const EpisodeBody: React.FC<EpisodeProps & { loud: (frame: number) => number; voice?: string }> = ({ loud, voice, ...props }) => {
+  useFont();
+  const { fps } = useVideoConfig();
   return (
     <Loudness.Provider value={loud}>
       <AbsoluteFill style={{ background: C.cream, fontFamily: 'Lilita, sans-serif', color: C.ink }}>
-        <Audio src={voice} />
+        {voice && <Audio src={voice} />}
         {props.music && <Audio src={staticFile('music.mp3')} volume={0.07} loop />}
         {props.shots.map((s, i) => {
           const from = Math.round(s.start * fps);
