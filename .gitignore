@@ -19,3 +19,14 @@ work/tests/claude-remotion/blind/
 work/tests/claude-remotion/app/public/
 work/tests/claude-remotion/app/.agents/
 work/tests/claude-remotion/app/.claude/
+
+# Remotion: renders and per-episode copies (made by tools/video/remotion_props.py)
+tools/remotion/out/
+tools/remotion/public/ep/
+tools/remotion/public/kaxo-rig/
+tools/remotion/public/fonts/
+tools/remotion/public/music.mp3
+tools/remotion/props/
+
+# QA frame dumps and contact sheets (regenerated per render)
+work/qa/

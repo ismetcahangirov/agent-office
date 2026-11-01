@@ -28,7 +28,7 @@ from kokoro_onnx import Kokoro
 MODELS = Path(__file__).parent / "models"
 SR = 24000
 DEFAULT_VOICES = {
-    "kaxo": {"voice": "bm_fable", "speed": 0.98, "lang": "en-us"},  # owner picked bm_fable/en-us for KAXO too
+    "kaxo": {"voice": "bm_fable", "speed": 1.02, "lang": "en-us"},  # owner picked bm_fable/en-us for the human KAXO host (2026-10-31)
     "narrator": {"voice": "bm_fable", "speed": 1.08, "lang": "en-us"},  # owner picked the en-us rendering
 }
 # The owner wants fluent, near-continuous speech (two rounds of "too many pauses").

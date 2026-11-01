@@ -1,8 +1,9 @@
-"""Assembles the final video from shot images/clips, voice track and captions.
+"""Assembles the final video from shot images/clips and the voice track. No captions are burned in
+(owner, 2026-10-31): subtitles are uploaded to YouTube as .srt files (tools/video/subs.py).
 
 Usage: tools/video/.venv/Scripts/python tools/video/assemble.py content/episodes/<episode>
 
-Needs: episode.json, audio/voice.wav, audio/timeline.json, subs/captions.ass,
+Needs: episode.json, audio/voice.wav, audio/timeline.json,
        images/<shot id>.png (or shot["clip"]: a video file, e.g. office footage).
 Writes: video/final.mp4 (+ video/thumbnail.jpg when images/thumbnail.png exists).
 
@@ -122,8 +123,8 @@ def main(ep_dir):
     (work / "list.txt").write_text("\n".join(listing) + "\n", encoding="utf-8")
     run(["-f", "concat", "-safe", "0", "-i", "video/_segments/list.txt", "-c", "copy", "video/_segments/joined.mp4"], ep_dir)
 
-    # Audio is mixed and loudness-normalised in its own pass. Doing it in the same filter graph as the subtitle
-    # burn-in left gaps in the AAC stream (episode 2: 351 s of samples in a 392 s video, heard as dropouts).
+    # Audio is mixed and loudness-normalised in its own pass. Doing it in the same filter graph as the (old)
+    # subtitle burn-in left gaps in the AAC stream (episode 2: 351 s of samples in a 392 s video, heard as dropouts).
     music = sorted((ROOT / "content" / "music").glob("*.mp3")) if (ROOT / "content" / "music").exists() else []
     norm = "loudnorm=I=-14:TP=-1.5,aresample=48000"
     if music:
@@ -132,8 +133,8 @@ def main(ep_dir):
              "-ar", "48000", "-ac", "1", "video/_segments/mix.wav"], ep_dir)
     else:
         run(["-i", "audio/voice.wav", "-af", norm, "-ar", "48000", "-ac", "1", "video/_segments/mix.wav"], ep_dir)
-    run(["-i", "video/_segments/joined.mp4", "-i", "video/_segments/mix.wav", "-vf", "ass=subs/captions.ass",
-         "-map", "0:v", "-map", "1:a", *enc, "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
+    run(["-i", "video/_segments/joined.mp4", "-i", "video/_segments/mix.wav",
+         "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
          "-t", f"{tl['duration']:.3f}", "-movflags", "+faststart", "video/final.mp4"], ep_dir)
     shutil.rmtree(work)
 

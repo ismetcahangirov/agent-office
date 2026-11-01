@@ -1,0 +1,120 @@
+<!doctype html>
+<!-- KAXO on-screen graphics (RULES §3.3, §3.4, §5). One file, picked with ?t=..., recorded with tools/video/record_page.js:
+       node tools/video/record_page.js "file:///<abs>/tools/video/graphics/kaxo.html?t=quiz&..." <episode>/clips/<name>.webm 6
+     Animations wait ?d= seconds (default 3) so the recorder's load time is skipped: use the printed "content from" as clip_start.
+     t=chapter  n=1 title=The Ban
+     t=quiz     q=How many goats lived here in 1960?  a=5 million  b=12 million  c=Over 20 million  ok=c
+     t=puzzle   labels=LAW,FAITH,RICE,SEA,EMPEROR  step=2  (step=N shows the finished puzzle and ans=)  ans=One-line answer
+     t=label    big=Tokyo, 1872  small=Meiji era
+     t=chart    title=Beef eaten per person, kg/year  items=Japan:6.5,USA:38  src=Source: FAO 2022  unit=kg
+     All text is real type in the channel palette; nothing here is AI-drawn. -->
+<html><head><meta charset="utf-8"><style>
+@font-face { font-family: Lilita; src: url(../fonts/LilitaOne-Regular.ttf); }
+:root { --cream:#FFF6E5; --ink:#2B2118; --tomato:#FF4D2E; --mustard:#F2B33D; --olive:#6B7A3A; --d:3s; }
+* { box-sizing: border-box; margin: 0; }
+body { width: 1920px; height: 1080px; overflow: hidden; color: var(--ink); font-family: Lilita, sans-serif;
+  background: radial-gradient(circle, rgba(43,33,24,.07) 3px, transparent 4px) 0 0/56px 56px, var(--cream); }
+.small { font-family: Arial, sans-serif; font-weight: 700; }
+@keyframes pop { from { opacity: 0; transform: scale(.8) translateY(30px); } to { opacity: 1; transform: none; } }
+@keyframes slide { from { opacity: 0; transform: translateX(-80px); } to { opacity: 1; transform: none; } }
+@keyframes drop { 0% { opacity: 0; transform: translateY(-260px) rotate(-12deg); } 70% { opacity: 1; transform: translateY(14px) rotate(2deg); } 100% { opacity: 1; transform: none; } }
+@keyframes grow { from { width: 0; } }
+@keyframes shrink { from { width: 100%; } to { width: 0; } }
+.in { opacity: 0; animation: pop .6s cubic-bezier(.2,1.4,.4,1) forwards; }
+
+/* chapter */
+.chapter { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 60px; }
+.chapter .band { position: absolute; left: 0; right: 0; top: 380px; height: 320px; background: var(--mustard); transform: skewY(-2deg); }
+.chapter .num { position: relative; width: 260px; height: 260px; border-radius: 50%; background: var(--tomato); color: #fff;
+  display: grid; place-items: center; font-size: 170px; border: 10px solid var(--ink); }
+.chapter .title { position: relative; font-size: 150px; max-width: 1200px; line-height: 1; }
+
+/* quiz */
+.quiz { padding: 120px 160px; display: flex; flex-direction: column; gap: 60px; height: 100%; }
+.quiz h1 { font-size: 92px; line-height: 1.05; }
+.quiz .tag { display: inline-block; background: var(--tomato); color: #fff; font-size: 48px; padding: 6px 26px; border-radius: 40px; margin-bottom: 24px; }
+.opts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 50px; }
+.opt { background: #fff; border: 8px solid var(--ink); border-radius: 36px; padding: 50px 30px; text-align: center; font-size: 76px; line-height: 1.05;
+  transition: background .4s, opacity .4s, transform .4s; }
+.opt b { display: block; font-size: 54px; color: var(--tomato); margin-bottom: 14px; }
+.opt.ok { background: var(--olive); color: #fff; transform: scale(1.06); }
+.opt.ok b { color: var(--mustard); }
+.opt.no { opacity: .35; }
+.timer { height: 26px; border-radius: 13px; background: rgba(43,33,24,.12); overflow: hidden; }
+.timer i { display: block; height: 100%; background: var(--tomato); }
+
+/* puzzle */
+.puzzle { padding: 110px 120px; display: flex; flex-direction: column; gap: 70px; height: 100%; justify-content: center; }
+.puzzle h1 { font-size: 84px; text-align: center; }
+.pieces { display: flex; justify-content: center; gap: 0; }
+.piece { position: relative; width: 300px; height: 300px; display: grid; place-items: center; font-size: 62px; text-align: center; padding: 20px;
+  border: 8px dashed rgba(43,33,24,.3); color: rgba(43,33,24,.35); margin-left: -8px; background: rgba(255,255,255,.5); }
+.piece:first-child { border-radius: 40px 0 0 40px; } .piece:last-child { border-radius: 0 40px 40px 0; }
+.piece.on { border: 8px solid var(--ink); color: var(--ink); background: var(--mustard); z-index: 1; }
+.piece.on::after { content: ''; position: absolute; right: -38px; top: 50%; width: 64px; height: 64px; margin-top: -32px; border-radius: 50%;
+  background: var(--mustard); border: 8px solid var(--ink); border-left-color: transparent; border-bottom-color: transparent; transform: rotate(45deg); clip-path: inset(0 0 0 50%); z-index: 2; }
+.piece.on:last-child::after { display: none; }
+.piece.new { background: var(--tomato); color: #fff; opacity: 0; animation: drop .9s ease-out forwards; }
+.piece.new::after { background: var(--tomato); }
+.ans { text-align: center; font-size: 76px; color: var(--tomato); }
+
+/* label */
+.label { position: absolute; left: 120px; bottom: 140px; background: var(--ink); color: var(--cream); padding: 40px 70px; border-radius: 30px;
+  border-left: 26px solid var(--tomato); }
+.label .big { font-size: 130px; line-height: 1; }
+.label .small { font-size: 46px; color: var(--mustard); margin-top: 12px; }
+
+/* chart */
+.chart { padding: 120px 160px; display: flex; flex-direction: column; gap: 56px; height: 100%; justify-content: center; }
+.chart h1 { font-size: 84px; }
+.bars { display: flex; flex-direction: column; gap: 40px; }
+.bar { display: grid; grid-template-columns: 360px 1fr 260px; align-items: center; gap: 30px; font-size: 68px; }
+.bar .track { height: 90px; }
+.bar .fill { height: 100%; border-radius: 20px; background: var(--mustard); border: 6px solid var(--ink); }
+.bar:first-child .fill { background: var(--tomato); }
+.bar .val { text-align: right; }
+.src { font-size: 34px; color: rgba(43,33,24,.6); }
+</style></head><body>
+<script>
+const q = new URLSearchParams(location.search);
+const d = parseFloat(q.get('d') || '3');
+const t = q.get('t') || 'chapter';
+const esc = (s) => (s || '').replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+const at = (sec) => `animation-delay:${(d + sec).toFixed(2)}s`;
+let html = '';
+
+if (t === 'chapter') {
+  html = `<div class="chapter"><div class="band in" style="${at(0)}"></div>
+    <div class="num in" style="${at(.15)}">${esc(q.get('n'))}</div>
+    <div class="title in" style="${at(.35)}">${esc(q.get('title'))}</div></div>`;
+} else if (t === 'quiz') {
+  const ok = q.get('ok') || 'a';
+  const opts = ['a', 'b', 'c'].map((k, i) => `<div class="opt in" data-k="${k}" style="${at(.4 + i * .15)}"><b>${k.toUpperCase()}</b>${esc(q.get(k))}</div>`).join('');
+  html = `<div class="quiz"><div class="in" style="${at(0)}"><span class="tag">Quick guess</span><h1>${esc(q.get('q'))}</h1></div>
+    <div class="opts">${opts}</div><div class="timer in" style="${at(.8)}"><i style="animation:shrink 3s linear ${(d + 1).toFixed(2)}s forwards"></i></div></div>`;
+  setTimeout(() => document.querySelectorAll('.opt').forEach((o) => o.classList.add(o.dataset.k === ok ? 'ok' : 'no')), (d + 4.2) * 1000);
+} else if (t === 'puzzle') {
+  const labels = (q.get('labels') || '').split(',').map((s) => s.trim()).filter(Boolean);
+  const step = Math.min(parseInt(q.get('step') || '0', 10), labels.length);
+  const pieces = labels.map((l, i) => {
+    const cls = i < step - 1 ? 'on' : i === step - 1 ? 'on new' : '';
+    return `<div class="piece ${cls}" style="${i === step - 1 ? at(.5) : ''}">${i < step ? esc(l) : '?'}</div>`;
+  }).join('');
+  const done = step === labels.length && q.get('ans');
+  html = `<div class="puzzle"><h1 class="in" style="${at(0)}">${esc(q.get('title') || 'The answer so far')}</h1>
+    <div class="pieces">${pieces}</div>${done ? `<div class="ans in" style="${at(1.6)}">${esc(q.get('ans'))}</div>` : ''}</div>`;
+} else if (t === 'label') {
+  html = `<div class="label in" style="${at(0)}"><div class="big">${esc(q.get('big'))}</div>${q.get('small') ? `<div class="small">${esc(q.get('small'))}</div>` : ''}</div>`;
+} else if (t === 'chart') {
+  const items = (q.get('items') || '').split(',').map((s) => s.split(':')).filter((p) => p.length === 2).map(([k, v]) => [k.trim(), parseFloat(v)]);
+  const max = Math.max(...items.map((p) => p[1]), 1);
+  const unit = q.get('unit') ? ' ' + esc(q.get('unit')) : '';
+  const bars = items.map(([k, v], i) => `<div class="bar in" style="${at(.3 + i * .2)}"><div>${esc(k)}</div>
+    <div class="track"><div class="fill" style="width:${(v / max * 100).toFixed(1)}%;animation:grow 1.2s ease-out ${(d + .5 + i * .2).toFixed(2)}s both"></div></div>
+    <div class="val">${v}${unit}</div></div>`).join('');
+  html = `<div class="chart"><h1 class="in" style="${at(0)}">${esc(q.get('title'))}</h1><div class="bars">${bars}</div>
+    <div class="src small in" style="${at(1)}">${esc(q.get('src'))}</div></div>`;
+}
+document.body.innerHTML = html;
+</script>
+</body></html>

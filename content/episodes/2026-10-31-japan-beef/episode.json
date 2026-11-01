@@ -1,0 +1,2355 @@
+{
+  "slug": "japan-beef",
+  "format": "long",
+  "area": "food",
+  "outfit": "his usual mustard cardigan, white tee and olive trousers, plus a short tomato-red apron",
+  "props": "a wooden spoon he uses as a pointer",
+  "status": "done",
+  "question": "Why did Japan refuse beef for 1,200 years?",
+  "reasons": [
+    "LAW",
+    "RICE",
+    "PURITY",
+    "SEA",
+    "LOOPHOLES",
+    "EMPEROR"
+  ],
+  "sources": [
+    "content/reports/2026-10-31-japan-beef.md"
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "scene": "edo-street-snow",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "Edo, 1858",
+        "small": "Japan"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Edo, winter 1858."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Snow falls on a wooden bridge."
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "scene": "edo-street-snow",
+      "image": "hiroshige-bikuni-1858.jpg",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "You smell charcoal smoke."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Your breath turns white."
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "scene": "edo-street-snow",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "text",
+        "big": "Mountain whale",
+        "small": "yama kujira"
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "A shop sign catches your eye."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It says mountain whale."
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "scene": "edo-street-snow",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.78
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Wait."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "There are no whales in the mountains."
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "scene": "edo-street-snow",
+      "image": "hiroshige-bikuni-1858.jpg",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "It's wild boar."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And that funny name is a cover story."
+        }
+      ],
+      "focus": [
+        0.39,
+        0.42
+      ]
+    },
+    {
+      "id": "s06",
+      "scene": "edo-street-snow",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "text",
+        "big": "1,000+ years",
+        "small": "mostly no beef or farm animals"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "For more than a thousand years, Japan had mostly avoided beef and other farm animals."
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "scene": "court-scribe",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "675",
+        "small": "the first ban"
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The first ban came in 675."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And it had holes from day one."
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "scene": "modern-tokyo",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.22
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Yet today, Japan is famous for wagyu."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It's some of the priciest beef on Earth."
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "scene": "modern-tokyo",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.5
+      },
+      "graphic": {
+        "type": "text",
+        "big": "Why?",
+        "small": "1,200 years of avoiding beef"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So why did Japan avoid beef for about 1,200 years?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And how did it become the land of wagyu?"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "scene": "boar-shop",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "text",
+        "big": "Never a full ban",
+        "small": "1,200 years of loopholes"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Here's the twist."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Japan never fully banned meat."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It spent 1,200 years inventing loopholes."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "scene": "studio",
+      "kaxo": null,
+      "graphic": {
+        "type": "text",
+        "big": "6 reasons",
+        "small": "all tangled together"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "It isn't one reason."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It's six, all tangled together."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "scene": "rice-field",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "One starts in a muddy rice field, behind a patient ox."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "scene": "hikone-castle",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Another is a polite thank-you letter."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "About beef."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "scene": "palace-gate",
+      "kaxo": null,
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And one ends at the palace gate, with the Emperor himself."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "LAW",
+          "RICE",
+          "PURITY",
+          "SEA",
+          "LOOPHOLES",
+          "EMPEROR"
+        ],
+        "step": 0
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Every reason is a piece of this puzzle."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "When all six fit, you'll have the answer."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "scene": "court-scribe",
+      "kaxo": null,
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The first piece is the oldest."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It's a law, and it left the door open."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "scene": "temple",
+      "kaxo": null,
+      "graphic": {
+        "type": "chapter",
+        "n": 1,
+        "title": "The Law"
+      },
+      "camera": "zoom_in",
+      "chapter": "1. The Law",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Japan, the year 675."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Emperor Tenmu sends out a new order."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "scene": "court-scribe",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "label",
+        "big": "Nihon Shoki",
+        "small": "where the order of 675 is recorded"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "We can still read it in an old book, the Nihon Shoki."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "scene": "paper",
+      "kaxo": null,
+      "graphic": {
+        "type": "text",
+        "big": "Cow, horse, dog, monkey, chicken",
+        "small": "not to be eaten"
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The order is short."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Don't eat cows, horses, dogs, monkeys or chickens."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "scene": "sea-market",
+      "kaxo": null,
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "It also limits some hunting traps and fish traps."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "scene": "forest-wild",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "text",
+        "big": "Deer? Wild boar?",
+        "small": "not on the list"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But look at what's missing."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Deer and wild boar aren't on the list."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "scene": "forest-wild",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.15
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And those were the wild meats people in Japan had eaten for ages."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "scene": "rice-field",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "4th to 9th month",
+        "small": "the farming months"
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The ban also seems tied to the farming months, roughly late spring to autumn."
+        }
+      ]
+    },
+    {
+      "id": "s24",
+      "scene": "paper",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.78
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Historians still argue whether it ran all year."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The old text can be read both ways."
+        }
+      ]
+    },
+    {
+      "id": "s25",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "idle",
+        "x": 0.5
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So the law was strict about cows and horses, but quiet about deer and boar."
+        }
+      ]
+    },
+    {
+      "id": "s26",
+      "scene": "court-scribe",
+      "kaxo": null,
+      "graphic": {
+        "type": "text",
+        "big": "Again and again",
+        "small": "later rulers, similar orders"
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And Tenmu's order wasn't the last."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Later rulers kept giving similar orders for centuries."
+        }
+      ]
+    },
+    {
+      "id": "s27",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "LAW",
+          "RICE",
+          "PURITY",
+          "SEA",
+          "LOOPHOLES",
+          "EMPEROR"
+        ],
+        "step": 1
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So the law set a rule, with gaps built in."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "That's piece one: LAW."
+        }
+      ]
+    },
+    {
+      "id": "s28",
+      "scene": "rice-field",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But a law alone can't last 1,200 years."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "For that, you need a rice field."
+        }
+      ]
+    },
+    {
+      "id": "s29",
+      "scene": "rice-field",
+      "kaxo": null,
+      "graphic": {
+        "type": "chapter",
+        "n": 2,
+        "title": "The Rice"
+      },
+      "camera": "zoom_in",
+      "chapter": "2. The Rice",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Imagine you're a rice farmer in the eighth century."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Your whole year depends on this muddy field."
+        }
+      ]
+    },
+    {
+      "id": "s30",
+      "scene": "rice-field",
+      "kaxo": {
+        "pose": "idle",
+        "x": 0.78
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Plowing that mud by hand is brutal."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "So you have help: a big, calm ox."
+        }
+      ]
+    },
+    {
+      "id": "s31",
+      "scene": "rice-field",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.22
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "If that ox could talk, he'd say: I pull the plow."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I'm not lunch."
+        }
+      ]
+    },
+    {
+      "id": "s32",
+      "scene": "court-scribe",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "741",
+        "small": "Emperor Shōmu"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "In 741, Emperor Shomu repeated the rule in a new order."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "No killing cattle or horses."
+        }
+      ]
+    },
+    {
+      "id": "s33",
+      "scene": "rice-field",
+      "kaxo": null,
+      "graphic": {
+        "type": "text",
+        "big": "They work in place of people",
+        "small": "Shōmu's order, 741"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "His reason was simple."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "These animals work in place of people."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Their work feeds people."
+        }
+      ]
+    },
+    {
+      "id": "s34",
+      "scene": "rice-field",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.82
+      },
+      "graphic": {
+        "type": "text",
+        "big": "Cow = tractor",
+        "small": "not dinner"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So a cow wasn't dinner."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It was your tractor."
+        }
+      ]
+    },
+    {
+      "id": "s35",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.78
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And there's a second rice link."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Some people believed meat during rice season could ruin the harvest."
+        }
+      ]
+    },
+    {
+      "id": "s36",
+      "scene": "rice-field",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "That may be why the old ban lined up with the growing months."
+        }
+      ]
+    },
+    {
+      "id": "s37",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.5
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And the strangest part is still ahead."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "This rice logic lasted for centuries."
+        }
+      ]
+    },
+    {
+      "id": "s38",
+      "scene": "court-scribe",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "1587",
+        "small": "Toyotomi Hideyoshi"
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Jump to 1587."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The powerful ruler Toyotomi Hideyoshi writes a memo."
+        }
+      ]
+    },
+    {
+      "id": "s39",
+      "scene": "paper",
+      "kaxo": null,
+      "graphic": {
+        "type": "text",
+        "big": "No buying, selling, killing or eating cattle",
+        "small": "Hideyoshi's memo of 1587, item 11"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Item eleven is blunt."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Buying, selling, killing or eating cattle and horses is wrong."
+        }
+      ]
+    },
+    {
+      "id": "s40",
+      "scene": "rice-field",
+      "kaxo": {
+        "pose": "idle",
+        "x": 0.22
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "More than nine hundred years after Tenmu, the cow was still a worker first."
+        }
+      ]
+    },
+    {
+      "id": "s41",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "LAW",
+          "RICE",
+          "PURITY",
+          "SEA",
+          "LOOPHOLES",
+          "EMPEROR"
+        ],
+        "step": 2
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "That's piece two: RICE."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The cow was simply too useful to eat."
+        }
+      ]
+    },
+    {
+      "id": "s42",
+      "scene": "temple",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But usefulness doesn't explain one thing."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Why did meat start to feel wrong?"
+        }
+      ]
+    },
+    {
+      "id": "s43",
+      "scene": "temple",
+      "kaxo": null,
+      "graphic": {
+        "type": "chapter",
+        "n": 3,
+        "title": "Purity"
+      },
+      "camera": "zoom_in",
+      "chapter": "3. Purity",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Picture a temple."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Incense drifts past a wooden pagoda."
+        }
+      ]
+    },
+    {
+      "id": "s44",
+      "scene": "temple",
+      "kaxo": {
+        "pose": "idle",
+        "x": 0.78
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Emperor Tenmu was a strong supporter of Buddhism."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And Buddhism asks people not to kill living things."
+        }
+      ]
+    },
+    {
+      "id": "s45",
+      "scene": "temple",
+      "kaxo": null,
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Historians often link his order to the Buddhist idea of rebirth."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Lives come back again and again."
+        }
+      ]
+    },
+    {
+      "id": "s46",
+      "scene": "shrine",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But there's a second thread."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It comes from Shinto, Japan's old local faith."
+        }
+      ]
+    },
+    {
+      "id": "s47",
+      "scene": "shrine",
+      "kaxo": null,
+      "graphic": {
+        "type": "text",
+        "big": "Kegare",
+        "small": "ritual impurity"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Shinto has an idea called kegare."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Basically, ritual impurity."
+        }
+      ]
+    },
+    {
+      "id": "s48",
+      "scene": "shrine",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.22
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "It's not about being dirty."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Think of it as a state that keeps you away from sacred rituals."
+        }
+      ]
+    },
+    {
+      "id": "s49",
+      "scene": "paper",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "927",
+        "small": "the Engishiki rulebook"
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "In 927, a rulebook called the Engishiki spelled out the details."
+        }
+      ]
+    },
+    {
+      "id": "s50",
+      "scene": "shrine",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "text",
+        "big": "3 days",
+        "small": "away from shrine rituals after eating meat"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Eat meat, and you had to stay away from shrine rituals for three days."
+        }
+      ]
+    },
+    {
+      "id": "s51",
+      "scene": "boar-shop",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.85
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Three days."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "That's a long time-out for one bowl of stew."
+        }
+      ]
+    },
+    {
+      "id": "s52",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.22
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And that feeling grew."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Over the centuries, meat slowly drifted off people's plates."
+        }
+      ]
+    },
+    {
+      "id": "s53",
+      "scene": "temple",
+      "kaxo": null,
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Sadly, the families who did butchering and leather work, in buraku communities, faced unfair treatment for centuries."
+        }
+      ]
+    },
+    {
+      "id": "s54",
+      "scene": "shrine",
+      "kaxo": {
+        "pose": "idle",
+        "x": 0.78
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So faith and ritual turned an old rule into a deep habit."
+        }
+      ]
+    },
+    {
+      "id": "s55",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.22
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "LAW",
+          "RICE",
+          "PURITY",
+          "SEA",
+          "LOOPHOLES",
+          "EMPEROR"
+        ],
+        "step": 3
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "That's piece three: PURITY."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "We're halfway there, and the weirdest pieces are still coming."
+        }
+      ]
+    },
+    {
+      "id": "s56",
+      "scene": "sea-market",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But if people avoided meat, what kept them going?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The answer was all around them."
+        }
+      ]
+    },
+    {
+      "id": "s57",
+      "scene": "sea-market",
+      "kaxo": null,
+      "graphic": {
+        "type": "chapter",
+        "n": 4,
+        "title": "The Sea"
+      },
+      "camera": "zoom_in",
+      "chapter": "4. The Sea",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Japan is a chain of islands."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The sea is never far away."
+        }
+      ]
+    },
+    {
+      "id": "s58",
+      "scene": "sea-market",
+      "kaxo": {
+        "pose": "outfit-food",
+        "x": 0.78
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And the meat bans mostly left fish alone."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Fish and rice stayed on the table."
+        }
+      ]
+    },
+    {
+      "id": "s59",
+      "scene": "sea-market",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.82
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So people still had protein."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "That made the ban much easier to live with."
+        }
+      ]
+    },
+    {
+      "id": "s60",
+      "scene": "kitchen-home",
+      "kaxo": null,
+      "graphic": {
+        "type": "text",
+        "big": "2007",
+        "small": "meat passes fresh fish in Japanese homes"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Here's how deep that habit runs."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "In Japanese homes, meat only passed fresh fish in 2007."
+        }
+      ]
+    },
+    {
+      "id": "s61",
+      "scene": "kitchen-home",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.85
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Not 1907. 2007."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "That's very recent history."
+        }
+      ]
+    },
+    {
+      "id": "s62",
+      "scene": "sea-market",
+      "kaxo": null,
+      "graphic": {
+        "type": "chart",
+        "title": "Fish and seafood per person in Japan (kg per year)",
+        "items": [
+          [
+            "2001",
+            40.2
+          ],
+          [
+            "2018",
+            23.9
+          ]
+        ],
+        "src": "Source: Fisheries White Paper (Japan), via Mie Prefecture"
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Fish eating has dropped since its peak in 2001."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Back then, it was about 40 kilos a person."
+        }
+      ]
+    },
+    {
+      "id": "s63",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "quiz",
+        "q": "How much beef does the average person in Japan eat per year?",
+        "a": "About 1 kg",
+        "b": "About 25 kg",
+        "c": "About 6 kg",
+        "ok": "c"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Quick guess. How much beef does the average person in Japan eat each year?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "One kilo, twenty-five kilos, or six? Take a guess."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "About six kilos. That's roughly half a kilo a month."
+        }
+      ]
+    },
+    {
+      "id": "s64",
+      "scene": "sea-market",
+      "kaxo": null,
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So beef is still a small part of the plate."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Fish keeps a much bigger share."
+        }
+      ]
+    },
+    {
+      "id": "s65",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "idle",
+        "x": 0.5
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "One quick thing."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Next week: why Europe was afraid of the potato."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Subscribe so it finds you."
+        }
+      ]
+    },
+    {
+      "id": "s66",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "LAW",
+          "RICE",
+          "PURITY",
+          "SEA",
+          "LOOPHOLES",
+          "EMPEROR"
+        ],
+        "step": 4
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The sea made the ban easy to keep."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "That's piece four: SEA."
+        }
+      ]
+    },
+    {
+      "id": "s67",
+      "scene": "edo-street-snow",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But easy isn't the same as happy."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Some people still wanted meat."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "So they got creative."
+        }
+      ]
+    },
+    {
+      "id": "s68",
+      "scene": "edo-street-snow",
+      "kaxo": null,
+      "graphic": {
+        "type": "chapter",
+        "n": 5,
+        "title": "The Loopholes"
+      },
+      "camera": "zoom_in",
+      "chapter": "5. The Loopholes",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Back to that snowy street in Edo."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Remember the mountain whale?"
+        }
+      ]
+    },
+    {
+      "id": "s69",
+      "scene": "edo-street-snow",
+      "image": "hiroshige-bikuni-1858.jpg",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "This is a real print by Hiroshige, from 1858."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Look at the left for that sign."
+        }
+      ]
+    },
+    {
+      "id": "s70",
+      "scene": "boar-shop",
+      "kaxo": {
+        "pose": "outfit-food",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "text",
+        "big": "Kusurigui",
+        "small": "medicine eating"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Shops like this had a clever excuse."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "They called it kusurigui, which means medicine eating."
+        }
+      ]
+    },
+    {
+      "id": "s71",
+      "scene": "boar-shop",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.85
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "You weren't eating meat for fun."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "No, this was for your health."
+        }
+      ]
+    },
+    {
+      "id": "s72",
+      "scene": "paper",
+      "kaxo": null,
+      "graphic": {
+        "type": "text",
+        "big": "Botan",
+        "small": "peony = wild boar"
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Wild boar even got a pretty nickname."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Botan, which means peony, the flower."
+        }
+      ]
+    },
+    {
+      "id": "s73",
+      "scene": "edo-street-snow",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.22
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "If the boar could talk, he'd say: I'm a whale now."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Please don't ask."
+        }
+      ]
+    },
+    {
+      "id": "s74",
+      "scene": "boar-shop",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.85
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "By the late Edo period, shops selling wild meat were doing well."
+        }
+      ]
+    },
+    {
+      "id": "s75",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.22
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But the boldest loophole wasn't boar."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It was beef."
+        }
+      ]
+    },
+    {
+      "id": "s76",
+      "scene": "hikone-castle",
+      "kaxo": null,
+      "graphic": {
+        "type": "map",
+        "focus": "hikone"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Meet Hikone, a castle town in what's now Shiga Prefecture."
+        }
+      ]
+    },
+    {
+      "id": "s77",
+      "scene": "hikone-castle",
+      "kaxo": {
+        "pose": "outfit-food",
+        "x": 0.78
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The story goes that in 1687, a man here made beef pickled in miso."
+        }
+      ]
+    },
+    {
+      "id": "s78",
+      "scene": "paper",
+      "kaxo": null,
+      "graphic": {
+        "type": "text",
+        "big": "Henpongan",
+        "small": "miso beef with a medicine name"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "He based it on a Chinese medicine book."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And he gave it a medicine name: henpongan."
+        }
+      ]
+    },
+    {
+      "id": "s79",
+      "scene": "hikone-castle",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "1780s",
+        "small": "a gift for the shogun's family"
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "In the 1780s, Hikone sent miso beef to the family of the shogun, Japan's military ruler."
+        }
+      ]
+    },
+    {
+      "id": "s80",
+      "scene": "hikone-castle",
+      "kaxo": null,
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Hikone is often called the only place allowed to make beef back then."
+        }
+      ]
+    },
+    {
+      "id": "s81",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.78
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And the next part sounds made up."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It isn't."
+        }
+      ]
+    },
+    {
+      "id": "s82",
+      "scene": "lord-letter",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "1848",
+        "small": "Tokugawa Nariaki, lord of Mito"
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Imagine you're Tokugawa Nariaki, a powerful lord, in 1848."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Another gift of beef arrives from Hikone."
+        }
+      ]
+    },
+    {
+      "id": "s83",
+      "scene": "hikone-castle",
+      "kaxo": null,
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So you write a thank-you note to Hikone's lord."
+        }
+      ]
+    },
+    {
+      "id": "s84",
+      "scene": "lord-letter",
+      "kaxo": null,
+      "graphic": {
+        "type": "text",
+        "big": "I use it as medicine too",
+        "small": "Tokugawa Nariaki to Ii Naoaki, 1848"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Thank you for the beef you keep sending."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "I use it as medicine too."
+        }
+      ]
+    },
+    {
+      "id": "s85",
+      "scene": "lord-letter",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.85
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So even top lords ate beef, as long as it was called medicine."
+        }
+      ]
+    },
+    {
+      "id": "s86",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "LAW",
+          "RICE",
+          "PURITY",
+          "SEA",
+          "LOOPHOLES",
+          "EMPEROR"
+        ],
+        "step": 5
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Meat never really vanished."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It just changed its name."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "That's piece five: LOOPHOLES."
+        }
+      ]
+    },
+    {
+      "id": "s87",
+      "scene": "dejima",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But loopholes only work while the rule stands."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And the rule was about to fall."
+        }
+      ]
+    },
+    {
+      "id": "s88",
+      "scene": "dejima",
+      "image": "dejima-screen.jpg",
+      "kaxo": null,
+      "graphic": {
+        "type": "chapter",
+        "n": 6,
+        "title": "The Emperor"
+      },
+      "camera": "zoom_in",
+      "chapter": "6. The Emperor",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Look at this tiny island in Nagasaki harbor."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It's called Dejima."
+        }
+      ]
+    },
+    {
+      "id": "s89",
+      "scene": "dejima",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "map",
+        "focus": "nagasaki"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Dutch traders lived here."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And they kept cows, pigs and chickens."
+        }
+      ]
+    },
+    {
+      "id": "s90",
+      "scene": "paper",
+      "image": "banquet-1861.jpg",
+      "kaxo": null,
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "This print from 1861 shows foreigners from five nations at a banquet."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The meat-eaters had arrived."
+        }
+      ]
+    },
+    {
+      "id": "s91",
+      "scene": "gyunabe-shop",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "1862",
+        "small": "Yokohama"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And in 1862, Yokohama got its first gyunabe shop."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "That's beef simmered in a pot."
+        }
+      ]
+    },
+    {
+      "id": "s92",
+      "scene": "meiji-table",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "Early 1872",
+        "small": "Tokyo"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Then came early 1872."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Emperor Meiji lifted the old ban on meat."
+        }
+      ]
+    },
+    {
+      "id": "s93",
+      "scene": "meiji-table",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.85
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And the court let it be known that he would eat meat himself."
+        }
+      ]
+    },
+    {
+      "id": "s94",
+      "scene": "meiji-table",
+      "kaxo": null,
+      "graphic": {
+        "type": "text",
+        "big": "For dealing with foreigners",
+        "small": "Meiji's reason, more than health"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "His reason wasn't mainly health."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "He told an advisor meat mattered more for dealing with foreigners."
+        }
+      ]
+    },
+    {
+      "id": "s95",
+      "scene": "ascetics-snow",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Not everyone agreed."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "About a month later, ten mountain ascetics in white tried to force their way into the palace."
+        }
+      ]
+    },
+    {
+      "id": "s96",
+      "scene": "shrine",
+      "kaxo": {
+        "pose": "idle",
+        "x": 0.78
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Ascetics are people who give up comforts for their faith."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "These men followed a faith centered on Mount Ontake."
+        }
+      ]
+    },
+    {
+      "id": "s97",
+      "scene": "palace-gate",
+      "kaxo": null,
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "They believed foreign ways were making the land impure."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The guards stopped them, and four of the men died."
+        }
+      ]
+    },
+    {
+      "id": "s98",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "idle",
+        "x": 0.22
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "For them, this was about faith, not food."
+        }
+      ]
+    },
+    {
+      "id": "s99",
+      "scene": "gyunabe-shop",
+      "kaxo": null,
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But in the cities, beef caught on fast."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "People sat cross-legged around steaming pots."
+        }
+      ]
+    },
+    {
+      "id": "s100",
+      "scene": "gyunabe-shop",
+      "kaxo": null,
+      "graphic": {
+        "type": "text",
+        "big": "Aguranabe",
+        "small": "Cross-legged at the beef pot, 1871"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Kanagaki Robun even wrote a book about it."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Its name means cross-legged at the beef pot."
+        }
+      ]
+    },
+    {
+      "id": "s101",
+      "scene": "gyunabe-shop",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.22
+      },
+      "graphic": {
+        "type": "quiz",
+        "q": "By 1877, how many beef pot (gyunabe) shops were in Tokyo?",
+        "a": "About 50",
+        "b": "More than 550",
+        "c": "About 5,000",
+        "ok": "b"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Your turn. By 1877, how many beef pot shops were there in Tokyo?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "About 50, over 550, or about 5,000? Take a guess."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Over 550. And that's just five years after the ban ended."
+        }
+      ]
+    },
+    {
+      "id": "s102",
+      "scene": "paper",
+      "kaxo": null,
+      "graphic": {
+        "type": "chart",
+        "title": "Cattle for beef in Tokyo",
+        "items": [
+          [
+            "1882",
+            4789
+          ],
+          [
+            "1912",
+            34219
+          ]
+        ],
+        "src": "Source: Kikkoman Food Forum, The Japanese Table"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Now look at Tokyo's cattle for beef over thirty years."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The number grew more than seven times."
+        }
+      ]
+    },
+    {
+      "id": "s103",
+      "scene": "gyunabe-shop",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.85
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "With the emperor on board, city menus changed within decades."
+        }
+      ]
+    },
+    {
+      "id": "s104",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "LAW",
+          "RICE",
+          "PURITY",
+          "SEA",
+          "LOOPHOLES",
+          "EMPEROR"
+        ],
+        "step": 6,
+        "ans": "Law, rice and purity kept beef away. Loopholes kept meat alive until 1872."
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "That's piece six: EMPEROR."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And the puzzle is complete."
+        }
+      ],
+      "chapter": "The Answer"
+    },
+    {
+      "id": "s105",
+      "scene": "edo-street-snow",
+      "kaxo": {
+        "pose": "idle",
+        "x": 0.78
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So, remember that shop sign in the snow?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "That funny name was a loophole."
+        }
+      ]
+    },
+    {
+      "id": "s106",
+      "scene": "studio",
+      "kaxo": null,
+      "graphic": {
+        "type": "text",
+        "big": "Bent, not broken",
+        "small": "1,200 years of loopholes"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Here's the whole answer."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Law, rice and purity rules pushed beef away, and the sea made that easy."
+        }
+      ]
+    },
+    {
+      "id": "s107",
+      "scene": "meiji-table",
+      "kaxo": null,
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Loopholes kept meat alive, until an emperor ended the ban."
+        }
+      ]
+    },
+    {
+      "id": "s108",
+      "scene": "tajima-pasture",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "Tajima cattle",
+        "small": "Hyogo Prefecture, home of Kobe"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "[pause] And here's the last twist."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Kobe beef, a famous kind of wagyu, comes from Tajima cattle."
+        }
+      ]
+    },
+    {
+      "id": "s109",
+      "scene": "tajima-pasture",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.78
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "For a long time, those cattle weren't food."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "They were work animals that pulled plows."
+        }
+      ]
+    },
+    {
+      "id": "s110",
+      "scene": "paper",
+      "kaxo": null,
+      "graphic": {
+        "type": "map",
+        "focus": "kobe"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Then Kobe's port opened in 1868, and foreigners started eating them."
+        }
+      ]
+    },
+    {
+      "id": "s111",
+      "scene": "modern-tokyo",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.22
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Today, Kobe beef is some of the most expensive beef in the world."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "From plow to plate."
+        }
+      ]
+    },
+    {
+      "id": "s112",
+      "scene": "sea-market",
+      "kaxo": null,
+      "graphic": {
+        "type": "chart",
+        "title": "Per person, per year in Japan (kg)",
+        "items": [
+          [
+            "Beef",
+            5.9
+          ],
+          [
+            "Fish",
+            21.2
+          ]
+        ],
+        "src": "Source: MAFF Food Balance Sheet, FY2024 (beef and fish)"
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Still, the sea never lost."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "People in Japan eat about six kilos of beef a year."
+        }
+      ]
+    },
+    {
+      "id": "s113",
+      "scene": "sea-market",
+      "kaxo": null,
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And about 21 kilos of fish."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "In the land of wagyu, fish still wins, more than three to one."
+        }
+      ]
+    },
+    {
+      "id": "s114",
+      "scene": "modern-tokyo",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.2
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So that's how a country that avoided beef ended up famous for it."
+        }
+      ]
+    },
+    {
+      "id": "s115",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.22
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Next week, a whole continent gets scared of a vegetable."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Why was Europe afraid of the potato?"
+        }
+      ]
+    },
+    {
+      "id": "s116",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.25
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Subscribe so it finds you."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Until then, tell me one thing in the comments."
+        }
+      ]
+    },
+    {
+      "id": "s117",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.22
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "What food would you call medicine, just so you could eat it?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "See you next week."
+        }
+      ]
+    }
+  ],
+  "url": "https://youtu.be/GdSR7t5lNLA"
+}

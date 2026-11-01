@@ -1,138 +1,282 @@
 ---
 name: video
-description: KAXO kanalı üçün yeni video epizodu hazırlayır - statistika və dərslər, araşdırma, ssenari, ChatGPT-də şəkillər (brauzer), ekran yazısı (VS Code-da kod, terminal), stock video (Pexels/Pixabay), Kokoro səsləndirmə, altyazı, montaj, SEO və thumbnail, sahibin təsdiqi, YouTube-a paylaşma, hesabat və təmizlik. İstifadəçi "/video", "/video davam", "yeni video", "yeni epizod" yazanda işə sal.
+description: KAXO kanalı (maraq sualları: yemək, ixtiralar, tarixəqədərki həyat, heyvanlar, bədən; aparıcı KAXO) üçün 8+ dəqiqəlik yeni video epizodu hazırlayır - statistika və dərslər, mövzu araşdırması və mənbələr, retention quruluşlu ssenari, fakt yoxlaması, kodla qurulan cizgi səhnələri (Remotion, KAXO puppet; lazım olsa Blender, Premiere), xəritə/qrafik/Answer Puzzle, Kokoro ingiliscə səsləndirmə, altyazısız montaj, 10 dildə SRT altyazı, SEO və thumbnail, sahibin təsdiqi, YouTube-a paylaşma, hesabat. İstifadəçi "/video", "/video davam", "yeni video", "yeni epizod" yazanda işə sal.
 ---
 
 # /video: KAXO epizodu, başdan sona
 
 Arqumentlər:
-- `/video`: yeni epizod.
-- `/video davam`: ən son yarımçıq epizodu davam etdirir.
+- `/video`: yeni long epizod (mövzu `ideas.md`-dən).
 - `/video <mövzu>`: mövzu sahibdən gəlir.
-- `/video long`: uzun format (RULES §2, §3b).
-- `/video short-from <long epizod>`: long videonun ən güclü anından short (yeni hook, 9:16).
+- `/video davam`: ən son yarımçıq epizodu davam etdirir.
+- `/video short-from <long epizod>`: long videonun ən güclü faktından 30–55 s short (9:16).
 
-Format seçimi (sahib deməyibsə): bu həftə long hələ çıxmayıbsa, **long**. Təzə (≤ 48 saat) gündəm xəbəri varsa, **news flash short**. Son long-dan kəsik hələ yoxdursa, **short-from**. Həftəlik plan: 1 long + 3 short (RULES §2).
-
-**Əvvəlcə oxu və bütün addımlarda əməl et:** `content/RULES.md`, `content/character/character.md`, `content/lessons.md`, `content/ideas.md`, `content/published.md`, `content/PLAYLISTS.md`, ən son `content/news/*.md`.
+**Əvvəlcə oxu və bütün addımlarda əməl et:** `content/RULES.md` (xüsusən §3 quruluş, §4 danışıq, §6 dəqiqlik, §15 dillər), `content/character/character.md`, `content/lessons.md`, `content/ideas.md`, `content/published.md`, `content/PLAYLISTS.md`.
 
 İş qaydası:
 - Addımlar ardıcıl gedir. Hər addımdan sonra `episode.json`-da `status` yenilənir, beləcə `/video davam` qaldığı yerdən başlayır.
-- Sahibə hər addımın əvvəlində bir sətir yaz: "3/10: şəkillər…"
+- Sahibə hər addımın əvvəlində bir sətir yaz: "4/10: şəkillər…"
 - Paylaşmadan əvvəl sahibin açıq təsdiqi **mütləqdir**.
+- **Videoya heç bir altyazı yandırılmır** (RULES §5, §15). Altyazı yalnız `.srt` faylıdır və YouTube-a yüklənir.
 
 ## Epizod qovluğu
 `content/episodes/YYYY-MM-DD-<slug>/`:
 ```
 episode.json   ssenari + kadrlar + status (tək həqiqət mənbəyi)
 script.md      oxunaqlı ssenari (sahib üçün)
-images/        s01.png ... (+ thumbnail.png long üçün)
-clips/         real ofis görüntüsü (webm)
+images/        arxiv şəkilləri (ictimai mülkiyyət)
+graphics/      xəritə, qrafik, viktorina, Answer Puzzle HTML-ləri
+clips/         graphics/-dən yazılmış kliplər, arxiv sənədləri, sources.json
 audio/         voice.wav, timeline.json
-subs/          captions.ass, captions.srt
-video/         final.mp4 (+ thumbnail.jpg)
-seo.json       başlıq, təsvir, tag-lar, parametrlər
+subs/          captions.en.srt + 9 tərcümə (RULES §15)
+video/         final.mp4, chapters.txt
+thumb/         thumbnail.png (+ small)
+seo.json       başlıq, təsvir, tag-lar, lokalizasiyalar
 ```
 
 `episode.json` sxemi:
 ```json
 {
-  "slug": "first-employee",
-  "format": "short",
+  "slug": "japan-beef",
+  "format": "long",
+  "area": "food",
+  "outfit": "his usual mustard cardigan, white tee and olive trousers, plus a short tomato-red apron",
+  "props": "a wooden spoon he uses as a pointer",
   "status": "script",
-  "idea": "…",
-  "real_fact": "Kəşfiyyatçı 2026-09-24-də 8 fayl oxuyub layihəni təsvir etdi (data/events.jsonl)",
+  "question": "Why did Japan refuse beef for 1,200 years?",
+  "reasons": ["LAW", "FAITH", "RICE", "SEA", "EMPEROR"],
+  "sources": ["<report-dakı mənbə siyahısına istinad>"],
   "shots": [
-    { "id": "s01", "motion": "zoom_in",
-      "prompt": "KAXO lying on a worn office couch, one eye open, looking at the camera…",
-      "lines": [ { "speaker": "narrator", "text": "This is KAXO. He owns a company." },
-                 { "speaker": "kaxo", "text": "Technically. [pause] I own a couch.", "speed": 0.88 } ] },
-    { "id": "s02", "clip": "clips/office.webm", "clip_start": 1, "crop": [0.25, 0.15, 0.5, 0.8],
-      "lines": [ { "speaker": "narrator", "text": "Every employee here is an AI." } ] }
+    { "id": "s01", "camera": "zoom_in", "scene": "tokyo-street-1872",
+      "kaxo": { "pose": "point", "expr": "surprised", "x": 0.75 },
+      "lines": [ { "speaker": "kaxo", "text": "Tokyo, 1872. The newspaper says the Emperor ate beef. On purpose." } ] },
+    { "id": "s05", "chapter": "1. The Ban", "scene": "paper", "kaxo": null,
+      "graphic": { "type": "map", "focus": "japan", "label": "675 AD" },
+      "lines": [ { "speaker": "kaxo", "text": "To see why that's shocking, we need to go back to the year 675." } ] }
   ]
 }
 ```
-- `status` dəyərləri ardıcıllıqla: `research` → `script` → `images` → `broll` → `audio` → `video` → `seo` → `review` → `approved` → `published` → `done`.
-- `motion` dəyərləri: `zoom_in | zoom_out | pan_left | pan_right | static`.
-- Ofisi yaxından göstərmək üçün `crop` istifadə olunur: `[x, y, w, h]`, mənbənin payı kimi.
-- Səssiz kadr üçün `"min_duration": 2`.
+- `status` dəyərləri ardıcıllıqla: `research` → `script` → `factcheck` → `images` → `graphics` → `audio` → `video` → `subs` → `seo` → `review` → `approved` → `published` → `done`.
+- `camera`: `zoom_in | zoom_out | pan_left | pan_right | static`. `scene`, `kaxo`, `graphic` sahələri 5/10-dadır. Hazır klip (Blender, arxiv video) üçün `"clip"`. Səssiz kadr üçün `"min_duration": 2`.
+- `chapter` yalnız fəslin **ilk** shot-unda olur.
 
 ---
 
 ## 1/10 Hazırlıq
-1. Server işləyirmi: `curl -s -o /dev/null -w "%{http_code}" localhost:4317/`. İşləmirsə, `npm start` fonda işə sal (`run_in_background`).
-2. Alətlər yerindədirmi: `tools/video/.venv/Scripts/python -c "import kokoro_onnx, soundfile, PIL, imageio_ffmpeg, rembg"` və `tools/video/models/` altında `kokoro-v1.0.int8.onnx`, `voices-v1.0.bin`. Python paketləri **yalnız bu venv-ə** quraşdırılır, qlobal Python-a toxunulmur.
-3. Ekran və stock alətləri: `.env`-də `PEXELS_API_KEY` və `PIXABAY_API_KEY` var (dəyərləri çap etmə), `code --version` işləyir.
-4. `/video davam`: `content/episodes/` içində `status` dəyəri `done` olmayan ən yeni epizodu tap və o addımdan davam et.
+1. Alətlər: `tools/video/.venv/Scripts/python -c "import kokoro_onnx, soundfile, PIL, imageio_ffmpeg, rembg"` və `tools/video/models/` altında `kokoro-v1.0.int8.onnx`, `voices-v1.0.bin`. Python paketləri **yalnız bu venv-ə** quraşdırılır.
+2. `content/character/reference.png` var? Yoxdursa, dayan: əvvəlcə `character.md` → "Referansın yaradılması" (sahibin təsdiqi ilə). KAXO-nun səsi: `bm_fable`, en-us (sahib seçib, 2026-10-31).
+3. `/video davam`: `content/episodes/` içində `status` dəyəri `done` olmayan ən yeni epizodu tap və o addımdan davam et.
 
 ## 2/10 Statistika və dərslər (paylaşılmış video varsa)
-`published.md`-də ≥ 48 saat əvvəl paylaşılmış və son 3 gündə statistikası yığılmamış video varsa:
-1. Claude in Chrome ilə `https://studio.youtube.com` aç. Hesaba daxil olunmayıbsa, sahibdən daxil olmasını xahiş et və gözlə.
-2. Hər video üçün Analytics səhifəsindən RULES §10-dakı rəqəmləri oxu (`get_page_text` / `read_page`).
-3. Xam rəqəmləri `content/stats/YYYY-MM-DD.json`-a yaz: `[{ "id", "title", "published", "views", "avg_view_s", "retention_pct", "viewed_vs_swiped", "ctr", "likes", "comments", "subs" }]`.
-4. Videoları müqayisə et, `lessons.md`-ni yenilə: müşahidə, qayda, təkzib. Yeni qayda yalnız ≥ 2 videonun sübutu ilə yazılır.
-5. `published.md`-də "Son statistika" sütununu yenilə.
+`published.md` → "KAXO" cədvəlində ≥ 48 saat əvvəl paylaşılmış və son 3 gündə statistikası yığılmamış video varsa:
+1. Claude in Chrome ilə `https://studio.youtube.com` aç. Hesaba daxil olunmayıbsa, sahibdən daxil olmasını xahiş et.
+2. RULES §10-dakı rəqəmləri oxu. **Retention əyrisi:** 0:30 və 1:00-da qalan faizi, kəskin düşüş anlarını yaz. Düşüş anını `timeline.json` ilə tutuşdur: o an hansı cümlə və kadr idi.
+3. Xam rəqəmlər `content/stats/YYYY-MM-DD.json`-a: `[{ "id", "title", "published", "views", "avg_view_s", "retention_30s", "retention_60s", "drops": [{"t", "pct", "line"}], "ctr", "likes", "comments", "subs", "caption_langs" }]`.
+4. `lessons.md`-ni yenilə (qayda yalnız ≥ 2 videonun sübutu ilə). `published.md`-də "Son statistika"nı yenilə.
 
 ## 3/10 Araşdırma (subagentlər, paralel)
-**Gündəm:** ən son `content/news/*.md` 24 saatdan köhnədirsə və ya yoxdursa, əvvəlcə `.claude/skills/gundem/SKILL.md`-ni icra et. Gündəm ideyası seçiləndə aşağıdakı A agenti şirkət faktı ilə yanaşı xəbərin rəsmi mənbəsini də yoxlayır.
-İki `researcher` agentini **eyni mesajda** işə sal:
-- **A. Mövzunun faktları:** xəbərin/alətin birinci mənbəyi (tarix, rəqəmlər, qısa sitatlar, məhdudiyyətlər, rəqib nəticələr), test varsa `work/tests/<slug>/` nəticələri. Şirkətin öz hadisələri və kanalın keçmiş videoları toplanmır: videoda danışılmır (RULES §3, sahib 2026-09-26).
-- **B. Bazar və SEO:** YouTube autocomplete (`suggestqueries…&ds=yt&q=`, RULES §8) ilə "ai agents", "ai employees", "ai company", "ai startup" və mövzuya aid sözlərə bax. Son ayın oxşar Shorts-larını və nəyin işlədiyini araşdır. Nəticə: 5–10 açar söz (populyarlıq əlaməti ilə) və 3 hook nümunəsi.
+Mövzunu seç: `/video <mövzu>` verilibsə o, yoxsa `ideas.md` → "Prioritet" növbəsi. Son 10 epizodla eyni mövzu və ya eyni əsas səbəb olmamalıdır, ardıcıl 3 video eyni sahədən olmur. **Monetizasiya süzgəci (RULES §12.3) mövzu seçiləndə tətbiq olunur:** mövzu siyahıdakı sahələrə yaxındırsa, başqa mövzu seç.
+Epizodun `area`, `outfit` və `props` sahələrini `character.md` → "Geyim və əşyalar" cədvəlindən seç.
 
-Hər ikisinin nəticəsini `content/reports/YYYY-MM-DD-<slug>.md`-yə yaz:
+İki `researcher` agentini **eyni mesajda** işə sal:
+- **A. Mövzunun faktları:** sual üzrə **ən azı 6 səbəb namizədi**, hər biri üçün konkret hekayə (insan, yer, tarix), rəqəmlər və birinci mənbə. Ən azı 5 mənbə, onlardan 2-si rəsmi/akademik (RULES §6). Soyuq açılış üçün 3 güclü səhnə namizədi (zaman + məkan + hiss detalı + təəccüblü fakt). Viktorina üçün 2 sual (cavabı təəccüblü rəqəm). Mənbələr razılaşmayan yerlər. İctimai mülkiyyətdə olan arxiv şəkilləri və sənədlər (URL + lisenziya).
+- **B. Bazar və SEO:** YouTube autocomplete (RULES §8) ilə mövzunun axtarış ifadələri. Eyni mövzuda mövcud videolar (ingiliscə və digər dillərdə): başlıq, uzunluq, baxış, hansı bucaqdan danışılıb. Bizim fərqli bucağımız nə ola bilər? Nəticə: 5–10 açar söz, 3 başlıq namizədi, 3 thumbnail ziddiyyət ideyası.
+
+Nəticəni `content/reports/YYYY-MM-DD-<slug>.md`-yə yaz:
 ```
 # <tarix> · <slug>
-## Şirkətdən real faktlar   (A, mənbələrlə)
-## Açar sözlər və trendlər  (B)
-## Seçilən ideya və niyə
-## İstehsal qeydləri        (sonrakı addımlarda doldurulur: problemlər, vaxt, limitlər)
+## Sual və bucaq
+## Səbəblər (mənbələrlə, hər iddia sətir-sətir)
+## Soyuq açılış namizədləri
+## Açar sözlər və rəqib videolar (B)
+## Fakt yoxlaması            (4-cü addımda doldurulur)
+## İstehsal qeydləri         (sonrakı addımlarda: problemlər, vaxt, limitlər)
 ```
-Sonra `status: "script"` et.
+`status: "script"`.
 
-## 4/10 İdeya və ssenari
-1. İdeyanı seç: `/video <mövzu>` verilibsə o, yoxsa `ideas.md` (əvvəlcə "Gündəm" bölməsi, vaxtı keçməyənlər) + A-nın mövzu faktları + `lessons.md`. İdeyada **ən azı bir real fakt** olmalıdır (RULES §5, §13).
-   - **Long "tested X":** əvvəlcə real test: CEO kimi `builder`/`researcher` agentlərinə aləti real tapşırıqda sınamağı tapşır (`work/tests/<slug>/`). Tapşırığın nəticəsi **vizual** olmalıdır: simulyasiya, animasiya, oyun, 3D və ya motion klip (RULES §2). Nəticənin interaktiv ekran yazısı çəkilir: klik, slider, rejim dəyişmək. Nəticəni (nə alındı, nə alınmadı, vaxt, rəqəmlər) hesabata yaz. Ssenari bu nəticəyə əsaslanır, uydurma nəticə olmur.
-   - **Short-from:** qrafikləri şaquli yaz (`graphics.html?v=1` + `record_page --vertical`, məzmun yuxarı 60%-də, altyazıya dəyməsin). Long-un `script.md` + `timeline.json`-undan 30–55 saniyəlik ən güclü parçanı seç, yeni hook yaz, 9:16 kadrlar hazırla (long şəkilləri blur-fit ilə, açar kadr üçün yeni 2:3 şəkil).
-2. `marketer` agentinə ssenari yazdır. Ona RULES §3-ü, **§3a-nı (danışıq tərzi)**, xarakter faylını, seçilmiş faktı, açar sözləri və `lessons.md`-ni ver. Nəticə `episode.json` (sxem yuxarıda) və `script.md` olur: kadr, səs, mətn və vizual cədvəl şəklində.
-3. CEO kimi yoxla. Bu siyahıdan biri pozulursa, düzəlt:
-   - [ ] ilk 2 saniyədə hook var;
-   - [ ] punchline videonun ~80%-indədir;
-   - [ ] son cümlə dövrə vurur;
-   - [ ] short 30–55 saniyədir (~2.5 söz/s ilə yoxla); long 6–10 dəqiqədir, RULES §3b quruluşu var, `chapter` yalnız fəslin İLK shot-unda (hər shot-da olsa chapters.py hər kadrı fəsil sayır), fəsillər ≥ 60 s;
-   - [ ] short: 6–12 kadr, 1–2-si ofis B-roll; long: kadr hər 3–8 saniyədə dəyişir, ofis və ekran yazısı var, poza kitabxanasından ≤ 50%;
-   - [ ] cümlələr ≤ 12 sözdür;
-   - [ ] danışıq dilidir (§3a): qısaltmalar var, cümlələr axır, `[pause]` ən çox 1 dəfədir (yalnız əsas punchline-dan əvvəl), qırıq-qırıq nöqtəli cümlələr, rəsmi söz və siyahı yoxdur;
-   - [ ] **ton səmimi, canlı reaksiyadır** (§3a): long və testdə tək aparıcı KAXO birinci şəxsdə danışır; reaksiya cümlələri kadrın həmin anına bağlıdır; hər tərifdən sonra səbəb gəlir; eyni tərif sözü ≤ 2 dəfədir; ən azı bir zəif yer deyilir; test nəticəsi vizualdır və vaxtın ≥ 50%-ində ekrandadır;
-   - [ ] **tanıtım videosu deyil** (§3): video bir mövzu haqqındadır, özünü təqdimat deyil; kanalın keçmiş videolarından, statistikasından və şirkətin real hadisələrindən danışılmır, yalnız mövzu;
-   - [ ] hər cümləni ucadan oxu: robot kimi səslənən cümləni yenidən yaz;
-   - [ ] qadağalar yoxdur (§6);
-   - [ ] real fakt düzgündür;
-   - [ ] əvvəlki epizodların təkrarı deyil (`published.md` və son 10 epizodun `script.md`-si ilə müqayisə et: eyni skelet və ya zarafat olmamalıdır);
-   - [ ] **monetizasiya (RULES §12):** orijinal baxış və ya real fakt var; başqa mənbə oxunmur; KAXO-nun ən azı 2 fərqli səhnəsi var; söyüş, spirt, zorakılıq, sensasiya yoxdur. Nəticəni hesabata `Monetizasiya: …` sətri ilə yaz.
-4. `ideas.md`-də ideyanı `✓ <epizod>` ilə işarələ. `status: "images"`.
+## 4/10 Ssenari və fakt yoxlaması
+1. 4–6 səbəb seç. **Ən güclü səbəb ortaya və ya sona** qoyulur, ilk fəsil sürətli və vizual olur (RULES §3.2).
+2. `marketer` agentinə ssenari yazdır (brifin ilk sətri: "Plain, simple, flowing English: everyday words, one idea per sentence, ~12 words on average, never over 18, explain any term right away"). Ona RULES §3, §4, §7, xarakter faylını, hesabatı, açar sözləri və `lessons.md`-ni ver. Nəticə: `episode.json` (sxem yuxarıda) və `script.md` (kadr, mətn, vizual, fəsil cədvəli).
+3. **Fakt yoxlaması:** `qa` agentinə ssenari + hesabatı ver: hər iddianı mənbə ilə tutuşdursun, mənbəsiz və ya şişirdilmiş iddiaları çıxarsın. Nəticəni hesabata `Fakt yoxlaması: N iddia, N təsdiq, N düzəliş` sətri ilə yaz və düzəlişləri ssenariyə tətbiq et. `status: "factcheck"` → yoxlama bitəndə növbəti siyahıya keç.
+4. CEO kimi yoxla. Bu siyahıdan biri pozulursa, düzəlt:
+   - [ ] **uzunluq:** ssenaridə ≥ 1 250 söz (hədəf 1 350–1 600; ~150 söz/dəq) → final ≥ 8:00;
+   - [ ] **0–15 s:** zaman + məkan möhürü olan ikinci şəxs səhnəsi və 15-ci saniyəyə qədər təəccüblü fakt; salam, təqdimat, loqo, "in this video" yoxdur;
+   - [ ] **≤ 45 s:** əsas sual başlıqdakı kimi deyilib;
+   - [ ] **45–90 s:** "N reasons" vədi + 2–3 açıq döngü teaser-i; hamısı videoda yerinə yetirilir;
+   - [ ] birinci fəsil ən gec 1:45-də başlayır;
+   - [ ] 4–6 fəsil, hər biri 60–150 s, hər birində mini-hook → hekayə (insan/yer/il) → rəqəm → nəticə → Answer Puzzle hissəsi → körpü cümləsi;
+   - [ ] ~30%, ~50%, ~70%-də yenidən hook var;
+   - [ ] hər 30–60 s-də pattern interrupt var (viktorina 1–2, "imagine you're…", danışan heyvan ≤ 2, xəritə, sənəd, qrafik); eyni tip ardıcıl deyil;
+   - [ ] orta abunə çağırışı bir dəfə, ~50–60%-də, bir cümlə;
+   - [ ] final: cavab + soyuq açılışa callback + stinger + növbəti videoya körpü; son 20 s sakit kadr;
+   - [ ] **sadə və axıcı dil (RULES §4, sahib 2026-10-31):** gündəlik sözlər, termin olarsa dərhal sadə izah, bir cümlə bir fikir, aktiv dil, cümlədə ən çox bir rəqəm, keçidlər axıcı. Məcburi ölçü (boş "FIX" olmamalıdır):
+     `tools/video/.venv/Scripts/python tools/video/readability.py content/episodes/<epizod>` → orta ≤ 13 söz, 18 sözdən uzun cümlə yoxdur, Flesch ≥ 70, rəsmi söz yoxdur. Keçmirsə, göstərilən cümlələri böl və sözləri sadələşdir, yenidən ölç;
+   - [ ] danışıq (RULES §4): "you" ilə müraciət, qısaltmalar, ritm dəyişir, `[pause]` ≤ 1, siyahı və rəsmi söz yoxdur, hər cümləni ucadan oxu;
+   - [ ] qlobal bucaq: "biz" bir millət deyil, yer adı açıq deyilir (RULES §1);
+   - [ ] yetkin auditoriya üçündür: uşaq tonu, "kids" müraciəti, nağıl dili yoxdur (RULES §12.4);
+   - [ ] reklam uyğunluğu (RULES §12.3): başlıqda, thumbnail-də və ilk 30 s-də cinsəllik, narkotik, silah, xəstəlik, faciə, şok, söyüş yoxdur;
+   - [ ] həssas mövzular (RULES §7): heç bir mədəniyyət ələ salınmır, qan və kəsim yoxdur;
+   - [ ] kadr hər 3–7 s-də dəyişir, KAXO kadrların ~35–50%-ində;
+   - [ ] əvvəlki epizodların təkrarı deyil (son 10 epizodun `script.md`-si ilə: eyni soyuq açılış tipi, eyni zarafat, eyni viktorina yoxdur);
+   - [ ] **monetizasiya (RULES §12.6):** hesabata `Monetizasiya: …` sətri; hər hansı ✗ varsa düzəlt, sonra davam et.
+5. `ideas.md`-də ideyanı `✓ <epizod>` ilə işarələ. `status: "images"`.
 
-## 5/10 Şəkillər: ChatGPT (Claude in Chrome)
+## 5/10 Vizual: kodla səhnələr (Remotion)
+Video səhnələri **kodla** qurulur (RULES §5.0). ChatGPT burada işlədilmir.
+Mühərrik: `tools/remotion/` (Remotion, React). İlk epizodda layihə qurulur, sonrakı epizodlar onun komponentlərini təkrar işlədir:
+```
+tools/remotion/src/
+  Root.tsx              kompozisiya: <Episode> 1920x1080 30fps, props = episode.json + timeline.json
+  Episode.tsx           shot-ları timeline-a görə ardıcıl düzür (Sequence), keçidlər
+  kaxo/Kaxo.tsx         KAXO puppet: qatlar (baş, gözlər, ağız, qollar, bədən, kostyum), qırpma, səslə ağız, jestlər
+  scenes/*.tsx          fonlar və tarixi səhnələr (SVG), parallax kamera
+  graphics/*.tsx        Chapter, Quiz, AnswerPuzzle, Label, Chart, Map, Archive (arxiv şəkli + Ken Burns)
+public/                 epizodun audio/voice.wav, arxiv şəkilləri, kaxo-rig SVG-ləri (render zamanı kopyalanır)
+```
+1. **KAXO rig-i** (`content/assets/kaxo-rig/`) yoxdursa, əvvəl onu qur: dizayn vərəqlərini (`reference.png`, `expressions.png`, `outfits.png`) Illustrator Image Trace (ExtendScript ilə) və ya `vtracer` ilə vektora çevir, hissələrə böl (baş, saç, eynək, gözlər açıq/yumulu, 4–6 ağız forması, qollar: yanda/göstərir/yumruq, bədən hər kostyum üçün), SVG kimi saxla. Nəticəni kadr-kadr yoxla: KAXO referansa uyğundur, kontur və rənglər düzdür.
+2. Hər shot üçün `episode.json`-da vizual sahəsi: `"scene"` (fon/tarixi səhnə komponenti), `"kaxo"` (`{"pose": "point|idle|think|shrug", "expr": "smile|surprised|laugh|think", "x": 0.75}` və ya `null`), `"graphic"` (`{"type": "quiz|puzzle|chapter|label|chart|map|archive", ...}`), `"camera"` (`zoom_in|pan_left|static`). Tarixi səhnəyə "giriş"də shot-un öz `outfit` sahəsi ola bilər.
+3. Yeni fon və ya tarixi səhnə lazımdırsa, `scenes/`-də SVG komponenti kimi yaz (düz rənglər, qalın kontur, palitra) və ya Illustrator-da çəkib `content/assets/scenes/`-ə SVG kimi saxla. Bir səhnə bir neçə shot-da kamera bucağı dəyişərək işlədilir.
+4. **Blender** yalnız kod/2D ilə alınmayan şey üçün: 3D obyekt, mürəkkəb kamera uçuşu, Grease Pencil animasiyası. Python skripti `work/blender/<epizod>/`-də saxlanılır, render `clips/`-ə gedir və shot-da `"clip"` kimi işlədilir.
+5. **İzləyici baxışı (məcburi, render-dən sonra):** `final.mp4`-dən hər 4 saniyədə bir kadr çıxar (`fps=1/4`), 24 kadrlıq vərəqlərə yığ və mətnlə birlikdə izləyici kimi bax. RULES §5.0 "Vizual keyfiyyət" siyahısını yoxla: boş kadr, hadisənin göstərilməməsi, studiya > 15%, ağ yazı kartları, təkrar. Pozuntu varsa, səhnəni düzəlt və yenidən render et; sahibə yalnız bundan sonra göstər.
+6. Ara yoxlama: `npx remotion still` ilə hər fəsildən 1–2 kadr çıxar və `Read` ilə bax (KAXO düzdür, mətn kəsilmir, ekranda altyazı yoxdur).
+7. `status: "graphics"`.
+
+## 6/10 Qrafika: xəritə, qrafik, viktorina, Answer Puzzle, arxiv
+Bütün ekran mətnləri burada kodla yazılır, AI şəklinə yox (RULES §5). Əsas yol Remotion komponentləridir (`tools/remotion/src/graphics/`); aşağıdakı HTML şablonu (`tools/video/graphics/kaxo.html` + `record_page.js`) ehtiyat yoldur.
+1. `graphics/<ad>.html` faylları: 1920×1080, kanalın palitrası (krem fon `#FFF6E5`, tünd kontur `#2B2118`, tomat `#FF4D2E`, xardal `#F2B33D`, zeytun `#6B7A3A`), qalın yuvarlaq şrift, CSS animasiyası (2–6 s). Nümunə şablon `work/tests/opus-5-5/graphics.html`-dədir; yeni kanal üçün ilk epizodda `tools/video/graphics/` altında təkrar istifadə olunan şablonlar yaradılır:
+   - **map:** ölkə/marşrut xəritəsi (SVG, ictimai mülkiyyət: Natural Earth), oxla hərəkət;
+   - **chart:** sadə sütun və ya xətt qrafiki, mənbə küncdə;
+   - **quiz:** sual + 3 variant, 3 s geri sayım, sonra düzgün variant işıqlanır;
+   - **puzzle:** Answer Puzzle: N hissəli jigsaw çərçivəsi, `?step=k` ilə k hissə yerində (hər hissədə səbəbin 1–2 sözlük adı), yeni hissə animasiya ilə oturur; `?step=N` tam şəkli (mövzunun ikonası) göstərir;
+   - **chapter:** fəsil kartı ("1. The Ban");
+   - **label:** tarix/yer etiketi (şəklin üstünə ayrıca klip kimi deyil, `assemble.py` overlay dəstəyi yoxdursa, kart kimi).
+2. Klip kimi yaz:
+   ```bash
+   node tools/video/record_page.js "file:///<tam yol>/graphics/puzzle.html?step=2" content/episodes/<epizod>/clips/puzzle-2.webm 5
+   ```
+   Çıxışdakı "content from Xs" = `clip_start`.
+3. **Arxiv sənədləri və köhnə xəritələr:** yalnız ictimai mülkiyyət və ya açıq lisenziya (Wikimedia Commons-da lisenziya sətri, Library of Congress, Europeana, muzey açıq kolleksiyaları). Fayl `images/<id>.png`-ə, mənbə və lisenziya `clips/sources.json`-a yazılır.
+4. Stock video yalnız zərurət olanda (≤ 5%, `tools/video/stock.py`, müəllif `clips/stock.json`-a).
+5. `status: "audio"`.
+
+## 7/10 Səs və montaj
+```bash
+tools/video/.venv/Scripts/python tools/video/tts.py      content/episodes/<epizod>
+# video: Remotion (əsas yol)
+cd tools/remotion && npx remotion render Episode ../../content/episodes/<epizod>/video/final.mp4 --props=../../content/episodes/<epizod>/episode.json
+tools/video/.venv/Scripts/python tools/video/chapters.py content/episodes/<epizod>
+```
+- Səs: `kaxo` rolu (`character.md` → "Səs", `tts.py` → `DEFAULT_VOICES`). Robot kimi səslənən cümləni danışıq dilində yenidən yaz, per-line `speed` ver (0.92–1.05).
+- Remotion render altyazısızdır. Səs axınını yoxla (ffprobe: audio müddəti video müddətinə bərabərdir). `assemble.py` (şəkil + səs, altyazısız) yalnız ehtiyat yoldur. Son montaj, səs miksi və ya rəng düzəlişi lazım olsa **Premiere Pro** işlədilir və nə edildiyi hesabata yazılır.
+- **Uzunluq (məcburi):** `timeline.json` → `duration` **≥ 480 s**. Qısadırsa, ssenariyə yeni səbəb, hekayə və ya müqayisə əlavə et (doldurma yox) və 4-cü addımdan təkrarla.
+- **Sükut yoxlaması (məcburi):** `voice.wav`-da ≥ 120 ms sükutların cəmi < 10%, ən uzunu ≤ 0.35 s:
+  `tools/video/.venv/Scripts/python -c "import soundfile as sf,numpy as np;a,sr=sf.read('<epizod>/audio/voice.wav');fr=int(.01*sr);q=np.array([np.abs(a[i:i+fr]).max()<.02 for i in range(0,len(a)-fr,fr)]);import itertools;g=[len(list(x))/100 for k,x in itertools.groupby(q) if k];g=[x for x in g if x>=.12];print(round(sum(g),2),'/',round(len(a)/sr,1),'max',max(g,default=0))"`
+- **Ağ/qara kadr yoxlaması (məcburi):** klipin 0-cı kadrı çox vaxt yüklənmə ekranıdır. `clip_start` ən az `record_page`-in "content from" dəyəri olmalıdır. Montajdan sonra:
+  `"$F" -hide_banner -i <epizod>/video/final.mp4 -vf "fps=8,scale=64:36,signalstats,metadata=print:key=lavfi.signalstats.YAVG" -an -f null - 2>&1 | tr '\r' '\n' | grep -oE "pts_time:[0-9.]+|YAVG=[0-9.]+" | paste -d' ' - - | sed 's/pts_time://; s/YAVG=//' | tools/video/.venv/Scripts/python -c "import sys;[print(l,end='') for l in sys.stdin if not 6<=float(l.split()[1])<=235]"` (`$F` = imageio-ffmpeg; krem fonlu qrafika ~230 verir, normaldır).
+- **Fəsillər:** `chapters.py` ≥ 3 fəsil və hər biri ≥ 10 s verməlidir (YouTube şərti). İlk fəsil `00:00 Intro`-dur.
+- Yoxlama: `final.mp4`-dən 0:05, 0:40, 1:30 və ortadan kadr çıxar (`-ss <s> -frames:v 1`) və `Read` ilə bax: ekranda altyazı yoxdur, kadr boş deyil, Answer Puzzle düzgün addımdadır.
+- `status: "subs"`.
+
+## 8/10 Altyazılar (10 dil) və SEO
+**Altyazılar:**
+```bash
+tools/video/.venv/Scripts/python tools/video/subs.py content/episodes/<epizod>    # -> subs/captions.en.srt
+```
+1. `marketer` agentinə `captions.en.srt` + RULES §15-i ver: 9 tərcümə yazsın: `captions.es.srt`, `captions.pt.srt`, `captions.ru.srt`, `captions.tr.srt`, `captions.zh-Hans.srt`, `captions.ja.srt`, `captions.ko.srt`, `captions.ar.srt`, `captions.fa.srt`. Cue nömrələri və vaxt kodları **eynən** qalır, yalnız mətn tərcümə olunur. Agent bir dəfəyə 3 dildən çox etməsin (uzun fayl, keyfiyyət).
+2. Yoxla (boş çıxış = təmiz):
+   ```bash
+   tools/video/.venv/Scripts/python -c "import re,glob,sys;d=sys.argv[1];f=lambda p:re.findall(r'(\d+)\n(\d\d:\d\d:\d\d,\d{3} --> \d\d:\d\d:\d\d,\d{3})\n(.+?)(?:\n\n|\Z)',open(p,encoding='utf-8').read().strip()+'\n\n',re.S);en=f(d+'/subs/captions.en.srt');[print(p,len(c),'vs',len(en)) for p in glob.glob(d+'/subs/captions.*.srt') for c in [f(p)] if [x[:2] for x in c]!=[x[:2] for x in en] or any(not x[2].strip() for x in c)]" content/episodes/<epizod>
+   ```
+3. Bir-iki dildə (məsələn, tr və ru) 5 təsadüfi cue-nu oxu: təbiidir, rəqəm və adlar dəyişməyib.
+
+**SEO:** RULES §8-ə əsasən `seo.json`:
+```json
+{ "title": "…", "title_alternatives": ["…", "…"], "description": "…", "tags": ["…"],
+  "hashtags": ["#<sahə: foodhistory|prehistory|animalbehavior|humanbody|inventions>", "#kaxo", "#…"],
+  "category": "Education", "language": "en", "made_for_kids": false, "altered_content": false,
+  "playlists": ["Why Don't We Eat It?"], "chapters": "video/chapters.txt",
+  "captions": { "en": "subs/captions.en.srt", "es": "subs/captions.es.srt", "pt": "subs/captions.pt.srt",
+                "ru": "subs/captions.ru.srt", "tr": "subs/captions.tr.srt", "zh-Hans": "subs/captions.zh-Hans.srt",
+                "ja": "subs/captions.ja.srt", "ko": "subs/captions.ko.srt", "ar": "subs/captions.ar.srt", "fa": "subs/captions.fa.srt" },
+  "localizations": { "es": { "title": "…", "description": "…" }, "…": {} },
+  "sources": ["<təsvirdəki nömrələnmiş mənbələr>"],
+  "ai_note": "Narration and illustrations made with AI tools; script researched and fact-checked from the sources above.",
+  "thumbnail": "thumb/thumbnail.png", "keywords_used": ["…"] }
+```
+- Başlığın və təsvirin 9 dilə tərcüməsi də `marketer`-dən gəlir (`localizations`). Təsvirin tərcüməsində fəsil vaxtları və mənbə adları dəyişmir, fəsil adları tərcümə olunur.
+
+**Thumbnail:** `.claude/skills/thumbnail/SKILL.md` (`content/THUMBNAILS.md` qaydaları). `status: "review"`.
+
+## 9/10 Sahibin baxışı və təsdiqi
+1. Videonu aç: `Start-Process "<tam yol>\video\final.mp4"` (PowerShell).
+2. Sahibə qısa xülasə göstər: sual və səbəblər; müddət (≥ 8:00); ilk 30 saniyənin mətni; başlıq və 2 alternativ; thumbnail (`Start-Process`); fakt yoxlaması sətri; monetizasiya yoxlaması (RULES §12.6; risk aşağı deyilsə, təsdiq variantını göstərmə); altyazı dilləri (10/10).
+3. `AskUserQuestion`: **Təsdiq, paylaş** / **Düzəliş lazımdır** / **Ləğv et**.
+   - **Düzəliş:** nəyin dəyişəcəyini soruş, uyğun addıma qayıt, sonra yenidən bu addıma gəl.
+   - **Ləğv:** `status: "done"` + hesabata səbəb. Paylaşma.
+   - **Təsdiq:** `status: "approved"`.
+
+## 10/10 Paylaşma, qeyd, hesabat, təmizlik
+**Yalnız `status: "approved"` olanda.**
+1. Claude in Chrome ilə `https://studio.youtube.com/channel/<ID>/videos/upload?d=ud` aç. **`file_upload` limiti 10 MB-dır**, `final.mp4` ondan böyükdür: sahibdən faylı yükləmə pəncərəsinə sürükləməsini xahiş et (`explorer /select,<yol>`), sonra formu sən doldur.
+   - Yükləmə pəncərəsində **`Esc` basma** (dialoq bağlanır, video Draft qalır).
+   - Kanal telefonla təsdiqlənməyibsə, xüsusi thumbnail səssizcə rədd olunur və təsvirdəki linklər kliklənmir: sahibdən `youtube.com/verify` istə.
+   - Dropdown-lar (dil, kateqoriya): variantı JS ilə `innerText` üzrə tap və `.click()` et.
+2. `seo.json`-dan doldur: başlıq, təsvir (fəsillər, mənbələr, AI sətri, hashtag-lar), tag-lar, playlist(lər) (yoxdursa PLAYLISTS.md-dəki ad və təsvirlə yarat, `published.md`-yə yaz), "No, it's not made for kids", kateqoriya Education, dil English, altered content "No", thumbnail.
+3. **Bəyanlar sahibindir:** "Made for kids", "Paid promotion" və "AI use" sualları hüquqi bəyandır; auto mode klassifikatoru Claude-a seçməyə icazə vermir. Sahibə hər birinin düzgün cavabını izah et (adətən No / No / No: cizgi, real insan və real görünən səhnə yoxdur), seçimi sahib edir.
+4. **Altyazılar və lokalizasiya (dərcdən sonra, Studio → video → Languages; 2026-10-31-də işləyən üsul):**
+   - **İngiliscə:** "Edit subtitles" → editorun ⋮ menyusu → **Upload file** → "With timing" dialoqu açıq ikən gizli `input[type=file]` (valideyni `YTVE-CAPTIONS-EDITOR-UPLOAD-DIALOG`) → `file_upload` → editorda ilk cue bizim mətndirsə **Publish**. ("Upload manual" düyməsi ilə birbaşa yükləmə qəbul olunmadı; "Continue" basma: Windows fayl pəncərəsi açılır.)
+   - **Digər 9 dil:** "Add language" → dil seçilir → dialoqda Title + Description doldurulur (`#textbox`, `execCommand('insertText')`) → "Manual subtitles" **Add** → "Save changes" (başlıq/təsvir dərc olunur) → editorda "Upload file" sətrinə kliklə → editor-upload input-a `file_upload` → ilk cue yoxlanır → Publish. Menyudan bir neçə dili ardıcıl seçmə: hər seçim dialoq açır və növbəti klik onu bağlayır.
+   - Yoxlama: YouTube Data API `videos?part=status,localizations,contentDetails` → `caption: true`, `localizations` 10 dil, `madeForKids: false`.
+5. Görünürlük **Public** (sahib başqa vaxt deyibsə, **Schedule**). "Publish"-dən əvvəl formanı `read_page` ilə yoxla. Dərcdən sonra YouTube Data API ilə (`.env`-dəki açar, dəyəri çap etmə) `localizations` və `captions` siyahısında 10 dili yoxla.
+6. `published.md` → "KAXO" cədvəlinə sətir (playlist, altyazı dilləri), `status: "published"`. Sonradan kəsiləcək short üçün `ideas.md`-yə `[short-from] <epizod>` yaz.
+7. Yeni keyfiyyətli KAXO şəkillərini `content/character/poses/`-a köçür və README cədvəlinə əlavə et.
+8. Hesabatın "İstehsal qeydləri"ni tamamla. Təmizlik: `tools/video/.venv/Scripts/python tools/video/housekeeping.py` (dry run) → faydalı nəticələri `lessons.md`/`ideas.md`-yə köçür → `--apply`.
+9. `status: "done"`. Sahibə yekun: link, müddət, növbəti tövsiyə olunan mövzu.
+
+## Short-from (long-dan kəsik)
+1. Long-un `script.md` + `timeline.json`-undan 30–55 saniyəlik ən güclü parçanı seç (ən təəccüblü fakt və ya viktorina).
+2. Yeni hook yaz (ilk 2 s-də sual və ya şok faktı), sonda long-a çağırış: "The full story is on the channel."
+3. Kadrlar 9:16: long şəkilləri blur-fit, açar kadr üçün yeni 2:3 şəkil, qrafika `record_page.js --vertical`.
+4. Səs → montaj (altyazısız) → `subs.py` + 9 tərcümə → SEO (`#shorts`, təsvirdə long-un linki) → sahibin təsdiqi → paylaşma. Short-u 10 MB-dan aşağı sıxıb (`-c:v h264_nvenc -b:v 1.8M -maxrate 2.2M -c:a copy video/upload.mp4`) özün `file_upload` et.
+
+## Səhv hallar
+| Hal | Nə etməli |
+|---|---|
+| Kokoro import xətası | `tools/video/.venv/Scripts/python -m pip install kokoro-onnx soundfile`. Modellər: `github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0` → `tools/video/models/` |
+| ffmpeg xətası | `assemble.py` stderr-i göstərir. Ən çox rast gəlinən səbəb çatışmayan şəkildir (`missing image`) |
+| `ModuleNotFoundError` | Paketi venv-ə qur: `tools/video/.venv/Scripts/python -m pip install <paket>`. Qlobal `pip install` etmə |
+| Video 8:00-dan qısadır | Ssenariyə yeni səbəb və ya hekayə əlavə et, 4-cü addımdan təkrarla. Templə uzatma |
+| Tərcümədə cue sayı fərqlidir | Agentə həmin dili yenidən yazdır, cue-ları birləşdirmək və bölmək qadağandır |
+| ChatGPT selektoru dəyişib | `find` / `read_page` ilə tap, JS nümunəsini yenilə və bu skill-də düzəlt |
+| YouTube Studio forması dəyişib | `read_page` ilə sahələri tap. Əmin deyilsənsə, sahibdən soruş, təxmini klik etmə |
+| `stock.py`: 401/403 | Açar səhvdir və ya limit dolub. O biri mənbəyə keç (`--source`) |
+| Brauzer icazəsi yoxdur | Sahibə yaz: Claude in Chrome-da `chatgpt.com` və `studio.youtube.com` üçün icazə lazımdır |
+
+## Əlavə: ChatGPT brauzer qaydaları (yalnız thumbnail və personaj vərəqləri)
+Video səhnələri ChatGPT ilə yaradılmır (RULES §5.0). Bu qaydalar `/thumbnail` və personaj vərəqləri üçündür.
+
 Brauzer alətlərini **bir** ToolSearch çağırışı ilə yüklə: `tabs_context_mcp`, `tabs_create_mcp`, `navigate`, `computer`, `find`, `read_page`, `file_upload`, `javascript_tool`.
 
-**Əvvəlcədən bil (epizod 1 təcrübəsi):**
-- Chrome-da `chatgpt.com` üçün **Automatic downloads = Allow** olmalıdır, yoxsa 4–5 şəkildən sonra endirmələr səssizcə bloklanır. Bloklanıbsa, sahibdən icazə istə. Blok açılanda gecikmiş endirmələr bir neçə nüsxə ilə gəlir, artıq nüsxələri sil.
-- `file_upload` yalnız sessiya ilə paylaşılmış faylları qəbul edir. `reference.png` rədd olunarsa, sahibdən faylı ChatGPT pəncərəsinə sürükləməsini xahiş et.
-- **Brauzer donursa (epizod 2):** səbəb çox vaxt CPU-dur. `tts.py` (Kokoro) bütün nüvələri tutur və Chrome renderer cavab vermir. Şəkilləri **TTS-dən əvvəl** bitir, ya da TTS işləyərkən brauzerə toxunma.
-- Uzun prompt-u `computer type` ilə hərf-hərf yazma (donur). Mətni JS ilə daxil et: `const e=document.querySelector('#prompt-textarea'); e.focus(); document.execCommand('insertText', false, "<prompt>")`, sonra `Return`. Gözləməni JS dövrü ilə yox, `computer wait` (4×10 s) + screenshot ilə et.
-- Endirəndə son şəkli sayla yox, **başlığı (`alt`) ilə** seç: eyni şəklin səhifədə bir neçə `src` nüsxəsi olur, say səhv nəticə verir. Donma zamanı göndərilən mesaj sonradan gedə bilər (ikiqat generasiya), əvvəlcə ekrana bax.
-- Söhbət 7–8 böyük şəkildən sonra ağırlaşır. Yeni söhbət aç: referans + artıq alınmış bir səhnə şəklini (üslub və robotlar üçün) birlikdə yüklə.
-- `javascript_tool` 45 saniyədə timeout olur. Gözləmə dövrünü ≤ 32 s saxla və lazım olsa təkrar çağır.
-- Yeni şəkil `img[alt^="Generated image"]` ilə tapılır. ChatGPT-nin CSP qaydası `localhost`-a sorğunu bloklayır, ona görə yalnız endirmə yolu işləyir.
+**Əvvəlcədən bil (əvvəlki epizodların təcrübəsi):**
+- Chrome-da `chatgpt.com` üçün **Automatic downloads = Allow** olmalıdır, yoxsa 4–5 şəkildən sonra endirmələr səssizcə bloklanır.
+- `file_upload` yalnız layihə yolundakı faylı qəbul edir (scratchpad nüsxəsi rədd olunur). Rədd olunarsa, sahibdən faylı ChatGPT pəncərəsinə sürükləməsini xahiş et.
+- **Brauzer donursa:** səbəb çox vaxt CPU-dur. `tts.py` bütün nüvələri tutur. Şəkilləri **TTS-dən əvvəl** bitir.
+- Uzun prompt-u `computer type` ilə yazma. JS ilə daxil et: `const e=document.querySelector('#prompt-textarea'); e.focus(); document.execCommand('insertText', false, "<prompt>")`, sonra `Return`. Gözləmə: `computer wait` (4×10 s) + screenshot.
+- Endirəndə son şəkli **`alt` başlığı ilə** seç. Donma zamanı göndərilən mesaj ikiqat generasiya verə bilər, əvvəlcə ekrana bax.
+- Söhbət 7–8 böyük şəkildən sonra ağırlaşır. Yeni söhbət aç: referans + artıq alınmış bir səhnə şəklini (üslub üçün) birlikdə yüklə. Long epizod ~60–100 kadrdır, ona görə bir neçə söhbət və bir neçə gün (limit) normaldır.
+- `javascript_tool` 45 s-də timeout olur. Gözləmə dövrünü ≤ 32 s saxla.
+- Yeni şəkil `img[alt^="Generated image"]` ilə tapılır. ChatGPT-nin CSP-si `localhost`-a sorğunu bloklayır, yalnız endirmə yolu işləyir.
 
-1. `tabs_context_mcp` → yeni tab → `https://chatgpt.com`. Giriş ekranı görünürsə, sahibə yaz: **"ChatGPT hesabına daxil ol, hazır olanda de."** Sonra gözlə. Parol yazma, hesab yaratma.
-2. Yeni söhbət aç. Birinci mesaj:
-   - `content/character/reference.png` faylını `file_upload` ilə yüklə (layihə yolundan birbaşa işləyir; scratchpad-dakı nüsxə rədd olunur);
-   - mətn: `character.md`-dəki **stil prompt-u** + "This is KAXO, the main character. I will ask for several scenes of him. Always keep him exactly like this reference." + **ardıcıllıq bloku**.
+**Geyim:** KAXO olan hər prompt-da ardıcıllıq blokunun `{OUTFIT}` və `{PROPS}` yeri `episode.json`-dakı dəyərlə doldurulur. Tarixi səhnəyə "giriş" kadrında shot-un öz `outfit` sahəsi ola bilər.
+
+**Kadr qənaəti:** hər kadr yeni şəkil olmamalıdır. Bir şəkil `motion` + `crop` ilə 2 kadra bölünə bilər (geniş plan → yaxın plan). Xəritə, qrafik, sənəd və viktorina kadrları ChatGPT-dən deyil, 6-cı addımdan gəlir. KAXO-nun uyğun pozası `content/character/poses/`-da varsa, kopyala (epizodun ≤ 30%-i).
+
+1. `tabs_context_mcp` → yeni tab → `https://chatgpt.com`. Giriş ekranı görünürsə, sahibə yaz: **"ChatGPT hesabına daxil ol, hazır olanda de."** Parol yazma, hesab yaratma.
+2. Yeni söhbət. Birinci mesaj: `content/character/reference.png` (`file_upload`) + `character.md`-dəki **stil prompt-u** + "This is KAXO, the host of an animated explainer show for adults. His outfit changes with each topic, but his face, glasses, curly hair with the pencil behind his ear and small bag never change. I will ask for many scenes. Keep him exactly like this reference whenever he appears." + **ardıcıllıq bloku**.
 3. Hər kadr üçün (yalnız `images/<id>.png` hələ **olmayanlar**):
-   - əvvəlcə `content/character/poses/`-a bax: uyğun poza varsa, kopyala (`images/<id>.png`), yeni generasiya etmə (limit qənaəti, epizodun ≤ 50%-i);
-   - mesaj: `shot.prompt` + ardıcıllıq bloku (`{ASPECT}` formata görə: short `Vertical 2:3`, long `Horizontal 3:2 …`);
-   - generasiyanın bitməsini gözlə (şəkil elementi görünənə və "stop" düyməsi itənə qədər);
-   - yüklə: `javascript_tool` ilə son generasiya olunmuş şəkli götür və adlandırılmış fayl kimi endir:
+   - KAXO olan kadr: `shot.prompt` + ardıcıllıq bloku (`{ASPECT}` = `Horizontal 3:2 …`);
+   - KAXO olmayan tarixi səhnə: `shot.prompt` + "Same art style as before. No text, no captions, no watermark. Horizontal 3:2.";
+   - generasiyanın bitməsini gözlə, sonra endir:
      ```js
      (async () => {
        const imgs = [...document.querySelectorAll('img')].filter(i => i.naturalWidth >= 512 && /generated|image/i.test(i.alt || ''));
@@ -143,154 +287,6 @@ Brauzer alətlərini **bir** ToolSearch çağırışı ilə yüklə: `tabs_conte
        return img.naturalWidth + 'x' + img.naturalHeight;
      })()
      ```
-     (`SHOT_ID` əvəzinə kadr id-si. Selektor tapmırsa, `find` ilə "last generated image"-i tap və şəklin öz "Download" düyməsini istifadə et.)
    - köçür: `tools/video/.venv/Scripts/python tools/video/take_download.py content/episodes/<epizod> <id>`;
-   - yoxla: şəkli `Read` ilə aç. Xarakter referansa uyğundurmu, artıq mətn, qüsurlu əl və ya ikinci KAXO varmı? Uyğun deyilsə, səbəbini yazıb yenidən istə (ən çox 2 dəfə). Yenə alınmırsa, qeyd et və davam et.
-4. **Limit mesajı** gəlsə ("You've reached…", "limit", "try again after…"):
-   - dayan;
-   - hesabata limit vaxtını və qalan kadrları yaz;
-   - sahibə yaz: "ChatGPT limiti doldu, N kadr qalıb. İstəsən başqa hesaba özün keç, sonra 'davam' yaz. Ya da limitin yenilənməsini gözləyək (saat HH:MM)."
-   - Hesablar arasında özün keçid etmə. Sahib "davam" deyəndə 3-cü addımdan davam et (çatışmayan kadrlar).
-5. Long format üçün `thumbnail` kadrı da yaradılır: KAXO-nun böyük emosional üzü, sağda mətn üçün boş yer. `status: "broll"`.
-
-## 6/10 B-roll: ofis və ekran yazısı (real görüntü)
-**Ekran yazısı (xəbər və ya alət səhifəsi, long və news flash üçün):**
-```bash
-node tools/video/record_page.js <rəsmi URL> content/episodes/<epizod>/clips/<ad>.webm 12 --scroll          # long (16:9); intro animasiyası varsa --wait=5, kiçik ekran üçün qurulmuş səhifə --zoom=1.5
-# çıxışdakı "content from Xs" = episode.json-da clip_start (yükləmə qara ekranını keçmək üçün)
-node tools/video/record_page.js <rəsmi URL> content/episodes/<epizod>/clips/<ad>.webm 10 --scroll --mobile # short
-```
-Kliplər ≤ 15 s olur, yalnız rəsmi və ictimai səhifələrdən (RULES §13).
-
-**Ofis:**
-B-roll kadrları üçün real hadisələri ofisdə oynat və yaz. Hər ikisi eyni anda işləməlidir:
-```bash
-node demo.js --replay --speed 4 --from <ISO> --to <ISO>      # fonda
-node tools/video/record_office.js content/episodes/<epizod>/clips/office.webm <saniyə>
-```
-- `--from/--to` epizodun real faktının vaxt aralığıdır, `events.jsonl`-dan götürülür. Replay əvvəlcə `DemoReset` göndərir: lövhə və sayğaclar yalnız təkrar oynanan real hadisələri göstərir.
-- **Short-da ofis:** blur-fit ofisi çox kiçik göstərir. Masalara şaquli crop et: `"fit": "cover", "sharp": true, "crop": [x, 0.01, 0.31, 0.97]`. CEO+Kəşfiyyatçı üçün x≈0.095, Kəşfiyyatçı mərkəzdə x≈0.2. Bubble-ların kəsilmədiyini kadrdan yoxla.
-- Ssenarili demo (`node demo.js` arqumentsiz) videoya **düşmür**.
-
-**Kompüter ekranı (sahib icazə verib: ekranı yazmaq, VS Code-da kod yazmaq, terminal, istənilən proqram):**
-Yaxşı video üçün lazım olan real görüntünü özün çək. Görüntü real iş olmalıdır (RULES §5): agentin yazdığı həqiqi fayl, həqiqi terminal çıxışı, həqiqi sayt.
-```bash
-# kod yazılır + yazılır (VS Code, hərf-hərf, klaviatura ilə); mənbə builder-in real faylıdır
-tools/video/.venv/Scripts/python tools/video/type_code.py work/<layihə>/<fayl> --cps 28 --record content/episodes/<epizod>/clips/code.mp4
-# istənilən pəncərə (terminal, brauzer, sayt); fonda başlat, işi gör, sonra stop faylı yarat
-tools/video/.venv/Scripts/python tools/video/record_screen.py content/episodes/<epizod>/clips/term.mp4 --window "<başlıq hissəsi>" --seconds 60 --stop-file work/screen/.stop
-tools/video/.venv/Scripts/python tools/video/record_screen.py --list      # açıq pəncərə başlıqları
-```
-- `type_code.py` `work/screen/`-də ayrıca VS Code pəncərəsi açır. Orada avtomatik mötərizə, girinti və təkliflər söndürülür, kod mənbə ilə eyni yazılır, sonda yoxlanır (`typed OK`). Uzun fayldan ~15–40 sətirlik maraqlı hissəni ayrıca fayla çıxar. Tam fayl videoda darıxdırıcıdır.
-- Yazı zamanı sahib klaviatura və siçana toxunmamalıdır. Fokus itəndə alət özü dayanır. Başlamazdan əvvəl sahibə bir sətir yaz: "N saniyə ekranı yazıram, toxunma".
-- **Məxfilik:** yazmazdan əvvəl kadrda şəxsi heç nə olmamalıdır: poçt, çat, `.env`, token, brauzer tabları, bildirişlər. Yalnız lazım olan pəncərəni `--window` ilə yaz, tam ekranı yox. Yazıdan sonra 2–3 kadrı `Read` ilə yoxla. Sirr görünürsə, klipi sil.
-- Kadrda artıq panel görünürsə (yan panel, extension reklamı), `episode.json`-da `crop` ilə kəs.
-- Short üçün kod kadrı: `"fit": "cover"` + mətnin olduğu sol hissəyə `crop` (məsələn `[0.1, 0.05, 0.45, 0.9]`). Kod oxunaqlı qalmalıdır (şrift 20, kadrdan yoxla).
-
-**Claude Code (və ya başqa CLI) tutorial çəkilişi:** real interaktiv sessiya `tools/video/drive_terminal.py` ilə idarə olunur (`open` → `record_screen.py --window KAXO-DEMO` fonda → `type`/`key` → `wait` transcript-dən "idle"/"stalled" qaytarır → `shot` ilə yoxla). Qaydalar (2026-09-27 epizodu, `work/tests/claude-code-tutorial/`):
-- Demo layihə **home-dan kənarda** (`C:\kaxo-demo\<ad>`), profil `--config-dir ~/kaxo-demo/.claude-clean`: yoxsa `~/.claude/CLAUDE.md` "project" kimi yüklənir, şəxsi qaydalar kadra düşür. Çəkilişdən əvvəl həmin qovluqda `claude -p "list loaded instruction files or NONE"` → `NONE`.
-- Bash-dan slash əmri göndərəndə `export MSYS_NO_PATHCONV=1` (yoxsa `/model` → `C:/Program Files/Git/model`).
-- Giriş (OAuth) sahibindir; girişdən sonrakı Enter-i auto-mode klassifikatoru bloklayır, sahib basır. E-poçt, OAuth URL-i, limit bannerləri kəsilir və ya `drawbox` ilə örtülür.
-- Ekran yazısı üstdəki pəncərəni çəkir: sahib kompüterdədirsə (görüş, brauzer) başlama, əvvəl `shot` ilə yoxla, şəxsi kadr düşsə dərhal sil.
-- Kliplər `cut_clips.py` nümunəsi ilə kəsilir: 1920x1020 terminal 16:9-a `pad` olunur (`cover` kənarı kəsir), gözləmələr `setpts` ilə 2–3x sürətlənir və KAXO bunu deyir.
-- Tətbiqin öz görüntüsü Playwright ilə (`recordVideo.size` = viewport, yoxsa kadr dördə bir dolur).
-
-**Stock video (Pexels, Pixabay: pulsuz lisenziya):**
-Real görüntü və KAXO şəkli olmayan yerdə (ümumi plan: şəhər, server otağı, klaviatura, insanlar ofisdə) istifadə olunur. Əsas vizual deyil, epizodun ≤ 20%-i. Açarlar `.env`-dədir (`PEXELS_API_KEY`, `PIXABAY_API_KEY`). Repoya, skill-ə və hesabata **yazılmır**.
-```bash
-tools/video/.venv/Scripts/python tools/video/stock.py search "server room blue lights" --orientation landscape --thumbs work/screen/thumbs   # long; short üçün portrait
-tools/video/.venv/Scripts/python tools/video/stock.py get pexels:31155915 content/episodes/<epizod> city     # -> clips/city.mp4 + clips/stock.json
-```
-- Seçmədən əvvəl `--thumbs` ilə endirilən posterlərə `Read` ilə bax. Loqosu, tanınan brendi və ya aydın üzü (əsas plan) olan klipi götürmə.
-- `clips/stock.json` müəllif qeydidir. SEO addımında təsvirə "Stock footage: Pexels / Pixabay (<müəlliflər>)" sətri əlavə olunur.
-- Stock klip real fakt kimi təqdim olunmur: "bizim ofis", "bizim server" demə (RULES §5).
-
-- `status: "audio"`.
-
-## 7/10 Səs, altyazı, montaj
-```bash
-tools/video/.venv/Scripts/python tools/video/tts.py      content/episodes/<epizod>
-tools/video/.venv/Scripts/python tools/video/subs.py     content/episodes/<epizod>
-tools/video/.venv/Scripts/python tools/video/assemble.py content/episodes/<epizod>
-```
-- Səs robot kimi çıxırsa: cümləni danışıq dilində yenidən yaz, `[pause]` və durğu işarələrini düzəlt, per-line `speed` ver (0.85–1.1). Səs seçimi `character.md` → "Səs".
-- Long üçün: `tools/video/.venv/Scripts/python tools/video/chapters.py content/episodes/<epizod>`. Problem çıxırsa (< 3 fəsil, < 10 s), `chapter` sahələrini düzəlt. `video/chapters.txt` təsvirə gedir.
-- **Sükut yoxlaması (məcburi):** `voice.wav`-da ≥ 120 ms sükutların cəmi ümumi müddətin 10%-dən az, ən uzunu ≤ 0.35 s olmalıdır:
-  `tools/video/.venv/Scripts/python -c "import soundfile as sf,numpy as np;a,sr=sf.read('<epizod>/audio/voice.wav');fr=int(.01*sr);q=np.array([np.abs(a[i:i+fr]).max()<.02 for i in range(0,len(a)-fr,fr)]);import itertools;g=[len(list(x))/100 for k,x in itertools.groupby(q) if k];g=[x for x in g if x>=.12];print(round(sum(g),2),'/',round(len(a)/sr,1),'max',max(g,default=0))"`
-  Keçmirsə: ssenaridəki `[pause]` və qısa nöqtəli cümlələri azalt, yenidən səsləndir.
-- **Ağ/qara kadr yoxlaması (məcburi):** klipin 0-cı kadrı çox vaxt yüklənmə ekranıdır (ağ). Bu, opus-short-da 0.4 s ağ ekran kimi dərc olunub (2026-09-25), 2026-09-26-da kor QA tapıb. `clip_start` ən az `record_page`-in "content from" dəyəri, ofis kliplərində isə ≥ 0.5 olmalıdır. Montajdan sonra yoxla (boş çıxış = təmiz):
-  `"$F" -hide_banner -i <epizod>/video/final.mp4 -vf "fps=8,scale=64:36,signalstats,metadata=print:key=lavfi.signalstats.YAVG" -an -f null - 2>&1 | tr '\r' '\n' | grep -oE "pts_time:[0-9.]+|YAVG=[0-9.]+" | paste -d' ' - - | sed 's/pts_time://; s/YAVG=//' | tools/video/.venv/Scripts/python -c "import sys;[print(l,end='') for l in sys.stdin if not 6<=float(l.split()[1])<=230]"` (`$F` = imageio-ffmpeg; ağ fonlu sayt klipi 200–225 verir, normaldır).
-- `assemble.py` sonda `audio ok: X of Y` çap edir; səs axını qısadırsa xəta verir (epizod 2-də səs boşluqları oldu). Bu sətri mütləq yoxla.
-- **Scroll-jacking saytlar** (anthropic.com və s.) `record_page --scroll`-da ilişmiş görünür: kadrlara bax, ilişibsə sabit bölmə screenshot-ları (`work/screen/shot_text.js`) + `motion` istifadə et.
-- `timeline.json`-da müddətə bax. Short 55 saniyədən uzundursa, ssenarini qısalt və bu addımı təkrarla.
-- Yoxlama: `final.mp4`-dən 3–4 kadr çıxar (imageio-ffmpeg: `-ss <s> -frames:v 1`) və `Read` ilə bax: altyazı oxunurmu, kadr boş deyilmi, crop düzgündürmü.
-- `status: "seo"`.
-
-## 8/10 SEO
-RULES §8-ə əsasən `seo.json` yaz:
-```json
-{ "title": "…", "description": "…", "tags": ["…"], "hashtags": ["#shorts", "#ai", "#aiagents"],
-  "category": "Comedy", "language": "en", "made_for_kids": false, "altered_content": false,
-  "playlists": ["KAXO Reacts: AI News", "KAXO Shorts"], "captions": "subs/captions.srt", "thumbnail": null,
-  "sources": ["<rəsmi xəbər/alət linkləri, təsvirə gedir>"], "chapters": "video/chapters.txt (long)",
-  "related_long": "<short-from üçün long videonun URL-i>",
-  "ai_note": "Made with AI tools; stories based on a real AI-agent company.",
-  "keywords_used": ["…"], "title_alternatives": ["…", "…"] }
-```
-Başlıq üçün 3 variant yaz, ən yaxşısını `title`-a qoy, digərlərini `title_alternatives`-ə.
-
-**Thumbnail:** `.claude/skills/thumbnail/SKILL.md`-dəki addımları bu epizod üçün icra et (`content/THUMBNAILS.md` qaydaları). Long üçün `thumb/thumbnail.png`, short üçün `thumb/cover.png` hazırlanır. `status: "review"`.
-
-## 9/10 Sahibin baxışı və təsdiqi
-1. Videonu aç: `Start-Process "<tam yol>\video\final.mp4"` (PowerShell).
-2. Sahibə qısa xülasə göstər:
-   - ideya və real fakt;
-   - müddət;
-   - başlıq və 2 alternativ;
-   - thumbnail və ya cover (şəkli aç: `Start-Process`);
-   - monetizasiya yoxlaması (RULES §12). Risk "yüksək"dirsə, təsdiq variantını göstərmə, əvvəl düzəlt;
-   - təsvirin ilk 2 sətri;
-   - tag-lar.
-3. `AskUserQuestion` ilə soruş: **Təsdiq, paylaş** / **Düzəliş lazımdır** / **Ləğv et**.
-   - **Düzəliş:** nəyin dəyişəcəyini soruş, uyğun addıma qayıt (ssenari, şəkil, səs, SEO), sonra yenidən bu addıma gəl.
-   - **Ləğv:** `status: "done"` + hesabata səbəbi yaz. Paylaşma.
-   - **Təsdiq:** `status: "approved"`.
-
-## 10/10 Paylaşma, qeyd, hesabat, təmizlik
-**Yalnız `status: "approved"` olanda.**
-1. Claude in Chrome ilə `https://studio.youtube.com/channel/<ID>/videos/upload?d=ud` aç (menyudakı "Upload videos" bəzən klikə cavab vermir). **`file_upload` limiti 10 MB-dır**, `final.mp4` ondan böyükdür: sahibdən faylı yükləmə pəncərəsinə sürükləməsini xahiş et (Explorer-də `explorer /select,<yol>` ilə aç), sonra formu sən doldur.
-   - **Short-lar (≤ 60 s):** yükləmə nüsxəsini 10 MB-dan aşağı sıx (`-c:v h264_nvenc -b:v 1.8M -maxrate 2.2M -c:a copy video/upload.mp4`), sonra özün `file_upload` et; sahibə ehtiyac yoxdur.
-   - Yükləmə pəncərəsində **`Esc` basma**: dialoq bağlanır (video Draft qalır, Content → Shorts → Edit draft ilə davam et).
-   - Short-un "Related video" bağlantısı və təsvirdəki kliklənən linklər "advanced features" təsdiqi tələb edir (sahib: Studio → Settings → Channel → Feature eligibility).
-   - Kanal telefonla təsdiqlənməyibsə, **xüsusi thumbnail yüklənmir** (səssizcə rədd olunur) və təsvirdəki linklər kliklənmir. Sahibdən `youtube.com/verify` etməsini xahiş et, thumbnail-i sonra Studio → Content → video → Thumbnail ilə əlavə et.
-   - Altyazı: Subtitles → Add → Upload file → "With timing". "Continue" basma (Windows fayl pəncərəsi açılır): gizli `input[type=file]`-ə birbaşa `file_upload` et.
-   - Dropdown-lar (dil, kateqoriya): variantı JS ilə `innerText` üzrə tap və `.click()` et, iki siyahını eyni anda açıq qoyma.
-2. `seo.json`-dan doldur:
-   - başlıq, təsvir (sonunda hashtag-lar ilə), tag-lar ("Show more" altında);
-   - playlist(lər): `seo.json` → `playlists` (PLAYLISTS.md). Playlist yoxdursa, Studio-da **Create playlist** ilə PLAYLISTS.md-dəki ad və təsvirlə yarat və `published.md`-nin "Playlistlər" cədvəlinə yaz;
-   - "No, it's not made for kids";
-   - kateqoriya, dil;
-   - altered content;
-   - Subtitles → Upload file → `subs/captions.srt`;
-   - long üçün thumbnail.
-3. Görünürlük **Public**-dir, sahib başqa vaxt deyibsə, **Schedule**. "Publish"-dən əvvəl formanı `read_page` ilə yoxla.
-3a. **Türkcə lokalizasiya (RULES §15):** `marketer` → `subs/captions.tr.srt` (vaxt kodları eyni) + `seo.json` → `tr.title/description`. Dərcdən sonra Studio → video → Subtitles → Add language → Turkish: qələm (Title & description) ilə TR başlıq/təsvir → Publish; altyazı sütununda qələm → Upload file → gizli `input[type=file]`-ə `captions.tr.srt` → Publish. API ilə yoxla: `localizations` içində `tr`. Yeni yükləmədə **Reuse details** köhnə videodan başlıq/təsvir/tag/playlist köçürür (kids və AI sualını yenə yoxla).
-4. Video linkini götür. `published.md`-yə sətir əlavə et (playlist sütunu ilə), `status: "published"`. Short-from-dursa, təsvirə long-un linkini əlavə et. Long-dursa, sonradan kəsilən short-lar üçün `ideas.md`-yə `[short-from] <epizod>` yaz.
-5. Yeni, keyfiyyətli KAXO şəkillərini `content/character/poses/`-a köçür və README cədvəlinə əlavə et.
-6. Hesabatın "İstehsal qeydləri" bölməsini tamamla: nə alındı, nə alınmadı, limitlər, vaxt.
-7. Təmizlik: `tools/video/.venv/Scripts/python tools/video/housekeeping.py` (dry run) → siləcəyi hesabatlardakı faydalı nəticələr `lessons.md`-də və ya `ideas.md`-də varmı, bax, yoxdursa köçür → `tools/video/.venv/Scripts/python tools/video/housekeeping.py --apply`.
-8. `status: "done"`. Sahibə yekun: link, müddət, növbəti tövsiyə olunan ideya.
-
-## Səhv hallar
-| Hal | Nə etməli |
-|---|---|
-| Kokoro import xətası | `tools/video/.venv/Scripts/python -m pip install kokoro-onnx soundfile`. Modellər: `github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0` → `tools/video/models/` |
-| ffmpeg xətası | `assemble.py` stderr-i göstərir. Ən çox rast gəlinən səbəb çatışmayan şəkildir (`missing image`) |
-| `ModuleNotFoundError` | Paketi venv-ə qur: `tools/video/.venv/Scripts/python -m pip install <paket>`. Qlobal `pip install` etmə (aider-chat asılılıqlarını pozur) |
-| ChatGPT selektoru dəyişib | `find` / `read_page` ilə tap, JS nümunəsini yenilə və bu skill-də düzəlt |
-| YouTube Studio forması dəyişib | `read_page` ilə sahələri tap. Əmin deyilsənsə, sahibdən soruş, təxmini klik etmə |
-| `type_code.py`: "focus lost" | Kimsə başqa pəncərəyə klikləyib. Sahibdən toxunmamağı xahiş et, təkrar işlət |
-| `type_code.py` ortasında Kilo Code paneli açılır, qalan kod çat qutusuna yazılır ("saved file differs") | Genişlənmə ~17 s sonra paneli özü açır (2026-09-26). Qısa hissə (≤ 15 sətir) yaz və ya klipin panelə qədərki hissəsini işlət; ayrı `--user-data-dir` profili pəncərə açmadı. Sahibdən Kilo Code-u `work/screen` workspace-i üçün söndürməsini xahiş et |
-| Mətn VS Code-da Find qutusuna və ya menyuya düşür | `focus_editor()` (Esc, Esc, Ctrl+1) yetmir: VS Code pəncərəsini bağla, təkrar işlət |
-| `stock.py`: 401/403 | Açar səhvdir və ya limit dolub (Pexels 200/saat, Pixabay 100/dəq). O biri mənbəyə keç (`--source`) |
-| Brauzer icazəsi yoxdur | Sahibə yaz: Claude in Chrome genişlənməsində `chatgpt.com` və `studio.youtube.com` üçün icazə lazımdır |
+   - yoxla (`Read`): KAXO referansa uyğundurmu (üz, qırmızı eynək, buruq saç və qulağın arxasında karandaş, çanta) və epizodun `outfit`/`props`-u düzgündürmü, şəkildə mətn, qüsurlu əl, ikinci KAXO, qan və ya stereotip varmı? Uyğun deyilsə, səbəbi yazıb yenidən istə (ən çox 2 dəfə).
+4. **Limit mesajı** gəlsə: dayan, hesabata limit vaxtını və qalan kadrları yaz, sahibə yaz: "ChatGPT limiti doldu, N kadr qalıb. İstəsən başqa hesaba özün keç, sonra 'davam' yaz, ya da limitin yenilənməsini gözləyək (saat HH:MM)." Hesablar arasında özün keçid etmə.

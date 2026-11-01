@@ -1,234 +1,252 @@
-# Kontent qaydaları
+# Kontent qaydaları: KAXO
 
 `/video` skill-i və bütün agentlər bu fayla əməl edir. Qayda dəyişəndə əvvəlcə bu fayl yenilənir.
+Konsept 2026-10-31-də dəyişdi (sahib): AI kanalı KAXO arxivdədir (`content/archive/kaxo/`).
 
 ## 1. Kanal konsepti
-**"KAXO runs a company. Every employee is an AI. He does nothing."**
-Kaktus KAXO 0 kapitallı şirkətin sahibidir. İşçiləri Claude Code agentləridir: CEO, Kəşfiyyatçı, Qurucu, QA, Marketoloq. Onlar real iş görür, KAXO isə divanda uzanır.
+**KAXO: "KAXO wonders why, so you don't have to."**
+Hər video bir maraq sualına cavab verir: "Why don't we eat goat?", "How did humans invent soap?", "Why do predators ignore sleeping humans?", "Why can't you remember being a baby?". Cavab tarixdə, biologiyada, coğrafiyada, iqtisadiyyatda, psixologiyada və ya bir təsadüfdə gizlənir. Hər videoda bir neçə səbəb və ya mərhələ olur və onlar bir-bir açılır.
 
-Kontent üç qatdan ibarətdir:
-1. **Sitcom qatı:** KAXO-nun cizgi səhnələri, zarafat, personaj.
-2. **Gündəm qatı:** AI dünyasında son dəyişikliklər: yeni modellər, alətlər, buraxılışlar (§13). KAXO və işçiləri bunlara reaksiya verir, sınayır, izah edir.
-3. **Real qat:** mövzunun real sınağı: agentlər aləti/modeli real tapşırıqda yoxlayır, nəticə, rəqəm, ofis görüntüsü. Şirkətin öz hadisələri və kanalın keçmiş videoları mövzu olmur (§3, sahib 2026-09-26).
-
-Hər video ən azı bir **real** faktdan çıxır: təsdiqlənmiş xəbər (`content/news/`) və ya mövzunun real test nəticəsi (`work/tests/`).
-
-- **Auditoriya:** ingilisdilli, 18–35 yaş, texnologiya ilə maraqlanan, developer, solo sahibkar.
-- **Dil:** ingilis dili. Qeydlər və hesabatlar Azərbaycan dilindədir.
-
-Xarakterin təfərrüatları: [character/character.md](character/character.md).
+- **Mövzu sahələri (sabit, kanal bunlardan kənara çıxmır):**
+  1. **Yemək və gündəlik şeylər:** niyə bunu yeyirik və ya yemirik, gündəlik əşya necə yaranıb (sabun, kərpic, tualet).
+  2. **İnsan tarixi və tarixəqədərki həyat:** əcdadlar necə yaşayırdı, yatırdı, təmiz qalırdı, sağ qalırdı.
+  3. **Heyvanlar və təbiət:** heyvanların davranışı, insanla heyvan arasındakı qəribə münasibətlər.
+  4. **İnsan bədəni və beyni:** niyə yatırıq, niyə unuduruq, niyə darıxırıq (sağlamlıq məsləhəti verilmir, §7).
+- **Referanslar:** [@menumetre](https://www.youtube.com/@menumetre) (yemək sualları, 9 dəq, Plate tipli ölçü cihazı) və [@Meraklı](https://www.youtube.com/@Merakl%C4%B1-f6k) (tarixəqədərki həyat, ixtiralar, heyvanlar, 15–37 dəq). Analiz: `work/research/reference-menumetre-2026-10-31.md`. Onların janrını və tutma texnikalarını götürürük. Personaj, ad, mətn, vizual və araşdırma bizimdir, heç nə kopyalanmır, tərcümə olunmur.
+- **Qlobal bucaq:** auditoriya bütün dünyadır (10 dildə altyazı, §15). Ona görə "biz" bir millət deyil, "we" bütün insanlıqdır və ya yer adı açıq deyilir: "in Japan", "in most of Europe".
+- **Aparıcı:** KAXO, insana bənzər **universal** 2D cizgi personaj ([character/character.md](character/character.md)). Mövzuya görə geyimi və əlindəki əşya dəyişir, siması dəyişmir.
+- **Auditoriya:** 18–45 yaş, maraqlı yetkin izləyici. Uşaq kanalı deyil (§12.4).
+- **Dil:** səsləndirmə **ingiliscədir**. Qeydlər və hesabatlar Azərbaycan dilindədir.
 
 ## 2. Formatlar
-**Əsas istiqamət (sahib, 2026-09-26):** tutorial və incələmə, xüsusən **yeni çıxan AI alətlərinin/modellərinin incələməsi və tutorialı**. Referans kanallar: @Avenoxai, @poyrazavsever, @FornYapayZeka və oxşar ingilisdilli kanallar (analiz: `work/research/reference-channels-2026-09-26.md`). Məqsəd onlardan **əvvəl** çıxmaqdır: Türk kanallarının ilk montajlı incələməsi buraxılışdan ~22–26 saat sonra gəlir. Dil: ingiliscə əsas, TR lokalizasiya (§15).
-
-| Format | Ölçü | Uzunluq | Nə vaxt | Növ |
+| Format | Ölçü | Uzunluq | Tezlik | Növ |
 |---|---|---|---|---|
-| **Release review (long)** | 1920×1080 | 8–12 dəq | buraxılışdan ≤ 12 saat | yeni alət/model real tapşırıqda sınanır: nə edir, necə qurulur, nəticə, rəqəmlər |
-| **Tutorial (long)** | 1920×1080 | 12–25 dəq | buraxılışdan 1–3 gün, və ya evergreen | "sıfırdan" addım-addım qurulum və istifadə, ekran yazısı əsasdır, fəsillərlə |
-| **Release short** | 1080×1920 | 30–50 s | buraxılışdan ≤ 3 saat | nə çıxdı + bir real fakt/test + KAXO-nun reaksiyası |
-| **Short: long-dan kəsik** | 1080×1920 | 30–55 s | hər long-dan 1–2 | long-un ən faydalı anı (tip, nəticə), yeni hook ilə |
+| **Long (əsas)** | 1920×1080 | **minimum 8:00**, hədəf 10–14 dəq | həftədə 1–2 | bir sual, 4–7 səbəb və ya mərhələ, cizgi + xəritə + sənəd + qrafik |
+| **Deep dive** | 1920×1080 | 15–25 dəq | ayda ən çox 1, kanal böyüyəndən sonra | böyük sual ("How did humans invent the computer?"), xronoloji mərhələlərlə |
+| **Seriya** | 1920×1080 | hər hissə ≥ 8:00 | mövzu genişdirsə | eyni mövzunun 2–3 hissəsi |
+| **Short: long-dan kəsik** | 1080×1920 | 30–55 s | hər long-dan 1–2 | long-un ən güclü faktı, yeni hook ilə; təsvirdə long-un linki |
 
-- Yeni model versiyasında sürət qazandırır, yeni konsepsiyada (yeni alət növü) dərinlik: izah + tutorial.
-- Model olmayan buraxılışlar (marketplace, plugin portalı, TTS, API) Türk kanallarında boşdur: prioritetdir.
-- Gündəm yalnız sahib yazanda işləyir (§13), ona görə sürət sahibin "gündəm" mesajından başlayır.
-- **Claude və ya model testində nəticə vizual olur (sahib, 2026-09-28):** test tapşırığı elə seçilir ki, nəticə ekranda görünsün və "vay" dedirtsin: simulyasiya (fizika, okean, planetlər), interaktiv animasiya, oyun, 3D səhnə, motion design və ya intro klipi, canlı data vizualı. Nəticə yalnız kod, refaktor, CLI çıxışı və ya mətn cavabıdırsa, bu, testin nəticəsi sayılmır (tutorialda addım kimi göstərilə bilər). Nəticə tam ekranda, interaktiv şəkildə (klik, slider, rejim dəyişmək) göstərilir. Release review-da vaxtın ən azı yarısı nəticə kadrlarına gedir. Referans: Jaldis "Opus 5.5! Tek Cümle Yetiyor mu?" (üç simulyasiya), Avenox "Opus 5.5 Motion Designer Oldu mu?" (After Effects klipi).
+- **8 dəqiqə sərt həddir:** `final.mp4` 8:00-dan qısadırsa, video paylaşılmır. 8+ dəqiqə videonun ortasında reklam (mid-roll) qoymağa imkan verir. Uzunluq doldurma ilə yox, əlavə səbəb, hekayə və ya müqayisə ilə qazanılır.
+- Short-lar yalnız long-dan kəsilir. Əsas iş long videodur (izlənmə saatı, §12).
+- **Mövzu seçimi:** sual izləyicidə "hə, doğrudan, niyə?" reaksiyası yaratmalıdır. Yaxşı mövzuda (a) gündəlik həyatda görünən ziddiyyət və ya sirr, (b) ən azı 4 müstəqil səbəb və ya mərhələ, (c) gözlənilməz bir dönüş, (d) etibarlı mənbələr və (e) **tam reklam uyğunluğu** (§12.3) olur. Ziddiyyətli sual ("X yeyir, Y yemir") ziddiyyətsiz sualdan yaxşı gedir (referans statistikası).
+- **Mövzu bankı:** `content/ideas.md`. Mövzu sahələri növbə ilə gəlir: ardıcıl 3 video eyni sahədən olmur.
 
-## 3. Short-un quruluşu
-1. **0–2 s, hook:** ilk kadr və ilk cümlə sualla, şokla və ya absurd vəziyyətlə tutur. Salamlaşma, loqo, "in this video" olmur.
-2. **Setup (2–10 s):** vəziyyət. KAXO bir şey istəyir və ya agentlər bir iş görür.
-3. **Eskalasiya (10–35 s):** real hadisə və ya rəqəm, agentlərin reaksiyası, gərginlik artır.
-4. **Punchline (videonun ~80%-i):** gözlənilməz dönüş. Adətən KAXO-nun tənbəlliyi və ya agentlərin ondan ağıllı çıxması.
-5. **Loop sonu:** son cümlə ilk kadra qayıdır, beləcə video dövrə vurur.
+## 3. Video quruluşu: izləyicini girişdən saxlamaq
+Məqsəd: izləyici ilk 30 saniyədə getməsin və sona qədər qalsın. Hər hissə bir sual açır və növbəti hissəyə körpü salır.
 
-**Tanıtım videosu deyil (sahib, 2026-09-25):** "Bizim şirkət/KAXO belədir" tipli özünü təqdimat videosu çəkilmir. İlk epizod (day-one) məhz bu səbəbdən paylaşılmadı. Hər video bir **mövzu** haqqındadır: xəbər, alət testi, konkret hadisə, izləyiciyə faydalı nəticə. Şirkət və KAXO fon və bucaqdır, mövzunun özü deyil. Yoxlama: başlıqdan "KAXO" və "my company" sözlərini çıxaranda da video maraqlı qalırmı?
+### 3.1 Giriş (0:00 → ən gec 1:45)
+1. **0–15 s, soyuq açılış (cold open):** ikinci şəxsdə səhnə, izləyici ortasına salınır. Ya zaman və məkan möhürü ilə ("Tokyo, 1965. You're nine. The lunch lady drops a tray in front of you. It's not chicken. It's whale."), ya da indiki an ilə ("You're asleep. Drooling on your pillow. Biologically, you're defenceless."). 2–3 hiss detalı olur, 15-ci saniyəyə qədər **təəccüblü fakt və ya ziddiyyət** gəlir.
+2. **15–45 s, ziddiyyəti böyütmək:** absurdluğu artıran 2–3 konkret fakt və rəqəm.
+3. **Əsas sual:** başlıqdakı sual sözbəsöz və ya çox yaxın formada deyilir. İzləyici başlığa görə gəlib, sualı ilk 45 saniyədə eşitməlidir.
+4. **45–90 s, vəd və yol xəritəsi (açıq döngülər):** "It isn't one reason. It's five." Sonra 2–3 səbəbin adını vermədən maraq oyadan teaser: "Number two starts inside a 19th-century street lamp. Number four is about you, right now." Bu vədlərin hamısı videoda mütləq yerinə yetirilir.
+5. **Answer Puzzle təqdim olunur** (§3.4).
+6. **Qadağandır:** salam, "welcome back", kanalın və ya aparıcının təqdimatı, loqo zərbəsi, "in this video", "before we start, subscribe", girişdə sponsor. İlk cümlə birbaşa səhnədir.
 
-**Yalnız mövzu (sahib, 2026-09-26):** videoda kanalın keçmiş videoları, onların səhvləri, statistikası, abunəçi sayı və **şirkətin real hadisələri** (agent tapşırıqları, loglar, səhvlər, gəlir rəqəmləri) mövzu olmur. Video yalnız öz mövzusundan (xəbər, alət, model) bəhs edir. KAXO mövzuya reaksiya verən personajdır; sitcom uydurması olar, amma real fakt kimi təqdim olunmur. Real fakt = xəbərin və ya testin birinci mənbəyi. Təsvirdə əlaqəli videonun linki qala bilər.
+### 3.2 Fəsillər (səbəblər və ya mərhələlər)
+- 4–7 fəsil, hər biri 60–150 s. Fəsil adı nömrə ilə başlayır: "1. The Empty Sea". `chapter` sahəsi fəslin yalnız ilk shot-unda olur.
+- **Hər fəslin daxili quruluşu:** mini-hook (sual və ya qəribə fakt) → konkret insan, yer, tarix və ya tədqiqatla hekayə → bir rəqəm və ya sənəd → nəticə ("so that's why…") → Answer Puzzle-a bir hissə əlavə olunur → növbəti fəsli açan körpü cümləsi ("But oil was only the beginning.").
+- **Ən güclü səbəb ortaya və ya sona** qoyulur, ən zəifi ilk yerə qoyulmur. İlk fəsil sürətli və vizual olmalıdır: 2-ci dəqiqədə izləyici itkisi ən çox olur.
+- **Gərginlik nöqtələri:** videonun ~30%, ~50% və ~70%-ində yenidən hook ("And the strangest part is still ahead."). Vəd mütləq yerinə yetirilir.
 
-Əlavə qaydalar:
-- 6–12 kadr olur. Kadr hər 2–4 saniyədə dəyişir.
-- 1–2 kadr real ofis görüntüsüdür (B-roll).
-- Hər videoda **bir ideya** olur. Ton §3a-dadır: KAXO səmimi danışır, dostuna göstərirmiş kimi, canlı reaksiya ilə.
-- Cümlələr qısadır (≤ 12 söz), danışıq dilindədir. Hər cümlə ekranda altyazı olacaq.
+### 3.3 Diqqəti təzələmək (pattern interrupt)
+Hər 30–60 saniyədə bunlardan biri olur, eyni tip ardıcıl iki dəfə işlədilmir:
+- **Viktorina:** "Quick guess: in 1960, how many goats lived here? Five million, twelve, or over twenty?" Variantlar ekranda görünür, cavab 2–3 saniyəlik kadrdan sonra gəlir. Səs kəsilmir: "Take a guess" deyilir, musiqi davam edir. Hər videoda 1–2 viktorina.
+- **"Imagine you're…" anı:** izləyici başqa insanın, dövrün və ya heyvanın yerinə qoyulur.
+- **Danışan heyvan və ya əşya:** bir sətirlik yumor ("I only wanted one leaf."). Hər videoda ən çox 2 dəfə.
+- **Müasir həyatla müqayisə:** "Today we have locked bathrooms and do-not-disturb mode. They had one cave and thirty roommates."
+- **Vizual dəyişiklik:** xəritə animasiyası, real arxiv sənədi, sadə qrafik, "əvvəl və sonra" kadrı.
+- Eyni tip kadr 20 saniyədən çox davam etmir. Kadr hər 3–7 saniyədə dəyişir.
 
-## 3a. Danışıq tərzi: səmimi, canlı reaksiya, "dostuna göstərirəm" (sahib, 2026-09-28)
+### 3.4 Answer Puzzle (kanalın imza elementi)
+- Ekranın küncündə səbəb sayı qədər hissəyə bölünmüş tapmaca (jigsaw) çərçivəsi var. Hər fəslin sonunda bir hissə yerinə oturur, üstündə səbəbin 1–2 sözlük adı yazılır ("OIL", "LAW", "FIRE").
+- Final fəslində tapmaca tamamlanır, tam şəkil (mövzunun ikonası) görünür və əsas sualın cavabı bir cümlə ilə deyilir.
+- Məqsəd: izləyici neçə səbəbin qaldığını görür və tamamlanmamış tapmacanı yarımçıq qoymaq istəmir.
+- Qrafika kodla render olunur (HTML → `record_page.js`), AI şəklinə yazılmır.
 
-Video elə qurulur ki, sanki KAXO izləyici ilə yan-yana oturub ekranı göstərir: "bax bura, indi açırıq, vay, gör nə etdi". Hazır xülasə oxunmur. KAXO nəticəni **ilk dəfə görürmüş kimi** danışır. Referans: Jaldis və Avenox-un Opus 5.5 videoları (analiz 2026-09-28). Onlardan səmimi ton götürülür, izahsız "inanılmaz" təkrarı götürülmür.
+### 3.5 Final (son 60–90 s)
+1. Tapmaca tamamlanır: cavab bir-iki cümlədə, soyuq açılışdakı səhnəyə callback ilə deyilir ("So that tray in Tokyo…").
+2. **Stinger:** son təəccüblü fakt və ya bugünkü vəziyyət.
+3. **Abunə çağırışı** bir cümlədir, növbəti videoya bağlıdır ("Next week: how humans invented soap. Subscribe so it finds you.").
+4. Son 20 saniyə end screen üçün sakit kadrdır. Səs növbəti videoya işarə edir, fon musiqisi qalır.
 
-**Tək aparıcı:** long və test videolarında yalnız KAXO danışır (`kaxo`, birinci şəxsdə: "I gave it one sentence", "let's open it"). Diktor işlədilmir, lazım olsa yalnız fəsil başlığında bir cümlə deyir. "I tried it" yalnız bu videonun testinə aiddir. Şirkət hadisələri və keçmiş videolar yenə olmur (§3).
+**Videonun ortasında abunə çağırışı** bir dəfə olur, ~50–60% nöqtəsində, bir cümlə ilə, seriyaya və ya növbəti videoya bağlı. Real izləyici şərhi mövzunun mənbəyidirsə, bu deyilə bilər. Uydurma şərh olmur.
 
-**Canlı reaksiya necə yazılır (TTS ilə):**
-- **İndiki zaman, kadra bağlı:** hər reaksiya cümləsi ekranda həmin an görünən şeyə aiddir. Məsələn: "Okay, it's done. Let's open it… wait, the fish swim away when I tap the glass?" Cümlə `timeline`-da klipin həmin anına yerləşdirilir.
-- **Reaksiya + səbəb:** hər "wow"-dan sonra niyə təsirləndiyi deyilir. Məsələn: "…and I never asked for day and night." Səbəbsiz tərif olmur.
-- **Heyrət müxtəlif olur:** eyni tərif sözü ("insane", "amazing", "crazy") videoda ən çox 2 dəfə işlədilir. Heyrət sual, konkret detal, rəqəm və ya gülüşlə də göstərilir.
-- **Canlı anlar:** "hold on", "let me crank the wind up", "okay, I did not expect that", özünü düzəltmək ("well… almost").
-- **Dürüst reaksiya:** qəribə və ya səhv yer də deyilir. Məsələn: "the water temperature never moves, though. That's a bit off." Hər testdə ən azı bir zəif yer göstərilir.
-- **Konkret rəqəmlər:** vaxt, limitin neçə faizi getdiyi, promptun uzunluğu, qiymət.
-- **Özünü tanıdan an:** izləyici öz yerinə qoyulur. Məsələn: "You know when you've got half an idea and just type two lines? That's exactly what I did."
-- **Gözləmə boş keçmir:** agent işləyərkən KAXO onun nə etdiyini, model haqqında bir faydalı faktı və ya öz gözləntisini deyir. Gözləmə kadrı sürətləndirilir.
+## 4. Danışıq tərzi
+KAXO izləyici ilə yan-yana oturub hekayə danışan dost kimi danışır: maraqlı, isti, hazırcavab. Mühazirə oxumur.
 
-**Fasiləsiz axın (sahib iki dəfə "duraksama çoxdur" dedi):** səs demək olar ki, arasız axmalıdır.
-- `[pause]` videoda ən çox 1 dəfə, yalnız əsas punchline-dan əvvəl işlədilir.
-- Qısa cümlələri nöqtə ilə doğrama: "Day one. First task." əvəzinə "On day one, the first task was simple." Hər nöqtə kiçik fasilə deməkdir.
-- `tts.py` sükutu özü idarə edir (cümlə-cümlə sintez, quyruq kəsmə). Montajdan sonra sükut payı 10%-dən çox olmamalıdır. Yoxlama skripti `/video` 7-ci addımındadır.
-Məqsəd izləyicinin videonu tərk etməməsidir. Mətn "oxunan mətn" kimi yox, "danışılan söhbət" kimi yazılır.
+**Sadə və axıcı dil (sahib, 2026-10-31; bu bölmənin əsas qaydasıdır):** mətn hər kəsin bir dəfə eşidib başa düşəcəyi sadə dildə yazılır. Mürəkkəblik olmur, söhbət axıcıdır. İzləyicilərin çoxu ingiliscəni ana dili kimi bilmir və ya altyazı ilə baxır (§15), ona görə sadəlik həm də tərcümənin keyfiyyəti deməkdir.
+- **Gündəlik sözlər:** "use" (utilize yox), "start" (commence yox), "because" (due to the fact that yox), "about" (approximately yox).
+- **Termin olmur, olarsa dərhal açılır:** elmi və ya tarixi söz lazımdırsa, eyni cümlədə və ya növbəti cümlədə sadə sözlə izah olunur: "It's called domestication. Basically, taming wild animals so they live with us."
+- **Bir cümlə, bir fikir:** cümlə orta hesabla ~12 söz, ən çox 18 söz olur. İçində iki "which", "that" və ya vergüllü əlavə olan uzun cümlə ikiyə bölünür.
+- **Aktiv dil:** "Farmers banned goats" ("Goats were banned by farmers" yox). Kim nə edir, aydın olur.
+- **Rəqəmlər yüngül:** bir cümlədə ən çox bir rəqəm. Böyük rəqəm müqayisə ilə yuvarlaqlaşdırılır: "about 20 million, that's more than all the people in Romania". Eyni anda bir neçə il və faiz sadalanmır.
+- **Axıcı keçid:** cümlələr bir-birinə bağlanır ("So…", "But here's the thing…", "And that's where…"), mövzu qəfil dəyişmir. Hər fəsil əvvəlkinin son fikrindən başlayır.
+- **Yoxlama:** ssenaridə orta cümlə uzunluğu ≤ 13 söz, 18 sözdən uzun cümlə yoxdur, oxunaqlılıq Flesch Reading Ease ≥ 70 (`/video` 4-cü addım). Bu, ilk dəfə eşidən izləyicinin yorulmaması üçündür.
+- **İkinci şəxs:** izləyiciyə "you" ilə müraciət olunur: "picture this", "look at the map".
+- **Konkretlik:** hər iddiada ad, yer, il, tədqiqat və ya rəqəm olur. "A long time ago" yox, "around 400 BC, on the Black Sea coast"; "studies show" yox, "a 2019 study from UC Santa Cruz".
+- **Cümlələr qısadır** (yuxarıdakı sadə dil qaydası) və ritm dəyişir: qısa zərbə, orta cümlə, yenə qısa. Eyni uzunluqda üç cümlə ardıcıl gəlmir.
+- **Qısaltmalar həmişə:** "it's", "didn't", "we'll".
+- **Yumor ədviyyatdır:** dəqiqədə ən çox bir yüngül zarafat, çox vaxt müasir həyatla müqayisə. Əsas ton maraqdır.
+- **Dürüstlük:** mənbələr razılaşmırsa, bu deyilir: "Researchers still argue about this." Əfsanə əfsanə kimi təqdim olunur. Tarixəqədərki həyat haqqında fərziyyə fərziyyə kimi deyilir: "We can't know for sure, but the bones suggest…".
+- **Qadağandır:** siyahı kimi sadalamaq ("Firstly… Secondly…"), rəsmi sözlər ("utilize", "furthermore", "in conclusion"), "In this video", "Let's dive in", "Did you know?" ilə başlamaq, eyni sözlə başlayan ardıcıl cümlələr, ensiklopediya tonu.
+- **Fasiləsiz axın** (sahib iki dəfə "duraksama çoxdur" dedi): `[pause]` videoda ən çox 1 dəfədir (stinger-dən əvvəl). Montajdan sonra sükut payı ≤ 10%, ən uzun sükut ≤ 0.35 s (`/video` 7-ci addım). Qısa cümlələri nöqtə ilə doğrama.
+- **Səs testi:** ssenari ucadan oxunur. Dil ilişirsə, cümlə dəyişdirilir.
+- **Uzunluq hesabı:** ~150 söz/dəq. 8 dəqiqə üçün ən azı **1 250 söz**, hədəf (10–14 dəq) 1 500–2 100 söz.
 
-- **Qısaltmalar həmişə:** "I'm", "don't", "it's", "we're", "gonna". "I am not going to" robot kimi səslənir.
-- **Ritm dəyişir:** qısa zərbə cümləsi, sonra bir az uzun cümlə, sonra yenə qısa. Eyni uzunluqda üç cümlə ardıcıl gəlmir.
-- **Yumor ədviyyatdır, əsas ton deyil:** KAXO-nun tənbəl kaktus yumoru videoda 1–3 yüngül zarafat kimi keçir. Məsələn: "It built a whole ocean. I'm still on my first coffee." Ton istidir, maraqlıdır, həyəcanlıdır. Quru və bezgin deyil.
-- **Birbaşa müraciət:** izləyiciyə "you" ilə danışılır, onu dəvət edir: "look at this", "watch the waves here".
-- **Interjection-lar canlılıq verir:** "okay", "wait", "look", "hold on". Amma eyni söz iki ardıcıl cümlədə təkrarlanmır, mənasız filler ("like", "you know") hər cümlədə işlədilmir.
-- **Callback:** girişdəki sual ("will one sentence be enough?") sonda cavablanır.
-- **Qadağandır:** siyahı kimi sadalamaq ("Firstly… Secondly…"), rəsmi sözlər ("utilize", "furthermore", "in conclusion"), "In this video", "Let's dive in", eyni sözlə başlayan ardıcıl cümlələr, hazır xülasə tonu ("The model produced a simulation that features…").
-- **Səs testi:** ssenari yazıldıqdan sonra hər cümlə sanki ucadan oxunur. Dil ilişirsə və ya cümlə dosta danışan birinin sözünə oxşamırsa, dəyişdirilir.
-- **Səs parametrləri:** `character.md` → "Səs". KAXO normal templə danışır (~1.0), heyrət anında bir az tez (1.05), yavaş temp (0.85) yalnız zarafatdadır.
+## 5. Vizual qaydalar
+### 5.0 İstehsal üsulu: video kodla qurulur (sahib, 2026-10-31)
+- **Videonun bütün vizualı kodla hazırlanır.** Əsas mühərrik **Remotion** (React ilə video, `tools/remotion/`): səhnələr, KAXO-nun animasiyası, xəritələr, qrafiklər, viktorina, Answer Puzzle, keçidlər və kamera hərəkəti kodla yazılır və `audio/timeline.json`-a (səsin vaxtına) bağlanır. Render: `npx remotion render`, 1920×1080, 30 fps, altyazısız.
+- **ChatGPT (şəkil generasiyası) yalnız thumbnail (qapaq) şəkilləri üçündür.** Video səhnələri ChatGPT ilə yaradılmır. İstisna: personajın dizayn vərəqləri (`content/character/reference.png`, `expressions.png`, `outfits.png`). Onlar artıq hazırdır və yalnız personajın görünüşü dəyişəndə yenilənir.
+- **KAXO videoda kodla idarə olunan kuklakimi (puppet) personajdır.** Dizayn vərəqlərindən hazırlanmış qatlardan qurulur (şəffaf PNG kəsiklər və ya Illustrator Image Trace ilə vektora çevrilmiş SVG): baş, gözlər (qırpma), ağız formaları (səslə sinxron), qollar, bədən, mövzu kostyumları ayrıca qatlardır. Aktivlər `content/assets/kaxo-rig/`-dədir. Hər yeni poza və ifadə kodla (qat dəyişmə, fırlanma, hərəkət) alınır, yeni şəkil generasiyası ilə yox.
+- **Fonlar və tarixi səhnələr** düz vektor üslubunda kodla (SVG/React) çəkilir və ya Illustrator-da hazırlanıb `content/assets/scenes/`-də təkrar istifadə olunur. İctimai mülkiyyətdə olan arxiv təsvirləri (ukiyo-e, köhnə xəritələr, qəzetlər) səhnə kimi işlədilə bilər (§5, arxiv qaydası).
+- **Lazım olsa proqramlar:** **Blender** (5.2; 3D və ya Grease Pencil səhnəsi, kamera hərəkəti, obyekt animasiyası, Python ilə avtomatlaşdırılır), **Adobe Premiere Pro** (son montaj, səs miksi, rəng düzəlişi), **Illustrator** (vektor personaj və fon), **Photoshop** (şəkil təmizləmə). Mümkün olan hər şey skriptlə və təkrarlana bilən şəkildə edilir. Proqramda əl ilə görülən iş hesabata yazılır.
+- **Stil:** `character.md`-dəki stil təsviri əsasdır: 2D cizgi, qalın tünd konturlar (`#2B2118`), düz parlaq rənglər, kanal palitrası (krem `#FFF6E5`, tomat `#FF4D2E`, xardal `#F2B33D`, zeytun `#6B7A3A`), sadə amma rəngli fonlar.
+- **Vizual keyfiyyət (ilk epizodun izləyici baxışından, 2026-10-31):**
+  - **Boş kadr yoxdur:** fon tək başına (boş kağız, boş studiya) heç vaxt kadrın məzmunu olmur. Sənəddən danışılanda sənəd yazılır, möhür vurulur.
+  - **Hadisəni göstər:** fərman, məktub, etiraz, yemək kimi hekayə anları səhnə kimi çəkilir (kim, harada, nə edir). Boş məkan üzərindən danışmaq olmaz.
+  - **Studiya ≤ 15%:** KAXO-nun boş studiya fonunda dayandığı kadrlar videonun ən çox 15%-idir. KAXO mövzunun səhnəsinin içində olur.
+  - **Yazı kartı səhnənin üstündədir:** qısa yazı (termin, rəqəm) kart kimi səhnənin üstünə çıxır, ağ tam ekran yazı kartı olmur.
+  - **Təkrar həddi:** eyni səhnə ardıcıl ən çox 3 kadr, eyni səhnə + eyni KAXO pozası ən çox 2 kadr.
+- **Hərəkət:** statik slayd-şou yoxdur. Hər kadrda hərəkət olur: KAXO danışır (ağız, qaş, jest), fonda kamera yavaş hərəkət edir (parallax), elementlər girib çıxır. Kadr hər 3–7 saniyədə dəyişir.
+- **KAXO-nun geyimi mövzuya görədir** (`character.md` → "Geyim və əşyalar"): epizodun `episode.json` → `outfit` sahəsində bir dəfə seçilir və bütün epizod boyu eyni qalır. Tarixi səhnəyə "girəndə" həmin dövrün geyiminə keçə bilər, sonra əsas epizod geyiminə qayıdır.
+- **KAXO kadrda:** long videonun kadrlarının ~35–50%-ində KAXO görünür (izah edir, reaksiya verir, səhnəyə "girir"). Qalan kadrlar hekayə səhnələri, xəritə, sənəd və qrafikdir.
+- **Başqa insanlar** (tarixi və tarixəqədərki insanlar): eyni cizgi stilində, sadələşdirilmiş və hörmətlə. Karikatura, irqi və milli stereotip olmur.
+- **Heyvanlar:** sevimli və ya neytral. Ov, kəsim, qan, yara və ölü bədən göstərilmir: təhlükə ifadə ilə, kölgə ilə və ya kadrdan kənarda verilir.
+- **Bədən və çılpaqlıq:** tarixəqədərki insanlar həmişə geyimlidir (dəri, parça). Çılpaqlıq, intim səhnə, tualet və gigiyena detalı göstərilmir: mövzu bunlara toxunursa, simvolik əşya ilə verilir (qapı, pərdə, sabun).
+- **Xəritələr və qrafiklər:** Remotion komponentləri ilə (və ya `tools/video/graphics/kaxo.html` + `record_page.js`), rəqəmlər mənbədən, mənbə kadrın küncündə kiçik.
+- **Arxiv sənədləri:** yalnız ictimai mülkiyyətdə olan və ya lisenziyası aydın olan sənədlər. Mənbə `clips/sources.json`-a və təsvirə yazılır.
+- **Ekranda mətn:** videoya **altyazı yandırılmır**: nə ingiliscə, nə başqa dildə (sahib, 2026-10-31). Altyazılar yalnız YouTube-a fayl kimi yüklənir (§15). Ekranda yalnız qısa etiketlər olur: tarix, yer adı, rəqəm, fəsil kartı, viktorina variantları, Answer Puzzle. Bu mətnlər kodla yazılır, AI şəklinə yazdırılmır.
+- **Stock video:** cizgi stilinə uyğun gəlmir, ən çox epizodun 5%-i (Pexels/Pixabay, `tools/video/stock.py`). Müəllif təsvirdə göstərilir.
+- **Musiqi:** yalnız `content/music/` qovluğundan, lisenziyası `content/music/LICENSES.md`-də olan fayllar (§12.5). Səsdən 18–22 dB aşağı.
 
-## 3b. Long videonun quruluşu (6–10 dəq)
-1. **0–30 s, hook + vəd:** ən maraqlı nəticəni və ya sualı dərhal göstər ("We gave this new model our hardest task. It… did not go well."). Sonra izləyicinin sonda nə alacağını de. Uzun giriş, salam və "subscribe" olmur.
-2. **Fəsillər:** 3–6 fəsil, hər biri ≥ 60 s. Fəslin ilk shot-unda `"chapter"` sahəsi olur (sonrakı shot-larda yox), `tools/video/chapters.py` fəsil siyahısını çıxarır.
-3. **Hər 30–60 saniyədə "pattern interrupt":** KAXO-nun zarafatı, ofis görüntüsü, ekran yazısı, rəqəm qrafiki. Eyni tip kadr 20 saniyədən çox davam etmir.
-4. **Açıq döngülər:** "We'll see the score in a minute…" kimi vədlər verilir və mütləq yerinə yetirilir.
-5. **Real test hissəsi:** alətin real sınandığı yer. Nəticə vizualdır (§2) və tam ekranda, KAXO-nun canlı reaksiyası ilə gəzilir. Burada ekran yazısı (`tools/video/record_page.js`, `record_screen.py`) və nəticə cədvəli olur. Videonun ürəyi budur və monetizasiya üçün "orijinal dəyər" də budur (§12).
-6. **Nəticə + KAXO-nun hökmü (son 60 s):** qısa, dürüst yekun: girişdəki suala cavab, bir güclü və bir zəif yer. Sonra növbəti videoya körpü. Son 20 saniyədə end screen üçün sakit kadr olur.
-7. **Danışıq:** §3a eynilə keçərlidir. KAXO tək aparıcıdır və ekran yazısının üstündən birinci şəxsdə danışır.
+## 6. Araşdırma və dəqiqlik
+- Hər videoda **ən azı 5 mənbə**, onlardan ən azı 2-si rəsmi və ya akademik: rəyçili məqalələr, universitet və muzey nəşrləri, FAO/WHO/UNESCO, milli statistika, qanun mətnləri.
+- Hər rəqəmin, tarixin və tədqiqatın mənbəyi `content/reports/<epizod>.md`-də sətir-sətir göstərilir. Mənbəsiz iddia ssenaridən çıxarılır.
+- Viki və bloq yalnız istiqamət üçündür, son mənbə sayılmır.
+- Mənbələr razılaşmırsa, ssenaridə bu deyilir. Rəqəmlər dürüst yuvarlaqlaşdırılır.
+- **Fakt yoxlaması:** ssenari bitəndən sonra `qa` agenti hər iddianı mənbə ilə tutuşdurur. Nəticə hesabata `Fakt yoxlaması: N iddia, N təsdiq, N düzəliş` sətri ilə yazılır.
+- **Başqa videonun mətni oxunmur, tərcümə olunmur, yenidən danışılmır** (§12.2). Ssenari öz araşdırmamızdan yazılır.
 
-## 4. Vizual qaydalar
-- **Stil:** `character.md`-dəki sahib prompt-u, dəyişmədən. Adult cartoon sitcom üslubu: kobud əl xətti, düz rənglər, qalın konturlar.
-- **Şəkillər:** short üçün şaquli 2:3 (1024×1536), long üçün üfüqi 3:2 (1536×1024). Hər səhnə prompt-u **ardıcıllıq bloku** ilə bitir, blokdakı `{ASPECT}` formata görə doldurulur, referans şəkil həmişə əlavə olunur.
-- **Poza kitabxanası:** `content/character/poses/`. Uğurlu KAXO şəkilləri təkrar istifadə üçün saxlanılır. Bir epizodda kitabxanadan ən çox 50% kadr götürülür (README-yə bax).
-- **Ekran yazısı (long):** yeni alətin və ya modelin rəsmi səhifəsi, demo, nəticə. Hər klip ≤ 15 s, üstündə KAXO-nun şərhi olur (şərh və tənqid məqsədi, §13).
-- **Kompüter ekranı:** VS Code-da agentin real kodunun yazılması (`tools/video/type_code.py`), terminal, proqram pəncərəsi (`tools/video/record_screen.py`). Yalnız real iş göstərilir. Kadrda şəxsi məlumat, sir və bildiriş olmur.
-- **Stock video:** yalnız Pexels və Pixabay (pulsuz lisenziya, `tools/video/stock.py`), epizodun ≤ 20%-i. Müəllif `clips/stock.json`-da saxlanılır və təsvirdə göstərilir. Stock görüntü "bizim ofis" kimi təqdim olunmur. API açarları yalnız `.env`-dədir.
-- **Fon:** sadədir: ofis, divan, server otağı, kafe. Detal az olur, çünki xarakter ön plandadır.
-- **Mətn:** şəkillərdə mətn olmur, mətni altyazı verir. İstisna: səhnə üçün lazım olan ekran və ya lövhə.
-- **Ofis B-roll:** yalnız real hadisələrdən çəkilir (`node demo.js --replay ... --speed N` + `tools/video/record_office.js`). Ssenarili demo görüntüsü videoya **düşmür**.
-- **Altyazı:** böyük, qalın, BÖYÜK HƏRFLƏRLƏ. KAXO-nun sözləri yaşıl, diktorunku ağ (`tools/video/subs.py`).
-- **Musiqi:** yalnız `content/music/` qovluğundan. Oradakı hər faylın lisenziyası `content/music/LICENSES.md`-də yazılmalıdır. Musiqi yoxdursa, video musiqisiz çıxır.
-
-## 5. Dürüstlük
-- Şirkət haqqında rəqəm, müştəri, gəlir və nəticə **yalnız real** ola bilər. Gəlir 0-dırsa, 0 deyilir.
-- Sitcom səhnələri uydurma ola bilər (KAXO-nun yuxusu, fantaziyası), amma real fakt kimi təqdim olunmur.
-- AI istifadəsi gizlədilmir. Kanalın ideyası elə budur.
-
-## 6. Qadağalar
-- Başqa brendlərin personajları, müəllif hüquqlu musiqisi, film parçaları.
-- Loqolar yalnız mövzunu göstərmək üçündür: məsələn, video Claude haqqındadırsa, Claude loqosu. Loqo dəyişdirilmir, brendin KAXO-nu dəstəklədiyi təəssüratı yaradılmır.
-- Real insanlar, siyasət, din, faciələr.
-- Spirt, narkotik, siqaret. Kanal reklamçılar üçün təhlükəsiz qalmalıdır.
-- Şablonla kütləvi istehsal. YouTube "inauthentic content" siyasətinə görə hər video yeni ideya, yeni ssenari, yeni kadrlar olmalıdır. Eyni ssenarini söz dəyişib təkrarlamaq olmaz.
-- Clickbait yalanı: başlıq və thumbnail videoda olmayan şeyi vəd etmir.
-
-## 7. Şəkil generasiyası (ChatGPT, brauzer)
-- **Brauzer:** Claude in Chrome, `chatgpt.com`. Hesaba **sahib özü** daxil olur. Claude parol yazmır, hesab yaratmır.
-- **Hər epizod üçün bir yeni söhbət:** birinci mesajda referans şəkil, stil prompt-u və xarakter təsviri gedir. Sonrakı mesajların hər biri bir kadrdır.
-- **Yoxlama:** hər şəkil yoxlanılır: xarakter referansa uyğundurmu, artıq mətn və ya barmaq xətası varmı. Bir kadr ən çox 2 dəfə yenidən yaradılır.
-- **Şəkillər harada:** `content/episodes/<epizod>/images/<kadr id>.png`. Başqa format gəlsə, PNG-yə çevrilir.
-- **Limit bitəndə:** Claude dayanır və sahibə neçə kadrın qaldığını bildirir. Sahib özü başqa hesaba keçə və ya limitin yenilənməsini gözləyə bilər. Sonra `/video davam` yalnız çatışmayan kadrları yaradır. Claude hesablar arasında özü keçid etmir.
-  - Qeyd: bir neçə pulsuz hesabla limiti keçmək OpenAI şərtlərinə ziddir və hesabların bloklanmasına səbəb ola bilər. Risk sahibin qərarıdır.
+## 7. Həssas mövzular
+- **Din və mədəniyyət:** yemək qadağaları, adətlər hörmətlə, fakt kimi danışılır. Heç bir xalq ələ salınmır, "iyrənc", "geridə qalmış" kimi qiymət verilmir.
+- **Siyasət və irq:** mübahisəli ərazi, müharibə, irq siyasəti mövzu olmur. Tarixi hadisə fakt kimi qısa deyilir.
+- **Sağlamlıq:** bədən və beyin mövzuları elmi izahdır. Diaqnoz, müalicə və pəhriz məsləhəti verilmir ("try this to sleep better" yoxdur). Xəstəlik mövzusu seçilmir (§12.3).
+- **Ölüm və təhlükə:** tarixəqədərki həyatın təhlükələri (yırtıcı, soyuq, aclıq) qan və şoksuz, maraq tonu ilə danışılır.
 
 ## 8. SEO (YouTube)
-- **Başlıq:** ≤ 60 simvol, maraq oyadır. Əsas açar söz ilk 40 simvolda olur ("AI employees", "AI agents", "AI company" və s.). Emoji ən çox 1 olur. Bütün sözlər böyük hərflə yazılmır.
-- **Açar söz araşdırması:** YouTube autocomplete (`https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=<söz>`) və oxşar videoların başlıqları. Seçilən açar sözlər hesabata yazılır.
+- **Başlıq:** ≤ 60 simvol, sual formasında və ya ziddiyyətlə. Açar söz ilk 40 simvolda. Məsələn: "Why Don't We Eat Goat? (Half the World Does)", "How Did Humans Invent Soap?". Bütün sözlər böyük hərflə yazılmır, emoji olmur.
+- **Açar söz araşdırması:** YouTube autocomplete (`https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=<söz>`): "why don't we …", "how did humans …", "why do animals …", "prehistoric humans …". Seçilən açar sözlər hesabata yazılır.
 - **Təsvir:**
-  - 1-ci sətir hook-dur və açar sözü daşıyır (axtarışda görünən hissə).
-  - 2–3 cümlə kontekst verir: "KAXO's company is run entirely by AI agents…"
-  - Real hissə üçün bir sətir: bu epizodda agentlərin real olaraq nə etdiyi.
-  - Long videoda fəsillər (`00:00 …`) olur.
-  - Hashtag-lardan əvvəl şəffaflıq sətri: "Made with AI tools; stories based on a real AI-agent company." (§12)
-  - Sonda 3–5 hashtag: `#shorts` (short üçün), `#ai`, `#aiagents` və mövzuya uyğun 1–2 hashtag.
-- **Tag-lar:** 8–15 ədəd: açar söz variantları və kanal adı.
-- **Kateqoriya:** Comedy. Epizod daha çox izaha əsaslanırsa, Science & Technology.
-- **Parametrlər:**
-  - Dil: English.
-  - "Made for kids": No.
-  - Altyazı: `subs/captions.srt` yüklənir.
-- **Altered/synthetic content:** cizgi filmi real görünmədiyi üçün "No". Real insana bənzər səs və ya görüntü olsa, "Yes".
-- **Thumbnail:** [THUMBNAILS.md](THUMBNAILS.md) qaydaları, `/thumbnail` skill-i ilə hazırlanır.
-- **Playlist:** "KAXO's AI Company".
+  - 1-ci sətir hook-dur və açar sözü daşıyır;
+  - 2–3 cümlədə videonun nədən danışdığı, səbəblərin adı açılmadan;
+  - fəsillər (`00:00 Intro`, `01:32 1. The Empty Sea` …);
+  - **Sources & further reading:** nömrələnmiş mənbə siyahısı;
+  - şəffaflıq sətri: "Narration and illustrations made with AI tools; script researched and fact-checked from the sources above.";
+  - kanal sətri: "KAXO wonders why, so you don't have to.";
+  - 3 hashtag: mövzu sahəsi (`#foodhistory`, `#prehistory`, `#animalbehavior`, `#humanbody`), `#kaxo` və mövzu.
+- **Tag-lar:** 10–20: açar söz variantları, mövzu sözləri, "history explained", "kaxo". Başqa kanal adı yazılmır.
+- **Kateqoriya:** Education. **Dil:** English. **Made for kids:** No (§12.4).
+- **Altered/synthetic content:** cizgi real görünmür, ona görə "No". Real insanın səsi və ya görüntüsü təqlid olunsa, "Yes".
+- **Thumbnail:** [THUMBNAILS.md](THUMBNAILS.md), `/thumbnail` skill-i.
+- **Playlist:** [PLAYLISTS.md](PLAYLISTS.md).
 - Hamısı `seo.json`-a yazılır.
 
 ## 9. Nəşr
 - **Sahibin açıq təsdiqi olmadan heç nə paylaşılmır.** Claude videonu açır, sahib baxır və "təsdiq" deyir.
-- Birinci platforma YouTube-dur (Studio, brauzer, sahibin hesabı). TikTok və Instagram sonra əl ilə və ya ayrıca razılaşma ilə.
-- Paylaşılan hər video `content/published.md`-yə yazılır (tarix, başlıq, URL, epizod qovluğu).
+- Platforma YouTube-dur (Studio, brauzer, sahibin hesabı).
+- Paylaşılan hər video `content/published.md`-yə yazılır (tarix, başlıq, URL, epizod qovluğu, dillər).
 
 ## 10. Statistika və dərslər
-- Paylaşılmasından ≥ 48 saat keçmiş videoların statistikası YouTube Studio-dan toplanır:
-  - baxış;
-  - orta baxış müddəti;
-  - baxılma faizi (retention);
-  - CTR (long üçün);
-  - like, şərh, abunəçi artımı;
-  - Shorts feed-də "viewed vs swiped away".
-- Xam rəqəmlər `content/stats/YYYY-MM-DD.json`-a, nəticələr `content/lessons.md`-yə yazılır.
-- **Dərs** ən azı 2 videonun müqayisəsindən çıxır. Bir video əsasında qayda yazılmır, yalnız "müşahidə" yazılır.
-- Növbəti ssenari yazılmazdan əvvəl `lessons.md` oxunur.
+- Paylaşılmasından ≥ 48 saat keçmiş videoların statistikası YouTube Studio-dan toplanır: baxış, orta baxış müddəti, **retention əyrisi (xüsusən 0:30 və 1:00 nöqtəsində qalan faiz)**, CTR, like, şərh, abunəçi, trafik mənbəyi, altyazı dillərinə görə baxış, **monetizasiya ikonası** (yaşıl/sarı).
+- Retention əyrisində kəskin düşüş varsa, həmin anın ssenari parçası hesabata yazılır.
+- Sarı ikona (limited ads) olarsa, səbəbi və mövzu `lessons.md`-yə dərhal yazılır (bir videodan da qayda çıxır, §12.3).
+- Xam rəqəmlər `content/stats/YYYY-MM-DD.json`-a, nəticələr `content/lessons.md`-yə.
+- **Dərs** ən azı 2 videonun müqayisəsindən çıxır. Bir video əsasında yalnız "müşahidə" yazılır.
 
 ## 11. Hesabatlar və təmizlik
-- Hər epizodun araşdırma və istehsal hesabatı `content/reports/YYYY-MM-DD-<slug>.md`-dədir. Subagentlərin tapdıqları, mənbələr, açar sözlər, problemlər oraya yazılır.
-- `content/reports/`-da **ən son 10 hesabat** qalır. Köhnəsi silinməzdən əvvəl oradakı faydalı nəticələrin `lessons.md`-də və ya `ideas.md`-də olduğu yoxlanılır.
-- Paylaşılmış epizodlarda 30 gündən sonra ara fayllar (`audio/*.wav`, `clips/`, `video/_segments`) silinir. `final.mp4`, `episode.json`, `script.md`, `seo.json`, `images/` qalır.
+- Hər epizodun araşdırma və istehsal hesabatı `content/reports/YYYY-MM-DD-<slug>.md`-dədir: mənbələr, fakt yoxlaması, açar sözlər, monetizasiya yoxlaması, problemlər.
+- `content/reports/`-da **ən son 10 hesabat** qalır. Köhnəsi silinməzdən əvvəl faydalı nəticələr `lessons.md`-yə və ya `ideas.md`-yə köçürülür.
+- Paylaşılmış epizodlarda 30 gündən sonra ara fayllar (`audio/*.wav`, `clips/`, `video/_segments`) silinir. `final.mp4`, `episode.json`, `script.md`, `seo.json`, `subs/`, `images/` qalır.
 
-## 12. YouTube monetizasiyasına uyğunluq (YPP)
-Mənbələr (yoxlanıb 2026-09-25): [YPP tələbləri](https://support.google.com/youtube/answer/72851), [kanal monetizasiya siyasəti](https://support.google.com/youtube/answer/1311392), [reklamçı dostu qaydalar](https://support.google.com/youtube/answer/6162278), [ölkələr](https://support.google.com/youtube/answer/7101720). Qaydalar dəyişir, hər rübdə yenidən yoxlanılır.
+## 12. Monetizasiya: gələcəkdə məhdudiyyət olmasın (sahib, 2026-10-31)
+**Məqsəd:** kanal YPP-yə qəbul olunsun, sonra heç bir video sarı ikona (limited ads) almasın, kanal "reused" və ya "inauthentic" kimi monetizasiyadan çıxarılmasın. Bu bölmə digər bütün qaydalardan üstündür: şübhə olanda video dəyişdirilir və ya çəkilmir.
 
-**Qoşulma həddi (ikisindən biri):**
-- 1 000 abunəçi + son 12 ayda 4 000 izlənmə saatı (long video);
-- 1 000 abunəçi + son 90 gündə 10 milyon Shorts baxışı.
+Mənbələr (yoxlanıb 2026-09-25, hər rübdə yenidən yoxlanılır): [YPP tələbləri](https://support.google.com/youtube/answer/72851), [kanal monetizasiya siyasəti](https://support.google.com/youtube/answer/1311392), [reklamçı dostu qaydalar](https://support.google.com/youtube/answer/6162278), [made for kids](https://support.google.com/youtube/answer/9528076).
 
-Shorts yolu çətindir, çünki 10M baxış lazımdır. Buna görə long video 10 short-u gözləmədən, **auditoriya yarananda** başlayır (§2). 4 000 saat long videolarla daha realdır.
+**Qoşulma həddi:** 1 000 abunəçi + son 12 ayda 4 000 izlənmə saatı (long yolu, əsas yolumuz) və ya 1 000 abunəçi + 90 gündə 10M Shorts baxışı. Digər şərtlər: 2-Step Verification, aktiv strike yoxdur, AdSense, ölkə siyahıdadır. Qəbul zamanı rəyçi kanalın **əsas mövzusuna, ən çox baxılan, ən yeni və ən çox izlənən videolarına** baxır.
 
-**Digər şərtlər:**
-- Google hesabında 2-Step Verification;
-- aktiv Community Guidelines "strike" olmamalıdır;
-- AdSense hesabı;
-- yaşayış ölkəsi YPP siyahısında olmalıdır. Azərbaycan siyahıdadır, qoşulmazdan əvvəl yenidən yoxla.
+### 12.1 Orijinallıq (inauthentic / mass-produced content)
+AI səsli izah kanalları xüsusi diqqətdədir. Hər video "insanın yaradıcı işi" kimi görünməlidir:
+1. **Öz araşdırmamız və öz ssenarimiz:** sual quruluşu, səbəb seçimi, soyuq açılış, zarafat, müqayisə bizimdir.
+2. **Şablon təkrarı yoxdur:** quruluş (§3) çərçivədir, amma hər videonun soyuq açılışı, viktorinası, zarafatları, səhnələri və KAXO-nun geyimi yenidir. `/video` son 10 epizodla müqayisə edir.
+3. **Yaradıcı iş görünür:** personaj, səhnələr, xəritə və qrafiklər, Answer Puzzle. Slayd-şou + diktor formatı kifayət etmir.
+4. **İnsan nəzarəti:** sahib hər videoya baxıb təsdiqləyir (§9).
+5. **Tezlik keyfiyyətdən sonra gəlir:** həftədə ən çox 2 long. Gündə bir neçə video kimi "mass production" siqnalı verilmir.
+6. **Kanalın mövzusu sabitdir:** §1-dəki 4 sahə. Köhnə AI videoları qəbul öncəsi Private edilir (sahib, `published.md`).
 
-**Ən böyük risk: "inauthentic content" (iyul 2025).** YouTube şablonla kütləvi istehsal olunan, "creator-un orijinal baxışı olmayan" AI kontentini monetizasiyadan çıxarır. Rəyçilər kanalın **əsas mövzusuna, ən çox baxılan, ən yeni və ən çox izlənmə saatı olan videolarına** baxır. Buna görə:
-1. **Hər video orijinaldır:** yeni ideya, yeni ssenari, yeni səhnələr. Eyni skeleti söz dəyişib təkrarlamaq qadağandır. `/video` son 10 epizodla müqayisə edir.
-2. **Orijinal baxış mütləqdir:** hər videoda real şirkət hadisəsi və ya KAXO-nun öz baxışı olur. Heç vaxt "AI səs + başqasının mətni" olmur. Başqa mənbəni oxumaq qadağandır (reused content).
-3. **Yaradıcı iş görünür:** personaj, dialoq, komik fasilələr, hər epizoda xas vizual. Şəkil slayd-şousu + diktor formatı kifayət etmir. Hər videoda KAXO-nun ən azı 2 fərqli səhnəsi və real ofis görüntüsü olur.
-4. **Sahib hər videoya baxıb təsdiqləyir** (§9). Bu, insan nəzarəti və keyfiyyət süzgəcidir.
-5. **Tezlik keyfiyyətdən sonra gəlir:** həftədə 3 short maksimumdur. Gündə 10 video kimi "mass production" siqnalı verilmir.
-6. **Kanalın mövzusu sabitdir:** KAXO + AI şirkəti. Mövzudan kənar videolar əsas mövzunu bulandırır.
+### 12.2 Reused content
+- Başqa kanalın videosunu, ssenarisini və ya kadrlarını **tərcümə edib səsləndirmək, yenidən danışmaq, kəsib yığmaq qadağandır** (bəzi referans kanalların etdiyi kimi). Bu, kanal səviyyəsində monetizasiyadan çıxarılmanın ən çox rast gəlinən səbəbidir.
+- Kitab, məqalə və Vikipediya mətni sözbəsöz oxunmur. Mənbədən fakt götürülür, mətn öz sözlərimizlədir. Sitat qısadır (1–2 cümlə) və mənbəsi deyilir.
 
-**Hüquqlar (reused content və copyright):**
-- **Şəkillər:** ChatGPT, sahibin hesabı. OpenAI şərtlərinə görə çıxış istifadəçiyə məxsusdur.
-- **Səs:** Kokoro (Apache-2.0), kommersiya istifadəsinə açıqdır.
-- **Şrift:** Anton (OFL).
-- **Ofis görüntüsü:** öz proqramımızdır.
-- **Musiqi:** yalnız lisenziyası `music/LICENSES.md`-də olanlar.
-- **Başqasının videosu, filmi, mem şablonu yoxdur.**
+### 12.3 Reklamçı dostu məzmun (sarı ikona olmasın)
+Mövzu seçimində, başlıqda, thumbnail-də və **ilk 30 saniyədə** bunlar **olmur**:
+- **Cinsəllik:** cinsi həyat, intim münasibət, regl, doğuş detalı, çılpaqlıq. ("Tarixəqədərki insanların özəl həyatı" tipli mövzu çəkilmir.) Sevgi və ailə yalnız sosial tərəfdən.
+- **Narkotik və spirt:** "when did humans start using drugs", sərxoşluq. Yemək tarixində şərab və pivə bir cümlə ilə, təbliğsiz.
+- **Silah və zorakılıq:** silah, top, arbalet ixtirası, döyüş, işgəncə, ölüm səhnəsi. Silah ixtirası mövzu kimi seçilmir.
+- **Faciə və xəstəlik:** fəlakət, epidemiya, xərçəng, ruhi xəstəlik, intihar, ölüm statistikası mövzu kimi seçilmir.
+- **Mübahisəli mövzular:** irq, siyasət, din mübahisəsi, cinsi kimlik.
+- **Şok və iyrənclik:** qan, yara, tualet və bədən ifrazatı detalı, böcək yemək kadrı yaxın planda.
+- **Söyüş:** heç vaxt, "damn" da yox.
+- **Aldadıcı başlıq və thumbnail:** videoda olmayan şey vəd edilmir (metadata siyasəti).
+Mövzu bu siyahıya yaxındırsa (məsələn, tualetin ixtirası), yalnız mühəndislik və tarix tərəfi danışılır, başlıq və thumbnail neytral olur. Əmin olmayanda mövzu dəyişdirilir.
 
-**Reklamçı dostu məzmun (tam gəlir üçün):**
-- Söyüş yoxdur, xüsusən ilk 7 saniyədə, başlıqda və thumbnail-də. Ümumiyyətlə yoxdur, "damn"-dan başqa.
-- Spirt, narkotik, zorakılıq, qan, şok, cinsi eyham, siyasi və ya dini mübahisə yoxdur (§6).
-- Başlıq və thumbnail aldatmır (metadata siyasəti). Tag-larda spam və ya başqa kanal adı olmur.
-- Mövzu uşaqlar üçün deyil: "Made for kids: No", çünki cizgi film olsa da auditoriya 18+ yaşdır.
+### 12.4 Uşaq üçün kontent deyil (Made for kids: No)
+Cizgi kanalları YouTube-un sistemində "made for kids" kimi qeyd oluna bilər. O zaman fərdi reklam, şərhlər və bildirişlər söndürülür və gəlir kəskin düşür. Buna görə:
+- Hər yükləmədə və kanal ayarlarında "No, it's not made for kids" seçilir.
+- Mövzular, lüğət və yumor yetkin izləyici üçündür (iqtisadiyyat, qanun, tədqiqat, müasir iş həyatı ilə müqayisə). Uşaq mahnısı, oyuncaq, nağıl tonu, "kids, let's learn" kimi müraciət yoxdur.
+- Thumbnail-də uşaq personajı əsas fiqur olmur.
 
-**AI açıqlaması:** YouTube "altered or synthetic content" etiketini real görünən insan, yer və ya hadisə üçün tələb edir. Cizgi KAXO üçün "No". Real insana bənzər səs və ya görüntü olsa, "Yes". Təsvirdə bir sətir şəffaflıq üçündür: "Made with AI tools; stories based on a real AI-agent company."
+### 12.5 Hüquqlar
+- **Vizual:** video kodla qurulur (Remotion, öz kodumuz). Remotion lisenziyası: fərdi şəxslər və ≤ 3 işçili şirkətlər üçün pulsuzdur (remotion.pro/license, hər rübdə yoxla; komanda böyüyərsə Company License lazımdır). Thumbnail və personaj vərəqləri: ChatGPT, sahibin hesabı (OpenAI şərtlərinə görə çıxış istifadəçiyə məxsusdur). Blender (GPL; render çıxışı bizimdir), Adobe proqramları sahibin lisenziyası ilə. Başqa brendin personajına bənzədilmir.
+- **Səs:** Kokoro (Apache-2.0), kommersiya istifadəsinə açıqdır. Başqa TTS yalnız kommersiya lisenziyası ilə və sahibin icazəsi ilə.
+- **Musiqi:** yalnız lisenziyası `music/LICENSES.md`-də yazılan, kommersiya istifadəsinə açıq, **Content ID qeydiyyatı olmayan** fayllar (YouTube Audio Library və s.). Content ID iddiası gəlirin başqasına getməsi deməkdir.
+- **Arxiv:** ictimai mülkiyyət və ya açıq lisenziya, mənbə ilə.
+- **Şrift:** OFL lisenziyalı.
+- Başqasının videosu, filmi, mem şablonu, personajı yoxdur.
 
-**Monetizasiya yoxlaması** (`/video`, 4-cü və 9-cu addımlar): hər epizod üçün hesabata yazılır:
-`Monetizasiya: orijinallıq ✓/✗ · reused ✓/✗ · reklamçı dostu ✓/✗ · hüquqlar ✓/✗ · risk: yox/aşağı/yüksək`.
-Risk **yüksək**dirsə, video paylaşılmır, əvvəl düzəldilir.
+### 12.6 Monetizasiya yoxlaması (`/video` 4-cü və 9-cu addımlar)
+Hesabata yazılır:
+`Monetizasiya: orijinallıq ✓/✗ · reused ✓/✗ · reklamçı dostu (mövzu, başlıq, thumbnail, ilk 30 s) ✓/✗ · made for kids: No ✓/✗ · hüquqlar (şəkil, səs, musiqi, arxiv) ✓/✗ · fakt yoxlaması ✓/✗ · risk: yox/aşağı/yüksək`.
+Risk **aşağı** deyilsə (yəni "yüksək" və ya hər hansı ✗ varsa), video paylaşılmır, əvvəl düzəldilir.
 
-## 13. Gündəm: son dəyişiklikləri izləmək
-- **Mənbə:** `/gundem` skill-i (`.claude/skills/gundem/SKILL.md`). `/video` işə düşəndə son gündəm faylı 24 saatdan köhnədirsə, əvvəlcə `/gundem` işlədilir.
-- **Pəncərə:** hər gündəm yalnız son **24 saatı** əhatə edir (sahib 2026-09-26). Tarixə həm məqalənin, həm hadisənin ilk açıqlanma tarixi daxildir: köhnə hadisəyə dair yeni yazı gündəmə girmir.
-- **Nə izlənir:** yeni modellər, alətlər, böyük yeniləmələr, AI şirkətlərinin buraxılışları, trend repolar. Mənbə siyahısı skill-dədir.
-- **Təsdiq qaydası:** hər xəbərin birinci mənbəyi (rəsmi blog, sənəd, repo) olmalıdır. Şayiə, sızma və "insider" iddiaları kontentə girmir. Rəqəmlər yalnız rəsmi mənbədən götürülür və təsvirdə mənbə linki verilir.
-- **Təzəlik:** news flash short xəbərdən sonra ilk 48 saatda çıxmalıdır. Gecikibsə, long videoda "həftənin xəbərləri" hissəsinə keçir.
-- **Öz baxışımız mütləqdir:** xəbəri sadəcə təkrar demək reused və inauthentic riskidir (§12). Hər gündəm videosunda KAXO-nun şərhi, real test və ya müqayisə olur.
-- **Başqasının materialı:** rəsmi səhifələrin qısa ekran yazısı (≤ 15 s) şərh üçün istifadə olunur. Başqasının videosu, reklam çarxı və musiqisi istifadə olunmur. Loqolar yalnız mövzunu göstərmək üçündür (§6).
-- **Arxiv:** `content/news/YYYY-MM-DD.md`, son 14 gün saxlanılır.
-- **İşləmə:** gündəm yalnız sahib `/gundem` və ya "gündəm" yazanda işləyir (sahib 2026-09-26: sistem serverdə deyil). Windows Task Scheduler-dəki "KAXO Gundem" tapşırığı **söndürülüb** (Disable, silinməyib); yenidən açmaq: `Enable-ScheduledTask -TaskName 'KAXO Gundem'`. `tools/gundem-daily.ps1` saxlanılır.
+## 13. Qadağalar
+- Başqa brendlərin personajları, müəllif hüquqlu musiqi, film parçaları, başqa kanalın kadrları.
+- Real insanları ələ salmaq, siyasət, dini mübahisə.
+- §12.3-dəki mövzular.
+- Clickbait yalanı.
+- Şablonla kütləvi istehsal (§12.1).
 
 ## 14. Playlistlər
-Qaydalar və siyahı: [PLAYLISTS.md](PLAYLISTS.md). Hər video paylaşılanda ən azı bir playlistə qoyulur, short-lar əlavə olaraq "KAXO Shorts"-a.
+Qaydalar və siyahı: [PLAYLISTS.md](PLAYLISTS.md). Hər video paylaşılanda ən azı bir playlistə qoyulur.
 
-## 15. Lokalizasiya: türkcə (sahib, 2026-09-25; bütün videolar və Short-lar)
-Türk dilli ölkələrdən baxan izləyici videonu türkcə görməlidir:
-- **Başlıq və təsvir:** hər videoya türkcə tərcümə (Studio → Languages → Turkish). `seo.json` → `tr.title`, `tr.description`.
-- **Altyazı:** ingiliscə `subs/captions.srt` + türkcə `subs/captions.tr.srt` yüklənir.
-- **Səs:** türkcə səs dorojkası `audio/voice_tr.wav`. İngiliscə ilə **eyni uzunluqda** olur (hər shot öz vaxtına sığdırılır), YouTube-a "multi-language audio" kimi yüklənir. **Vəziyyət (2026-09-25):** kanalda multi-language audio/auto-dubbing funksiyası hələ yoxdur (Studio → Subtitles-də yalnız altyazı və başlıq sütunları). Piper-in yeganə tr_TR səsi (dfki) CC BY-NC-SA-dır, kommersiya kanalında işlədilmir. Funksiya açılana qədər: TR başlıq + təsvir + altyazı. Açılanda: kommersiya lisenziyalı TTS (sahibin icazəsi) və ya YouTube auto-dubbing.
-- Tərcümə hərfi deyil, danışıq türkcəsidir (§3a qaydaları türkcəyə də aiddir): KAXO-nun yumoru qorunur, rəqəmlər və mənbələr dəyişmir.
-- Ödənişli TTS yalnız sahibin icazəsi ilə.
+## 15. Lokalizasiya: 10 dildə altyazı (sahib, 2026-10-31)
+- **Səs yalnız ingiliscədir.** Videoda heç bir dildə altyazı görünmür (§5).
+- **Altyazılar YouTube-a fayl kimi yüklənir** (Studio → Subtitles → Upload file → With timing), 10 dildə:
+
+| Dil | YouTube | Fayl |
+|---|---|---|
+| English (əsas) | English | `subs/captions.en.srt` |
+| Spanish | Spanish | `subs/captions.es.srt` |
+| Portuguese | Portuguese (Brazil) | `subs/captions.pt.srt` |
+| Russian | Russian | `subs/captions.ru.srt` |
+| Turkish | Turkish | `subs/captions.tr.srt` |
+| Chinese | Chinese (Simplified) | `subs/captions.zh-Hans.srt` |
+| Japanese | Japanese | `subs/captions.ja.srt` |
+| Korean | Korean | `subs/captions.ko.srt` |
+| Arabic | Arabic | `subs/captions.ar.srt` |
+| Persian | Persian | `subs/captions.fa.srt` |
+
+- **Başlıq və təsvir də eyni 9 dilə tərcümə olunur** (Studio → Languages → Add language): xarici izləyici başlığı öz dilində görür, bu da CTR və axtarış üçün vacibdir. `seo.json` → `localizations.<dil>.title/description`.
+- **Tərcümə qaydası:** hərfi tərcümə olmur, təbii danışıq dilində yazılır. Vaxt kodları və cue sayı ingiliscə faylla eyni qalır. Rəqəmlər, il, xüsusi adlar və mənbə adları dəyişmir. Ərəb və fars dilində sağdan sola yazılış və durğu işarələri yoxlanılır. Hər cue ən çox 2 sətirdir: Çin, Yapon və Koreya dilində sətir başına ≤ 20 simvol, digər dillərdə sətir başına ≤ 42 simvol.
+- **Yoxlama:** hər faylda cue sayı ingiliscə ilə eynidir, boş cue yoxdur, kodlaşma UTF-8-dir (`/video` 8-ci addım).
+- Ödənişli tərcümə və ya TTS xidməti yalnız sahibin icazəsi ilə.
