@@ -21,12 +21,12 @@ Hər video bir maraq sualına cavab verir: "Why don't we eat goat?", "How did hu
 ## 2. Formatlar
 | Format | Ölçü | Uzunluq | Tezlik | Növ |
 |---|---|---|---|---|
-| **Long (əsas)** | 1920×1080 | **minimum 8:00**, hədəf 10–14 dəq | həftədə 1–2 | bir sual, 4–7 səbəb və ya mərhələ, cizgi + xəritə + sənəd + qrafik |
+| **Long (əsas)** | 1920×1080 | **mövzu qədər**, adətən 6–12 dəq, minimum yoxdur | həftədə 1–2 | bir sual, 4–7 səbəb və ya mərhələ, cizgi + xəritə + sənəd + qrafik |
 | **Deep dive** | 1920×1080 | 15–25 dəq | ayda ən çox 1, kanal böyüyəndən sonra | böyük sual ("How did humans invent the computer?"), xronoloji mərhələlərlə |
-| **Seriya** | 1920×1080 | hər hissə ≥ 8:00 | mövzu genişdirsə | eyni mövzunun 2–3 hissəsi |
+| **Seriya** | 1920×1080 | hər hissə mövzu qədər | mövzu genişdirsə | eyni mövzunun 2–3 hissəsi |
 | **Short: long-dan kəsik** | 1080×1920 | 30–55 s | hər long-dan 1–2 | long-un ən güclü faktı, yeni hook ilə; təsvirdə long-un linki |
 
-- **8 dəqiqə sərt həddir:** `final.mp4` 8:00-dan qısadırsa, video paylaşılmır. 8+ dəqiqə videonun ortasında reklam (mid-roll) qoymağa imkan verir. Uzunluq doldurma ilə yox, əlavə səbəb, hekayə və ya müqayisə ilə qazanılır.
+- **Minimum uzunluq yoxdur** (sahib 2026-11-01, köhnə "8 dəqiqə" qaydası ləğv edilib): video mövzu nə qədər tələb edirsə, o qədərdir. Kiçik mövzunu 8 dəqiqəyə uzatmaq izləyicini erkən çıxardır və orta izlənmə müddətini (retention) aşağı salır. Bu, mid-roll gəlirindən daha bahalıdır. Mövzu özü 8+ dəqiqəni doldurursa, mid-roll bonusdur. Doldurma, təkrar və uzadılmış giriş qadağandır.
 - Short-lar yalnız long-dan kəsilir. Əsas iş long videodur (izlənmə saatı, §12).
 - **Mövzu seçimi:** sual izləyicidə "hə, doğrudan, niyə?" reaksiyası yaratmalıdır. Yaxşı mövzuda (a) gündəlik həyatda görünən ziddiyyət və ya sirr, (b) ən azı 4 müstəqil səbəb və ya mərhələ, (c) gözlənilməz bir dönüş, (d) etibarlı mənbələr və (e) **tam reklam uyğunluğu** (§12.3) olur. Ziddiyyətli sual ("X yeyir, Y yemir") ziddiyyətsiz sualdan yaxşı gedir (referans statistikası).
 - **Mövzu bankı:** `content/ideas.md`. Mövzu sahələri növbə ilə gəlir: ardıcıl 3 video eyni sahədən olmur.
@@ -89,9 +89,24 @@ KAXO izləyici ilə yan-yana oturub hekayə danışan dost kimi danışır: mara
 - **Yumor ədviyyatdır:** dəqiqədə ən çox bir yüngül zarafat, çox vaxt müasir həyatla müqayisə. Əsas ton maraqdır.
 - **Dürüstlük:** mənbələr razılaşmırsa, bu deyilir: "Researchers still argue about this." Əfsanə əfsanə kimi təqdim olunur. Tarixəqədərki həyat haqqında fərziyyə fərziyyə kimi deyilir: "We can't know for sure, but the bones suggest…".
 - **Qadağandır:** siyahı kimi sadalamaq ("Firstly… Secondly…"), rəsmi sözlər ("utilize", "furthermore", "in conclusion"), "In this video", "Let's dive in", "Did you know?" ilə başlamaq, eyni sözlə başlayan ardıcıl cümlələr, ensiklopediya tonu.
-- **Fasiləsiz axın** (sahib iki dəfə "duraksama çoxdur" dedi): `[pause]` videoda ən çox 1 dəfədir (stinger-dən əvvəl). Montajdan sonra sükut payı ≤ 10%, ən uzun sükut ≤ 0.35 s (`/video` 7-ci addım). Qısa cümlələri nöqtə ilə doğrama.
+- **Temp: referans kanallar kimi sakit və nəfəsli** (sahib 2026-11-01: "temp çox sürətlidir"). Ölçü (2026-11-01, @menumetre 4 video + @Meraklı 2 video, avtomatik altyazının söz vaxtları ilə): danışıq arasında dəqiqədə ~14–19 fasilə (hər cümlə sonu), sükut payı 11–17%, ekranda şəkil ~4 s-dən bir dəyişir. Bizim "Japan beef" videomuz: 187 söz/dəq, cümlələr arası fasilə 0.13 s, sükut payı 4%. Fərq əsasən nəfəs fasilələrindədir. Hədəf:
+  - ümumi sürət **150–165 söz/dəq** (fasilələrlə birlikdə);
+  - hər cümlə sonunda **0.4–0.8 s** fasilə, fəsil keçidində və böyük faktdan sonra ~1 s;
+  - sükut payı **10–17%**, heç bir fasilə 1.5 s-dən uzun deyil (stinger-dən əvvəlki sakit an istisnadır);
+  - eyni şəkil ən az 3 s ekranda qalır, adətən bir şəkil 1–2 cümlə üçündür;
+  - ölçü `/video` 7-ci addımında məcburidir.
+  Köhnə "sükut ≤ 10%, fasilə ≤ 0.35 s" qaydası ləğv edilib: o, cümlə ortasındakı uzun boşluqlara qarşı idi. Cümlə ortasında boşluq indi də olmur.
+- `[pause]` ssenaridə ən çox 2 dəfədir. Adi cümlə fasiləsini səs özü verir, onu `[pause]` ilə yazmırıq.
 - **Səs testi:** ssenari ucadan oxunur. Dil ilişirsə, cümlə dəyişdirilir.
-- **Uzunluq hesabı:** ~150 söz/dəq. 8 dəqiqə üçün ən azı **1 250 söz**, hədəf (10–14 dəq) 1 500–2 100 söz.
+- **Uzunluq hesabı:** ~155 söz/dəq (fasilələrlə). Söz sayı mövzudan gəlir: 900 söz ≈ 6 dəq, 1 250 söz ≈ 8 dəq, 1 600 söz ≈ 10 dəq.
+
+### 4.1 Səsləndirmə: ChatGPT, brauzerdə (sahib 2026-11-01)
+- **Səs:** ChatGPT (sahibin hesabı, Chrome-da) **gənc, enerjili kişi səsi** ilə oxuyur. Səs adı ilk sınaqda sahib qulaqla seçəndən sonra `character/character.md` → "Səs" cədvəlinə yazılır və kanal boyu dəyişmir. Kokoro (`tts.py`) yalnız ehtiyatdır.
+- **ChatGPT-yə nə verilir:** ingiliscə mətn hissə-hissə (bir fəsil və ya ~60–90 s) və aydın tapşırıq: tərz, temp, cümlə sonunda nəfəs fasiləsi, hansı yerdə təəccüb, gülüş, ciddilik var. Emosiya iki yolla verilir:
+  1. **Mətnin özü ilə:** qısa zərbə cümləsi, sual, nida, "—" ilə qısa dayanma, "Wait." kimi reaksiya sözləri. Səs bunları olduğu kimi oxuyur.
+  2. **Tapşırıqda rejissor qeydləri ilə:** hər abzas üçün ayrıca qeyd ("curious, leaning in", "light laugh on the last line", "serious, slower"). Qeydlər oxunan mətnə qarışmır. Mötərizədə yazılsa, səs onları ucadan oxuya bilər.
+- **Yoxlama:** hər hissə dinlənir: səhv oxunan söz, buraxılmış cümlə, əlavə söz, robot intonasiya varsa, həmin hissə yenidən istənilir. Mətn ssenaridən dəyişməməlidir, çünki vaxtlama və altyazı ssenariyə bağlıdır.
+- **Hüquq:** OpenAI şərtlərinə görə çıxış istifadəçiyə məxsusdur. Real insanın və ya məşhurun səsi təqlid etdirilmir (§12.5).
 
 ## 5. Vizual qaydalar
 ### 5.0 İstehsal üsulu: video kodla qurulur (sahib, 2026-10-31)
@@ -208,7 +223,7 @@ Cizgi kanalları YouTube-un sistemində "made for kids" kimi qeyd oluna bilər. 
 
 ### 12.5 Hüquqlar
 - **Vizual:** video kodla qurulur (Remotion, öz kodumuz). Remotion lisenziyası: fərdi şəxslər və ≤ 3 işçili şirkətlər üçün pulsuzdur (remotion.pro/license, hər rübdə yoxla; komanda böyüyərsə Company License lazımdır). Thumbnail və personaj vərəqləri: ChatGPT, sahibin hesabı (OpenAI şərtlərinə görə çıxış istifadəçiyə məxsusdur). Blender (GPL; render çıxışı bizimdir), Adobe proqramları sahibin lisenziyası ilə. Başqa brendin personajına bənzədilmir.
-- **Səs:** Kokoro (Apache-2.0), kommersiya istifadəsinə açıqdır. Başqa TTS yalnız kommersiya lisenziyası ilə və sahibin icazəsi ilə.
+- **Səs:** ChatGPT səsləndirməsi, sahibin hesabı (sahib 2026-11-01; OpenAI şərtlərinə görə çıxış istifadəçiyə məxsusdur). Ehtiyat: Kokoro (Apache-2.0). Başqa TTS yalnız kommersiya lisenziyası ilə və sahibin icazəsi ilə. Real insanın səsi təqlid olunmur.
 - **Musiqi:** yalnız lisenziyası `music/LICENSES.md`-də yazılan, kommersiya istifadəsinə açıq, **Content ID qeydiyyatı olmayan** fayllar (YouTube Audio Library və s.). Content ID iddiası gəlirin başqasına getməsi deməkdir.
 - **Arxiv:** ictimai mülkiyyət və ya açıq lisenziya, mənbə ilə.
 - **Şrift:** OFL lisenziyalı.

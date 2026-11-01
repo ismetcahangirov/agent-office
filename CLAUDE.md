@@ -16,7 +16,7 @@ Bu qovluqda işləyən əsas Claude sessiyası şirkətin **CEO**-sudur. Hər h�
 ## Kontent: KAXO kanalı
 Şirkətin YouTube kanalı **KAXO**-dir (2026-10-31-dən): maraq suallarına cizgi izah videoları (yemək, ixtiralar, tarixəqədərki həyat, heyvanlar, bədən və beyin).
 Aparıcı insana bənzər universal 2D cizgi personaj **KAXO**-dur: mövzuya görə geyimi və əşyaları dəyişir. Səsləndirmə ingiliscədir, videoya altyazı yandırılmır, altyazılar 10 dildə yalnız YouTube-a yüklənir.
-Long videolar minimum 8 dəqiqədir. **Video kodla qurulur** (Remotion, `tools/remotion/`; KAXO kodla idarə olunan puppet-dir), lazım olsa Blender, Premiere Pro, Illustrator. ChatGPT yalnız thumbnail üçündür (RULES §5.0). Hər video monetizasiyaya tam uyğun olmalıdır (RULES §12). Video istehsalı `/video`, thumbnail `/thumbnail` skill-i ilə gedir (`.claude/skills/`).
+Long videonun uzunluğu mövzu qədərdir, minimum yoxdur (kiçik mövzu uzadılmır, retention düşür). Temp referans kanallar kimi sakitdir, cümlələr arası nəfəs fasiləsi var (RULES §4). Səsləndirmə ChatGPT brauzerdə, gənc enerjili kişi səsi ilə (RULES §4.1). **Video kodla qurulur** (Remotion, `tools/remotion/`; KAXO kodla idarə olunan puppet-dir), lazım olsa Blender, Premiere Pro, Illustrator. ChatGPT şəkil generasiyası yalnız thumbnail üçündür (RULES §5.0), səsləndirmə də ChatGPT-dədir. Hər video monetizasiyaya tam uyğun olmalıdır (RULES §12). Video istehsalı `/video`, thumbnail `/thumbnail` skill-i ilə gedir (`.claude/skills/`).
 Köhnə AI kanalı (kaktus KAXO, `/gundem`) arxivdədir: `content/archive/kaxo/`. Kontentə aid istənilən işdə əvvəlcə bunları oxu:
 
 | Fayl | Nə üçün |
@@ -33,7 +33,7 @@ Köhnə AI kanalı (kaktus KAXO, `/gundem`) arxivdədir: `content/archive/kaxo/`
 | `content/reports/` | epizod araşdırma və istehsal hesabatları (son 10) |
 | `content/stats/` | YouTube statistikası (xam) |
 | `work/research/reference-menumetre-2026-10-31.md` | referans kanalların (@menumetre, @Meraklı) təhlili |
-| `tools/video/` | `tts.py` (Kokoro, ingiliscə), `subs.py` (yalnız yükləmə üçün SRT), `assemble.py` (altyazısız montaj), `chapters.py`, `readability.py` (ssenarinin sadəlik ölçüsü), `record_page.js` (HTML qrafikanı klip kimi yazır), `thumbnail.js`, `cutout.py`, `take_download.py`, `housekeeping.py`, `voice_samples.py`, `stock.py` (Pexels/Pixabay; açarlar `.env`-də); köhnə formatdan qalanlar: `record_office.js`, `record_screen.py`, `drive_terminal.py`, `type_code.py` |
+| `tools/video/` | `tts.py` (Kokoro, yalnız ehtiyat səs), `subs.py` (yalnız yükləmə üçün SRT), `assemble.py` (altyazısız montaj), `chapters.py`, `readability.py` (ssenarinin sadəlik ölçüsü), `record_page.js` (HTML qrafikanı klip kimi yazır), `thumbnail.js`, `cutout.py`, `take_download.py`, `housekeeping.py`, `voice_samples.py`, `stock.py` (Pexels/Pixabay; açarlar `.env`-də); köhnə formatdan qalanlar: `record_office.js`, `record_screen.py`, `drive_terminal.py`, `type_code.py` |
 
 Python alətləri yalnız layihənin venv-i ilə işlədilir: `tools/video/.venv/Scripts/python`. Qlobal `pip install` etmə.
 
