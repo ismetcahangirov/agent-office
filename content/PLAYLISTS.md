@@ -1,26 +1,26 @@
-# Playlistlər
+# Playlistlər: KAXO
 
-`/video` paylaşanda hər videonu buradakı qaydalara görə playlistə qoyur. Playlist YouTube Studio-da yoxdursa, eyni addımda yaradılır (başlıq və təsvir aşağıdakı kimi, görünürlük Public).
+`/video` paylaşanda hər videonu buradakı qaydalara görə playlistə qoyur. Playlist YouTube Studio-da yoxdursa, eyni addımda yaradılır (başlıq və təsvir aşağıdakı kimi, görünürlük Public). **KAXO Shorts** playlisti artıq var (`published.md`), yenidən istifadə olunur. Köhnə AI playlistləri (KAXO Tests AI Tools, AI Models Explained, KAXO Reacts: AI News) 2026-10-31-də Private edilib; silmək sahibindir. KAXO Shorts-un təsviri yenilənib.
 
-## Siyahı
-| Playlist (YouTube adı) | Nə girir | Format | Sıra |
-|---|---|---|---|
-| **KAXO Reacts: AI News** | yeni model, alət, şirkət xəbəri (gündəmdən) | long + short | yenidən köhnəyə |
-| **KAXO Tests AI Tools** | agentlərin yeni aləti real sınadığı videolar | long + short | yenidən köhnəyə |
-| **KAXO's AI Company** | şirkətin öz hekayəsi: agentlər, tapşırıqlar, həftəlik rəqəmlər | long + short | köhnədən yeniyə (seriya) |
-| **AI Models Explained** | yeni modelləri müqayisə və izah edən long videolar | long | yenidən köhnəyə |
-| **KAXO Shorts** | bütün short-lar | short | yenidən köhnəyə |
+## Siyahı (RULES §1-in 4 mövzu sahəsi)
+| Playlist (YouTube adı) | Nə girir | Sıra |
+|---|---|---|
+| **Why Don't We Eat It?** | bir xalqın yediyi, digərinin yemədiyi yeməklər; yeməyin tarixi | yenidən köhnəyə |
+| **How Did Humans Invent It?** | gündəlik əşya və texnologiyanın yaranışı (sabun, kərpic, kompüter) | yenidən köhnəyə |
+| **Life Before History** | tarixəqədərki insanlar necə yaşayırdı, yatırdı, sağ qalırdı | yenidən köhnəyə |
+| **Why Do Animals Do That?** | heyvan davranışı, insanla heyvan münasibəti | yenidən köhnəyə |
+| **Inside Your Head** | insan bədəni və beyni haqqında suallar | yenidən köhnəyə |
+| **KAXO Shorts** | bütün short-lar | yenidən köhnəyə |
 
 ## Qaydalar
 - Hər video **bir əsas playlistə** girir (`seo.json` → `playlists[0]`). Uyğundursa, bir əlavə playlistə də girə bilər (ən çox 2).
-- Hər short əlavə olaraq **KAXO Shorts**-a girir.
-- Long-dan kəsilmiş short-un təsvirində orijinal long videonun linki olur. YouTube "Related video" imkanı varsa, o da qurulur.
-- Seriya playlistlərində (**KAXO's AI Company**) sıra xronolojidir. Yeni izləyici 1-ci epizoddan başlayır.
+- Seriya videoları əlavə olaraq öz seriya playlistinə girir (sahibin təsdiqi ilə yaradılır), sıra xronolojidir.
+- Hər short əlavə olaraq **KAXO Shorts**-a girir və təsvirində orijinal long videonun linki olur.
 - Playlist təsvirləri (SEO):
-  - **KAXO Reacts: AI News:** "The latest AI models and tools, explained by a lazy cactus who owns an AI company. New episodes every week."
-  - **KAXO Tests AI Tools:** "KAXO's AI employees try the newest AI tools on real tasks. Honest results, no hype."
-  - **KAXO's AI Company:** "A $0 company run entirely by AI agents. KAXO is the boss. He does nothing. Watch in order."
-  - **AI Models Explained:** "New AI models compared and explained in plain English, with real tests."
-  - **KAXO Shorts:** "Quick AI news and office chaos from KAXO's all-AI company."
-- Playlist yeni yaradılanda `content/published.md`-nin sonundakı "Playlistlər" cədvəlinə adı və URL-i yazılır.
-- Yeni playlist ideyası (məsələn, eyni mövzuda 3+ video) sahibin təsdiqi ilə bu fayla əlavə olunur.
+  - **Why Don't We Eat It?:** "Half the world eats it, the other half never does. History, geography and a few surprising laws explain why."
+  - **How Did Humans Invent It?:** "The surprising stories behind everyday things, from soap to bricks to computers."
+  - **Life Before History:** "How did our ancestors sleep, stay clean and survive without anything we have today?"
+  - **Why Do Animals Do That?:** "Strange animal behavior, and the science and history that explain it."
+  - **Inside Your Head:** "Everyday questions about your body and brain, answered with real research."
+  - **KAXO Shorts:** "One surprising fact at a time."
+- Playlist yeni yaradılanda `content/published.md`-nin "Playlistlər" cədvəlinə adı və URL-i yazılır.

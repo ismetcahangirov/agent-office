@@ -1,4 +1,9 @@
 // Renders a KAXO thumbnail from a JSON spec with HTML + headless Chromium (text is real type, never AI-drawn).
+// "mode": "scene" (THUMBNAILS.md, 2026-10-31): a full bright ChatGPT scene (no darkening), one title line on top in
+//   white Lilita One with a thick ink outline, the word in "accent" in tomato red, optional "badge" bottom-left:
+//   { "mode": "scene", "background": "scene-raw.png", "title": "BANNED 1,200 YEARS?", "accent": "BANNED",
+//     "align": "left", "width": 0.62, "badge": "BUTCHER'S WINDOW · 1/2" }
+// Older KAXO black-background layout (mascot cut-out) below stays for reference.
 // Usage: node tools/video/thumbnail.js <spec.json> [out.png]
 //
 // spec (paths relative to the spec file):
@@ -19,6 +24,43 @@ const path = require('path');
 
 const FONT = path.join(__dirname, 'fonts', 'Anton-Regular.ttf');
 const url = (p) => 'file:///' + path.resolve(p).replace(/\\/g, '/');
+
+
+const LILITA = path.join(__dirname, 'fonts', 'LilitaOne-Regular.ttf');
+function sceneHtml(spec, base) {
+  const vertical = spec.format === '9x16';
+  const [W, H] = vertical ? [1080, 1920] : [1280, 720];
+  const rel = (p) => url(path.join(base, p));
+  const esc = (s) => String(s || '').replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+  const words = esc(spec.title).split(' ').map((w) => (spec.accent && spec.accent.split(' ').includes(w.replace(/[^\w,]/g, '')) ? `<span class="acc">${w}</span>` : w)).join(' ');
+  const width = (spec.width || 0.62) * 100;
+  const left = spec.align === 'right' ? `right:4%` : `left:4%`;
+  return `<!doctype html><html><head><meta charset="utf-8"><style>
+    @font-face { font-family: Lilita; src: url('${url(LILITA)}'); }
+    * { margin: 0; box-sizing: border-box; }
+    body { width: ${W}px; height: ${H}px; overflow: hidden; position: relative; font-family: Lilita, sans-serif;
+      background: url('${rel(spec.background)}') center/cover; }
+    .title { position: absolute; top: 4%; ${left}; width: ${width}%; color: #fff; line-height: .95; letter-spacing: 1px;
+      -webkit-text-stroke: ${vertical ? 14 : 10}px #2B2118; paint-order: stroke fill; text-shadow: 0 8px 0 #2B2118; }
+    .acc { color: #FF4D2E; }
+    .badge { position: absolute; left: 3%; bottom: 4%; background: #FFF6E5; color: #2B2118; border: 5px solid #2B2118;
+      border-radius: 40px; padding: 6px 22px; font-size: ${vertical ? 44 : 30}px; }
+  </style></head><body>
+    <div class="title"><span class="t">${words}</span></div>
+    ${spec.badge ? `<div class="badge">${esc(spec.badge)}</div>` : ''}
+    <script>
+      // largest font size that keeps the title inside its box in at most 2 lines
+      document.fonts.ready.then(() => {
+        const box = document.querySelector('.title'), maxH = ${H} * ${vertical ? 0.3 : 0.38};
+        let lo = 20, hi = ${H} * 0.3;
+        while (hi - lo > 1) { const mid = (lo + hi) / 2; box.style.fontSize = mid + 'px';
+          const fits = box.scrollWidth <= box.clientWidth + 1 && box.scrollHeight <= maxH; fits ? lo = mid : hi = mid; }
+        box.style.fontSize = lo + 'px';
+        document.body.dataset.ready = '1';
+      });
+    </script>
+  </body></html>`;
+}
 
 function html(spec, base) {
   const vertical = spec.format === '9x16';
@@ -92,8 +134,10 @@ function html(spec, base) {
   const viewport = vertical ? { width: 1080, height: 1920 } : { width: 1280, height: 720 };
 
   const tmp = path.join(base, '.thumbnail.html');
-  fs.writeFileSync(tmp, html(spec, base));
-  const browser = await chromium.launch({ args: ['--allow-file-access-from-files'] });
+  fs.writeFileSync(tmp, spec.mode === 'scene' ? sceneHtml(spec, base) : html(spec, base));
+  const opts = { args: ['--allow-file-access-from-files'] };
+  // falls back to the installed Chrome when Playwright's own browser is missing
+  const browser = await chromium.launch(opts).catch(() => chromium.launch({ ...opts, channel: 'chrome' }));
   const page = await browser.newPage({ viewport });
   await page.goto(url(tmp));
   await page.waitForSelector('body[data-ready="1"]', { timeout: 15000 });

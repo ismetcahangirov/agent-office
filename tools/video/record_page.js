@@ -30,7 +30,8 @@ const path = require('path');
   const viewport = { width: Math.round(size.width / zoom), height: Math.round(size.height / zoom) };
 
   fs.mkdirSync(path.dirname(out), { recursive: true });
-  const browser = await chromium.launch();
+  // falls back to the installed Chrome when Playwright's own browser is missing
+  const browser = await chromium.launch().catch(() => chromium.launch({ channel: 'chrome' }));
   const ctx = await browser.newContext({
     viewport, deviceScaleFactor: mobile ? 2 : 1, colorScheme: 'dark', locale: 'en-US',
     recordVideo: { dir: path.dirname(out), size: viewport },  // zoomed pages are recorded at css size; assemble.py scales them up

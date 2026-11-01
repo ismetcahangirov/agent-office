@@ -1,0 +1,56 @@
+{
+  "idle": {
+    "file": "idle.png",
+    "w": 525,
+    "h": 1440,
+    "framing": "full"
+  },
+  "surprised": {
+    "file": "surprised.png",
+    "w": 390,
+    "h": 808,
+    "framing": "waist"
+  },
+  "laugh": {
+    "file": "laugh.png",
+    "w": 362,
+    "h": 800,
+    "framing": "waist"
+  },
+  "think": {
+    "file": "think.png",
+    "w": 375,
+    "h": 792,
+    "framing": "waist"
+  },
+  "point": {
+    "file": "point.png",
+    "w": 434,
+    "h": 801,
+    "framing": "waist"
+  },
+  "outfit-food": {
+    "file": "outfit-food.png",
+    "w": 362,
+    "h": 958,
+    "framing": "full"
+  },
+  "outfit-prehistory": {
+    "file": "outfit-prehistory.png",
+    "w": 360,
+    "h": 959,
+    "framing": "full"
+  },
+  "outfit-nature": {
+    "file": "outfit-nature.png",
+    "w": 329,
+    "h": 946,
+    "framing": "full"
+  },
+  "outfit-lab": {
+    "file": "outfit-lab.png",
+    "w": 366,
+    "h": 960,
+    "framing": "full"
+  }
+}
