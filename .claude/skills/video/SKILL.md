@@ -1,6 +1,6 @@
 ---
 name: video
-description: KAXO kanalı (maraq sualları: yemək, ixtiralar, tarixəqədərki həyat, heyvanlar, bədən; aparıcı KAXO) üçün 8+ dəqiqəlik yeni video epizodu hazırlayır - statistika və dərslər, mövzu araşdırması və mənbələr, retention quruluşlu ssenari, fakt yoxlaması, kodla qurulan cizgi səhnələri (Remotion, KAXO puppet; lazım olsa Blender, Premiere), xəritə/qrafik/Answer Puzzle, Kokoro ingiliscə səsləndirmə, altyazısız montaj, 10 dildə SRT altyazı, SEO və thumbnail, sahibin təsdiqi, YouTube-a paylaşma, hesabat. İstifadəçi "/video", "/video davam", "yeni video", "yeni epizod" yazanda işə sal.
+description: KAXO kanalı (maraq sualları: yemək, ixtiralar, tarixəqədərki həyat, heyvanlar, bədən; aparıcı KAXO) üçün yeni video epizodu (uzunluq mövzu qədər) hazırlayır - statistika və dərslər, mövzu araşdırması və mənbələr, retention quruluşlu ssenari, fakt yoxlaması, kodla qurulan cizgi səhnələri (Remotion, KAXO puppet; lazım olsa Blender, Premiere), xəritə/qrafik/Answer Puzzle, ChatGPT brauzerdə ingiliscə səsləndirmə (gənc enerjili kişi səsi), altyazısız montaj, 10 dildə SRT altyazı, SEO və thumbnail, sahibin təsdiqi, YouTube-a paylaşma, hesabat. İstifadəçi "/video", "/video davam", "yeni video", "yeni epizod" yazanda işə sal.
 ---
 
 # /video: KAXO epizodu, başdan sona
@@ -99,7 +99,7 @@ Nəticəni `content/reports/YYYY-MM-DD-<slug>.md`-yə yaz:
 2. `marketer` agentinə ssenari yazdır (brifin ilk sətri: "Plain, simple, flowing English: everyday words, one idea per sentence, ~12 words on average, never over 18, explain any term right away"). Ona RULES §3, §4, §7, xarakter faylını, hesabatı, açar sözləri və `lessons.md`-ni ver. Nəticə: `episode.json` (sxem yuxarıda) və `script.md` (kadr, mətn, vizual, fəsil cədvəli).
 3. **Fakt yoxlaması:** `qa` agentinə ssenari + hesabatı ver: hər iddianı mənbə ilə tutuşdursun, mənbəsiz və ya şişirdilmiş iddiaları çıxarsın. Nəticəni hesabata `Fakt yoxlaması: N iddia, N təsdiq, N düzəliş` sətri ilə yaz və düzəlişləri ssenariyə tətbiq et. `status: "factcheck"` → yoxlama bitəndə növbəti siyahıya keç.
 4. CEO kimi yoxla. Bu siyahıdan biri pozulursa, düzəlt:
-   - [ ] **uzunluq:** ssenaridə ≥ 1 250 söz (hədəf 1 350–1 600; ~150 söz/dəq) → final ≥ 8:00;
+   - [ ] **uzunluq mövzu qədər (RULES §2):** minimum yoxdur; doldurma, təkrar, uzadılmış giriş yoxdur. Hər fəsil yeni fakt verir. Söz sayından müddət: ~155 söz/dəq;
    - [ ] **0–15 s:** zaman + məkan möhürü olan ikinci şəxs səhnəsi və 15-ci saniyəyə qədər təəccüblü fakt; salam, təqdimat, loqo, "in this video" yoxdur;
    - [ ] **≤ 45 s:** əsas sual başlıqdakı kimi deyilib;
    - [ ] **45–90 s:** "N reasons" vədi + 2–3 açıq döngü teaser-i; hamısı videoda yerinə yetirilir;
@@ -111,7 +111,7 @@ Nəticəni `content/reports/YYYY-MM-DD-<slug>.md`-yə yaz:
    - [ ] final: cavab + soyuq açılışa callback + stinger + növbəti videoya körpü; son 20 s sakit kadr;
    - [ ] **sadə və axıcı dil (RULES §4, sahib 2026-10-31):** gündəlik sözlər, termin olarsa dərhal sadə izah, bir cümlə bir fikir, aktiv dil, cümlədə ən çox bir rəqəm, keçidlər axıcı. Məcburi ölçü (boş "FIX" olmamalıdır):
      `tools/video/.venv/Scripts/python tools/video/readability.py content/episodes/<epizod>` → orta ≤ 13 söz, 18 sözdən uzun cümlə yoxdur, Flesch ≥ 70, rəsmi söz yoxdur. Keçmirsə, göstərilən cümlələri böl və sözləri sadələşdir, yenidən ölç;
-   - [ ] danışıq (RULES §4): "you" ilə müraciət, qısaltmalar, ritm dəyişir, `[pause]` ≤ 1, siyahı və rəsmi söz yoxdur, hər cümləni ucadan oxu;
+   - [ ] danışıq (RULES §4): "you" ilə müraciət, qısaltmalar, ritm dəyişir, `[pause]` ≤ 2, siyahı və rəsmi söz yoxdur, hər cümləni ucadan oxu;
    - [ ] qlobal bucaq: "biz" bir millət deyil, yer adı açıq deyilir (RULES §1);
    - [ ] yetkin auditoriya üçündür: uşaq tonu, "kids" müraciəti, nağıl dili yoxdur (RULES §12.4);
    - [ ] reklam uyğunluğu (RULES §12.3): başlıqda, thumbnail-də və ilk 30 s-də cinsəllik, narkotik, silah, xəstəlik, faciə, şok, söyüş yoxdur;
@@ -161,16 +161,17 @@ Bütün ekran mətnləri burada kodla yazılır, AI şəklinə yox (RULES §5). 
 
 ## 7/10 Səs və montaj
 ```bash
-tools/video/.venv/Scripts/python tools/video/tts.py      content/episodes/<epizod>
+# səs: ChatGPT (aşağıda); ehtiyat: tools/video/.venv/Scripts/python tools/video/tts.py content/episodes/<epizod>
 # video: Remotion (əsas yol)
 cd tools/remotion && npx remotion render Episode ../../content/episodes/<epizod>/video/final.mp4 --props=../../content/episodes/<epizod>/episode.json
 tools/video/.venv/Scripts/python tools/video/chapters.py content/episodes/<epizod>
 ```
-- Səs: `kaxo` rolu (`character.md` → "Səs", `tts.py` → `DEFAULT_VOICES`). Robot kimi səslənən cümləni danışıq dilində yenidən yaz, per-line `speed` ver (0.92–1.05).
+- **Səs: ChatGPT, Chrome-da (RULES §4.1, sahib 2026-11-01).** Gənc enerjili kişi səsi (ad `character.md` → "Səs"). Ssenarini fəsil-fəsil ver. Hər hissə üçün tapşırıq: "Read this exactly as written, in English. Young, energetic, curious male narrator. Calm pace, not rushed: a short breath after every sentence, about a second at the end of the paragraph." Sonra abzaslar üçün rejissor qeydləri ("surprised", "light laugh", "serious, slower") ayrıca sətirdə, oxunan mətndən kənarda. Hər hissəni dinlə: səhv və ya buraxılmış söz varsa, yenidən istə. Hissələri `audio/parts/NN.*` kimi saxla və `audio/voice.wav`-a birləşdir.
+- **Vaxtlama:** Remotion `audio/timeline.json`-dakı cümlə vaxtlarına bağlıdır. ChatGPT səsində bu vaxtlar səsdən çıxarılır: cümlə sonundakı fasilələrlə bölünür və ssenarinin cümlələri ilə tutuşdurulur, sözlər cümlə içində proporsional paylanır (`tts.py` → `word_times` kimi). Cümlə sayı fasilə sayına uyğun gəlmirsə, həmin hissə əl ilə yoxlanır. **İlk ChatGPT epizodunda** bu addım üçün skript yazılır, səs adı, tapşırıq mətni və audionun saxlanma üsulu bu skill-ə əlavə olunur.
 - Remotion render altyazısızdır. Səs axınını yoxla (ffprobe: audio müddəti video müddətinə bərabərdir). `assemble.py` (şəkil + səs, altyazısız) yalnız ehtiyat yoldur. Son montaj, səs miksi və ya rəng düzəlişi lazım olsa **Premiere Pro** işlədilir və nə edildiyi hesabata yazılır.
-- **Uzunluq (məcburi):** `timeline.json` → `duration` **≥ 480 s**. Qısadırsa, ssenariyə yeni səbəb, hekayə və ya müqayisə əlavə et (doldurma yox) və 4-cü addımdan təkrarla.
-- **Sükut yoxlaması (məcburi):** `voice.wav`-da ≥ 120 ms sükutların cəmi < 10%, ən uzunu ≤ 0.35 s:
-  `tools/video/.venv/Scripts/python -c "import soundfile as sf,numpy as np;a,sr=sf.read('<epizod>/audio/voice.wav');fr=int(.01*sr);q=np.array([np.abs(a[i:i+fr]).max()<.02 for i in range(0,len(a)-fr,fr)]);import itertools;g=[len(list(x))/100 for k,x in itertools.groupby(q) if k];g=[x for x in g if x>=.12];print(round(sum(g),2),'/',round(len(a)/sr,1),'max',max(g,default=0))"`
+- **Temp yoxlaması (məcburi, RULES §4):** ümumi sürət 150–165 söz/dəq, sükut payı 10–17%, cümlə sonu fasiləsinin medianı 0.4–0.8 s, heç bir fasilə > 1.5 s deyil:
+  `tools/video/.venv/Scripts/python -c "import json,statistics as st,sys;t=json.load(open(sys.argv[1]+'/audio/timeline.json'));L=[l for s in t['shots'] for l in s['lines']];D=t['duration'];W=sum(len(l['words']) for l in L);g=[b['start']-a['end'] for a,b in zip(L,L[1:])];print('wpm',round(W/D*60),'silence',round(1-sum(l['end']-l['start'] for l in L)/D,3),'gap median',round(st.median(g),2),'max',round(max(g),2))" content/episodes/<epizod>`
+  Sürət yüksəkdirsə və fasilə azdırsa: ChatGPT-dən həmin hissəni daha sakit istə. Cümlə ortasında > 0.35 s boşluq olmamalıdır.
 - **Ağ/qara kadr yoxlaması (məcburi):** klipin 0-cı kadrı çox vaxt yüklənmə ekranıdır. `clip_start` ən az `record_page`-in "content from" dəyəri olmalıdır. Montajdan sonra:
   `"$F" -hide_banner -i <epizod>/video/final.mp4 -vf "fps=8,scale=64:36,signalstats,metadata=print:key=lavfi.signalstats.YAVG" -an -f null - 2>&1 | tr '\r' '\n' | grep -oE "pts_time:[0-9.]+|YAVG=[0-9.]+" | paste -d' ' - - | sed 's/pts_time://; s/YAVG=//' | tools/video/.venv/Scripts/python -c "import sys;[print(l,end='') for l in sys.stdin if not 6<=float(l.split()[1])<=235]"` (`$F` = imageio-ffmpeg; krem fonlu qrafika ~230 verir, normaldır).
 - **Fəsillər:** `chapters.py` ≥ 3 fəsil və hər biri ≥ 10 s verməlidir (YouTube şərti). İlk fəsil `00:00 Intro`-dur.
@@ -209,7 +210,7 @@ tools/video/.venv/Scripts/python tools/video/subs.py content/episodes/<epizod>  
 
 ## 9/10 Sahibin baxışı və təsdiqi
 1. Videonu aç: `Start-Process "<tam yol>\video\final.mp4"` (PowerShell).
-2. Sahibə qısa xülasə göstər: sual və səbəblər; müddət (≥ 8:00); ilk 30 saniyənin mətni; başlıq və 2 alternativ; thumbnail (`Start-Process`); fakt yoxlaması sətri; monetizasiya yoxlaması (RULES §12.6; risk aşağı deyilsə, təsdiq variantını göstərmə); altyazı dilləri (10/10).
+2. Sahibə qısa xülasə göstər: sual və səbəblər; müddət və temp (söz/dəq, sükut payı); ilk 30 saniyənin mətni; başlıq və 2 alternativ; thumbnail (`Start-Process`); fakt yoxlaması sətri; monetizasiya yoxlaması (RULES §12.6; risk aşağı deyilsə, təsdiq variantını göstərmə); altyazı dilləri (10/10).
 3. `AskUserQuestion`: **Təsdiq, paylaş** / **Düzəliş lazımdır** / **Ləğv et**.
    - **Düzəliş:** nəyin dəyişəcəyini soruş, uyğun addıma qayıt, sonra yenidən bu addıma gəl.
    - **Ləğv:** `status: "done"` + hesabata səbəb. Paylaşma.
@@ -245,7 +246,7 @@ tools/video/.venv/Scripts/python tools/video/subs.py content/episodes/<epizod>  
 | Kokoro import xətası | `tools/video/.venv/Scripts/python -m pip install kokoro-onnx soundfile`. Modellər: `github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0` → `tools/video/models/` |
 | ffmpeg xətası | `assemble.py` stderr-i göstərir. Ən çox rast gəlinən səbəb çatışmayan şəkildir (`missing image`) |
 | `ModuleNotFoundError` | Paketi venv-ə qur: `tools/video/.venv/Scripts/python -m pip install <paket>`. Qlobal `pip install` etmə |
-| Video 8:00-dan qısadır | Ssenariyə yeni səbəb və ya hekayə əlavə et, 4-cü addımdan təkrarla. Templə uzatma |
+| Temp sürətlidir (> 165 söz/dəq və ya sükut < 10%) | ChatGPT-dən həmin hissəni "calmer, with a breath after every sentence" ilə yenidən istə. Mətni dəyişmə |
 | Tərcümədə cue sayı fərqlidir | Agentə həmin dili yenidən yazdır, cue-ları birləşdirmək və bölmək qadağandır |
 | ChatGPT selektoru dəyişib | `find` / `read_page` ilə tap, JS nümunəsini yenilə və bu skill-də düzəlt |
 | YouTube Studio forması dəyişib | `read_page` ilə sahələri tap. Əmin deyilsənsə, sahibdən soruş, təxmini klik etmə |

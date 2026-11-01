@@ -71,9 +71,9 @@ KAXO olmayan səhnələrdə ardıcıllıq bloku işlədilmir: stil prompt-u + `N
 ## Səs
 | Rol | Default | Tərz |
 |---|---|---|
-| `kaxo` | `bm_fable`, speed 1.02, `lang: en-us` (sahib seçib, 2026-10-31; `tts.py` DEFAULT_VOICES, nümunə `content/voice-samples/narrator__bm_fable__en-us.wav`) | isti, aydın, maraqlı; normal temp ~1.02, təəccüb anında 1.07, zarafatda 0.95 |
+| `kaxo` | **ChatGPT səsləndirməsi (brauzer), gənc enerjili kişi səsi** (sahib 2026-11-01, RULES §4.1). Ehtiyat: Kokoro `bm_fable`, speed 1.02, `lang: en-us` (`tts.py` DEFAULT_VOICES) | gənc, enerjili, maraqlı, amma tələsməyən; cümlə sonunda nəfəs; təəccüb, zarafat və ciddi faktda emosiya mətnə uyğun dəyişir |
 
-- Səs dəyişərsə: `tools/video/voice_samples.py` ilə namizədlər eyni cümlələrlə oxunur, sahib qulaqla seçir, seçim bu cədvələ və `tools/video/tts.py` → `DEFAULT_VOICES["kaxo"]`-a yazılır.
+- ChatGPT-dəki səs adı ilk sınaqda sahib qulaqla seçəndən sonra bu cədvələ yazılır və bütün epizodlarda eyni qalır.
 - Tək aparıcı KAXO-dur. Danışan heyvan və ya əşya üçün qısa bir sətir başqa səslə ola bilər (epizodun `voices` sahəsində).
 - Danışıq qaydaları: RULES §4. Ödənişli TTS (ElevenLabs və s.) yalnız sahibin icazəsi ilə.
 
