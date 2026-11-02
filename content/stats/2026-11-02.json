@@ -1,0 +1,19 @@
+{"source": "YouTube Studio (Claude in Chrome) + Data API v3", "taken": "2026-11-02T14:25+04:00",
+ "channel": {"subscribers": 1, "public_videos": 2},
+ "videos": [
+  {"id": "GdSR7t5lNLA", "title": "Why Japan Banned Meat for 1,200 Years (and Then Made Wagyu)", "published": "2026-10-31", "age_h": 42,
+   "views": 25, "engaged_views": 20, "unique_viewers": 15, "watch_h": 0.6, "avg_view_s": 109, "avg_pct": 20.9,
+   "impressions": 286, "ctr": 4.6, "likes": 0, "comments": 0, "subs": 0,
+   "retention_10s": 53, "retention_30s": 53, "retention_60s": 41,
+   "drops": [
+    {"t": "0:00-0:10", "pct": "100->53", "line": "s01-s03 Edo, winter 1858 ... mountain whale (atmosfer, sual hələ yoxdur)"},
+    {"t": "0:31-0:43", "pct": "53->41", "line": "s09-s11 sual təkrarı, 'It's six, all tangled together'"},
+    {"t": "~1:55-2:11", "pct": "41->35", "line": "s29-s33 düyü tarlası, öküz, Shomu 741"},
+    {"t": "2:11-3:04", "pct": "35->24", "line": "s34-s44 öküz = traktor, din bölməsinin girişi"},
+    {"t": "3:57-4:10", "pct": "18->12", "line": "s60-s63 balıq statistikası, viktorina"}],
+   "retention_end": 12,
+   "traffic": {"suggested": 60.0, "browse": 32.0, "direct": 4.0, "channel": 4.0, "search": 0.0},
+   "devices": {"mobile": 50.2, "computer": 31.3, "tv": 18.0, "tablet": 0.6},
+   "caption_langs": {"none": 60.9, "en": 8.7, "tr": 4.4}},
+  {"id": "3ZETOCz8R0g", "title": "Why Was Europe Afraid of the Potato?", "published": "2026-11-01", "age_h": 20,
+   "views": 1, "impressions": 51, "ctr": null, "likes": 0, "comments": 0, "note": "< 48 saat, tam analiz 2026-11-03-dən sonra"}]}
