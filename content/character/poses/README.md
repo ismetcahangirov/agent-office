@@ -5,3 +5,4 @@ Fayl adı: `<poza>__<fon>__<3x2|2x3>.png`.
 
 | Fayl | Poza | Fon | Epizod |
 |---|---|---|---|
+| `point-surprised-inventions__museum-scarab__3x2.png` | göstərir, ağzı açıq (təəccüb) | muzey vitrini, skarab, pəncərədə meteor; ixtiralar geyimi (mavi önlük, qoruyucu eynək) | 2026-11-02-glass (thumbnail) |

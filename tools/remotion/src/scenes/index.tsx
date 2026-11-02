@@ -3,9 +3,10 @@ import { C } from '../theme';
 import { EPISODE_SCENES } from './episode';
 import { STORY_SCENES } from './stories';
 import { EUROPE_SCENES } from './europe';
+import { GLASS_SCENES } from './glass';
 
 // Background scenes drawn in code (RULES §5.0). Generic ones live here; topic scenes in episode.tsx (Japan),
-// stories.tsx (Japan story vignettes) and europe.tsx (potato episode, incl. the European "document").
+// stories.tsx (Japan story vignettes) and europe.tsx (potato episode, incl. the European "document"), glass.tsx (glass episode).
 const dots = `radial-gradient(circle, rgba(43,33,24,.07) 3px, transparent 4px) 0 0/56px 56px`;
 
 export const Studio: React.FC = () => (
@@ -62,6 +63,6 @@ export const Archive: React.FC<{ src: string }> = ({ src }) => (
 export const Scene: React.FC<{ name: string; image?: string }> = ({ name, image }) => {
   if (image) return <Archive src={image} />;
   if (name === 'paper') return <Paper />;
-  const S = EPISODE_SCENES[name] || STORY_SCENES[name] || EUROPE_SCENES[name];
+  const S = EPISODE_SCENES[name] || STORY_SCENES[name] || EUROPE_SCENES[name] || GLASS_SCENES[name];
   return S ? <S /> : <Studio />;
 };

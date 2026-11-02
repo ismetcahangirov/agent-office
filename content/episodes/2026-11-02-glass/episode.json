@@ -1,0 +1,2073 @@
+{
+  "slug": "glass",
+  "format": "long",
+  "area": "inventions",
+  "outfit": "his usual mustard cardigan, white tee and olive trousers, plus a blue work apron and clear safety goggles pushed up on his forehead (his own red glasses stay on)",
+  "props": "a small sketchbook he uses as a pointer",
+  "status": "done",
+  "question": "How did humans turn sand into clear glass?",
+  "reasons": [
+    "NATURE",
+    "ACCIDENT",
+    "RECIPE",
+    "SODA",
+    "BREATH",
+    "CLEAR"
+  ],
+  "sources": [
+    "content/reports/2026-11-02-glass.md"
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "scene": "sand-closeup",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "You can't see through sand."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "So how are you looking through it right now?",
+          "tone": "curious"
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "scene": "modern-kitchen",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Your phone screen, your window, that glass of water."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It's mostly melted sand."
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "scene": "cairo-museum",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "A young king's jewelry",
+        "small": "about 3,300 years old"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And the first glass people ever held?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Nobody made it.",
+          "tone": "surprised"
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "scene": "cairo-museum",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Take that yellow beetle in a young king's jewelry."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It's glass, about 29 million years old.",
+          "tone": "surprised"
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "scene": "modern-kitchen",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.5
+      },
+      "graphic": {
+        "type": "label",
+        "big": "How did humans turn sand into clear glass?"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So how did humans turn sand into clear glass?",
+          "tone": "curious"
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "scene": "desert-glass",
+      "kaxo": null,
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "That beetle's glass most likely formed when a space rock hit the desert."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "People only had fire."
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "scene": "tablet-library",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Along the way, there's a how-to guide in clay."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Step one: pick a lucky month.",
+          "tone": "amused"
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "scene": "pliny-beach",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "There's the world's favorite glass story, which its own writer passed on as a rumor."
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "scene": "glassblower",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And there's one breath that made everyday glass cheap.",
+          "tone": "curious"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "NATURE",
+          "ACCIDENT",
+          "RECIPE",
+          "SODA",
+          "BREATH",
+          "CLEAR"
+        ],
+        "step": 0,
+        "icon": "glass"
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Each step adds a piece to this puzzle."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Fill it in, and you'll see the answer."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "scene": "cairo-museum",
+      "kaxo": null,
+      "graphic": {
+        "type": "chapter",
+        "n": 1,
+        "title": "Nature First"
+      },
+      "camera": "zoom_in",
+      "chapter": "1. Nature First",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So where did that beetle come from?",
+          "tone": "curious"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "scene": "cairo-museum",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "1922",
+        "small": "Tutankhamun's treasures found"
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "In 1922, Howard Carter found Tutankhamun's treasures."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "He listed the beetle as chalcedony, a kind of stone."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "scene": "cairo-museum",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.22
+      },
+      "graphic": {
+        "type": "label",
+        "big": "1998",
+        "small": "Vincenzo de Michele"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "In 1998, an Italian mineral expert, Vincenzo de Michele, took a closer look."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It wasn't stone at all.",
+          "tone": "surprised"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "scene": "desert-glass",
+      "kaxo": null,
+      "graphic": {
+        "type": "map",
+        "focus": "near-east",
+        "label": "Libyan Desert Glass",
+        "pins": [
+          "desert-glass",
+          "cairo"
+        ],
+        "route": []
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "This was desert glass, from western Egypt."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Chunks of it lie across thousands of square kilometers."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "scene": "desert-glass-calm",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "label",
+        "big": "About 29 million years",
+        "small": "Cavosie & Koeberl, Geology, 2019"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "It's canary yellow and nearly pure silica, the main stuff in sand."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And it formed about 29 million years ago."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "scene": "desert-glass",
+      "kaxo": null,
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "In 2019, scientists found tiny minerals that only form in a huge impact."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The best bet: a space rock hit the ground."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "scene": "neolithic-house",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "Obsidian",
+        "small": "volcanic glass"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Nature made glass another way too: volcanoes."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Volcanic glass is called obsidian, and it's black and shiny."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "scene": "neolithic-house",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.75
+      },
+      "graphic": {
+        "type": "label",
+        "big": "Çatalhöyük, Turkey",
+        "small": "over 8,000 years ago"
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "More than 8,000 years ago, people at Çatalhöyük, in today's Turkey, polished it into mirrors."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Some still give a sharp reflection."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "scene": "neolithic-house",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.25
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Your bathroom mirror has a very old, very volcanic ancestor.",
+          "tone": "amused"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "scene": "desert-glass-calm",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.78
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But here's the catch."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "People could shape natural glass and polish it."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "They couldn't melt it, or make any more."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.22
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "NATURE",
+          "ACCIDENT",
+          "RECIPE",
+          "SODA",
+          "BREATH",
+          "CLEAR"
+        ],
+        "step": 1,
+        "icon": "glass"
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "First piece: NATURE."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "People knew glass long before they could make it."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "scene": "potter-kiln",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So who made the first glass by hand?",
+          "tone": "curious"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Probably someone who was trying to make something else."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "scene": "potter-kiln",
+      "kaxo": null,
+      "graphic": {
+        "type": "chapter",
+        "n": 2,
+        "title": "The Accident"
+      },
+      "camera": "zoom_in",
+      "chapter": "2. The Accident",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Nobody set out to invent glass."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It probably started as a coating."
+        }
+      ]
+    },
+    {
+      "id": "s24",
+      "scene": "potter-kiln",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "label",
+        "big": "Faience",
+        "small": "crushed quartz + glassy glaze"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "About 6,000 years ago, craftspeople made something called faience."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It's crushed quartz with a glassy skin, often bright blue."
+        }
+      ]
+    },
+    {
+      "id": "s25",
+      "scene": "modern-kitchen",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.22
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "That skin was a glaze, a bit like the shine on your coffee mug."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The Met museum calls it an early forerunner of glass."
+        }
+      ]
+    },
+    {
+      "id": "s26",
+      "scene": "potter-kiln",
+      "kaxo": null,
+      "graphic": {
+        "type": "map",
+        "focus": "near-east",
+        "label": "Oldest glass beads",
+        "pins": [
+          "mesopotamia"
+        ],
+        "route": []
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Then, about 4,500 years ago, the oldest glass made by people shows up."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Small beads, most likely from Mesopotamia, around today's Iraq."
+        }
+      ]
+    },
+    {
+      "id": "s27",
+      "scene": "potter-kiln",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.75
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "How did people get there?",
+          "tone": "curious"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Nobody knows for sure, but there are good guesses."
+        }
+      ]
+    },
+    {
+      "id": "s28",
+      "scene": "potter-kiln",
+      "kaxo": null,
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Maybe a glaze got so thick that it could stand on its own."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Or maybe it was a leftover from metalworking fires."
+        }
+      ],
+      "focus": [
+        0.6,
+        0.82
+      ]
+    },
+    {
+      "id": "s29",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "NATURE",
+          "ACCIDENT",
+          "RECIPE",
+          "SODA",
+          "BREATH",
+          "CLEAR"
+        ],
+        "step": 2,
+        "icon": "glass"
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The Getty Museum says it was possibly a very fortunate accident."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Piece two: ACCIDENT."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Glass most likely began as a side effect, not a plan."
+        }
+      ]
+    },
+    {
+      "id": "s30",
+      "scene": "bead-necklace",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "For about a thousand years, glass beads stayed rare."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Then kings got involved."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And that's where the paperwork gets strange.",
+          "tone": "curious"
+        }
+      ],
+      "graphic": {
+        "type": "label",
+        "big": "Glass beads",
+        "small": "rare for about 1,000 years"
+      }
+    },
+    {
+      "id": "s31",
+      "scene": "palace-letter",
+      "kaxo": null,
+      "graphic": {
+        "type": "chapter",
+        "n": 3,
+        "title": "The Recipe"
+      },
+      "camera": "zoom_in",
+      "chapter": "3. The Recipe",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Egypt, about 3,350 years ago."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "A pharaoh sends word that he wants glass."
+        }
+      ]
+    },
+    {
+      "id": "s32",
+      "scene": "palace-letter",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "30 pieces of glass",
+        "small": "Amarna letter EA 323, British Museum"
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The reply comes on a clay tablet, from a ruler on the eastern Mediterranean coast."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "His name is Yidya, and he's sending 30 pieces of glass."
+        }
+      ]
+    },
+    {
+      "id": "s33",
+      "scene": "palace-letter",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.78
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Thirty pieces, for a king."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "That's how precious glass still was."
+        }
+      ]
+    },
+    {
+      "id": "s34",
+      "scene": "qantir-workshop",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "Qantir, Nile Delta",
+        "small": "about 1250 BC"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Egypt also made its own."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "One glass factory stood at Qantir, in the Nile Delta."
+        }
+      ]
+    },
+    {
+      "id": "s35",
+      "scene": "qantir-workshop",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.22
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "In 2005, researchers Thilo Rehren and Edgar Pusch described how it worked."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "And one surprise: no sand.",
+          "tone": "surprised"
+        }
+      ]
+    },
+    {
+      "id": "s36",
+      "scene": "qantir-workshop",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "Crushed quartz pebbles",
+        "small": "Rehren & Pusch, Science, 2005"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Workers crushed quartz pebbles and heated them in old clay jars."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Then they colored the glass and cast it into round blocks."
+        }
+      ]
+    },
+    {
+      "id": "s37",
+      "scene": "trade-ship",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "Ingots",
+        "small": "glass blocks, ready to trade"
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Those blocks are called ingots, and they traveled far."
+        }
+      ]
+    },
+    {
+      "id": "s38",
+      "scene": "trade-ship",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "About 3,300 years ago, a trading ship sank off today's Turkey, carrying blue glass blocks."
+        }
+      ],
+      "graphic": {
+        "type": "map",
+        "focus": "near-east",
+        "label": "About 3,300 years ago",
+        "pins": [
+          "egypt",
+          "uluburun"
+        ],
+        "route": [
+          "ship"
+        ]
+      }
+    },
+    {
+      "id": "s39",
+      "scene": "trade-ship",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "label",
+        "big": "Made in Egypt",
+        "small": "Jackson & Nicholson, 2010"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Tests show some of that glass was made in Egypt."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It was probably on its way to ancient Greece."
+        }
+      ]
+    },
+    {
+      "id": "s40",
+      "scene": "tablet-library",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "Nineveh",
+        "small": "today's northern Iraq"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But how did people pass on the recipe?",
+          "tone": "curious"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "They wrote it down, in clay."
+        }
+      ]
+    },
+    {
+      "id": "s41",
+      "scene": "tablet-library",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "About 2,700 years old",
+        "small": "copies of older texts"
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The best-known copies come from a royal library at Nineveh."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "They're about 2,700 years old, and the recipe inside is older."
+        }
+      ]
+    },
+    {
+      "id": "s42",
+      "scene": "tablet-library",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.22
+      },
+      "graphic": {
+        "type": "text",
+        "big": "\"…in a favorable month…\"",
+        "small": "Assyrian glass text"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So what's step one?",
+          "tone": "curious"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "When you build the glass furnace, pick a good day in a favorable month."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Step two: keep strangers out.",
+          "tone": "deadpan"
+        }
+      ]
+    },
+    {
+      "id": "s43",
+      "scene": "modern-kitchen",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.75
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "My flat-pack shelf starts with: check all the screws.",
+          "tone": "amused"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "This one starts with a calendar."
+        }
+      ]
+    },
+    {
+      "id": "s44",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.22
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "NATURE",
+          "ACCIDENT",
+          "RECIPE",
+          "SODA",
+          "BREATH",
+          "CLEAR"
+        ],
+        "step": 3,
+        "icon": "glass"
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Piece three: RECIPE."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Glass now had a written recipe, and kings asked for it by letter."
+        }
+      ]
+    },
+    {
+      "id": "s45",
+      "scene": "pliny-study",
+      "kaxo": null,
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But where did glass first come from?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Rome had a story for that."
+        }
+      ]
+    },
+    {
+      "id": "s46",
+      "scene": "pliny-study",
+      "kaxo": null,
+      "graphic": {
+        "type": "chapter",
+        "n": 4,
+        "title": "The Soda"
+      },
+      "camera": "zoom_in",
+      "chapter": "4. The Soda",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Here's the most famous glass story of all.",
+          "tone": "curious"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Pliny the Elder, a Roman writer, told it around AD 77."
+        }
+      ]
+    },
+    {
+      "id": "s47",
+      "scene": "pliny-beach",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "\"The story goes…\"",
+        "small": "Pliny, Natural History, book 36"
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Sailors carrying blocks of soda land on a sandy beach."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "With no rocks around, they rest their cooking pots on soda lumps."
+        }
+      ]
+    },
+    {
+      "id": "s48",
+      "scene": "pliny-beach",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The fire roars."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Soon the soda mixes with the sand, and clear streams start to flow."
+        }
+      ]
+    },
+    {
+      "id": "s49",
+      "scene": "pliny-beach",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.78
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The soda block, if it could talk: I was only holding up a pot!",
+          "tone": "talking object, indignant"
+        }
+      ]
+    },
+    {
+      "id": "s50",
+      "scene": "pliny-study",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.22
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But look at how Pliny starts: the story goes."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Even he wasn't sure."
+        }
+      ]
+    },
+    {
+      "id": "s51",
+      "scene": "pliny-study",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "verdict",
+        "stamp": "MYTH",
+        "small": "Corning Museum of Glass: unverified"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Most experts doubt a beach cooking fire could do it.",
+          "tone": "serious"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Ancient glassmakers needed furnaces running hot for hours."
+        }
+      ]
+    },
+    {
+      "id": "s52",
+      "scene": "pliny-study",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "2,000+ years",
+        "small": "from the first glass beads to Pliny's story"
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And glass was already more than 2,000 years old when Pliny wrote."
+        }
+      ]
+    },
+    {
+      "id": "s53",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.22
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Subscribe if you like myths checked like this — next up, how prehistoric humans told time.",
+          "tone": "warm"
+        }
+      ]
+    },
+    {
+      "id": "s54",
+      "scene": "melt-lab",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Still, the story gets one thing right: soda.",
+          "tone": "curious"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Sand alone needs about 1,700 degrees Celsius to melt."
+        }
+      ]
+    },
+    {
+      "id": "s55",
+      "scene": "melt-lab",
+      "kaxo": null,
+      "graphic": {
+        "type": "chart",
+        "title": "Heat needed to melt",
+        "items": [
+          [
+            "Sand alone",
+            1700
+          ],
+          [
+            "Sand + soda",
+            1000
+          ]
+        ],
+        "unit": "°C",
+        "src": "Pilkington; Rehren & Pusch 2005"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Ancient glass furnaces ran much cooler than that."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Add soda, and the mix starts to melt at around 1,000."
+        }
+      ]
+    },
+    {
+      "id": "s56",
+      "scene": "melt-lab",
+      "kaxo": null,
+      "graphic": {
+        "type": "verdict",
+        "stamp": "RECORD",
+        "small": "Pilkington, Chemistry of glass"
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Chemists call soda a flux, a helper that makes things melt at lower heat."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It was the ancient glassmaker's shortcut."
+        }
+      ]
+    },
+    {
+      "id": "s57",
+      "scene": "sand-closeup",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So why is sand dull, but glass clear?",
+          "tone": "curious"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Every grain of sand has edges."
+        }
+      ]
+    },
+    {
+      "id": "s58",
+      "scene": "sand-closeup",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.22
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Billions of edges bounce light around, so you can't see through a pile."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Melt the grains into one smooth piece, and the edges disappear."
+        }
+      ]
+    },
+    {
+      "id": "s59",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "NATURE",
+          "ACCIDENT",
+          "RECIPE",
+          "SODA",
+          "BREATH",
+          "CLEAR"
+        ],
+        "step": 4,
+        "icon": "glass"
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Light goes straight through."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "So that's why a window is clear, and a beach isn't."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Piece four: SODA."
+        }
+      ]
+    },
+    {
+      "id": "s60",
+      "scene": "glassblower",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.84
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Before Pliny's time, glass was rare and slow to make."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "That was about to change, with one breath.",
+          "tone": "excited"
+        }
+      ]
+    },
+    {
+      "id": "s61",
+      "scene": "qantir-workshop",
+      "kaxo": null,
+      "graphic": {
+        "type": "chapter",
+        "n": 5,
+        "title": "One Breath"
+      },
+      "camera": "zoom_in",
+      "chapter": "5. One Breath",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Until then, making a glass bottle was slow and fiddly."
+        }
+      ]
+    },
+    {
+      "id": "s62",
+      "scene": "qantir-workshop",
+      "image": "alabastron.jpg",
+      "kaxo": null,
+      "graphic": {
+        "type": "archive",
+        "caption": "Glass perfume bottle, 5th century BC",
+        "src": "The Met, CC0"
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Wind hot glass around a clay core on a rod."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Let it cool, then scrape the clay out."
+        }
+      ]
+    },
+    {
+      "id": "s63",
+      "scene": "qantir-workshop",
+      "image": "alabastron.jpg",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.78
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "It worked, but only for small bottles like this one."
+        }
+      ]
+    },
+    {
+      "id": "s64",
+      "scene": "trade-ship",
+      "kaxo": null,
+      "graphic": {
+        "type": "map",
+        "focus": "near-east",
+        "label": "Eastern Mediterranean coast",
+        "pins": [
+          "sidon",
+          "jerusalem"
+        ],
+        "route": []
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Then, a little over 2,000 years ago, someone on the eastern Mediterranean coast tried something new."
+        }
+      ]
+    },
+    {
+      "id": "s65",
+      "scene": "glassblower",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "This is the biggest leap in our story.",
+          "tone": "excited"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Imagine you're in that workshop."
+        }
+      ]
+    },
+    {
+      "id": "s66",
+      "scene": "glassblower",
+      "kaxo": null,
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "You dip a long, hollow pipe into a blob of hot glass."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Then you blow."
+        }
+      ]
+    },
+    {
+      "id": "s67",
+      "scene": "glassblower",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.22
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The glass swells into a bubble, like chewing gum.",
+          "tone": "surprised"
+        }
+      ]
+    },
+    {
+      "id": "s68",
+      "scene": "glassblower",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "map",
+        "focus": "near-east",
+        "label": "About 50 to 40 BC",
+        "pins": [
+          "jerusalem"
+        ],
+        "route": []
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "In Jerusalem, archaeologists found the oldest blown glass we can date."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It's workshop waste from about 50 to 40 BC."
+        }
+      ]
+    },
+    {
+      "id": "s69",
+      "scene": "rome-shop",
+      "kaxo": null,
+      "graphic": {
+        "type": "map",
+        "focus": "med-route",
+        "label": "Spreading west",
+        "pins": [
+          "rome"
+        ],
+        "route": [
+          "west"
+        ]
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Blowing was easier and cheaper, and it spread west to Italy."
+        }
+      ]
+    },
+    {
+      "id": "s70",
+      "scene": "rome-shop",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "label",
+        "big": "1 copper coin",
+        "small": "Strabo, Geography, around AD 20"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "In Rome, says the Greek writer Strabo, a glass cup costs one copper coin."
+        }
+      ]
+    },
+    {
+      "id": "s71",
+      "scene": "rome-shop",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.22
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "That's the Roman version of a one-dollar glass.",
+          "tone": "amused"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "More than a thousand years earlier, a pharaoh ordered glass by the piece."
+        }
+      ]
+    },
+    {
+      "id": "s72",
+      "scene": "glassblower",
+      "image": "ennion-cup.jpg",
+      "kaxo": null,
+      "graphic": {
+        "type": "archive",
+        "caption": "Mold-blown cup signed by Ennion",
+        "src": "The Met, CC0 · 1st century AD"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Fancy glass could still cost a fortune."
+        }
+      ]
+    },
+    {
+      "id": "s73",
+      "scene": "roman-window",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "Roman houses near Naples",
+        "small": "1st century AD"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Romans even put glass in some windows."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "But don't picture a modern window."
+        }
+      ]
+    },
+    {
+      "id": "s74",
+      "scene": "roman-window",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.78
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Roman panes were thick and greenish."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Some windows used thin slices of a clear mineral instead."
+        }
+      ]
+    },
+    {
+      "id": "s75",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.22
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "NATURE",
+          "ACCIDENT",
+          "RECIPE",
+          "SODA",
+          "BREATH",
+          "CLEAR"
+        ],
+        "step": 5,
+        "icon": "glass"
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Piece five: BREATH."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "One breath turned glass from a royal gift into a cheap cup."
+        }
+      ]
+    },
+    {
+      "id": "s76",
+      "scene": "roman-window",
+      "kaxo": null,
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But clear, flat glass was still far off."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "For that, we need an island.",
+          "tone": "curious"
+        }
+      ]
+    },
+    {
+      "id": "s77",
+      "scene": "murano-island",
+      "kaxo": null,
+      "graphic": {
+        "type": "chapter",
+        "n": 6,
+        "title": "Crystal Clear"
+      },
+      "camera": "pan_right",
+      "chapter": "6. Crystal Clear",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Venice, 1291."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The city's Great Council orders its glass furnaces out of town."
+        }
+      ]
+    },
+    {
+      "id": "s78",
+      "scene": "murano-island",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "map",
+        "focus": "med-route",
+        "label": "Venice, 1291",
+        "pins": [
+          "venice"
+        ],
+        "route": []
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Their official reason: fire."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "So the furnaces moved to Murano, a small island nearby."
+        }
+      ]
+    },
+    {
+      "id": "s79",
+      "scene": "murano-island",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.22
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Secrecy came with it: glassmakers were banned from working abroad."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Today, a company just makes you sign a form.",
+          "tone": "amused"
+        }
+      ]
+    },
+    {
+      "id": "s80",
+      "scene": "barovier-workshop",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "Cristallo",
+        "small": "Angelo Barovier, 1450s"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "In the 1450s, Murano glassmaker Angelo Barovier cleaned up his recipe."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "He purified the burned plant ash he used as his soda."
+        }
+      ]
+    },
+    {
+      "id": "s81",
+      "scene": "barovier-workshop",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.78
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "The glass came out so clear, Venetians named it after rock crystal: cristallo.",
+          "tone": "excited"
+        }
+      ]
+    },
+    {
+      "id": "s82",
+      "scene": "barovier-workshop",
+      "image": "diderot-glass.jpg",
+      "kaxo": null,
+      "graphic": {
+        "type": "archive",
+        "caption": "A glassworks, Diderot's Encyclopédie",
+        "src": "1700s, public domain"
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "But flat window glass was still hard to make."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Getting it truly smooth meant grinding and polishing."
+        }
+      ]
+    },
+    {
+      "id": "s83",
+      "scene": "float-factory",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "1952",
+        "small": "Alastair Pilkington's first tests"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "In 1952, in Britain, Alastair Pilkington started a strange experiment."
+        }
+      ]
+    },
+    {
+      "id": "s84",
+      "scene": "float-factory",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.22
+      },
+      "camera": "pan_right",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "He let hot liquid glass float on a bath of melted tin."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It came out flat and smooth on both sides."
+        }
+      ]
+    },
+    {
+      "id": "s85",
+      "scene": "float-factory",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "20 January 1959",
+        "small": "float glass announced"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "No grinding, no polishing."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "His company announced it in 1959."
+        }
+      ]
+    },
+    {
+      "id": "s86",
+      "scene": "modern-city",
+      "kaxo": null,
+      "graphic": {
+        "type": "label",
+        "big": "About 500 float lines",
+        "small": "Pilkington, today"
+      },
+      "camera": "zoom_out",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Today, about 500 float lines run around the world."
+        }
+      ]
+    },
+    {
+      "id": "s87",
+      "scene": "modern-city",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "quiz",
+        "q": "New glass made per person in 2014?",
+        "a": "About 2 kg",
+        "b": "About 21 kg",
+        "c": "About 200 kg",
+        "ok": "b"
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Back in 2014, how much new glass did the world make per person?",
+          "tone": "curious"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "About 2 kilos, 21, or 200?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Take a guess."
+        }
+      ]
+    },
+    {
+      "id": "s88",
+      "scene": "modern-city",
+      "kaxo": {
+        "pose": "surprised",
+        "x": 0.22
+      },
+      "graphic": {
+        "type": "label",
+        "big": "About 21 kg",
+        "small": "per person, 2014 · Westbroek et al., 2021"
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "About 21 kilos each.",
+          "tone": "excited"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "That's like a heavy suitcase of new glass, for every person on Earth."
+        }
+      ]
+    },
+    {
+      "id": "s89",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.78
+      },
+      "graphic": {
+        "type": "puzzle",
+        "labels": [
+          "NATURE",
+          "ACCIDENT",
+          "RECIPE",
+          "SODA",
+          "BREATH",
+          "CLEAR"
+        ],
+        "step": 6,
+        "icon": "glass",
+        "ans": "Nature made it first. People learned the rest, one step at a time."
+      },
+      "camera": "zoom_out",
+      "chapter": "The Answer",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Piece six: CLEAR."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Venice made glass clearer, and a tin bath made it perfectly flat."
+        }
+      ]
+    },
+    {
+      "id": "s90",
+      "scene": "modern-kitchen",
+      "kaxo": {
+        "pose": "think",
+        "x": 0.75
+      },
+      "camera": "pan_left",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "So, how did humans turn sand into clear glass?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Slowly.",
+          "tone": "warm"
+        }
+      ]
+    },
+    {
+      "id": "s91",
+      "scene": "modern-kitchen",
+      "kaxo": {
+        "pose": "idle",
+        "x": 0.85
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Nature made it first, and craftspeople probably stumbled onto it."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Then, over 4,000 years, people learned to melt it, blow it and make it crystal clear."
+        }
+      ]
+    },
+    {
+      "id": "s92",
+      "scene": "cairo-museum",
+      "kaxo": null,
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "That yellow beetle needed a space rock."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "The glass in front of you took thousands of years of people trying.",
+          "tone": "warm"
+        }
+      ]
+    },
+    {
+      "id": "s93",
+      "scene": "pliny-study",
+      "kaxo": null,
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "[pause] One more thing from Pliny.",
+          "tone": "curious"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "He heard a rumor about glass that could bend."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "But he called that story more widespread than certain."
+        }
+      ]
+    },
+    {
+      "id": "s94",
+      "scene": "modern-city",
+      "kaxo": {
+        "pose": "laugh",
+        "x": 0.78
+      },
+      "camera": "zoom_in",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "In 2012, a glass company showed glass you can bend."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "It's about as thin as a sheet of paper."
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Sorry, Pliny.",
+          "tone": "amused"
+        }
+      ]
+    },
+    {
+      "id": "s95",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "point",
+        "x": 0.22
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "Next: how prehistoric humans told time.",
+          "tone": "excited"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Subscribe so you don't miss it."
+        }
+      ]
+    },
+    {
+      "id": "s96",
+      "scene": "studio",
+      "kaxo": {
+        "pose": "idle",
+        "x": 0.5
+      },
+      "camera": "static",
+      "lines": [
+        {
+          "speaker": "kaxo",
+          "text": "And what's the oldest glass thing in your home?"
+        },
+        {
+          "speaker": "kaxo",
+          "text": "Tell me in the comments.",
+          "tone": "warm"
+        }
+      ],
+      "min_duration": 16
+    }
+  ],
+  "url": "https://youtu.be/cQS9C0c0w9M"
+}

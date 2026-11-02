@@ -36,6 +36,7 @@ BRIDGE = 0.06           # a breath or click shorter than this does not split a s
 QUIET_DB = 30           # frames this far below the loud frames count as silence
 EDGE_KEEP = 0.12        # silence kept at the start and end of each part
 PART_GAP = 0.9          # pause between parts (chapter change)
+QUIZ_PAUSE = 2.2        # quiet time to guess after a quiz question (RULES §3.3); the answer comes after it
 MAX_GAPS_PER_SENTENCE = 25
 SENTENCE_RE = re.compile(r"(?<=[.!?…])\s+")
 PAUSE_RE = re.compile(r"\[pause(?:\s+[\d.]+)?\]", re.I)
@@ -193,6 +194,22 @@ def main(ep_dir):
         if gi < len(groups) - 1:
             track.append(np.zeros(int(PART_GAP * SR), np.float32))
             t += PART_GAP
+
+    # a quiz shot gets a quiet moment after its last line, so the viewer can guess; everything later moves on
+    voice = np.concatenate(track)
+    quiz = {s["id"] for s in ep["shots"] if (s.get("graphic") or {}).get("type") == "quiz"}
+    for qs in [s for s in timeline["shots"] if s["id"] in quiz and s["lines"]]:
+        at = qs["lines"][-1]["end"] + 0.1
+        cut = int(at * SR)
+        voice = np.concatenate([voice[:cut], np.zeros(int(QUIZ_PAUSE * SR), np.float32), voice[cut:]])
+        t += QUIZ_PAUSE
+        for s in timeline["shots"]:
+            for ln in s["lines"]:
+                if ln["start"] > at:
+                    ln["start"], ln["end"] = round(ln["start"] + QUIZ_PAUSE, 3), round(ln["end"] + QUIZ_PAUSE, 3)
+                    for w in ln["words"]:
+                        w["start"], w["end"] = round(w["start"] + QUIZ_PAUSE, 3), round(w["end"] + QUIZ_PAUSE, 3)
+    track = [voice]
 
     # shots are contiguous: each starts where the previous ended and ends where the next one speaks
     shots = timeline["shots"]
