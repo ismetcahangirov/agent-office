@@ -61,6 +61,11 @@ def main(ep_dir, synthetic=None):
         shots.append({"id": s["id"], "start": t["start"], "end": t["end"],
                       "lines": [{"text": l["text"], "start": l["start"], "end": l["end"]} for l in t["lines"]],
                       **{k: s[k] for k in VISUAL_KEYS if k in s}})
+        g = shots[-1].get("graphic") or {}
+        if g.get("type") == "quiz" and t["lines"]:
+            # the timer runs while the question ends and the quiet guess pause plays; the answer lights up after it
+            ask = t["lines"][-1]["end"] - t["start"]
+            shots[-1]["graphic"] = {**g, "ask": round(ask, 2), "reveal": round(ask + 2.0, 2)}
     props = {"slug": slug, "base": f"ep/{slug}", "outfit": ep.get("outfit_key", "base"),
              "duration": tl["duration"], "music": (REM / "public" / "music.mp3").exists() and not synthetic, "shots": shots}
     if synthetic:

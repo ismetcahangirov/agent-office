@@ -7,7 +7,7 @@
 > Ardıcıl 3 video eyni sahədən olmur.
 
 ## Prioritet (ilk epizodlar, sahələr qarışıq)
-**Növbə:** 1. Japan beef (yemək) ✓ 2026-10-31-japan-beef → 2. Potato (yemək; Japan beef videosunun sonunda vəd olunub) → 3. Glass (ixtira) → 4. Prehistoric time (tarixəqədərki) → 5. Cats' gifts (heyvan) → 6. Yawning (beyin). Aşağıdakı yemək ideyaları + bölmələrdəki **qalın** ideyalar.
+**Növbə:** 1. Japan beef (yemək) ✓ 2026-10-31-japan-beef → 2. Potato (yemək; Japan beef videosunun sonunda vəd olunub) → 3. Glass (ixtira) ✓ 2026-11-02-glass → 4. Prehistoric time (tarixəqədərki) → 5. Cats' gifts (heyvan) → 6. Yawning (beyin). Aşağıdakı yemək ideyaları + bölmələrdəki **qalın** ideyalar.
 
 - [x] ✓ 2026-10-31-japan-beef **"Why Did Japan Refuse Beef for 1,200 Years?"** Ziddiyyət: bu gün wagyu dünyanın ən bahalı ətidir, amma Yaponiya əsrlər boyu mal əti yemirdi. Səbəb namizədləri: 675-ci il ət qadağası (imperator Tenmu), buddizm, düyü kəndçiliyində öküzün işçi heyvan olması, ada coğrafiyası və balıq, 1872 Meiji imperatorunun açıq mal əti yeməsi və rahiblərin etirazı, sukiyaki və wagyu-nun doğuşu. Mənbə: Nihon Shoki, Meiji dövrü qəzetləri, akademik yemək tarixi (Ishige Naomichi).
 - [x] ✓ 2026-11-01-potato **"Why Was Europe Afraid of the Potato?"** (iş adı idi: "…for 200 Years?", araşdırma "200 il qorxu"nu təkzib etdi) Ziddiyyət: indi Avropanın əsas qidasıdır, amma əvvəl "şeytan alması", donuz yemi sayılırdı. Səbəb namizədləri: İncildə adı yoxdur, it üzümü fəsiləsi (zəhər qorxusu), cüzam şayiələri, Parmentier və Fridrix II hiylələri, İrlandiya aclığı. Mənbə: Redcliffe Salaman "The History and Social Influence of the Potato", Parmentier arxivi.
@@ -37,7 +37,7 @@
 - [ ] "The Banana Your Grandparents Ate Is Gone" (Gros Michel, Panama xəstəliyi.)
 
 ## İxtiralar: How Did Humans Invent It?
-- [ ] **"How Did Humans Invent Glass?"** Ziddiyyət: qum qeyri-şəffafdır, şüşə şəffafdır. Mərhələ namizədləri: obsidian, Mesopotamiya muncuqları, Plininin "Finikiya dənizçiləri" əfsanəsi, üfürmə texnikası (e.ə. I əsr), Venesiya Murano qanunları, pəncərə şüşəsi. Mənbə: Corning Museum of Glass.
+- [x] ✓ 2026-11-02-glass **"How Did Humans Invent Glass?"** (başlıq: "How Did Humans Turn Sand Into Clear Glass?") Ziddiyyət: qum qeyri-şəffafdır, şüşə şəffafdır. Mərhələ namizədləri: obsidian, Mesopotamiya muncuqları, Plininin "Finikiya dənizçiləri" əfsanəsi, üfürmə texnikası (e.ə. I əsr), Venesiya Murano qanunları, pəncərə şüşəsi. Mənbə: Corning Museum of Glass.
 - [ ] "How Did Humans Invent the Clock?" (gün saatı, su saatı, mexaniki saat, "dəqiqə" anlayışının yaranışı.)
 - [ ] "How Did Humans Invent Money?" (barter mifi, Lidiya sikkələri, Çin kağız pulu.)
 - [ ] "Who Invented the Fork, and Why Was It a Scandal?"
@@ -65,3 +65,4 @@
 - [ ] **Butcher's Window** (2 hissə): "Why Lamb Is Rare in America" + "Why Mutton Disappeared from Britain".
 - [ ] **Columbian Exchange** (3 hissə): potato, tomato, chili.
 - [ ] [short-from] 2026-11-01-potato: Kolberg iti ("even the dogs said no") və ya Fridrixin keşikçili tarlası (MYTH).
+- [ ] [short-from] 2026-11-02-glass: Tutankhamonun skarabı 29 milyon illik səhra şüşəsidir ("made by a space rock") və ya Plininin çimərlik əfsanəsi (MYTH).

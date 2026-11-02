@@ -3,6 +3,7 @@
 ## KAXO (2026-10-31-dən)
 | Tarix | Format | Başlıq | URL | Playlist(lər) | Altyazı dilləri | Epizod | Son statistika |
 |---|---|---|---|---|---|---|---|
+| 2026-11-02 | long (10:33) | How Did Humans Turn Sand Into Clear Glass? | https://youtu.be/cQS9C0c0w9M | How Did Humans Invent It? | en, es, pt, ru, tr, zh-Hans, ja, ko, ar, fa (+ başlıq/təsvir) | 2026-11-02-glass | — |
 | 2026-11-01 | long (10:44) | Why Was Europe Afraid of the Potato? | https://youtu.be/3ZETOCz8R0g | Why Don't We Eat It? | en, es, pt, ru, tr, zh-Hans, ja, ko, ar, fa (+ başlıq/təsvir) | 2026-11-01-potato | 2026-11-02 (20 saat): 51 təəssürat, 1 baxış |
 | 2026-10-31 | long (8:41) | Why Japan Banned Meat for 1,200 Years (and Then Made Wagyu) | https://youtu.be/GdSR7t5lNLA | Why Don't We Eat It? | en, es, pt, ru, tr, zh-Hans, ja, ko, ar, fa (+ başlıq/təsvir) | 2026-10-31-japan-beef | 2026-11-02: 25 baxış, CTR 4.6%, orta 1:49 (21%), 0:30-da 53%, 1:00-da 41% (`stats/2026-11-02.json`) |
 
@@ -10,6 +11,7 @@
 | Playlist | URL | Yaradılıb |
 |---|---|---|
 | Why Don't We Eat It? | https://www.youtube.com/playlist?list=PLUi9gcK1sh6U | 2026-10-31 |
+| How Did Humans Invent It? | https://www.youtube.com/playlist?list=PLPImTOoyxKPc | 2026-11-02 |
 
 ---
 

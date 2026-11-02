@@ -2,6 +2,7 @@ import { AbsoluteFill, Easing, interpolate, spring, useCurrentFrame, useVideoCon
 import { C, Graphic } from '../theme';
 import { JapanMap } from './JapanMap';
 import { EURO_FOCUS, EuroMap } from './EuroMap';
+import { GLASS_FOCUS, GlassMap } from './GlassMap';
 import { Puzzle } from './Puzzle';
 
 // On-screen graphics (RULES §3.3, §3.4, §5): real type in the channel palette, never AI-drawn.
@@ -30,12 +31,14 @@ const Chapter: React.FC<{ n: number; title: string }> = ({ n, title }) => {
   );
 };
 
-const Quiz: React.FC<{ q: string; a: string; b: string; c: string; ok: 'a' | 'b' | 'c' }> = (g) => {
+// ask/reveal (seconds into the shot) come from remotion_props.py: the question ends at `ask`, the answer lights up at `reveal`
+const Quiz: React.FC<{ q: string; a: string; b: string; c: string; ok: 'a' | 'b' | 'c'; ask?: number; reveal?: number }> = (g) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const head = usePop(0);
-  const reveal = frame > fps * 4.2;
-  const timer = interpolate(frame, [fps * 1, fps * 4], [1, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
+  const at = g.reveal ?? 4.2;
+  const reveal = frame > fps * at;
+  const timer = interpolate(frame, [fps * (g.ask ?? 1), fps * (at - 0.2)], [1, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
   const cards = (['a', 'b', 'c'] as const).map((k, i) => {
     const v = spring({ frame: frame - 8 - i * 4, fps, config: { damping: 11 } });
     const ok = reveal && g.ok === k, no = reveal && g.ok !== k;
@@ -163,7 +166,7 @@ const Chart: React.FC<{ title: string; items: [string, number][]; unit?: string;
             <div style={{ height: 88 }}>
               <div style={{ height: '100%', width: `${(v / max) * 100 * g}%`, borderRadius: 20, border: `6px solid ${C.ink}`, background: i === 0 ? C.tomato : C.mustard }} />
             </div>
-            <div style={{ textAlign: 'right' }}>{Math.round(v * g * 10) / 10}{unit ? ` ${unit}` : ''}</div>
+            <div style={{ textAlign: 'right' }}>{(v >= 100 ? Math.round(v * g) : Math.round(v * g * 10) / 10).toLocaleString('en-US')}{unit ? ` ${unit}` : ''}</div>
           </div>
         );
       })}
@@ -197,7 +200,9 @@ export const GraphicView: React.FC<{ g: Graphic; side?: Side; kx?: number }> = (
     case 'text': return <Text {...g} side={side} />;
     case 'verdict': return <Verdict {...g} side={side} />;
     case 'archive': return <ArchiveCaption {...g} side={side} />;
-    case 'map': return EURO_FOCUS.has(g.focus) ? <EuroMap focus={g.focus} label={g.label} /> : <JapanMap focus={g.focus} label={g.label} />;
+    case 'map':
+      if (GLASS_FOCUS.has(g.focus)) return <GlassMap focus={g.focus} label={g.label} pins={g.pins} route={g.route} />;
+      return EURO_FOCUS.has(g.focus) ? <EuroMap focus={g.focus} label={g.label} /> : <JapanMap focus={g.focus} label={g.label} />;
     default: return null;
   }
 };

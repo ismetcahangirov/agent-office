@@ -103,7 +103,43 @@ const dishPic = (): Pic => ({
   ),
 });
 
-const PICS: Record<string, () => Pic> = { potato: potatoPic, dish: dishPic };
+// Glass: a clear goblet in front of a sunny window, standing on the little heap of sand it came from.
+const GOBLET = 'M -150 -230 Q -160 -40 -40 30 Q -12 46 -12 80 V 170 Q -12 196 -90 206 Q -110 214 -100 226 H 100 Q 110 214 90 206 Q 12 196 12 170 V 80 Q 12 46 40 30 Q 160 -40 150 -230 Z';
+const glassPic = (): Pic => ({
+  bg: (
+    <g>
+      <rect width={PW} height={PH} fill="#8fd3f4" />
+      {Array.from({ length: 18 }).map((_, i) => {
+        const a = (i / 18) * Math.PI * 2, b = a + Math.PI / 18;
+        return i % 2 ? null : <path key={i} d={`M 510 250 L ${510 + Math.cos(a) * 900} ${250 + Math.sin(a) * 900} L ${510 + Math.cos(b) * 900} ${250 + Math.sin(b) * 900} Z`} fill="#a9def7" />;
+      })}
+      {/* window frame */}
+      <rect x={60} y={30} width={900} height={400} fill="none" stroke="#c99a63" strokeWidth={34} />
+      <path d="M 510 30 V 430 M 60 230 H 960" stroke="#c99a63" strokeWidth={22} />
+      <rect x={60} y={30} width={900} height={400} fill="none" stroke={INK} strokeWidth={6} />
+      <circle cx={830} cy={120} r={56} fill={C.mustard} stroke={INK} strokeWidth={6} />
+      {/* table */}
+      <rect x={0} y={430} width={PW} height={110} fill="#b07a48" stroke={INK} strokeWidth={6} />
+      <path d="M 0 470 H 1020" stroke="#8c5f36" strokeWidth={6} />
+      {/* sand heap with grains */}
+      <path d="M 300 470 Q 420 380 510 384 Q 600 380 720 470 Z" fill="#e8c98c" stroke={INK} strokeWidth={6} strokeLinejoin="round" />
+      {Array.from({ length: 26 }).map((_, i) => <circle key={i} cx={340 + ((i * 53) % 340)} cy={430 + ((i * 29) % 34)} r={4} fill="#c9a463" />)}
+    </g>
+  ),
+  subject: (
+    <g transform="translate(510 214) scale(0.74)">
+      <ellipse cx={0} cy={232} rx={130} ry={16} fill="rgba(43,33,24,.25)" />
+      <path d={GOBLET} fill="#dff3fb" fillOpacity={0.75} stroke={INK} strokeWidth={9} strokeLinejoin="round" />
+      {/* water line and shine: it reads as clear glass */}
+      <path d="M -146 -120 Q 0 -100 146 -120 Q 140 -30 40 26 Q 0 40 -40 26 Q -140 -30 -146 -120 Z" fill="#7fc8ea" fillOpacity={0.55} />
+      <path d="M -112 -200 Q -120 -70 -60 -10" stroke="#ffffff" strokeWidth={22} fill="none" strokeLinecap="round" />
+      <path d="M 106 -200 Q 112 -150 98 -110" stroke="#ffffff" strokeWidth={12} fill="none" strokeLinecap="round" opacity={0.8} />
+      <ellipse cx={0} cy={-230} rx={150} ry={20} fill="#f4fbfe" stroke={INK} strokeWidth={8} />
+    </g>
+  ),
+});
+
+const PICS: Record<string, () => Pic> = { potato: potatoPic, dish: dishPic, glass: glassPic };
 
 // ---------- jigsaw geometry ----------
 // One tab as cubic segments in (u along the edge from its middle, v outward), both in units of the knob size S.

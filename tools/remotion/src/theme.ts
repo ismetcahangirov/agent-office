@@ -18,12 +18,13 @@ export type KaxoSpec = { pose: Pose; x?: number; y?: number; scale?: number; fli
 
 export type Graphic =
   | { type: 'chapter'; n: number; title: string }
-  | { type: 'quiz'; q: string; a: string; b: string; c: string; ok: 'a' | 'b' | 'c' }
+  | { type: 'quiz'; q: string; a: string; b: string; c: string; ok: 'a' | 'b' | 'c'; ask?: number; reveal?: number }
   // icon: the picture the pieces make ("potato"; default "dish")
   | { type: 'puzzle'; labels: string[]; step: number; title?: string; ans?: string; icon?: string }
   | { type: 'label'; big: string; small?: string }
   | { type: 'chart'; title: string; items: [string, number][]; unit?: string; src?: string }
-  | { type: 'map'; focus: string; label?: string; route?: string }
+  // pins/route: GlassMap only (place keys and route names from glass_geo.py)
+  | { type: 'map'; focus: string; label?: string; pins?: string[]; route?: string[] }
   | { type: 'text'; big: string; small?: string }
   // fact-check stamp, the channel's signature: MYTH (tomato), DISPUTED (mustard), RECORD (olive) + source line
   | { type: 'verdict'; stamp: 'MYTH' | 'DISPUTED' | 'RECORD'; small?: string }
