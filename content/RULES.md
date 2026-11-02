@@ -90,21 +90,19 @@ KAXO izləyici ilə yan-yana oturub hekayə danışan dost kimi danışır: mara
 - **Dürüstlük:** mənbələr razılaşmırsa, bu deyilir: "Researchers still argue about this." Əfsanə əfsanə kimi təqdim olunur. Tarixəqədərki həyat haqqında fərziyyə fərziyyə kimi deyilir: "We can't know for sure, but the bones suggest…".
 - **Qadağandır:** siyahı kimi sadalamaq ("Firstly… Secondly…"), rəsmi sözlər ("utilize", "furthermore", "in conclusion"), "In this video", "Let's dive in", "Did you know?" ilə başlamaq, eyni sözlə başlayan ardıcıl cümlələr, ensiklopediya tonu.
 - **Temp: referans kanallar kimi sakit və nəfəsli** (sahib 2026-11-01: "temp çox sürətlidir"). Ölçü (2026-11-01, @menumetre 4 video + @Meraklı 2 video, avtomatik altyazının söz vaxtları ilə): danışıq arasında dəqiqədə ~14–19 fasilə (hər cümlə sonu), sükut payı 11–17%, ekranda şəkil ~4 s-dən bir dəyişir. Bizim "Japan beef" videomuz: 187 söz/dəq, cümlələr arası fasilə 0.13 s, sükut payı 4%. Fərq əsasən nəfəs fasilələrindədir. Hədəf:
-  - ümumi sürət **150–165 söz/dəq** (fasilələrlə birlikdə);
+  - ümumi sürət **145–170 söz/dəq** (fasilələrlə birlikdə). Ember cümlə içində ~238 söz/dəq danışır, ona görə `align_voice.py` səsi 0.88 tempə salır (sahib qulaqla seçdi, 2026-11-01): nəticə ~148–167 söz/dəq;
   - hər cümlə sonunda **0.4–0.8 s** fasilə, fəsil keçidində və böyük faktdan sonra ~1 s;
-  - sükut payı **10–17%**, heç bir fasilə 1.5 s-dən uzun deyil (stinger-dən əvvəlki sakit an istisnadır);
+  - sükut payı **10–22%** (Ember özü cümlə sonunda ~0.5 s nəfəs alır), heç bir fasilə 1.5 s-dən uzun deyil (stinger-dən əvvəlki sakit an və end screen istisnadır);
   - eyni şəkil ən az 3 s ekranda qalır, adətən bir şəkil 1–2 cümlə üçündür;
   - ölçü `/video` 7-ci addımında məcburidir.
   Köhnə "sükut ≤ 10%, fasilə ≤ 0.35 s" qaydası ləğv edilib: o, cümlə ortasındakı uzun boşluqlara qarşı idi. Cümlə ortasında boşluq indi də olmur.
 - `[pause]` ssenaridə ən çox 2 dəfədir. Adi cümlə fasiləsini səs özü verir, onu `[pause]` ilə yazmırıq.
 - **Səs testi:** ssenari ucadan oxunur. Dil ilişirsə, cümlə dəyişdirilir.
-- **Uzunluq hesabı:** ~155 söz/dəq (fasilələrlə). Söz sayı mövzudan gəlir: 900 söz ≈ 6 dəq, 1 250 söz ≈ 8 dəq, 1 600 söz ≈ 10 dəq.
+- **Uzunluq hesabı:** ~150 söz/dəq (fasilələrlə, Ember 0.88). Söz sayı mövzudan gəlir: 900 söz ≈ 6 dəq, 1 250 söz ≈ 8 dəq, 1 600 söz ≈ 10 dəq.
 
 ### 4.1 Səsləndirmə: ChatGPT, brauzerdə (sahib 2026-11-01)
-- **Səs:** ChatGPT (sahibin hesabı, Chrome-da) **gənc, enerjili kişi səsi** ilə oxuyur. Səs adı ilk sınaqda sahib qulaqla seçəndən sonra `character/character.md` → "Səs" cədvəlinə yazılır və kanal boyu dəyişmir. Kokoro (`tts.py`) yalnız ehtiyatdır.
-- **ChatGPT-yə nə verilir:** ingiliscə mətn hissə-hissə (bir fəsil və ya ~60–90 s) və aydın tapşırıq: tərz, temp, cümlə sonunda nəfəs fasiləsi, hansı yerdə təəccüb, gülüş, ciddilik var. Emosiya iki yolla verilir:
-  1. **Mətnin özü ilə:** qısa zərbə cümləsi, sual, nida, "—" ilə qısa dayanma, "Wait." kimi reaksiya sözləri. Səs bunları olduğu kimi oxuyur.
-  2. **Tapşırıqda rejissor qeydləri ilə:** hər abzas üçün ayrıca qeyd ("curious, leaning in", "light laugh on the last line", "serious, slower"). Qeydlər oxunan mətnə qarışmır. Mötərizədə yazılsa, səs onları ucadan oxuya bilər.
+- **Səs:** ChatGPT (sahibin hesabı, Chrome-da) **gənc, enerjili kişi səsi** ilə oxuyur. Səs: **Ember** (sahib seçdi 2026-11-01, `character/character.md` → "Səs"), kanal boyu dəyişmir. Kokoro (`tts.py`) yalnız ehtiyatdır.
+- **ChatGPT-yə nə verilir:** ingiliscə mətn hissə-hissə (giriş və hər fəsil ayrıca), "Reply with exactly the text…" tapşırığı ilə; cavabın "Read aloud" səsi Ember ilə endirilir (`/video` 7-ci addım). Read aloud yalnız mətni oxuyur, tapşırıqdakı ton və temp qeydlərinə əməl etmir (2026-11-01 yoxlandı). Ona görə **emosiya mətnin özündə yazılır:** qısa zərbə cümləsi, sual, nida, "—" ilə qısa dayanma, "Wait.", "Ouch." kimi reaksiya sözləri, abzas (shot) arası nəfəs. `tone` sahəsi ssenari yazarı üçün qeyddir. Temp `align_voice.py`-dakı `TEMPO` ilə tənzimlənir.
 - **Yoxlama:** hər hissə dinlənir: səhv oxunan söz, buraxılmış cümlə, əlavə söz, robot intonasiya varsa, həmin hissə yenidən istənilir. Mətn ssenaridən dəyişməməlidir, çünki vaxtlama və altyazı ssenariyə bağlıdır.
 - **Hüquq:** OpenAI şərtlərinə görə çıxış istifadəçiyə məxsusdur. Real insanın və ya məşhurun səsi təqlid etdirilmir (§12.5).
 

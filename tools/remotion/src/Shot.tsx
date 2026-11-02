@@ -1,7 +1,7 @@
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from 'remotion';
 import { Kaxo } from './kaxo/Kaxo';
 import { Scene } from './scenes';
-import { GraphicView, FULLSCREEN } from './graphics';
+import { GraphicView, FULLSCREEN, OPAQUE } from './graphics';
 import { Shot as ShotT } from './theme';
 
 // One shot = background scene (with slow camera move) + optional graphic + optional KAXO.
@@ -12,16 +12,18 @@ export const Shot: React.FC<{ shot: ShotT; base: string; index: number; from: nu
   const cam = shot.camera || (index % 2 ? 'zoom_in' : 'pan_right');
   const s = cam === 'zoom_in' ? interpolate(p, [0, 1], [1, 1.08]) : cam === 'zoom_out' ? interpolate(p, [0, 1], [1.08, 1]) : 1.06;
   const x = cam === 'pan_left' ? interpolate(p, [0, 1], [30, -30]) : cam === 'pan_right' ? interpolate(p, [0, 1], [-30, 30]) : 0;
-  const full = shot.graphic && FULLSCREEN.has(shot.graphic.type);
+  const g = shot.graphic && shot.graphic.type ? shot.graphic : undefined; // {} = no graphic
+  const full = !!g && FULLSCREEN.has(g.type!);
+  const opaque = !!g && OPAQUE.has(g.type!); // these graphics cover the frame, so the scene is not drawn
   const fade = index === 0 ? interpolate(frame, [0, 8], [0, 1], { extrapolateRight: 'clamp' }) : 1;
   return (
     <AbsoluteFill style={{ opacity: fade }}>
       <AbsoluteFill style={shot.focus
         ? { transformOrigin: `${shot.focus[0] * 100}% ${shot.focus[1] * 100}%`, transform: `scale(${interpolate(p, [0, 1], [1.2, 2.1])})` }
         : { transform: `scale(${cam === 'static' ? 1 : s}) translateX(${x}px)` }}>
-        <Scene name={full ? 'studio' : shot.scene || 'studio'} image={shot.image ? `${base}/images/${shot.image}` : undefined} />
+        <Scene name={opaque ? 'studio' : shot.scene || 'studio'} image={shot.image ? `${base}/images/${shot.image}` : undefined} />
       </AbsoluteFill>
-      {shot.graphic && <GraphicView g={shot.graphic} side={shot.kaxo ? ((shot.kaxo.x ?? 0.78) > 0.5 ? 'left' : 'right') : 'center'} />}
+      {g && <GraphicView g={g} side={shot.kaxo ? ((shot.kaxo.x ?? 0.78) > 0.5 ? 'left' : 'right') : 'center'} kx={shot.kaxo ? shot.kaxo.x ?? 0.78 : undefined} />}
       {shot.kaxo && (
         <Kaxo
           spec={shot.kaxo}

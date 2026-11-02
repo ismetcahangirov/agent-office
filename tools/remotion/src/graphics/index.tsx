@@ -1,9 +1,16 @@
-import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from 'remotion';
+import { AbsoluteFill, Easing, interpolate, spring, useCurrentFrame, useVideoConfig } from 'remotion';
 import { C, Graphic } from '../theme';
 import { JapanMap } from './JapanMap';
+import { EURO_FOCUS, EuroMap } from './EuroMap';
+import { Puzzle } from './Puzzle';
 
 // On-screen graphics (RULES §3.3, §3.4, §5): real type in the channel palette, never AI-drawn.
+// FULLSCREEN: KAXO steps small into the corner. OPAQUE: the graphic covers the frame, so no scene is drawn behind it
+// (a chapter card sits over the shot's own scene).
 export const FULLSCREEN = new Set(['chapter', 'quiz', 'puzzle', 'chart', 'map']);
+export const OPAQUE = new Set(['quiz', 'puzzle', 'chart', 'map']);
+type Side = 'left' | 'right' | 'center';
+const clamp = { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' } as const;
 
 const usePop = (delay = 0) => {
   const frame = useCurrentFrame();
@@ -44,7 +51,7 @@ const Quiz: React.FC<{ q: string; a: string; b: string; c: string; ok: 'a' | 'b'
     <AbsoluteFill style={{ padding: '110px 360px 110px 150px', gap: 56, flexDirection: 'column', background: C.cream }}>
       <div style={pop(head)}>
         <span style={{ background: C.tomato, color: C.white, fontSize: 46, padding: '6px 26px', borderRadius: 40 }}>Quick guess</span>
-        <div style={{ fontSize: 88, lineHeight: 1.05, marginTop: 22 }}>{g.q}</div>
+        <div style={{ fontSize: g.q.length > 70 ? 66 : g.q.length > 45 ? 76 : 88, lineHeight: 1.05, marginTop: 22 }}>{g.q}</div>
       </div>
       <div style={{ display: 'flex', gap: 46 }}>{cards}</div>
       <div style={{ height: 24, borderRadius: 12, background: 'rgba(43,33,24,.12)', overflow: 'hidden' }}>
@@ -54,48 +61,88 @@ const Quiz: React.FC<{ q: string; a: string; b: string; c: string; ok: 'a' | 'b'
   );
 };
 
-// Answer Puzzle: N jigsaw pieces, one per reason; the newest piece drops in (RULES §3.4).
-const Puzzle: React.FC<{ labels: string[]; step: number; title?: string; ans?: string }> = ({ labels, step, title, ans }) => {
+// Place / date tag in a top corner, on the side away from KAXO; long text wraps and gets smaller.
+const Label: React.FC<{ big: string; small?: string; side?: Side; kx?: number }> = ({ big, small, side, kx }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const head = usePop(0);
-  const drop = spring({ frame: frame - 10, fps, config: { damping: 9, mass: 0.8 } });
-  const done = step >= labels.length;
-  const ansV = usePop(36);
-  const size = Math.min(270, 1380 / labels.length);
+  const v = spring({ frame, fps, config: { damping: 13 } });
+  const right = side === 'right';
+  // KAXO in the middle: keep the tag left of his head
+  const maxWidth = kx !== undefined && kx > 0.35 && kx < 0.65 ? (kx - 0.14) * 1920 - 130 : kx !== undefined ? 1000 : 1300;
+  const font = big.length > 26 ? 70 : big.length > 16 ? 84 : 96;
   return (
-    <AbsoluteFill style={{ alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: 70, background: C.cream }}>
-      <div style={{ ...pop(head), fontSize: 80 }}>{title || (done ? 'The full picture' : 'The answer so far')}</div>
-      <div style={{ display: 'flex' }}>
-        {labels.map((l, i) => {
-          const on = i < step, isNew = i === step - 1;
-          const style: React.CSSProperties = {
-            width: size, height: size, marginLeft: i ? -8 : 0, display: 'grid', placeItems: 'center', textAlign: 'center', padding: 16,
-            fontSize: Math.round(size / 4.8), position: 'relative', zIndex: on ? 1 : 0,
-            borderRadius: i === 0 ? '36px 0 0 36px' : i === labels.length - 1 ? '0 36px 36px 0' : 0,
-            border: on ? `8px solid ${C.ink}` : `8px dashed rgba(43,33,24,.3)`,
-            background: isNew ? C.tomato : on ? C.mustard : 'rgba(255,255,255,.55)',
-            color: isNew ? C.white : on ? C.ink : 'rgba(43,33,24,.35)',
-            transform: isNew ? `translateY(${(1 - drop) * -260}px) rotate(${(1 - drop) * -12}deg)` : undefined,
-            opacity: isNew ? Math.min(1, drop * 2) : 1,
-          };
-          return <div key={i} style={style}>{on ? l : '?'}</div>;
+    <div style={{ position: 'absolute', top: 80, [right ? 'right' : 'left']: 90, maxWidth, transform: `translateX(${(1 - v) * (right ? 700 : -700)}px)`, background: C.ink, color: C.cream,
+      padding: '28px 52px', borderRadius: 26, [right ? 'borderRight' : 'borderLeft']: `24px solid ${C.tomato}` }}>
+      <div style={{ fontSize: font, lineHeight: 1.02 }}>{big}</div>
+      {small && <div style={{ fontSize: 40, color: C.mustard, marginTop: 10, fontFamily: 'Arial, sans-serif', fontWeight: 700, lineHeight: 1.15 }}>{small}</div>}
+    </div>
+  );
+};
+
+// Fact-check stamp (the channel's signature): slams in from 2x, shakes, ink flecks fly; source line underneath.
+const STAMP = { MYTH: C.tomato, DISPUTED: '#e0a020', RECORD: C.olive } as const;
+const Verdict: React.FC<{ stamp: keyof typeof STAMP; small?: string; side?: Side }> = ({ stamp, small, side }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const color = STAMP[stamp] || C.tomato;
+  const hit = 7;
+  const s = interpolate(frame, [0, hit], [2.1, 1], { ...clamp, easing: Easing.in(Easing.quad) });
+  const o = interpolate(frame, [0, 3], [0, 1], clamp);
+  const amp = frame >= hit ? Math.max(0, 20 - (frame - hit) * 1.6) : 0;
+  const sx = Math.sin(frame * 2.9) * amp, sy = Math.cos(frame * 3.7) * amp * 0.6;
+  const w = stamp.length * 118 + 150, h = 280;
+  const cx = side === 'left' ? 700 : side === 'right' ? 1220 : 960;
+  const sub = spring({ frame: frame - hit - 4, fps, config: { damping: 12 } });
+  const fleck = interpolate(frame, [hit, hit + 14], [0, 1], clamp);
+  const specks = Array.from({ length: 60 }).map((_, i) => [((i * 7919) % 1000) / 1000 * w - w / 2, ((i * 104729) % 1000) / 1000 * h - h / 2, 3 + (i % 4) * 2]);
+  return (
+    <AbsoluteFill>
+      <AbsoluteFill style={{ background: `radial-gradient(ellipse at ${(cx / 1920) * 100}% 44%, rgba(43,33,24,.5) 0%, rgba(43,33,24,.15) 55%, rgba(43,33,24,0) 80%)`, opacity: o }} />
+      <svg viewBox="0 0 1920 1080" width={1920} height={1080} style={{ position: 'absolute', inset: 0 }}>
+        <defs>
+          <mask id="stampInk">
+            <rect x={-w} y={-h} width={w * 2} height={h * 2} fill="#ffffff" />
+            {specks.map(([x, y, r], i) => <circle key={i} cx={x} cy={y} r={r} fill="#000000" />)}
+          </mask>
+        </defs>
+        {frame >= hit && Array.from({ length: 12 }).map((_, i) => {
+          const a = (i / 12) * Math.PI * 2 + 0.3;
+          const d = 0.55 + fleck * 0.35;
+          return <circle key={i} cx={cx + Math.cos(a) * (w / 2) * d * 1.15} cy={470 + Math.sin(a) * (h / 2) * d * 1.5} r={(1 - fleck) * (8 + (i % 3) * 5)} fill={color} stroke={C.ink} strokeWidth={2} />;
         })}
-      </div>
-      {done && ans && <div style={{ ...pop(ansV), fontSize: 70, color: C.tomato, maxWidth: 1500, textAlign: 'center' }}>{ans}</div>}
+        <g transform={`translate(${cx + sx} ${470 + sy}) rotate(-7) scale(${s})`} opacity={o}>
+          <rect x={-w / 2 + 10} y={-h / 2 + 14} width={w} height={h} rx={34} fill={C.ink} opacity={0.35} />
+          <rect x={-w / 2} y={-h / 2} width={w} height={h} rx={34} fill="#fff8ec" />
+          <g mask="url(#stampInk)">
+            <rect x={-w / 2 + 8} y={-h / 2 + 8} width={w - 16} height={h - 16} rx={28} fill="none" stroke={color} strokeWidth={18} />
+            <rect x={-w / 2 + 34} y={-h / 2 + 34} width={w - 68} height={h - 68} rx={14} fill="none" stroke={color} strokeWidth={6} />
+            <text x={0} y={62} textAnchor="middle" fontSize={176} fontFamily="Lilita, sans-serif" letterSpacing={10} fill={color}
+              stroke={C.ink} strokeWidth={8} strokeLinejoin="round" paintOrder="stroke">{stamp}</text>
+          </g>
+          <rect x={-w / 2} y={-h / 2} width={w} height={h} rx={34} fill="none" stroke={C.ink} strokeWidth={6} />
+        </g>
+      </svg>
+      {small && (
+        <div style={{ position: 'absolute', top: 470 + h / 2 + 50, left: cx, transform: `translateX(-50%) translateY(${(1 - sub) * 40}px)`, opacity: Math.min(1, sub * 1.5),
+          background: C.ink, color: C.cream, padding: '14px 34px', borderRadius: 18, fontSize: 40, fontFamily: 'Arial, sans-serif', fontWeight: 700, whiteSpace: 'nowrap' }}>
+          {small}
+        </div>
+      )}
     </AbsoluteFill>
   );
 };
 
-const Label: React.FC<{ big: string; small?: string }> = ({ big, small }) => {
+// Caption plate for an archive picture: what it is (big) and where it comes from (small).
+const ArchiveCaption: React.FC<{ caption: string; src?: string; side?: Side }> = ({ caption, src, side }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const v = spring({ frame, fps, config: { damping: 13 } });
+  const v = spring({ frame: frame - 4, fps, config: { damping: 13 } });
+  const right = side === 'right';
   return (
-    <div style={{ position: 'absolute', left: 90, top: 80, transform: `translateX(${(1 - v) * -600}px)`, background: C.ink, color: C.cream,
-      padding: '30px 56px', borderRadius: 26, borderLeft: `24px solid ${C.tomato}` }}>
-      <div style={{ fontSize: 96, lineHeight: 1 }}>{big}</div>
-      {small && <div style={{ fontSize: 40, color: C.mustard, marginTop: 10, fontFamily: 'Arial, sans-serif', fontWeight: 700 }}>{small}</div>}
+    <div style={{ position: 'absolute', bottom: 70, [right ? 'right' : 'left']: 80, maxWidth: 640, transform: `translateY(${(1 - v) * 300}px) rotate(${right ? 1 : -1}deg)`,
+      background: C.cream, border: `8px solid ${C.ink}`, borderRadius: 26, padding: '22px 36px 24px', boxShadow: `0 12px 0 ${C.ink}`, [right ? 'borderRight' : 'borderLeft']: `24px solid ${C.tomato}` }}>
+      <div style={{ fontSize: 58, lineHeight: 1.04 }}>{caption}</div>
+      {src && <div style={{ fontSize: 32, marginTop: 10, color: '#6b5a4a', fontFamily: 'Arial, sans-serif', fontWeight: 700, lineHeight: 1.2 }}>{src}</div>}
     </div>
   );
 };
@@ -126,7 +173,7 @@ const Chart: React.FC<{ title: string; items: [string, number][]; unit?: string;
 };
 
 // A short phrase on a card over the scene (the scene stays visible behind it).
-const Text: React.FC<{ big: string; small?: string; side?: 'left' | 'right' | 'center' }> = ({ big, small, side = 'center' }) => {
+const Text: React.FC<{ big: string; small?: string; side?: Side }> = ({ big, small, side = 'center' }) => {
   const a = usePop(0), b = usePop(8);
   // the card moves away from KAXO so it never sits behind his head
   return (
@@ -140,15 +187,17 @@ const Text: React.FC<{ big: string; small?: string; side?: 'left' | 'right' | 'c
   );
 };
 
-export const GraphicView: React.FC<{ g: Graphic; side?: 'left' | 'right' | 'center' }> = ({ g, side }) => {
+export const GraphicView: React.FC<{ g: Graphic; side?: Side; kx?: number }> = ({ g, side, kx }) => {
   switch (g.type) {
     case 'chapter': return <Chapter {...g} />;
     case 'quiz': return <Quiz {...g} />;
     case 'puzzle': return <Puzzle {...g} />;
-    case 'label': return <Label {...g} />;
+    case 'label': return <Label {...g} side={side} kx={kx} />;
     case 'chart': return <Chart {...g} />;
     case 'text': return <Text {...g} side={side} />;
-    case 'map': return <JapanMap focus={g.focus} label={g.label} />;
+    case 'verdict': return <Verdict {...g} side={side} />;
+    case 'archive': return <ArchiveCaption {...g} side={side} />;
+    case 'map': return EURO_FOCUS.has(g.focus) ? <EuroMap focus={g.focus} label={g.label} /> : <JapanMap focus={g.focus} label={g.label} />;
     default: return null;
   }
 };

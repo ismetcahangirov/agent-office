@@ -3,6 +3,7 @@
 ## KAXO (2026-10-31-dən)
 | Tarix | Format | Başlıq | URL | Playlist(lər) | Altyazı dilləri | Epizod | Son statistika |
 |---|---|---|---|---|---|---|---|
+| 2026-11-01 | long (10:44) | Why Was Europe Afraid of the Potato? | https://youtu.be/3ZETOCz8R0g | Why Don't We Eat It? | en, es, pt, ru, tr, zh-Hans, ja, ko, ar, fa (+ başlıq/təsvir) | 2026-11-01-potato | — |
 | 2026-10-31 | long (8:41) | Why Japan Banned Meat for 1,200 Years (and Then Made Wagyu) | https://youtu.be/GdSR7t5lNLA | Why Don't We Eat It? | en, es, pt, ru, tr, zh-Hans, ja, ko, ar, fa (+ başlıq/təsvir) | 2026-10-31-japan-beef | — |
 
 ### Playlistlər (KAXO)

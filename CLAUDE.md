@@ -33,7 +33,7 @@ Köhnə AI kanalı (kaktus KAXO, `/gundem`) arxivdədir: `content/archive/kaxo/`
 | `content/reports/` | epizod araşdırma və istehsal hesabatları (son 10) |
 | `content/stats/` | YouTube statistikası (xam) |
 | `work/research/reference-menumetre-2026-10-31.md` | referans kanalların (@menumetre, @Meraklı) təhlili |
-| `tools/video/` | `tts.py` (Kokoro, yalnız ehtiyat səs), `subs.py` (yalnız yükləmə üçün SRT), `assemble.py` (altyazısız montaj), `chapters.py`, `readability.py` (ssenarinin sadəlik ölçüsü), `record_page.js` (HTML qrafikanı klip kimi yazır), `thumbnail.js`, `cutout.py`, `take_download.py`, `housekeeping.py`, `voice_samples.py`, `stock.py` (Pexels/Pixabay; açarlar `.env`-də); köhnə formatdan qalanlar: `record_office.js`, `record_screen.py`, `drive_terminal.py`, `type_code.py` |
+| `tools/video/` | `align_voice.py` (ChatGPT səsindən timeline), `tts.py` (Kokoro, yalnız ehtiyat səs), `subs.py` (yalnız yükləmə üçün SRT), `assemble.py` (altyazısız montaj), `chapters.py`, `readability.py` (ssenarinin sadəlik ölçüsü), `record_page.js` (HTML qrafikanı klip kimi yazır), `thumbnail.js`, `cutout.py`, `take_download.py`, `housekeeping.py`, `voice_samples.py`, `stock.py` (Pexels/Pixabay; açarlar `.env`-də); köhnə formatdan qalanlar: `record_office.js`, `record_screen.py`, `drive_terminal.py`, `type_code.py` |
 
 Python alətləri yalnız layihənin venv-i ilə işlədilir: `tools/video/.venv/Scripts/python`. Qlobal `pip install` etmə.
 
